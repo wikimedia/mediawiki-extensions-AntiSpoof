@@ -1339,8 +1339,6 @@ class AntiSpoof {
 		# Do very simple sequence processing: "vv" -> "w", "rn" -> "m"...
 		# Not exhaustive, but ups the ante...
 		# Do this _after_ canonicalization: looks weird, but needed for consistency
-		#$testChars = self::mergePairs( $testChars, "VV", "0" ); # VV -> W
-		#$testChars = self::mergePairs( $testChars, "RH", "0" ); # RN -> M
 		$testChars = self::mergePairs( $testChars,
 			self::equivString( self::stringToList( "VV" ) ),
 			self::equivString( self::stringToList( "W"  ) ) );
