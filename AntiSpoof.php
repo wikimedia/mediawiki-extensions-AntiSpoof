@@ -1,5 +1,22 @@
 <?php
 
+/**
+ * Set this to false to disable the active checks;
+ * items will be logged but invalid or conflicting
+ * accounts will not be stopped.
+ *
+ * Logged items will be marked with 'LOGGING' for
+ * easier review of old logs' effect.
+ */
+$wgAntiSpoofAccounts = true;
+
+/**
+ * Allow sysops and bureaucrats to override the spoofing checks
+ * and create accounts for people which hit false positives.
+ */
+$wgGroupPermissions['sysop']['override-antispoof'] = true;
+$wgGroupPermissions['bureaucrat']['override-antispoof'] = true;
+
 $wgExtensionFunctions[] = 'asSetup';
 
 function asSetup() {
@@ -27,24 +44,42 @@ function asSetup() {
  * @return bool true to continue, false to abort user creation
  */
 function asAbortNewAccountHook( $user, &$message ) {
+	global $wgAntiSpoofAccounts, $wgUser;
+	
+	if( !$wgAntiSpoofAccounts ) {
+		$mode = 'LOGGING ';
+		$active = false;
+	} elseif( $wgUser->isAllowed( 'override-antispoof' ) ) {
+		$mode = 'OVERRIDE ';
+		$active = false;
+	} else {
+		$mode = '';
+		$active = true;
+	}
+	
 	$name = $user->getName();
 	$spoof = new SpoofUser( $name );
 	if( $spoof->isLegal() ) {
+		$normalized = $spoof->getNormalized();
 		$conflict = $spoof->getConflict();
 		if( $conflict === false ) {
-			wfDebugLog( 'antispoof', "PASS new account '$name'" );
-			return true;
+			wfDebugLog( 'antispoof', "{$mode}PASS new account '$name' [$normalized]" );
 		} else {
-			wfDebugLog( 'antispoof', "CONFLICT new account '$name' spoofs '$conflict'" );
-			$message = wfMsg( 'antispoof-name-conflict', $name, $conflict );
-			return false;
+			wfDebugLog( 'antispoof', "{$mode}CONFLICT new account '$name' [$normalized] spoofs '$conflict'" );
+			if( $active ) {
+				$message = wfMsg( 'antispoof-name-conflict', $name, $conflict );
+				return false;
+			}
 		}
 	} else {
 		$error = $spoof->getError();
-		wfDebugLog( 'antispoof', "ILLEGAL new account '$name' $error" );
-		$message = wfMsg( 'antispoof-name-illegal', $name, $error );
-		return false;
+		wfDebugLog( 'antispoof', "{$mode}ILLEGAL new account '$name' $error" );
+		if( $active ) {
+			$message = wfMsg( 'antispoof-name-illegal', $name, $error );
+			return false;
+		}
 	}
+	return true;
 }
 
 /**

@@ -30,6 +30,13 @@ class SpoofUser {
 	}
 	
 	/**
+	 * Get the normalized key form
+	 */
+	public function getNormalized() {
+		return $this->mNormalized;
+	}
+	
+	/**
 	 * Does the username pass Unicode legality and script-mixing checks?
 	 * 
 	 * @return mixed false if no conflict, or string with conflicting username
