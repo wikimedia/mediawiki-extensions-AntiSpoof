@@ -71,17 +71,37 @@ class SpoofUser {
 	 * for later comparison of future names...
 	 */
 	public function record() {
-		$dbw = wfGetDB( DB_MASTER );
-		return $dbw->replace(
-			'spoofuser',
-			array( 'su_name' ),
-			array(
-				'su_name'       => $this->mName,
-				'su_normalized' => $this->mNormalized,
-				'su_legal'      => $this->mLegal ? 1 : 0,
-				'su_error'      => $this->mError,
-			),
-			__METHOD__ );
+		return self::batchRecord( array( $this ) );
+	}
+	
+	private function insertFields() {
+		return array(
+			'su_name'       => $this->mName,
+			'su_normalized' => $this->mNormalized,
+			'su_legal'      => $this->mLegal ? 1 : 0,
+			'su_error'      => $this->mError,
+		);
+	}
+	
+	/**
+	 * Insert a batch of spoof normalization records into the database.
+	 * @param $items array of SpoofUser
+	 */
+	public function batchRecord( $items ) {
+		if( count( $items ) ) {
+			$fields = array();
+			foreach( $items as $item ) {
+				$fields[] = $item->insertFields();
+			}
+			$dbw = wfGetDB( DB_MASTER );
+			return $dbw->replace(
+				'spoofuser',
+				array( 'su_name' ),
+				$fields,
+				__METHOD__ );
+		} else {
+			return false;
+		}
 	}
 }
 
