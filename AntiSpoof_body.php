@@ -348,7 +348,7 @@ class AntiSpoof {
 		# Don't ASCIIfy: we assume we are UTF-8 capable on output
 	
 		# Prepend version string, for futureproofing if this algorithm changes
-		$testName = "v1:" . $testName;
+		$testName = "v2:" . $testName;
 	
 		# And return the canonical version of the name
 		return array( "OK", $testName );
