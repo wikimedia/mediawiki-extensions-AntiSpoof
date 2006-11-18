@@ -17,6 +17,19 @@ $wgAntiSpoofMessages['he'] = array(
 	'antispoof-name-conflict' => 'שם המשתמש "$1" שבחרתם דומה מדי לשם המשתמש הקיים "$2". אנא בחרו שם משתמש אחר.',
 	'antispoof-name-illegal'  => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2. אנא בחרו שם משתמש אחר.',
 );
+$wgAntiSpoofMessages['kk-kz'] = array(
+	'antispoof-name-conflict' => '«$1» атауы бар «$2» тіркелгіге тым ұқсас. Басқа атау таңдаңыз.',
+	'antispoof-name-illegal'  => 'Қатысушы аты шатақтауын немесе қалжындауын бөгеу үшін «$1» атауы рұқсат етілмейді: $2. Басқа атау таңдаңыз.',
+);
+$wgAntiSpoofMessages['kk-tr'] = array(
+	'antispoof-name-conflict' => '«$1» atawı bar «$2» tirkelgige tım uqsas. Basqa ataw tañdañız.',
+	'antispoof-name-illegal'  => 'Qatıswşı atı şataqtawın nemese qaljındawın bögew üşin «$1» atawı ruqsat etilmeýdi: $2. Basqa ataw tañdañız.',
+);
+$wgAntiSpoofMessages['kk-cn'] = array(
+	'antispoof-name-conflict' => '«$1» اتاۋى بار «$2» تٴىركەلگٴىگە تىم ۇقساس. باسقا اتاۋ تاڭداڭىز.',
+	'antispoof-name-illegal'  => 'قاتىسۋشى اتى شاتاقتاۋىن نەمەسە قالجىنداۋىن بٴوگەۋ ٴۇشٴىن «$1» اتاۋى رۇقسات ەتٴىلمەيدٴى: $2. باسقا اتاۋ تاڭداڭىز.',
+);
+$wgAntiSpoofMessages['kk'] = $wgAntiSpoofMessages['kk-kz'];
 $wgAntiSpoofMessages['nl'] = array(
 	'antispoof-name-conflict' => 'De naam "$1" lijkt te veel op de bestaande gebruiker "$2". Kies alstublieft een andere naam.',
 	'antispoof-name-illegal'  => 'De naam "$1" is niet toegestaan om verwarring of gefingeerde gebruikersnamen te voorkomen: $2. Kies alstublieft een andere naam.',
