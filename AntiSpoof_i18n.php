@@ -46,5 +46,19 @@ $wgAntiSpoofMessages['sk'] = array(
 	'antispoof-name-conflict' => 'Meno "$1" je príliš podobné názvu existujúceho účtu "$2". Zvoľte si prosím iné.',
 	'antispoof-name-illegal'  => 'Meno "$1" nie je povolené, aby sa zabránilo náhodnému alebo zámernému pomýleniu mien používateľov: $2. Zvoľte si prosím iné meno.',
 );
+$wgAntiSpoofMessages['zh-cn'] = array(
+	'antispoof-name-conflict' => '用户名"$1"与用户名"$2"过于相近。请使用其他用户名。',
+	'antispoof-name-illegal'  => '用户名"$1"易与用户名"$2"混淆，已被禁止使用。请使用其他用户名。',
+);
+$wgAntiSpoofMessages['zh-tw'] = array(
+	'antispoof-name-conflict' => '用戶名"$1"與用戶名"$2"過於相近。請使用其他用戶名。',
+	'antispoof-name-illegal'  => '用戶名"$1"易與用戶名"$2"混淆，已被禁止使用。請使用其他用戶名。',
+);
+$wgAntiSpoofMessages['zh-yue'] = array(
+	'antispoof-name-conflict' => '呢個名"$1"同現有嘅戶口"$2"大過接近。請揀過另一個名。',
+	'antispoof-name-illegal'  => '呢個名"$1"唔畀用，以預防同用戶名"$2"混淆。請揀過另一個名。',
+);
+$wgAntiSpoofMessages['zh-hk'] = $wgAntiSpoofMessages['zh-tw'];
+$wgAntiSpoofMessages['zh-sg'] = $wgAntiSpoofMessages['zh-cn'];
 
 ?>
