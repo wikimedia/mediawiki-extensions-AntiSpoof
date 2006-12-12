@@ -20,10 +20,10 @@
 #      the alphabet. Two words with a different case may be read as the same 
 #      word. This is a popular technique for impersonation.
 #
-#    * Visually similar characters. We have included both cross-script and 
-#      within-script pairs, even though cross-script pairs are mostly 
-#      unnecessary in our software, since there are blanket restrictions
-#      against cross-script strings.
+#    * Visually similar characters. Cross-script pairs are included, but these
+#      tend to produce false conflations within scripts, and so should be 
+#      avoided. The software implements a blanket restriction against cross-
+#      script strings, which makes cross-script pairs mostly redundant. 
 #
 #    * Chinese Simplified/Traditional pairs. 
 #
