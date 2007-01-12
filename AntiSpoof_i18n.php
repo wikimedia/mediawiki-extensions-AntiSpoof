@@ -13,6 +13,10 @@ $wgAntiSpoofMessages['de'] = array(
 	'antispoof-name-conflict' => 'Der gewünschte Benutzername „$1“ ist dem bereits vorhandenen Benutzernamen „$2“ zu ähnlich. Bitte wählen Sie einen anderen Benutzernamen.',
 	'antispoof-name-illegal'  => 'Der gewünschte Benutzername „$1“ ist nicht erlaubt, um Verwirrungen und Täuschungen zu dem vorhandenen Benutzernamen „$2“ zu verhindern. Bitte wählen Sie einen anderen Benutzernamen.',
 );
+$wgAntiSpoofMessages['fr'] = array(
+	'antispoof-name-conflict' => 'Le nom « $1 » ressemble trop au compte existant « $2 ». Veuillez choisir un autre nom.',
+	'antispoof-name-illegal'  => 'Le nom « $1 » n’est pas autorisé pour empêcher de confondre ou d’utiliser le nom « $2 ». Veuillez choisir un autre nom.',
+);
 $wgAntiSpoofMessages['he'] = array(
 	'antispoof-name-conflict' => 'שם המשתמש "$1" שבחרתם דומה מדי לשם המשתמש הקיים "$2". אנא בחרו שם משתמש אחר.',
 	'antispoof-name-illegal'  => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2. אנא בחרו שם משתמש אחר.',
