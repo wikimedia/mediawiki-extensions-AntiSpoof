@@ -32,8 +32,8 @@ function asSetup() {
 	
 	global $wgMessageCache, $wgAntiSpoofMessages;
 	require "$base/AntiSpoof_i18n.php";
-	foreach( $wgAntiSpoofMessages as $key => $value ) {
-		$wgMessageCache->addMessages( $wgAntiSpoofMessages[$key], $key );
+	foreach( $wgAntiSpoofMessages as $lang => $messages ) {
+		$wgMessageCache->addMessages( $messages, $lang );
 	}
 }
 
