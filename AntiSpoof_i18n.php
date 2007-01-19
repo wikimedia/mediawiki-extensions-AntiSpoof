@@ -46,6 +46,10 @@ $wgAntiSpoofMessages['kk-cn'] = array(
 	'antispoof-name-illegal'  => 'قاتىسۋشى اتى شاتاقتاۋىن نەمەسە قالجىنداۋىن بٴوگەۋ ٴۇشٴىن «$1» اتاۋى رۇقسات ەتٴىلمەيدٴى: $2. باسقا اتاۋ تاڭداڭىز.',
 );
 $wgAntiSpoofMessages['kk'] = $wgAntiSpoofMessages['kk-kz'];
+$wgAntiSpoofMessages['ksh'] = array(
+	'antispoof-name-conflict' => 'Dä Name „$1“ es „$2“ zoo ähnlich, un künnt met em verwähßelt weede. Dä Name „$2“ jitt et ald. Sök Der jet anders als Dinge Name us.',
+	'antispoof-name-illegal'  => 'Dä Name „$1“ es nit möchlich, domet mer kein nohjemahte Name krije, un keine Durjenein met Schrefte: $2. Sök Der jet anders als Dinge Name us.',
+);
 $wgAntiSpoofMessages['nl'] = array(
 	'antispoof-name-conflict' => 'De naam "$1" lijkt te veel op de bestaande gebruiker "$2". Kies alstublieft een andere naam.',
 	'antispoof-name-illegal'  => 'De naam "$1" is niet toegestaan om verwarring of gefingeerde gebruikersnamen te voorkomen: $2. Kies alstublieft een andere naam.',
