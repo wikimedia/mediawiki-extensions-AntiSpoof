@@ -267,15 +267,15 @@ class AntiSpoof {
 	public static function checkUnicodeString( $testName ) {
 		# Start with some sanity checking
 		if( !is_string( $testName ) ) {
-			return array( "ERROR", "Bad data type" );
+			return array( "ERROR", wfMsg('antispoof-badtype') );
 		}
 	
 		if( strlen( $testName ) == 0 ) {
-			return array("ERROR", "Empty string");
+			return array("ERROR", wfMsg('antispoof-empty') );
 		}
 	
 		if( array_intersect( self::stringToList( $testName ), self::$character_blacklist ) ) {
-			return array( "ERROR", "Contains blacklisted character" );
+			return array( "ERROR", wfMsg('antispoof-blacklisted') );
 		}
 	
 		# Perform Unicode _compatibility_ decomposition
@@ -284,12 +284,12 @@ class AntiSpoof {
 	
 		# Be paranoid: check again, just in case Unicode normalization code changes...
 		if( array_intersect( $testChars, self::$character_blacklist ) ) {
-			return array( "ERROR", "Contains blacklisted character" );
+			return array( "ERROR", wfMsg('antispoof-blacklisted') );
 		}
 	
 		# Check for this: should not happen in any valid Unicode string
 		if( self::getScriptCode( $testChars[0] ) == "SCRIPT_COMBINING_MARKS" ) {
-			return array( "ERROR", "Begins with combining mark" );
+			return array( "ERROR", wfMsg('antispoof-combining') );
 		}
 	
 		# Strip all combining characters in order to crudely strip accents
@@ -298,7 +298,7 @@ class AntiSpoof {
 	
 		$testScripts = array_unique( array_map( array( 'AntiSpoof', 'getScriptCode' ), $testChars ) );
 		if( in_array( "SCRIPT_UNASSIGNED", $testScripts ) || in_array( "SCRIPT_DEPRECATED", $testScripts ) ) {
-			return array( "ERROR", "Contains unassigned or deprecated character" );
+			return array( "ERROR", wfMsg('antispoof-unassigned') );
 		}
 	
 		# We don't mind ASCII punctuation or digits
@@ -306,11 +306,11 @@ class AntiSpoof {
 						array( "SCRIPT_ASCII_PUNCTUATION", "SCRIPT_ASCII_DIGITS" ) );
 	
 		if( !$testScripts ) {
-			return array( "ERROR", "Does not contain any letters" );
+			return array( "ERROR", wfMsg('antispoof-noletters') );
 		}
 	
 		if( count( $testScripts ) > 1 && !self::isAllowedScriptCombination( $testScripts ) ) {
-			return array( "ERROR", "Contains incompatible mixed scripts" );
+			return array( "ERROR", wfMsg('antispoof-mixedscripts') );
 		}
 	
 		# At this point, we should probably check for BiDi violations if they aren't
@@ -342,7 +342,7 @@ class AntiSpoof {
 		# BUG: TODO: implement this
 	
 		if( strlen( $testName ) < 1 ) {
-			return array("ERROR", "Canonicalized name too short");
+			return array("ERROR", wfMsg('antispoof-tooshort') );
 		}
 	
 		# Don't ASCIIfy: we assume we are UTF-8 capable on output

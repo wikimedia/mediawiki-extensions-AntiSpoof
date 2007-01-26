@@ -4,6 +4,14 @@ $wgAntiSpoofMessages = array();
 $wgAntiSpoofMessages['en'] = array(
 	'antispoof-name-conflict' => 'The name "$1" is too similar to the existing account "$2". Please choose another name.',
 	'antispoof-name-illegal'  => 'The name "$1" is not allowed to prevent confusing or spoofed usernames: $2. Please choose another name.',
+	'antispoof-badtype'       => 'Bad data type',
+	'antispoof-empty'         => 'Empty string',
+	'antispoof-blacklisted'   => 'Contains blacklisted character',
+	'antispoof-combining'     => 'Begins with combining mark',
+	'antispoof-unassigned'    => 'Contains unassigned or deprecated character',
+	'antispoof-noletters'     => 'Does not contain any letters',
+	'antispoof-mixedscripts'  => 'Contains incompatible mixed scripts',
+	'antispoof-tooshort'      => 'Canonicalized name too short',
 );
 $wgAntiSpoofMessages['cs'] = array(
 	'antispoof-name-conflict' => 'Uživatelské jméno "$1" je příliš podobné existujícímu účtu "$2". Prosím, vyberte si jiné jméno.',
