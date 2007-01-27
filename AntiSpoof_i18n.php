@@ -21,6 +21,18 @@ $wgAntiSpoofMessages['de'] = array(
 	'antispoof-name-conflict' => 'Der gewünschte Benutzername „$1“ ist dem bereits vorhandenen Benutzernamen „$2“ zu ähnlich. Bitte wählen Sie einen anderen Benutzernamen.',
 	'antispoof-name-illegal'  => 'Der gewünschte Benutzername „$1“ ist nicht erlaubt, um Verwirrungen und Täuschungen zu dem vorhandenen Benutzernamen „$2“ zu verhindern. Bitte wählen Sie einen anderen Benutzernamen.',
 );
+$wgAntiSpoofMessages['fi'] = array(
+	'antispoof-name-conflict' => 'Tunnus ”$1” on liian samankaltainen tunnuksen ”$2” kanssa. Valitse toinen tunnus.',
+	'antispoof-name-illegal'  => 'Tunnusta ”$1” ei sallita, koska $2. Hämäävien tai huijaustarkoitukseen sopivien tunnusten luonti on estetty. Valitse toinen tunnus.',
+	'antispoof-badtype'       => 'se on virheellistä tietotyyppiä',
+	'antispoof-empty'         => 'se on tyhjä',
+	'antispoof-blacklisted'   => 'se sisältää kielletyn merkin',
+	'antispoof-combining'     => 'se alkaa yhdistyvällä merkillä',
+	'antispoof-unassigned'    => 'se sisältää määrämättömiä tai käytöstä poistuvia merkkejä',
+	'antispoof-noletters'     => 'se ei sisällä kirjaimia',
+	'antispoof-mixedscripts'  => 'se sisältää yhteensopimattomia kirjoitusjärjestelmiä',
+	'antispoof-tooshort'      => 'sen kanonisoitu muoto on liian lyhyt',
+);
 $wgAntiSpoofMessages['fr'] = array(
 	'antispoof-name-conflict' => 'Le nom « $1 » ressemble trop au compte existant « $2 ». Veuillez choisir un autre nom.',
 	'antispoof-name-illegal'  => 'Le nom « $1 » n’est pas autorisé pour empêcher de confondre ou d’utiliser le nom « $2 ». Veuillez choisir un autre nom.',
