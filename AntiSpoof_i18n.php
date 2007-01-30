@@ -18,8 +18,16 @@ $wgAntiSpoofMessages['cs'] = array(
 	'antispoof-name-illegal'  => 'Uživatelské jméno "$1" není povoleno vytvořit, aby se nepletlo nebo nesloužilo k napodobování uživatelského jména: $2. Prosím, vyberte si jiné jméno.',
 );
 $wgAntiSpoofMessages['de'] = array(
-	'antispoof-name-conflict' => 'Der gewünschte Benutzername „$1“ ist dem bereits vorhandenen Benutzernamen „$2“ zu ähnlich. Bitte wählen Sie einen anderen Benutzernamen.',
-	'antispoof-name-illegal'  => 'Der gewünschte Benutzername „$1“ ist nicht erlaubt, um Verwirrungen und Täuschungen zu dem vorhandenen Benutzernamen „$2“ zu verhindern. Bitte wählen Sie einen anderen Benutzernamen.',
+	'antispoof-name-conflict' => 'Der gewünschte Benutzername „$1“ ist dem bereits vorhandenen Benutzernamen „$2“ zu ähnlich. Bitte einen anderen Benutzernamen wählen.',
+	'antispoof-name-illegal'  => 'Der gewünschte Benutzername „$1“ ist nicht erlaubt. Grund: $2<br />Bitte einen anderen Benutzernamen wählen.',
+	'antispoof-badtype'       => 'Ungültiger Datentyp',
+	'antispoof-empty'         => 'Leeres Feld',
+	'antispoof-blacklisted'   => 'Es sind unerlaubte Zeichen enthalten.',
+	'antispoof-combining'     => 'Kombinationszeichen zu Beginn.',
+	'antispoof-unassigned'    => 'Es sind nicht zugeordnete oder unerwünschte Zeichen enthalten.',
+	'antispoof-noletters'     => 'Es sind keine Buchstaben enthalten.',
+	'antispoof-mixedscripts'  => 'Es sind Zeichen unterschiedlicher Schriftsysteme enthalten.',
+	'antispoof-tooshort'      => 'Der kanonisierte Name ist zu kurz.',
 );
 $wgAntiSpoofMessages['fi'] = array(
 	'antispoof-name-conflict' => 'Tunnus ”$1” on liian samankaltainen tunnuksen ”$2” kanssa. Valitse toinen tunnus.',
