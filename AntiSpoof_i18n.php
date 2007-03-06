@@ -44,6 +44,14 @@ $wgAntiSpoofMessages['fi'] = array(
 $wgAntiSpoofMessages['fr'] = array(
 	'antispoof-name-conflict' => 'Le nom « $1 » ressemble trop au compte existant « $2 ». Veuillez choisir un autre nom.',
 	'antispoof-name-illegal'  => 'Le nom « $1 » n’est pas autorisé pour empêcher de confondre ou d’utiliser le nom « $2 ». Veuillez choisir un autre nom.',
+	'antispoof-badtype'       => 'Mauvais type de données',
+	'antispoof-empty'         => 'Chaîne vide',
+	'antispoof-blacklisted'   => 'Contient un caractère interdit',
+	'antispoof-combining'     => 'Commence avec une marque combinée',
+	'antispoof-unassigned'    => 'Contient un caractère non assigné ou obsolète',
+	'antispoof-noletters'     => 'Ne contient aucune lettre',
+	'antispoof-mixedscripts'  => 'Contient plusieurs scripts incompatibles',
+	'antispoof-tooshort'      => 'Nom canonique trop court',
 );
 $wgAntiSpoofMessages['he'] = array(
 	'antispoof-name-conflict' => 'שם המשתמש "$1" שבחרתם דומה מדי לשם המשתמש הקיים "$2". אנא בחרו שם משתמש אחר.',
