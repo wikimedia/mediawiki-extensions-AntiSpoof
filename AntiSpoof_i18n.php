@@ -64,6 +64,14 @@ $wgAntiSpoofMessages['id'] = array(
 $wgAntiSpoofMessages['it'] = array(
 	'antispoof-name-conflict' => 'Il nome utente "$1" è troppo simile all\'utente "$2", già registrato. Scegliere un altro nome.',
 	'antispoof-name-illegal'  => 'Il nome utente "$1" non è consentito, per evitare confusione o utilizzi fraudolenti: $2. Scegliere un altro nome.',
+	'antispoof-badtype'       => 'Tipo di dati errato',
+	'antispoof-empty'         => 'Stringa vuota',
+	'antispoof-blacklisted'   => 'Uso di caratteri non consentiti',
+	'antispoof-combining'     => 'Primo carattere di combinazione',
+	'antispoof-unassigned'    => 'Uso di caratteri non assegnati o deprecati',
+	'antispoof-noletters'     => 'Assenza di lettere',
+	'antispoof-mixedscripts'  => 'Combinazione di sistemi di scrittura non compatibili',
+	'antispoof-tooshort'      => 'Nome in forma canonica troppo corto',
 );
 $wgAntiSpoofMessages['ja'] = array(
 	'antispoof-name-conflict' => '指定した名前 "$1" は既に存在しているアカウント "$2" と類似しているため使用できません。別の名前を使用してください。',
