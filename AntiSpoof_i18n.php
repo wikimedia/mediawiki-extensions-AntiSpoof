@@ -134,6 +134,18 @@ $wgAntiSpoofMessages['nl'] = array(
 	'antispoof-name-conflict' => 'De naam "$1" lijkt te veel op de bestaande gebruiker "$2". Kies alstublieft een andere naam.',
 	'antispoof-name-illegal'  => 'De naam "$1" is niet toegestaan om verwarring of gefingeerde gebruikersnamen te voorkomen: $2. Kies alstublieft een andere naam.',
 );
+$wgAntiSpoofMessages['oc'] = array(
+	'antispoof-name-conflict' => 'Lo nom « $1 » ressembla tròp al compte existent « $2 ». Causissètz un autre nom.',
+	'antispoof-name-illegal'  => 'Lo nom « $1 » es pas autorizat per empachar de confondre o d’utilizar lo nom « $2 ». Causissètz un autre nom.',
+	'antispoof-badtype'       => 'Marrit tipe de donadas',
+	'antispoof-empty'         => 'Cadena voida',
+	'antispoof-blacklisted'   => 'Conten un caractèr interdich',
+	'antispoof-combining'     => 'Comença amb una marca combinada',
+	'antispoof-unassigned'    => 'Conten un caractèr non assignat o obsolèt',
+	'antispoof-noletters'     => 'Conten pas cap de letra',
+	'antispoof-mixedscripts'  => 'Conten mantun escript incompatible',
+	'antispoof-tooshort'      => 'Nom canonic tròp cort',
+);
 $wgAntiSpoofMessages['pt'] = array(
 	'antispoof-name-conflict' => 'O nome "$1" é muito similar com o da conta já existente "$2". Por gentileza, escolha outro nome.',
 	'antispoof-name-illegal'  => 'O nome "$1" não é permitido para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): $2. Por gentileza, escolha outro nome.',
