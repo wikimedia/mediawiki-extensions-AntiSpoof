@@ -153,6 +153,14 @@ $wgAntiSpoofMessages['pt'] = array(
 $wgAntiSpoofMessages['sk'] = array(
 	'antispoof-name-conflict' => 'Meno "$1" je príliš podobné názvu existujúceho účtu "$2". Zvoľte si prosím iné.',
 	'antispoof-name-illegal'  => 'Meno "$1" nie je povolené, aby sa zabránilo náhodnému alebo zámernému pomýleniu mien používateľov: $2. Zvoľte si prosím iné meno.',
+	'antispoof-badtype'       => 'Nesprávny typ dát',
+	'antispoof-empty'         => 'Prázdny reťazec',
+	'antispoof-blacklisted'   => 'Obsahuje znak zo zoznamu zakázaných',
+	'antispoof-combining'     => 'Začína kombinačným znakom',
+	'antispoof-unassigned'    => 'Obsahuje nepriradený alebo zastaralý znak',
+	'antispoof-noletters'     => 'Neobsahuje žiadne písmená',
+	'antispoof-mixedscripts'  => 'Obsahuje nekompatibilné zmiešané písma',
+	'antispoof-tooshort'      => 'Meno prevedené do kanonického tvaru je príliš krátke',
 );
 $wgAntiSpoofMessages['sr-ec'] = array(
 	'antispoof-name-conflict' => 'Име "$1" је превише слично већ постојећем налогу "$2". Молимо изаберите неко друго име.',
