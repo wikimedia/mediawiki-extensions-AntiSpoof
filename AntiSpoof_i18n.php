@@ -150,6 +150,18 @@ $wgAntiSpoofMessages['pt'] = array(
 	'antispoof-name-conflict' => 'O nome "$1" é muito similar com o da conta já existente "$2". Por gentileza, escolha outro nome.',
 	'antispoof-name-illegal'  => 'O nome "$1" não é permitido para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): $2. Por gentileza, escolha outro nome.',
 );
+$wgAntiSpoofMessages['ru'] = array(
+	'antispoof-name-conflict' => 'Имя «$1» похоже на уже существующую учётную запись «$2». Пожалуйста, выберите другое имя.',
+	'antispoof-name-illegal'  => 'Имя «$1» не разрешено использовать во избежание спутывания с именами: $2. Пожалуйста, выберите другое имя.',
+	'antispoof-badtype'       => 'Ошибочный тип данных',
+	'antispoof-empty'         => 'Пустая строка',
+	'antispoof-blacklisted'   => 'Содержит символы из запрещённого списка',
+	'antispoof-combining'     => 'Начинатся с модифицирующего символа',
+	'antispoof-unassigned'    => 'Сожержит неопределённый или неподдерживаемый символ',
+	'antispoof-noletters'     => 'Не содержит букв',
+	'antispoof-mixedscripts'  => 'Используются несовместимые системы письменности',
+	'antispoof-tooshort'      => 'Каноническое имя слишком короткое',
+);
 $wgAntiSpoofMessages['sk'] = array(
 	'antispoof-name-conflict' => 'Meno "$1" je príliš podobné názvu existujúceho účtu "$2". Zvoľte si prosím iné.',
 	'antispoof-name-illegal'  => 'Meno "$1" nie je povolené, aby sa zabránilo náhodnému alebo zámernému pomýleniu mien používateľov: $2. Zvoľte si prosím iné meno.',
