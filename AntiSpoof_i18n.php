@@ -60,6 +60,14 @@ $wgAntiSpoofMessages['he'] = array(
 $wgAntiSpoofMessages['id'] = array(
 	'antispoof-name-conflict' => 'Nama "$1" terlalu mirip dengan akun "$2" yang sudah ada. Harap pilih nama lain.',
 	'antispoof-name-illegal'  => 'Nama "$1" tidak diijinkan untuk mencegah kebingungan atau penipuan nama: $2. Harap pilih nama lain.',
+	'antispoof-badtype'       => 'Tipe data salah',
+	'antispoof-empty'         => 'Data kosong',
+	'antispoof-blacklisted'   => 'Mengandung karakter yang tak diizinkan',
+	'antispoof-combining'     => 'Dimulai dengan tanda kombinasi',
+	'antispoof-unassigned'    => 'Mengandung karakter yang tak diberikan atau tak digunakan lagi',
+	'antispoof-noletters'     => 'Tidak mengandung huruf apapun',
+	'antispoof-mixedscripts'  => 'Mengandung skrip gabungan yang tak kompatibel',
+	'antispoof-tooshort'      => 'Nama kanonikalisasi terlalu pendek',
 );
 $wgAntiSpoofMessages['it'] = array(
 	'antispoof-name-conflict' => 'Il nome utente "$1" è troppo simile all\'utente "$2", già registrato. Scegliere un altro nome.',
