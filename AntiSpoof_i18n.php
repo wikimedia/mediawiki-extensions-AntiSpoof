@@ -84,6 +84,14 @@ $wgAntiSpoofMessages['it'] = array(
 $wgAntiSpoofMessages['ja'] = array(
 	'antispoof-name-conflict' => '指定した名前 "$1" は既に存在しているアカウント "$2" と類似しているため使用できません。別の名前を使用してください。',
 	'antispoof-name-illegal'  => '指定した名前 "$1" は成りすまし防止のため使用できません: $2。別の名前を使用してください。',
+	'antispoof-badtype'       => 'データタイプが異常です。',
+	'antispoof-empty'         => '文字列が空です',
+	'antispoof-blacklisted'   => '許可されていない文字が含まれています。',
+	'antispoof-combining'     => '結合記号で開始しています',
+	'antispoof-unassigned'    => '廃止予定の未割り当て文字が含まれています',
+	'antispoof-noletters'     => '文字を含んでいません',
+	'antispoof-mixedscripts'  => '互換性のない文字列の混合を含んでいます',
+	'antispoof-tooshort'      => '正規化した名前が短すぎます',
 );
 $wgAntiSpoofMessages['kk-kz'] = array(
 	'antispoof-name-conflict' => '«$1» атауы бар «$2» тіркелгіге тым ұқсас. Басқа атау таңдаңыз.',
