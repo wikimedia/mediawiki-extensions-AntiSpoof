@@ -198,6 +198,18 @@ $wgAntiSpoofMessages['sr-el'] = array(
 	'antispoof-name-conflict' => 'Ime "$1" je previše slično već postojećem nalogu "$2". Molimo izaberite neko drugo ime.',
 	'antispoof-name-illegal'  => 'Ime "$1" nije dozvoljeno kako bi se sprečile zabune ili lažiranja korisničkih imena: $2. Molimo izaberite neko drugo ime.',
 );
+$wgAntiSpoofMessages['sv'] = array(
+	'antispoof-name-conflict' => 'Namnet "$1" är för likt det existerande kontot "$2". Välj ett annat namn istället.',
+	'antispoof-name-illegal'  => 'För att förhindra förvirrande eller felaktiga användarnamn, så är namnet "$1" inte tillåtet. Anledning: $2. Välj ett annat namn istället.',
+	'antispoof-badtype'       => 'Felaktig datatyp',
+	'antispoof-empty'         => 'Tom sträng',
+	'antispoof-blacklisted'   => 'Innehåller otillåtna tecken',
+	'antispoof-combining'     => 'Börjar med ett kombinationstecken',
+	'antispoof-unassigned'    => 'Innehåller obsoleta eller icke-tilldelade tecken',
+	'antispoof-noletters'     => 'Innehåller inga bokstäver',
+	'antispoof-mixedscripts'  => 'Innehåller tecken från flera inkompatibla skriftsystem',
+	'antispoof-tooshort'      => 'Det kanoniserade namnet är för kort',
+);
 $wgAntiSpoofMessages['uk'] = array(
 	'antispoof-name-conflict' => "Ім'я «$1» занадто схоже на вже зареєстрований обліковий запис «$2». Будь ласка, виберіть інше ім'я",
 	'antispoof-name-illegal'  => "Не дозволене використання імені «$1» з метою запобігання плутанню з занадто схожими на нього іменами: $2. Будь ласка, виберіть інше ім'я.",
