@@ -13,6 +13,14 @@ $wgAntiSpoofMessages['en'] = array(
 	'antispoof-mixedscripts'  => 'Contains incompatible mixed scripts',
 	'antispoof-tooshort'      => 'Canonicalized name too short',
 );
+$wgAntiSpoofMessages['ar'] = array(
+	'antispoof-name-conflict' => 'الاسم "$1" مشابه للغاية للحساب الموجود حاليا باسم "$2". اختر اسم آخر من فضلك.',
+	'antispoof-name-illegal'  => 'الاسم "$1" غير مسموح به لمنع الخلط وانتحال أسماء المستخدمين: $2. اختر اسم آخر من فضلك.',
+	'antispoof-badtype'       => 'نوع بيانات خاطئ',
+	'antispoof-empty'         => 'سلسلة فارغة',
+	'antispoof-blacklisted'   => 'يحتوي على حروف ممنوع استخدامها',
+	'antispoof-noletters'     => 'لا يحتوي أية حروف',
+);
 $wgAntiSpoofMessages['cs'] = array(
 	'antispoof-name-conflict' => 'Uživatelské jméno "$1" je příliš podobné existujícímu účtu "$2". Prosím, vyberte si jiné jméno.',
 	'antispoof-name-illegal'  => 'Uživatelské jméno "$1" není povoleno vytvořit, aby se nepletlo nebo nesloužilo k napodobování uživatelského jména: $2. Prosím, vyberte si jiné jméno.',
