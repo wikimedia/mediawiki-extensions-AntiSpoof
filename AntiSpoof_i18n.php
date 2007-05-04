@@ -171,8 +171,16 @@ $wgAntiSpoofMessages['oc'] = array(
 	'antispoof-tooshort'      => 'Nom canonic tròp cort',
 );
 $wgAntiSpoofMessages['pt'] = array(
-	'antispoof-name-conflict' => 'O nome "$1" é muito similar com o da conta já existente "$2". Por gentileza, escolha outro nome.',
-	'antispoof-name-illegal'  => 'O nome "$1" não é permitido para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): $2. Por gentileza, escolha outro nome.',
+	'antispoof-name-conflict' => 'O nome "$1" é muito similar com o "$2", já existente. Por gentileza, escolha outro nome.',
+	'antispoof-name-illegal'  => 'O nome "$1" não é permitido, para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): já existe $2. Por gentileza, escolha outro nome.',
+	'antispoof-badtype'       => 'Formato de dados incorreto',
+	'antispoof-empty'         => 'Linha vazia',
+	'antispoof-blacklisted'   => 'Contém caracteres proibidos',
+	'antispoof-combining'     => 'Inicia com um caractere de combinação',
+	'antispoof-unassigned'    => 'Contém caracteres não reconhecidos ou depreciados',
+	'antispoof-noletters'     => 'Não inclui nenhuma letra',
+	'antispoof-mixedscripts'  => 'Contém scripts de escrita incompatíveis mesclados',
+	'antispoof-tooshort'      => 'Nome muito curto',
 );
 $wgAntiSpoofMessages['ru'] = array(
 	'antispoof-name-conflict' => 'Имя «$1» похоже на уже существующую учётную запись «$2». Пожалуйста, выберите другое имя.',
