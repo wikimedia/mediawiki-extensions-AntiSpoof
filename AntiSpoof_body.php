@@ -80,10 +80,10 @@ class AntiSpoof {
 		array( 0x0F00, 0x0FFF, "SCRIPT_TIBETAN" ), # Tibetan 
 		array( 0x1000, 0x109F, "SCRIPT_MYANMAR" ), # Myanmar 
 		array( 0x10A0, 0x10FF, "SCRIPT_GEORGIAN" ), # Georgian 
-		array( 0x1100, 0x11FF, "SCRIPT_DEPRECATED" ), # Hangul Jamo 
+		array( 0x1100, 0x11FF, "SCRIPT_HANGUL" ), # Hangul Jamo
 		array( 0x1200, 0x139F, "SCRIPT_ETHIOPIC" ), # Ethiopic, Ethiopic Supplement 
 		array( 0x13A0, 0x13FF, "SCRIPT_CHEROKEE" ), # Cherokee 
-		array( 0x1400, 0x167F, "SCRIPT_CANADIAN_ABORIGINAL" ), # Unified Canadian Aboriginal Syllabics 
+		array( 0x1400, 0x167F, "SCRIPT_CANADIAN_ABORIGINAL" ), # Unified Canadian Aboriginal Syllabics
 	#	array( 0x1680, 0x169F, "SCRIPT_OGHAM" ), # Ogham 
 	#	array( 0x16A0, 0x16FF, "SCRIPT_RUNIC" ), # Runic 
 		array( 0x1700, 0x171F, "SCRIPT_TAGALOG" ), # Tagalog 
@@ -107,7 +107,7 @@ class AntiSpoof {
 		array( 0x3040, 0x309F, "SCRIPT_HIRAGANA" ), # Hiragana 
 		array( 0x30A0, 0x30FF, "SCRIPT_KATAKANA" ), # Katakana 
 		array( 0x3100, 0x312F, "SCRIPT_BOPOMOFO" ), # Bopomofo 
-		array( 0x3130, 0x318F, "SCRIPT_DEPRECATED" ), # Hangul Compatibility Jamo 
+		array( 0x3130, 0x318F, "SCRIPT_HANGUL" ), # Hangul Compatibility Jamo
 		array( 0x31A0, 0x31BF, "SCRIPT_BOPOMOFO" ), # Bopomofo Extended 
 		array( 0x3400, 0x4DBF, "SCRIPT_HAN" ), # CJK Unified Ideographs Extension A 
 		array( 0x4E00, 0x9FFF, "SCRIPT_HAN" ), # CJK Unified Ideographs 
@@ -164,7 +164,7 @@ class AntiSpoof {
 		# Otherwise...
 		return "SCRIPT_UNASSIGNED";
 	}
-	
+
 	# From the name of a script, get a script descriptor, if valid,
 	# otherwise return None
 	private static function getScriptTag( $name ) {
