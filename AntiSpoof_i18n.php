@@ -126,15 +126,15 @@ $wgAntiSpoofMessages['kk-tr'] = array(
 	'antispoof-tooshort'      => 'Erejelengen atawı tım qısqa',
 );
 $wgAntiSpoofMessages['kk-cn'] = array(
-	'antispoof-name-conflict' => '«$1» اتاۋى بار «$2» تٴىركەلگٴىگە تىم ۇقساس. باسقا اتاۋ تاڭداڭىز.',
-	'antispoof-name-illegal'  => 'قاتىسۋشى اتى شاتاقتاۋىن نەمەسە قالجىنداۋىن بٴوگەۋ ٴۇشٴىن «$1» اتاۋى رۇقسات ەتٴىلمەيدٴى: $2. باسقا اتاۋ تاڭداڭىز.',
-	'antispoof-badtype'       => 'جارامسىز دەرەك تٴۇرٴى',
+	'antispoof-name-conflict' => '«$1» اتاۋى بار «$2» تٸركەلگٸگە تىم ۇقساس. باسقا اتاۋ تاڭداڭىز.',
+	'antispoof-name-illegal'  => 'قاتىسۋشى اتى شاتاقتاۋىن نەمەسە قالجىنداۋىن بٶگەۋ ٷشٸن «$1» اتاۋى رۇقسات ەتٸلمەيدٸ: $2. باسقا اتاۋ تاڭداڭىز.',
+	'antispoof-badtype'       => 'جارامسىز دەرەك تٷرٸ',
 	'antispoof-empty'         => 'بوس جول',
-	'antispoof-blacklisted'   => 'قارا تٴىزٴىمگە كٴىرگەن ٴارٴىپ بار',
-	'antispoof-combining'     => 'قۇرامدى بەلگٴىمەن باستالعان',
-	'antispoof-unassigned'    => 'تاعايىندالماعان نەمەسە تىيىلعان ٴارٴىپ بار',
-	'antispoof-noletters'     => 'ٴىشٴىندە ەشبٴىر ٴارٴىپ جوق',
-	'antispoof-mixedscripts'  => 'ٴىشٴىندە سيىسپايتىن ارالاس جازۋ تٴۇرلەرٴى بار',
+	'antispoof-blacklisted'   => 'قارا تٸزٸمگە كٸرگەن ٵرٸپ بار',
+	'antispoof-combining'     => 'قۇرامدى بەلگٸمەن باستالعان',
+	'antispoof-unassigned'    => 'تاعايىندالماعان نەمەسە تىيىلعان ٵرٸپ بار',
+	'antispoof-noletters'     => 'ٸشٸندە ەشبٸر ٵرٸپ جوق',
+	'antispoof-mixedscripts'  => 'ٸشٸندە سيىسپايتىن ارالاس جازۋ تٷرلەرٸ بار',
 	'antispoof-tooshort'      => 'ەرەجەلەنگەن اتاۋى تىم قىسقا',
 );
 $wgAntiSpoofMessages['kk'] = $wgAntiSpoofMessages['kk-kz'];
