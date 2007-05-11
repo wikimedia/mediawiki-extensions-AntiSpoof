@@ -214,6 +214,18 @@ $wgAntiSpoofMessages['sr-el'] = array(
 	'antispoof-name-conflict' => 'Ime "$1" je previše slično već postojećem nalogu "$2". Molimo izaberite neko drugo ime.',
 	'antispoof-name-illegal'  => 'Ime "$1" nije dozvoljeno kako bi se sprečile zabune ili lažiranja korisničkih imena: $2. Molimo izaberite neko drugo ime.',
 );
+$wgAntiSpoofMessages['su'] = array(
+	'antispoof-name-conflict' => 'Landihan "$1" mirip teuing jeung "$2" nu geus tiheula aya. Mangga pilih landihan séjén.',
+	'antispoof-name-illegal'  => 'Landihan "$1" teu diwenangkeun ngarah teu pahili jeung landihan: $2. Mangga pilih landihan séjén.',
+	'antispoof-badtype'       => 'Tipeu datana awon',
+	'antispoof-empty'         => 'String kosong',
+	'antispoof-blacklisted'   => 'Ngandung karakter nu dicaram',
+	'antispoof-combining'     => 'Dimimitian ku tanda gabungan',
+	'antispoof-unassigned'    => 'Ngandung karakter nu teu dipaké ayawa teu didaptar',
+	'antispoof-noletters'     => 'Kosong',
+	'antispoof-mixedscripts'  => 'Ngandung tulisan campuran nu teu kompatibel',
+	'antispoof-tooshort'      => 'Landihan kanonikna pondok teuing',
+);
 $wgAntiSpoofMessages['sv'] = array(
 	'antispoof-name-conflict' => 'Namnet "$1" är för likt det existerande kontot "$2". Välj ett annat namn istället.',
 	'antispoof-name-illegal'  => 'För att förhindra förvirrande eller felaktiga användarnamn, så är namnet "$1" inte tillåtet. Anledning: $2. Välj ett annat namn istället.',
