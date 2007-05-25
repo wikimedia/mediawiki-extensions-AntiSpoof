@@ -37,6 +37,18 @@ $wgAntiSpoofMessages['de'] = array(
 	'antispoof-mixedscripts'  => 'Es sind Zeichen unterschiedlicher Schriftsysteme enthalten.',
 	'antispoof-tooshort'      => 'Der kanonisierte Name ist zu kurz.',
 );
+$wgAntiSpoofMessages['el'] = array(
+	'antispoof-name-conflict' => 'Το όνομα "$1" είναι πολύ παρόμοιο με τον υπάρχοντα λογαριασμό "$2". Παρακαλώ διαλέξτε ένα άλλο όνομα.',
+	'antispoof-name-illegal'  => 'Το όνομα "$1" δεν επιτρέπεται, για την αποτροπή συγκεχυμένων ή απατηλών ονομάτων χρηστών: $2. Παρακαλώ διαλέξτε ένα άλλο όνομα.',
+	'antispoof-badtype'       => 'Εσφαλμένος τύπος δεδομένων',
+	'antispoof-empty'         => 'Κενή συμβολοσειρά',
+	'antispoof-blacklisted'   => 'Περιέχει χαρακτήρα στη «μαύρη λίστα»',
+	'antispoof-combining'     => 'Ξεκινάει με συνδυαστικό σημάδι',
+	'antispoof-unassigned'    => 'Περιέχει μη καταχωρημένο χαρακτήρα ή χαρακτήρα του οποίου η χρήση αποθαρρύνεται',
+	'antispoof-noletters'     => 'Δεν περιέχει καθόλου γράμματα',
+	'antispoof-mixedscripts'  => 'Περιέχει ανεμιγμένους ασύμβατους χαρακτήρες γραπτού κειμένου',
+	'antispoof-tooshort'      => 'Κανονικοποιημένο όνομα πολύ μικρό',
+);
 $wgAntiSpoofMessages['fi'] = array(
 	'antispoof-name-conflict' => 'Tunnus ”$1” on liian samankaltainen tunnuksen ”$2” kanssa. Valitse toinen tunnus.',
 	'antispoof-name-illegal'  => 'Tunnusta ”$1” ei sallita, koska $2. Hämäävien tai huijaustarkoitukseen sopivien tunnusten luonti on estetty. Valitse toinen tunnus.',
