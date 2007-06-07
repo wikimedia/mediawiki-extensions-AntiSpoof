@@ -1,5 +1,13 @@
 <?php
 
+$wgExtensionCredits['other'][] = array(
+	'name' => 'AntiSpoof',
+	'url' => 'http://www.mediawiki.org/wiki/Extension:AntiSpoof',
+	'author' => 'Brion Vibber',
+	'description' => 'Blocks the creation of accounts with mixed-script,
+		confusing and similar usernames',
+);
+
 /**
  * Set this to false to disable the active checks;
  * items will be logged but invalid or conflicting
