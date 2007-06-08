@@ -194,6 +194,12 @@ $wgAntiSpoofMessages['pt'] = array(
 	'antispoof-mixedscripts'  => 'Contém scripts de escrita incompatíveis mesclados',
 	'antispoof-tooshort'      => 'Nome muito curto',
 );
+$wgAntiSpoofMessages['ro'] = array(
+	'antispoof-name-conflict' => 'Numele "$1" este prea asemănător cu un cont deja existent, "$2". Vă rugăm să alegeţi alt nume.',
+	'antispoof-name-illegal'  => 'Numele "$1" nu este permis pentru a preveni confuziile cu numele: $2. Vă rugăm să alegeţi alt nume de utilizator.',
+	'antispoof-empty'         => 'Şir vid',
+	'antispoof-noletters'     => 'Nu conţine nici o literă',
+);
 $wgAntiSpoofMessages['ru'] = array(
 	'antispoof-name-conflict' => 'Имя «$1» похоже на уже существующую учётную запись «$2». Пожалуйста, выберите другое имя.',
 	'antispoof-name-illegal'  => 'Имя «$1» не разрешено использовать во избежание спутывания с именами: $2. Пожалуйста, выберите другое имя.',
