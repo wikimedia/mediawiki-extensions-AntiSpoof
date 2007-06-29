@@ -311,4 +311,4 @@ $wgAntiSpoofMessages['zh-yue'] = array(
 $wgAntiSpoofMessages['zh-hk'] = $wgAntiSpoofMessages['zh-tw'];
 $wgAntiSpoofMessages['zh-sg'] = $wgAntiSpoofMessages['zh-cn'];
 
-?>
+

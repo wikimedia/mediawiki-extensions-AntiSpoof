@@ -30,4 +30,3 @@ echo "$wgDBname $n done.\n";
 $dbr->freeResult( $result );
 
 
-?>

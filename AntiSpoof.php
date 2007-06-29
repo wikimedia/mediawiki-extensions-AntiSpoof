@@ -99,4 +99,3 @@ function asAddNewAccountHook( $user ) {
 	return true;
 }
 
-?>
