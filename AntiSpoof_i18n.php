@@ -272,31 +272,7 @@ $wgAntiSpoofMessages['uk'] = array(
 	'antispoof-name-conflict' => "Ім'я «$1» занадто схоже на вже зареєстрований обліковий запис «$2». Будь ласка, виберіть інше ім'я",
 	'antispoof-name-illegal'  => "Не дозволене використання імені «$1» з метою запобігання плутанню з занадто схожими на нього іменами: $2. Будь ласка, виберіть інше ім'я.",
 );
-$wgAntiSpoofMessages['zh-cn'] = array(
-	'antispoof-name-conflict' => '用户名"$1"与用户名"$2"过于相近。请使用其他用户名。',
-	'antispoof-name-illegal'  => '用户名"$1"易与用户名"$2"混淆，已被禁止使用。请使用其他用户名。',
-	'antispoof-badtype'       => '错误的数据类型',
-	'antispoof-empty'         => '空白字串',
-	'antispoof-blacklisted'   => '包含在黑名单上的字元',
-	'antispoof-combining'     => '以结合标记开始',
-	'antispoof-unassigned'    => '包含未指定或不再使用的字元',
-	'antispoof-noletters'     => '不包含任何字元',
-	'antispoof-mixedscripts'  => '包含不相容混合的脚本',
-	'antispoof-tooshort'      => '合符标准的名称太短',
-);
-$wgAntiSpoofMessages['zh-tw'] = array(
-	'antispoof-name-conflict' => '用戶名"$1"與用戶名"$2"過於相近。請使用其他用戶名。',
-	'antispoof-name-illegal'  => '用戶名"$1"易與用戶名"$2"混淆，已被禁止使用。請使用其他用戶名。',
-	'antispoof-badtype'       => '錯誤的資料類型',
-	'antispoof-empty'         => '空白字串',
-	'antispoof-blacklisted'   => '包含在黑名單上的字元',
-	'antispoof-combining'     => '以結合標記開始',
-	'antispoof-unassigned'    => '包含未指定或不再使用的字元',
-	'antispoof-noletters'     => '不包含任何字元',
-	'antispoof-mixedscripts'  => '包含不相容混合的指令碼',
-	'antispoof-tooshort'      => '合符標準的名稱太短',
-);
-$wgAntiSpoofMessages['zh-yue'] = array(
+$wgAntiSpoofMessages['yue'] = array(
 	'antispoof-name-conflict' => '呢個名"$1"同現有嘅戶口"$2"大過接近。請揀過另一個名。',
 	'antispoof-name-illegal'  => '呢個名"$1"唔畀用，以預防同用戶名"$2"混淆。請揀過另一個名。',
 	'antispoof-badtype'       => '錯誤嘅資料類型',
@@ -308,7 +284,35 @@ $wgAntiSpoofMessages['zh-yue'] = array(
 	'antispoof-mixedscripts'  => '包含唔相容混合嘅指令碼',
 	'antispoof-tooshort'      => '合符標準嘅名太短',
 );
-$wgAntiSpoofMessages['zh-hk'] = $wgAntiSpoofMessages['zh-tw'];
-$wgAntiSpoofMessages['zh-sg'] = $wgAntiSpoofMessages['zh-cn'];
+$wgAntiSpoofMessages['zh-hans'] = array(
+	'antispoof-name-conflict' => '用户名"$1"与用户名"$2"过于相近。请使用其他用户名。',
+	'antispoof-name-illegal'  => '用户名"$1"易与用户名"$2"混淆，已被禁止使用。请使用其他用户名。',
+	'antispoof-badtype'       => '错误的数据类型',
+	'antispoof-empty'         => '空白字串',
+	'antispoof-blacklisted'   => '包含在黑名单上的字元',
+	'antispoof-combining'     => '以结合标记开始',
+	'antispoof-unassigned'    => '包含未指定或不再使用的字元',
+	'antispoof-noletters'     => '不包含任何字元',
+	'antispoof-mixedscripts'  => '包含不相容混合的脚本',
+	'antispoof-tooshort'      => '合符标准的名称太短',
+);
+$wgAntiSpoofMessages['zh-hant'] = array(
+	'antispoof-name-conflict' => '用戶名"$1"與用戶名"$2"過於相近。請使用其他用戶名。',
+	'antispoof-name-illegal'  => '用戶名"$1"易與用戶名"$2"混淆，已被禁止使用。請使用其他用戶名。',
+	'antispoof-badtype'       => '錯誤的資料類型',
+	'antispoof-empty'         => '空白字串',
+	'antispoof-blacklisted'   => '包含在黑名單上的字元',
+	'antispoof-combining'     => '以結合標記開始',
+	'antispoof-unassigned'    => '包含未指定或不再使用的字元',
+	'antispoof-noletters'     => '不包含任何字元',
+	'antispoof-mixedscripts'  => '包含不相容混合的指令碼',
+	'antispoof-tooshort'      => '合符標準的名稱太短',
+);
+$wgAntiSpoofMessages['zh-cn'] = $wgAntiSpoofMessages['zh-hans'];
+$wgAntiSpoofMessages['zh-hk'] = $wgAntiSpoofMessages['zh-hant'];
+$wgAntiSpoofMessages['zh-sg'] = $wgAntiSpoofMessages['zh-hans'];
+$wgAntiSpoofMessages['zh-tw'] = $wgAntiSpoofMessages['zh-hant'];
+$wgAntiSpoofMessages['zh-yue'] = $wgAntiSpoofMessages['yue'];
+
 
 
