@@ -194,6 +194,18 @@ $wgAntiSpoofMessages['oc'] = array(
 	'antispoof-mixedscripts'  => 'Conten mantun escript incompatible',
 	'antispoof-tooshort'      => 'Nom canonic tròp cort',
 );
+$wgAntiSpoofMessages['pms'] = array(
+	'antispoof-name-conflict' => 'Lë stranòm "$1" a-j ësmija tròp a "$2", che a-i é già. Për piasì, ch\'as në sërna n\'àotr.',
+	'antispoof-name-illegal'  => 'Lë stranòm "$1" as peul nen dovresse për evité confusion e/ò che cheidun as fassa passé për: $2. Për piasì, ch\'as në sërna n\'àotr.',
+	'antispoof-badtype'       => 'Sòrt ëd dat nen bon-a',
+	'antispoof-empty'         => 'Espression veujda',
+	'antispoof-blacklisted'   => 'A-i é ëd caràter ch\'as peulo pa dovresse',
+	'antispoof-combining'     => 'As anandia con na combinassion',
+	'antispoof-unassigned'    => 'A son dovrasse dij caràter nen assignà, ò pura ch\'as dovrìo pì nen dovresse',
+	'antispoof-noletters'     => 'A l\'ha pa gnun caràter',
+	'antispoof-mixedscripts'  => 'Combinassion ëd sistema dë scritura ch\'as peulo pa butesse ansema',
+	'antispoof-tooshort'      => 'Butà an forma canònica lë stranòm a resta esagerà curt',
+);
 $wgAntiSpoofMessages['pt'] = array(
 	'antispoof-name-conflict' => 'O nome "$1" é muito similar com o "$2", já existente. Por gentileza, escolha outro nome.',
 	'antispoof-name-illegal'  => 'O nome "$1" não é permitido, para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): já existe $2. Por gentileza, escolha outro nome.',
