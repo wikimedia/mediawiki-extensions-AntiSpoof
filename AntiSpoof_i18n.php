@@ -19,7 +19,10 @@ $wgAntiSpoofMessages['ar'] = array(
 	'antispoof-badtype'       => 'نوع بيانات خاطئ',
 	'antispoof-empty'         => 'سلسلة فارغة',
 	'antispoof-blacklisted'   => 'يحتوي على حروف ممنوع استخدامها',
+	'antispoof-combining'     => 'ابدأ بخلط العلامة',
+	'antispoof-unassigned'    => 'يحتوي الرمز غير مخصص او غير المقبول',
 	'antispoof-noletters'     => 'لا يحتوي أية حروف',
+	'antispoof-mixedscripts'  => 'يحتوي خلطا بين حروف غير متوافقة',
 );
 $wgAntiSpoofMessages['cs'] = array(
 	'antispoof-name-conflict' => 'Uživatelské jméno "$1" je příliš podobné existujícímu účtu "$2". Prosím, vyberte si jiné jméno.',
