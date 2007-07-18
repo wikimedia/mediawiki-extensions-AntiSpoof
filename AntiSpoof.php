@@ -27,6 +27,8 @@ $wgGroupPermissions['bureaucrat']['override-antispoof'] = true;
 
 $wgExtensionFunctions[] = 'asSetup';
 
+$wgHooks['LoadExtensionSchemaUpdates'][] = 'asUpdateSchema';
+
 function asSetup() {
 	$base = dirname( __FILE__ );
 	
@@ -43,6 +45,14 @@ function asSetup() {
 	foreach( $wgAntiSpoofMessages as $lang => $messages ) {
 		$wgMessageCache->addMessages( $messages, $lang );
 	}
+}
+
+function asUpdateSchema() {
+	global $wgExtNewTables;
+	$wgExtNewTables[] = array(
+		'spoofuser',
+		dirname( __FILE__ ) . '/mysql/patch-antispoof.sql' );
+	return true;
 }
 
 /**
