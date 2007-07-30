@@ -169,6 +169,17 @@ $wgAntiSpoofMessages['lt'] = array(
 	'antispoof-mixedscripts'  => 'Turi nepalaikomų įvairių rašmenų',
 	'antispoof-tooshort'      => 'Kanonizuotas vardas per trumpas',
 );
+$wgAntiSpoofMessages['lo'] = array(
+	'antispoof-name-conflict' => 'ຊື່ "$1" ຄ້າຍຄືກັບ ບັນຊີ "$2" ທີ່ມີຢູ່ແລ້ວ ໂພດ. ກະລຸນາ ເລືອກ ຊື່ອື່ນ.',
+	'antispoof-name-illegal'  => 'ບໍ່ສາມາດອະນຸຍາດ ຊື່ "$1" ໄດ້ ເພີ່ມຫຼີກລ້ຽງ ການສັບສົນ ກັບ : $2. ກະລຸນາເລືອກຊື່ອື່ນ.',
+	'antispoof-badtype'       => 'ປະເພດ ຂໍ້ມູນ ບໍ່ຖືກຕ້ອງ',
+	'antispoof-empty'         => 'ບໍ່ມີໂຕໜັງສື',
+	'antispoof-blacklisted'   => 'ມີໂຕໜັງສືໃນບັນຊີດຳ',
+	'antispoof-combining'     => 'ເລີ່ມຕົ້ນດ້ວຍເຄື່ອງໝາຍປະສົມ',
+	'antispoof-noletters'     => 'ບໍ່ມີໂຕໜັງສື',
+	'antispoof-mixedscripts'  => 'ມີສະກຣິບປະປົນແບບບໍ່ຖືກຕ້ອງ',
+	'antispoof-tooshort'      => 'ຊື່ຫຍໍ້ສັ້ນໂພດ',
+);
 $wgAntiSpoofMessages['nl'] = array(
 	'antispoof-name-conflict' => 'De naam "$1" lijkt te veel op de bestaande gebruiker "$2". Kies alstublieft een andere naam.',
 	'antispoof-name-illegal'  => 'De naam "$1" is niet toegestaan om verwarring of gefingeerde gebruikersnamen te voorkomen: $2. Kies alstublieft een andere naam.',
