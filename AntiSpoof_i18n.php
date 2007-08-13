@@ -183,6 +183,14 @@ $wgAntiSpoofMessages['lo'] = array(
 $wgAntiSpoofMessages['nl'] = array(
 	'antispoof-name-conflict' => 'De naam "$1" lijkt te veel op de bestaande gebruiker "$2". Kies alstublieft een andere naam.',
 	'antispoof-name-illegal'  => 'De naam "$1" is niet toegestaan om verwarring of gefingeerde gebruikersnamen te voorkomen: $2. Kies alstublieft een andere naam.',
+	'antispoof-badtype'       => 'Verkeerd datatype',
+	'antispoof-empty'         => 'Lege string',
+	'antispoof-blacklisted'   => 'Bevat verboden karakter',
+	'antispoof-combining'     => 'Begint met een gecombineerd merkteken',
+	'antispoof-unassigned'    => 'Bevat niet toegewezen of verouderd karakter',
+	'antispoof-noletters'     => 'Bevat geen letters',
+	'antispoof-mixedscripts'  => 'Bevat niet compatibele schriften',
+	'antispoof-tooshort'      => 'Afgekorte naam te kort',
 );
 $wgAntiSpoofMessages['no'] = array(
 	'antispoof-name-conflict' => 'Navnet «$1» er for likt den eksisterende kontoen «$2». Vennligst velg et annet navn.',
