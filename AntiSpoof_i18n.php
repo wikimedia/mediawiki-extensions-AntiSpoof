@@ -342,11 +342,13 @@ $wgAntiSpoofMessages['zh-hant'] = array(
 	'antispoof-mixedscripts'  => '包含不相容混合的指令碼',
 	'antispoof-tooshort'      => '合符標準的名稱太短',
 );
+$wgAntiSpoofMessages['zh'] = $wgAntiSpoofMessages['zh-hans'];
 $wgAntiSpoofMessages['zh-cn'] = $wgAntiSpoofMessages['zh-hans'];
 $wgAntiSpoofMessages['zh-hk'] = $wgAntiSpoofMessages['zh-hant'];
 $wgAntiSpoofMessages['zh-sg'] = $wgAntiSpoofMessages['zh-hans'];
 $wgAntiSpoofMessages['zh-tw'] = $wgAntiSpoofMessages['zh-hant'];
 $wgAntiSpoofMessages['zh-yue'] = $wgAntiSpoofMessages['yue'];
+
 
 
 
