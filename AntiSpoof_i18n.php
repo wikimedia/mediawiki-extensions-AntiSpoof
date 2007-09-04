@@ -24,6 +24,11 @@ $wgAntiSpoofMessages['ar'] = array(
 	'antispoof-noletters'     => 'لا يحتوي أية حروف',
 	'antispoof-mixedscripts'  => 'يحتوي خلطا بين حروف غير متوافقة',
 );
+$wgAntiSpoofMessages['bcl'] = array(
+	'antispoof-name-conflict' => 'An pangaran na "$1" kaagid na marhay sa yaon nang account "$2". Paki pilî tabî nin ibang pangaran.',
+	'antispoof-name-illegal'  => 'An parágamit na "$1" dai tinotogotan tangarig maibitaran an pagparibong o pag-arog sa "$2". Paki pilî tabî nin ibang pangaran.',
+	'antispoof-noletters'     => 'Mayong nakakaag na mga letra',
+);
 $wgAntiSpoofMessages['cs'] = array(
 	'antispoof-name-conflict' => 'Uživatelské jméno "$1" je příliš podobné existujícímu účtu "$2". Prosím, vyberte si jiné jméno.',
 	'antispoof-name-illegal'  => 'Uživatelské jméno "$1" není povoleno vytvořit, aby se nepletlo nebo nesloužilo k napodobování uživatelského jména: $2. Prosím, vyberte si jiné jméno.',
@@ -52,6 +57,12 @@ $wgAntiSpoofMessages['el'] = array(
 	'antispoof-mixedscripts'  => 'Περιέχει ανεμιγμένους ασύμβατους χαρακτήρες γραπτού κειμένου',
 	'antispoof-tooshort'      => 'Κανονικοποιημένο όνομα πολύ μικρό',
 );
+$wgAntiSpoofMessages['eo'] = array(
+	'antispoof-name-conflict' => 'La nomo "$1" estas tro simila al la ekzistanta konto "$2". Bonvolu elekti alian nomon.',
+	'antispoof-blacklisted'   => 'Enhavas literojn el nigra listo',
+	'antispoof-noletters'     => 'Ne enhavas iujn literojn',
+	'antispoof-mixedscripts'  => 'Enhavas nekompatibilajn miksajn skriptojn',
+);
 $wgAntiSpoofMessages['fi'] = array(
 	'antispoof-name-conflict' => 'Tunnus ”$1” on liian samankaltainen tunnuksen ”$2” kanssa. Valitse toinen tunnus.',
 	'antispoof-name-illegal'  => 'Tunnusta ”$1” ei sallita, koska $2. Hämäävien tai huijaustarkoitukseen sopivien tunnusten luonti on estetty. Valitse toinen tunnus.',
@@ -79,6 +90,18 @@ $wgAntiSpoofMessages['fr'] = array(
 $wgAntiSpoofMessages['he'] = array(
 	'antispoof-name-conflict' => 'שם המשתמש "$1" שבחרתם דומה מדי לשם המשתמש הקיים "$2". אנא בחרו שם משתמש אחר.',
 	'antispoof-name-illegal'  => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2. אנא בחרו שם משתמש אחר.',
+);
+$wgAntiSpoofMessages['hsb'] = array(
+	'antispoof-name-conflict' => 'Požadane wužiwarske mjeno "$1" je hižo eksistowacemu wužiwarskemu mjenje "$2" přepodobne. Prošu wubjer druhe wužiwarske mjeno.',
+	'antispoof-name-illegal'  => 'Požadane wužiwarske mjeno "$1" njeje dowolene. Přičina: $2<br />Prošu wubjer druhe wužiwarske mjeno.',
+	'antispoof-badtype'       => 'Njepłaćiwy datowy typ',
+	'antispoof-empty'         => 'Prózdne polo',
+	'antispoof-blacklisted'   => 'Su njedowolene znamješka wobsahowane.',
+	'antispoof-combining'     => 'Započina so z kombinaciskim znamješkom.',
+	'antispoof-unassigned'    => 'Su njepřirjadowane abo njewitane znamješka wobsahowane.',
+	'antispoof-noletters'     => 'Njejsu pismiki wobsahowane.',
+	'antispoof-mixedscripts'  => 'Su znamješka rozdźělnych njekompatibelnych pismow wobsahowane',
+	'antispoof-tooshort'      => 'Kanonizowane mjeno je překrótke.',
 );
 $wgAntiSpoofMessages['id'] = array(
 	'antispoof-name-conflict' => 'Nama "$1" terlalu mirip dengan akun "$2" yang sudah ada. Harap pilih nama lain.',
