@@ -14,15 +14,16 @@ $wgAntiSpoofMessages['en'] = array(
 	'antispoof-tooshort'      => 'Canonicalized name too short',
 );
 $wgAntiSpoofMessages['ar'] = array(
-	'antispoof-name-conflict' => 'الاسم "$1" مشابه للغاية للحساب الموجود حاليا باسم "$2". اختر اسم آخر من فضلك.',
+	'antispoof-name-conflict' => 'الاسم "$1" مشابه للغاية للحساب الموجود حاليا باسم "$2". من فضلك اختر اسما آخر.',
 	'antispoof-name-illegal'  => 'الاسم "$1" غير مسموح به لمنع الخلط وانتحال أسماء المستخدمين: $2. اختر اسم آخر من فضلك.',
 	'antispoof-badtype'       => 'نوع بيانات خاطئ',
 	'antispoof-empty'         => 'سلسلة فارغة',
 	'antispoof-blacklisted'   => 'يحتوي على حروف ممنوع استخدامها',
 	'antispoof-combining'     => 'ابدأ بخلط العلامة',
-	'antispoof-unassigned'    => 'يحتوي الرمز غير مخصص او غير المقبول',
+	'antispoof-unassigned'    => 'يحتوي الرمز غير مخصص أو غير المقبول',
 	'antispoof-noletters'     => 'لا يحتوي أية حروف',
 	'antispoof-mixedscripts'  => 'يحتوي خلطا بين حروف غير متوافقة',
+	'antispoof-tooshort'      => 'الاسم المستخدم قصير جدا',
 );
 $wgAntiSpoofMessages['bcl'] = array(
 	'antispoof-name-conflict' => 'An pangaran na "$1" kaagid na marhay sa yaon nang account "$2". Paki pilî tabî nin ibang pangaran.',
@@ -371,6 +372,7 @@ $wgAntiSpoofMessages['zh-hk'] = $wgAntiSpoofMessages['zh-hant'];
 $wgAntiSpoofMessages['zh-sg'] = $wgAntiSpoofMessages['zh-hans'];
 $wgAntiSpoofMessages['zh-tw'] = $wgAntiSpoofMessages['zh-hant'];
 $wgAntiSpoofMessages['zh-yue'] = $wgAntiSpoofMessages['yue'];
+
 
 
 
