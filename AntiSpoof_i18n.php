@@ -88,6 +88,18 @@ $wgAntiSpoofMessages['fr'] = array(
 	'antispoof-mixedscripts'  => 'Contient plusieurs scripts incompatibles',
 	'antispoof-tooshort'      => 'Nom canonique trop court',
 );
+$wgAntiSpoofMessages['frc'] = array(
+	'antispoof-name-conflict' => 'Le nom "$1" ressemble trop au compte "$2".  Choisissez donc un autre nom.',
+	'antispoof-name-illegal'  => 'Le nom "$1" est pas permit pour empêcher de confondre ou d\'user le nom "$2".  Choisissez donc un autre nom.',
+	'antispoof-badtype'       => 'Mauvaise qualité d\'information',
+	'antispoof-empty'         => 'Chaîne vide',
+	'antispoof-blacklisted'   => 'Contient un caractère pas permit',
+	'antispoof-combining'     => 'Commence avec une marque combinée',
+	'antispoof-unassigned'    => 'Contient un caractère pas assigné ou désapprouvé',
+	'antispoof-noletters'     => 'Contient pas de lettres',
+	'antispoof-mixedscripts'  => 'Contient plusieurs scripts qui s\'adonnont pas',
+	'antispoof-tooshort'      => 'Le nom choisi est trop court',
+);
 $wgAntiSpoofMessages['he'] = array(
 	'antispoof-name-conflict' => 'שם המשתמש "$1" שבחרתם דומה מדי לשם המשתמש הקיים "$2". אנא בחרו שם משתמש אחר.',
 	'antispoof-name-illegal'  => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2. אנא בחרו שם משתמש אחר.',
