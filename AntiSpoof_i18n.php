@@ -343,16 +343,16 @@ $wgAntiSpoofMessages['uk'] = array(
 	'antispoof-name-illegal'  => "Не дозволене використання імені «$1» з метою запобігання плутанню з занадто схожими на нього іменами: $2. Будь ласка, виберіть інше ім'я.",
 );
 $wgAntiSpoofMessages['yue'] = array(
-	'antispoof-name-conflict' => '呢個名"$1"同現有嘅戶口"$2"大過接近。請揀過另一個名。',
-	'antispoof-name-illegal'  => '呢個名"$1"唔畀用，以預防同用戶名"$2"混淆。請揀過另一個名。',
+	'antispoof-name-conflict' => '呢個名"$1"太似現有戶口"$2"。請揀過個名。',
+	'antispoof-name-illegal'  => '呢個名"$1"唔畀用，以預防撈亂或者冒充："$2"。請揀過個名。',
 	'antispoof-badtype'       => '錯誤嘅資料類型',
 	'antispoof-empty'         => '空白字串',
-	'antispoof-blacklisted'   => '包含響黑名單度嘅字元',
+	'antispoof-blacklisted'   => '有列響黑名單度嘅字元',
 	'antispoof-combining'     => '以結合標記開始',
 	'antispoof-unassigned'    => '包含未指定或者唔再用嘅字元',
 	'antispoof-noletters'     => '唔包含任何字元',
-	'antispoof-mixedscripts'  => '包含唔相容混合嘅指令碼',
-	'antispoof-tooshort'      => '合符標準嘅名太短',
+	'antispoof-mixedscripts'  => '包含唔相容嘅混合碼',
+	'antispoof-tooshort'      => '正規化嘅名太短',
 );
 $wgAntiSpoofMessages['zh-hans'] = array(
 	'antispoof-name-conflict' => '用户名"$1"与用户名"$2"过于相近。请使用其他用户名。',
@@ -384,6 +384,7 @@ $wgAntiSpoofMessages['zh-hk'] = $wgAntiSpoofMessages['zh-hant'];
 $wgAntiSpoofMessages['zh-sg'] = $wgAntiSpoofMessages['zh-hans'];
 $wgAntiSpoofMessages['zh-tw'] = $wgAntiSpoofMessages['zh-hant'];
 $wgAntiSpoofMessages['zh-yue'] = $wgAntiSpoofMessages['yue'];
+
 
 
 
