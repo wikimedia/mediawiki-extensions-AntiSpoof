@@ -30,6 +30,14 @@ $wgAntiSpoofMessages['bcl'] = array(
 	'antispoof-name-illegal'  => 'An parágamit na "$1" dai tinotogotan tangarig maibitaran an pagparibong o pag-arog sa "$2". Paki pilî tabî nin ibang pangaran.',
 	'antispoof-noletters'     => 'Mayong nakakaag na mga letra',
 );
+$wgAntiSpoofMessages['bn'] = array(
+	'antispoof-name-conflict' => '"$1" নামটি বিদ্যমান "$2" অ্যাকাউন্টের সাথে হুবুহু মিলে যাচ্ছে। দয়া করে অন্য নাম পছন্দ করুন।',
+	'antispoof-name-illegal'  => '"$1" নামটি, বিভ্রান্তিকর বা ধাপ্পাবাজ ব্যবহারকারী নাম: $2 কে রোধ করার অনুমতি নাই। দয়া করে অন্য নাম পছন্দ করুন।',
+	'antispoof-badtype'       => 'তথ্যের ধরণ ঠিক নাই',
+	'antispoof-empty'         => 'খালি স্ট্রিং',
+	'antispoof-blacklisted'   => 'নিষিদ্ধ বর্ণ বা অক্ষর রয়েছে',
+	'antispoof-noletters'     => 'কোন অক্ষর বা বর্ণ নাই',
+);
 $wgAntiSpoofMessages['cs'] = array(
 	'antispoof-name-conflict' => 'Uživatelské jméno "$1" je příliš podobné existujícímu účtu "$2". Prosím, vyberte si jiné jméno.',
 	'antispoof-name-illegal'  => 'Uživatelské jméno "$1" není povoleno vytvořit, aby se nepletlo nebo nesloužilo k napodobování uživatelského jména: $2. Prosím, vyberte si jiné jméno.',
