@@ -302,6 +302,18 @@ $wgAntiSpoofMessages['ru'] = array(
 	'antispoof-mixedscripts'  => 'Используются несовместимые системы письменности',
 	'antispoof-tooshort'      => 'Каноническое имя слишком короткое',
 );
+$wgAntiSpoofMessages['sah'] = array(
+	'antispoof-name-conflict' => '"$1" диэн ааты "$2" диэн киһи бэлиэр ылбыт, онон атын аатта толкуйдаа.',
+	'antispoof-name-illegal'  => '"$1" диэн аат $2 диэн ааттары кытта буккулубаттарын туһугар бобуллар. Онон атын ааты толкуйдаа.',
+	'antispoof-badtype'       => 'Сыыһа тииптээх дааннайдар',
+	'antispoof-empty'         => 'Кураанах устуруока',
+	'antispoof-blacklisted'   => 'Бобуллубут бэлиэлэр бааллар',
+	'antispoof-combining'     => 'Уларытар бэлиэттэн саҕаланар',
+	'antispoof-unassigned'    => 'Биллибэт эбэтэр өйөммөт бэлиэлэр бааллар',
+	'antispoof-noletters'     => 'Биир даҕаны буукуба суох',
+	'antispoof-mixedscripts'  => 'Сөп түбэһиспэт атын-атын суруктарынан суруллубут',
+	'antispoof-tooshort'      => 'Каноннаммыт тыл наһаа кылгас',
+);
 $wgAntiSpoofMessages['sk'] = array(
 	'antispoof-name-conflict' => 'Meno "$1" je príliš podobné názvu existujúceho účtu "$2". Zvoľte si prosím iné.',
 	'antispoof-name-illegal'  => 'Meno "$1" nie je povolené, aby sa zabránilo náhodnému alebo zámernému pomýleniu mien používateľov: $2. Zvoľte si prosím iné meno.',
