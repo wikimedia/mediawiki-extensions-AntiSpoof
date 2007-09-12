@@ -113,8 +113,8 @@ $wgAntiSpoofMessages['he'] = array(
 	'antispoof-name-illegal'  => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2. אנא בחרו שם משתמש אחר.',
 );
 $wgAntiSpoofMessages['hsb'] = array(
-	'antispoof-name-conflict' => 'Požadane wužiwarske mjeno "$1" je hižo eksistowacemu wužiwarskemu mjenje "$2" přepodobne. Prošu wubjer druhe wužiwarske mjeno.',
-	'antispoof-name-illegal'  => 'Požadane wužiwarske mjeno "$1" njeje dowolene. Přičina: $2<br />Prošu wubjer druhe wužiwarske mjeno.',
+	'antispoof-name-conflict' => 'Požadane wužiwarske mjeno „$1” je hižo eksistowacemu wužiwarskemu mjenje „$2” přepodobne. Prošu wubjer druhe wužiwarske mjeno.',
+	'antispoof-name-illegal'  => 'Požadane wužiwarske mjeno „$1” njeje dowolene. Přičina: $2<br />Prošu wubjer druhe wužiwarske mjeno.',
 	'antispoof-badtype'       => 'Njepłaćiwy datowy typ',
 	'antispoof-empty'         => 'Prózdne polo',
 	'antispoof-blacklisted'   => 'Su njedowolene znamješka wobsahowane.',
