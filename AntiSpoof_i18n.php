@@ -38,9 +38,29 @@ $wgAntiSpoofMessages['bn'] = array(
 	'antispoof-blacklisted'   => 'নিষিদ্ধ বর্ণ বা অক্ষর রয়েছে',
 	'antispoof-noletters'     => 'কোন অক্ষর বা বর্ণ নাই',
 );
+$wgAntiSpoofMessages['ca'] = array(
+	'antispoof-name-conflict' => 'El nom «$1» és massa semblant al ja existent «$2». Si us plau, escolliu-ne un de nou.',
+	'antispoof-name-illegal'  => 'No està permès usar el nom «$1» per evitar confusions o falsificacions amb els noms d\'usuari: $2. Si us plau, escolliu un altre nom d\'usuari.',
+	'antispoof-badtype'       => 'Tipus de dades incorrecte',
+	'antispoof-empty'         => 'Cadena buida',
+	'antispoof-blacklisted'   => 'Conté caràcters no permesos',
+	'antispoof-combining'     => 'Comença amb un caràcter combinatori',
+	'antispoof-unassigned'    => 'Conté caràcters invàlids o obsolets',
+	'antispoof-noletters'     => 'No conté cap lletra',
+	'antispoof-mixedscripts'  => 'Conté una mescla incompatible d\'escriptures',
+	'antispoof-tooshort'      => 'Nom canònic massa curt',
+);
 $wgAntiSpoofMessages['cs'] = array(
 	'antispoof-name-conflict' => 'Uživatelské jméno "$1" je příliš podobné existujícímu účtu "$2". Prosím, vyberte si jiné jméno.',
 	'antispoof-name-illegal'  => 'Uživatelské jméno "$1" není povoleno vytvořit, aby se nepletlo nebo nesloužilo k napodobování uživatelského jména: $2. Prosím, vyberte si jiné jméno.',
+	'antispoof-badtype'       => 'Špatný datový typ',
+	'antispoof-empty'         => 'Prázdný řetězec',
+	'antispoof-blacklisted'   => 'Obsahuje zakázaný znak',
+	'antispoof-combining'     => 'Začíná na diakritický znak',
+	'antispoof-unassigned'    => 'Obsahuje nepřiřazený nebo zavržený znak',
+	'antispoof-noletters'     => 'Neobsahuje žádné písmeno',
+	'antispoof-mixedscripts'  => 'Obsahuje nepřípustnou kombinaci druhů písem',
+	'antispoof-tooshort'      => 'Kanonikalizované jméno je příliš krátké',
 );
 $wgAntiSpoofMessages['de'] = array(
 	'antispoof-name-conflict' => 'Der gewünschte Benutzername „$1“ ist dem bereits vorhandenen Benutzernamen „$2“ zu ähnlich. Bitte einen anderen Benutzernamen wählen.',
@@ -71,6 +91,10 @@ $wgAntiSpoofMessages['eo'] = array(
 	'antispoof-blacklisted'   => 'Enhavas literojn el nigra listo',
 	'antispoof-noletters'     => 'Ne enhavas iujn literojn',
 	'antispoof-mixedscripts'  => 'Enhavas nekompatibilajn miksajn skriptojn',
+);
+$wgAntiSpoofMessages['es'] = array(
+	'antispoof-name-conflict' => 'El nombre "$1" es demasiado parecido a la cuenta "$2", ya existente. Por favor, elige otro nombre.',
+	'antispoof-name-illegal'  => 'Con el fin de evitar nombres confusos y suplantaciones no se permite registrar el nombre de usuario "$1": $2. Por favor, escoja otro nombre.',
 );
 $wgAntiSpoofMessages['fi'] = array(
 	'antispoof-name-conflict' => 'Tunnus ”$1” on liian samankaltainen tunnuksen ”$2” kanssa. Valitse toinen tunnus.',
