@@ -38,6 +38,12 @@ $wgAntiSpoofMessages['bn'] = array(
 	'antispoof-blacklisted'   => 'নিষিদ্ধ বর্ণ বা অক্ষর রয়েছে',
 	'antispoof-noletters'     => 'কোন অক্ষর বা বর্ণ নাই',
 );
+$wgAntiSpoofMessages['br'] = array(
+	'antispoof-name-conflict' => 'Re heñvel eo an anv "$1" ouzh hini ar gont "$2" zo anezhi dija. Dibabit un anv all mar plij.',
+	'antispoof-empty'         => 'Neudennad goullo',
+	'antispoof-blacklisted'   => 'Arouezennoù berzet zo e-barzh',
+	'antispoof-noletters'     => 'Lizherenn ebet e-barzh',
+);
 $wgAntiSpoofMessages['ca'] = array(
 	'antispoof-name-conflict' => 'El nom «$1» és massa semblant al ja existent «$2». Si us plau, escolliu-ne un de nou.',
 	'antispoof-name-illegal'  => 'No està permès usar el nom «$1» per evitar confusions o falsificacions amb els noms d\'usuari: $2. Si us plau, escolliu un altre nom d\'usuari.',
@@ -131,6 +137,30 @@ $wgAntiSpoofMessages['frc'] = array(
 	'antispoof-noletters'     => 'Contient pas de lettres',
 	'antispoof-mixedscripts'  => 'Contient plusieurs scripts qui s\'adonnont pas',
 	'antispoof-tooshort'      => 'Le nom choisi est trop court',
+);
+$wgAntiSpoofMessages['frp'] = array(
+	'antispoof-name-conflict' => 'Lo nom « $1 » ressemble trop u compto ègzistent « $2 ». Volyéd chouèsir/cièrdre un ôtro nom.',
+	'antispoof-name-illegal'  => 'Lo nom « $1 » est pas ôtorisâ por empachiér de confondre ou d’utilisar lo nom « $2 ». Volyéd chouèsir/cièrdre un ôtro nom.',
+	'antispoof-badtype'       => 'Môvés tipo de balyês',
+	'antispoof-empty'         => 'Chêna voueda',
+	'antispoof-blacklisted'   => 'Contint un caractèro dèfendu',
+	'antispoof-combining'     => 'Comence avouéc una mârca combinâ',
+	'antispoof-unassigned'    => 'Contint un caractèro pas assignê ou pas més utilisâ',
+	'antispoof-noletters'     => 'Contint gins de lètra',
+	'antispoof-mixedscripts'  => 'Contint plusiors scripts encompatiblos',
+	'antispoof-tooshort'      => 'Nom canonico trop côrt',
+);
+$wgAntiSpoofMessages['hak'] = array(
+	'antispoof-name-conflict' => 'Yung-fu-miàng "$1" lâu yung-fu-miàng "$2" ko-thu siông-khiun. Chhiáng sṳ́-yung khì-thâ ke yung-fu-miàng.',
+	'antispoof-name-illegal'  => 'Yung-fu-miàng "$1" yi-lâu Yung-fu-miàng "$2" fun-chha̍p, yí-kîn pûn kim-chṳ́ sṳ́-yung. Chhiáng sṳ́-yung khì-thâ ke yung-fu-miàng.',
+	'antispoof-badtype'       => 'Chho-ngu ke chṳ̂-liau lui-hìn',
+	'antispoof-empty'         => 'Khûng-pha̍k sṳ-chhon',
+	'antispoof-blacklisted'   => 'Pâu-hàm chhai het-miàng-tân song ke sṳ-ngièn',
+	'antispoof-combining'     => 'Chhut-yì kiet-ha̍p phêu-ki khôi-sṳ́',
+	'antispoof-unassigned'    => 'Pâu-hàm mò chṳ́-thin fe̍t-he put-chai sṳ́-yung ke sṳ-ngièn',
+	'antispoof-noletters'     => 'Mò pâu-hàm ngim-hò sṳ-ngièn',
+	'antispoof-mixedscripts'  => 'Pâu-hàm mò siong-yùng fun-ha̍p ke chṳ́-lin',
+	'antispoof-tooshort'      => 'Ha̍p-fù phêu-chún ke miàng-chhṳ̂n thai-tón',
 );
 $wgAntiSpoofMessages['he'] = array(
 	'antispoof-name-conflict' => 'שם המשתמש "$1" שבחרתם דומה מדי לשם המשתמש הקיים "$2". אנא בחרו שם משתמש אחר.',
