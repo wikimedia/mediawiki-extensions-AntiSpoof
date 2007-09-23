@@ -255,6 +255,10 @@ $wgAntiSpoofMessages['ksh'] = array(
 	'antispoof-name-conflict' => 'Dä Name „$1“ es „$2“ zoo ähnlich, un künnt met em verwähßelt weede. Dä Name „$2“ jitt et ald. Sök Der jet anders als Dinge Name us.',
 	'antispoof-name-illegal'  => 'Dä Name „$1“ es nit möchlich, domet mer kein nohjemahte Name krije, un keine Durjenein met Schrefte: $2. Sök Der jet anders als Dinge Name us.',
 );
+$wgAntiSpoofMessages['la'] = array(
+	'antispoof-name-conflict' => 'Nomen "$1" est nimis simile rationi "$2". Selige nomen alterum.',
+	'antispoof-name-illegal'  => 'Non licet uti nomine "$1" ad nominum usorum simulationem prohibendam: $2. Selige nomen alterum.',
+);
 $wgAntiSpoofMessages['lt'] = array(
 	'antispoof-name-conflict' => 'Vardas "$1" yra per daug panašus į jau esančią paskyrą "$2". Prašome pasirinkti kitą vardą.',
 	'antispoof-name-illegal'  => 'Vardas "$1" neleidžiamas, kad būtų apsisaugota nuo apgaulingų ar parodijuotų naudotojų vardų: $2. Prašome pasirinkti kitą vardą.',
