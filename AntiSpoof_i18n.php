@@ -251,6 +251,11 @@ $wgAntiSpoofMessages['kk-cn'] = array(
 	'antispoof-tooshort'      => 'ەرەجەلەنگەن اتاۋى تىم قىسقا',
 );
 $wgAntiSpoofMessages['kk'] = $wgAntiSpoofMessages['kk-kz'];
+$wgAntiSpoofMessages['ko'] = array(
+	'antispoof-name-conflict' => '‘$1’ 사용자는 ‘$2’ 사용자와 이름이 너무 비슷합니다. 다른 이름으로 가입해주세요.',
+	'antispoof-name-illegal'  => '‘$1’ 사용자 이름은 다음의 이유로 인해 가입이 금지되었습니다: $2. 다른 이름으로 가입해주세요.',
+	'antispoof-empty'         => '빈 문자열',
+);
 $wgAntiSpoofMessages['ksh'] = array(
 	'antispoof-name-conflict' => 'Dä Name „$1“ es „$2“ zoo ähnlich, un künnt met em verwähßelt weede. Dä Name „$2“ jitt et ald. Sök Der jet anders als Dinge Name us.',
 	'antispoof-name-illegal'  => 'Dä Name „$1“ es nit möchlich, domet mer kein nohjemahte Name krije, un keine Durjenein met Schrefte: $2. Sök Der jet anders als Dinge Name us.',
