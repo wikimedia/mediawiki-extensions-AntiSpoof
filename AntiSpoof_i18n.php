@@ -109,7 +109,7 @@ $wgAntiSpoofMessages['fi'] = array(
 	'antispoof-empty'         => 'se on tyhjä',
 	'antispoof-blacklisted'   => 'se sisältää kielletyn merkin',
 	'antispoof-combining'     => 'se alkaa yhdistyvällä merkillä',
-	'antispoof-unassigned'    => 'se sisältää määrämättömiä tai käytöstä poistuvia merkkejä',
+	'antispoof-unassigned'    => 'se sisältää määräämättömiä tai käytöstä poistuvia merkkejä',
 	'antispoof-noletters'     => 'se ei sisällä kirjaimia',
 	'antispoof-mixedscripts'  => 'se sisältää yhteensopimattomia kirjoitusjärjestelmiä',
 	'antispoof-tooshort'      => 'sen kanonisoitu muoto on liian lyhyt',
@@ -167,7 +167,7 @@ $wgAntiSpoofMessages['he'] = array(
 	'antispoof-name-illegal'  => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2. אנא בחרו שם משתמש אחר.',
 );
 $wgAntiSpoofMessages['hsb'] = array(
-	'antispoof-name-conflict' => 'Požadane wužiwarske mjeno „$1” je hižo eksistowacemu wužiwarskemu mjenje „$2” přepodobne. Prošu wubjer druhe wužiwarske mjeno.',
+	'antispoof-name-conflict' => 'Požadane wužiwarske mjeno „$1” je hižo eksistowacemu wužiwarskemu mjenu „$2” přepodobne. Prošu wubjer druhe wužiwarske mjeno.',
 	'antispoof-name-illegal'  => 'Požadane wužiwarske mjeno „$1” njeje dowolene. Přičina: $2<br />Prošu wubjer druhe wužiwarske mjeno.',
 	'antispoof-badtype'       => 'Njepłaćiwy datowy typ',
 	'antispoof-empty'         => 'Prózdne polo',
