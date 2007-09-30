@@ -178,6 +178,18 @@ $wgAntiSpoofMessages['hsb'] = array(
 	'antispoof-mixedscripts'  => 'Su znamješka rozdźělnych njekompatibelnych pismow wobsahowane',
 	'antispoof-tooshort'      => 'Kanonizowane mjeno je překrótke.',
 );
+$wgAntiSpoofMessages['hu'] = array(
+	'antispoof-name-conflict' => 'A név, „$1”, túl hasonló egy már meglévő azonosítóhoz („$2”). Kérlek válassz másikat.',
+	'antispoof-name-illegal'  => 'A név, „$1”, nem engedélyezett a zavaró vagy becsapó felhasználónevek megelőzése érdekében: $2.',
+	'antispoof-badtype'       => 'Hibás adattípus',
+	'antispoof-empty'         => 'Üres szöveg',
+	'antispoof-blacklisted'   => 'Nem használható karaktert tartalmaz',
+	'antispoof-combining'     => 'Összekapcsoló jellel kezdődik',
+	'antispoof-unassigned'    => 'Még nem kijelölt vagy nem használt karaktert tartalmaz',
+	'antispoof-noletters'     => 'Nem tartalmaz egyetlen betűt sem',
+	'antispoof-mixedscripts'  => 'Összeférhetetlen kevert szöveget tartalmaz',
+	'antispoof-tooshort'      => 'A kanonizált változat túl rövid',
+);
 $wgAntiSpoofMessages['id'] = array(
 	'antispoof-name-conflict' => 'Nama "$1" terlalu mirip dengan akun "$2" yang sudah ada. Harap pilih nama lain.',
 	'antispoof-name-illegal'  => 'Nama "$1" tidak diijinkan untuk mencegah kebingungan atau penipuan nama: $2. Harap pilih nama lain.',
