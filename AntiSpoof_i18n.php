@@ -28,7 +28,11 @@ $wgAntiSpoofMessages['ar'] = array(
 $wgAntiSpoofMessages['bcl'] = array(
 	'antispoof-name-conflict' => 'An pangaran na "$1" kaagid na marhay sa yaon nang account "$2". Paki pilî tabî nin ibang pangaran.',
 	'antispoof-name-illegal'  => 'An parágamit na "$1" dai tinotogotan tangarig maibitaran an pagparibong o pag-arog sa "$2". Paki pilî tabî nin ibang pangaran.',
+	'antispoof-blacklisted'   => 'Igwang blacklisted na karakter',
+	'antispoof-combining'     => 'Nagpopoon sa nagsasalak na marka',
+	'antispoof-unassigned'    => 'Igwang dai naka-assign o deprecated na karakter',
 	'antispoof-noletters'     => 'Mayong nakakaag na mga letra',
+	'antispoof-mixedscripts'  => 'Igwang dai angay na mga halong script',
 );
 $wgAntiSpoofMessages['bn'] = array(
 	'antispoof-name-conflict' => '"$1" নামটি বিদ্যমান "$2" অ্যাকাউন্টের সাথে হুবুহু মিলে যাচ্ছে। দয়া করে অন্য নাম পছন্দ করুন।',
@@ -149,6 +153,17 @@ $wgAntiSpoofMessages['frp'] = array(
 	'antispoof-noletters'     => 'Contint gins de lètra',
 	'antispoof-mixedscripts'  => 'Contint plusiors scripts encompatiblos',
 	'antispoof-tooshort'      => 'Nom canonico trop côrt',
+);
+$wgAntiSpoofMessages['gl'] = array(
+	'antispoof-name-conflict' => 'O nome escollido "$1" é moi parecido a "$2", un usuario que xa existe. Por favor escolla outro nome de usuario.',
+	'antispoof-name-illegal'  => 'O nome "$1" non está permitido para evitar confusións ou enganos cos seguintes nomes de usuario: $2. Por favor escolla outro nome.',
+	'antispoof-badtype'       => 'Tipo de datos incorrecto',
+	'antispoof-empty'         => 'Cadea baleira',
+	'antispoof-blacklisted'   => 'Inclúe un carácter prohibido',
+	'antispoof-combining'     => 'Principia cun carácter de combinación',
+	'antispoof-unassigned'    => 'Contén un carácter sen asignar ou desaconsellado',
+	'antispoof-noletters'     => 'Non contén ningunha letra',
+	'antispoof-tooshort'      => 'Nome curto de máis',
 );
 $wgAntiSpoofMessages['hak'] = array(
 	'antispoof-name-conflict' => 'Yung-fu-miàng "$1" lâu yung-fu-miàng "$2" ko-thu siông-khiun. Chhiáng sṳ́-yung khì-thâ ke yung-fu-miàng.',
