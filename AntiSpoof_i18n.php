@@ -106,6 +106,9 @@ $wgAntiSpoofMessages['es'] = array(
 	'antispoof-name-conflict' => 'El nombre "$1" es demasiado parecido a la cuenta "$2", ya existente. Por favor, elige otro nombre.',
 	'antispoof-name-illegal'  => 'Con el fin de evitar nombres confusos y suplantaciones no se permite registrar el nombre de usuario "$1": $2. Por favor, escoja otro nombre.',
 );
+$wgAntiSpoofMessages['ext'] = array(
+	'antispoof-name-conflict' => 'El nombri "$1" es mu paiciu al de la cuenta "$2" (ya desistenti). Pol favol, lihi otru nombri.',
+);
 $wgAntiSpoofMessages['fi'] = array(
 	'antispoof-name-conflict' => 'Tunnus ”$1” on liian samankaltainen tunnuksen ”$2” kanssa. Valitse toinen tunnus.',
 	'antispoof-name-illegal'  => 'Tunnusta ”$1” ei sallita, koska $2. Hämäävien tai huijaustarkoitukseen sopivien tunnusten luonti on estetty. Valitse toinen tunnus.',
@@ -349,6 +352,18 @@ $wgAntiSpoofMessages['oc'] = array(
 	'antispoof-noletters'     => 'Conten pas cap de letra',
 	'antispoof-mixedscripts'  => 'Conten mantun escript incompatible',
 	'antispoof-tooshort'      => 'Nom canonic tròp cort',
+);
+$wgAntiSpoofMessages['pl'] = array(
+	'antispoof-name-conflict' => 'Nazwa "$1" jest zbyt podobna do nazwy innego użytkownika ($2). Proszę wybrać inną nazwę konta.',
+	'antispoof-name-illegal'  => 'Nazwa "$1" nie może być użyta ze względu na podobieństwo do nazwy innego użytkownika ($2). Proszę wybrać inną nazwę.',
+	'antispoof-badtype'       => 'Zły typ danych',
+	'antispoof-empty'         => 'Pusty napis',
+	'antispoof-blacklisted'   => 'Zawiera znak z czarnej listy',
+	'antispoof-combining'     => 'Zaczyna się od łącznika',
+	'antispoof-unassigned'    => 'Zawiera nieprzypisany lub wycofany znak',
+	'antispoof-noletters'     => 'Nie zawiera liter',
+	'antispoof-mixedscripts'  => 'Zawiera przemieszane znaki niezgodnych ze sobą pism',
+	'antispoof-tooshort'      => 'Zbyt krótka nazwa użytkownika',
 );
 $wgAntiSpoofMessages['pms'] = array(
 	'antispoof-name-conflict' => 'Lë stranòm "$1" a-j ësmija tròp a "$2", che a-i é già. Për piasì, ch\'as në sërna n\'àotr.',
