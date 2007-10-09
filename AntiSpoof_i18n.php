@@ -220,6 +220,9 @@ $wgAntiSpoofMessages['id'] = array(
 	'antispoof-mixedscripts'  => 'Mengandung skrip gabungan yang tak kompatibel',
 	'antispoof-tooshort'      => 'Nama kanonikalisasi terlalu pendek',
 );
+$wgAntiSpoofMessages['is'] = array(
+	'antispoof-empty'         => 'Tómur strengur',
+);
 $wgAntiSpoofMessages['it'] = array(
 	'antispoof-name-conflict' => 'Il nome utente "$1" è troppo simile all\'utente "$2", già registrato. Scegliere un altro nome.',
 	'antispoof-name-illegal'  => 'Il nome utente "$1" non è consentito, per evitare confusione o utilizzi fraudolenti: $2. Scegliere un altro nome.',
