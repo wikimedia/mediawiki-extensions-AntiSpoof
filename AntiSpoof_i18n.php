@@ -422,6 +422,18 @@ $wgAntiSpoofMessages['sah'] = array(
 	'antispoof-mixedscripts'  => 'Сөп түбэһиспэт атын-атын суруктарынан суруллубут',
 	'antispoof-tooshort'      => 'Каноннаммыт тыл наһаа кылгас',
 );
+$wgAntiSpoofMessages['scn'] = array(
+	'antispoof-name-conflict' => 'Lu nomu utenti "$1" è troppu simili a l\'utenti "$2", già arriggistratu. Scegghiri n\'àutru nomu.',
+	'antispoof-name-illegal'  => 'Lu nomu utenti "$1" nun è cunzintitu, pi evitari confusioni o utilizzi illeciti: $2. Scegghiri n\'àutru nomu.',
+	'antispoof-badtype'       => 'Tipu di dati erratu',
+	'antispoof-empty'         => 'Stringa vacanti',
+	'antispoof-blacklisted'   => 'Usu di carattiri nun cunzintiti',
+	'antispoof-combining'     => 'Primu carattiri di cumminazzioni',
+	'antispoof-unassigned'    => 'Cunteni carattiri nun assignati o dipricati',
+	'antispoof-noletters'     => 'Nun cunteni nudda lìttira',
+	'antispoof-mixedscripts'  => 'Cumminazzioni di sistemi di scrittura nun cumpatibbili',
+	'antispoof-tooshort'      => 'Nomu \'n forma canonica troppu curtu',
+);
 $wgAntiSpoofMessages['sk'] = array(
 	'antispoof-name-conflict' => 'Meno "$1" je príliš podobné názvu existujúceho účtu "$2". Zvoľte si prosím iné.',
 	'antispoof-name-illegal'  => 'Meno "$1" nie je povolené, aby sa zabránilo náhodnému alebo zámernému pomýleniu mien používateľov: $2. Zvoľte si prosím iné meno.',
