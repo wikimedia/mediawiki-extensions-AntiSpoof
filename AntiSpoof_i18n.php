@@ -44,9 +44,15 @@ $wgAntiSpoofMessages['bn'] = array(
 );
 $wgAntiSpoofMessages['br'] = array(
 	'antispoof-name-conflict' => 'Re heñvel eo an anv "$1" ouzh hini ar gont "$2" zo anezhi dija. Dibabit un anv all mar plij.',
+	'antispoof-name-illegal'  => 'N\'eo ket aotreet ober gant an anv "$1" kuit da gemmeskañ gant un anv all pe da implijout an anv : $2. Grit gant un anv all mar plij.',
+	'antispoof-badtype'       => 'Seurt roadennoù fall',
 	'antispoof-empty'         => 'Neudennad goullo',
 	'antispoof-blacklisted'   => 'Arouezennoù berzet zo e-barzh',
+	'antispoof-combining'     => 'Kregiñ a ra gant ur merk kenaozet',
+	'antispoof-unassigned'    => 'Un arouezenn dispredet pe dispisaet zo e-barzh',
 	'antispoof-noletters'     => 'Lizherenn ebet e-barzh',
+	'antispoof-mixedscripts'  => 'Meur a skript digenglotus zo e-barzh',
+	'antispoof-tooshort'      => 'Anv kanonek re verr',
 );
 $wgAntiSpoofMessages['ca'] = array(
 	'antispoof-name-conflict' => 'El nom «$1» és massa semblant al ja existent «$2». Si us plau, escolliu-ne un de nou.',
@@ -477,6 +483,9 @@ $wgAntiSpoofMessages['sv'] = array(
 	'antispoof-noletters'     => 'Innehåller inga bokstäver',
 	'antispoof-mixedscripts'  => 'Innehåller tecken från flera inkompatibla skriftsystem',
 	'antispoof-tooshort'      => 'Det kanoniserade namnet är för kort',
+);
+$wgAntiSpoofMessages['tg'] = array(
+	'antispoof-noletters'     => 'Ягон ҳарфҳо надорад',
 );
 $wgAntiSpoofMessages['uk'] = array(
 	'antispoof-name-conflict' => "Ім'я «$1» занадто схоже на вже зареєстрований обліковий запис «$2». Будь ласка, виберіть інше ім'я",
