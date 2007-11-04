@@ -152,8 +152,8 @@ $wgAntiSpoofMessages['frc'] = array(
 	'antispoof-tooshort'      => 'Le nom choisi est trop court',
 );
 $wgAntiSpoofMessages['frp'] = array(
-	'antispoof-name-conflict' => 'Lo nom « $1 » ressemble trop u compto ègzistent « $2 ». Volyéd chouèsir/cièrdre un ôtro nom.',
-	'antispoof-name-illegal'  => 'Lo nom « $1 » est pas ôtorisâ por empachiér de confondre ou d’utilisar lo nom « $2 ». Volyéd chouèsir/cièrdre un ôtro nom.',
+	'antispoof-name-conflict' => 'Lo nom d’utilisator « $1 » ressemble trop u compto ègzistent « $2 ». Volyéd chouèsir/cièrdre un ôtro nom.',
+	'antispoof-name-illegal'  => 'Lo nom d’utilisator « $1 » est pas ôtorisâ por empachiér de confondre ou d’utilisar lo nom « $2 ». Volyéd chouèsir/cièrdre un ôtro nom.',
 	'antispoof-badtype'       => 'Môvés tipo de balyês',
 	'antispoof-empty'         => 'Chêna voueda',
 	'antispoof-blacklisted'   => 'Contint un caractèro dèfendu',
