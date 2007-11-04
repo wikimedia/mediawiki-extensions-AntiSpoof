@@ -227,7 +227,16 @@ $wgAntiSpoofMessages['id'] = array(
 	'antispoof-tooshort'      => 'Nama kanonikalisasi terlalu pendek',
 );
 $wgAntiSpoofMessages['is'] = array(
+	'antispoof-name-conflict' => 'Notandanafnið „$1“ er of líkt notandanafninu „$2“. Gerðu svo vel og veldu annað.',
+	'antispoof-name-illegal'  => 'Nafnið „$1“ er ekki leyft til að koma í veg fyrir ruglandi eða skopstæld notendanöfn: „$2“. Gerðu svo vel og veldu annað nafn.',
+	'antispoof-badtype'       => 'Lélegt gagnatag',
 	'antispoof-empty'         => 'Tómur strengur',
+	'antispoof-blacklisted'   => 'Inniheldur bönnuð rittákn',
+	'antispoof-combining'     => 'Byrjar á samsetningartákni',
+	'antispoof-unassigned'    => 'Inniheldur óúthlutað eða úrelt tákn',
+	'antispoof-noletters'     => 'Inniheldur enga stafi',
+	'antispoof-mixedscripts'  => 'Inniheldur ósamhæfðar skriftur',
+	'antispoof-tooshort'      => 'Nafn of stutt',
 );
 $wgAntiSpoofMessages['it'] = array(
 	'antispoof-name-conflict' => 'Il nome utente "$1" è troppo simile all\'utente "$2", già registrato. Scegliere un altro nome.',
