@@ -128,8 +128,8 @@ $wgAntiSpoofMessages['fi'] = array(
 	'antispoof-tooshort'      => 'sen kanonisoitu muoto on liian lyhyt',
 );
 $wgAntiSpoofMessages['fr'] = array(
-	'antispoof-name-conflict' => 'Le nom « $1 » ressemble trop au compte existant « $2 ». Veuillez choisir un autre nom.',
-	'antispoof-name-illegal'  => 'Le nom « $1 » n’est pas autorisé pour empêcher de confondre ou d’utiliser le nom « $2 ». Veuillez choisir un autre nom.',
+	'antispoof-name-conflict' => 'Le nom d\'utilisateur « $1 » ressemble trop au nom existant « $2 ». Veuillez choisir un autre nom.',
+	'antispoof-name-illegal'  => 'Le nom d\'utilisateur « $1 » n’est pas autorisé pour empêcher de confondre ou d’utiliser le nom « $2 ». Veuillez choisir un autre nom.',
 	'antispoof-badtype'       => 'Mauvais type de données',
 	'antispoof-empty'         => 'Chaîne vide',
 	'antispoof-blacklisted'   => 'Contient un caractère interdit',
