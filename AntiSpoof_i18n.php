@@ -496,6 +496,10 @@ $wgAntiSpoofMessages['sv'] = array(
 $wgAntiSpoofMessages['tg'] = array(
 	'antispoof-noletters'     => 'Ягон ҳарфҳо надорад',
 );
+$wgAntiSpoofMessages['tr'] = array(
+	'antispoof-name-conflict' => 'Seçtiğiniz kullanıcı adı olan "$1", mevcut "$2" hesabıyla benzerlik göstermektedir. Lütfen başka bir kullanıcı adı seçiniz.',
+	'antispoof-name-illegal'  => '$2 hesabıyla karışmaması için "$1" ismine izin verilmemektedir. Lütfen başka bir kullanıcı adı seçiniz.',
+);
 $wgAntiSpoofMessages['uk'] = array(
 	'antispoof-name-conflict' => "Ім'я «$1» занадто схоже на вже зареєстрований обліковий запис «$2». Будь ласка, виберіть інше ім'я",
 	'antispoof-name-illegal'  => "Не дозволене використання імені «$1» з метою запобігання плутанню з занадто схожими на нього іменами: $2. Будь ласка, виберіть інше ім'я.",
