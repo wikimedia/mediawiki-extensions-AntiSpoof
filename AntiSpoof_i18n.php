@@ -172,6 +172,7 @@ $wgAntiSpoofMessages['gl'] = array(
 	'antispoof-combining'     => 'Principia cun carácter de combinación',
 	'antispoof-unassigned'    => 'Contén un carácter sen asignar ou desaconsellado',
 	'antispoof-noletters'     => 'Non contén ningunha letra',
+	'antispoof-mixedscripts'  => 'Contén guións mesturados incompatíbeis',
 	'antispoof-tooshort'      => 'Nome curto de máis',
 );
 $wgAntiSpoofMessages['hak'] = array(
