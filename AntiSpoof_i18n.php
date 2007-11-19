@@ -112,6 +112,13 @@ $wgAntiSpoofMessages['es'] = array(
 	'antispoof-name-conflict' => 'El nombre "$1" es demasiado parecido a la cuenta "$2", ya existente. Por favor, elige otro nombre.',
 	'antispoof-name-illegal'  => 'Con el fin de evitar nombres confusos y suplantaciones no se permite registrar el nombre de usuario "$1": $2. Por favor, escoja otro nombre.',
 );
+$wgAntiSpoofMessages['eu'] = array(
+	'antispoof-name-conflict' => '"$1" izena dagoeneko existitzen den "$2" kontuaren oso antzekoa da. Beste izen bat aukeratu mesedez.',
+	'antispoof-name-illegal'  => '"$1" izena ez dago onartuta gaizkiulertuak saihesteko: $2. Beste izen bat hautatu mesedez.',
+	'antispoof-badtype'       => 'Datu mota ezegokia',
+	'antispoof-empty'         => 'Kate hutsa',
+	'antispoof-noletters'     => 'Ez dauka letrarik',
+);
 $wgAntiSpoofMessages['ext'] = array(
 	'antispoof-name-conflict' => 'El nombri "$1" es mu paiciu al de la cuenta "$2" (ya desistenti). Pol favol, lihi otru nombri.',
 );
