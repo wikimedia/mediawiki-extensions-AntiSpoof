@@ -198,6 +198,18 @@ $wgAntiSpoofMessages['he'] = array(
 	'antispoof-name-conflict' => 'שם המשתמש "$1" שבחרתם דומה מדי לשם המשתמש הקיים "$2". אנא בחרו שם משתמש אחר.',
 	'antispoof-name-illegal'  => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2. אנא בחרו שם משתמש אחר.',
 );
+$wgAntiSpoofMessages['hr'] = array(
+	'antispoof-name-conflict' => 'Ime "$1" je preslično postojećem suradničkom imenu "$2". Molimo izaberite drugo ime/nadimak.',
+	'antispoof-name-illegal'  => 'Ime "$1" nije dozvoljeno da se spriječi moguća zamjena suradničkih nadimaka: $2. Molimo izaberite drugo ime/nadimak.',
+	'antispoof-badtype'       => 'Krivi tip podataka',
+	'antispoof-empty'         => 'Prazan string',
+	'antispoof-blacklisted'   => 'Sadrži nedozvoljeno slovo (karakter)',
+	'antispoof-combining'     => 'Počinje s znakom spajanja',
+	'antispoof-unassigned'    => 'Sadrži nedodijeljen ili zastarjeli znak (karakter)',
+	'antispoof-noletters'     => 'Prekratko',
+	'antispoof-mixedscripts'  => 'Nekompatibilna pisma',
+	'antispoof-tooshort'      => 'Prekratko ime',
+);
 $wgAntiSpoofMessages['hsb'] = array(
 	'antispoof-name-conflict' => 'Požadane wužiwarske mjeno „$1” je hižo eksistowacemu wužiwarskemu mjenu „$2” přepodobne. Prošu wubjer druhe wužiwarske mjeno.',
 	'antispoof-name-illegal'  => 'Požadane wužiwarske mjeno „$1” njeje dowolene. Přičina: $2<br />Prošu wubjer druhe wužiwarske mjeno.',
