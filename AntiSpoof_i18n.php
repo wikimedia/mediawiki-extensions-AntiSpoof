@@ -66,6 +66,9 @@ $wgAntiSpoofMessages['ca'] = array(
 	'antispoof-mixedscripts'  => 'Conté una mescla incompatible d\'escriptures',
 	'antispoof-tooshort'      => 'Nom canònic massa curt',
 );
+$wgAntiSpoofMessages['cdo'] = array(
+	'antispoof-name-conflict' => '"$1" gì miàng ké̤ṳk ī-gĭng cé̤ṳ-cháh gì dióng-hô̤ "$2" kák chiông lāu. Chiāng uâng 1 ciáh miàng.',
+);
 $wgAntiSpoofMessages['cs'] = array(
 	'antispoof-name-conflict' => 'Uživatelské jméno "$1" je příliš podobné existujícímu účtu "$2". Prosím, vyberte si jiné jméno.',
 	'antispoof-name-illegal'  => 'Uživatelské jméno "$1" není povoleno vytvořit, aby se nepletlo nebo nesloužilo k napodobování uživatelského jména: $2. Prosím, vyberte si jiné jméno.',
@@ -566,9 +569,3 @@ $wgAntiSpoofMessages['zh-hk'] = $wgAntiSpoofMessages['zh-hant'];
 $wgAntiSpoofMessages['zh-sg'] = $wgAntiSpoofMessages['zh-hans'];
 $wgAntiSpoofMessages['zh-tw'] = $wgAntiSpoofMessages['zh-hant'];
 $wgAntiSpoofMessages['zh-yue'] = $wgAntiSpoofMessages['yue'];
-
-
-
-
-
-
