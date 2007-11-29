@@ -419,8 +419,8 @@ $wgAntiSpoofMessages['pms'] = array(
 	'antispoof-tooshort'      => 'Butà an forma canònica lë stranòm a resta esagerà curt',
 );
 $wgAntiSpoofMessages['pt'] = array(
-	'antispoof-name-conflict' => 'O nome "$1" é muito similar com o "$2", já existente. Por gentileza, escolha outro nome.',
-	'antispoof-name-illegal'  => 'O nome "$1" não é permitido, para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): já existe $2. Por gentileza, escolha outro nome.',
+	'antispoof-name-conflict' => 'O nome "$1" é muito similar a "$2", já existente. Por favor, escolha outro nome.',
+	'antispoof-name-illegal'  => 'O nome "$1" não é permitido para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): já existe $2. Por favor, escolha outro nome.',
 	'antispoof-badtype'       => 'Formato de dados incorreto',
 	'antispoof-empty'         => 'Linha vazia',
 	'antispoof-blacklisted'   => 'Contém caracteres proibidos',
