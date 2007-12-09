@@ -436,6 +436,7 @@ $wgAntiSpoofMessages['pt'] = array(
 $wgAntiSpoofMessages['ro'] = array(
 	'antispoof-name-conflict' => 'Numele "$1" este prea asemănător cu un cont deja existent, "$2". Vă rugăm să alegeţi alt nume.',
 	'antispoof-name-illegal'  => 'Numele "$1" nu este permis pentru a preveni confuziile cu numele: $2. Vă rugăm să alegeţi alt nume de utilizator.',
+	'antispoof-badtype'       => 'Tip de date greşit',
 	'antispoof-empty'         => 'Şir vid',
 	'antispoof-noletters'     => 'Nu conţine nici o literă',
 );
