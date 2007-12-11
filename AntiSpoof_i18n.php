@@ -496,6 +496,18 @@ $wgAntiSpoofMessages['sr-el'] = array(
 	'antispoof-name-conflict' => 'Ime "$1" je previše slično već postojećem nalogu "$2". Molimo izaberite neko drugo ime.',
 	'antispoof-name-illegal'  => 'Ime "$1" nije dozvoljeno kako bi se sprečile zabune ili lažiranja korisničkih imena: $2. Molimo izaberite neko drugo ime.',
 );
+$wgAntiSpoofMessages['stq'] = array(
+	'antispoof-name-conflict' => 'Die wonskede Benutsernoome „$1“ glieket dän al bestoundende Benutzernamen „$2“ tou fuul. Wääl n uur Noome.',
+	'antispoof-name-illegal'  => 'Die wonskede Benutsernoome „$1“ is nit ferlööwed. Gruund: $2<br />Wääl n uur Benutsernoome.',
+	'antispoof-badtype'       => 'Ungultigen Doatentyp',
+	'antispoof-empty'         => 'Loos Fäild',
+	'antispoof-blacklisted'   => 'Änthaalt nit tousteene Teekene.',
+	'antispoof-combining'     => 'Kombinationsteeken toun Ounfang.',
+	'antispoof-unassigned'    => 'Änthaalt nit tou-oardnede of nit wonskede Teekene.',
+	'antispoof-noletters'     => 'Änthaalt neen Bouksteeuwe.',
+	'antispoof-mixedscripts'  => 'Änthaalt Teekene fon uunglieke Schriftsysteme.',
+	'antispoof-tooshort'      => 'Die kanonisierde Noome is tou kuut.',
+);
 $wgAntiSpoofMessages['su'] = array(
 	'antispoof-name-conflict' => 'Landihan "$1" mirip teuing jeung "$2" nu geus tiheula aya. Mangga pilih landihan séjén.',
 	'antispoof-name-illegal'  => 'Landihan "$1" teu diwenangkeun ngarah teu pahili jeung landihan: $2. Mangga pilih landihan séjén.',
