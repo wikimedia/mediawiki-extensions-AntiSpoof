@@ -25,6 +25,24 @@ $wgAntiSpoofMessages['ar'] = array(
 	'antispoof-mixedscripts'  => 'يحتوي خلطا بين حروف غير متوافقة',
 	'antispoof-tooshort'      => 'الاسم المستخدم قصير جدا',
 );
+
+/** Asturian (Asturianu)
+ * @author SPQRobin
+ */
+$wgAntiSpoofMessages['ast'] = array(
+	'antispoof-name-conflict' => 'El nome "$1" ye demasiao asemeyáu a la cuenta esistente "$2". Por favor, escueyi otru nome.',
+	'antispoof-name-illegal'  => 'El nome "$1" nun ta permitíu pa evitar nomes d\\\'usuariu confusos o paródicos: $2. Por favor, escueyi otru nome.',
+	'antispoof-badtype'       => 'Triba de datos incorreuta',
+	'antispoof-empty'         => 'Testu vaciu',
+	'antispoof-blacklisted'   => 'Contién un caráuter prohibíu',
+	'antispoof-combining'     => 'Empecipia con una marca combinada',
+	'antispoof-unassigned'    => 'Contién un caráuter non asignáu o obsoletu',
+	'antispoof-noletters'     => 'Nun contién nenguna lletra',
+	'antispoof-mixedscripts'  => 'Contién munchos scripts incompatibles',
+	'antispoof-tooshort'      => 'Nome canónicu demasiao curtiu',
+
+);
+
 $wgAntiSpoofMessages['bcl'] = array(
 	'antispoof-name-conflict' => 'An pangaran na "$1" kaagid na marhay sa yaon nang account "$2". Paki pilî tabî nin ibang pangaran.',
 	'antispoof-name-illegal'  => 'An parágamit na "$1" dai tinotogotan tangarig maibitaran an pagparibong o pag-arog sa "$2". Paki pilî tabî nin ibang pangaran.',
