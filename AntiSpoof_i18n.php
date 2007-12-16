@@ -40,7 +40,6 @@ $wgAntiSpoofMessages['ast'] = array(
 	'antispoof-noletters'     => 'Nun contién nenguna lletra',
 	'antispoof-mixedscripts'  => 'Contién munchos scripts incompatibles',
 	'antispoof-tooshort'      => 'Nome canónicu demasiao curtiu',
-
 );
 
 $wgAntiSpoofMessages['bcl'] = array(
