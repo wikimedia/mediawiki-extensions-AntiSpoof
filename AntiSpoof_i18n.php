@@ -305,7 +305,7 @@ $wgAntiSpoofMessages['ja'] = array(
 	'antispoof-mixedscripts'  => '互換性のない文字列の混合を含んでいます',
 	'antispoof-tooshort'      => '正規化した名前が短すぎます',
 );
-$wgAntiSpoofMessages['kk-kz'] = array(
+$wgAntiSpoofMessages['kk-cyrl'] = array(
 	'antispoof-name-conflict' => '«$1» атауы бар «$2» тіркелгіге тым ұқсас. Басқа атау таңдаңыз.',
 	'antispoof-name-illegal'  => 'Қатысушы аты шатақтауын немесе қалжындауын бөгеу үшін «$1» атауы рұқсат етілмейді: $2. Басқа атау таңдаңыз.',
 	'antispoof-badtype'       => 'Жарамсыз дерек түрі',
@@ -317,7 +317,7 @@ $wgAntiSpoofMessages['kk-kz'] = array(
 	'antispoof-mixedscripts'  => 'Ішінде сиыспайтын аралас жазу түрлері бар',
 	'antispoof-tooshort'      => 'Ережеленген атауы тым қысқа',
 );
-$wgAntiSpoofMessages['kk-tr'] = array(
+$wgAntiSpoofMessages['kk-latn'] = array(
 	'antispoof-name-conflict' => '«$1» atawı bar «$2» tirkelgige tım uqsas. Basqa ataw tañdañız.',
 	'antispoof-name-illegal'  => 'Qatıswşı atı şataqtawın nemese qaljındawın bögew üşin «$1» atawı ruqsat etilmeýdi: $2. Basqa ataw tañdañız.',
 	'antispoof-badtype'       => 'Jaramsız derek türi',
@@ -329,7 +329,7 @@ $wgAntiSpoofMessages['kk-tr'] = array(
 	'antispoof-mixedscripts'  => 'İşinde sïıspaýtın aralas jazw türleri bar',
 	'antispoof-tooshort'      => 'Erejelengen atawı tım qısqa',
 );
-$wgAntiSpoofMessages['kk-cn'] = array(
+$wgAntiSpoofMessages['kk-arab'] = array(
 	'antispoof-name-conflict' => '«$1» اتاۋى بار «$2» تٸركەلگٸگە تىم ۇقساس. باسقا اتاۋ تاڭداڭىز.',
 	'antispoof-name-illegal'  => 'قاتىسۋشى اتى شاتاقتاۋىن نەمەسە قالجىنداۋىن بٶگەۋ ٷشٸن «$1» اتاۋى رۇقسات ەتٸلمەيدٸ: $2. باسقا اتاۋ تاڭداڭىز.',
 	'antispoof-badtype'       => 'جارامسىز دەرەك تٷرٸ',
@@ -341,7 +341,6 @@ $wgAntiSpoofMessages['kk-cn'] = array(
 	'antispoof-mixedscripts'  => 'ٸشٸندە سيىسپايتىن ارالاس جازۋ تٷرلەرٸ بار',
 	'antispoof-tooshort'      => 'ەرەجەلەنگەن اتاۋى تىم قىسقا',
 );
-$wgAntiSpoofMessages['kk'] = $wgAntiSpoofMessages['kk-kz'];
 $wgAntiSpoofMessages['ko'] = array(
 	'antispoof-name-conflict' => '‘$1’ 사용자는 ‘$2’ 사용자와 이름이 너무 비슷합니다. 다른 이름으로 가입해주세요.',
 	'antispoof-name-illegal'  => '‘$1’ 사용자 이름은 다음의 이유로 인해 가입이 금지되었습니다: $2. 다른 이름으로 가입해주세요.',
@@ -596,6 +595,14 @@ $wgAntiSpoofMessages['zh-hant'] = array(
 	'antispoof-mixedscripts'  => '包含不相容混合的指令碼',
 	'antispoof-tooshort'      => '合符標準的名稱太短',
 );
+
+# Kazakh fallbacks
+$wgAntiSpoofMessages['kk-kz'] = $wgAntiSpoofMessages['kk-cyrl'];
+$wgAntiSpoofMessages['kk-tr'] = $wgAntiSpoofMessages['kk-latn'];
+$wgAntiSpoofMessages['kk-cn'] = $wgAntiSpoofMessages['kk-arab'];
+$wgAntiSpoofMessages['kk'] = $wgAntiSpoofMessages['kk-cyrl'];
+
+# Chinese fallbacks
 $wgAntiSpoofMessages['zh'] = $wgAntiSpoofMessages['zh-hans'];
 $wgAntiSpoofMessages['zh-cn'] = $wgAntiSpoofMessages['zh-hans'];
 $wgAntiSpoofMessages['zh-hk'] = $wgAntiSpoofMessages['zh-hant'];
