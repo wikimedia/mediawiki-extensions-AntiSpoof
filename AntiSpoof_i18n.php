@@ -551,6 +551,15 @@ $wgAntiSpoofMessages['sv'] = array(
 $wgAntiSpoofMessages['tg'] = array(
 	'antispoof-noletters'     => 'Ягон ҳарфҳо надорад',
 );
+
+/** Tonga (faka-Tonga)
+ * @author SPQRobin
+ */
+$wgAntiSpoofMessages['to'] = array(
+	'antispoof-name-conflict' => 'Ko e hingoa "$1" ʻoku fuʻu tatau ia ki he hingoa kau-ki-ai "$2" ʻoku moʻui. Fakamolemole fili ha hingoa kehe.',
+	'antispoof-name-illegal'  => 'Ko e hingoa "$1" ʻoku ʻikai ngofua ia koeʻuhi ko e "$2" ʻoku loi. Fakamolemole fili ha hingoa kehe.',
+);
+
 $wgAntiSpoofMessages['tr'] = array(
 	'antispoof-name-conflict' => 'Seçtiğiniz kullanıcı adı olan "$1", mevcut "$2" hesabıyla benzerlik göstermektedir. Lütfen başka bir kullanıcı adı seçiniz.',
 	'antispoof-name-illegal'  => '$2 hesabıyla karışmaması için "$1" ismine izin verilmemektedir. Lütfen başka bir kullanıcı adı seçiniz.',
