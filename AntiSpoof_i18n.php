@@ -377,6 +377,12 @@ $wgAntiSpoofMessages['lo'] = array(
 	'antispoof-mixedscripts'  => 'ມີສະກຣິບປະປົນແບບບໍ່ຖືກຕ້ອງ',
 	'antispoof-tooshort'      => 'ຊື່ຫຍໍ້ສັ້ນໂພດ',
 );
+
+/** Burmese (Myanmasa) */
+$wgAntiSpoofMessages['my'] = array(
+	'antispoof-noletters' => 'આમાં એકપણ અક્ષર નથી',
+);
+
 $wgAntiSpoofMessages['nl'] = array(
 	'antispoof-name-conflict' => 'De naam "$1" lijkt te veel op de bestaande gebruiker "$2". Kies alstublieft een andere naam.',
 	'antispoof-name-illegal'  => 'De naam "$1" is niet toegestaan om verwarring of gefingeerde gebruikersnamen te voorkomen: $2. Kies alstublieft een andere naam.',
