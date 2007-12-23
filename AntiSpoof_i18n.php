@@ -555,10 +555,12 @@ $wgAntiSpoofMessages['tg'] = array(
 
 /** Tonga (faka-Tonga)
  * @author SPQRobin
+ * @author Tauʻolunga
  */
 $wgAntiSpoofMessages['to'] = array(
 	'antispoof-name-conflict' => 'Ko e hingoa "$1" ʻoku fuʻu tatau ia ki he hingoa kau-ki-ai "$2" ʻoku moʻui. Fakamolemole fili ha hingoa kehe.',
 	'antispoof-name-illegal'  => 'Ko e hingoa "$1" ʻoku ʻikai ngofua ia koeʻuhi ko e "$2" ʻoku loi. Fakamolemole fili ha hingoa kehe.',
+	'antispoof-empty'         => 'ʻOtutohi maha',
 );
 
 $wgAntiSpoofMessages['tr'] = array(
