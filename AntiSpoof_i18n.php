@@ -305,6 +305,15 @@ $wgAntiSpoofMessages['ja'] = array(
 	'antispoof-mixedscripts'  => '互換性のない文字列の混合を含んでいます',
 	'antispoof-tooshort'      => '正規化した名前が短すぎます',
 );
+
+/** Georgian (ქართული)
+ * @author Alsandro
+ */
+$wgAntiSpoofMessages['ka'] = array(
+	'antispoof-name-conflict' => 'სახელი "$1" ძალიან მსგავსია უკვე არსებული ანგარიშის "$2". გთხოვთ სხვა სახელი აირჩიოთ.',
+	'antispoof-badtype'       => 'არასწორი მონაცემთა ტიპი',
+);
+
 $wgAntiSpoofMessages['kk-cyrl'] = array(
 	'antispoof-name-conflict' => '«$1» атауы бар «$2» тіркелгіге тым ұқсас. Басқа атау таңдаңыз.',
 	'antispoof-name-illegal'  => 'Қатысушы аты шатақтауын немесе қалжындауын бөгеу үшін «$1» атауы рұқсат етілмейді: $2. Басқа атау таңдаңыз.',
