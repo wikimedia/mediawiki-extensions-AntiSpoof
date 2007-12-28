@@ -113,6 +113,7 @@ $wgAntiSpoofMessages['de'] = array(
 	'antispoof-mixedscripts'  => 'Es sind Zeichen unterschiedlicher Schriftsysteme enthalten.',
 	'antispoof-tooshort'      => 'Der kanonisierte Name ist zu kurz.',
 );
+
 $wgAntiSpoofMessages['el'] = array(
 	'antispoof-name-conflict' => 'Το όνομα "$1" είναι πολύ παρόμοιο με τον υπάρχοντα λογαριασμό "$2". Παρακαλώ διαλέξτε ένα άλλο όνομα.',
 	'antispoof-name-illegal'  => 'Το όνομα "$1" δεν επιτρέπεται, για την αποτροπή συγκεχυμένων ή απατηλών ονομάτων χρηστών: $2. Παρακαλώ διαλέξτε ένα άλλο όνομα.',
@@ -125,16 +126,19 @@ $wgAntiSpoofMessages['el'] = array(
 	'antispoof-mixedscripts'  => 'Περιέχει ανεμιγμένους ασύμβατους χαρακτήρες γραπτού κειμένου',
 	'antispoof-tooshort'      => 'Κανονικοποιημένο όνομα πολύ μικρό',
 );
+
 $wgAntiSpoofMessages['eo'] = array(
 	'antispoof-name-conflict' => 'La nomo "$1" estas tro simila al la ekzistanta konto "$2". Bonvolu elekti alian nomon.',
 	'antispoof-blacklisted'   => 'Enhavas literojn el nigra listo',
 	'antispoof-noletters'     => 'Ne enhavas iujn literojn',
 	'antispoof-mixedscripts'  => 'Enhavas nekompatibilajn miksajn skriptojn',
 );
+
 $wgAntiSpoofMessages['es'] = array(
 	'antispoof-name-conflict' => 'El nombre "$1" es demasiado parecido a la cuenta "$2", ya existente. Por favor, elige otro nombre.',
 	'antispoof-name-illegal'  => 'Con el fin de evitar nombres confusos y suplantaciones no se permite registrar el nombre de usuario "$1": $2. Por favor, escoja otro nombre.',
 );
+
 $wgAntiSpoofMessages['eu'] = array(
 	'antispoof-name-conflict' => '"$1" izena dagoeneko existitzen den "$2" kontuaren oso antzekoa da. Beste izen bat aukeratu mesedez.',
 	'antispoof-name-illegal'  => '"$1" izena ez dago onartuta gaizkiulertuak saihesteko: $2. Beste izen bat hautatu mesedez.',
@@ -142,9 +146,11 @@ $wgAntiSpoofMessages['eu'] = array(
 	'antispoof-empty'         => 'Kate hutsa',
 	'antispoof-noletters'     => 'Ez dauka letrarik',
 );
+
 $wgAntiSpoofMessages['ext'] = array(
 	'antispoof-name-conflict' => 'El nombri "$1" es mu paiciu al de la cuenta "$2" (ya desistenti). Pol favol, lihi otru nombri.',
 );
+
 $wgAntiSpoofMessages['fi'] = array(
 	'antispoof-name-conflict' => 'Tunnus ”$1” on liian samankaltainen tunnuksen ”$2” kanssa. Valitse toinen tunnus.',
 	'antispoof-name-illegal'  => 'Tunnusta ”$1” ei sallita, koska $2. Hämäävien tai huijaustarkoitukseen sopivien tunnusten luonti on estetty. Valitse toinen tunnus.',
@@ -157,6 +163,7 @@ $wgAntiSpoofMessages['fi'] = array(
 	'antispoof-mixedscripts'  => 'se sisältää yhteensopimattomia kirjoitusjärjestelmiä',
 	'antispoof-tooshort'      => 'sen kanonisoitu muoto on liian lyhyt',
 );
+
 $wgAntiSpoofMessages['fr'] = array(
 	'antispoof-name-conflict' => 'Le nom d\'utilisateur « $1 » ressemble trop au nom existant « $2 ». Veuillez choisir un autre nom.',
 	'antispoof-name-illegal'  => 'Le nom d\'utilisateur « $1 » n’est pas autorisé pour empêcher de confondre ou d’utiliser le nom « $2 ». Veuillez choisir un autre nom.',
@@ -169,6 +176,7 @@ $wgAntiSpoofMessages['fr'] = array(
 	'antispoof-mixedscripts'  => 'Contient plusieurs scripts incompatibles',
 	'antispoof-tooshort'      => 'Nom canonique trop court',
 );
+
 $wgAntiSpoofMessages['frc'] = array(
 	'antispoof-name-conflict' => 'Le nom "$1" ressemble trop au compte "$2".  Choisissez donc un autre nom.',
 	'antispoof-name-illegal'  => 'Le nom "$1" est pas permit pour empêcher de confondre ou d\'user le nom "$2".  Choisissez donc un autre nom.',
@@ -181,6 +189,7 @@ $wgAntiSpoofMessages['frc'] = array(
 	'antispoof-mixedscripts'  => 'Contient plusieurs scripts qui s\'adonnont pas',
 	'antispoof-tooshort'      => 'Le nom choisi est trop court',
 );
+
 $wgAntiSpoofMessages['frp'] = array(
 	'antispoof-name-conflict' => 'Lo nom d’utilisator « $1 » ressemble trop u compto ègzistent « $2 ». Volyéd chouèsir/cièrdre un ôtro nom.',
 	'antispoof-name-illegal'  => 'Lo nom d’utilisator « $1 » est pas ôtorisâ por empachiér de confondre ou d’utilisar lo nom « $2 ». Volyéd chouèsir/cièrdre un ôtro nom.',
@@ -193,6 +202,7 @@ $wgAntiSpoofMessages['frp'] = array(
 	'antispoof-mixedscripts'  => 'Contint plusiors scripts encompatiblos',
 	'antispoof-tooshort'      => 'Nom canonico trop côrt',
 );
+
 $wgAntiSpoofMessages['gl'] = array(
 	'antispoof-name-conflict' => 'O nome escollido "$1" é moi parecido a "$2", un usuario que xa existe. Por favor escolla outro nome de usuario.',
 	'antispoof-name-illegal'  => 'O nome "$1" non está permitido para evitar confusións ou enganos cos seguintes nomes de usuario: $2. Por favor escolla outro nome.',
@@ -205,6 +215,12 @@ $wgAntiSpoofMessages['gl'] = array(
 	'antispoof-mixedscripts'  => 'Contén guións mesturados incompatíbeis',
 	'antispoof-tooshort'      => 'Nome curto de máis',
 );
+
+/** Gujarati (ગુજરાતી) */
+$wgAntiSpoofMessages['gu'] = array(
+	'antispoof-noletters' => 'આમાં એકપણ અક્ષર નથી',
+);
+
 $wgAntiSpoofMessages['hak'] = array(
 	'antispoof-name-conflict' => 'Yung-fu-miàng "$1" lâu yung-fu-miàng "$2" ko-thu siông-khiun. Chhiáng sṳ́-yung khì-thâ ke yung-fu-miàng.',
 	'antispoof-name-illegal'  => 'Yung-fu-miàng "$1" yi-lâu Yung-fu-miàng "$2" fun-chha̍p, yí-kîn pûn kim-chṳ́ sṳ́-yung. Chhiáng sṳ́-yung khì-thâ ke yung-fu-miàng.',
@@ -217,10 +233,12 @@ $wgAntiSpoofMessages['hak'] = array(
 	'antispoof-mixedscripts'  => 'Pâu-hàm mò siong-yùng fun-ha̍p ke chṳ́-lin',
 	'antispoof-tooshort'      => 'Ha̍p-fù phêu-chún ke miàng-chhṳ̂n thai-tón',
 );
+
 $wgAntiSpoofMessages['he'] = array(
 	'antispoof-name-conflict' => 'שם המשתמש "$1" שבחרתם דומה מדי לשם המשתמש הקיים "$2". אנא בחרו שם משתמש אחר.',
 	'antispoof-name-illegal'  => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2. אנא בחרו שם משתמש אחר.',
 );
+
 $wgAntiSpoofMessages['hr'] = array(
 	'antispoof-name-conflict' => 'Ime "$1" je preslično postojećem suradničkom imenu "$2". Molimo izaberite drugo ime/nadimak.',
 	'antispoof-name-illegal'  => 'Ime "$1" nije dozvoljeno da se spriječi moguća zamjena suradničkih nadimaka: $2. Molimo izaberite drugo ime/nadimak.',
@@ -233,6 +251,7 @@ $wgAntiSpoofMessages['hr'] = array(
 	'antispoof-mixedscripts'  => 'Nekompatibilna pisma',
 	'antispoof-tooshort'      => 'Prekratko ime',
 );
+
 $wgAntiSpoofMessages['hsb'] = array(
 	'antispoof-name-conflict' => 'Požadane wužiwarske mjeno „$1” je hižo eksistowacemu wužiwarskemu mjenu „$2” přepodobne. Prošu wubjer druhe wužiwarske mjeno.',
 	'antispoof-name-illegal'  => 'Požadane wužiwarske mjeno „$1” njeje dowolene. Přičina: $2<br />Prošu wubjer druhe wužiwarske mjeno.',
