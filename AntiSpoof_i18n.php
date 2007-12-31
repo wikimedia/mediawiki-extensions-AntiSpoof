@@ -629,6 +629,13 @@ $wgAntiSpoofMessages['uk'] = array(
 	'antispoof-name-illegal'  => "Не дозволене використання імені «$1» з метою запобігання плутанню з занадто схожими на нього іменами: $2. Будь ласка, виберіть інше ім'я.",
 );
 
+/** Volapük (Volapük)
+ * @author Malafaya
+ */
+$wgAntiSpoofMessages['vo'] = array(
+	'antispoof-empty' => 'Vödem vagik',
+);
+
 $wgAntiSpoofMessages['yue'] = array(
 	'antispoof-name-conflict' => '呢個名"$1"太似現有戶口"$2"。請揀過個名。',
 	'antispoof-name-illegal'  => '呢個名"$1"唔畀用，以預防撈亂或者冒充："$2"。請揀過個名。',
