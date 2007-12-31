@@ -51,6 +51,17 @@ $wgAntiSpoofMessages['bcl'] = array(
 	'antispoof-noletters'     => 'Mayong nakakaag na mga letra',
 	'antispoof-mixedscripts'  => 'Igwang dai angay na mga halong script',
 );
+
+/** Bulgarian (Български)
+ * @author Spiritia
+ * @author DCLXVI
+ */
+$wgAntiSpoofMessages['bg'] = array(
+	'antispoof-name-conflict' => 'Името "$1" е твърде сходно с вече съществуващата сметка на "$2". Изберете друго име.',
+	'antispoof-empty'         => 'Празен низ',
+	'antispoof-noletters'     => 'Не съдържа букви',
+);
+
 $wgAntiSpoofMessages['bn'] = array(
 	'antispoof-name-conflict' => '"$1" নামটি বিদ্যমান "$2" অ্যাকাউন্টের সাথে হুবুহু মিলে যাচ্ছে। দয়া করে অন্য নাম পছন্দ করুন।',
 	'antispoof-name-illegal'  => '"$1" নামটি, বিভ্রান্তিকর বা ধাপ্পাবাজ ব্যবহারকারী নাম: $2 কে রোধ করার অনুমতি নাই। দয়া করে অন্য নাম পছন্দ করুন।',
@@ -59,6 +70,7 @@ $wgAntiSpoofMessages['bn'] = array(
 	'antispoof-blacklisted'   => 'নিষিদ্ধ বর্ণ বা অক্ষর রয়েছে',
 	'antispoof-noletters'     => 'কোন অক্ষর বা বর্ণ নাই',
 );
+
 $wgAntiSpoofMessages['br'] = array(
 	'antispoof-name-conflict' => 'Re heñvel eo an anv "$1" ouzh hini ar gont "$2" zo anezhi dija. Dibabit un anv all mar plij.',
 	'antispoof-name-illegal'  => 'N\'eo ket aotreet ober gant an anv "$1" kuit da gemmeskañ gant un anv all pe da implijout an anv : $2. Grit gant un anv all mar plij.',
@@ -71,6 +83,7 @@ $wgAntiSpoofMessages['br'] = array(
 	'antispoof-mixedscripts'  => 'Meur a skript digenglotus zo e-barzh',
 	'antispoof-tooshort'      => 'Anv kanonek re verr',
 );
+
 $wgAntiSpoofMessages['ca'] = array(
 	'antispoof-name-conflict' => 'El nom «$1» és massa semblant al ja existent «$2». Si us plau, escolliu-ne un de nou.',
 	'antispoof-name-illegal'  => 'No està permès usar el nom «$1» per evitar confusions o falsificacions amb els noms d\'usuari: $2. Si us plau, escolliu un altre nom d\'usuari.',
@@ -83,12 +96,15 @@ $wgAntiSpoofMessages['ca'] = array(
 	'antispoof-mixedscripts'  => 'Conté una mescla incompatible d\'escriptures',
 	'antispoof-tooshort'      => 'Nom canònic massa curt',
 );
+
 $wgAntiSpoofMessages['cdo'] = array(
 	'antispoof-name-conflict' => '"$1" gì miàng ké̤ṳk ī-gĭng cé̤ṳ-cháh gì dióng-hô̤ "$2" kák chiông lāu. Chiāng uâng 1 ciáh miàng.',
 );
+
 $wgAntiSpoofMessages['co'] = array(
 	'antispoof-badtype'       => 'Tipu gattivu di dati',
 );
+
 $wgAntiSpoofMessages['cs'] = array(
 	'antispoof-name-conflict' => 'Uživatelské jméno "$1" je příliš podobné existujícímu účtu "$2". Prosím, vyberte si jiné jméno.',
 	'antispoof-name-illegal'  => 'Uživatelské jméno "$1" není povoleno vytvořit, aby se nepletlo nebo nesloužilo k napodobování uživatelského jména: $2. Prosím, vyberte si jiné jméno.',
@@ -101,6 +117,7 @@ $wgAntiSpoofMessages['cs'] = array(
 	'antispoof-mixedscripts'  => 'Obsahuje nepřípustnou kombinaci druhů písem',
 	'antispoof-tooshort'      => 'Kanonikalizované jméno je příliš krátké',
 );
+
 $wgAntiSpoofMessages['de'] = array(
 	'antispoof-name-conflict' => 'Der gewünschte Benutzername „$1“ ist dem bereits vorhandenen Benutzernamen „$2“ zu ähnlich. Bitte einen anderen Benutzernamen wählen.',
 	'antispoof-name-illegal'  => 'Der gewünschte Benutzername „$1“ ist nicht erlaubt. Grund: $2<br />Bitte einen anderen Benutzernamen wählen.',
