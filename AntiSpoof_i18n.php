@@ -54,13 +54,15 @@ $wgAntiSpoofMessages['bcl'] = array(
 
 /** Bulgarian (Български)
  * @author Spiritia
- * @author DCLXVI
+ * @author Borislav
  */
 $wgAntiSpoofMessages['bg'] = array(
-	'antispoof-name-conflict' => 'Името "$1" е твърде сходно с вече съществуващата сметка на "$2". Изберете друго име.',
+	'antispoof-name-conflict' => 'Името „$1“ е твърде сходно с вече съществуващата сметка „$2“. Моля, изберете друго име!',
+	'antispoof-name-illegal'  => 'Името „$1“ не е разрешено за защита от объркване или злоупотреби с имена: $2. Моля, изберете друго име!',
 	'antispoof-empty'         => 'Празен низ',
 	'antispoof-noletters'     => 'Не съдържа букви',
 );
+
 
 $wgAntiSpoofMessages['bn'] = array(
 	'antispoof-name-conflict' => '"$1" নামটি বিদ্যমান "$2" অ্যাকাউন্টের সাথে হুবুহু মিলে যাচ্ছে। দয়া করে অন্য নাম পছন্দ করুন।',
@@ -207,16 +209,19 @@ $wgAntiSpoofMessages['frc'] = array(
 	'antispoof-tooshort'      => 'Le nom choisi est trop court',
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
 $wgAntiSpoofMessages['frp'] = array(
 	'antispoof-name-conflict' => 'Lo nom d’utilisator « $1 » ressemble trop u compto ègzistent « $2 ». Volyéd chouèsir/cièrdre un ôtro nom.',
 	'antispoof-name-illegal'  => 'Lo nom d’utilisator « $1 » est pas ôtorisâ por empachiér de confondre ou d’utilisar lo nom « $2 ». Volyéd chouèsir/cièrdre un ôtro nom.',
 	'antispoof-badtype'       => 'Môvés tipo de balyês',
 	'antispoof-empty'         => 'Chêna voueda',
-	'antispoof-blacklisted'   => 'Contint un caractèro dèfendu',
-	'antispoof-combining'     => 'Comence avouéc una mârca combinâ',
-	'antispoof-unassigned'    => 'Contint un caractèro pas assignê ou pas més utilisâ',
-	'antispoof-noletters'     => 'Contint gins de lètra',
-	'antispoof-mixedscripts'  => 'Contint plusiors scripts encompatiblos',
+	'antispoof-blacklisted'   => 'Contint un caractèro dèfendu.',
+	'antispoof-combining'     => 'Comence avouéc una mârca combinâ.',
+	'antispoof-unassigned'    => 'Contint un caractèro pas assignê ou pas més utilisâ.',
+	'antispoof-noletters'     => 'Contint gins de lètra.',
+	'antispoof-mixedscripts'  => 'Contint plusiors scripts que vont pas avouéc.',
 	'antispoof-tooshort'      => 'Nom canonico trop côrt',
 );
 
@@ -399,6 +404,17 @@ $wgAntiSpoofMessages['la'] = array(
 	'antispoof-name-conflict' => 'Nomen "$1" est nimis simile rationi "$2". Selige nomen alterum.',
 	'antispoof-name-illegal'  => 'Non licet uti nomine "$1" ad nominum usorum simulationem prohibendam: $2. Selige nomen alterum.',
 );
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$wgAntiSpoofMessages['lb'] = array(
+	'antispoof-empty'     => 'Eidelt Feld',
+	'antispoof-combining' => 'Fänkt mat engem Kombinatiounszeechen un.',
+	'antispoof-noletters' => 'Et si keng Buchstawen dran.',
+	'antispoof-tooshort'  => 'De kanoniséierten Numm ass ze kuerz.',
+);
+
 $wgAntiSpoofMessages['lt'] = array(
 	'antispoof-name-conflict' => 'Vardas "$1" yra per daug panašus į jau esančią paskyrą "$2". Prašome pasirinkti kitą vardą.',
 	'antispoof-name-illegal'  => 'Vardas "$1" neleidžiamas, kad būtų apsisaugota nuo apgaulingų ar parodijuotų naudotojų vardų: $2. Prašome pasirinkti kitą vardą.',
