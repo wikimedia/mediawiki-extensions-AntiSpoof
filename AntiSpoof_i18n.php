@@ -409,10 +409,16 @@ $wgAntiSpoofMessages['la'] = array(
  * @author Robby
  */
 $wgAntiSpoofMessages['lb'] = array(
-	'antispoof-empty'     => 'Eidelt Feld',
-	'antispoof-combining' => 'Fänkt mat engem Kombinatiounszeechen un.',
-	'antispoof-noletters' => 'Et si keng Buchstawen dran.',
-	'antispoof-tooshort'  => 'De kanoniséierten Numm ass ze kuerz.',
+	'antispoof-name-conflict' => 'De gewënschte Benotzernumm "$1" ass dem Bemnotzernumm "$2" deen et scho gëtt ze ähnlech. Sicht iech w.e.g. een anere Benotzernumm.',
+	'antispoof-name-illegal'  => 'De gewënschte Benotzernumm "$1" ass net erlaabt. Grond: $2<br \\>
+Sicht iech w.e.g. een anere Benotzernumm.',
+	'antispoof-badtype'       => 'Ongültegt Fichiers-Format (bad data type)',
+	'antispoof-empty'         => 'Eidelt Feld',
+	'antispoof-blacklisted'   => 'Et si verbueden Zeechen (Caractèren) dran.',
+	'antispoof-combining'     => 'Fänkt mat engem Kombinatiounszeechen un.',
+	'antispoof-unassigned'    => 'Et sinn nët zougeuerdent oder onerwéinschten Zeechen (Caractèren) dran.',
+	'antispoof-noletters'     => 'Et si keng Buchstawen dran.',
+	'antispoof-tooshort'      => 'De kanoniséierten Numm ass ze kuerz.',
 );
 
 $wgAntiSpoofMessages['lt'] = array(
