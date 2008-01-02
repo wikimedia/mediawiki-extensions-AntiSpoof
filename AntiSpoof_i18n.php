@@ -655,7 +655,8 @@ $wgAntiSpoofMessages['uk'] = array(
  * @author Malafaya
  */
 $wgAntiSpoofMessages['vo'] = array(
-	'antispoof-empty' => 'Vödem vagik',
+	'antispoof-empty'     => 'Vödem vagik',
+	'antispoof-noletters' => 'No ninädon tonatis alseimik',
 );
 
 $wgAntiSpoofMessages['yue'] = array(
