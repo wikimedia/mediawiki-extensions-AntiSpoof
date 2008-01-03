@@ -137,6 +137,17 @@ $wgAntiSpoofMessages['cs'] = array(
 	'antispoof-tooshort'      => 'Kanonikalizované jméno je příliš krátké',
 );
 
+/** Danish (Dansk)
+ * @author Morten LJ
+ */
+$wgAntiSpoofMessages['da'] = array(
+	'antispoof-name-conflict' => 'Navnet "$1" minder for meget om den eksisterende konto "$2". Vælg venligst et andet navn.',
+	'antispoof-name-illegal'  => 'Navnet "$1" er ikke tilladt for at forhindre forvirrende eller efterlignede brugernavne: $2. Vælg venligst et andet navn.',
+	'antispoof-badtype'       => 'Forkert datatype',
+	'antispoof-blacklisted'   => 'Indeholder sortlistet tegn',
+	'antispoof-noletters'     => 'Indeholder ikke bogstaver',
+);
+
 $wgAntiSpoofMessages['de'] = array(
 	'antispoof-name-conflict' => 'Der gewünschte Benutzername „$1“ ist dem bereits vorhandenen Benutzernamen „$2“ zu ähnlich. Bitte einen anderen Benutzernamen wählen.',
 	'antispoof-name-illegal'  => 'Der gewünschte Benutzername „$1“ ist nicht erlaubt. Grund: $2<br />Bitte einen anderen Benutzernamen wählen.',
