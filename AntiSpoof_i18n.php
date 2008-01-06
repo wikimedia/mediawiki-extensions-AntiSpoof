@@ -198,6 +198,21 @@ $wgAntiSpoofMessages['ext'] = array(
 	'antispoof-name-conflict' => 'El nombri "$1" es mu paiciu al de la cuenta "$2" (ya desistenti). Pol favol, lihi otru nombri.',
 );
 
+# فارسی (Huji)
+$wgAntiSpoofMessages['fa'] = array(
+	'antispoof-name-conflict' => 'نام «$1» بیش از حد شبیه حسابِ کاربری «$2» است که از قبل موجود است. لطفاً نام دیگری برگزینید.',
+	'antispoof-name-illegal'  => 'نام «$1» به دلیل جلوگیری از نام‌های کاربری سردرگم‌کننده یا مسخره مجاز نیست: $2. لطفاً نام دیگری انتخاب کنید.',
+	'antispoof-badtype'       => 'نوع داده نامناسب',
+	'antispoof-empty'         => 'رشته خالی',
+	'antispoof-blacklisted'   => 'حاوی نویسه‌هایی است که در فهرست سیاه قرار دارند',
+	'antispoof-combining'     => 'با علامت جمع شروع می‌شود',
+	'antispoof-unassigned'    => 'حاوی نویسه‌های تعیین نشده یا نامناسب است',
+	'antispoof-noletters'     => 'دربردارندهٔ هیچ حرفی نیست.',
+	'antispoof-mixedscripts'  => 'حاوی نویسه‌های مختلط ناسازگار است',
+	'antispoof-tooshort'      => 'نام متعارف خیلی کوتاه است',
+
+);
+
 $wgAntiSpoofMessages['fi'] = array(
 	'antispoof-name-conflict' => 'Tunnus ”$1” on liian samankaltainen tunnuksen ”$2” kanssa. Valitse toinen tunnus.',
 	'antispoof-name-illegal'  => 'Tunnusta ”$1” ei sallita, koska $2. Hämäävien tai huijaustarkoitukseen sopivien tunnusten luonti on estetty. Valitse toinen tunnus.',
