@@ -458,6 +458,22 @@ Sicht iech w.e.g. een anere Benotzernumm.',
 	'antispoof-tooshort'      => 'De kanoniséierten Numm ass ze kuerz.',
 );
 
+/** Limburgish (Limburgs)
+ * @author Ooswesthoesbes
+ */
+$wgAntiSpoofMessages['li'] = array(
+	'antispoof-name-conflict' => 'De naam "$1" liek te zeer op de bestaondje gebroeker "$2". Kees estebleef \'ne angere naam.',
+	'antispoof-name-illegal'  => 'De naam "$1" is net toegestaon óm verwarring of vervörmdje gebroekersname te veurkómme: $2. Kees estebleef \'ne angere naam.',
+	'antispoof-badtype'       => 'Verkeerd datatype',
+	'antispoof-empty'         => 'Laege string',
+	'antispoof-blacklisted'   => 'Bevat verbaoje karakter',
+	'antispoof-combining'     => "Begint mit 'n gecombineerd merkteike",
+	'antispoof-unassigned'    => 'Bevat neet toegeweze of verajerdj karakter',
+	'antispoof-noletters'     => 'Bevat gein letters',
+	'antispoof-mixedscripts'  => 'Bevat neet compatibele sjrifter.',
+	'antispoof-tooshort'      => 'Aafgekorte naam te kort',
+);
+
 $wgAntiSpoofMessages['lt'] = array(
 	'antispoof-name-conflict' => 'Vardas "$1" yra per daug panašus į jau esančią paskyrą "$2". Prašome pasirinkti kitą vardą.',
 	'antispoof-name-illegal'  => 'Vardas "$1" neleidžiamas, kad būtų apsisaugota nuo apgaulingų ar parodijuotų naudotojų vardų: $2. Prašome pasirinkti kitą vardą.',
@@ -530,12 +546,16 @@ $wgAntiSpoofMessages['oc'] = array(
 	'antispoof-tooshort'      => 'Nom canonic tròp cort',
 );
 
+/** Polish (Polski)
+ * @author Derbeth
+ * @author Sp5uhe
+ */
 $wgAntiSpoofMessages['pl'] = array(
-	'antispoof-name-conflict' => 'Nazwa "$1" jest zbyt podobna do nazwy innego użytkownika ($2). Proszę wybrać inną nazwę konta.',
-	'antispoof-name-illegal'  => 'Nazwa "$1" nie może być użyta ze względu na podobieństwo do nazwy innego użytkownika ($2). Proszę wybrać inną nazwę.',
+	'antispoof-name-conflict' => 'Proszę wybrać inną nazwę, ponieważ "$1" jest zbyt podobna do nazwy innego użytkownika ($2).',
+	'antispoof-name-illegal'  => 'Proszę wybrać inną nazwę, ponieważ "$1" nie może być użyta ze względu na podobieństwo do nazwy innego użytkownika ($2).',
 	'antispoof-badtype'       => 'Zły typ danych',
-	'antispoof-empty'         => 'Pusty napis',
-	'antispoof-blacklisted'   => 'Zawiera znak z czarnej listy',
+	'antispoof-empty'         => 'Pusty ciąg znaków',
+	'antispoof-blacklisted'   => 'Zawiera niedozwolone znaki',
 	'antispoof-combining'     => 'Zaczyna się od łącznika',
 	'antispoof-unassigned'    => 'Zawiera nieprzypisany lub wycofany znak',
 	'antispoof-noletters'     => 'Nie zawiera liter',
