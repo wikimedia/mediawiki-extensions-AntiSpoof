@@ -45,10 +45,11 @@ $wgAntiSpoofMessages['ar'] = array(
 
 /** Asturian (Asturianu)
  * @author SPQRobin
+ * @author Esbardu
  */
 $wgAntiSpoofMessages['ast'] = array(
 	'antispoof-name-conflict' => 'El nome "$1" ye demasiao asemeyáu a la cuenta esistente "$2". Por favor, escueyi otru nome.',
-	'antispoof-name-illegal'  => 'El nome "$1" nun ta permitíu pa evitar nomes d\\\'usuariu confusos o paródicos: $2. Por favor, escueyi otru nome.',
+	'antispoof-name-illegal'  => 'Nun se permite\'l nome "$1" pa evitar nomes d\'usuariu confusos o paródicos: $2. Por favor escueyi otru nome.',
 	'antispoof-badtype'       => 'Triba de datos incorreuta',
 	'antispoof-empty'         => 'Testu vaciu',
 	'antispoof-blacklisted'   => 'Contién un caráuter prohibíu',
