@@ -87,14 +87,21 @@ $messages['bg'] = array(
 	'antispoof-noletters'     => 'Не съдържа букви',
 );
 
-
+/** Bengali (বাংলা)
+ * @author Bellayet
+ * @author Zaheen
+ */
 $messages['bn'] = array(
 	'antispoof-name-conflict' => '"$1" নামটি বিদ্যমান "$2" অ্যাকাউন্টের সাথে হুবুহু মিলে যাচ্ছে। দয়া করে অন্য নাম পছন্দ করুন।',
 	'antispoof-name-illegal'  => '"$1" নামটি, বিভ্রান্তিকর বা ধাপ্পাবাজ ব্যবহারকারী নাম: $2 কে রোধ করার অনুমতি নাই। দয়া করে অন্য নাম পছন্দ করুন।',
 	'antispoof-badtype'       => 'তথ্যের ধরণ ঠিক নাই',
 	'antispoof-empty'         => 'খালি স্ট্রিং',
 	'antispoof-blacklisted'   => 'নিষিদ্ধ বর্ণ বা অক্ষর রয়েছে',
+	'antispoof-combining'     => 'সংযোগসূচক চিহ্ন দিয়ে শুরু হয়েছে',
+	'antispoof-unassigned'    => 'অপ্রযুক্ত বা অননুমোদিত ক্যারেক্টার ধারণ করে',
 	'antispoof-noletters'     => 'কোন অক্ষর বা বর্ণ নাই',
+	'antispoof-mixedscripts'  => 'বেমানান স্ক্রিপ্টের মিশ্রণ ধারণ করে',
+	'antispoof-tooshort'      => 'সূত্রায়িত নাম খুব সংক্ষিপ্ত',
 );
 
 $messages['br'] = array(
@@ -409,6 +416,19 @@ $messages['ka'] = array(
 	'antispoof-badtype'       => 'არასწორი მონაცემთა ტიპი',
 );
 
+$messages['kk-arab'] = array(
+	'antispoof-name-conflict' => '«$1» اتاۋى بار «$2» تٸركەلگٸگە تىم ۇقساس. باسقا اتاۋ تاڭداڭىز.',
+	'antispoof-name-illegal'  => 'قاتىسۋشى اتى شاتاقتاۋىن نەمەسە قالجىنداۋىن بٶگەۋ ٷشٸن «$1» اتاۋى رۇقسات ەتٸلمەيدٸ: $2. باسقا اتاۋ تاڭداڭىز.',
+	'antispoof-badtype'       => 'جارامسىز دەرەك تٷرٸ',
+	'antispoof-empty'         => 'بوس جول',
+	'antispoof-blacklisted'   => 'قارا تٸزٸمگە كٸرگەن ٵرٸپ بار',
+	'antispoof-combining'     => 'قۇرامدى بەلگٸمەن باستالعان',
+	'antispoof-unassigned'    => 'تاعايىندالماعان نەمەسە تىيىلعان ٵرٸپ بار',
+	'antispoof-noletters'     => 'ٸشٸندە ەشبٸر ٵرٸپ جوق',
+	'antispoof-mixedscripts'  => 'ٸشٸندە سيىسپايتىن ارالاس جازۋ تٷرلەرٸ بار',
+	'antispoof-tooshort'      => 'ەرەجەلەنگەن اتاۋى تىم قىسقا',
+);
+
 $messages['kk-cyrl'] = array(
 	'antispoof-name-conflict' => '«$1» атауы бар «$2» тіркелгіге тым ұқсас. Басқа атау таңдаңыз.',
 	'antispoof-name-illegal'  => 'Қатысушы аты шатақтауын немесе қалжындауын бөгеу үшін «$1» атауы рұқсат етілмейді: $2. Басқа атау таңдаңыз.',
@@ -433,19 +453,6 @@ $messages['kk-latn'] = array(
 	'antispoof-noletters'     => 'İşinde eşbir ärip joq',
 	'antispoof-mixedscripts'  => 'İşinde sïıspaýtın aralas jazw türleri bar',
 	'antispoof-tooshort'      => 'Erejelengen atawı tım qısqa',
-);
-
-$messages['kk-arab'] = array(
-	'antispoof-name-conflict' => '«$1» اتاۋى بار «$2» تٸركەلگٸگە تىم ۇقساس. باسقا اتاۋ تاڭداڭىز.',
-	'antispoof-name-illegal'  => 'قاتىسۋشى اتى شاتاقتاۋىن نەمەسە قالجىنداۋىن بٶگەۋ ٷشٸن «$1» اتاۋى رۇقسات ەتٸلمەيدٸ: $2. باسقا اتاۋ تاڭداڭىز.',
-	'antispoof-badtype'       => 'جارامسىز دەرەك تٷرٸ',
-	'antispoof-empty'         => 'بوس جول',
-	'antispoof-blacklisted'   => 'قارا تٸزٸمگە كٸرگەن ٵرٸپ بار',
-	'antispoof-combining'     => 'قۇرامدى بەلگٸمەن باستالعان',
-	'antispoof-unassigned'    => 'تاعايىندالماعان نەمەسە تىيىلعان ٵرٸپ بار',
-	'antispoof-noletters'     => 'ٸشٸندە ەشبٸر ٵرٸپ جوق',
-	'antispoof-mixedscripts'  => 'ٸشٸندە سيىسپايتىن ارالاس جازۋ تٷرلەرٸ بار',
-	'antispoof-tooshort'      => 'ەرەجەلەنگەن اتاۋى تىم قىسقا',
 );
 
 $messages['ko'] = array(
@@ -476,7 +483,7 @@ Sicht iech w.e.g. een anere Benotzernumm.',
 	'antispoof-blacklisted'   => 'Et si verbueden Zeechen (Caractèren) dran.',
 	'antispoof-combining'     => 'Fänkt mat engem Kombinatiounszeechen un.',
 	'antispoof-unassigned'    => 'Et sinn nët zougeuerdent oder onerwéinschten Zeechen (Caractèren) dran.',
-	'antispoof-noletters'     => 'Et si keng Buchstawen dran.',
+	'antispoof-noletters'     => 'Et si keng Buschstawen dran.',
 	'antispoof-tooshort'      => 'De kanoniséierten Numm ass ze kuerz.',
 );
 
@@ -496,6 +503,18 @@ $messages['li'] = array(
 	'antispoof-tooshort'      => 'Aafgekorte naam te kort',
 );
 
+$messages['lo'] = array(
+	'antispoof-name-conflict' => 'ຊື່ "$1" ຄ້າຍຄືກັບ ບັນຊີ "$2" ທີ່ມີຢູ່ແລ້ວ ໂພດ. ກະລຸນາ ເລືອກ ຊື່ອື່ນ.',
+	'antispoof-name-illegal'  => 'ບໍ່ສາມາດອະນຸຍາດ ຊື່ "$1" ໄດ້ ເພີ່ມຫຼີກລ້ຽງ ການສັບສົນ ກັບ : $2. ກະລຸນາເລືອກຊື່ອື່ນ.',
+	'antispoof-badtype'       => 'ປະເພດ ຂໍ້ມູນ ບໍ່ຖືກຕ້ອງ',
+	'antispoof-empty'         => 'ບໍ່ມີໂຕໜັງສື',
+	'antispoof-blacklisted'   => 'ມີໂຕໜັງສືໃນບັນຊີດຳ',
+	'antispoof-combining'     => 'ເລີ່ມຕົ້ນດ້ວຍເຄື່ອງໝາຍປະສົມ',
+	'antispoof-noletters'     => 'ບໍ່ມີໂຕໜັງສື',
+	'antispoof-mixedscripts'  => 'ມີສະກຣິບປະປົນແບບບໍ່ຖືກຕ້ອງ',
+	'antispoof-tooshort'      => 'ຊື່ຫຍໍ້ສັ້ນໂພດ',
+);
+
 $messages['lt'] = array(
 	'antispoof-name-conflict' => 'Vardas "$1" yra per daug panašus į jau esančią paskyrą "$2". Prašome pasirinkti kitą vardą.',
 	'antispoof-name-illegal'  => 'Vardas "$1" neleidžiamas, kad būtų apsisaugota nuo apgaulingų ar parodijuotų naudotojų vardų: $2. Prašome pasirinkti kitą vardą.',
@@ -507,18 +526,6 @@ $messages['lt'] = array(
 	'antispoof-noletters'     => 'Nėra nei vienos raidės',
 	'antispoof-mixedscripts'  => 'Turi nepalaikomų įvairių rašmenų',
 	'antispoof-tooshort'      => 'Kanonizuotas vardas per trumpas',
-);
-
-$messages['lo'] = array(
-	'antispoof-name-conflict' => 'ຊື່ "$1" ຄ້າຍຄືກັບ ບັນຊີ "$2" ທີ່ມີຢູ່ແລ້ວ ໂພດ. ກະລຸນາ ເລືອກ ຊື່ອື່ນ.',
-	'antispoof-name-illegal'  => 'ບໍ່ສາມາດອະນຸຍາດ ຊື່ "$1" ໄດ້ ເພີ່ມຫຼີກລ້ຽງ ການສັບສົນ ກັບ : $2. ກະລຸນາເລືອກຊື່ອື່ນ.',
-	'antispoof-badtype'       => 'ປະເພດ ຂໍ້ມູນ ບໍ່ຖືກຕ້ອງ',
-	'antispoof-empty'         => 'ບໍ່ມີໂຕໜັງສື',
-	'antispoof-blacklisted'   => 'ມີໂຕໜັງສືໃນບັນຊີດຳ',
-	'antispoof-combining'     => 'ເລີ່ມຕົ້ນດ້ວຍເຄື່ອງໝາຍປະສົມ',
-	'antispoof-noletters'     => 'ບໍ່ມີໂຕໜັງສື',
-	'antispoof-mixedscripts'  => 'ມີສະກຣິບປະປົນແບບບໍ່ຖືກຕ້ອງ',
-	'antispoof-tooshort'      => 'ຊື່ຫຍໍ້ສັ້ນໂພດ',
 );
 
 /** Low German (Plattdüütsch)
@@ -671,9 +678,13 @@ $messages['sk'] = array(
 	'antispoof-tooshort'      => 'Meno prevedené do kanonického tvaru je príliš krátke',
 );
 
+/** ћирилица (ћирилица)
+ * @author Sasa Stefanovic
+ */
 $messages['sr-ec'] = array(
 	'antispoof-name-conflict' => 'Име "$1" је превише слично већ постојећем налогу "$2". Молимо изаберите неко друго име.',
 	'antispoof-name-illegal'  => 'Име "$1" није дозвољено како би се спречиле забуне или лажирања корисничких имена: $2. Молимо изаберите неко друго име.',
+	'antispoof-noletters'     => 'Не садржи ни једно слово',
 );
 
 $messages['sr-el'] = array(
@@ -794,13 +805,11 @@ $messages['zh-hant'] = array(
 	'antispoof-tooshort'      => '合符標準的名稱太短',
 );
 
-# Kazakh fallbacks
+$messages['kk'] = $messages['kk-cyrl'];
+$messages['kk-cn'] = $messages['kk-arab'];
 $messages['kk-kz'] = $messages['kk-cyrl'];
 $messages['kk-tr'] = $messages['kk-latn'];
-$messages['kk-cn'] = $messages['kk-arab'];
-$messages['kk'] = $messages['kk-cyrl'];
 
-# Chinese fallbacks
 $messages['zh'] = $messages['zh-hans'];
 $messages['zh-cn'] = $messages['zh-hans'];
 $messages['zh-hk'] = $messages['zh-hant'];
