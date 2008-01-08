@@ -17,9 +17,9 @@ while( $row = $dbr->fetchObject( $result ) ) {
 	if( $n++ % $batchSize == 0 ) {
 		echo "$wgDBname $n\n";
 	}
-	
+
 	$items[] = new SpoofUser( $row->user_name );
-	
+
 	if( $n % $batchSize == 0 ) {
 		SpoofUser::batchRecord( $items );
 		$items = array();
@@ -28,5 +28,3 @@ while( $row = $dbr->fetchObject( $result ) ) {
 SpoofUser::batchRecord( $items );
 echo "$wgDBname $n done.\n";
 $dbr->freeResult( $result );
-
-

@@ -13,7 +13,7 @@ class SpoofUser {
 			$this->mError = $normalized;
 		}
 	}
-	
+
 	/**
 	 * Does the username pass Unicode legality and script-mixing checks?
 	 * @return bool
@@ -21,30 +21,30 @@ class SpoofUser {
 	public function isLegal() {
 		return $this->mLegal;
 	}
-	
+
 	/**
 	 * Describe the error.
 	 */
 	public function getError() {
 		return $this->mError;
 	}
-	
+
 	/**
 	 * Get the normalized key form
 	 */
 	public function getNormalized() {
 		return $this->mNormalized;
 	}
-	
+
 	/**
 	 * Does the username pass Unicode legality and script-mixing checks?
-	 * 
+	 *
 	 * @return mixed false if no conflict, or string with conflicting username
 	 */
 	public function getConflict() {
 		if( $this->isLegal() ) {
 			$dbr = wfGetDB( DB_SLAVE );
-			
+
 			// Join against the user table to ensure that we skip stray
 			// entries left after an account is renamed or otherwise munged.
 			$row = $dbr->selectRow(
@@ -55,7 +55,7 @@ class SpoofUser {
 					'su_name=user_name',
 				),
 				__METHOD__ );
-			
+
 			if( $row ) {
 				return $row->user_name;
 			} else {
@@ -65,7 +65,7 @@ class SpoofUser {
 			return false;
 		}
 	}
-	
+
 	/**
 	 * Record the username's normalized form into the database
 	 * for later comparison of future names...
@@ -73,7 +73,7 @@ class SpoofUser {
 	public function record() {
 		return self::batchRecord( array( $this ) );
 	}
-	
+
 	private function insertFields() {
 		return array(
 			'su_name'       => $this->mName,
@@ -82,7 +82,7 @@ class SpoofUser {
 			'su_error'      => $this->mError,
 		);
 	}
-	
+
 	/**
 	 * Insert a batch of spoof normalization records into the database.
 	 * @param $items array of SpoofUser
@@ -104,4 +104,3 @@ class SpoofUser {
 		}
 	}
 }
-

@@ -2,11 +2,13 @@
 
 $wgExtensionCredits['other'][] = array(
 	'name' => 'AntiSpoof',
+	'version' => '2008-01-08',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:AntiSpoof',
 	'author' => 'Brion Vibber',
-	'description' => 'Blocks the creation of accounts with mixed-script,
-		confusing and similar usernames',
+	'description' => 'Blocks the creation of accounts with mixed-script, confusing and similar usernames',
 );
+
+$wgExtensionMessagesFiles['AntiSpoof'] = dirname(__FILE__) . '/AntiSpoof.i18n.php';
 
 /**
  * Set this to false to disable the active checks;
@@ -31,20 +33,16 @@ $wgHooks['LoadExtensionSchemaUpdates'][] = 'asUpdateSchema';
 
 function asSetup() {
 	$base = dirname( __FILE__ );
-	
+
 	global $wgAutoloadClasses;
 	$wgAutoloadClasses['AntiSpoof'] = "$base/AntiSpoof_body.php";
 	$wgAutoloadClasses['SpoofUser'] = "$base/SpoofUser.php";
-	
+
 	global $wgHooks;
 	$wgHooks['AbortNewAccount'][] = 'asAbortNewAccountHook';
 	$wgHooks['AddNewAccount'][] = 'asAddNewAccountHook';
-	
-	global $wgMessageCache, $wgAntiSpoofMessages;
-	require "$base/AntiSpoof_i18n.php";
-	foreach( $wgAntiSpoofMessages as $lang => $messages ) {
-		$wgMessageCache->addMessages( $messages, $lang );
-	}
+
+	wfLoadExtensionMessages( 'AntiSpoof' );
 }
 
 function asUpdateSchema() {
@@ -63,7 +61,7 @@ function asUpdateSchema() {
  */
 function asAbortNewAccountHook( $user, &$message ) {
 	global $wgAntiSpoofAccounts, $wgUser;
-	
+
 	if( !$wgAntiSpoofAccounts ) {
 		$mode = 'LOGGING ';
 		$active = false;
@@ -74,7 +72,7 @@ function asAbortNewAccountHook( $user, &$message ) {
 		$mode = '';
 		$active = true;
 	}
-	
+
 	$name = $user->getName();
 	$spoof = new SpoofUser( $name );
 	if( $spoof->isLegal() ) {
@@ -108,4 +106,3 @@ function asAddNewAccountHook( $user ) {
 	$spoof->record();
 	return true;
 }
-
