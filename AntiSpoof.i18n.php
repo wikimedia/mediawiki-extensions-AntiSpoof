@@ -665,9 +665,12 @@ $messages['scn'] = array(
 	'antispoof-tooshort'      => 'Nomu \'n forma canonica troppu curtu',
 );
 
+/** Slovak (Slovenčina)
+ * @author Helix84
+ */
 $messages['sk'] = array(
-	'antispoof-name-conflict' => 'Meno "$1" je príliš podobné názvu existujúceho účtu "$2". Zvoľte si prosím iné.',
-	'antispoof-name-illegal'  => 'Meno "$1" nie je povolené, aby sa zabránilo náhodnému alebo zámernému pomýleniu mien používateľov: $2. Zvoľte si prosím iné meno.',
+	'antispoof-name-conflict' => 'Meno „$1“ je príliš podobné názvu existujúceho účtu „$2“. Zvoľte si prosím iné.',
+	'antispoof-name-illegal'  => 'Meno „$1“ nie je povolené, aby sa zabránilo náhodnému alebo zámernému pomýleniu mien používateľov: $2. Zvoľte si prosím iné meno.',
 	'antispoof-badtype'       => 'Nesprávny typ dát',
 	'antispoof-empty'         => 'Prázdny reťazec',
 	'antispoof-blacklisted'   => 'Obsahuje znak zo zoznamu zakázaných',
@@ -809,7 +812,6 @@ $messages['kk'] = $messages['kk-cyrl'];
 $messages['kk-cn'] = $messages['kk-arab'];
 $messages['kk-kz'] = $messages['kk-cyrl'];
 $messages['kk-tr'] = $messages['kk-latn'];
-
 $messages['zh'] = $messages['zh-hans'];
 $messages['zh-cn'] = $messages['zh-hans'];
 $messages['zh-hk'] = $messages['zh-hant'];
