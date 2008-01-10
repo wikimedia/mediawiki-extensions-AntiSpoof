@@ -41,8 +41,6 @@ function asSetup() {
 	global $wgHooks;
 	$wgHooks['AbortNewAccount'][] = 'asAbortNewAccountHook';
 	$wgHooks['AddNewAccount'][] = 'asAddNewAccountHook';
-
-	wfLoadExtensionMessages( 'AntiSpoof' );
 }
 
 function asUpdateSchema() {
@@ -61,6 +59,7 @@ function asUpdateSchema() {
  */
 function asAbortNewAccountHook( $user, &$message ) {
 	global $wgAntiSpoofAccounts, $wgUser;
+	wfLoadExtensionMessages( 'AntiSpoof' );
 
 	if( !$wgAntiSpoofAccounts ) {
 		$mode = 'LOGGING ';
