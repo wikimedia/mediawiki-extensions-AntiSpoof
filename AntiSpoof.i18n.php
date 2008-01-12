@@ -575,6 +575,16 @@ $messages['oc'] = array(
 	'antispoof-tooshort'      => 'Nom canonic tròp cort',
 );
 
+/** Pangasinan (Pangasinan)
+ * @author SPQRobin
+ */
+$messages['pag'] = array(
+	'antispoof-name-conflict' => 'Say ngaran ya "$1" parparehas ed agawa lan account ya "$2". Manpili kayo komon ya doman ngaran.',
+	'antispoof-empty'         => 'String ya Andilugan',
+	'antispoof-blacklisted'   => 'Walay laman ton bawal ya character',
+	'antispoof-noletters'     => 'Anggapoy laman ton letra',
+);
+
 /** Polish (Polski)
  * @author Derbeth
  * @author Sp5uhe
