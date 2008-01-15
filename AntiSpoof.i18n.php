@@ -818,6 +818,8 @@ $messages['zh-hant'] = array(
 	'antispoof-tooshort'      => '合符標準的名稱太短',
 );
 
+# Fallbacks:
+$messages['de-formal'] = $messages['de'];
 $messages['kk'] = $messages['kk-cyrl'];
 $messages['kk-cn'] = $messages['kk-arab'];
 $messages['kk-kz'] = $messages['kk-cyrl'];
