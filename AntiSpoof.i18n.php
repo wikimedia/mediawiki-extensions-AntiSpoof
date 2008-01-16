@@ -635,6 +635,16 @@ $messages['pt'] = array(
 	'antispoof-tooshort'      => 'Nome muito curto',
 );
 
+/** Quechua (Runa Simi)
+ * @author AlimanRuna
+ */
+$messages['qu'] = array(
+	'antispoof-name-conflict' => 'Nisqayki "$1" sutiqa kachkaqña rakiqunap "$2" sutinmanmi nisyuta rikch\'akuchkan. Ama hina kaspa, huk sutita akllay.',
+	'antispoof-name-illegal'  => 'Nisqayki "$1" sutiqa manam saqillasqachu, suti pantachiyta hark\'anapaq: "$2". Ama hina kaspa, huk sutita akllay.',
+	'antispoof-badtype'       => 'Willa layaqa manam allinchu',
+	'antispoof-empty'         => "Ch'usaq qillqa",
+);
+
 $messages['ro'] = array(
 	'antispoof-name-conflict' => 'Numele "$1" este prea asemănător cu un cont deja existent, "$2". Vă rugăm să alegeţi alt nume.',
 	'antispoof-name-illegal'  => 'Numele "$1" nu este permis pentru a preveni confuziile cu numele: $2. Vă rugăm să alegeţi alt nume de utilizator.',
