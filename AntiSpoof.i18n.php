@@ -528,6 +528,13 @@ $messages['lt'] = array(
 	'antispoof-tooshort'      => 'Kanonizuotas vardas per trumpas',
 );
 
+/** Erzya (эрзянь кель)
+ * @author Amdf
+ */
+$messages['myv'] = array(
+	'antispoof-empty' => 'Чаво пикске',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -818,7 +825,6 @@ $messages['zh-hant'] = array(
 	'antispoof-tooshort'      => '合符標準的名稱太短',
 );
 
-# Fallbacks:
 $messages['de-formal'] = $messages['de'];
 $messages['kk'] = $messages['kk-cyrl'];
 $messages['kk-cn'] = $messages['kk-arab'];
