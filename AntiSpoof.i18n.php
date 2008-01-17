@@ -20,6 +20,15 @@ $messages['en'] = array(
 	'antispoof-tooshort'      => 'Canonicalized name too short',
 );
 
+/** Kotava (Kotava)
+ * @author Wikimistusik
+ */
+$messages['avk'] = array(
+	'antispoof-badtype'   => 'Origordaj',
+	'antispoof-empty'     => 'Vlardafa roda',
+	'antispoof-noletters' => 'Va mek eltay ruldar',
+);
+
 /** Aragonese (Aragonés)
  * @author Juanpabl
  */
