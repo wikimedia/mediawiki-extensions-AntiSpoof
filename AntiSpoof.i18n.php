@@ -20,15 +20,6 @@ $messages['en'] = array(
 	'antispoof-tooshort'      => 'Canonicalized name too short',
 );
 
-/** Kotava (Kotava)
- * @author Wikimistusik
- */
-$messages['avk'] = array(
-	'antispoof-badtype'   => 'Origordaj',
-	'antispoof-empty'     => 'Vlardafa roda',
-	'antispoof-noletters' => 'Va mek eltay ruldar',
-);
-
 /** Aragonese (Aragonés)
  * @author Juanpabl
  */
@@ -73,6 +64,15 @@ $messages['ast'] = array(
 	'antispoof-noletters'     => 'Nun contién nenguna lletra',
 	'antispoof-mixedscripts'  => 'Contién munchos scripts incompatibles',
 	'antispoof-tooshort'      => 'Nome canónicu demasiao curtiu',
+);
+
+/** Kotava (Kotava)
+ * @author Wikimistusik
+ */
+$messages['avk'] = array(
+	'antispoof-badtype'   => 'Origordaj',
+	'antispoof-empty'     => 'Vlardafa roda',
+	'antispoof-noletters' => 'Va mek eltay ruldar',
 );
 
 $messages['bcl'] = array(
@@ -799,10 +799,12 @@ $messages['uk'] = array(
 
 /** Volapük (Volapük)
  * @author Malafaya
+ * @author Smeira
  */
 $messages['vo'] = array(
-	'antispoof-empty'     => 'Vödem vagik',
-	'antispoof-noletters' => 'No ninädon tonatis alseimik',
+	'antispoof-name-conflict' => 'Gebananem: „$1“ binon tu sümik ad gebananem ya dabinöl: „$2“. Välolös, begö! nemi votik.',
+	'antispoof-empty'         => 'Vödem vagik',
+	'antispoof-noletters'     => 'No ninädon tonatis alseimik',
 );
 
 $messages['yue'] = array(
