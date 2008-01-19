@@ -797,6 +797,22 @@ $messages['uk'] = array(
 	'antispoof-name-illegal'  => "Не дозволене використання імені «$1» з метою запобігання плутанню з занадто схожими на нього іменами: $2. Будь ласка, виберіть інше ім'я.",
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Vinhtantran
+ */
+$messages['vi'] = array(
+	'antispoof-name-conflict' => 'Tên "$1" quá giống với tài khoản đã có "$2". Xin hãy chọn tên khác.',
+	'antispoof-name-illegal'  => 'Không được phép dùng tên "$1" để tránh tên người dùng $2 dễ gây lầm lẫn hoặc lừa gạt. Xin hãy chọn tên khác.',
+	'antispoof-badtype'       => 'Kiểu dữ liệu không hợp lệ',
+	'antispoof-empty'         => 'Chuỗi trống',
+	'antispoof-blacklisted'   => 'Có chứa các ký tự bị cấm',
+	'antispoof-combining'     => 'Bắt đầu bằng dấu kết hợp',
+	'antispoof-unassigned'    => 'Có chứa ký tự chưa gán hoặc không được phép',
+	'antispoof-noletters'     => 'Không có bất kỳ chữ nào',
+	'antispoof-mixedscripts'  => 'Có trộn lẫn script không tương thích',
+	'antispoof-tooshort'      => 'Tên chuẩn hóa quá ngắn',
+);
+
 /** Volapük (Volapük)
  * @author Malafaya
  * @author Smeira
