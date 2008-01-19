@@ -814,12 +814,17 @@ $messages['vi'] = array(
 );
 
 /** Volapük (Volapük)
- * @author Malafaya
  * @author Smeira
+ * @author Malafaya
  */
 $messages['vo'] = array(
 	'antispoof-name-conflict' => 'Gebananem: „$1“ binon tu sümik ad gebananem ya dabinöl: „$2“. Välolös, begö! nemi votik.',
+	'antispoof-name-illegal'  => 'Nem: „$1“ no padälon, ad vitön gebananemis kofudik u smilöfikis: $2. Välolös, begö! nemi votik.',
+	'antispoof-badtype'       => 'Nünasot badik',
 	'antispoof-empty'         => 'Vödem vagik',
+	'antispoof-blacklisted'   => 'Keninükon malatis no pedälölis.',
+	'antispoof-combining'     => 'Primon me malat kobüköl',
+	'antispoof-unassigned'    => 'Keninükon malatis no lonöfölis u vorädikis',
 	'antispoof-noletters'     => 'No ninädon tonatis alseimik',
 );
 
