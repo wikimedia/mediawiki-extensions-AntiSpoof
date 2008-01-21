@@ -197,9 +197,18 @@ $messages['el'] = array(
 	'antispoof-tooshort'      => 'Κανονικοποιημένο όνομα πολύ μικρό',
 );
 
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ * @author Tlustulimu
+ */
 $messages['eo'] = array(
 	'antispoof-name-conflict' => 'La nomo "$1" estas tro simila al la ekzistanta konto "$2". Bonvolu elekti alian nomon.',
+	'antispoof-name-illegal'  => 'La nomo "$1" ne estas permesita por preventi konfuzigemajn aux trompajn uzantnomojn: $2. Bonvolu elekti alian nomon.',
+	'antispoof-badtype'       => 'Nevalida datumtipo',
+	'antispoof-empty'         => 'Malplena bitcxeno',
 	'antispoof-blacklisted'   => 'Enhavas literojn el nigra listo',
+	'antispoof-combining'     => 'Komencas kun kuniga marko',
+	'antispoof-unassigned'    => 'Enhavas nedonatan aux evitindan signon',
 	'antispoof-noletters'     => 'Ne enhavas iujn literojn',
 	'antispoof-mixedscripts'  => 'Enhavas nekompatibilajn miksajn skriptojn',
 );
