@@ -211,6 +211,7 @@ $messages['eo'] = array(
 	'antispoof-unassigned'    => 'Enhavas nedonatan aux evitindan signon',
 	'antispoof-noletters'     => 'Ne enhavas iujn literojn',
 	'antispoof-mixedscripts'  => 'Enhavas nekompatibilajn miksajn skriptojn',
+	'antispoof-tooshort'      => 'Ordigita nomo estas tro mallonga',
 );
 
 $messages['es'] = array(
@@ -835,6 +836,8 @@ $messages['vo'] = array(
 	'antispoof-combining'     => 'Primon me malat kobüköl',
 	'antispoof-unassigned'    => 'Keninükon malatis no lonöfölis u vorädikis',
 	'antispoof-noletters'     => 'No ninädon tonatis alseimik',
+	'antispoof-mixedscripts'  => 'Keninükon migi penamasitas no balabikas',
+	'antispoof-tooshort'      => 'Nem valemik tu brefik',
 );
 
 $messages['yue'] = array(
