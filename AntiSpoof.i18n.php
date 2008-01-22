@@ -783,6 +783,16 @@ $messages['sv'] = array(
 	'antispoof-tooshort'      => 'Det kanoniserade namnet är för kort',
 );
 
+/** Telugu (తెలుగు)
+ * @author Mpradeep
+ */
+$messages['te'] = array(
+	'antispoof-name-conflict' => '"$1" అనే పేరు ఇప్పటికే ఉన్న "$2"కు మరీ దగ్గరగా ఉంది. దయచేసి మరో పేరును ఎంచుకోండి.',
+	'antispoof-name-illegal'  => '"$1" అనే పేరును అనుమతించము; అయోమయాన్ని, ఎగతాళి చేయడాన్ని నివారించేందుకు: $2. దయచేసి మరో పేరును ఎంచుకోండి.',
+	'antispoof-empty'         => 'ఖాళీ వాక్యం',
+	'antispoof-noletters'     => 'ఎటువంటి అక్షరాలూ లేవు',
+);
+
 $messages['tg'] = array(
 	'antispoof-noletters'     => 'Ягон ҳарфҳо надорад',
 );
