@@ -219,12 +219,12 @@ $messages['el'] = array(
  */
 $messages['eo'] = array(
 	'antispoof-name-conflict' => 'La nomo "$1" estas tro simila al la ekzistanta konto "$2". Bonvolu elekti alian nomon.',
-	'antispoof-name-illegal'  => 'La nomo "$1" ne estas permesita por preventi konfuzigemajn aux trompajn uzantnomojn: $2. Bonvolu elekti alian nomon.',
+	'antispoof-name-illegal'  => 'La nomo "$1" ne estas permesita por preventi konfuzigemajn aŭ trompajn uzantnomojn: $2. Bonvolu elekti alian nomon.',
 	'antispoof-badtype'       => 'Nevalida datumtipo',
-	'antispoof-empty'         => 'Malplena bitcxeno',
+	'antispoof-empty'         => 'Malplena bitĉeno',
 	'antispoof-blacklisted'   => 'Enhavas literojn el nigra listo',
 	'antispoof-combining'     => 'Komencas kun kuniga marko',
-	'antispoof-unassigned'    => 'Enhavas nedonatan aux evitindan signon',
+	'antispoof-unassigned'    => 'Enhavas nedonatan aŭ evitindan signon',
 	'antispoof-noletters'     => 'Ne enhavas iujn literojn',
 	'antispoof-mixedscripts'  => 'Enhavas nekompatibilajn miksajn skriptojn',
 	'antispoof-tooshort'      => 'Ordigita nomo estas tro mallonga',
@@ -378,6 +378,23 @@ $messages['hsb'] = array(
 	'antispoof-mixedscripts'  => 'Su znamješka rozdźělnych njekompatibelnych pismow wobsahowane',
 	'antispoof-tooshort'      => 'Kanonizowane mjeno je překrótke.',
 );
+
+/** Haitian (Kreyòl ayisyen)
+ * @author Masterches
+ */
+$messages['ht'] = array(
+	'antispoof-name-conflict' => 'Non "$1" sa a resanble twòp ak non kont sa a "$2". Souple chwazi yon lòt non.',
+	'antispoof-name-illegal'  => 'non itilizatè "$1" pa otorize pou anpeche li konfonn aknon "$2" oubyen itilize li. Souple chwazi yon lòt non.',
+	'antispoof-badtype'       => 'Tip done sa yo move',
+	'antispoof-empty'         => 'Chèn vid',
+	'antispoof-blacklisted'   => 'Kontni yon karaktè ki pa otorize',
+	'antispoof-combining'     => 'Ap koumanse avèk yon mak konbine',
+	'antispoof-unassigned'    => 'Kontni yon karaktè ki pa asiyen oubyen ki pa itilize ankò',
+	'antispoof-noletters'     => 'Pa kontni pyès lèt',
+	'antispoof-mixedscripts'  => 'Kontni plizyè eskript ki pa konpatib',
+	'antispoof-tooshort'      => 'Non kanonik an two kout',
+);
+
 $messages['hu'] = array(
 	'antispoof-name-conflict' => 'A név, „$1”, túl hasonló egy már meglévő azonosítóhoz („$2”). Kérlek válassz másikat.',
 	'antispoof-name-illegal'  => 'A név, „$1”, nem engedélyezett a zavaró vagy becsapó felhasználónevek megelőzése érdekében: $2.',
@@ -838,10 +855,11 @@ $messages['uk'] = array(
 
 /** Vietnamese (Tiếng Việt)
  * @author Vinhtantran
+ * @author Minh Nguyen
  */
 $messages['vi'] = array(
-	'antispoof-name-conflict' => 'Tên "$1" quá giống với tài khoản đã có "$2". Xin hãy chọn tên khác.',
-	'antispoof-name-illegal'  => 'Không được phép dùng tên "$1" để tránh tên người dùng $2 dễ gây lầm lẫn hoặc lừa gạt. Xin hãy chọn tên khác.',
+	'antispoof-name-conflict' => 'Tên “$1” quá giống với tài khoản đã có “$2”. Xin hãy chọn tên khác.',
+	'antispoof-name-illegal'  => 'Không được phép dùng tên “$1” để tránh tên người dùng $2 dễ gây lầm lẫn hoặc lừa gạt. Xin hãy chọn tên khác.',
 	'antispoof-badtype'       => 'Kiểu dữ liệu không hợp lệ',
 	'antispoof-empty'         => 'Chuỗi trống',
 	'antispoof-blacklisted'   => 'Có chứa các ký tự bị cấm',
