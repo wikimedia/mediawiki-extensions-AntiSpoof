@@ -8,6 +8,7 @@
 $messages = array();
 
 $messages['en'] = array(
+	'antispoof-desc'          => 'Blocks the creation of accounts with mixed-script, confusing and similar usernames',
 	'antispoof-name-conflict' => 'The name "$1" is too similar to the existing account "$2". Please choose another name.',
 	'antispoof-name-illegal'  => 'The name "$1" is not allowed to prevent confusing or spoofed usernames: $2. Please choose another name.',
 	'antispoof-badtype'       => 'Bad data type',
@@ -596,6 +597,7 @@ $messages['nds'] = array(
 );
 
 $messages['nl'] = array(
+	'antispoof-desc'          => 'Blokkeert het aanmaken van gebruikers met meerdere schriften, verwarrende en gelijkende gebruikersnamen',
 	'antispoof-name-conflict' => 'De naam "$1" lijkt te veel op de bestaande gebruiker "$2". Kies alstublieft een andere naam.',
 	'antispoof-name-illegal'  => 'De naam "$1" is niet toegestaan om verwarring of gefingeerde gebruikersnamen te voorkomen: $2. Kies alstublieft een andere naam.',
 	'antispoof-badtype'       => 'Verkeerd datatype',
