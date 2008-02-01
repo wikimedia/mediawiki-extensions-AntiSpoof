@@ -277,9 +277,14 @@ $messages['fi'] = array(
 	'antispoof-tooshort'      => 'sen kanonisoitu muoto on liian lyhyt',
 );
 
+/** French (Français)
+ * @author Sherbrooke
+ * @author Grondin
+ */
 $messages['fr'] = array(
-	'antispoof-name-conflict' => 'Le nom d\'utilisateur « $1 » ressemble trop au nom existant « $2 ». Veuillez choisir un autre nom.',
-	'antispoof-name-illegal'  => 'Le nom d\'utilisateur « $1 » n’est pas autorisé pour empêcher de confondre ou d’utiliser le nom « $2 ». Veuillez choisir un autre nom.',
+	'antispoof-desc'          => "Bloque, avec un script mixte, la création des comptes par des noms d'utilisateur similaires ou pouvant prêter à confusion.",
+	'antispoof-name-conflict' => "Le nom d'utilisateur « $1 » ressemble trop au nom existant « $2 ». Veuillez choisir un autre nom.",
+	'antispoof-name-illegal'  => "Le nom d'utilisateur « $1 » n’est pas autorisé pour empêcher de confondre ou d’utiliser le nom « $2 ». Veuillez choisir un autre nom.",
 	'antispoof-badtype'       => 'Mauvais type de données',
 	'antispoof-empty'         => 'Chaîne vide',
 	'antispoof-blacklisted'   => 'Contient un caractère interdit',
@@ -307,6 +312,7 @@ $messages['frc'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
+	'antispoof-desc'          => 'Bloque, avouéc un script mècllo, la crèacion des comptos per des noms d’utilisator semblâblos ou povent prétar a confusion.',
 	'antispoof-name-conflict' => 'Lo nom d’utilisator « $1 » ressemble trop u compto ègzistent « $2 ». Volyéd chouèsir/cièrdre un ôtro nom.',
 	'antispoof-name-illegal'  => 'Lo nom d’utilisator « $1 » est pas ôtorisâ por empachiér de confondre ou d’utilisar lo nom « $2 ». Volyéd chouèsir/cièrdre un ôtro nom.',
 	'antispoof-badtype'       => 'Môvés tipo de balyês',
@@ -368,7 +374,11 @@ $messages['hr'] = array(
 	'antispoof-tooshort'      => 'Prekratko ime',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
 $messages['hsb'] = array(
+	'antispoof-desc'          => 'Blokuje wutworjenje kontow z měšanymi pismami, skonfuznjacymi a podobnymi wužiwarskimi mjenami',
 	'antispoof-name-conflict' => 'Požadane wužiwarske mjeno „$1” je hižo eksistowacemu wužiwarskemu mjenu „$2” přepodobne. Prošu wubjer druhe wužiwarske mjeno.',
 	'antispoof-name-illegal'  => 'Požadane wužiwarske mjeno „$1” njeje dowolene. Přičina: $2<br />Prošu wubjer druhe wužiwarske mjeno.',
 	'antispoof-badtype'       => 'Njepłaćiwy datowy typ',
@@ -385,6 +395,7 @@ $messages['hsb'] = array(
  * @author Masterches
  */
 $messages['ht'] = array(
+	'antispoof-desc'          => 'Bloke kreyasyon kont ki genyen Eskript ki mikse, ki ap mennen konfizyon oubyen ki genyen menm non',
 	'antispoof-name-conflict' => 'Non "$1" sa a resanble twòp ak non kont sa a "$2". Souple chwazi yon lòt non.',
 	'antispoof-name-illegal'  => 'non itilizatè "$1" pa otorize pou anpeche li konfonn aknon "$2" oubyen itilize li. Souple chwazi yon lòt non.',
 	'antispoof-badtype'       => 'Tip done sa yo move',
@@ -397,7 +408,11 @@ $messages['ht'] = array(
 	'antispoof-tooshort'      => 'Non kanonik an two kout',
 );
 
+/** Hungarian (Magyar)
+ * @author Bdanee
+ */
 $messages['hu'] = array(
+	'antispoof-desc'          => 'Letiltja a kevert szövegű, zavaró és hasonló nevű felhasználói fiókok készítését',
 	'antispoof-name-conflict' => 'A név, „$1”, túl hasonló egy már meglévő azonosítóhoz („$2”). Kérlek válassz másikat.',
 	'antispoof-name-illegal'  => 'A név, „$1”, nem engedélyezett a zavaró vagy becsapó felhasználónevek megelőzése érdekében: $2.',
 	'antispoof-badtype'       => 'Hibás adattípus',
@@ -812,7 +827,11 @@ $messages['su'] = array(
 	'antispoof-tooshort'      => 'Landihan kanonikna pondok teuing',
 );
 
+/** Swedish (Svenska)
+ * @author Lejonel
+ */
 $messages['sv'] = array(
+	'antispoof-desc'          => 'Förhindrar att konton med olika typer av förvirrande namn registreras',
 	'antispoof-name-conflict' => 'Namnet "$1" är för likt det existerande kontot "$2". Välj ett annat namn istället.',
 	'antispoof-name-illegal'  => 'För att förhindra förvirrande eller felaktiga användarnamn, så är namnet "$1" inte tillåtet. Anledning: $2. Välj ett annat namn istället.',
 	'antispoof-badtype'       => 'Felaktig datatyp',
