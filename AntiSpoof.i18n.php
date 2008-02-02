@@ -55,6 +55,7 @@ $messages['ar'] = array(
  * @author Esbardu
  */
 $messages['ast'] = array(
+	'antispoof-desc'          => "Bloquea la creación de cuentes con script mistu que tengan nomes d'usuariu asemeyaos o confusos",
 	'antispoof-name-conflict' => 'El nome "$1" ye demasiao asemeyáu a la cuenta esistente "$2". Por favor, escueyi otru nome.',
 	'antispoof-name-illegal'  => 'Nun se permite\'l nome "$1" pa evitar nomes d\'usuariu confusos o paródicos: $2. Por favor escueyi otru nome.',
 	'antispoof-badtype'       => 'Triba de datos incorreuta',
@@ -148,7 +149,11 @@ $messages['co'] = array(
 	'antispoof-badtype'       => 'Tipu gattivu di dati',
 );
 
+/** Czech (Česky)
+ * @author Li-sung
+ */
 $messages['cs'] = array(
+	'antispoof-desc'          => 'Brání vytváření účtů s matoucí a podobnými jmény nebo kombinací různých druhů písem',
 	'antispoof-name-conflict' => 'Uživatelské jméno "$1" je příliš podobné existujícímu účtu "$2". Prosím, vyberte si jiné jméno.',
 	'antispoof-name-illegal'  => 'Uživatelské jméno "$1" není povoleno vytvořit, aby se nepletlo nebo nesloužilo k napodobování uživatelského jména: $2. Prosím, vyberte si jiné jméno.',
 	'antispoof-badtype'       => 'Špatný datový typ',
