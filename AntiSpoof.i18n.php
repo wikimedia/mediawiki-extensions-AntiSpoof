@@ -672,6 +672,18 @@ $messages['pag'] = array(
 	'antispoof-noletters'     => 'Anggapoy laman ton letra',
 );
 
+/** Pampanga (Kapampangan)
+ * @author SPQRobin
+ */
+$messages['pam'] = array(
+	'antispoof-name-conflict' => 'Masyadu yang malapit ing "$1" king mimiral a account a "$2". Sana lumawe kang aliwang lagyu.',
+	'antispoof-name-illegal'  => 'E malyaring gamitan ing  "$1" uling bawal la reng username a mákabaligo o balamu piglocu: $2. Sana mamili kang aliwang lagyu.',
+	'antispoof-badtype'       => 'Marauak a uri ning data',
+	'antispoof-combining'     => 'Maki tatak yang mangabaldugang pamituglung',
+	'antispoof-noletters'     => 'Ala yang letra',
+	'antispoof-mixedscripts'  => 'Misamut la reng sulat a e malyaring piyabe',
+);
+
 /** Polish (Polski)
  * @author Derbeth
  * @author Sp5uhe
@@ -702,7 +714,11 @@ $messages['pms'] = array(
 	'antispoof-tooshort'      => 'Butà an forma canònica lë stranòm a resta esagerà curt',
 );
 
+/** Portuguese (Português)
+ * @author Malafaya
+ */
 $messages['pt'] = array(
+	'antispoof-desc'          => 'Impede a criação de contas com escrita mista, e nomes de utilizador confusos e semelhantes',
 	'antispoof-name-conflict' => 'O nome "$1" é muito similar a "$2", já existente. Por favor, escolha outro nome.',
 	'antispoof-name-illegal'  => 'O nome "$1" não é permitido para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): já existe $2. Por favor, escolha outro nome.',
 	'antispoof-badtype'       => 'Formato de dados incorreto',
@@ -756,7 +772,12 @@ $messages['ru'] = array(
 	'antispoof-tooshort'      => 'Каноническое имя слишком короткое',
 );
 
+/** Yakut (Саха тыла)
+ * @author Bert Jickty
+ * @author HalanTul
+ */
 $messages['sah'] = array(
+	'antispoof-desc'          => 'Атын дьону булкуйар уонна атын дьон ааттарыгар майгынныыр хас да омук суругун-бичигин туһанан ааттанары бобор.',
 	'antispoof-name-conflict' => '"$1" диэн ааты "$2" диэн киһи бэлиэр ылбыт, онон атын аатта толкуйдаа.',
 	'antispoof-name-illegal'  => '"$1" диэн аат $2 диэн ааттары кытта буккулубаттарын туһугар бобуллар. Онон атын ааты толкуйдаа.',
 	'antispoof-badtype'       => 'Сыыһа тииптээх дааннайдар',
