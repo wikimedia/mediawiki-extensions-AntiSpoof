@@ -269,7 +269,12 @@ $messages['fa'] = array(
 
 );
 
+/** Finnish (Suomi)
+ * @author Crt
+ * @author Nike
+ */
 $messages['fi'] = array(
+	'antispoof-desc'          => 'Estää käyttäjätunnusten luonnin, jos ne sisältävät eri kirjoitusjärjestelmiä, harhaanjohtavia tai samankaltaisia käyttäjätunnuksia.',
 	'antispoof-name-conflict' => 'Tunnus ”$1” on liian samankaltainen tunnuksen ”$2” kanssa. Valitse toinen tunnus.',
 	'antispoof-name-illegal'  => 'Tunnusta ”$1” ei sallita, koska $2. Hämäävien tai huijaustarkoitukseen sopivien tunnusten luonti on estetty. Valitse toinen tunnus.',
 	'antispoof-badtype'       => 'se on virheellistä tietotyyppiä',
@@ -734,7 +739,11 @@ $messages['ro'] = array(
 	'antispoof-noletters'     => 'Nu conţine nici o literă',
 );
 
+/** Russian (Русский)
+ * @author .:Ajvol:.
+ */
 $messages['ru'] = array(
+	'antispoof-desc'          => 'Запрещает создание учётных записей с именами, содержащими символы из разных систем письма, вводящих в заблуждение и похожих на имена других учётных записей.',
 	'antispoof-name-conflict' => 'Имя «$1» похоже на уже существующую учётную запись «$2». Пожалуйста, выберите другое имя.',
 	'antispoof-name-illegal'  => 'Имя «$1» не разрешено использовать во избежание спутывания с именами: $2. Пожалуйста, выберите другое имя.',
 	'antispoof-badtype'       => 'Ошибочный тип данных',
@@ -777,6 +786,7 @@ $messages['scn'] = array(
  * @author Helix84
  */
 $messages['sk'] = array(
+	'antispoof-desc'          => 'Blokuje tvorbu účtov s názvami obsahujúcimi viacero druhov písma, mätúcimi alebo podobnými existujúcim názvom',
 	'antispoof-name-conflict' => 'Meno „$1“ je príliš podobné názvu existujúceho účtu „$2“. Zvoľte si prosím iné.',
 	'antispoof-name-illegal'  => 'Meno „$1“ nie je povolené, aby sa zabránilo náhodnému alebo zámernému pomýleniu mien používateľov: $2. Zvoľte si prosím iné meno.',
 	'antispoof-badtype'       => 'Nesprávny typ dát',
@@ -861,9 +871,14 @@ $messages['te'] = array(
 	'antispoof-noletters'     => 'ఎటువంటి అక్షరాలూ లేవు',
 );
 
-
+/** Tajik (Тоҷикӣ)
+ * @author Ibrahim
+ * @author SPQRobin
+ */
 $messages['tg'] = array(
-	'antispoof-noletters'     => 'Ягон ҳарфҳо надорад',
+	'antispoof-badtype'   => 'Навъи додаи номуносиб',
+	'antispoof-empty'     => 'Риштаи холӣ',
+	'antispoof-noletters' => 'Ягон ҳарфҳо надорад',
 );
 
 /** Tonga (faka-Tonga)
