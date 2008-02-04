@@ -709,6 +709,7 @@ $messages['nl'] = array(
  * @author Jon Harald Søby
  */
 $messages['no'] = array(
+	'antispoof-desc'          => 'Hindrer oppretting av kontoer med lignende eller forvirrende brukernavn, eller brukernavn som inneholder to forskjellige alfabettyper',
 	'antispoof-name-conflict' => 'Navnet «$1» er for likt den eksisterende kontoen «$2». Vennligst velg et annet navn.',
 	'antispoof-name-illegal'  => 'Navnet «$1» er ikke tillatt for å forhindre forvirrende eller forfalskende brukernavn: $2. Vennligst velg et annet navn.',
 	'antispoof-badtype'       => 'Ugyldig datatype',
