@@ -143,6 +143,7 @@ $messages['br'] = array(
  * @author SMP
  */
 $messages['ca'] = array(
+	'antispoof-desc'          => "Bloca la creació de comptes amb alfabets barrejats i noms d'usuari similars o que portin a confusió",
 	'antispoof-name-conflict' => 'El nom «$1» és massa semblant al ja existent «$2». Si us plau, escolliu-ne un de nou.',
 	'antispoof-name-illegal'  => "No està permès usar el nom «$1» per evitar confusions o falsificacions amb els noms d'usuari: $2. Si us plau, escolliu un altre nom d'usuari.",
 	'antispoof-badtype'       => 'Tipus de dades incorrecte',
@@ -634,6 +635,7 @@ Sicht iech w.e.g. een anere Benotzernumm.',
  * @author Ooswesthoesbes
  */
 $messages['li'] = array(
+	'antispoof-desc'          => "Blokkeert 't aanmake van gebroekers mit miedere sjrifte, verwarrende en geliekmakende gebroekersname",
 	'antispoof-name-conflict' => 'De naam "$1" liek te zeer op de bestaondje gebroeker "$2". Kees estebleef \'ne angere naam.',
 	'antispoof-name-illegal'  => 'De naam "$1" is net toegestaon óm verwarring of vervörmdje gebroekersname te veurkómme: $2. Kees estebleef \'ne angere naam.',
 	'antispoof-badtype'       => 'Verkeerd datatype',
@@ -970,15 +972,19 @@ $messages['sv'] = array(
 );
 
 /** Telugu (తెలుగు)
- * @author Mpradeep
  * @author Veeven
+ * @author Mpradeep
  */
 $messages['te'] = array(
+	'antispoof-desc'          => 'మిశ్రమ లిపులతో, అయోమయపు మరియు సామీప్యపు పేర్లతో ఖాతాలను సృష్టించడాన్ని నిరోధిస్తుంది',
 	'antispoof-name-conflict' => '"$1" అనే పేరు ఇప్పటికే ఉన్న "$2"కు మరీ దగ్గరగా ఉంది. దయచేసి మరో పేరును ఎంచుకోండి.',
 	'antispoof-name-illegal'  => '"$1" అనే పేరును అనుమతించము; అయోమయాన్ని, ఎగతాళి చేయడాన్ని నివారించేందుకు: $2. దయచేసి మరో పేరును ఎంచుకోండి.',
 	'antispoof-badtype'       => 'తప్పుడు డాటా రకం',
 	'antispoof-empty'         => 'ఖాళీ వాక్యం',
+	'antispoof-blacklisted'   => 'అనుమానాస్పద అక్షరాన్ని కలిగివుంది',
+	'antispoof-combining'     => 'సంయుత గుర్తుతో మొదలయ్యింది',
 	'antispoof-noletters'     => 'ఎటువంటి అక్షరాలూ లేవు',
+	'antispoof-mixedscripts'  => 'అసంగత మిశ్రమ లిపులు ఉన్నాయి',
 );
 
 /** Tajik (Тоҷикӣ)
