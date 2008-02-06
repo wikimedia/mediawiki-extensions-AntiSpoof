@@ -528,8 +528,11 @@ $messages['it'] = array(
 	'antispoof-tooshort'      => 'Nome in forma canonica troppo corto',
 );
 
-/** Japanese (日本語) */
+/** Japanese (日本語)
+ * @author Tmnk
+ */
 $messages['ja'] = array(
+	'antispoof-desc'          => 'ユーザ名が不適切なため、アカウントは作成されませんでした。スクリプトが混ざっている名前、紛らわしい名前、似た名前は不適切と判断されます。',
 	'antispoof-name-conflict' => '指定した名前 "$1" は既に存在しているアカウント "$2" と類似しているため使用できません。別の名前を使用してください。',
 	'antispoof-name-illegal'  => '指定した名前 "$1" は成りすまし防止のため使用できません: $2。別の名前を使用してください。',
 	'antispoof-badtype'       => 'データタイプが異常です。',
@@ -816,6 +819,7 @@ $messages['pt'] = array(
  * @author AlimanRuna
  */
 $messages['qu'] = array(
+	'antispoof-desc'          => "Chaqrusqa sananchayuq, pantachiq, musphachiq rakiquna suti kamariyta hark'an",
 	'antispoof-name-conflict' => 'Nisqayki "$1" sutiqa kachkaqña rakiqunap "$2" sutinmanmi nisyuta rikch\'akuchkan. Ama hina kaspa, huk sutita akllay.',
 	'antispoof-name-illegal'  => 'Nisqayki "$1" sutiqa manam saqillasqachu, suti pantachiyta hark\'anapaq: "$2". Ama hina kaspa, huk sutita akllay.',
 	'antispoof-badtype'       => 'Willa layaqa manam allinchu',
