@@ -43,6 +43,7 @@ $messages['an'] = array(
  * @author Mimouni
  */
 $messages['ar'] = array(
+	'antispoof-desc'          => 'يمنع إنشاء الحسابات بسكريبت مختلط، أسماء مشابهة ومربكة',
 	'antispoof-name-conflict' => 'الاسم "$1" مشابه للغاية للحساب الموجود حاليا باسم "$2". من فضلك اختر اسما آخر.',
 	'antispoof-name-illegal'  => 'الاسم "$1" غير مسموح به لمنع الخلط وانتحال أسماء المستخدمين: $2. اختر اسم آخر من فضلك.',
 	'antispoof-badtype'       => 'نوع بيانات خاطئ',
@@ -719,8 +720,8 @@ $messages['nl'] = array(
  */
 $messages['no'] = array(
 	'antispoof-desc'          => 'Hindrer oppretting av kontoer med lignende eller forvirrende brukernavn, eller brukernavn som inneholder to forskjellige alfabettyper',
-	'antispoof-name-conflict' => 'Navnet «$1» er for likt den eksisterende kontoen «$2». Vennligst velg et annet navn.',
-	'antispoof-name-illegal'  => 'Navnet «$1» er ikke tillatt for å forhindre forvirrende eller forfalskende brukernavn: $2. Vennligst velg et annet navn.',
+	'antispoof-name-conflict' => 'Navnet «$1» er for likt navnet til den eksisterende kontoen «$2». Vennligst velg et annet navn.',
+	'antispoof-name-illegal'  => 'Navnet «$1» er ikke tillatt for å forhindre sammenblanding: $2. Vennligst velg et annet navn.',
 	'antispoof-badtype'       => 'Ugyldig datatype',
 	'antispoof-empty'         => 'Tom streng',
 	'antispoof-blacklisted'   => 'Inneholder svartelistede tegn',
@@ -934,6 +935,7 @@ $messages['sr-el'] = array(
  * @author Pyt
  */
 $messages['stq'] = array(
+	'antispoof-desc'          => 'Ferhinnert dät Moakjen fon Benutserkonten mäd miskede Teekensatse, fertoogede un äänelke Benutsernoomen',
 	'antispoof-name-conflict' => 'Die wonskede Benutsernoome „$1“ glieket dän al bestoundende Benutsernoome „$2“ tou fuul. Wääl n uur Noome.',
 	'antispoof-name-illegal'  => 'Die wonskede Benutsernoome „$1“ is nit ferlööwed. Gruund: $2<br />Wääl n uur Benutsernoome.',
 	'antispoof-badtype'       => 'Ungultigen Doatentyp',
@@ -980,8 +982,8 @@ $messages['sv'] = array(
 );
 
 /** Telugu (తెలుగు)
- * @author Veeven
  * @author Mpradeep
+ * @author Veeven
  */
 $messages['te'] = array(
 	'antispoof-desc'          => 'మిశ్రమ లిపులతో, అయోమయపు మరియు సామీప్యపు పేర్లతో ఖాతాలను సృష్టించడాన్ని నిరోధిస్తుంది',
@@ -991,6 +993,7 @@ $messages['te'] = array(
 	'antispoof-empty'         => 'ఖాళీ వాక్యం',
 	'antispoof-blacklisted'   => 'అనుమానాస్పద అక్షరాన్ని కలిగివుంది',
 	'antispoof-combining'     => 'సంయుత గుర్తుతో మొదలయ్యింది',
+	'antispoof-unassigned'    => 'ఇంతవరకూ ఆపాదించబడని లేదా ఉపయోగంలోంచి తీసేయాలనుకుంటున్న అక్షరం కలిగి ఉంది',
 	'antispoof-noletters'     => 'ఎటువంటి అక్షరాలూ లేవు',
 	'antispoof-mixedscripts'  => 'అసంగత మిశ్రమ లిపులు ఉన్నాయి',
 );
@@ -1016,11 +1019,16 @@ $messages['to'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Srhat
  * @author SPQRobin
  */
 $messages['tr'] = array(
 	'antispoof-name-conflict' => 'Seçtiğiniz kullanıcı adı olan "$1", mevcut "$2" hesabıyla benzerlik göstermektedir. Lütfen başka bir kullanıcı adı seçiniz.',
 	'antispoof-name-illegal'  => '$2 hesabıyla karışmaması için "$1" ismine izin verilmemektedir. Lütfen başka bir kullanıcı adı seçiniz.',
+	'antispoof-badtype'       => 'Bozuk veri tipi',
+	'antispoof-empty'         => 'Boş dizi',
+	'antispoof-blacklisted'   => 'Karalisteye alınmış karakter içerir.',
+	'antispoof-noletters'     => 'Hiç harf içermez',
 );
 
 /** Ukrainian (Українська) */
