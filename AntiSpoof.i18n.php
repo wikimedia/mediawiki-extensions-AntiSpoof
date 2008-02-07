@@ -287,8 +287,11 @@ $messages['ext'] = array(
 	'antispoof-name-conflict' => 'El nombri "$1" es mu paiciu al de la cuenta "$2" (ya desistenti). Pol favol, lihi otru nombri.',
 );
 
-# فارسی (Huji)
+/** فارسی (فارسی)
+ * @author Huji
+ */
 $messages['fa'] = array(
+	'antispoof-desc'          => 'از ایجاد حساب‌های کاربری با حروف مختلط، گیج‌کننده یا مشابه با دیگر حساب‌های کاربری جلوگیری می‌کند',
 	'antispoof-name-conflict' => 'نام «$1» بیش از حد شبیه حسابِ کاربری «$2» است که از قبل موجود است. لطفاً نام دیگری برگزینید.',
 	'antispoof-name-illegal'  => 'نام «$1» به دلیل جلوگیری از نام‌های کاربری سردرگم‌کننده یا مسخره مجاز نیست: $2. لطفاً نام دیگری انتخاب کنید.',
 	'antispoof-badtype'       => 'نوع داده نامناسب',
@@ -299,6 +302,7 @@ $messages['fa'] = array(
 	'antispoof-noletters'     => 'دربردارندهٔ هیچ حرفی نیست.',
 	'antispoof-mixedscripts'  => 'حاوی نویسه‌های مختلط ناسازگار است',
 	'antispoof-tooshort'      => 'نام متعارف خیلی کوتاه است',
+
 );
 
 /** Finnish (Suomi)
