@@ -1112,15 +1112,3 @@ $messages['zh-hant'] = array(
 	'antispoof-mixedscripts'  => '包含不相容混合的指令碼',
 	'antispoof-tooshort'      => '合符標準的名稱太短',
 );
-
-$messages['de-formal'] = $messages['de'];
-$messages['kk'] = $messages['kk-cyrl'];
-$messages['kk-cn'] = $messages['kk-arab'];
-$messages['kk-kz'] = $messages['kk-cyrl'];
-$messages['kk-tr'] = $messages['kk-latn'];
-$messages['zh'] = $messages['zh-hans'];
-$messages['zh-cn'] = $messages['zh-hans'];
-$messages['zh-hk'] = $messages['zh-hant'];
-$messages['zh-sg'] = $messages['zh-hans'];
-$messages['zh-tw'] = $messages['zh-hant'];
-$messages['zh-yue'] = $messages['yue'];
