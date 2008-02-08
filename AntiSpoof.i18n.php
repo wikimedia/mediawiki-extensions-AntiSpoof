@@ -1003,9 +1003,17 @@ $messages['te'] = array(
  * @author SPQRobin
  */
 $messages['tg'] = array(
-	'antispoof-badtype'   => 'Навъи додаи номуносиб',
-	'antispoof-empty'     => 'Риштаи холӣ',
-	'antispoof-noletters' => 'Ягон ҳарфҳо надорад',
+	'antispoof-desc'          => 'Аз эҷоди ҳисобҳои корбарӣ бо ҳуруфҳои гиҷкунанда ё мушобеҳ бо дигар ҳисобҳои корбарӣ ҷилавгирӣ мекунад.',
+	'antispoof-name-conflict' => 'Номи "$1" ба ҳисоби вуҷуддоштаи "$2" шабеҳ аст. Лутфан номи дигареро интихоб кунед.',
+	'antispoof-name-illegal'  => 'Номи "$1" ба далели ҷилавгирӣ аз номҳои корбарии сардардкунанда ё масхара миҷоз нест: $2. Лутфан номи дигареро интихоб кунед.',
+	'antispoof-badtype'       => 'Навъи додаи номуносиб',
+	'antispoof-empty'         => 'Риштаи холӣ',
+	'antispoof-blacklisted'   => 'Аломатҳои дар феҳристи сиёҳ қарордоштаро дар бар мегирад',
+	'antispoof-combining'     => 'Бо аломати ҷамъ шурӯъ мешавад.',
+	'antispoof-unassigned'    => 'Аломати таъйиннашуда ё номуносиб аст',
+	'antispoof-noletters'     => 'Ягон ҳарфҳо надорад',
+	'antispoof-mixedscripts'  => 'Скриптҳои омехтаи носозгарро дар бар мегирад',
+	'antispoof-tooshort'      => 'Номи мӯътариф хеле кӯтоҳ аст',
 );
 
 /** Tonga (faka-Tonga)
@@ -1112,3 +1120,4 @@ $messages['zh-hant'] = array(
 	'antispoof-mixedscripts'  => '包含不相容混合的指令碼',
 	'antispoof-tooshort'      => '合符標準的名稱太短',
 );
+
