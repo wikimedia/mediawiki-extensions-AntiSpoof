@@ -519,8 +519,11 @@ $messages['is'] = array(
 	'antispoof-tooshort'      => 'Nafn of stutt',
 );
 
-/** Italian (Italiano) */
+/** Italian (Italiano)
+ * @author BrokenArrow
+ */
 $messages['it'] = array(
+	'antispoof-desc'          => 'Impedisce la creazione di account con caratteri misti, nomi utente che generano confusione o troppo simili tra loro.',
 	'antispoof-name-conflict' => 'Il nome utente "$1" è troppo simile all\'utente "$2", già registrato. Scegliere un altro nome.',
 	'antispoof-name-illegal'  => 'Il nome utente "$1" non è consentito, per evitare confusione o utilizzi fraudolenti: $2. Scegliere un altro nome.',
 	'antispoof-badtype'       => 'Tipo di dati errato',
