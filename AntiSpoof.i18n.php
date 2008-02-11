@@ -128,6 +128,7 @@ $messages['bn'] = array(
  * @author Fulup
  */
 $messages['br'] = array(
+	'antispoof-desc'          => "Stankañ a ra, dre ur skript kemmesk, krouidigezh kontoù dezho anvioù implijer heñvel pe a c'hall sevel amjestregezh diwarno",
 	'antispoof-name-conflict' => 'Re heñvel eo an anv "$1" ouzh hini ar gont "$2" zo anezhi dija. Dibabit un anv all mar plij.',
 	'antispoof-name-illegal'  => 'N\'eo ket aotreet ober gant an anv "$1" kuit da gemmeskañ gant un anv all pe da implijout an anv : $2. Grit gant un anv all mar plij.',
 	'antispoof-badtype'       => 'Seurt roadennoù fall',
