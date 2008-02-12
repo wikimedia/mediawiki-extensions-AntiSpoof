@@ -538,10 +538,10 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
- * @author Tmnk
+ * @author JtFuruhata
  */
 $messages['ja'] = array(
-	'antispoof-desc'          => 'ユーザ名が不適切なため、アカウントは作成されませんでした。スクリプトが混ざっている名前、紛らわしい名前、似た名前は不適切と判断されます。',
+	'antispoof-desc'          => 'スクリプトが混ざっている名前、紛らわしい名前、似た名前によるアカウント作成をブロックする',
 	'antispoof-name-conflict' => '指定した名前 "$1" は既に存在しているアカウント "$2" と類似しているため使用できません。別の名前を使用してください。',
 	'antispoof-name-illegal'  => '指定した名前 "$1" は成りすまし防止のため使用できません: $2。別の名前を使用してください。',
 	'antispoof-badtype'       => 'データタイプが異常です。',
@@ -734,6 +734,17 @@ $messages['no'] = array(
 	'antispoof-noletters'     => 'Inneholder ingen bokstaver',
 	'antispoof-mixedscripts'  => 'Inneholder blanding av skriftsystemer',
 	'antispoof-tooshort'      => 'Navnet er for kort',
+);
+
+/** Northern Sotho (Sesotho sa Leboa)
+ * @author Mohau
+ */
+$messages['nso'] = array(
+	'antispoof-name-conflict' => 'Leina le  "$1", le nyaka go swana kudu le leina la tšhupaleloko la bjala la  "$2". Ka kgopelo, kgetha leina le lengwe.',
+	'antispoof-name-illegal'  => 'Leina le "$1", ga la dumelwa go thibela go rarakana: $2. Ka kgopelo, kgetha leina le lengwe.',
+	'antispoof-badtype'       => "Mohuta o mobe wa 'data'",
+	'antispoof-blacklisted'   => 'E nale dihlaka tšeo di sego tša dumelwa',
+	'antispoof-noletters'     => 'Ga e na dihlaka',
 );
 
 /** Occitan (Occitan)
