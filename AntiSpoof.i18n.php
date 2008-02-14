@@ -112,6 +112,7 @@ $messages['bg'] = array(
  * @author Zaheen
  */
 $messages['bn'] = array(
+	'antispoof-desc'          => 'মিশ্র-লিপিতে লেখা, কিংবা অস্পষ্ট ও একই রকম ব্যবহারকারী নাম দিয়ে অ্যাকাউন্ট সৃষ্টিতে বাধা দেবে',
 	'antispoof-name-conflict' => '"$1" নামটি বিদ্যমান "$2" অ্যাকাউন্টের সাথে হুবুহু মিলে যাচ্ছে। দয়া করে অন্য নাম পছন্দ করুন।',
 	'antispoof-name-illegal'  => '"$1" নামটি, বিভ্রান্তিকর বা ধাপ্পাবাজ ব্যবহারকারী নাম: $2 কে রোধ করার অনুমতি নাই। দয়া করে অন্য নাম পছন্দ করুন।',
 	'antispoof-badtype'       => 'তথ্যের ধরণ ঠিক নাই',
@@ -751,6 +752,7 @@ $messages['nso'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
+	'antispoof-desc'          => "Blòca, amb un escript mixt, la creacion dels comptes per de noms d'utilizaires similars o podent prestar a confusion.",
 	'antispoof-name-conflict' => 'Lo nom « $1 » ressembla tròp al compte existent « $2 ». Causissètz un autre nom.',
 	'antispoof-name-illegal'  => 'Lo nom « $1 » es pas autorizat per empachar de confondre o d’utilizar lo nom « $2 ». Causissètz un autre nom.',
 	'antispoof-badtype'       => 'Marrit tipe de donadas',
@@ -790,6 +792,7 @@ $messages['pam'] = array(
  * @author Sp5uhe
  */
 $messages['pl'] = array(
+	'antispoof-desc'          => 'Blokuje tworzenie kont użytkowników o nazwach dezorientujących lub podobnych do już istniejących',
 	'antispoof-name-conflict' => 'Proszę wybrać inną nazwę, ponieważ "$1" jest zbyt podobna do nazwy innego użytkownika ($2).',
 	'antispoof-name-illegal'  => 'Proszę wybrać inną nazwę, ponieważ "$1" nie może być użyta ze względu na podobieństwo do nazwy innego użytkownika ($2).',
 	'antispoof-badtype'       => 'Zły typ danych',
