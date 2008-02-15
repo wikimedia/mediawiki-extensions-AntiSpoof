@@ -327,18 +327,19 @@ $messages['fi'] = array(
 );
 
 /** French (Français)
+ * @author Urhixidur
  * @author Sherbrooke
  * @author Grondin
  */
 $messages['fr'] = array(
 	'antispoof-desc'          => "Bloque, avec un script mixte, la création des comptes par des noms d'utilisateur similaires ou pouvant prêter à confusion.",
 	'antispoof-name-conflict' => "Le nom d'utilisateur « $1 » ressemble trop au nom existant « $2 ». Veuillez choisir un autre nom.",
-	'antispoof-name-illegal'  => "Le nom d'utilisateur « $1 » n’est pas autorisé pour empêcher de confondre ou d’utiliser le nom « $2 ». Veuillez choisir un autre nom.",
+	'antispoof-name-illegal'  => "Le nom d'utilisateur « $1 » n’est pas autorisé à cause de sa ressemblance avec « $2 ». Veuillez choisir un autre nom.",
 	'antispoof-badtype'       => 'Mauvais type de données',
 	'antispoof-empty'         => 'Chaîne vide',
 	'antispoof-blacklisted'   => 'Contient un caractère interdit',
-	'antispoof-combining'     => 'Commence avec une marque combinée',
-	'antispoof-unassigned'    => 'Contient un caractère non assigné ou obsolète',
+	'antispoof-combining'     => 'Commence avec une marque combinatoire',
+	'antispoof-unassigned'    => 'Contient un caractère non assigné ou désuet',
 	'antispoof-noletters'     => 'Ne contient aucune lettre',
 	'antispoof-mixedscripts'  => 'Contient plusieurs scripts incompatibles',
 	'antispoof-tooshort'      => 'Nom canonique trop court',
