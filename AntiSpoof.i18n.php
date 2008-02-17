@@ -1001,8 +1001,8 @@ $messages['sv'] = array(
 );
 
 /** Telugu (తెలుగు)
- * @author Mpradeep
  * @author Veeven
+ * @author Mpradeep
  */
 $messages['te'] = array(
 	'antispoof-desc'          => 'మిశ్రమ లిపులతో, అయోమయపు మరియు సామీప్యపు పేర్లతో ఖాతాలను సృష్టించడాన్ని నిరోధిస్తుంది',
@@ -1015,6 +1015,7 @@ $messages['te'] = array(
 	'antispoof-unassigned'    => 'ఇంతవరకూ ఆపాదించబడని లేదా ఉపయోగంలోంచి తీసేయాలనుకుంటున్న అక్షరం కలిగి ఉంది',
 	'antispoof-noletters'     => 'ఎటువంటి అక్షరాలూ లేవు',
 	'antispoof-mixedscripts'  => 'అసంగత మిశ్రమ లిపులు ఉన్నాయి',
+	'antispoof-tooshort'      => 'విహితమైన పేరు మరీ చిన్నగా ఉంది',
 );
 
 /** Tajik (Тоҷикӣ)
