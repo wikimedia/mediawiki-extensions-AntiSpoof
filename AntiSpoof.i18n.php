@@ -25,6 +25,7 @@ $messages['en'] = array(
  * @author Juanpabl
  */
 $messages['an'] = array(
+	'antispoof-desc'          => "Bloqueya a creyazión de cuentas confusas, con tipografía mezclata y nombres d'usuario parellanos.",
 	'antispoof-name-conflict' => 'O nombre "$1" ye masiau parexiu á o nombre d\'a cuenta "$2", ya esistents. Por fabor, eslicha un atro nombre.',
 	'antispoof-name-illegal'  => 'No se premite rechistrar-se con o nombre "$1" ta pribar confusions y suplantazions con os nombres d\'usuario: $2. Por fabor, eslicha una atro nombre.',
 	'antispoof-badtype'       => 'Tipo de datos no conforme',
