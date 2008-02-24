@@ -1089,6 +1089,7 @@ $messages['vi'] = array(
  * @author Malafaya
  */
 $messages['vo'] = array(
+	'antispoof-desc'          => 'Blokön jafi kalas labü gebananems kofudik, tu sümiks u labü lafabs distik',
 	'antispoof-name-conflict' => 'Gebananem: „$1“ binon tu sümik ad gebananem ya dabinöl: „$2“. Välolös, begö! nemi votik.',
 	'antispoof-name-illegal'  => 'Nem: „$1“ no padälon, ad vitön gebananemis kofudik u smilöfikis: $2. Välolös, begö! nemi votik.',
 	'antispoof-badtype'       => 'Nünasot badik',
