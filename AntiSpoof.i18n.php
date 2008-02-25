@@ -607,6 +607,13 @@ $messages['kk-latn'] = array(
 	'antispoof-tooshort'      => 'Erejelengen atawı tım qısqa',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author Chhorran
+ */
+$messages['km'] = array(
+	'antispoof-noletters' => 'មិនមានផ្ទុកអក្សរណាមួយ',
+);
+
 /** Korean (한국어)
  * @author Klutzy
  */
