@@ -492,8 +492,11 @@ $messages['hu'] = array(
 	'antispoof-tooshort'      => 'A kanonizált változat túl rövid',
 );
 
-/** Indonesian (Bahasa Indonesia) */
+/** Indonesian (Bahasa Indonesia)
+ * @author IvanLanin
+ */
 $messages['id'] = array(
+	'antispoof-desc'          => 'Menghalangi pembuatan akun dengan nama pengguna campuran skrip, membingungkan, dan serupa',
 	'antispoof-name-conflict' => 'Nama "$1" terlalu mirip dengan akun "$2" yang sudah ada. Harap pilih nama lain.',
 	'antispoof-name-illegal'  => 'Nama "$1" tidak diijinkan untuk mencegah kebingungan atau penipuan nama: $2. Harap pilih nama lain.',
 	'antispoof-badtype'       => 'Tipe data salah',
