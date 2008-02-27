@@ -2,7 +2,7 @@
 
 $wgExtensionCredits['other'][] = array(
 	'name' => 'AntiSpoof',
-	'version' => '2008-02-01',
+	'version' => preg_replace('/^.* (\d\d\d\d-\d\d-\d\d) .*$/', '\1', '$LastChangedDate$'), #just the date of the last change
 	'url' => 'http://www.mediawiki.org/wiki/Extension:AntiSpoof',
 	'author' => 'Brion Vibber',
 	'description' => 'Blocks the creation of accounts with mixed-script, confusing and similar usernames',
