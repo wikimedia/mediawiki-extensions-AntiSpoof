@@ -38,6 +38,13 @@ $messages['an'] = array(
 	'antispoof-tooshort'      => 'Nombre canonico masiau curto',
 );
 
+/** Old English (Anglo Saxon)
+ * @author Wōdenhelm
+ */
+$messages['ang'] = array(
+	'antispoof-noletters' => 'Ġehæfþ nān stafas',
+);
+
 /** Arabic (العربية)
  * @author Mido
  * @author Meno25
@@ -614,7 +621,7 @@ $messages['kk-latn'] = array(
  * @author Chhorran
  */
 $messages['km'] = array(
-	'antispoof-noletters' => 'មិនមានផ្ទុកអក្សរណាមួយ',
+	'antispoof-noletters' => 'គ្មានផ្ទុក អក្សរណាមួយ',
 );
 
 /** Korean (한국어)
@@ -698,6 +705,14 @@ $messages['lt'] = array(
 	'antispoof-noletters'     => 'Nėra nei vienos raidės',
 	'antispoof-mixedscripts'  => 'Turi nepalaikomų įvairių rašmenų',
 	'antispoof-tooshort'      => 'Kanonizuotas vardas per trumpas',
+);
+
+/** Marathi (मराठी)
+ * @author Mahitgar
+ */
+$messages['mr'] = array(
+	'antispoof-badtype' => 'वाईट विदा प्रकार',
+	'antispoof-empty'   => 'रिकामा तंतु',
 );
 
 /** Erzya (эрзянь кель)
