@@ -621,7 +621,9 @@ $messages['kk-latn'] = array(
  * @author Chhorran
  */
 $messages['km'] = array(
-	'antispoof-noletters' => 'គ្មានផ្ទុក អក្សរណាមួយ',
+	'antispoof-name-conflict' => 'ឈ្មោះ "$1" ស្រដៀង ទៅនឹង គណនីមានស្រាប់ "$2" ។ សូមជ្រើសរើស ឈ្មោះផ្សេង ។',
+	'antispoof-badtype'       => 'ប្រភេទ ទិន្នន័យអន់',
+	'antispoof-noletters'     => 'គ្មានផ្ទុក អក្សរណាមួយ',
 );
 
 /** Korean (한국어)
@@ -711,8 +713,9 @@ $messages['lt'] = array(
  * @author Mahitgar
  */
 $messages['mr'] = array(
-	'antispoof-badtype' => 'वाईट विदा प्रकार',
-	'antispoof-empty'   => 'रिकामा तंतु',
+	'antispoof-badtype'   => 'वाईट विदा प्रकार',
+	'antispoof-empty'     => 'रिकामा तंतु',
+	'antispoof-noletters' => 'कोणत्याही पत्राचा समावेश नाही',
 );
 
 /** Erzya (эрзянь кель)
@@ -1085,10 +1088,13 @@ $messages['tr'] = array(
 	'antispoof-noletters'     => 'Hiç harf içermez',
 );
 
-/** Ukrainian (Українська) */
+/** Ukrainian (Українська)
+ * @author Ahonc
+ */
 $messages['uk'] = array(
 	'antispoof-name-conflict' => "Ім'я «$1» занадто схоже на вже зареєстрований обліковий запис «$2». Будь ласка, виберіть інше ім'я",
 	'antispoof-name-illegal'  => "Не дозволене використання імені «$1» з метою запобігання плутанню з занадто схожими на нього іменами: $2. Будь ласка, виберіть інше ім'я.",
+	'antispoof-empty'         => 'Порожній рядок',
 );
 
 /** Vietnamese (Tiếng Việt)
