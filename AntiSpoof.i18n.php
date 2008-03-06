@@ -783,7 +783,7 @@ $messages['nso'] = array(
  */
 $messages['oc'] = array(
 	'antispoof-desc'          => "Blòca, amb un escript mixt, la creacion dels comptes per de noms d'utilizaires similars o podent prestar a confusion.",
-	'antispoof-name-conflict' => 'Lo nom « $1 » ressembla tròp al compte existent « $2 ». Causissètz un autre nom.',
+	'antispoof-name-conflict' => 'Lo nom « $1 » se sembla tròp al compte existent « $2 ». Causissètz un autre nom.',
 	'antispoof-name-illegal'  => 'Lo nom « $1 » es pas autorizat per empachar de confondre o d’utilizar lo nom « $2 ». Causissètz un autre nom.',
 	'antispoof-badtype'       => 'Marrit tipe de donadas',
 	'antispoof-empty'         => 'Cadena voida',
@@ -849,6 +849,15 @@ $messages['pms'] = array(
 	'antispoof-noletters'     => "A l'ha pa gnun caràter",
 	'antispoof-mixedscripts'  => "Combinassion ëd sistema dë scritura ch'as peulo pa butesse ansema",
 	'antispoof-tooshort'      => 'Butà an forma canònica lë stranòm a resta esagerà curt',
+);
+
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'antispoof-name-conflict' => 'د "$1" نوم د "$2" نوم ته ورته دی او دا نوم وار د مخه په غونډال کې ثبت دی. لطفاً يو بل نوم وټاکۍ.',
+	'antispoof-badtype'       => 'ناسمه مالوماتي بڼه',
+	'antispoof-noletters'     => 'هېڅ کوم توری نه شته',
 );
 
 /** Portuguese (Português)
