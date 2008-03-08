@@ -105,14 +105,21 @@ $messages['bcl'] = array(
 );
 
 /** Bulgarian (Български)
- * @author Spiritia
  * @author Borislav
+ * @author Spiritia
  */
 $messages['bg'] = array(
+	'antispoof-desc'          => 'Блокиране на създаването на сметки, изписани с различни писмени системи, объркващи или подобни на други потребителски имена',
 	'antispoof-name-conflict' => 'Името „$1“ е твърде сходно с вече съществуващата сметка „$2“. Моля, изберете друго име!',
 	'antispoof-name-illegal'  => 'Името „$1“ не е разрешено за защита от объркване или злоупотреби с имена: $2. Моля, изберете друго име!',
+	'antispoof-badtype'       => 'Грешен тип на данните',
 	'antispoof-empty'         => 'Празен низ',
+	'antispoof-blacklisted'   => 'Съдържа забранен знак',
+	'antispoof-combining'     => 'Започва със съставен знак',
+	'antispoof-unassigned'    => 'Съдържа неопределен или нежелан знак',
 	'antispoof-noletters'     => 'Не съдържа букви',
+	'antispoof-mixedscripts'  => 'Съдържа несъвместими писмени системи',
+	'antispoof-tooshort'      => 'Каноничното име е твърде кратко',
 );
 
 /** Bengali (বাংলা)
@@ -1098,12 +1105,16 @@ $messages['tr'] = array(
 );
 
 /** Ukrainian (Українська)
+ * @author AS
  * @author Ahonc
  */
 $messages['uk'] = array(
 	'antispoof-name-conflict' => "Ім'я «$1» занадто схоже на вже зареєстрований обліковий запис «$2». Будь ласка, виберіть інше ім'я",
 	'antispoof-name-illegal'  => "Не дозволене використання імені «$1» з метою запобігання плутанню з занадто схожими на нього іменами: $2. Будь ласка, виберіть інше ім'я.",
+	'antispoof-badtype'       => 'Невірний тип даних',
 	'antispoof-empty'         => 'Порожній рядок',
+	'antispoof-blacklisted'   => 'Містить заборонені символи',
+	'antispoof-noletters'     => 'Не містить ніяких символів',
 );
 
 /** Vietnamese (Tiếng Việt)
