@@ -204,14 +204,17 @@ $messages['cs'] = array(
 );
 
 /** Danish (Dansk)
- * @author Morten LJ
+ * @author Morten
  */
 $messages['da'] = array(
+	'antispoof-desc'          => 'Blokerer for oprettelse af konti med blandede tegnsæt, forvirrende eller lignende brugernavne',
 	'antispoof-name-conflict' => 'Navnet "$1" minder for meget om den eksisterende konto "$2". Vælg venligst et andet navn.',
 	'antispoof-name-illegal'  => 'Navnet "$1" er ikke tilladt for at forhindre forvirrende eller efterlignede brugernavne: $2. Vælg venligst et andet navn.',
 	'antispoof-badtype'       => 'Forkert datatype',
+	'antispoof-empty'         => 'Tom streng',
 	'antispoof-blacklisted'   => 'Indeholder sortlistet tegn',
 	'antispoof-noletters'     => 'Indeholder ikke bogstaver',
+	'antispoof-mixedscripts'  => 'Indeholder inkompatible, blandede tegnsæt',
 );
 
 /** German (Deutsch) */
@@ -626,9 +629,10 @@ $messages['kk-latn'] = array(
 
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
+ * @author គីមស៊្រុន
  */
 $messages['km'] = array(
-	'antispoof-name-conflict' => 'ឈ្មោះ "$1" ស្រដៀង ទៅនឹង គណនីមានស្រាប់ "$2" ។ សូមជ្រើសរើស ឈ្មោះផ្សេង ។',
+	'antispoof-name-conflict' => 'ឈ្មោះ "$1" ស្រដៀង​ទៅនឹង​គណនីមានស្រាប់ "$2" ។ សូមជ្រើសរើស​ឈ្មោះផ្សេង ។',
 	'antispoof-badtype'       => 'ប្រភេទ ទិន្នន័យអន់',
 	'antispoof-noletters'     => 'គ្មានផ្ទុក អក្សរណាមួយ',
 );
@@ -718,11 +722,17 @@ $messages['lt'] = array(
 
 /** Marathi (मराठी)
  * @author Mahitgar
+ * @author प्रणव कुलकर्णी
+ * @author Kaustubh
  */
 $messages['mr'] = array(
-	'antispoof-badtype'   => 'वाईट विदा प्रकार',
-	'antispoof-empty'     => 'रिकामा तंतु',
-	'antispoof-noletters' => 'कोणत्याही पत्राचा समावेश नाही',
+	'antispoof-desc'          => 'मिश्र भाषा तसेच संभ्रमित करणारी व सारखी असणारी सदस्य नामे वापरण्यास बंदी आहे.',
+	'antispoof-name-conflict' => '"$1" हे नाव अस्तित्वात असलेल्या "$2" खात्याशी खुप साधर्म्य राखते. कृपया वेगळे नाव वापरा.',
+	'antispoof-name-illegal'  => 'संभ्रम किंवा विडंबन रोखण्यासाठी "$1" हे नाव वापरण्यास बंदी आहे. कृपया वेगळे नाव वापरा.',
+	'antispoof-badtype'       => 'वाईट विदा प्रकार',
+	'antispoof-empty'         => 'रिकामा तंतु',
+	'antispoof-blacklisted'   => 'मान्यताप्राप्त यादीत नसलेले अक्षर',
+	'antispoof-noletters'     => 'कोणत्याही पत्राचा समावेश नाही',
 );
 
 /** Erzya (эрзянь кель)
@@ -1115,6 +1125,8 @@ $messages['uk'] = array(
 	'antispoof-empty'         => 'Порожній рядок',
 	'antispoof-blacklisted'   => 'Містить заборонені символи',
 	'antispoof-noletters'     => 'Не містить ніяких символів',
+	'antispoof-mixedscripts'  => 'Використовуються несумісні системи письма',
+	'antispoof-tooshort'      => 'Канонічна назва надто коротка',
 );
 
 /** Vietnamese (Tiếng Việt)
