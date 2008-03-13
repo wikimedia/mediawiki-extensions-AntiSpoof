@@ -213,6 +213,8 @@ $messages['da'] = array(
 	'antispoof-badtype'       => 'Forkert datatype',
 	'antispoof-empty'         => 'Tom streng',
 	'antispoof-blacklisted'   => 'Indeholder sortlistet tegn',
+	'antispoof-combining'     => 'Begynder med et kombinationsbogstav',
+	'antispoof-unassigned'    => 'Indeholder ubrugte bogstaver',
 	'antispoof-noletters'     => 'Indeholder ikke bogstaver',
 	'antispoof-mixedscripts'  => 'Indeholder inkompatible, blandede tegnsæt',
 );
@@ -630,11 +632,14 @@ $messages['kk-latn'] = array(
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author គីមស៊្រុន
+ * @author Lovekhmer
  */
 $messages['km'] = array(
 	'antispoof-name-conflict' => 'ឈ្មោះ "$1" ស្រដៀង​ទៅនឹង​គណនីមានស្រាប់ "$2" ។ សូមជ្រើសរើស​ឈ្មោះផ្សេង ។',
-	'antispoof-badtype'       => 'ប្រភេទ ទិន្នន័យអន់',
-	'antispoof-noletters'     => 'គ្មានផ្ទុក អក្សរណាមួយ',
+	'antispoof-badtype'       => 'ប្រភេទទិន្នន័យអន់',
+	'antispoof-empty'         => 'ខ្សែអក្សរទទេ',
+	'antispoof-blacklisted'   => 'មាន​អក្សរ​ដែល​ត្រូវបាន​ចាត់ចូលទៅក្នុងបញ្ជីខ្មៅ',
+	'antispoof-noletters'     => 'គ្មានផ្ទុក​អក្សរណាមួយ',
 );
 
 /** Korean (한국어)
@@ -746,8 +751,11 @@ $messages['myv'] = array(
  * @author Slomox
  */
 $messages['nds'] = array(
-	'antispoof-empty'     => 'Feld leddig',
-	'antispoof-noletters' => 'Dor sünd kene Bookstaven in.',
+	'antispoof-name-conflict' => 'De Brukernaam „$1“ liekt den Brukernaam „$2“, de al vörhannen is, to dull. Söök di en annern Brukernaam ut.',
+	'antispoof-name-illegal'  => 'De Brukernaam „$1“ is nich verlöövt. Grund: $2<br />Söök di en annern Brukernaam ut.',
+	'antispoof-badtype'       => 'Leeg Datentyp',
+	'antispoof-empty'         => 'Feld leddig',
+	'antispoof-noletters'     => 'Dor sünd kene Bookstaven in.',
 );
 
 /** Dutch (Nederlands)
@@ -1026,6 +1034,7 @@ $messages['stq'] = array(
  * @author Kandar
  */
 $messages['su'] = array(
+	'antispoof-desc'          => 'Peungpeuk dijieunna rekening nu landihanana skrip campuran, ngaco, atawa sarupa',
 	'antispoof-name-conflict' => 'Landihan "$1" mirip teuing jeung "$2" nu geus tiheula aya. Mangga pilih landihan séjén.',
 	'antispoof-name-illegal'  => 'Landihan "$1" teu diwenangkeun ngarah teu pahili jeung landihan: $2. Mangga pilih landihan séjén.',
 	'antispoof-badtype'       => 'Tipeu datana awon',
