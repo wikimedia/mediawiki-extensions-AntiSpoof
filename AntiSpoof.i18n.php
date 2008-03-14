@@ -726,9 +726,9 @@ $messages['lt'] = array(
 );
 
 /** Marathi (मराठी)
+ * @author Kaustubh
  * @author Mahitgar
  * @author प्रणव कुलकर्णी
- * @author Kaustubh
  */
 $messages['mr'] = array(
 	'antispoof-desc'          => 'मिश्र भाषा तसेच संभ्रमित करणारी व सारखी असणारी सदस्य नामे वापरण्यास बंदी आहे.',
@@ -737,7 +737,11 @@ $messages['mr'] = array(
 	'antispoof-badtype'       => 'वाईट विदा प्रकार',
 	'antispoof-empty'         => 'रिकामा तंतु',
 	'antispoof-blacklisted'   => 'मान्यताप्राप्त यादीत नसलेले अक्षर',
+	'antispoof-combining'     => 'एकत्रीकरण चिन्हाने सुरुवात केलेली आहे.',
+	'antispoof-unassigned'    => 'यामध्ये चुकीची चिन्हे आहेत.',
 	'antispoof-noletters'     => 'कोणत्याही पत्राचा समावेश नाही',
+	'antispoof-mixedscripts'  => 'यामध्ये इतर मिश्र लिपी आहेत.',
+	'antispoof-tooshort'      => 'अधिकारयुक्त नाव खूप छोटे आहे',
 );
 
 /** Erzya (эрзянь кель)
