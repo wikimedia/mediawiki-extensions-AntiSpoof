@@ -271,6 +271,7 @@ $messages['el'] = array(
  * @author Tlustulimu
  */
 $messages['eo'] = array(
+	'antispoof-desc'          => 'Blokas la kreadon de kontoj kun miksitaj alfabetaj, konfuzemaj, kaj similaj salutnomoj',
 	'antispoof-name-conflict' => 'La nomo "$1" estas tro simila al la ekzistanta konto "$2". Bonvolu elekti alian nomon.',
 	'antispoof-name-illegal'  => 'La nomo "$1" ne estas permesita por preventi konfuzigemajn aŭ trompajn uzantnomojn: $2. Bonvolu elekti alian nomon.',
 	'antispoof-badtype'       => 'Nevalida datumtipo',
@@ -577,6 +578,23 @@ $messages['ja'] = array(
 	'antispoof-noletters'     => '文字を含んでいません',
 	'antispoof-mixedscripts'  => '互換性のない文字列の混合を含んでいます',
 	'antispoof-tooshort'      => '正規化した名前が短すぎます',
+);
+
+/** Jutish (Jysk)
+ * @author Huslåke
+ */
+$messages['jut'] = array(
+	'antispoof-desc'          => 'Blokerer før åprettelse af konti ve blandede tegnsæt, forvirrende eller lignende brugernavne',
+	'antispoof-name-conflict' => 'Navnet "$1" minder for meget om den eksisterende konto "$2". Vælg venligst et andet navn.',
+	'antispoof-name-illegal'  => 'Navnet "$1" er ikke tilladt for at forhindre forvirrende eller efterlignede brugernavne: $2. Vælg venligst et andet navn.',
+	'antispoof-badtype'       => 'Førkært datatype',
+	'antispoof-empty'         => 'Tom streng',
+	'antispoof-blacklisted'   => 'Indeholder sortlistet tegn',
+	'antispoof-combining'     => 'Begynder ve et kombinationsbogstav',
+	'antispoof-unassigned'    => 'Indeholder ubrugte bogstaver',
+	'antispoof-noletters'     => "Indeholder ig'n bogstaver",
+	'antispoof-mixedscripts'  => 'Indeholder inkompatible, blandede tegnsæt',
+	'antispoof-tooshort'      => 'Kanonisaliset navn til kårt',
 );
 
 /** Georgian (ქართული)
@@ -1137,6 +1155,8 @@ $messages['uk'] = array(
 	'antispoof-badtype'       => 'Невірний тип даних',
 	'antispoof-empty'         => 'Порожній рядок',
 	'antispoof-blacklisted'   => 'Містить заборонені символи',
+	'antispoof-combining'     => "Починатися з символу об'єднання",
+	'antispoof-unassigned'    => 'Містить невизначений або непідтримуваний символ',
 	'antispoof-noletters'     => 'Не містить ніяких символів',
 	'antispoof-mixedscripts'  => 'Використовуються несумісні системи письма',
 	'antispoof-tooshort'      => 'Канонічна назва надто коротка',
