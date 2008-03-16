@@ -688,7 +688,7 @@ $messages['la'] = array(
  */
 $messages['lb'] = array(
 	'antispoof-name-conflict' => 'De gewënschte Benotzernumm "$1" ass dem Bemnotzernumm "$2" deen et scho gëtt ze ähnlech. Sicht iech w.e.g. een anere Benotzernumm.',
-	'antispoof-name-illegal'  => 'De gewënschte Benotzernumm "$1" ass net erlaabt. Grond: $2<br \\>
+	'antispoof-name-illegal'  => 'De gewënschte Benotzernumm "$1" ass net erlaabt. Grond: $2<br />
 Sicht iech w.e.g. een anere Benotzernumm.',
 	'antispoof-badtype'       => 'Ongültegt Fichiers-Format (bad data type)',
 	'antispoof-empty'         => 'Eidelt Feld',
@@ -751,7 +751,7 @@ $messages['lt'] = array(
 $messages['mr'] = array(
 	'antispoof-desc'          => 'मिश्र भाषा तसेच संभ्रमित करणारी व सारखी असणारी सदस्य नामे वापरण्यास बंदी आहे.',
 	'antispoof-name-conflict' => '"$1" हे नाव अस्तित्वात असलेल्या "$2" खात्याशी खुप साधर्म्य राखते. कृपया वेगळे नाव वापरा.',
-	'antispoof-name-illegal'  => 'संभ्रम किंवा विडंबन रोखण्यासाठी "$1" हे नाव वापरण्यास बंदी आहे. कृपया वेगळे नाव वापरा.',
+	'antispoof-name-illegal'  => '"$1" हे नाव वापरण्यास बंदी आहे कारण हे नाव इतर नावांशी साम्य राखते. त्यामुळे कृपया वेगळे नाव वापरा.',
 	'antispoof-badtype'       => 'वाईट विदा प्रकार',
 	'antispoof-empty'         => 'रिकामा तंतु',
 	'antispoof-blacklisted'   => 'मान्यताप्राप्त यादीत नसलेले अक्षर',
