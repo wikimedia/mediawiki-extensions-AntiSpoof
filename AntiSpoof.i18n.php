@@ -500,7 +500,7 @@ $messages['ht'] = array(
 );
 
 /** Hungarian (Magyar)
- * @author Bdanee
+ * @author Dani
  */
 $messages['hu'] = array(
 	'antispoof-desc'          => 'Letiltja a kevert szövegű, zavaró és hasonló nevű felhasználói fiókok készítését',
