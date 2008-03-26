@@ -748,6 +748,13 @@ $messages['lt'] = array(
 	'antispoof-tooshort'      => 'Kanonizuotas vardas per trumpas',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Shijualex
+ */
+$messages['ml'] = array(
+	'antispoof-blacklisted' => 'കരിമ്പട്ടികയില്‍ പെട്ട അക്ഷരങ്ങളുണ്ട്',
+);
+
 /** Marathi (मराठी)
  * @author Kaustubh
  * @author Mahitgar
