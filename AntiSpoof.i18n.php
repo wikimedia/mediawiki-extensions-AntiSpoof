@@ -1211,8 +1211,9 @@ $messages['vo'] = array(
 	'antispoof-tooshort'      => 'Nem valemik tu brefik',
 );
 
-/** Yue (粵語) */
+/** Cantonese (廣東話) */
 $messages['yue'] = array(
+	'antispoof-desc'          => '封鎖一啲對於有混合程序、混淆同埋相似嘅用戶名嘅開戶口動作',
 	'antispoof-name-conflict' => '呢個名"$1"太似現有戶口"$2"。請揀過個名。',
 	'antispoof-name-illegal'  => '呢個名"$1"唔畀用，以預防撈亂或者冒充："$2"。請揀過個名。',
 	'antispoof-badtype'       => '錯誤嘅資料類型',
