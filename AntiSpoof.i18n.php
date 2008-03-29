@@ -691,6 +691,7 @@ $messages['la'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'antispoof-desc'          => "Verhënnert d'Opmaache vu Benotzerkonten matt gemeschten Zeechesätz, mat bizaren Benotzernimm oder mat Benotzernimm déi zu Verwiesselunge féiere kéinten.",
 	'antispoof-name-conflict' => 'De Benotzernumm "$1" huet zevill Ähnlechkeet mat "$2". Sicht iech w.e.g. een anere Benotzernumm.',
 	'antispoof-name-illegal'  => 'De gewënschte Benotzernumm "$1" ass net erlaabt. Grond: $2<br />
 Sicht iech w.e.g. een anere Benotzernumm.',
@@ -965,6 +966,7 @@ $messages['ro'] = array(
 );
 
 /** Russian (Русский)
+ * @author Ahonc
  * @author .:Ajvol:.
  */
 $messages['ru'] = array(
@@ -974,7 +976,7 @@ $messages['ru'] = array(
 	'antispoof-badtype'       => 'Ошибочный тип данных',
 	'antispoof-empty'         => 'Пустая строка',
 	'antispoof-blacklisted'   => 'Содержит символы из запрещённого списка',
-	'antispoof-combining'     => 'Начинатся с модифицирующего символа',
+	'antispoof-combining'     => 'Начинается с модифицирующего символа',
 	'antispoof-unassigned'    => 'Сожержит неопределённый или неподдерживаемый символ',
 	'antispoof-noletters'     => 'Не содержит букв',
 	'antispoof-mixedscripts'  => 'Используются несовместимые системы письменности',
@@ -1158,21 +1160,22 @@ $messages['tr'] = array(
 );
 
 /** Ukrainian (Українська)
- * @author AS
  * @author Ahonc
+ * @author AS
  */
 $messages['uk'] = array(
 	'antispoof-desc'          => 'Забороняє створення облікових записів з іменами, подібними або схожими на імена інших облікових записів, та іменами, що містять символи з різних систем письма.',
-	'antispoof-name-conflict' => "Ім'я «$1» занадто схоже на вже зареєстрований обліковий запис «$2». Будь ласка, виберіть інше ім'я",
+	'antispoof-name-conflict' => "Ім'я «$1» занадто схоже на вже зареєстрований обліковий запис «$2».
+Будь ласка, виберіть інше ім'я.",
 	'antispoof-name-illegal'  => "Не дозволене використання імені «$1» з метою запобігання плутанню з занадто схожими на нього іменами: $2. Будь ласка, виберіть інше ім'я.",
 	'antispoof-badtype'       => 'Невірний тип даних',
 	'antispoof-empty'         => 'Порожній рядок',
 	'antispoof-blacklisted'   => 'Містить заборонені символи',
-	'antispoof-combining'     => "Починатися з символу об'єднання",
+	'antispoof-combining'     => 'Починається з модифікуючого символу',
 	'antispoof-unassigned'    => 'Містить невизначений або непідтримуваний символ',
-	'antispoof-noletters'     => 'Не містить ніяких символів',
+	'antispoof-noletters'     => 'Не містить жодної літери',
 	'antispoof-mixedscripts'  => 'Використовуються несумісні системи письма',
-	'antispoof-tooshort'      => 'Канонічна назва надто коротка',
+	'antispoof-tooshort'      => "Канонічне ім'я надто коротке",
 );
 
 /** Vietnamese (Tiếng Việt)
