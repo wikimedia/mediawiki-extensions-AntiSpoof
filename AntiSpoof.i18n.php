@@ -754,6 +754,7 @@ $messages['lt'] = array(
  */
 $messages['ml'] = array(
 	'antispoof-blacklisted' => 'കരിമ്പട്ടികയില്‍ പെട്ട അക്ഷരങ്ങളുണ്ട്',
+	'antispoof-noletters'   => 'അക്ഷരങ്ങള്‍ ഒന്നും തന്നെ ഇല്ല',
 );
 
 /** Marathi (मराठी)
