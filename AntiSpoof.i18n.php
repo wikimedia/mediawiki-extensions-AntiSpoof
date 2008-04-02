@@ -449,6 +449,23 @@ $messages['he'] = array(
 	'antispoof-name-illegal'  => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2. אנא בחרו שם משתמש אחר.',
 );
 
+/** Hindi (हिन्दी)
+ * @author Kaustubh
+ */
+$messages['hi'] = array(
+	'antispoof-desc'          => 'मिश्र भाषा और संभ्रम पैदा करनेवाली तथा एकसरीके सदस्यनाम के इस्तेमाल पर रोक हैं।',
+	'antispoof-name-conflict' => '"$1" यह नाम अस्तित्वमें होनेवाले "$2" के साथ बहुत मिलता हैं। कृपया अन्य नाम का प्रयोग करें।',
+	'antispoof-name-illegal'  => '"$1" यह नाम इस्तेमाल करने से रोका गया हैं क्योंकी यह अन्य नामोंसे मिलताजुलता हैं। कॄपया दूसरे नाम का प्रयोग करें।',
+	'antispoof-badtype'       => 'गलत डाटा प्रकार',
+	'antispoof-empty'         => 'खाली स्ट्रिंग',
+	'antispoof-blacklisted'   => 'इसमें ब्लैकलिस्टेड अक्षर हैं',
+	'antispoof-combining'     => 'एकत्रिकरण चिन्हसे शुरु होता हैं',
+	'antispoof-unassigned'    => 'इसमें गलत अक्षर हैं',
+	'antispoof-noletters'     => 'इसमें कोईभी अक्षर नहीं हैं',
+	'antispoof-mixedscripts'  => 'इसमें अन्य मिश्र लिपीयां हैं',
+	'antispoof-tooshort'      => 'अधिकारयुक्त नाम बहुत छोटा हैं',
+);
+
 /** Croatian (Hrvatski)
  * @author SpeedyGonsales
  */
@@ -771,7 +788,7 @@ $messages['mr'] = array(
 	'antispoof-blacklisted'   => 'मान्यताप्राप्त यादीत नसलेले अक्षर',
 	'antispoof-combining'     => 'एकत्रीकरण चिन्हाने सुरुवात केलेली आहे.',
 	'antispoof-unassigned'    => 'यामध्ये चुकीची चिन्हे आहेत.',
-	'antispoof-noletters'     => 'कोणत्याही पत्राचा समावेश नाही',
+	'antispoof-noletters'     => 'कोणत्याही अक्षराचा समावेश नाही',
 	'antispoof-mixedscripts'  => 'यामध्ये इतर मिश्र लिपी आहेत.',
 	'antispoof-tooshort'      => 'अधिकारयुक्त नाव खूप छोटे आहे',
 );
