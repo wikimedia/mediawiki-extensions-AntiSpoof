@@ -1201,7 +1201,7 @@ $messages['uk'] = array(
  * @author Minh Nguyen
  */
 $messages['vi'] = array(
-	'antispoof-desc'          => 'Cấm không được mở tài khoản dưới tên dùng hơn một hệ thống viết, gây nhầm lẫn, hay giống tên của người khác',
+	'antispoof-desc'          => 'Cấm không được mở tài khoản dưới tên người dùng sử dụng hơn một hệ thống chữ viết, gây nhầm lẫn, và tương tự với tên người dùng khác',
 	'antispoof-name-conflict' => 'Tên “$1” quá giống với tài khoản đã có “$2”. Xin hãy chọn tên khác.',
 	'antispoof-name-illegal'  => 'Không được phép dùng tên “$1” để tránh tên người dùng $2 dễ gây lầm lẫn hoặc lừa gạt. Xin hãy chọn tên khác.',
 	'antispoof-badtype'       => 'Kiểu dữ liệu không hợp lệ',
