@@ -404,6 +404,14 @@ $messages['frp'] = array(
 	'antispoof-tooshort'      => 'Nom canonico trop côrt',
 );
 
+/** Friulian (Furlan)
+ * @author Klenje
+ */
+$messages['fur'] = array(
+	'antispoof-name-conflict' => 'Il non utent "$1" al è masse simil al utent "$2", za regjistrât. 
+Sielç par plasê un altri non.',
+);
+
 /** Galician (Galego)
  * @author Alma
  */
@@ -535,10 +543,10 @@ $messages['hu'] = array(
 );
 
 /** Indonesian (Bahasa Indonesia)
- * @author IvanLanin
+ * @author Meursault2004
  */
 $messages['id'] = array(
-	'antispoof-desc'          => 'Menghalangi pembuatan akun dengan nama pengguna campuran skrip, membingungkan, dan serupa',
+	'antispoof-desc'          => 'Menghalangi pembuatan akun dengan nama pengguna aksara campuran, membingungkan, dan yang mirip',
 	'antispoof-name-conflict' => 'Nama "$1" terlalu mirip dengan akun "$2" yang sudah ada. Harap pilih nama lain.',
 	'antispoof-name-illegal'  => 'Nama "$1" tidak diijinkan untuk mencegah kebingungan atau penipuan nama: $2. Harap pilih nama lain.',
 	'antispoof-badtype'       => 'Tipe data salah',
@@ -617,6 +625,18 @@ $messages['jut'] = array(
 	'antispoof-noletters'     => "Indeholder ig'n bogstaver",
 	'antispoof-mixedscripts'  => 'Indeholder inkompatible, blandede tegnsæt',
 	'antispoof-tooshort'      => 'Kanonisaliset navn til kårt',
+);
+
+/** Javanese (Basa Jawa)
+ * @author Meursault2004
+ */
+$messages['jv'] = array(
+	'antispoof-desc'          => 'Menggak nggawé akun utawa rékening mawa jeneng panganggo aksara campuran, mbingungaké lan sing mèmper',
+	'antispoof-name-conflict' => 'Jeneng "$1" mèmper banget karo akun utawa rékening "$2" sing wis ana. 
+Mangga milih jeneng liya.',
+	'antispoof-name-illegal'  => 'Jeneng "$1" ora diidinaké supaya wong ora bingung utawa menggak ngapi-api jeneng panganggo sing wis ana: $2. 
+Mangga pilihen jeneng liya.',
+	'antispoof-noletters'     => 'Ora ngandhut aksara babar belas',
 );
 
 /** Georgian (ქართული)
@@ -771,8 +791,12 @@ $messages['lt'] = array(
  * @author Shijualex
  */
 $messages['ml'] = array(
-	'antispoof-blacklisted' => 'കരിമ്പട്ടികയില്‍ പെട്ട അക്ഷരങ്ങളുണ്ട്',
-	'antispoof-noletters'   => 'അക്ഷരങ്ങള്‍ ഒന്നും തന്നെ ഇല്ല',
+	'antispoof-name-conflict' => '"$1" എന്ന നാമത്തിനു "$2" എന്ന അക്കൗണ്ടിന്റെ ഉപയോക്തൃനാമവുമായി വള്രെയധികം സാമ്യമുണ്ട്.
+ദയവായി മറ്റൊരു നാമം തിരഞ്ഞെടുക്കുക.',
+	'antispoof-name-illegal'  => 'ഉപയോക്തൃനാമത്തിലെ തെറ്റിദ്ധാരണയും സ്പൂഫിങ്ങും ഒഴിവാക്കാന്‍ "$1" എന്ന ഉപയോക്തൃനാമം അനുവദനീയമല്ല.
+ദയവായി മറ്റൊരു നാമം തിരഞ്ഞെടുക്കുക.',
+	'antispoof-blacklisted'   => 'കരിമ്പട്ടികയില്‍ പെട്ട അക്ഷരങ്ങളുണ്ട്',
+	'antispoof-noletters'     => 'അക്ഷരങ്ങള്‍ ഒന്നും തന്നെ ഇല്ല',
 );
 
 /** Marathi (मराठी)
@@ -1195,6 +1219,25 @@ $messages['uk'] = array(
 	'antispoof-noletters'     => 'Не містить жодної літери',
 	'antispoof-mixedscripts'  => 'Використовуються несумісні системи письма',
 	'antispoof-tooshort'      => "Канонічне ім'я надто коротке",
+);
+
+/** Vèneto (Vèneto)
+ * @author Candalua
+ */
+$messages['vec'] = array(
+	'antispoof-desc'          => 'Inpedisse la creazion de account con carateri missià, nomi utente che genera confusion o che se someja massa tra de lori.',
+	'antispoof-name-conflict' => 'El nome "$1" el ghe someja massa a l\'utente "$2", zà registrà.
+Siegli n\'altro nome, par piaser.',
+	'antispoof-name-illegal'  => 'El nome "$1" no\'l xe mìa permesso, par evitar confusion o utilizi fraudolenti: $2.
+Siegli n\'altro nome, par piaser.',
+	'antispoof-badtype'       => 'Tipo de dati mìa giusto.',
+	'antispoof-empty'         => 'Stringa voda',
+	'antispoof-blacklisted'   => 'Contien carateri mìa consentìi',
+	'antispoof-combining'     => 'Scuminsia con un caratere de conbinazion',
+	'antispoof-unassigned'    => 'Contien carateri non assegnà o deprecà',
+	'antispoof-noletters'     => 'No ghe xe letere',
+	'antispoof-mixedscripts'  => 'Conbinazion de sistemi de scritura mìa conpatibili',
+	'antispoof-tooshort'      => 'Nome in forma canonica massa curto',
 );
 
 /** Vietnamese (Tiếng Việt)
