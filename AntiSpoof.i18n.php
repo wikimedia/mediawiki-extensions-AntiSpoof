@@ -799,6 +799,7 @@ $messages['ml'] = array(
 	'antispoof-empty'         => 'ശൂന്യമായ സ്ട്രിംങ്ങ്',
 	'antispoof-blacklisted'   => 'കരിമ്പട്ടികയില്‍ പെട്ട അക്ഷരങ്ങളുണ്ട്',
 	'antispoof-noletters'     => 'അക്ഷരങ്ങള്‍ ഒന്നും തന്നെ ഇല്ല',
+	'antispoof-mixedscripts'  => 'പൊരുത്തക്കേടുള്ള സങ്കരലിപികള്‍ ഉള്‍പ്പെടുന്നു',
 );
 
 /** Marathi (मराठी)
@@ -853,6 +854,13 @@ $messages['nl'] = array(
 	'antispoof-noletters'     => 'Bevat geen letters',
 	'antispoof-mixedscripts'  => 'Bevat niet compatibele schriften',
 	'antispoof-tooshort'      => 'Afgekorte naam te kort',
+);
+
+/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+ * @author Jorunn
+ */
+$messages['nn'] = array(
+	'antispoof-name-conflict' => 'Namnet «$1» er for likt namnet til den eksisterande kontoen «$2». Vel eit anna namn i staden.',
 );
 
 /** Norwegian (‪Norsk (bokmål)‬)
