@@ -555,7 +555,7 @@ $messages['id'] = array(
 	'antispoof-combining'     => 'Dimulai dengan tanda kombinasi',
 	'antispoof-unassigned'    => 'Mengandung karakter yang tak diberikan atau tak digunakan lagi',
 	'antispoof-noletters'     => 'Tidak mengandung huruf apapun',
-	'antispoof-mixedscripts'  => 'Mengandung skrip gabungan yang tak kompatibel',
+	'antispoof-mixedscripts'  => 'Mengandung huruf campuran yang tak kompatibel',
 	'antispoof-tooshort'      => 'Nama kanonikalisasi terlalu pendek',
 );
 
@@ -636,7 +636,11 @@ $messages['jv'] = array(
 Mangga milih jeneng liya.',
 	'antispoof-name-illegal'  => 'Jeneng "$1" ora diidinaké supaya wong ora bingung utawa menggak ngapi-api jeneng panganggo sing wis ana: $2. 
 Mangga pilihen jeneng liya.',
+	'antispoof-badtype'       => 'Tipe data salah',
+	'antispoof-empty'         => 'Data kosong',
+	'antispoof-blacklisted'   => 'Ngandhut karakter sing ora diidinaké',
 	'antispoof-noletters'     => 'Ora ngandhut aksara babar belas',
+	'antispoof-mixedscripts'  => 'Ngandhut aksara campuran sing ora kompatibel',
 );
 
 /** Georgian (ქართული)
@@ -1025,15 +1029,15 @@ $messages['ro'] = array(
 $messages['ru'] = array(
 	'antispoof-desc'          => 'Запрещает создание учётных записей с именами, содержащими символы из разных систем письма, вводящих в заблуждение и похожих на имена других учётных записей.',
 	'antispoof-name-conflict' => 'Имя «$1» похоже на уже существующую учётную запись «$2». Пожалуйста, выберите другое имя.',
-	'antispoof-name-illegal'  => 'Имя «$1» не разрешено использовать во избежание спутывания с именами: $2. Пожалуйста, выберите другое имя.',
-	'antispoof-badtype'       => 'Ошибочный тип данных',
+	'antispoof-name-illegal'  => 'Не разрешено использование имени «$1» в целях предотвращения смешения со следующими похожими именами: $2. Пожалуйста, выберите другое имя.',
+	'antispoof-badtype'       => 'Неправильный тип данных',
 	'antispoof-empty'         => 'Пустая строка',
 	'antispoof-blacklisted'   => 'Содержит символы из запрещённого списка',
-	'antispoof-combining'     => 'Начинается с модифицирующего символа',
+	'antispoof-combining'     => 'Начинается с объединительной пометки',
 	'antispoof-unassigned'    => 'Сожержит неопределённый или неподдерживаемый символ',
-	'antispoof-noletters'     => 'Не содержит букв',
+	'antispoof-noletters'     => 'Не содержит ни одной буквы',
 	'antispoof-mixedscripts'  => 'Используются несовместимые системы письменности',
-	'antispoof-tooshort'      => 'Каноническое имя слишком короткое',
+	'antispoof-tooshort'      => 'Нормализованное имя слишком короткое',
 );
 
 /** Yakut (Саха тыла)
@@ -1224,7 +1228,7 @@ $messages['uk'] = array(
 	'antispoof-badtype'       => 'Невірний тип даних',
 	'antispoof-empty'         => 'Порожній рядок',
 	'antispoof-blacklisted'   => 'Містить заборонені символи',
-	'antispoof-combining'     => 'Починається з модифікуючого символу',
+	'antispoof-combining'     => "Починається з об'єднувальної мітки",
 	'antispoof-unassigned'    => 'Містить невизначений або непідтримуваний символ',
 	'antispoof-noletters'     => 'Не містить жодної літери',
 	'antispoof-mixedscripts'  => 'Використовуються несумісні системи письма',
