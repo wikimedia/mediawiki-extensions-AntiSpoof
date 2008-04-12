@@ -639,6 +639,7 @@ Mangga pilihen jeneng liya.',
 	'antispoof-badtype'       => 'Tipe data salah',
 	'antispoof-empty'         => 'Data kosong',
 	'antispoof-blacklisted'   => 'Ngandhut karakter sing ora diidinaké',
+	'antispoof-unassigned'    => 'Ngandhut karakter sing ora ditunjuk utawa ora dienggo manèh',
 	'antispoof-noletters'     => 'Ora ngandhut aksara babar belas',
 	'antispoof-mixedscripts'  => 'Ngandhut aksara campuran sing ora kompatibel',
 );
