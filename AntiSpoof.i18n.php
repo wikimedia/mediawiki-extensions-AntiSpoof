@@ -943,8 +943,8 @@ $messages['pam'] = array(
  */
 $messages['pl'] = array(
 	'antispoof-desc'          => 'Blokuje tworzenie kont użytkowników o nazwach dezorientujących lub podobnych do już istniejących',
-	'antispoof-name-conflict' => 'Proszę wybrać inną nazwę, ponieważ "$1" jest zbyt podobna do nazwy innego użytkownika ($2).',
-	'antispoof-name-illegal'  => 'Proszę wybrać inną nazwę, ponieważ "$1" nie może być użyta ze względu na podobieństwo do nazwy innego użytkownika ($2).',
+	'antispoof-name-conflict' => 'Proszę wybrać inną nazwę, ponieważ „$1” jest zbyt podobna do nazwy innego użytkownika „$2”.',
+	'antispoof-name-illegal'  => 'Proszę wybrać inną nazwę, ponieważ „$1” nie może być użyta ze względu na podobieństwo do nazwy innego użytkownika „$2”.',
 	'antispoof-badtype'       => 'Zły typ danych',
 	'antispoof-empty'         => 'Pusty ciąg znaków',
 	'antispoof-blacklisted'   => 'Zawiera niedozwolone znaki',
