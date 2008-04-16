@@ -290,12 +290,14 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Cvmontuy
  * @author Platonides
  * @author Icvav
  */
 $messages['es'] = array(
 	'antispoof-name-conflict' => 'El nombre "$1" es demasiado parecido a la cuenta "$2", ya existente. Por favor, elige otro nombre.',
 	'antispoof-name-illegal'  => 'Con el fin de evitar nombres confusos y suplantaciones no se permite registrar el nombre de usuario "$1": $2. Por favor, escoja otro nombre.',
+	'antispoof-empty'         => 'Texto vacio',
 );
 
 /** Basque (Euskara)
