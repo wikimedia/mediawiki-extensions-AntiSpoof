@@ -566,6 +566,7 @@ $messages['id'] = array(
  * @author Spacebirdy
  */
 $messages['is'] = array(
+	'antispoof-desc'          => 'Óheimilar gerð aðganga með blandað skrifletur, ruglandi og svipuð notandanöfn',
 	'antispoof-name-conflict' => 'Notandanafnið „$1“ er of líkt notandanafninu „$2“. Gerðu svo vel og veldu annað.',
 	'antispoof-name-illegal'  => 'Nafnið „$1“ er ekki leyft til að koma í veg fyrir ruglandi eða skopstæld notendanöfn: „$2“. Gerðu svo vel og veldu annað nafn.',
 	'antispoof-badtype'       => 'Lélegt gagnatag',
