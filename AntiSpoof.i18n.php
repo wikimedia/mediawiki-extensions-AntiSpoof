@@ -106,6 +106,24 @@ $messages['bcl'] = array(
 	'antispoof-mixedscripts'  => 'Igwang dai angay na mga halong script',
 );
 
+/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+ * @author Red Winged Duck
+ * @author EugeneZelenko
+ */
+$messages['be-tarask'] = array(
+	'antispoof-desc'          => 'Блякуе стварэньне рахункаў зь імёнамі карыстальнікаў са зьмяшаных альфабэтаў, падобных ці тых, якія можна зблытаць',
+	'antispoof-name-conflict' => 'Імя «$1» занадта падобнае да існага імені ўдзельніка «$2». Калі ласка, абярыце іншае імя.',
+	'antispoof-name-illegal'  => 'Імя «$1» не дазволенае, каб прадухіліць блытаніну ці падробку імені ўдзельніка: $2. Калі ласка, абярыце іншае імя.',
+	'antispoof-badtype'       => 'Няслушны тып зьвестак',
+	'antispoof-empty'         => 'Пусты радок',
+	'antispoof-blacklisted'   => 'Утрымлівае забаронены сымбаль',
+	'antispoof-combining'     => "Пачынаецца з аб'яднальнага знаку",
+	'antispoof-unassigned'    => 'Утрымлівае нявызначаны ці састарэлы сымбаль',
+	'antispoof-noletters'     => 'Ня ўтрымлівае ніводнай літары',
+	'antispoof-mixedscripts'  => 'Утрымлівае несумяшчальныя зьмяшаныя альфабэты',
+	'antispoof-tooshort'      => 'Нармалізаванае імя занадта кароткае',
+);
+
 /** Bulgarian (Български)
  * @author Borislav
  * @author Spiritia
@@ -842,11 +860,17 @@ $messages['myv'] = array(
  * @author Slomox
  */
 $messages['nds'] = array(
+	'antispoof-desc'          => 'Verhinnert dat Opstellen vun Brukerkonten mit mischte Tekensätz un Brukernaams, de verwirrt oder liek utseht as annere Brukernaams',
 	'antispoof-name-conflict' => 'De Brukernaam „$1“ liekt den Brukernaam „$2“, de al vörhannen is, to dull. Söök di en annern Brukernaam ut.',
 	'antispoof-name-illegal'  => 'De Brukernaam „$1“ is nich verlöövt. Grund: $2<br />Söök di en annern Brukernaam ut.',
 	'antispoof-badtype'       => 'Leeg Datentyp',
 	'antispoof-empty'         => 'Feld leddig',
+	'antispoof-blacklisted'   => 'In’n Text sünd nich verlöövte Teken binnen',
+	'antispoof-combining'     => 'Kombinatschoonsteken to Anfang',
+	'antispoof-unassigned'    => 'In’n Text sünd nich toornte oder nich wünschte Teken binnen',
 	'antispoof-noletters'     => 'Dor sünd kene Bookstaven in.',
+	'antispoof-mixedscripts'  => 'in’n Text sünd Teken ut verschedene Schriftsystemen binnen',
+	'antispoof-tooshort'      => 'De kanoniseerte Naam is to kort.',
 );
 
 /** Dutch (Nederlands)
@@ -916,6 +940,13 @@ $messages['oc'] = array(
 	'antispoof-noletters'     => 'Conten pas cap de letra',
 	'antispoof-mixedscripts'  => 'Conten mantun escript incompatible',
 	'antispoof-tooshort'      => 'Nom canonic tròp cort',
+);
+
+/** Ossetic (Иронау)
+ * @author Amikeco
+ */
+$messages['os'] = array(
+	'antispoof-empty' => 'Афтид рæнхъ',
 );
 
 /** Pangasinan (Pangasinan)
