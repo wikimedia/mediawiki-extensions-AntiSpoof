@@ -732,10 +732,12 @@ $messages['km'] = array(
 
 /** Korean (한국어)
  * @author Klutzy
+ * @author ToePeu
  */
 $messages['ko'] = array(
 	'antispoof-name-conflict' => '‘$1’ 사용자는 ‘$2’ 사용자와 이름이 너무 비슷합니다. 다른 이름으로 가입해주세요.',
 	'antispoof-name-illegal'  => '‘$1’ 사용자 이름은 다음의 이유로 인해 가입이 금지되었습니다: $2. 다른 이름으로 가입해주세요.',
+	'antispoof-badtype'       => '잘못된 자료형',
 	'antispoof-empty'         => '빈 문자열',
 );
 
