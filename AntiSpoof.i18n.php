@@ -482,6 +482,8 @@ $messages['hak'] = array(
 $messages['he'] = array(
 	'antispoof-name-conflict' => 'שם המשתמש "$1" שבחרתם דומה מדי לשם המשתמש הקיים "$2". אנא בחרו שם משתמש אחר.',
 	'antispoof-name-illegal'  => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2. אנא בחרו שם משתמש אחר.',
+
+	'right-override-antispoof' => 'התעלמות מבדיקות ההתחזות',
 );
 
 /** Hindi (हिन्दी)
