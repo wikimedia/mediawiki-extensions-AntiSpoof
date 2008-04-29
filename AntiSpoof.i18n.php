@@ -21,6 +21,8 @@ Please choose another name.',
 	'antispoof-noletters'     => 'Does not contain any letters',
 	'antispoof-mixedscripts'  => 'Contains incompatible mixed scripts',
 	'antispoof-tooshort'      => 'Canonicalized name too short',
+
+	'right-override-antispoof' => 'Override the spoofing checks',
 );
 
 /** Aragonese (Aragonés)
@@ -239,7 +241,9 @@ $messages['da'] = array(
 	'antispoof-mixedscripts'  => 'Indeholder inkompatible, blandede tegnsæt',
 );
 
-/** German (Deutsch) */
+/** German (Deutsch)
+ * @author Raimond Spekking
+ */
 $messages['de'] = array(
 	'antispoof-desc'          => 'Verhindert die Erstellung von Benutzerkonten mit gemischten Zeichensätzen, verwirrenden und ähnlichen Benutzernamen',
 	'antispoof-name-conflict' => 'Der gewünschte Benutzername „$1“ ist dem bereits vorhandenen Benutzernamen „$2“ zu ähnlich. Bitte einen anderen Benutzernamen wählen.',
@@ -252,6 +256,8 @@ $messages['de'] = array(
 	'antispoof-noletters'     => 'Es sind keine Buchstaben enthalten.',
 	'antispoof-mixedscripts'  => 'Es sind Zeichen unterschiedlicher Schriftsysteme enthalten.',
 	'antispoof-tooshort'      => 'Der kanonisierte Name ist zu kurz.',
+
+	'right-override-antispoof' => 'Außer Kraft setzen der Benutzernamens-Ähnlichkeitsprüfung',
 );
 
 /** Lower Sorbian (Dolnoserbski)
