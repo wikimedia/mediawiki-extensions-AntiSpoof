@@ -985,11 +985,14 @@ $messages['pag'] = array(
 
 /** Pampanga (Kapampangan)
  * @author SPQRobin
+ * @author Katimawan2005
  */
 $messages['pam'] = array(
+	'antispoof-desc'          => 'Sabatan na ing pamaglalang kareng account a maki misasamut a kulit (mixed-script), makabaligo ampong miwawangis a lagyungtalagamit (username).',
 	'antispoof-name-conflict' => 'Masyadu yang malapit ing "$1" king mimiral a account a "$2". Sana lumawe kang aliwang lagyu.',
 	'antispoof-name-illegal'  => 'E malyaring gamitan ing  "$1" uling bawal la reng username a mákabaligo o balamu piglocu: $2. Sana mamili kang aliwang lagyu.',
 	'antispoof-badtype'       => 'Marauak a uri ning data',
+	'antispoof-blacklisted'   => 'Makit kulit (character) yang mibawal',
 	'antispoof-combining'     => 'Maki tatak yang mangabaldugang pamituglung',
 	'antispoof-noletters'     => 'Ala yang letra',
 	'antispoof-mixedscripts'  => 'Misamut la reng sulat a e malyaring piyabe',
