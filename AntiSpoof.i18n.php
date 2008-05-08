@@ -1178,17 +1178,18 @@ $messages['sr-el'] = array(
  * @author Pyt
  */
 $messages['stq'] = array(
-	'antispoof-desc'          => 'Ferhinnert dät Moakjen fon Benutserkonten mäd miskede Teekensatse, fertoogede un äänelke Benutsernoomen',
-	'antispoof-name-conflict' => 'Die wonskede Benutsernoome „$1“ glieket dän al bestoundende Benutsernoome „$2“ tou fuul. Wääl n uur Noome.',
-	'antispoof-name-illegal'  => 'Die wonskede Benutsernoome „$1“ is nit ferlööwed. Gruund: $2<br />Wääl n uur Benutsernoome.',
-	'antispoof-badtype'       => 'Ungultigen Doatentyp',
-	'antispoof-empty'         => 'Loos Fäild',
-	'antispoof-blacklisted'   => 'Änthaalt nit tousteene Teekene.',
-	'antispoof-combining'     => 'Kombinationsteeken toun Ounfang.',
-	'antispoof-unassigned'    => 'Änthaalt nit tou-oardnede of nit wonskede Teekene.',
-	'antispoof-noletters'     => 'Änthaalt neen Bouksteeuwe.',
-	'antispoof-mixedscripts'  => 'Änthaalt Teekene fon uunglieke Schriftsysteme.',
-	'antispoof-tooshort'      => 'Die kanonisierde Noome is tou kuut.',
+	'antispoof-desc'           => 'Ferhinnert dät Moakjen fon Benutserkonten mäd miskede Teekensatse, fertoogede un äänelke Benutsernoomen',
+	'antispoof-name-conflict'  => 'Die wonskede Benutsernoome „$1“ glieket dän al bestoundende Benutsernoome „$2“ tou fuul. Wääl n uur Noome.',
+	'antispoof-name-illegal'   => 'Die wonskede Benutsernoome „$1“ is nit ferlööwed. Gruund: $2<br />Wääl n uur Benutsernoome.',
+	'antispoof-badtype'        => 'Ungultigen Doatentyp',
+	'antispoof-empty'          => 'Loos Fäild',
+	'antispoof-blacklisted'    => 'Änthaalt nit tousteene Teekene.',
+	'antispoof-combining'      => 'Kombinationsteeken toun Ounfang.',
+	'antispoof-unassigned'     => 'Änthaalt nit tou-oardnede of nit wonskede Teekene.',
+	'antispoof-noletters'      => 'Änthaalt neen Bouksteeuwe.',
+	'antispoof-mixedscripts'   => 'Änthaalt Teekene fon uunglieke Schriftsysteme.',
+	'antispoof-tooshort'       => 'Die kanonisierde Noome is tou kuut.',
+	'right-override-antispoof' => 'Buute Kraft sätten fon ju Benutsernoome-Äänelkhaidswröige',
 );
 
 /** Sundanese (Basa Sunda)
