@@ -371,17 +371,18 @@ $messages['fa'] = array(
  * @author Nike
  */
 $messages['fi'] = array(
-	'antispoof-desc'          => 'Estää käyttäjätunnusten luonnin, jos ne sisältävät eri kirjoitusjärjestelmiä, harhaanjohtavia tai samankaltaisia käyttäjätunnuksia.',
-	'antispoof-name-conflict' => 'Tunnus ”$1” on liian samankaltainen tunnuksen ”$2” kanssa. Valitse toinen tunnus.',
-	'antispoof-name-illegal'  => 'Tunnusta ”$1” ei sallita, koska $2. Hämäävien tai huijaustarkoitukseen sopivien tunnusten luonti on estetty. Valitse toinen tunnus.',
-	'antispoof-badtype'       => 'se on virheellistä tietotyyppiä',
-	'antispoof-empty'         => 'se on tyhjä',
-	'antispoof-blacklisted'   => 'se sisältää kielletyn merkin',
-	'antispoof-combining'     => 'se alkaa yhdistyvällä merkillä',
-	'antispoof-unassigned'    => 'se sisältää määräämättömiä tai käytöstä poistuvia merkkejä',
-	'antispoof-noletters'     => 'se ei sisällä kirjaimia',
-	'antispoof-mixedscripts'  => 'se sisältää yhteensopimattomia kirjoitusjärjestelmiä',
-	'antispoof-tooshort'      => 'sen kanonisoitu muoto on liian lyhyt',
+	'antispoof-desc'           => 'Estää käyttäjätunnusten luonnin, jos ne sisältävät eri kirjoitusjärjestelmiä, harhaanjohtavia tai samankaltaisia käyttäjätunnuksia.',
+	'antispoof-name-conflict'  => 'Tunnus ”$1” on liian samankaltainen tunnuksen ”$2” kanssa. Valitse toinen tunnus.',
+	'antispoof-name-illegal'   => 'Tunnusta ”$1” ei sallita, koska $2. Hämäävien tai huijaustarkoitukseen sopivien tunnusten luonti on estetty. Valitse toinen tunnus.',
+	'antispoof-badtype'        => 'se on virheellistä tietotyyppiä',
+	'antispoof-empty'          => 'se on tyhjä',
+	'antispoof-blacklisted'    => 'se sisältää kielletyn merkin',
+	'antispoof-combining'      => 'se alkaa yhdistyvällä merkillä',
+	'antispoof-unassigned'     => 'se sisältää määräämättömiä tai käytöstä poistuvia merkkejä',
+	'antispoof-noletters'      => 'se ei sisällä kirjaimia',
+	'antispoof-mixedscripts'   => 'se sisältää yhteensopimattomia kirjoitusjärjestelmiä',
+	'antispoof-tooshort'       => 'sen kanonisoitu muoto on liian lyhyt',
+	'right-override-antispoof' => 'Ohittaa tarkastukset samankaltaisista tai epäilyttävistä käyttäjätunnuksista',
 );
 
 /** French (Français)
@@ -565,17 +566,18 @@ $messages['ht'] = array(
  * @author Dani
  */
 $messages['hu'] = array(
-	'antispoof-desc'          => 'Letiltja a kevert szövegű, zavaró és hasonló nevű felhasználói fiókok készítését',
-	'antispoof-name-conflict' => 'A név, „$1”, túl hasonló egy már meglévő azonosítóhoz („$2”). Kérlek válassz másikat.',
-	'antispoof-name-illegal'  => 'A név, „$1”, nem engedélyezett a zavaró vagy becsapó felhasználónevek megelőzése érdekében: $2.',
-	'antispoof-badtype'       => 'Hibás adattípus',
-	'antispoof-empty'         => 'Üres szöveg',
-	'antispoof-blacklisted'   => 'Nem használható karaktert tartalmaz',
-	'antispoof-combining'     => 'Összekapcsoló jellel kezdődik',
-	'antispoof-unassigned'    => 'Még nem kijelölt vagy nem használt karaktert tartalmaz',
-	'antispoof-noletters'     => 'Nem tartalmaz egyetlen betűt sem',
-	'antispoof-mixedscripts'  => 'Összeférhetetlen kevert szöveget tartalmaz',
-	'antispoof-tooshort'      => 'A kanonizált változat túl rövid',
+	'antispoof-desc'           => 'Letiltja a kevert szövegű, zavaró és hasonló nevű felhasználói fiókok készítését',
+	'antispoof-name-conflict'  => 'A név, „$1”, túl hasonló egy már meglévő azonosítóhoz („$2”). Kérlek válassz másikat.',
+	'antispoof-name-illegal'   => 'A név, „$1”, nem engedélyezett a zavaró vagy becsapó felhasználónevek megelőzése érdekében: $2.',
+	'antispoof-badtype'        => 'Hibás adattípus',
+	'antispoof-empty'          => 'Üres szöveg',
+	'antispoof-blacklisted'    => 'Nem használható karaktert tartalmaz',
+	'antispoof-combining'      => 'Összekapcsoló jellel kezdődik',
+	'antispoof-unassigned'     => 'Még nem kijelölt vagy nem használt karaktert tartalmaz',
+	'antispoof-noletters'      => 'Nem tartalmaz egyetlen betűt sem',
+	'antispoof-mixedscripts'   => 'Összeférhetetlen kevert szöveget tartalmaz',
+	'antispoof-tooshort'       => 'A kanonizált változat túl rövid',
+	'right-override-antispoof' => 'felhasználói nevek ellenőrzésének figyelmen kívül hagyása',
 );
 
 /** Indonesian (Bahasa Indonesia)
