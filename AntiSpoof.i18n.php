@@ -232,18 +232,22 @@ $messages['cs'] = array(
 
 /** Danish (Dansk)
  * @author Morten
+ * @author Jan Friberg
+ * @author Jon Harald Søby
  */
 $messages['da'] = array(
-	'antispoof-desc'          => 'Blokerer for oprettelse af konti med blandede tegnsæt, forvirrende eller lignende brugernavne',
-	'antispoof-name-conflict' => 'Navnet "$1" minder for meget om den eksisterende konto "$2". Vælg venligst et andet navn.',
-	'antispoof-name-illegal'  => 'Navnet "$1" er ikke tilladt for at forhindre forvirrende eller efterlignede brugernavne: $2. Vælg venligst et andet navn.',
-	'antispoof-badtype'       => 'Forkert datatype',
-	'antispoof-empty'         => 'Tom streng',
-	'antispoof-blacklisted'   => 'Indeholder sortlistet tegn',
-	'antispoof-combining'     => 'Begynder med et kombinationsbogstav',
-	'antispoof-unassigned'    => 'Indeholder ubrugte bogstaver',
-	'antispoof-noletters'     => 'Indeholder ikke bogstaver',
-	'antispoof-mixedscripts'  => 'Indeholder inkompatible, blandede tegnsæt',
+	'antispoof-desc'           => 'Blokerer for oprettelse af konti med blandede tegnsæt, forvirrende eller lignende brugernavne',
+	'antispoof-name-conflict'  => 'Navnet "$1" minder for meget om den eksisterende konto "$2". Vælg venligst et andet navn.',
+	'antispoof-name-illegal'   => 'Navnet "$1" er ikke tilladt for at forhindre forvirrende eller efterlignede brugernavne: $2. Vælg venligst et andet navn.',
+	'antispoof-badtype'        => 'Forkert datatype',
+	'antispoof-empty'          => 'Tom streng',
+	'antispoof-blacklisted'    => 'Indeholder sortlistet tegn',
+	'antispoof-combining'      => 'Begynder med et kombinationsbogstav',
+	'antispoof-unassigned'     => 'Indeholder ubrugte bogstaver',
+	'antispoof-noletters'      => 'Indeholder ikke bogstaver',
+	'antispoof-mixedscripts'   => 'Indeholder inkompatible, blandede tegnsæt',
+	'antispoof-tooshort'       => 'Navnet er for kort',
+	'right-override-antispoof' => 'Omgå kontrollerne af brugernavne',
 );
 
 /** German (Deutsch)
