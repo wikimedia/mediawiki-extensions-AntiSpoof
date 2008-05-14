@@ -28,6 +28,7 @@ $wgAntiSpoofAccounts = true;
  */
 $wgGroupPermissions['sysop']['override-antispoof'] = true;
 $wgGroupPermissions['bureaucrat']['override-antispoof'] = true;
+$wgAvailableRights[] = 'override-antispoof';
 
 $wgExtensionFunctions[] = 'asSetup';
 
