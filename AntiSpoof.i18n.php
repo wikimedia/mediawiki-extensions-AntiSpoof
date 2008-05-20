@@ -1323,19 +1323,20 @@ $messages['uk'] = array(
  * @author Candalua
  */
 $messages['vec'] = array(
-	'antispoof-desc'          => 'Inpedisse la creazion de account con carateri missià, nomi utente che genera confusion o che se someja massa tra de lori.',
-	'antispoof-name-conflict' => 'El nome "$1" el ghe someja massa a l\'utente "$2", zà registrà.
+	'antispoof-desc'           => 'Inpedisse la creazion de account con carateri missià, nomi utente che genera confusion o che se someja massa tra de lori.',
+	'antispoof-name-conflict'  => 'El nome "$1" el ghe someja massa a l\'utente "$2", zà registrà.
 Siegli n\'altro nome, par piaser.',
-	'antispoof-name-illegal'  => 'El nome "$1" no\'l xe mìa permesso, par evitar confusion o utilizi fraudolenti: $2.
+	'antispoof-name-illegal'   => 'El nome "$1" no\'l xe mìa permesso, par evitar confusion o utilizi fraudolenti: $2.
 Siegli n\'altro nome, par piaser.',
-	'antispoof-badtype'       => 'Tipo de dati mìa giusto.',
-	'antispoof-empty'         => 'Stringa voda',
-	'antispoof-blacklisted'   => 'Contien carateri mìa consentìi',
-	'antispoof-combining'     => 'Scuminsia con un caratere de conbinazion',
-	'antispoof-unassigned'    => 'Contien carateri non assegnà o deprecà',
-	'antispoof-noletters'     => 'No ghe xe letere',
-	'antispoof-mixedscripts'  => 'Conbinazion de sistemi de scritura mìa conpatibili',
-	'antispoof-tooshort'      => 'Nome in forma canonica massa curto',
+	'antispoof-badtype'        => 'Tipo de dati mìa giusto.',
+	'antispoof-empty'          => 'Stringa voda',
+	'antispoof-blacklisted'    => 'Contien carateri mìa consentìi',
+	'antispoof-combining'      => 'Scuminsia con un caratere de conbinazion',
+	'antispoof-unassigned'     => 'Contien carateri non assegnà o deprecà',
+	'antispoof-noletters'      => 'No ghe xe letere',
+	'antispoof-mixedscripts'   => 'Conbinazion de sistemi de scritura mìa conpatibili',
+	'antispoof-tooshort'       => 'Nome in forma canonica massa curto',
+	'right-override-antispoof' => 'Ignora le verifiche de spoofing',
 );
 
 /** Vietnamese (Tiếng Việt)
