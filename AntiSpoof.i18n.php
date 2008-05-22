@@ -1220,7 +1220,6 @@ $messages['su'] = array(
 );
 
 /** Swedish (Svenska)
- * @author M.M.S.
  * @author Lejonel
  */
 $messages['sv'] = array(
@@ -1235,7 +1234,7 @@ $messages['sv'] = array(
 	'antispoof-noletters'      => 'Innehåller inga bokstäver',
 	'antispoof-mixedscripts'   => 'Innehåller tecken från flera inkompatibla skriftsystem',
 	'antispoof-tooshort'       => 'Det kanoniserade namnet är för kort',
-	'right-override-antispoof' => 'Upphäva kontrollering av användarnamn',
+	'right-override-antispoof' => 'Slipper kontroller mot förvirrande användarnamn',
 );
 
 /** Telugu (తెలుగు)
