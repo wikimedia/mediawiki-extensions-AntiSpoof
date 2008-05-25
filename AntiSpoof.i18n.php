@@ -230,6 +230,24 @@ $messages['cs'] = array(
 	'right-override-antispoof' => 'Potlačení kontroly podobnosti uživatelských jmen',
 );
 
+/** Welsh (Cymraeg)
+ * @author Lloffiwr
+ */
+$messages['cy'] = array(
+	'antispoof-desc'           => "Yn atal creu cyfrifon ag iddynt enwau o wyddorau cymysg, neu enwau dryslyd, neu enwau sy'n rhy debyg i enwau eraill",
+	'antispoof-name-conflict'  => 'Mae\'r enw "$1" yn rhy debyg i enw\'r cyfrif "$2" sydd eisoes yn bodoli. Dewiswch enw arall os gwelwch yn dda.',
+	'antispoof-name-illegal'   => 'Ni chaniateir yr enw "$1" er mwyn osgoi cael enwau dryslyd neu gellweirus ar ddefnyddwyr: $2. Byddwch gystal â dewis enw gwahanol.',
+	'antispoof-badtype'        => 'Math data gwallus',
+	'antispoof-empty'          => 'Llinyn gwag',
+	'antispoof-blacklisted'    => 'Yn cynnwys nod gwaharddedig',
+	'antispoof-combining'      => 'Yn dechrau gyda marc cyfuno',
+	'antispoof-unassigned'     => "Yn cynnwys nod sydd heb ei bennu neu nad yw'n gymeradwy",
+	'antispoof-noletters'      => "Nid yw'r enw'n cynnwys unrhyw lythyren",
+	'antispoof-mixedscripts'   => 'Yn cynnwys gwyddorau cymysg anghydweddol',
+	'antispoof-tooshort'       => "Mae'r enw, ar ôl ei normaleiddio gan y meddalwedd, yn rhy fyr i'w drin a'i drafod.",
+	'right-override-antispoof' => 'Anwybydder gwirio am enwau gwallus',
+);
+
 /** Danish (Dansk)
  * @author Morten
  * @author Jan Friberg
