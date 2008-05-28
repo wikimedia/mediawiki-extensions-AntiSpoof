@@ -604,19 +604,21 @@ $messages['hu'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Meursault2004
+ * @author Rex
  */
 $messages['id'] = array(
-	'antispoof-desc'          => 'Menghalangi pembuatan akun dengan nama pengguna aksara campuran, membingungkan, dan yang mirip',
-	'antispoof-name-conflict' => 'Nama "$1" terlalu mirip dengan akun "$2" yang sudah ada. Harap pilih nama lain.',
-	'antispoof-name-illegal'  => 'Nama "$1" tidak diijinkan untuk mencegah kebingungan atau penipuan nama: $2. Harap pilih nama lain.',
-	'antispoof-badtype'       => 'Tipe data salah',
-	'antispoof-empty'         => 'Data kosong',
-	'antispoof-blacklisted'   => 'Mengandung karakter yang tak diizinkan',
-	'antispoof-combining'     => 'Dimulai dengan tanda kombinasi',
-	'antispoof-unassigned'    => 'Mengandung karakter yang tak diberikan atau tak digunakan lagi',
-	'antispoof-noletters'     => 'Tidak mengandung huruf apapun',
-	'antispoof-mixedscripts'  => 'Mengandung huruf campuran yang tak kompatibel',
-	'antispoof-tooshort'      => 'Nama kanonikalisasi terlalu pendek',
+	'antispoof-desc'           => 'Menghalangi pembuatan akun dengan nama pengguna aksara campuran, membingungkan, dan yang mirip',
+	'antispoof-name-conflict'  => 'Nama "$1" terlalu mirip dengan akun "$2" yang sudah ada. Harap pilih nama lain.',
+	'antispoof-name-illegal'   => 'Nama "$1" tidak diijinkan untuk mencegah kebingungan atau penipuan nama: $2. Harap pilih nama lain.',
+	'antispoof-badtype'        => 'Tipe data salah',
+	'antispoof-empty'          => 'Data kosong',
+	'antispoof-blacklisted'    => 'Mengandung karakter yang tak diizinkan',
+	'antispoof-combining'      => 'Dimulai dengan tanda kombinasi',
+	'antispoof-unassigned'     => 'Mengandung karakter yang tak diberikan atau tak digunakan lagi',
+	'antispoof-noletters'      => 'Tidak mengandung huruf apapun',
+	'antispoof-mixedscripts'   => 'Mengandung huruf campuran yang tak kompatibel',
+	'antispoof-tooshort'       => 'Nama kanonikalisasi terlalu pendek',
+	'right-override-antispoof' => 'Abaikan pengecekan penipuan nama pengguna',
 );
 
 /** Icelandic (Íslenska)
@@ -785,10 +787,21 @@ $messages['ko'] = array(
 	'antispoof-empty'         => '빈 문자열',
 );
 
-/** Ripoarisch (Ripoarisch) */
+/** Ripoarisch (Ripoarisch)
+ * @author Purodha
+ */
 $messages['ksh'] = array(
+	'antispoof-desc'          => 'Dat ongerdröck neu Name für Metmaacher met jemeschte Zeichensätz, neu Name, wo mer jeck von weed, un zo ähnlije Name.',
 	'antispoof-name-conflict' => 'Dä Name „$1“ es „$2“ zoo ähnlich, un künnt met em verwähßelt weede. Dä Name „$2“ jitt et ald. Sök Der jet anders als Dinge Name us.',
 	'antispoof-name-illegal'  => 'Dä Name „$1“ es nit möchlich, domet mer kein nohjemahte Name krije, un keine Durjenein met Schrefte: $2. Sök Der jet anders als Dinge Name us.',
+	'antispoof-badtype'       => 'Verkierte Zoot Date',
+	'antispoof-empty'         => 'En dem Feld is nix dren',
+	'antispoof-blacklisted'   => 'Do sin Zeiche dren, die nit zojeloße sin.',
+	'antispoof-combining'     => 'Dat fängk med ennem kombineerende Zeiche aan.',
+	'antispoof-unassigned'    => 'Do sen Zeiche dren, die mer nit han welle, odder wo mer der Zeichesatz ja nit kenne.',
+	'antispoof-noletters'     => 'Do es nit eine Bochstabe dren.',
+	'antispoof-mixedscripts'  => 'He sin Zeichesätz jemesch.',
+	'antispoof-tooshort'      => 'Dä vereinheitlechte Name es zo koot.',
 );
 
 /** Latin (Latina)
@@ -1128,7 +1141,7 @@ $messages['ru'] = array(
 	'antispoof-empty'          => 'Пустая строка',
 	'antispoof-blacklisted'    => 'Содержит символы из запрещённого списка',
 	'antispoof-combining'      => 'Начинается с объединительной пометки',
-	'antispoof-unassigned'     => 'Сожержит неопределённый или неподдерживаемый символ',
+	'antispoof-unassigned'     => 'Содержит неопределённый или неподдерживаемый символ',
 	'antispoof-noletters'      => 'Не содержит ни одной буквы',
 	'antispoof-mixedscripts'   => 'Используются несовместимые системы письменности',
 	'antispoof-tooshort'       => 'Нормализованное имя слишком короткое',
