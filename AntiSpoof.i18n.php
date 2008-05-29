@@ -341,14 +341,21 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Titoxd
  * @author Cvmontuy
- * @author Platonides
  * @author Icvav
+ * @author Platonides
  */
 $messages['es'] = array(
+	'antispoof-desc'          => 'Previene la creación de cuentas de usuario nuevas que tengan nombres confusos, similares a nombres existentes, o con alfabetos mixtos.',
 	'antispoof-name-conflict' => 'El nombre "$1" es demasiado parecido a la cuenta "$2", ya existente. Por favor, elige otro nombre.',
 	'antispoof-name-illegal'  => 'Con el fin de evitar nombres confusos y suplantaciones no se permite registrar el nombre de usuario "$1": $2. Por favor, escoja otro nombre.',
+	'antispoof-badtype'       => 'Tipo de dato erróneo',
 	'antispoof-empty'         => 'Texto vacio',
+	'antispoof-blacklisted'   => 'Contiene caracteres no permitidos',
+	'antispoof-unassigned'    => 'Contiene caracteres obsoletos o no asignados',
+	'antispoof-noletters'     => 'No contiene letras',
+	'antispoof-mixedscripts'  => 'Contiene una mezcla incompatible de alfabetos',
 );
 
 /** Basque (Euskara)
