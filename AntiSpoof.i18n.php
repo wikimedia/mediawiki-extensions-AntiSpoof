@@ -1415,17 +1415,18 @@ $messages['vo'] = array(
 
 /** Cantonese (廣東話) */
 $messages['yue'] = array(
-	'antispoof-desc'          => '封鎖一啲對於有混合程序、混淆同埋相似嘅用戶名嘅開戶口動作',
-	'antispoof-name-conflict' => '呢個名"$1"太似現有戶口"$2"。請揀過個名。',
-	'antispoof-name-illegal'  => '呢個名"$1"唔畀用，以預防撈亂或者冒充："$2"。請揀過個名。',
-	'antispoof-badtype'       => '錯誤嘅資料類型',
-	'antispoof-empty'         => '空白字串',
-	'antispoof-blacklisted'   => '有列響黑名單度嘅字元',
-	'antispoof-combining'     => '以結合標記開始',
-	'antispoof-unassigned'    => '包含未指定或者唔再用嘅字元',
-	'antispoof-noletters'     => '唔包含任何字元',
-	'antispoof-mixedscripts'  => '包含唔相容嘅混合碼',
-	'antispoof-tooshort'      => '正規化嘅名太短',
+	'antispoof-desc'           => '封鎖一啲對於有混合程序、混淆同埋相似嘅用戶名嘅開戶口動作',
+	'antispoof-name-conflict'  => '呢個名"$1"太似現有戶口"$2"。請揀過個名。',
+	'antispoof-name-illegal'   => '呢個名"$1"唔畀用，以預防撈亂或者冒充："$2"。請揀過個名。',
+	'antispoof-badtype'        => '錯誤嘅資料類型',
+	'antispoof-empty'          => '空白字串',
+	'antispoof-blacklisted'    => '有列響黑名單度嘅字元',
+	'antispoof-combining'      => '以結合標記開始',
+	'antispoof-unassigned'     => '包含未指定或者唔再用嘅字元',
+	'antispoof-noletters'      => '唔包含任何字元',
+	'antispoof-mixedscripts'   => '包含唔相容嘅混合碼',
+	'antispoof-tooshort'       => '正規化嘅名太短',
+	'right-override-antispoof' => '無視欺詐檢查',
 );
 
 /** Zeeuws (Zeêuws)
@@ -1447,31 +1448,33 @@ $messages['zea'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬) */
 $messages['zh-hans'] = array(
-	'antispoof-desc'          => '封锁以含有程式码或是容易混淆、与已存在用户相似的名称建立用户',
-	'antispoof-name-conflict' => '用户名"$1"与用户名"$2"过于相近。请使用其他用户名。',
-	'antispoof-name-illegal'  => '用户名"$1"易与用户名"$2"混淆，已被禁止使用。请使用其他用户名。',
-	'antispoof-badtype'       => '错误的数据类型',
-	'antispoof-empty'         => '空白字串',
-	'antispoof-blacklisted'   => '包含在黑名单上的字元',
-	'antispoof-combining'     => '以结合标记开始',
-	'antispoof-unassigned'    => '包含未指定或不再使用的字元',
-	'antispoof-noletters'     => '不包含任何字元',
-	'antispoof-mixedscripts'  => '包含不相容混合的脚本',
-	'antispoof-tooshort'      => '合符标准的名称太短',
+	'antispoof-desc'           => '封锁以含有程式码或是容易混淆、与已存在用户相似的名称建立用户',
+	'antispoof-name-conflict'  => '用户名"$1"与用户名"$2"过于相近。请使用其他用户名。',
+	'antispoof-name-illegal'   => '用户名"$1"易与用户名"$2"混淆，已被禁止使用。请使用其他用户名。',
+	'antispoof-badtype'        => '错误的数据类型',
+	'antispoof-empty'          => '空白字串',
+	'antispoof-blacklisted'    => '包含在黑名单上的字元',
+	'antispoof-combining'      => '以结合标记开始',
+	'antispoof-unassigned'     => '包含未指定或不再使用的字元',
+	'antispoof-noletters'      => '不包含任何字元',
+	'antispoof-mixedscripts'   => '包含不相容混合的脚本',
+	'antispoof-tooshort'       => '合符标准的名称太短',
+	'right-override-antispoof' => '无视欺诈检查',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬) */
 $messages['zh-hant'] = array(
-	'antispoof-desc'          => '封鎖以含有程式碼或是容易混淆、與已存在使用者相似的名稱建立使用者',
-	'antispoof-name-conflict' => '使用者名稱"$1"與"$2"過於相近。請使用其他使用者名。',
-	'antispoof-name-illegal'  => '使用者名稱"$1"容易與"$2"混淆，已被禁止使用。請使用其他使用者名稱。',
-	'antispoof-badtype'       => '錯誤的資料類型',
-	'antispoof-empty'         => '空白字串',
-	'antispoof-blacklisted'   => '包含在黑名單上的字元',
-	'antispoof-combining'     => '以結合標記開始',
-	'antispoof-unassigned'    => '包含未指定或不再使用的字元',
-	'antispoof-noletters'     => '不包含任何字元',
-	'antispoof-mixedscripts'  => '包含不相容混合的程式碼',
-	'antispoof-tooshort'      => '合符標準的名稱太短',
+	'antispoof-desc'           => '封鎖以含有程式碼或是容易混淆、與已存在使用者相似的名稱建立使用者',
+	'antispoof-name-conflict'  => '使用者名稱"$1"與"$2"過於相近。請使用其他使用者名。',
+	'antispoof-name-illegal'   => '使用者名稱"$1"容易與"$2"混淆，已被禁止使用。請使用其他使用者名稱。',
+	'antispoof-badtype'        => '錯誤的資料類型',
+	'antispoof-empty'          => '空白字串',
+	'antispoof-blacklisted'    => '包含在黑名單上的字元',
+	'antispoof-combining'      => '以結合標記開始',
+	'antispoof-unassigned'     => '包含未指定或不再使用的字元',
+	'antispoof-noletters'      => '不包含任何字元',
+	'antispoof-mixedscripts'   => '包含不相容混合的程式碼',
+	'antispoof-tooshort'       => '合符標準的名稱太短',
+	'right-override-antispoof' => '無視欺詐檢查',
 );
 
