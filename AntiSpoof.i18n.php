@@ -561,17 +561,18 @@ $messages['hr'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
-	'antispoof-desc'          => 'Blokuje wutworjenje kontow z měšanymi pismami, skonfuznjacymi a podobnymi wužiwarskimi mjenami',
-	'antispoof-name-conflict' => 'Požadane wužiwarske mjeno „$1” je hižo eksistowacemu wužiwarskemu mjenu „$2” přepodobne. Prošu wubjer druhe wužiwarske mjeno.',
-	'antispoof-name-illegal'  => 'Požadane wužiwarske mjeno „$1” njeje dowolene. Přičina: $2<br />Prošu wubjer druhe wužiwarske mjeno.',
-	'antispoof-badtype'       => 'Njepłaćiwy datowy typ',
-	'antispoof-empty'         => 'Prózdne polo',
-	'antispoof-blacklisted'   => 'Su njedowolene znamješka wobsahowane.',
-	'antispoof-combining'     => 'Započina so z kombinaciskim znamješkom.',
-	'antispoof-unassigned'    => 'Su njepřirjadowane abo njewitane znamješka wobsahowane.',
-	'antispoof-noletters'     => 'Njejsu pismiki wobsahowane.',
-	'antispoof-mixedscripts'  => 'Su znamješka rozdźělnych njekompatibelnych pismow wobsahowane',
-	'antispoof-tooshort'      => 'Kanonizowane mjeno je překrótke.',
+	'antispoof-desc'           => 'Blokuje wutworjenje kontow z měšanymi pismami, skonfuznjacymi a podobnymi wužiwarskimi mjenami',
+	'antispoof-name-conflict'  => 'Požadane wužiwarske mjeno „$1” je hižo eksistowacemu wužiwarskemu mjenu „$2” přepodobne. Prošu wubjer druhe wužiwarske mjeno.',
+	'antispoof-name-illegal'   => 'Požadane wužiwarske mjeno „$1” njeje dowolene. Přičina: $2<br />Prošu wubjer druhe wužiwarske mjeno.',
+	'antispoof-badtype'        => 'Njepłaćiwy datowy typ',
+	'antispoof-empty'          => 'Prózdne polo',
+	'antispoof-blacklisted'    => 'Su njedowolene znamješka wobsahowane.',
+	'antispoof-combining'      => 'Započina so z kombinaciskim znamješkom.',
+	'antispoof-unassigned'     => 'Su njepřirjadowane abo njewitane znamješka wobsahowane.',
+	'antispoof-noletters'      => 'Njejsu pismiki wobsahowane.',
+	'antispoof-mixedscripts'   => 'Su znamješka rozdźělnych njekompatibelnych pismow wobsahowane',
+	'antispoof-tooshort'       => 'Kanonizowane mjeno je překrótke.',
+	'right-override-antispoof' => 'Kontrole podobnosće wužiwarskich mjenow potłóčić',
 );
 
 /** Haitian (Kreyòl ayisyen)
@@ -1242,19 +1243,21 @@ $messages['stq'] = array(
 
 /** Sundanese (Basa Sunda)
  * @author Kandar
+ * @author Irwangatot
  */
 $messages['su'] = array(
-	'antispoof-desc'          => 'Peungpeuk dijieunna rekening nu landihanana skrip campuran, ngaco, atawa sarupa',
-	'antispoof-name-conflict' => 'Landihan "$1" mirip teuing jeung "$2" nu geus tiheula aya. Mangga pilih landihan séjén.',
-	'antispoof-name-illegal'  => 'Landihan "$1" teu diwenangkeun ngarah teu pahili jeung landihan: $2. Mangga pilih landihan séjén.',
-	'antispoof-badtype'       => 'Tipeu datana awon',
-	'antispoof-empty'         => 'String kosong',
-	'antispoof-blacklisted'   => 'Ngandung karakter nu dicaram',
-	'antispoof-combining'     => 'Dimimitian ku tanda gabungan',
-	'antispoof-unassigned'    => 'Ngandung karakter nu teu dipaké ayawa teu didaptar',
-	'antispoof-noletters'     => 'Kosong',
-	'antispoof-mixedscripts'  => 'Ngandung tulisan campuran nu teu kompatibel',
-	'antispoof-tooshort'      => 'Landihan kanonikna pondok teuing',
+	'antispoof-desc'           => 'Peungpeuk dijieunna rekening nu landihanana skrip campuran, ngaco, atawa sarupa',
+	'antispoof-name-conflict'  => 'Landihan "$1" mirip teuing jeung "$2" nu geus tiheula aya. Mangga pilih landihan séjén.',
+	'antispoof-name-illegal'   => 'Landihan "$1" teu diwenangkeun ngarah teu pahili jeung landihan: $2. Mangga pilih landihan séjén.',
+	'antispoof-badtype'        => 'Tipeu datana awon',
+	'antispoof-empty'          => 'String kosong',
+	'antispoof-blacklisted'    => 'Ngandung karakter nu dicaram',
+	'antispoof-combining'      => 'Dimimitian ku tanda gabungan',
+	'antispoof-unassigned'     => 'Ngandung karakter nu teu dipaké ayawa teu didaptar',
+	'antispoof-noletters'      => 'Kosong',
+	'antispoof-mixedscripts'   => 'Ngandung tulisan campuran nu teu kompatibel',
+	'antispoof-tooshort'       => 'Landihan kanonikna pondok teuing',
+	'right-override-antispoof' => 'Abeykeun pangecekan panipuan ngaran pamaké',
 );
 
 /** Swedish (Svenska)
