@@ -1063,7 +1063,7 @@ $messages['pl'] = array(
 	'antispoof-noletters'      => 'Nie zawiera liter',
 	'antispoof-mixedscripts'   => 'Zawiera przemieszane znaki niezgodnych ze sobą pism',
 	'antispoof-tooshort'       => 'Zbyt krótka nazwa użytkownika',
-	'right-override-antispoof' => 'Zarządzanie mechanizmem blokowania tworzenia kont użytkowników o nazwach podobnych do już istniejących lub dezorientujących',
+	'right-override-antispoof' => 'Wyłącza ograniczenia nakładane przez rozszerzenie AntiSpoof, które blokuje zakładanie kont o podobnych nazwach do już istniejących',
 );
 
 /** Piemontèis (Piemontèis)
