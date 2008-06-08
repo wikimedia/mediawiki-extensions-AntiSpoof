@@ -70,6 +70,13 @@ $messages['ar'] = array(
 	'right-override-antispoof' => 'تجاوز التحقق من سبوفينج',
 );
 
+/** Egyptian Spoken Arabic (مصرى) */
+$messages['arz'] = array(
+	'antispoof-desc'          => 'بيمنع فتح حسابات بأسامي يوزرز متشابهة،و بتلخبط أو بسكريبت متخلط',
+	'antispoof-name-conflict' => 'الاسم "$1" بيشبه قوي الحساب الموجود دلوقتي باسم "$2". لو سمحت تختار اسم تاني.',
+	'antispoof-name-illegal'  => 'الاسم "$1"  مش مسموح علشان نمنع اللخبطة أوانتحال أسماء اليوزرز: $2. لو سمحت تختار اسم تاني.',
+);
+
 /** Asturian (Asturianu)
  * @author SPQRobin
  * @author Esbardu
@@ -1053,8 +1060,8 @@ $messages['pam'] = array(
  */
 $messages['pl'] = array(
 	'antispoof-desc'           => 'Blokuje tworzenie kont użytkowników o nazwach podobnych do już istniejących lub dezorientujących',
-	'antispoof-name-conflict'  => 'Proszę wybrać inną nazwę, ponieważ „$1” jest zbyt podobna do nazwy innego użytkownika „$2”.',
-	'antispoof-name-illegal'   => 'Proszę wybrać inną nazwę, ponieważ „$1” nie może być użyta ze względu na podobieństwo do nazwy innego użytkownika „$2”.',
+	'antispoof-name-conflict'  => 'Wybierz inną nazwę, ponieważ „$1” jest zbyt podobna do nazwy innego użytkownika „$2”.',
+	'antispoof-name-illegal'   => 'Wybierz inną nazwę, ponieważ „$1” nie może być użyta ze względu na podobieństwo do nazwy innego użytkownika „$2”.',
 	'antispoof-badtype'        => 'Zły typ danych',
 	'antispoof-empty'          => 'Pusty ciąg znaków',
 	'antispoof-blacklisted'    => 'Zawiera niedozwolone znaki',
