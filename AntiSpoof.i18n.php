@@ -70,7 +70,9 @@ $messages['ar'] = array(
 	'right-override-antispoof' => 'تجاوز التحقق من سبوفينج',
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Spoken Arabic (مصرى)
+ * @author Ramsis1978
+ */
 $messages['arz'] = array(
 	'antispoof-desc'          => 'بيمنع فتح حسابات بأسامي يوزرز متشابهة،و بتلخبط أو بسكريبت متخلط',
 	'antispoof-name-conflict' => 'الاسم "$1" بيشبه قوي الحساب الموجود دلوقتي باسم "$2". لو سمحت تختار اسم تاني.',
