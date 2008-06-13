@@ -524,12 +524,25 @@ $messages['hak'] = array(
 	'antispoof-tooshort'      => 'Ha̍p-fù phêu-chún ke miàng-chhṳ̂n thai-tón',
 );
 
-/** Hebrew (עברית) */
+/** Hebrew (עברית)
+ * @author Rotem Liss
+ */
 $messages['he'] = array(
-	'antispoof-name-conflict' => 'שם המשתמש "$1" שבחרתם דומה מדי לשם המשתמש הקיים "$2". אנא בחרו שם משתמש אחר.',
-	'antispoof-name-illegal'  => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2. אנא בחרו שם משתמש אחר.',
+	'antispoof-desc'          => 'לא מאפשר יצירה של חשבונות עם סוגי כתב מעורבים, חשבונות עם שמות מבלבלים ושמות משתמש דומים',
+	'antispoof-name-conflict' => 'שם המשתמש "$1" שבחרתם דומה מדי לשם המשתמש הקיים "$2".
+אנא בחרו שם משתמש אחר.',
+	'antispoof-name-illegal'  => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2.
+אנא בחרו שם משתמש אחר.',
+	'antispoof-badtype'       => 'סוג מידע בעייתי',
+	'antispoof-empty'         => 'מחרוזת ריקה',
+	'antispoof-blacklisted'   => 'כולל תו אסור בשימוש',
+	'antispoof-combining'     => 'מתחיל בסימן צירוף',
+	'antispoof-unassigned'    => 'כולל תו לא מוקצה או מיושן',
+	'antispoof-noletters'     => 'לא כולל אותיות',
+	'antispoof-mixedscripts'  => 'כולל סוגי כתב מעורבים שאינם תואמים זה לזה',
+	'antispoof-tooshort'      => 'השם המנורמל קצר מדי',
 
-	'right-override-antispoof' => 'התעלמות מבדיקות ההתחזות',
+	'right-override-antispoof' => 'עקיפת בדיקות ההתחזות',
 );
 
 /** Hindi (हिन्दी)
