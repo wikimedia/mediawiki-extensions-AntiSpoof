@@ -226,7 +226,7 @@ class AntiSpoof {
 		return implode( '', $a_list );
 	}
 	
-	private static function equivString( $testName ) {
+	public static function equivString( $testName ) {
 		$out = array();
 		self::initEquivSet();
 		foreach( $testName as $codepoint ) {
