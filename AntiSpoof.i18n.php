@@ -222,20 +222,23 @@ $messages['co'] = array(
 
 /** Czech (Česky)
  * @author Li-sung
+ * @author Mormegil
  * @author Danny B.
  */
 $messages['cs'] = array(
-	'antispoof-desc'           => 'Brání vytváření účtů s matoucí a podobnými jmény nebo kombinací různých druhů písem',
-	'antispoof-name-conflict'  => 'Uživatelské jméno "$1" je příliš podobné existujícímu účtu "$2". Prosím, vyberte si jiné jméno.',
-	'antispoof-name-illegal'   => 'Uživatelské jméno "$1" není povoleno vytvořit, aby se nepletlo nebo nesloužilo k napodobování uživatelského jména: $2. Prosím, vyberte si jiné jméno.',
+	'antispoof-desc'           => 'Brání vytváření účtů, jejichž jména jsou matoucí, podobná jiným uživatelům, nebo kombinují několik druhů písem',
+	'antispoof-name-conflict'  => 'Jméno „$1“ je příliš podobné již existujícímu účtu „$2“.
+Zvolte si prosím jiné.',
+	'antispoof-name-illegal'   => 'Jméno „$1“ není povoleno vytvořit, aby se nepletlo nebo nesloužilo k napodobování cizích uživatelských jmen: $2.
+Zvolte si prosím jiné jméno.',
 	'antispoof-badtype'        => 'Špatný datový typ',
 	'antispoof-empty'          => 'Prázdný řetězec',
 	'antispoof-blacklisted'    => 'Obsahuje zakázaný znak',
-	'antispoof-combining'      => 'Začíná na diakritický znak',
+	'antispoof-combining'      => 'Začíná kombinujícím diakritickým znakem',
 	'antispoof-unassigned'     => 'Obsahuje nepřiřazený nebo zavržený znak',
 	'antispoof-noletters'      => 'Neobsahuje žádné písmeno',
 	'antispoof-mixedscripts'   => 'Obsahuje nepřípustnou kombinaci druhů písem',
-	'antispoof-tooshort'       => 'Kanonikalizované jméno je příliš krátké',
+	'antispoof-tooshort'       => 'Jméno je po normalizaci příliš krátké',
 	'right-override-antispoof' => 'Potlačení kontroly podobnosti uživatelských jmen',
 );
 
@@ -670,20 +673,22 @@ $messages['is'] = array(
 );
 
 /** Italian (Italiano)
+ * @author Darth Kule
  * @author BrokenArrow
  */
 $messages['it'] = array(
-	'antispoof-desc'          => 'Impedisce la creazione di account con caratteri misti, nomi utente che generano confusione o troppo simili tra loro.',
-	'antispoof-name-conflict' => 'Il nome utente "$1" è troppo simile all\'utente "$2", già registrato. Scegliere un altro nome.',
-	'antispoof-name-illegal'  => 'Il nome utente "$1" non è consentito, per evitare confusione o utilizzi fraudolenti: $2. Scegliere un altro nome.',
-	'antispoof-badtype'       => 'Tipo di dati errato',
-	'antispoof-empty'         => 'Stringa vuota',
-	'antispoof-blacklisted'   => 'Uso di caratteri non consentiti',
-	'antispoof-combining'     => 'Primo carattere di combinazione',
-	'antispoof-unassigned'    => 'Uso di caratteri non assegnati o deprecati',
-	'antispoof-noletters'     => 'Assenza di lettere',
-	'antispoof-mixedscripts'  => 'Combinazione di sistemi di scrittura non compatibili',
-	'antispoof-tooshort'      => 'Nome in forma canonica troppo corto',
+	'antispoof-desc'           => 'Impedisce la creazione di account con caratteri misti, nomi utente che generano confusione o troppo simili tra loro.',
+	'antispoof-name-conflict'  => 'Il nome utente "$1" è troppo simile all\'utente "$2", già registrato. Scegliere un altro nome.',
+	'antispoof-name-illegal'   => 'Il nome utente "$1" non è consentito, per evitare confusione o utilizzi fraudolenti: $2. Scegliere un altro nome.',
+	'antispoof-badtype'        => 'Tipo di dati errato',
+	'antispoof-empty'          => 'Stringa vuota',
+	'antispoof-blacklisted'    => 'Uso di caratteri non consentiti',
+	'antispoof-combining'      => 'Primo carattere di combinazione',
+	'antispoof-unassigned'     => 'Uso di caratteri non assegnati o deprecati',
+	'antispoof-noletters'      => 'Assenza di lettere',
+	'antispoof-mixedscripts'   => 'Combinazione di sistemi di scrittura non compatibili',
+	'antispoof-tooshort'       => 'Nome in forma canonica troppo corto',
+	'right-override-antispoof' => 'Ignora i controlli spoofing',
 );
 
 /** Japanese (日本語)
