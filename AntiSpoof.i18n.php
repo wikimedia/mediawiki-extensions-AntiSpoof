@@ -339,17 +339,18 @@ $messages['el'] = array(
  * @author Tlustulimu
  */
 $messages['eo'] = array(
-	'antispoof-desc'          => 'Blokas la kreadon de kontoj kun miksitaj alfabetaj, konfuzemaj, kaj similaj salutnomoj',
-	'antispoof-name-conflict' => 'La nomo "$1" estas tro simila al la ekzistanta konto "$2". Bonvolu elekti alian nomon.',
-	'antispoof-name-illegal'  => 'La nomo "$1" ne estas permesita por preventi konfuzigemajn aŭ trompajn uzantnomojn: $2. Bonvolu elekti alian nomon.',
-	'antispoof-badtype'       => 'Nevalida datumtipo',
-	'antispoof-empty'         => 'Malplena bitĉeno',
-	'antispoof-blacklisted'   => 'Enhavas literojn el nigra listo',
-	'antispoof-combining'     => 'Komencas kun kuniga marko',
-	'antispoof-unassigned'    => 'Enhavas nedonatan aŭ evitindan signon',
-	'antispoof-noletters'     => 'Ne enhavas iujn literojn',
-	'antispoof-mixedscripts'  => 'Enhavas nekompatibilajn miksajn skriptojn',
-	'antispoof-tooshort'      => 'Ordigita nomo estas tro mallonga',
+	'antispoof-desc'           => 'Blokas la kreadon de kontoj kun miksitaj alfabetaj, konfuzemaj, kaj similaj salutnomoj',
+	'antispoof-name-conflict'  => 'La nomo "$1" estas tro simila al la ekzistanta konto "$2". Bonvolu elekti alian nomon.',
+	'antispoof-name-illegal'   => 'La nomo "$1" ne estas permesita por preventi konfuzigemajn aŭ trompajn uzantnomojn: $2. Bonvolu elekti alian nomon.',
+	'antispoof-badtype'        => 'Nevalida datumtipo',
+	'antispoof-empty'          => 'Malplena bitĉeno',
+	'antispoof-blacklisted'    => 'Enhavas literojn el nigra listo',
+	'antispoof-combining'      => 'Komencas kun kuniga marko',
+	'antispoof-unassigned'     => 'Enhavas nedonatan aŭ evitindan signon',
+	'antispoof-noletters'      => 'Ne enhavas iujn literojn',
+	'antispoof-mixedscripts'   => 'Enhavas nekompatibilajn miksajn skriptojn',
+	'antispoof-tooshort'       => 'Ordigita nomo estas tro mallonga',
+	'right-override-antispoof' => 'Superebligi la artifikajn kontrolojn.',
 );
 
 /** Spanish (Español)
@@ -489,19 +490,21 @@ Sielç par plasê un altri non.',
 
 /** Galician (Galego)
  * @author Alma
+ * @author Toliño
  */
 $messages['gl'] = array(
-	'antispoof-desc'          => 'Bloquear a creación de contas con guións, confusas ou con nomes de usuarios similares.',
-	'antispoof-name-conflict' => 'O nome escollido "$1" é moi parecido a "$2", un usuario que xa existe. Por favor escolla outro nome de usuario.',
-	'antispoof-name-illegal'  => 'O nome "$1" non está permitido para evitar confusións ou enganos cos seguintes nomes de usuario: $2. Por favor escolla outro nome.',
-	'antispoof-badtype'       => 'Tipo de datos incorrecto',
-	'antispoof-empty'         => 'Cadea baleira',
-	'antispoof-blacklisted'   => 'Inclúe un carácter prohibido',
-	'antispoof-combining'     => 'Principia cun carácter de combinación',
-	'antispoof-unassigned'    => 'Contén un carácter sen asignar ou desaconsellado',
-	'antispoof-noletters'     => 'Non contén ningunha letra',
-	'antispoof-mixedscripts'  => 'Contén guións mesturados incompatíbeis',
-	'antispoof-tooshort'      => 'Nome curto de máis',
+	'antispoof-desc'           => 'Bloquear a creación de contas con guións, confusas ou con nomes de usuarios similares.',
+	'antispoof-name-conflict'  => 'O nome escollido "$1" é moi parecido a "$2", un usuario que xa existe. Por favor escolla outro nome de usuario.',
+	'antispoof-name-illegal'   => 'O nome "$1" non está permitido para evitar confusións ou enganos cos seguintes nomes de usuario: $2. Por favor escolla outro nome.',
+	'antispoof-badtype'        => 'Tipo de datos incorrecto',
+	'antispoof-empty'          => 'Cadea baleira',
+	'antispoof-blacklisted'    => 'Inclúe un carácter prohibido',
+	'antispoof-combining'      => 'Principia cun carácter de combinación',
+	'antispoof-unassigned'     => 'Contén un carácter sen asignar ou desaconsellado',
+	'antispoof-noletters'      => 'Non contén ningunha letra',
+	'antispoof-mixedscripts'   => 'Contén guións mesturados incompatíbeis',
+	'antispoof-tooshort'       => 'Nome curto de máis',
+	'right-override-antispoof' => 'Ignorar as comprobacións parodia (spoofing)',
 );
 
 /** Gujarati (ગુજરાતી)
