@@ -21,6 +21,7 @@ Please choose another name.',
 	'antispoof-noletters'     => 'Does not contain any letters',
 	'antispoof-mixedscripts'  => 'Contains incompatible mixed scripts',
 	'antispoof-tooshort'      => 'Canonicalized name too short',
+	'antispoof-ignore'        => 'Ignore spoofing checks',   
 
 	'right-override-antispoof' => 'Override the spoofing checks',
 );

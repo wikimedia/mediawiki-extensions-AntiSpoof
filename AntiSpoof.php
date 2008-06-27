@@ -43,6 +43,7 @@ function asSetup() {
 
 	global $wgHooks;
 	$wgHooks['AbortNewAccount'][] = 'asAbortNewAccountHook';
+	$wgHooks['UserCreateForm'][] = 'asUserCreateFormHook';
 	$wgHooks['AddNewAccount'][] = 'asAddNewAccountHook';
 }
 
@@ -61,13 +62,14 @@ function asUpdateSchema() {
  * @return bool true to continue, false to abort user creation
  */
 function asAbortNewAccountHook( $user, &$message ) {
-	global $wgAntiSpoofAccounts, $wgUser;
+	global $wgAntiSpoofAccounts, $wgUser, $wgRequest;
 	wfLoadExtensionMessages( 'AntiSpoof' );
 
 	if( !$wgAntiSpoofAccounts ) {
 		$mode = 'LOGGING ';
 		$active = false;
-	} elseif( $wgUser->isAllowed( 'override-antispoof' ) ) {
+	} elseif( $wgRequest->getCheck('wpIgnoreAntiSpoof') && 
+			$wgUser->isAllowed( 'override-antispoof' ) ) {
 		$mode = 'OVERRIDE ';
 		$active = false;
 	} else {
@@ -97,6 +99,21 @@ function asAbortNewAccountHook( $user, &$message ) {
 			return false;
 		}
 	}
+	return true;
+}
+
+/**
+ * Set the ignore spoof thingie
+ */
+function asUserCreateFormHook( &$template ) {
+	global $wgRequest, $wgAntiSpoofAccounts, $wgUser;
+	
+	wfLoadExtensionMessages( 'AntiSpoof' );
+	
+	if( $wgAntiSpoofAccounts && $wgUser->isAllowed( 'override-antispoof' ) )
+		$template->addInputItem( 'wpIgnoreAntiSpoof', 
+			$wgRequest->getCheck('wpIgnoreAntiSpoof'), 
+			'checkbox', 'antispoof-ignore' );
 	return true;
 }
 
