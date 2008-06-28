@@ -390,7 +390,7 @@ $messages['ext'] = array(
 	'antispoof-name-conflict' => 'El nombri "$1" es mu paiciu al de la cuenta "$2" (ya desistenti). Pol favol, lihi otru nombri.',
 );
 
-/** فارسی (فارسی)
+/** Persian (فارسی)
  * @author Huji
  */
 $messages['fa'] = array(
@@ -405,8 +405,8 @@ $messages['fa'] = array(
 	'antispoof-noletters'      => 'دربردارندهٔ هیچ حرفی نیست.',
 	'antispoof-mixedscripts'   => 'حاوی نویسه‌های مختلط ناسازگار است',
 	'antispoof-tooshort'       => 'نام متعارف خیلی کوتاه است',
+	'antispoof-ignore'         => 'نادیده گرفتن بررسی عبارات سردرگم کننده',
 	'right-override-antispoof' => 'گذر از بررسی عبارات سردرگم کننده',
-
 );
 
 /** Finnish (Suomi)
