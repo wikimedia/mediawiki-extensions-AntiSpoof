@@ -548,6 +548,7 @@ $messages['he'] = array(
 	'antispoof-noletters'     => 'לא כולל אותיות',
 	'antispoof-mixedscripts'  => 'כולל סוגי כתב מעורבים שאינם תואמים זה לזה',
 	'antispoof-tooshort'      => 'השם המנורמל קצר מדי',
+	'antispoof-ignore'        => 'התעלמות מבדיקת ההתחזות',
 
 	'right-override-antispoof' => 'עקיפת בדיקות ההתחזות',
 );
