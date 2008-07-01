@@ -85,9 +85,9 @@ function asAbortNewAccountHook( $user, &$message ) {
 		if( $conflict === false ) {
 			wfDebugLog( 'antispoof', "{$mode}PASS new account '$name' [$normalized]" );
 		} else {
-			wfDebugLog( 'antispoof', "{$mode}CONFLICT new account '$name' [$normalized] spoofs '$conflict'" );
+			wfDebugLog( 'antispoof', "{$mode}CONFLICT new account '$name' [$normalized] spoofs: '" . implode( ', ', $conflict ) . "'" );
 			if( $active ) {
-				$message = wfMsg( 'antispoof-name-conflict', $name, $conflict );
+				$message = wfMsg( 'antispoof-name-conflict', $name, implode( ', ',$conflict ) );
 				return false;
 			}
 		}
