@@ -1245,6 +1245,7 @@ $messages['sk'] = array(
 	'antispoof-noletters'      => 'Neobsahuje žiadne písmená',
 	'antispoof-mixedscripts'   => 'Obsahuje nekompatibilné zmiešané písma',
 	'antispoof-tooshort'       => 'Meno prevedené do kanonického tvaru je príliš krátke',
+	'antispoof-ignore'         => 'Ignorovať kontroly klamania',
 	'right-override-antispoof' => 'Prekonať kontroly klamania',
 );
 
