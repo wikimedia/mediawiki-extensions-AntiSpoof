@@ -286,7 +286,7 @@ $messages['da'] = array(
  */
 $messages['de'] = array(
 	'antispoof-desc'          => 'Verhindert die Erstellung von Benutzerkonten mit gemischten Zeichensätzen, verwirrenden und ähnlichen Benutzernamen',
-	'antispoof-name-conflict' => 'Der gewünschte Benutzername „$1“ ist dem bereits vorhandenen Benutzernamen „$2“ zu ähnlich. Bitte einen anderen Benutzernamen wählen.',
+	'antispoof-name-conflict' => 'Der gewünschte Benutzername „$1“ ist den bereits vorhandenen Benutzernamen „$2“ zu ähnlich. Bitte einen anderen Benutzernamen wählen.',
 	'antispoof-name-illegal'  => 'Der gewünschte Benutzername „$1“ ist nicht erlaubt. Grund: $2<br />Bitte einen anderen Benutzernamen wählen.',
 	'antispoof-badtype'       => 'Ungültiger Datentyp',
 	'antispoof-empty'         => 'Leeres Feld',
@@ -296,7 +296,7 @@ $messages['de'] = array(
 	'antispoof-noletters'     => 'Es sind keine Buchstaben enthalten.',
 	'antispoof-mixedscripts'  => 'Es sind Zeichen unterschiedlicher Schriftsysteme enthalten.',
 	'antispoof-tooshort'      => 'Der kanonisierte Name ist zu kurz.',
-
+	'antispoof-ignore'        => 'Ignoriere Ähnlichkeitsprüfung',
 	'right-override-antispoof' => 'Außer Kraft setzen der Benutzernamens-Ähnlichkeitsprüfung',
 );
 
