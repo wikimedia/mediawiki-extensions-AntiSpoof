@@ -351,6 +351,7 @@ $messages['eo'] = array(
 	'antispoof-noletters'      => 'Ne enhavas iujn literojn',
 	'antispoof-mixedscripts'   => 'Enhavas nekompatibilajn miksajn skriptojn',
 	'antispoof-tooshort'       => 'Ordigita nomo estas tro mallonga',
+	'antispoof-ignore'         => 'Ignori kontroladon de trompado',
 	'right-override-antispoof' => 'Superebligi la artifikajn kontrolojn.',
 );
 
@@ -445,6 +446,7 @@ $messages['fr'] = array(
 	'antispoof-noletters'      => 'Ne contient aucune lettre',
 	'antispoof-mixedscripts'   => 'Contient plusieurs scripts incompatibles',
 	'antispoof-tooshort'       => 'Nom canonique trop court',
+	'antispoof-ignore'         => 'Ignorer les vérifications de tromperie',
 	'right-override-antispoof' => 'Écrase des pseudo-vérifications',
 );
 
@@ -505,6 +507,7 @@ $messages['gl'] = array(
 	'antispoof-noletters'      => 'Non contén ningunha letra',
 	'antispoof-mixedscripts'   => 'Contén guións mesturados incompatíbeis',
 	'antispoof-tooshort'       => 'Nome curto de máis',
+	'antispoof-ignore'         => 'Ignorar as comprobacións parodia (spoofing)',
 	'right-override-antispoof' => 'Ignorar as comprobacións parodia (spoofing)',
 );
 
@@ -656,6 +659,7 @@ $messages['id'] = array(
 	'antispoof-noletters'      => 'Tidak mengandung huruf apapun',
 	'antispoof-mixedscripts'   => 'Mengandung huruf campuran yang tak kompatibel',
 	'antispoof-tooshort'       => 'Nama kanonikalisasi terlalu pendek',
+	'antispoof-ignore'         => 'Abaikan pemeriksaan penipuan akun',
 	'right-override-antispoof' => 'Abaikan pengecekan penipuan nama pengguna',
 );
 
@@ -990,6 +994,7 @@ $messages['nl'] = array(
 	'antispoof-noletters'      => 'Bevat geen letters',
 	'antispoof-mixedscripts'   => 'Bevat niet compatibele schriften',
 	'antispoof-tooshort'       => 'Afgekorte naam te kort',
+	'antispoof-ignore'         => 'Spoofcontroles negeren',
 	'right-override-antispoof' => 'Spoofcontroles negeren',
 );
 
@@ -1015,6 +1020,7 @@ $messages['no'] = array(
 	'antispoof-noletters'      => 'Inneholder ingen bokstaver',
 	'antispoof-mixedscripts'   => 'Inneholder blanding av skriftsystemer',
 	'antispoof-tooshort'       => 'Navnet er for kort',
+	'antispoof-ignore'         => 'Ignorer misbrukssjekk',
 	'right-override-antispoof' => 'Overkjøre sjekk av brukernavn',
 );
 
@@ -1044,6 +1050,7 @@ $messages['oc'] = array(
 	'antispoof-noletters'      => 'Conten pas cap de letra',
 	'antispoof-mixedscripts'   => 'Conten mantun escript incompatible',
 	'antispoof-tooshort'       => 'Nom canonic tròp cort',
+	'antispoof-ignore'         => "Ignorar las verificacions d'engana",
 	'right-override-antispoof' => 'Espotís de pseudoverificacions',
 );
 
@@ -1185,6 +1192,7 @@ $messages['ru'] = array(
 	'antispoof-noletters'      => 'Не содержит ни одной буквы',
 	'antispoof-mixedscripts'   => 'Используются несовместимые системы письменности',
 	'antispoof-tooshort'       => 'Нормализованное имя слишком короткое',
+	'antispoof-ignore'         => 'Игнорировать проверки на схожие имена',
 	'right-override-antispoof' => 'игнорирование проверок на схожие имена',
 );
 
@@ -1294,6 +1302,7 @@ $messages['su'] = array(
 
 /** Swedish (Svenska)
  * @author Lejonel
+ * @author M.M.S.
  */
 $messages['sv'] = array(
 	'antispoof-desc'           => 'Förhindrar att konton med olika typer av förvirrande namn registreras',
@@ -1307,6 +1316,7 @@ $messages['sv'] = array(
 	'antispoof-noletters'      => 'Innehåller inga bokstäver',
 	'antispoof-mixedscripts'   => 'Innehåller tecken från flera inkompatibla skriftsystem',
 	'antispoof-tooshort'       => 'Det kanoniserade namnet är för kort',
+	'antispoof-ignore'         => 'Ignorera missbrukskontroll',
 	'right-override-antispoof' => 'Slipper kontroller mot förvirrande användarnamn',
 );
 
@@ -1512,5 +1522,4 @@ $messages['zh-hant'] = array(
 	'antispoof-tooshort'       => '合符標準的名稱太短',
 	'right-override-antispoof' => '無視欺詐檢查',
 );
-
 
