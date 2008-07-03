@@ -39,7 +39,7 @@ class SpoofUser {
 	/**
 	 * Does the username pass Unicode legality and script-mixing checks?
 	 *
-	 * @return mixed false if no conflict, or array with conflicting usernames
+	 * @return mixed false if no conflict, or string with conflicting username
 	 */
 	public function getConflict() {
 		if( $this->isLegal() ) {
@@ -47,26 +47,17 @@ class SpoofUser {
 
 			// Join against the user table to ensure that we skip stray
 			// entries left after an account is renamed or otherwise munged.
-			$spoofedUsers = $dbr->select(
+			$row = $dbr->selectRow(
 				array( 'spoofuser', 'user' ),
 				array( 'user_name' ),
 				array(
 					'su_normalized' => $this->mNormalized,
 					'su_name=user_name',
 				),
-				__METHOD__,
-				array(
-					'LIMIT' => 5
-				) );
+				__METHOD__ );
 
-			$spoofs = array();
-
-			while( $row = $dbr->fetchObject( $spoofedUsers ) ) {
-				array_push( $spoofs, $row->user_name );
-			}
-
-			if( count($spoofs) > 0 ) {
-				return $spoofs;
+			if( $row ) {
+				return $row->user_name;
 			} else {
 				return false;
 			}
