@@ -41,6 +41,7 @@ $messages['an'] = array(
 	'antispoof-noletters'      => 'No contiene garra letra',
 	'antispoof-mixedscripts'   => 'Contiene un mezclallo incompatible de scripts',
 	'antispoof-tooshort'       => 'Nombre canonico masiau curto',
+	'antispoof-ignore'         => 'Innorar as comprebazions de spoofing',
 	'right-override-antispoof' => "Inorar as prebas d'identidat",
 );
 
