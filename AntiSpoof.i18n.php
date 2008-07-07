@@ -956,6 +956,25 @@ $messages['mr'] = array(
 	'right-override-antispoof' => 'स्पूफिंग चेक्स कडे दुर्लक्ष करा',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Aviator
+ */
+$messages['ms'] = array(
+	'antispoof-desc'           => 'Menyekat pembukaan akaun dengan nama pengguna yang mengelirukan, menyerupai orang lain, atau terdiri daripada campuran sistem-sistem tulisan yang berlainan',
+	'antispoof-name-conflict'  => 'Nama "$1" menyerupai akaun "$2" yang sedia ada. Sila pilih nama lain.',
+	'antispoof-name-illegal'   => 'Nama "$1" tidak dibenarkan kerana mengelirukan atau menipu: $2. Sila pilih nama lain.',
+	'antispoof-badtype'        => 'Jenis data salah',
+	'antispoof-empty'          => 'Rentetan kosong',
+	'antispoof-blacklisted'    => 'Mengandungi aksara yang telah disenaraihitamkan',
+	'antispoof-combining'      => 'Bermula dengan tanda penggabung',
+	'antispoof-unassigned'     => 'Mengandungi aksara yang tidak sah atau yang telah dimansuhkan',
+	'antispoof-noletters'      => 'Tidak mengandungi huruf',
+	'antispoof-mixedscripts'   => 'Mengandungi campuran sistem-sistem tulisan yang tidak bersesuaian',
+	'antispoof-tooshort'       => 'Nama berkanun terlalu pendek',
+	'antispoof-ignore'         => 'Abaikan pemeriksaan penipuan',
+	'right-override-antispoof' => 'Mengatasi pemeriksaan penipuan',
+);
+
 /** Erzya (эрзянь кель)
  * @author Amdf
  */
