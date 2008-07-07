@@ -48,10 +48,10 @@ function asSetup() {
 }
 
 function asUpdateSchema() {
-	global $wgExtNewTables;
+	global $wgExtNewTables, $wgDBtype;
 	$wgExtNewTables[] = array(
 		'spoofuser',
-		dirname( __FILE__ ) . '/mysql/patch-antispoof.sql' );
+		dirname( __FILE__ ) . '/sql/patch-antispoof.' . $wgDBtype . '.sql' );
 	return true;
 }
 
