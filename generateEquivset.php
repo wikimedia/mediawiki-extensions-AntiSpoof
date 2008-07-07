@@ -3,6 +3,7 @@
 $dir = dirname( __FILE__ );
 require( "$dir/../../maintenance/commandLine.inc" );
 
+$dir = dirname( __FILE__ );
 $endl = '
 ';
 
