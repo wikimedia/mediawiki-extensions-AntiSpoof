@@ -45,7 +45,7 @@ $messages['an'] = array(
 	'right-override-antispoof' => "Inorar as prebas d'identidat",
 );
 
-/** Old English (Anglo Saxon)
+/** Old English (Anglo-Saxon)
  * @author Wōdenhelm
  */
 $messages['ang'] = array(
@@ -211,7 +211,7 @@ $messages['ca'] = array(
 	'right-override-antispoof' => "Evitar el control de noms d'usuari",
 );
 
-/** Mìng-dĕ̤ng-ngṳ̄ (Mìng-dĕ̤ng-ngṳ̄) */
+/** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
 $messages['cdo'] = array(
 	'antispoof-name-conflict' => '"$1" gì miàng ké̤ṳk ī-gĭng cé̤ṳ-cháh gì dióng-hô̤ "$2" kák chiông lāu. Chiāng uâng 1 ciáh miàng.',
 );
@@ -287,18 +287,18 @@ $messages['da'] = array(
  * @author Raimond Spekking
  */
 $messages['de'] = array(
-	'antispoof-desc'          => 'Verhindert die Erstellung von Benutzerkonten mit gemischten Zeichensätzen, verwirrenden und ähnlichen Benutzernamen',
-	'antispoof-name-conflict' => 'Der gewünschte Benutzername „$1“ ist den bereits vorhandenen Benutzernamen „$2“ zu ähnlich. Bitte einen anderen Benutzernamen wählen.',
-	'antispoof-name-illegal'  => 'Der gewünschte Benutzername „$1“ ist nicht erlaubt. Grund: $2<br />Bitte einen anderen Benutzernamen wählen.',
-	'antispoof-badtype'       => 'Ungültiger Datentyp',
-	'antispoof-empty'         => 'Leeres Feld',
-	'antispoof-blacklisted'   => 'Es sind unerlaubte Zeichen enthalten.',
-	'antispoof-combining'     => 'Kombinationszeichen zu Beginn.',
-	'antispoof-unassigned'    => 'Es sind nicht zugeordnete oder unerwünschte Zeichen enthalten.',
-	'antispoof-noletters'     => 'Es sind keine Buchstaben enthalten.',
-	'antispoof-mixedscripts'  => 'Es sind Zeichen unterschiedlicher Schriftsysteme enthalten.',
-	'antispoof-tooshort'      => 'Der kanonisierte Name ist zu kurz.',
-	'antispoof-ignore'        => 'Ignoriere Ähnlichkeitsprüfung',
+	'antispoof-desc'           => 'Verhindert die Erstellung von Benutzerkonten mit gemischten Zeichensätzen, verwirrenden und ähnlichen Benutzernamen',
+	'antispoof-name-conflict'  => 'Der gewünschte Benutzername „$1“ ist den bereits vorhandenen Benutzernamen „$2“ zu ähnlich. Bitte einen anderen Benutzernamen wählen.',
+	'antispoof-name-illegal'   => 'Der gewünschte Benutzername „$1“ ist nicht erlaubt. Grund: $2<br />Bitte einen anderen Benutzernamen wählen.',
+	'antispoof-badtype'        => 'Ungültiger Datentyp',
+	'antispoof-empty'          => 'Leeres Feld',
+	'antispoof-blacklisted'    => 'Es sind unerlaubte Zeichen enthalten.',
+	'antispoof-combining'      => 'Kombinationszeichen zu Beginn.',
+	'antispoof-unassigned'     => 'Es sind nicht zugeordnete oder unerwünschte Zeichen enthalten.',
+	'antispoof-noletters'      => 'Es sind keine Buchstaben enthalten.',
+	'antispoof-mixedscripts'   => 'Es sind Zeichen unterschiedlicher Schriftsysteme enthalten.',
+	'antispoof-tooshort'       => 'Der kanonisierte Name ist zu kurz.',
+	'antispoof-ignore'         => 'Ignoriere Ähnlichkeitsprüfung',
 	'right-override-antispoof' => 'Außer Kraft setzen der Benutzernamens-Ähnlichkeitsprüfung',
 );
 
@@ -540,21 +540,20 @@ $messages['hak'] = array(
  * @author Rotem Liss
  */
 $messages['he'] = array(
-	'antispoof-desc'          => 'לא מאפשר יצירה של חשבונות עם סוגי כתב מעורבים, חשבונות עם שמות מבלבלים ושמות משתמש דומים',
-	'antispoof-name-conflict' => 'שם המשתמש "$1" שבחרתם דומה מדי לשמות משתמש קיימים: "$2".
+	'antispoof-desc'           => 'לא מאפשר יצירה של חשבונות עם סוגי כתב מעורבים, חשבונות עם שמות מבלבלים ושמות משתמש דומים',
+	'antispoof-name-conflict'  => 'שם המשתמש "$1" שבחרתם דומה מדי לשמות משתמש קיימים: "$2".
 אנא בחרו שם משתמש אחר.',
-	'antispoof-name-illegal'  => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2.
+	'antispoof-name-illegal'   => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2.
 אנא בחרו שם משתמש אחר.',
-	'antispoof-badtype'       => 'סוג מידע בעייתי',
-	'antispoof-empty'         => 'מחרוזת ריקה',
-	'antispoof-blacklisted'   => 'כולל תו אסור בשימוש',
-	'antispoof-combining'     => 'מתחיל בסימן צירוף',
-	'antispoof-unassigned'    => 'כולל תו לא מוקצה או מיושן',
-	'antispoof-noletters'     => 'לא כולל אותיות',
-	'antispoof-mixedscripts'  => 'כולל סוגי כתב מעורבים שאינם תואמים זה לזה',
-	'antispoof-tooshort'      => 'השם המנורמל קצר מדי',
-	'antispoof-ignore'        => 'התעלמות מבדיקת ההתחזות',
-
+	'antispoof-badtype'        => 'סוג מידע בעייתי',
+	'antispoof-empty'          => 'מחרוזת ריקה',
+	'antispoof-blacklisted'    => 'כולל תו אסור בשימוש',
+	'antispoof-combining'      => 'מתחיל בסימן צירוף',
+	'antispoof-unassigned'     => 'כולל תו לא מוקצה או מיושן',
+	'antispoof-noletters'      => 'לא כולל אותיות',
+	'antispoof-mixedscripts'   => 'כולל סוגי כתב מעורבים שאינם תואמים זה לזה',
+	'antispoof-tooshort'       => 'השם המנורמל קצר מדי',
+	'antispoof-ignore'         => 'התעלמות מבדיקת ההתחזות',
 	'right-override-antispoof' => 'עקיפת בדיקות ההתחזות',
 );
 
@@ -976,7 +975,7 @@ $messages['ms'] = array(
 	'right-override-antispoof' => 'Mengatasi pemeriksaan penipuan',
 );
 
-/** Erzya (эрзянь кель)
+/** Erzya (Эрзянь)
  * @author Amdf
  */
 $messages['myv'] = array(
@@ -1270,7 +1269,7 @@ $messages['sk'] = array(
 	'right-override-antispoof' => 'Prekonať kontroly klamania',
 );
 
-/** ћирилица (ћирилица)
+/** Serbian Cyrillic ekavian (ћирилица)
  * @author Sasa Stefanovic
  */
 $messages['sr-ec'] = array(
@@ -1362,7 +1361,7 @@ $messages['te'] = array(
 	'right-override-antispoof' => 'స్పూఫింగ్ తనిఖీలను అధిక్రమించు',
 );
 
-/** Tajik (Тоҷикӣ)
+/** Tajik (Cyrillic) (Тоҷикӣ/tojikī (Cyrillic))
  * @author Ibrahim
  * @author SPQRobin
  */
@@ -1480,7 +1479,7 @@ $messages['vo'] = array(
 	'antispoof-tooshort'      => 'Nem valemik tu brefik',
 );
 
-/** Cantonese (廣東話) */
+/** Yue (粵語) */
 $messages['yue'] = array(
 	'antispoof-desc'           => '封鎖一啲對於有混合程序、混淆同埋相似嘅用戶名嘅開戶口動作',
 	'antispoof-name-conflict'  => '呢個名"$1"太似現有戶口"$2"。請揀過個名。',
