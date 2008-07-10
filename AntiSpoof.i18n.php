@@ -138,6 +138,7 @@ $messages['be-tarask'] = array(
 	'antispoof-noletters'     => 'Ня ўтрымлівае ніводнай літары',
 	'antispoof-mixedscripts'  => 'Утрымлівае несумяшчальныя зьмяшаныя альфабэты',
 	'antispoof-tooshort'      => 'Нармалізаванае імя занадта кароткае',
+	'antispoof-ignore'        => 'Ігнараваць праверкі на падобнасьць імёнаў',
 );
 
 /** Bulgarian (Български)
@@ -306,6 +307,7 @@ $messages['de'] = array(
  * @author Michawiki
  */
 $messages['dsb'] = array(
+	'antispoof-desc'          => 'Blokěrujo napóranje kontow z měšanym pismom, mjerwjece a pódobne wužywarske mjenja',
 	'antispoof-name-conflict' => 'Mě "$1" jo tomu eksistěrowacego konta "$2" pśepódobne. Wubjeŕ pšosym druge mě.',
 	'antispoof-name-illegal'  => 'Mě "$1" se njedowólujo, aby se mjerwjece abo manipulěrowane wužywarske mjenja wopinuli: $2. Wubjeŕ pšosym druge mě.',
 	'antispoof-badtype'       => 'Wopacny datowy typ',
@@ -316,6 +318,7 @@ $messages['dsb'] = array(
 	'antispoof-noletters'     => 'Njewopśimjejo pismiki',
 	'antispoof-mixedscripts'  => 'Wopśimjejo znamješka z njekompatibelnych rozdźělnych pismow',
 	'antispoof-tooshort'      => 'Kanonizěrowane mě jo pśekrotko.',
+	'antispoof-ignore'        => 'Torjeńsku kontrolu ignorěrowaś',
 );
 
 /** Greek (Ελληνικά)
@@ -606,6 +609,7 @@ $messages['hsb'] = array(
 	'antispoof-noletters'      => 'Njejsu pismiki wobsahowane.',
 	'antispoof-mixedscripts'   => 'Su znamješka rozdźělnych njekompatibelnych pismow wobsahowane',
 	'antispoof-tooshort'       => 'Kanonizowane mjeno je překrótke.',
+	'antispoof-ignore'         => 'Zamylensku kontrolu ignorować',
 	'right-override-antispoof' => 'Kontrole podobnosće wužiwarskich mjenow potłóčić',
 );
 
