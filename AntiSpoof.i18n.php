@@ -1492,6 +1492,7 @@ $messages['yue'] = array(
 	'antispoof-noletters'      => '唔包含任何字元',
 	'antispoof-mixedscripts'   => '包含唔相容嘅混合碼',
 	'antispoof-tooshort'       => '正規化嘅名太短',
+	'antispoof-ignore'         => '略過欺詐檢查', 
 	'right-override-antispoof' => '無視欺詐檢查',
 );
 
@@ -1525,6 +1526,7 @@ $messages['zh-hans'] = array(
 	'antispoof-noletters'      => '不包含任何字元',
 	'antispoof-mixedscripts'   => '包含不相容混合的脚本',
 	'antispoof-tooshort'       => '合符标准的名称太短',
+	'antispoof-ignore'         => '略过欺诈检查',
 	'right-override-antispoof' => '无视欺诈检查',
 );
 
@@ -1541,6 +1543,7 @@ $messages['zh-hant'] = array(
 	'antispoof-noletters'      => '不包含任何字元',
 	'antispoof-mixedscripts'   => '包含不相容混合的程式碼',
 	'antispoof-tooshort'       => '合符標準的名稱太短',
+	'antispoof-ignore'         => '略過欺詐檢查',
 	'right-override-antispoof' => '無視欺詐檢查',
 );
 
