@@ -438,9 +438,10 @@ $messages['fi'] = array(
  * @author Urhixidur
  * @author Grondin
  * @author Sherbrooke
+ * @author Louperivois
  */
 $messages['fr'] = array(
-	'antispoof-desc'           => "Bloque, avec un script mixte, la création des comptes par des noms d'utilisateur similaires ou pouvant prêter à confusion.",
+	'antispoof-desc'           => "Bloque, avec un script mixte, la création des comptes par des noms d'utilisateur similaires ou pouvant prêter à confusion",
 	'antispoof-name-conflict'  => "Le nom d'utilisateur « $1 » ressemble trop au nom existant « $2 ». Veuillez choisir un autre nom.",
 	'antispoof-name-illegal'   => "Le nom d'utilisateur « $1 » n’est pas autorisé à cause de sa ressemblance avec « $2 ». Veuillez choisir un autre nom.",
 	'antispoof-badtype'        => 'Mauvais type de données',
