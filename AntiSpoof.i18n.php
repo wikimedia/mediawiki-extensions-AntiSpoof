@@ -26,6 +26,19 @@ Please choose another name.',
 	'right-override-antispoof' => 'Override the spoofing checks',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'antispoof-badtype'     => 'Verkeerde datatipe',
+	'antispoof-empty'       => 'Leë string',
+	'antispoof-blacklisted' => 'Bevat verbode karakter',
+	'antispoof-combining'   => "Begin met 'n gekombineerde merker",
+	'antispoof-unassigned'  => 'Bevat nie toegekende of verouderde karakter',
+	'antispoof-noletters'   => 'Bevat geen letters nie',
+	'antispoof-tooshort'    => 'Afgekorte naam te kort',
+);
+
 /** Aragonese (Aragonés)
  * @author Juanpabl
  */
@@ -581,8 +594,10 @@ $messages['hi'] = array(
 
 /** Croatian (Hrvatski)
  * @author SpeedyGonsales
+ * @author Dalibor Bosits
  */
 $messages['hr'] = array(
+	'antispoof-desc'          => 'Sprečava stvaranje sličnih i nepravilnih suradničkih računa',
 	'antispoof-name-conflict' => 'Ime "$1" je preslično postojećem suradničkom imenu "$2". Molimo izaberite drugo ime/nadimak.',
 	'antispoof-name-illegal'  => 'Ime "$1" nije dozvoljeno da se spriječi moguća zamjena suradničkih nadimaka: $2. Molimo izaberite drugo ime/nadimak.',
 	'antispoof-badtype'       => 'Krivi tip podataka',
@@ -1459,10 +1474,11 @@ $messages['vi'] = array(
 	'antispoof-empty'          => 'Chuỗi trống',
 	'antispoof-blacklisted'    => 'Có chứa các ký tự bị cấm',
 	'antispoof-combining'      => 'Bắt đầu bằng dấu kết hợp',
-	'antispoof-unassigned'     => 'Có chứa ký tự chưa gán hoặc không được phép',
+	'antispoof-unassigned'     => 'Có chứa ký tự chưa gắn hoặc không được phép',
 	'antispoof-noletters'      => 'Không có bất kỳ chữ nào',
 	'antispoof-mixedscripts'   => 'Có trộn lẫn script không tương thích',
 	'antispoof-tooshort'       => 'Tên chuẩn hóa quá ngắn',
+	'antispoof-ignore'         => 'Không kiểm tra tên có gây nhầm lẫn',
 	'right-override-antispoof' => 'Bỏ qua kiểm tra tên',
 );
 
