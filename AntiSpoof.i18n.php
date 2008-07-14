@@ -320,18 +320,19 @@ $messages['de'] = array(
  * @author Michawiki
  */
 $messages['dsb'] = array(
-	'antispoof-desc'          => 'Blokěrujo napóranje kontow z měšanym pismom, mjerwjece a pódobne wužywarske mjenja',
-	'antispoof-name-conflict' => 'Mě "$1" jo tomu eksistěrowacego konta "$2" pśepódobne. Wubjeŕ pšosym druge mě.',
-	'antispoof-name-illegal'  => 'Mě "$1" se njedowólujo, aby se mjerwjece abo manipulěrowane wužywarske mjenja wopinuli: $2. Wubjeŕ pšosym druge mě.',
-	'antispoof-badtype'       => 'Wopacny datowy typ',
-	'antispoof-empty'         => 'Prozne pólo',
-	'antispoof-blacklisted'   => 'Wopśimjejo njedowólene znamješka',
-	'antispoof-combining'     => 'Zachopina se z kombinaciskim znamješkom',
-	'antispoof-unassigned'    => 'Wopśimjejo njepśirědowane abo njewitane znamješka',
-	'antispoof-noletters'     => 'Njewopśimjejo pismiki',
-	'antispoof-mixedscripts'  => 'Wopśimjejo znamješka z njekompatibelnych rozdźělnych pismow',
-	'antispoof-tooshort'      => 'Kanonizěrowane mě jo pśekrotko.',
-	'antispoof-ignore'        => 'Torjeńsku kontrolu ignorěrowaś',
+	'antispoof-desc'           => 'Blokěrujo napóranje kontow z měšanym pismom, mjerwjece a pódobne wužywarske mjenja',
+	'antispoof-name-conflict'  => 'Mě "$1" jo tomu eksistěrowacego konta "$2" pśepódobne. Wubjeŕ pšosym druge mě.',
+	'antispoof-name-illegal'   => 'Mě "$1" se njedowólujo, aby se mjerwjece abo manipulěrowane wužywarske mjenja wopinuli: $2. Wubjeŕ pšosym druge mě.',
+	'antispoof-badtype'        => 'Wopacny datowy typ',
+	'antispoof-empty'          => 'Prozne pólo',
+	'antispoof-blacklisted'    => 'Wopśimjejo njedowólene znamješka',
+	'antispoof-combining'      => 'Zachopina se z kombinaciskim znamješkom',
+	'antispoof-unassigned'     => 'Wopśimjejo njepśirědowane abo njewitane znamješka',
+	'antispoof-noletters'      => 'Njewopśimjejo pismiki',
+	'antispoof-mixedscripts'   => 'Wopśimjejo znamješka z njekompatibelnych rozdźělnych pismow',
+	'antispoof-tooshort'       => 'Kanonizěrowane mě jo pśekrotko.',
+	'antispoof-ignore'         => 'Torjeńsku kontrolu ignorěrowaś',
+	'right-override-antispoof' => 'Kontrole pódobnosći wužywarskich mjenjow pódtłocyś',
 );
 
 /** Greek (Ελληνικά)
@@ -705,6 +706,7 @@ $messages['is'] = array(
 /** Italian (Italiano)
  * @author Darth Kule
  * @author BrokenArrow
+ * @author Pietrodn
  */
 $messages['it'] = array(
 	'antispoof-desc'           => 'Impedisce la creazione di account con caratteri misti, nomi utente che generano confusione o troppo simili tra loro.',
@@ -718,6 +720,7 @@ $messages['it'] = array(
 	'antispoof-noletters'      => 'Assenza di lettere',
 	'antispoof-mixedscripts'   => 'Combinazione di sistemi di scrittura non compatibili',
 	'antispoof-tooshort'       => 'Nome in forma canonica troppo corto',
+	'antispoof-ignore'         => 'Ignora i controlli per spoofing',
 	'right-override-antispoof' => 'Ignora i controlli spoofing',
 );
 
