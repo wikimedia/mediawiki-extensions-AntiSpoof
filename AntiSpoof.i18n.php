@@ -122,6 +122,26 @@ $messages['avk'] = array(
 	'antispoof-noletters' => 'Va mek eltay ruldar',
 );
 
+/** Southern Balochi (بلوچی مکرانی)
+ * @author Mostafadaneshvar
+ */
+$messages['bcc'] = array(
+	'antispoof-desc'           => 'شرکتن حساب گون پیچیدگین اسکریپ،  پیچیدگین و ساده این نام کاربری محدود کنت',
+	'antispoof-name-conflict'  => 'نام "$1 باز هم داب هستین حسابی انت"$2".
+لطفا یکی دگ نامی انتخاب کنیت.',
+	'antispoof-name-illegal'   => 'نام "$1" مجاز په بوتن په خاطر جلوگرگ چه پیچیدگین نام شرکتن نهنت$2.
+لطفا یک دگه نامی انتخاب کنیت.',
+	'antispoof-badtype'        => 'بدین نوع دیتا',
+	'antispoof-empty'          => 'رشتگ حالیکین',
+	'antispoof-blacklisted'    => 'شامل لیست سیاهی کاراکتر',
+	'antispoof-combining'      => 'شروع بیت همراه گون علامت',
+	'antispoof-unassigned'     => 'شامل نامشخص یا کدیمی کاراکتریء',
+	'antispoof-noletters'      => 'شامل هچ حرفی نهنت',
+	'antispoof-mixedscripts'   => 'شامل نا سازین جمع اسکریپتانء',
+	'antispoof-tooshort'       => 'استاندارد این نام باز هوردن',
+	'right-override-antispoof' => 'چه کنترلان کلاهبرداری رد بوت',
+);
+
 /** Bikol Central (Bikol Central)
  * @author Filipinayzd
  */
