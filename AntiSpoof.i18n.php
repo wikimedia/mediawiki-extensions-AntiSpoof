@@ -629,6 +629,7 @@ $messages['hr'] = array(
 	'antispoof-noletters'     => 'Prekratko',
 	'antispoof-mixedscripts'  => 'Nekompatibilna pisma',
 	'antispoof-tooshort'      => 'Prekratko ime',
+	'antispoof-ignore'        => 'Ignoriraj provjeru nevaljanih imena (antispoof)',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
