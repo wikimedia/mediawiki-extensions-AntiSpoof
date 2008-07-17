@@ -1315,11 +1315,22 @@ $messages['sk'] = array(
 
 /** Serbian Cyrillic ekavian (ћирилица)
  * @author Sasa Stefanovic
+ * @author Millosh
  */
 $messages['sr-ec'] = array(
-	'antispoof-name-conflict' => 'Име "$1" је превише слично већ постојећем налогу "$2". Молимо изаберите неко друго име.',
-	'antispoof-name-illegal'  => 'Име "$1" није дозвољено како би се спречиле забуне или лажирања корисничких имена: $2. Молимо изаберите неко друго име.',
-	'antispoof-noletters'     => 'Не садржи ни једно слово',
+	'antispoof-desc'           => 'Онемогућава стварање налога с мешаним писмима, збуњујућим и сличним сарадничким именима.',
+	'antispoof-name-conflict'  => 'Име "$1" је превише слично већ постојећем налогу "$2". Молимо изаберите неко друго име.',
+	'antispoof-name-illegal'   => 'Име "$1" није дозвољено како би се спречиле забуне или лажирања корисничких имена: $2. Молимо изаберите неко друго име.',
+	'antispoof-badtype'        => 'Лош тип податка.',
+	'antispoof-empty'          => 'Празан стринг.',
+	'antispoof-blacklisted'    => 'Садржи онемогућене карактере.',
+	'antispoof-combining'      => 'Почиње с комбинованом ознаком.',
+	'antispoof-unassigned'     => 'Садржи недодељене или потиснуте карактере.',
+	'antispoof-noletters'      => 'Не садржи ни једно слово',
+	'antispoof-mixedscripts'   => 'Садржи неусклађена мешана писма.',
+	'antispoof-tooshort'       => 'Каноничко име превише кратко.',
+	'antispoof-ignore'         => 'Занемари провере на бесмислице.',
+	'right-override-antispoof' => 'Препиши провере на бесмислице.',
 );
 
 /** latinica (latinica) */
