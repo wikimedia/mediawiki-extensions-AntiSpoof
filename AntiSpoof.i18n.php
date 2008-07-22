@@ -139,6 +139,7 @@ $messages['bcc'] = array(
 	'antispoof-noletters'      => 'شامل هچ حرفی نهنت',
 	'antispoof-mixedscripts'   => 'شامل نا سازین جمع اسکریپتانء',
 	'antispoof-tooshort'       => 'استاندارد این نام باز هوردن',
+	'antispoof-ignore'         => 'ندید گرگ کنترل په کلاهبرداری',
 	'right-override-antispoof' => 'چه کنترلان کلاهبرداری رد بوت',
 );
 
@@ -686,6 +687,27 @@ $messages['hu'] = array(
 	'right-override-antispoof' => 'felhasználói nevek ellenőrzésének figyelmen kívül hagyása',
 );
 
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'antispoof-desc'           => 'Bloca le creation de contos con alphabetos mixte, e nomines de utilisator similar o confundente',
+	'antispoof-name-conflict'  => 'Le nomine "$1" es troppo similar al conto existente "$2".
+Per favor selige un altere nomine.',
+	'antispoof-name-illegal'   => 'Le nomine "$1" non es permittite pro evitar le nomines de usator confundente o falsificate: $2.
+Per favor selige un altere nomine.',
+	'antispoof-badtype'        => 'Mal typo de datos',
+	'antispoof-empty'          => 'Serie de characteres vacue',
+	'antispoof-blacklisted'    => 'Contine un character prohibite',
+	'antispoof-combining'      => 'Comencia con un marca combinatori',
+	'antispoof-unassigned'     => 'Contine un character non assignate o deprecate',
+	'antispoof-noletters'      => 'Non contine alcun litteras',
+	'antispoof-mixedscripts'   => 'Contine un mixtura incompatibile de alphabetos',
+	'antispoof-tooshort'       => 'Nomine canonic troppo curte',
+	'antispoof-ignore'         => 'Ignorar le verificationes contra falsification',
+	'right-override-antispoof' => 'Ultrapassar le verificationes contra falsification',
+);
+
 /** Indonesian (Bahasa Indonesia)
  * @author Meursault2004
  * @author Rex
@@ -1025,6 +1047,14 @@ $messages['ms'] = array(
  */
 $messages['myv'] = array(
 	'antispoof-empty' => 'Чаво пикске',
+);
+
+/** Nahuatl (Nahuatl)
+ * @author Fluence
+ */
+$messages['nah'] = array(
+	'antispoof-name-conflict' => 'Motōcā "$1" cah huēyi iniuhquin tōcāitl "$2". Timitztlātlauhtiah, quitlahcuiloa occē tōcāitl.',
+	'antispoof-badtype'       => 'Ahcualli tlahcuilōliztli',
 );
 
 /** Low German (Plattdüütsch)
@@ -1475,6 +1505,7 @@ $messages['uk'] = array(
 	'antispoof-noletters'      => 'Не містить жодної літери',
 	'antispoof-mixedscripts'   => 'Використовуються несумісні системи письма',
 	'antispoof-tooshort'       => "Канонічне ім'я надто коротке",
+	'antispoof-ignore'         => 'Ігнорувати перевірки на схожі імена',
 	'right-override-antispoof' => 'Ігнорування перевірок на схожі імена',
 );
 
