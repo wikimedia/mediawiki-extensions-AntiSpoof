@@ -9,13 +9,8 @@ $messages = array();
 
 $messages['en'] = array(
 	'antispoof-desc'          => 'Blocks the creation of accounts with mixed-script, confusing and similar usernames',
-	'antispoof-name-conflict' => 'The name "$1" is too similar to existing $2.
+	'antispoof-name-conflict' => 'The name "$1" is too similar to the existing account "$2".
 Please choose another name.',
-	'antispoof-name-conflict1' => 'account: "$1"',
-	'antispoof-name-conflict2' => 'accounts: "$1", "$2"',
-	'antispoof-name-conflict3' => 'accounts: "$1", "$2", "$3"',
-	'antispoof-name-conflict4' => 'accounts: "$1", "$2", "$3", "$4"',
-	'antispoof-name-conflict5' => 'accounts: "$1", "$2", "$3", "$4", "$5"',
 	'antispoof-name-illegal'  => 'The name "$1" is not allowed to prevent confusing or spoofed usernames: $2.
 Please choose another name.',
 	'antispoof-badtype'       => 'Bad data type',
