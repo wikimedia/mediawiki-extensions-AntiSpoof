@@ -90,7 +90,8 @@ function asAbortNewAccountHook( $user, &$message ) {
 				$numConflicts = count( $conflict );
 				switch ( $numConflicts ) {
 					case 1:
-						$message = wfMsg( 'antispoof-name-conflict', $name, $conflict['0'] );
+						$message = wfMsg( 'antispoof-name-conflict', $name, 
+							wfMsg( 'antispoof-name-conflict1', $conflict['0'] ) );
 						break;
 					case 2:
 						$message = wfMsg( 'antispoof-name-conflict', $name, 
