@@ -85,9 +85,33 @@ function asAbortNewAccountHook( $user, &$message ) {
 		if( $conflict === false ) {
 			wfDebugLog( 'antispoof', "{$mode}PASS new account '$name' [$normalized]" );
 		} else {
-			wfDebugLog( 'antispoof', "{$mode}CONFLICT new account '$name' [$normalized] spoofs '$conflict'" );
+			wfDebugLog( 'antispoof', "{$mode}CONFLICT new account '$name' [$normalized] spoofs: '" . implode( ', ', $conflict ) . "'" );
 			if( $active ) {
-				$message = wfMsg( 'antispoof-name-conflict', $name, $conflict );
+				$numConflicts = count( $conflict );
+				switch ( $numConflicts ) {
+					case 1:
+						$message = wfMsg( 'antispoof-name-conflict', $name, $conflict['0'] );
+						break;
+					case 2:
+						$message = wfMsg( 'antispoof-name-conflict', $name, 
+							wfMsg( 'antispoof-name-conflict2', $conflict['0'], $conflict['1'] ) );
+						break;
+					case 3:
+						$message = wfMsg( 'antispoof-name-conflict', $name, 
+							wfMsg( 'antispoof-name-conflict3', $conflict['0'], $conflict['1'], $conflict['2'] ) );
+						break;
+					case 4:
+						$message = wfMsg( 'antispoof-name-conflict', $name, 
+							wfMsg( 'antispoof-name-conflict4', $conflict['0'], $conflict['1'], 
+							$conflict['2'], $conflict['3'] ) );
+						break;
+					case 5:
+						$message = wfMsg( 'antispoof-name-conflict', $name, 
+							wfMsg( 'antispoof-name-conflict5', $conflict['0'], $conflict['1'], $conflict['2'], 
+							$conflict['3'], $conflict['4'] ) );
+						break;
+					}
+
 				return false;
 			}
 		}
