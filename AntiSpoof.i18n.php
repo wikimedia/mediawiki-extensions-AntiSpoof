@@ -72,15 +72,17 @@ $messages['ang'] = array(
  */
 $messages['ar'] = array(
 	'antispoof-desc'           => 'يمنع إنشاء الحسابات بسكريبت مختلط، أسماء مشابهة ومربكة',
-	'antispoof-name-conflict'  => 'الاسم "$1" مشابه للغاية للحساب الموجود حاليا باسم "$2". من فضلك اختر اسما آخر.',
-	'antispoof-name-illegal'   => 'الاسم "$1" غير مسموح به لمنع الخلط وانتحال أسماء المستخدمين: $2. اختر اسم آخر من فضلك.',
+	'antispoof-name-conflict'  => 'الاسم "$1" مشابه للغاية للحساب الموجود حاليا باسم "$2".
+من فضلك اختر اسما آخر.',
+	'antispoof-name-illegal'   => 'الاسم "$1" غير مسموح به لمنع الخلط وانتحال أسماء المستخدمين: $2.
+من فضلك اختر اسم آخر.',
 	'antispoof-badtype'        => 'نوع بيانات خاطئ',
 	'antispoof-empty'          => 'سلسلة فارغة',
-	'antispoof-blacklisted'    => 'يحتوي على حروف ممنوع استخدامها',
-	'antispoof-combining'      => 'ابدأ بخلط العلامة',
-	'antispoof-unassigned'     => 'يحتوي الرمز غير مخصص أو غير المقبول',
-	'antispoof-noletters'      => 'لا يحتوي أية حروف',
-	'antispoof-mixedscripts'   => 'يحتوي خلطا بين حروف غير متوافقة',
+	'antispoof-blacklisted'    => 'يحتوي على حرف في القائمة السوداء',
+	'antispoof-combining'      => 'يبدأ بعلامة مختلطة',
+	'antispoof-unassigned'     => 'يحتوي على حرف غير مخصص أو غير مقبول',
+	'antispoof-noletters'      => 'لا يحتوي على أية حروف',
+	'antispoof-mixedscripts'   => 'يحتوي على سكريبتات غير متوافقة مختلطة',
 	'antispoof-tooshort'       => 'الاسم المستخدم قصير جدا',
 	'antispoof-ignore'         => 'تجاهل التحقق من سبوفينج',
 	'right-override-antispoof' => 'تجاوز التحقق من سبوفينج',
