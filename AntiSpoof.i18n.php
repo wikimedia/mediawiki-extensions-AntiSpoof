@@ -904,17 +904,19 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'antispoof-desc'          => 'Dat ongerdröck neu Name für Metmaacher met jemeschte Zeichensätz, neu Name, wo mer jeck von weed, un zo ähnlije Name.',
-	'antispoof-name-conflict' => 'Dä Name „$1“ es „$2“ zoo ähnlich, un künnt met em verwähßelt weede. Dä Name „$2“ jitt et ald. Sök Der jet anders als Dinge Name us.',
-	'antispoof-name-illegal'  => 'Dä Name „$1“ es nit möchlich, domet mer kein nohjemahte Name krije, un keine Durjenein met Schrefte: $2. Sök Der jet anders als Dinge Name us.',
-	'antispoof-badtype'       => 'Verkierte Zoot Date',
-	'antispoof-empty'         => 'En dem Feld is nix dren',
-	'antispoof-blacklisted'   => 'Do sin Zeiche dren, die nit zojeloße sin.',
-	'antispoof-combining'     => 'Dat fängk med ennem kombineerende Zeiche aan.',
-	'antispoof-unassigned'    => 'Do sen Zeiche dren, die mer nit han welle, odder wo mer der Zeichesatz ja nit kenne.',
-	'antispoof-noletters'     => 'Do es nit eine Bochstabe dren.',
-	'antispoof-mixedscripts'  => 'He sin Zeichesätz jemesch.',
-	'antispoof-tooshort'      => 'Dä vereinheitlechte Name es zo koot.',
+	'antispoof-desc'           => 'Dat ongerdröck neu Name für Metmaacher met jemeschte Zeichensätz, neu Name, wo mer jeck von weed, un zo ähnlije Name.',
+	'antispoof-name-conflict'  => 'Dä Name „$1“ es „$2“ zoo ähnlich, un künnt met em verwähßelt weede. Dä Name „$2“ jitt et ald. Sök Der jet anders als Dinge Name us.',
+	'antispoof-name-illegal'   => 'Dä Name „$1“ es nit möchlich, domet mer kein nohjemahte Name krije, un keine Durjenein met Schrefte: $2. Sök Der jet anders als Dinge Name us.',
+	'antispoof-badtype'        => 'Verkierte Zoot Date',
+	'antispoof-empty'          => 'En dem Feld is nix dren',
+	'antispoof-blacklisted'    => 'Do sin Zeiche dren, die nit zojeloße sin.',
+	'antispoof-combining'      => 'Dat fängk med ennem kombineerende Zeiche aan.',
+	'antispoof-unassigned'     => 'Do sen Zeiche dren, die mer nit han welle, odder wo mer der Zeichesatz ja nit kenne.',
+	'antispoof-noletters'      => 'Do es nit eine Bochstabe dren.',
+	'antispoof-mixedscripts'   => 'He sin Zeichesätz jemesch.',
+	'antispoof-tooshort'       => 'Dä vereinheitlechte Name es zo koot.',
+	'antispoof-ignore'         => 'Donn de Prööfonge jäje et Name-Nohmaache övverjonn',
+	'right-override-antispoof' => 'Prööfonge jäje et Name-Nohmaache (<i lang="en">Anti-Spoofing</i>) övverjonn',
 );
 
 /** Latin (Latina)
