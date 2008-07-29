@@ -279,6 +279,7 @@ Zvolte si prosím jiné jméno.',
 	'antispoof-noletters'      => 'Neobsahuje žádné písmeno',
 	'antispoof-mixedscripts'   => 'Obsahuje nepřípustnou kombinaci druhů písem',
 	'antispoof-tooshort'       => 'Jméno je po normalizaci příliš krátké',
+	'antispoof-ignore'         => 'Neprovádět kontrolu matoucích jmen',
 	'right-override-antispoof' => 'Potlačení kontroly podobnosti uživatelských jmen',
 );
 
@@ -948,6 +949,7 @@ Sicht iech w.e.g. een anere Benotzernumm.',
 
 /** Limburgish (Limburgs)
  * @author Ooswesthoesbes
+ * @author Matthias
  */
 $messages['li'] = array(
 	'antispoof-desc'           => "Blokkeert 't aanmake van gebroekers mit miedere sjrifte, verwarrende en geliekmakende gebroekersname",
@@ -961,6 +963,7 @@ $messages['li'] = array(
 	'antispoof-noletters'      => 'Bevat gein letters',
 	'antispoof-mixedscripts'   => 'Bevat neet compatibele sjrifter.',
 	'antispoof-tooshort'       => 'Aafgekorte naam te kort',
+	'antispoof-ignore'         => 'Spoofcontroles negere',
 	'right-override-antispoof' => 'Spoofkonträöl negere',
 );
 
