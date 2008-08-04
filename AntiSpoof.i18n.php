@@ -1533,6 +1533,7 @@ Siegli n\'altro nome, par piaser.',
 	'antispoof-noletters'      => 'No ghe xe letere',
 	'antispoof-mixedscripts'   => 'Conbinazion de sistemi de scritura mìa conpatibili',
 	'antispoof-tooshort'       => 'Nome in forma canonica massa curto',
+	'antispoof-ignore'         => 'Ignora i contròli del spoofing',
 	'right-override-antispoof' => 'Ignora le verifiche de spoofing',
 );
 
