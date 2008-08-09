@@ -98,21 +98,22 @@ $messages['arz'] = array(
 );
 
 /** Asturian (Asturianu)
- * @author SPQRobin
  * @author Esbardu
  */
 $messages['ast'] = array(
-	'antispoof-desc'          => "Bloquea la creación de cuentes con script mistu que tengan nomes d'usuariu asemeyaos o confusos",
-	'antispoof-name-conflict' => 'El nome "$1" ye demasiao asemeyáu a la cuenta esistente "$2". Por favor, escueyi otru nome.',
-	'antispoof-name-illegal'  => 'Nun se permite\'l nome "$1" pa evitar nomes d\'usuariu confusos o paródicos: $2. Por favor escueyi otru nome.',
-	'antispoof-badtype'       => 'Triba de datos incorreuta',
-	'antispoof-empty'         => 'Testu vaciu',
-	'antispoof-blacklisted'   => 'Contién un caráuter prohibíu',
-	'antispoof-combining'     => 'Empecipia con una marca combinada',
-	'antispoof-unassigned'    => 'Contién un caráuter non asignáu o obsoletu',
-	'antispoof-noletters'     => 'Nun contién nenguna lletra',
-	'antispoof-mixedscripts'  => 'Contién munchos scripts incompatibles',
-	'antispoof-tooshort'      => 'Nome canónicu demasiao curtiu',
+	'antispoof-desc'           => "Bloquea la creación de cuentes con script mistu que tengan nomes d'usuariu asemeyaos o confusos",
+	'antispoof-name-conflict'  => 'El nome "$1" ye demasiao asemeyáu a la cuenta esistente "$2". Por favor, escueyi otru nome.',
+	'antispoof-name-illegal'   => 'Nun se permite\'l nome "$1" pa evitar nomes d\'usuariu confusos o paródicos: $2. Por favor escueyi otru nome.',
+	'antispoof-badtype'        => 'Triba de datos incorreuta',
+	'antispoof-empty'          => 'Testu vaciu',
+	'antispoof-blacklisted'    => 'Contién un caráuter prohibíu',
+	'antispoof-combining'      => 'Empecipia con una marca combinada',
+	'antispoof-unassigned'     => 'Contién un caráuter non asignáu o obsoletu',
+	'antispoof-noletters'      => 'Nun contién nenguna lletra',
+	'antispoof-mixedscripts'   => 'Contién munchos scripts incompatibles',
+	'antispoof-tooshort'       => 'Nome canónicu demasiao curtiu',
+	'antispoof-ignore'         => "Inorar les comprobaciones d'engañu (spoofing)",
+	'right-override-antispoof' => "Saltase les comprobaciones d'engañu (spoofing)",
 );
 
 /** Kotava (Kotava)
@@ -907,7 +908,7 @@ $messages['ko'] = array(
 $messages['ksh'] = array(
 	'antispoof-desc'           => 'Dat ongerdröck neu Name für Metmaacher met jemeschte Zeichensätz, neu Name, wo mer jeck von weed, un zo ähnlije Name.',
 	'antispoof-name-conflict'  => 'Dä Name „$1“ es „$2“ zoo ähnlich, un künnt met em verwähßelt weede. Dä Name „$2“ jitt et ald. Sök Der jet anders als Dinge Name us.',
-	'antispoof-name-illegal'   => 'Dä Name „$1“ es nit möchlich, domet mer kein nohjemahte Name krije, un keine Durjenein met Schrefte: $2. Sök Der jet anders als Dinge Name us.',
+	'antispoof-name-illegal'   => 'Dä Name „$1“ es nit zojelohße, domet mer kein nohjemahte Name krije, un keine Durjenein met Schrefte: $2. Sök Der jet anders als Dinge Name us.',
 	'antispoof-badtype'        => 'Verkierte Zoot Date',
 	'antispoof-empty'          => 'En dem Feld is nix dren',
 	'antispoof-blacklisted'    => 'Do sin Zeiche dren, die nit zojeloße sin.',
