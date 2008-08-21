@@ -105,6 +105,16 @@ $messages['arz'] = array(
 	'antispoof-desc' => 'بيمنع فتح حسابات بأسامي يوزرز متشابهة،و بتلخبط أو بسكريبت متخلط',
 	'antispoof-name-conflict' => 'الاسم "$1" بيشبه قوي الحساب الموجود دلوقتي باسم "$2". لو سمحت تختار اسم تاني.',
 	'antispoof-name-illegal' => 'الاسم "$1"  مش مسموح علشان نمنع اللخبطة أوانتحال أسماء اليوزرز: $2. لو سمحت تختار اسم تاني.',
+	'antispoof-badtype' => 'نوع البيانات غلط',
+	'antispoof-empty' => 'سلسلة فاضية',
+	'antispoof-blacklisted' => 'بيحتوي على علامة من البلاك ليست',
+	'antispoof-combining' => 'بيبتدي بعلامة مختلطة',
+	'antispoof-unassigned' => 'بيحتوي على علامة مش مخصصة أو مش مقبولة',
+	'antispoof-noletters' => 'ما بيحتويش على اي حروف',
+	'antispoof-mixedscripts' => 'بيحتوي على سكريبتات مخلوطة مش متوافقة',
+	'antispoof-tooshort' => 'الاسم المستعل قصير خالص',
+	'antispoof-ignore' => 'اتجاهل التشييك على سبوفينج',
+	'right-override-antispoof' => 'اتجاوز التشييك على سبوفينج',
 );
 
 /** Asturian (Asturianu)
@@ -1087,6 +1097,7 @@ $messages['nds'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author Erwin85
  * @author Siebrand
  */
 $messages['nl'] = array(
@@ -1101,7 +1112,7 @@ $messages['nl'] = array(
 	'antispoof-noletters' => 'Bevat geen letters',
 	'antispoof-mixedscripts' => 'Bevat niet compatibele schriften',
 	'antispoof-tooshort' => 'Afgekorte naam te kort',
-	'antispoof-ignore' => 'Spoofcontroles negeren',
+	'antispoof-ignore' => 'Controle op gelijkende gebruikersnamen negeren',
 	'right-override-antispoof' => 'Spoofcontroles negeren',
 );
 
