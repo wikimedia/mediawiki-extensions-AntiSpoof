@@ -472,6 +472,7 @@ $messages['fa'] = array(
 /** Finnish (Suomi)
  * @author Crt
  * @author Nike
+ * @author Str4nd
  */
 $messages['fi'] = array(
 	'antispoof-desc' => 'Estää käyttäjätunnusten luonnin, jos ne sisältävät eri kirjoitusjärjestelmiä, harhaanjohtavia tai samankaltaisia käyttäjätunnuksia.',
@@ -485,6 +486,7 @@ $messages['fi'] = array(
 	'antispoof-noletters' => 'se ei sisällä kirjaimia',
 	'antispoof-mixedscripts' => 'se sisältää yhteensopimattomia kirjoitusjärjestelmiä',
 	'antispoof-tooshort' => 'sen kanonisoitu muoto on liian lyhyt',
+	'antispoof-ignore' => 'Älä käytä hämäävien tunnusten tarkistusta',
 	'right-override-antispoof' => 'Ohittaa tarkastukset samankaltaisista tai epäilyttävistä käyttäjätunnuksista',
 );
 
@@ -787,6 +789,7 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author JtFuruhata
+ * @author Muttley
  */
 $messages['ja'] = array(
 	'antispoof-desc' => 'スクリプトが混ざっている名前、紛らわしい名前、似た名前によるアカウント作成をブロックする',
@@ -800,6 +803,7 @@ $messages['ja'] = array(
 	'antispoof-noletters' => '文字を含んでいません',
 	'antispoof-mixedscripts' => '互換性のない文字列の混合を含んでいます',
 	'antispoof-tooshort' => '正規化した名前が短すぎます',
+	'antispoof-ignore' => 'なりすましチェックを無効にします。',
 );
 
 /** Jutish (Jysk)
