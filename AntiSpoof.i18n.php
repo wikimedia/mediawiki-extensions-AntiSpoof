@@ -804,6 +804,7 @@ $messages['ja'] = array(
 	'antispoof-mixedscripts' => '互換性のない文字列の混合を含んでいます',
 	'antispoof-tooshort' => '正規化した名前が短すぎます',
 	'antispoof-ignore' => 'なりすましチェックを無効にします。',
+	'right-override-antispoof' => 'なりすましチェックを無視する',
 );
 
 /** Jutish (Jysk)
