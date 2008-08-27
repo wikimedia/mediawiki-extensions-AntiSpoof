@@ -1410,6 +1410,7 @@ $messages['stq'] = array(
 	'antispoof-noletters' => 'Änthaalt neen Bouksteeuwe.',
 	'antispoof-mixedscripts' => 'Änthaalt Teekene fon uunglieke Schriftsysteme.',
 	'antispoof-tooshort' => 'Die kanonisierde Noome is tou kuut.',
+	'antispoof-ignore' => 'Ignorierje Äänelkhaidswröich',
 	'right-override-antispoof' => 'Buute Kraft sätten fon ju Benutsernoome-Äänelkhaidswröige',
 );
 
