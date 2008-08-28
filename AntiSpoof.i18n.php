@@ -99,19 +99,20 @@ $messages['ar'] = array(
 );
 
 /** Egyptian Spoken Arabic (مصرى)
+ * @author Meno25
  * @author Ramsis II
  */
 $messages['arz'] = array(
-	'antispoof-desc' => 'بيمنع فتح حسابات بأسامي يوزرز متشابهة،و بتلخبط أو بسكريبت متخلط',
-	'antispoof-name-conflict' => 'الاسم "$1" بيشبه قوي الحساب الموجود دلوقتي باسم "$2". لو سمحت تختار اسم تاني.',
+	'antispoof-desc' => 'بيمنع فتح حسابات بأسامى يوزرز متشابهة،و بتلخبط أو بسكريبت متخلط',
+	'antispoof-name-conflict' => 'الاسم "$1" بيشبه قوى الحساب الموجود دلوقتى باسم "$2". لو سمحت تختار اسم تاني.',
 	'antispoof-name-illegal' => 'الاسم "$1"  مش مسموح علشان نمنع اللخبطة أوانتحال أسماء اليوزرز: $2. لو سمحت تختار اسم تاني.',
 	'antispoof-badtype' => 'نوع البيانات غلط',
 	'antispoof-empty' => 'سلسلة فاضية',
-	'antispoof-blacklisted' => 'بيحتوي على علامة من البلاك ليست',
-	'antispoof-combining' => 'بيبتدي بعلامة مختلطة',
-	'antispoof-unassigned' => 'بيحتوي على علامة مش مخصصة أو مش مقبولة',
-	'antispoof-noletters' => 'ما بيحتويش على اي حروف',
-	'antispoof-mixedscripts' => 'بيحتوي على سكريبتات مخلوطة مش متوافقة',
+	'antispoof-blacklisted' => 'بيحتوى على علامة من البلاك ليست',
+	'antispoof-combining' => 'بيبتدى بعلامة مختلطة',
+	'antispoof-unassigned' => 'بيحتوى على علامة مش مخصصة أو مش مقبولة',
+	'antispoof-noletters' => 'ما بيحتويش على اى حروف',
+	'antispoof-mixedscripts' => 'بيحتوى على سكريبتات مخلوطة مش متوافقة',
 	'antispoof-tooshort' => 'الاسم المستعل قصير خالص',
 	'antispoof-ignore' => 'اتجاهل التشييك على سبوفينج',
 	'right-override-antispoof' => 'اتجاوز التشييك على سبوفينج',
@@ -1332,6 +1333,7 @@ $messages['sah'] = array(
 	'antispoof-noletters' => 'Биир даҕаны буукуба суох',
 	'antispoof-mixedscripts' => 'Сөп түбэһиспэт атын-атын суруктарынан суруллубут',
 	'antispoof-tooshort' => 'Каноннаммыт тыл наһаа кылгас',
+	'antispoof-ignore' => 'Майгынныыр ааттары бэрэбиэркэлээһини оҥорума',
 );
 
 /** Sicilian (Sicilianu)
