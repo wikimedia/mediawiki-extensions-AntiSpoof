@@ -560,7 +560,7 @@ Sielç par plasê un altri non.',
  */
 $messages['gl'] = array(
 	'antispoof-desc' => 'Bloquear a creación de contas con guións, confusas ou con nomes de usuarios similares.',
-	'antispoof-name-conflict' => 'O nome escollido "$1" é moi parecido a "$2", un usuario que xa existe. Por favor escolla outro nome de usuario.',
+	'antispoof-name-conflict' => 'O nome escollido "$1" é moi parecido a "$2", un usuario que xa existe. Por favor, escolla outro nome de usuario.',
 	'antispoof-name-illegal' => 'O nome "$1" non está permitido para evitar confusións ou enganos cos seguintes nomes de usuario: $2. Por favor escolla outro nome.',
 	'antispoof-badtype' => 'Tipo de datos incorrecto',
 	'antispoof-empty' => 'Cadea baleira',
