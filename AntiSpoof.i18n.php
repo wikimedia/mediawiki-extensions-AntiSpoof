@@ -574,6 +574,25 @@ $messages['gl'] = array(
 	'right-override-antispoof' => 'Ignorar as comprobacións parodia (spoofing)',
 );
 
+/** Swiss German (Alemannisch)
+ * @author Hendergassler
+ */
+$messages['gsw'] = array(
+	'antispoof-name-conflict' => 'D\'r Nàma "$1" esch züa glisch met d\'m Konto "$2".
+Nehm a andera nàma.',
+	'antispoof-name-illegal' => 'D\'r Nàma "$1" esch net erlobt om a fahler z\'ferhendera mit "$2".
+Nehm a andera Nàma.',
+	'antispoof-badtype' => 'Latz Dàtatyp',
+	'antispoof-empty' => 'Lahra "string"',
+	'antispoof-blacklisted' => "Beinhàldet büachstàwa fon d'r Schwarz lyst",
+	'antispoof-combining' => 'Kombinationszaicha am Afang.',
+	'antispoof-unassigned' => 'Net züageordneti oder onerwenschdi zaïcha oder enthàlda.',
+	'antispoof-noletters' => 'Ke büachstawa enthalda.',
+	'antispoof-mixedscripts' => 'es sen zaïcha fon onderschidlicha Schreftsystem enthàlda.',
+	'antispoof-tooshort' => 'Dr kanonisierd Nàma esch züa kurz.',
+	'antispoof-ignore' => 'Anlichkaïtsprüafong Ignoriert',
+);
+
 /** Gujarati (ગુજરાતી) */
 $messages['gu'] = array(
 	'antispoof-noletters' => 'આમાં એકપણ અક્ષર નથી',
