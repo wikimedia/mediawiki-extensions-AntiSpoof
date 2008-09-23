@@ -423,6 +423,7 @@ $messages['eo'] = array(
  * @author Icvav
  * @author Platonides
  * @author Remember the dot
+ * @author Sanbec
  * @author Titoxd
  */
 $messages['es'] = array(
@@ -435,7 +436,7 @@ $messages['es'] = array(
 	'antispoof-unassigned' => 'Contiene caracteres obsoletos o no asignados',
 	'antispoof-noletters' => 'No contiene letras',
 	'antispoof-mixedscripts' => 'Contiene una mezcla incompatible de alfabetos',
-	'antispoof-ignore' => 'Ignorar compruebas contra spoofing',
+	'antispoof-ignore' => "Ignorar comprobaciones contra ''spoofing''",
 );
 
 /** Basque (Euskara) */
