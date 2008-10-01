@@ -94,7 +94,7 @@ $messages['ar'] = array(
 	'antispoof-noletters' => 'لا يحتوي على أية حروف',
 	'antispoof-mixedscripts' => 'يحتوي على سكريبتات غير متوافقة مختلطة',
 	'antispoof-tooshort' => 'الاسم المستخدم قصير جدا',
-	'antispoof-ignore' => 'تجاهل التحقق من سبوفينج',
+	'antispoof-ignore' => 'تجاهل التحقق من التشابه',
 	'right-override-antispoof' => 'تجاوز التحقق من سبوفينج',
 );
 
