@@ -988,7 +988,8 @@ Sicht iech w.e.g. een anere Benotzernumm.',
 	'antispoof-noletters' => 'Et si keng Buschstawen dran.',
 	'antispoof-mixedscripts' => 'Et si gemëschte Skripten dran, déi net kompatibel sinn',
 	'antispoof-tooshort' => 'De kanoniséierten Numm ass ze kuerz.',
-	'right-override-antispoof' => "d'Resultat vun der Iwwerpréifung no ähnleche Benotzernimm ignoréieren",
+	'antispoof-ignore' => 'Keng Kontroll op ähnlech Benotzernimm',
+	'right-override-antispoof' => "D'Resultat vun der Iwwerpréifung no ähnleche Benotzernimm ignoréieren",
 );
 
 /** Limburgish (Limburgs)
