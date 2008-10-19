@@ -578,6 +578,14 @@ $messages['gl'] = array(
 	'right-override-antispoof' => 'Ignorar as comprobacións parodia (spoofing)',
 );
 
+/** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ * @author Omnipaedista
+ */
+$messages['grc'] = array(
+	'antispoof-badtype' => 'Κακὸς τύπος δεδομένων',
+	'antispoof-empty' => 'Κενὴ συμβολοσειρά',
+);
+
 /** Swiss German (Alemannisch)
  * @author Hendergassler
  */
