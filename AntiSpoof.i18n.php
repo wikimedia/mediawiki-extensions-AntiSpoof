@@ -288,8 +288,8 @@ $messages['co'] = array(
  */
 $messages['cs'] = array(
 	'antispoof-desc' => 'Brání vytváření účtů, jejichž jména jsou matoucí, podobná jiným uživatelům, nebo kombinují několik druhů písem',
-	'antispoof-name-conflict' => 'Jméno „$1“ je příliš podobné již existujícímu účtu „$2“.
-Zvolte si prosím jiné.',
+	'antispoof-conflict-top' => 'Jméno „$1“ je příliš podobné {{PLURAL:$2|následujícímu již existujícímu uživatelskému jménu|následujícím již existujícím uživatelským jménům}}:',
+	'antispoof-conflict-bottom' => 'Zvolte si jiné jméno.',
 	'antispoof-name-illegal' => 'Jméno „$1“ není povoleno vytvořit, aby se nepletlo nebo nesloužilo k napodobování cizích uživatelských jmen: $2.
 Zvolte si prosím jiné jméno.',
 	'antispoof-badtype' => 'Špatný datový typ',
@@ -342,11 +342,13 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
+ * @author Metalhead64
  * @author Raimond Spekking
  */
 $messages['de'] = array(
 	'antispoof-desc' => 'Verhindert die Erstellung von Benutzerkonten mit gemischten Zeichensätzen, verwirrenden und ähnlichen Benutzernamen',
-	'antispoof-name-conflict' => 'Der gewünschte Benutzername „$1“ ist den bereits vorhandenen Benutzernamen „$2“ zu ähnlich. Bitte einen anderen Benutzernamen wählen.',
+	'antispoof-conflict-top' => 'Der Name „$1“ ist {{PLURAL:$2|dem existierenden Benutzerkonto|den folgenden $2 Benutzerkonten}} zu ähnlich:',
+	'antispoof-conflict-bottom' => 'Bitte wähle einen anderen Namen.',
 	'antispoof-name-illegal' => 'Der gewünschte Benutzername „$1“ ist nicht erlaubt. Grund: $2<br />Bitte einen anderen Benutzernamen wählen.',
 	'antispoof-badtype' => 'Ungültiger Datentyp',
 	'antispoof-empty' => 'Leeres Feld',
@@ -504,7 +506,8 @@ $messages['fi'] = array(
  */
 $messages['fr'] = array(
 	'antispoof-desc' => "Bloque, avec un script mixte, la création des comptes par des noms d'utilisateur similaires ou pouvant prêter à confusion",
-	'antispoof-name-conflict' => "Le nom d'utilisateur « $1 » ressemble trop au nom existant « $2 ». Veuillez choisir un autre nom.",
+	'antispoof-conflict-top' => 'Le nom « $1 » est trop similaire {{PLURAL:$2|au compte existant|aux $2 comptes suivants}} :',
+	'antispoof-conflict-bottom' => 'Veuillez choisir un autre nom.',
 	'antispoof-name-illegal' => "Le nom d'utilisateur « $1 » n’est pas autorisé à cause de sa ressemblance avec « $2 ». Veuillez choisir un autre nom.",
 	'antispoof-badtype' => 'Mauvais type de données',
 	'antispoof-empty' => 'Chaîne vide',
@@ -767,7 +770,8 @@ Per favor selige un altere nomine.',
  */
 $messages['id'] = array(
 	'antispoof-desc' => 'Menghalangi pembuatan akun dengan nama pengguna aksara campuran, membingungkan, dan yang mirip',
-	'antispoof-name-conflict' => 'Nama "$1" terlalu mirip dengan akun "$2" yang sudah ada. Harap pilih nama lain.',
+	'antispoof-conflict-top' => 'Nama "$1" terlalu mirip dengan {{PLURAL:$2|akun yang telah ada|$2 akun berikut}}:',
+	'antispoof-conflict-bottom' => 'Silakan memilih nama lain.',
 	'antispoof-name-illegal' => 'Nama "$1" tidak diijinkan untuk mencegah kebingungan atau penipuan nama: $2. Harap pilih nama lain.',
 	'antispoof-badtype' => 'Tipe data salah',
 	'antispoof-empty' => 'Data kosong',
@@ -1141,8 +1145,8 @@ $messages['nds'] = array(
  */
 $messages['nl'] = array(
 	'antispoof-desc' => 'Blokkeert het aanmaken van gebruikers met meerdere schriften, verwarrende en gelijkende gebruikersnamen',
-	'antispoof-name-conflict' => 'De naam "$1" lijkt te veel op de bestaande gebruiker "$2".
-Kies een andere naam.',
+	'antispoof-conflict-top' => 'De naam "$1" lijkt te veel op de volgende bestaande {{PLURAL:$2|gebruiker|$2 gebruikers}}:',
+	'antispoof-conflict-bottom' => 'Kies een andere naam.',
 	'antispoof-name-illegal' => 'De naam "$1" is niet toegestaan om verwarring of gefingeerde gebruikersnamen te voorkomen: $2.
 Kies een andere naam.',
 	'antispoof-badtype' => 'Verkeerd datatype',
@@ -1335,11 +1339,13 @@ $messages['ro'] = array(
 );
 
 /** Russian (Русский)
+ * @author Kaganer
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'antispoof-desc' => 'Запрещает создание учётных записей с именами, содержащими символы из разных систем письма, вводящих в заблуждение и похожих на имена других учётных записей.',
-	'antispoof-name-conflict' => 'Имя «$1» похоже на уже существующую учётную запись «$2». Пожалуйста, выберите другое имя.',
+	'antispoof-conflict-top' => 'Имя «$1» слишком похоже на {{PLURAL:$2|существующую учётную запись|на $2 уже существующие учётные записи|на $2 уже существующих учётных записей}}:',
+	'antispoof-conflict-bottom' => 'Пожалуйста, выберите другое имя.',
 	'antispoof-name-illegal' => 'Не разрешено использование имени «$1» в целях предотвращения смешения со следующими похожими именами: $2. Пожалуйста, выберите другое имя.',
 	'antispoof-badtype' => 'Неправильный тип данных',
 	'antispoof-empty' => 'Пустая строка',
