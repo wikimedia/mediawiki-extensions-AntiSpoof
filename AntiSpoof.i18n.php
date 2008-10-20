@@ -10,8 +10,8 @@ $messages = array();
 $messages['en'] = array(
 	'antispoof-desc'          => 'Blocks the creation of accounts with mixed-script, confusing and similar usernames',
 	'antispoof-conflict-top'  => 'The name "$1" is too similar to {{PLURAL:$2|the existing account|the following $2 accounts}}:',
-	'antispoof-conflict-item' => '$1',
-	'antispoof-conflict-bottom' => 'Please choose another name.', 
+	'antispoof-conflict-item' => '$1', # do not translate or duplicate this message to other languages
+	'antispoof-conflict-bottom' => 'Please choose another name.',
 	'antispoof-name-illegal'  => 'The name "$1" is not allowed to prevent confusing or spoofed usernames: $2.
 Please choose another name.',
 	'antispoof-badtype'       => 'Bad data type',
@@ -22,7 +22,7 @@ Please choose another name.',
 	'antispoof-noletters'     => 'Does not contain any letters',
 	'antispoof-mixedscripts'  => 'Contains incompatible mixed scripts',
 	'antispoof-tooshort'      => 'Canonicalized name too short',
-	'antispoof-ignore'        => 'Ignore spoofing checks',   
+	'antispoof-ignore'        => 'Ignore spoofing checks',
 
 	'right-override-antispoof' => 'Override the spoofing checks',
 );
@@ -635,8 +635,8 @@ $messages['hak'] = array(
  */
 $messages['he'] = array(
 	'antispoof-desc' => 'לא מאפשר יצירה של חשבונות עם סוגי כתב מעורבים, חשבונות עם שמות מבלבלים ושמות משתמש דומים',
-	'antispoof-name-conflict' => 'שם המשתמש "$1" שבחרתם דומה מדי לשמות משתמש קיימים: "$2".
-אנא בחרו שם משתמש אחר.',
+	'antispoof-conflict-top'  => 'השם "$1" דומה מדי {{PLURAL:$2|לחשבון הקיים הבא|ל־$2 החשבונות הקיימים הבאים}}:',
+	'antispoof-conflict-bottom' => 'אנא בחרו שם אחר.',
 	'antispoof-name-illegal' => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2.
 אנא בחרו שם משתמש אחר.',
 	'antispoof-badtype' => 'סוג מידע בעייתי',
