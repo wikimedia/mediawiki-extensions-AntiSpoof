@@ -83,8 +83,8 @@ $messages['ang'] = array(
  */
 $messages['ar'] = array(
 	'antispoof-desc' => 'يمنع إنشاء الحسابات بسكريبت مختلط، أسماء مشابهة ومربكة',
-	'antispoof-name-conflict' => 'الاسم "$1" مشابه للغاية للحساب الموجود حاليا باسم "$2".
-من فضلك اختر اسما آخر.',
+	'antispoof-conflict-top' => 'الاسم "$1" شديد الشبه ب{{PLURAL:$2|الحساب الموجود|ال$2 حساب التالية}}:',
+	'antispoof-conflict-bottom' => 'من فضلك اختر اسما آخر.',
 	'antispoof-name-illegal' => 'الاسم "$1" غير مسموح به لمنع الخلط وانتحال أسماء المستخدمين: $2.
 من فضلك اختر اسم آخر.',
 	'antispoof-badtype' => 'نوع بيانات خاطئ',
@@ -105,7 +105,8 @@ $messages['ar'] = array(
  */
 $messages['arz'] = array(
 	'antispoof-desc' => 'بيمنع فتح حسابات بأسامى يوزرز متشابهة،و بتلخبط أو بسكريبت متخلط',
-	'antispoof-name-conflict' => 'الاسم "$1" بيشبه قوى الحساب الموجود دلوقتى باسم "$2". لو سمحت تختار اسم تاني.',
+	'antispoof-conflict-top' => 'الاسم "$1" شديد الشبه ب{{PLURAL:$2|الحساب الموجود|ال$2 حساب التالية}}:',
+	'antispoof-conflict-bottom' => 'من فضلك اختر اسما آخر.',
 	'antispoof-name-illegal' => 'الاسم "$1"  مش مسموح علشان نمنع اللخبطة أوانتحال أسماء اليوزرز: $2. لو سمحت تختار اسم تاني.',
 	'antispoof-badtype' => 'نوع البيانات غلط',
 	'antispoof-empty' => 'سلسلة فاضية',
@@ -124,7 +125,8 @@ $messages['arz'] = array(
  */
 $messages['ast'] = array(
 	'antispoof-desc' => "Bloquea la creación de cuentes con script mistu que tengan nomes d'usuariu asemeyaos o confusos",
-	'antispoof-name-conflict' => 'El nome "$1" ye demasiao asemeyáu a la cuenta esistente "$2". Por favor, escueyi otru nome.',
+	'antispoof-conflict-top' => 'El nome "$1" ye demasiao asemeyáu a {{PLURAL:$2|la cuenta esistente|les siguientes $2 cuentes}}:',
+	'antispoof-conflict-bottom' => 'Por favor escueyi otru nome.',
 	'antispoof-name-illegal' => 'Nun se permite\'l nome "$1" pa evitar nomes d\'usuariu confusos o paródicos: $2. Por favor escueyi otru nome.',
 	'antispoof-badtype' => 'Triba de datos incorreuta',
 	'antispoof-empty' => 'Testu vaciu',
@@ -407,7 +409,8 @@ $messages['el'] = array(
  */
 $messages['eo'] = array(
 	'antispoof-desc' => 'Blokas la kreadon de kontoj kun miksitaj alfabetaj, konfuzemaj, kaj similaj salutnomoj',
-	'antispoof-name-conflict' => 'La nomo "$1" estas tro simila al la ekzistanta konto "$2". Bonvolu elekti alian nomon.',
+	'antispoof-conflict-top' => 'La nomo "$1" tro similas {{PLURAL:$2|la ekzistantan konton|la jenajn $2 kontojn}}:',
+	'antispoof-conflict-bottom' => 'Bonvolu elekti alian nomon.',
 	'antispoof-name-illegal' => 'La nomo "$1" ne estas permesita por preventi konfuzigemajn aŭ trompajn uzantnomojn: $2. Bonvolu elekti alian nomon.',
 	'antispoof-badtype' => 'Nevalida datumtipo',
 	'antispoof-empty' => 'Malplena bitĉeno',
@@ -463,7 +466,8 @@ $messages['ext'] = array(
  */
 $messages['fa'] = array(
 	'antispoof-desc' => 'از ایجاد حساب‌های کاربری با حروف مختلط، گیج‌کننده یا مشابه با دیگر حساب‌های کاربری جلوگیری می‌کند',
-	'antispoof-name-conflict' => 'نام «$1» بیش از حد شبیه حسابِ کاربری «$2» است که از قبل موجود است. لطفاً نام دیگری برگزینید.',
+	'antispoof-conflict-top' => 'نام «$1» خیلی به {{PLURAL:$2|این حساب کاربری|این $2 حساب کاربری}} شباهت دارد:',
+	'antispoof-conflict-bottom' => 'لطفاً یک نام دیگر انتخاب کنید.',
 	'antispoof-name-illegal' => 'نام «$1» به دلیل جلوگیری از نام‌های کاربری سردرگم‌کننده یا مسخره مجاز نیست: $2. لطفاً نام دیگری انتخاب کنید.',
 	'antispoof-badtype' => 'نوع داده نامناسب',
 	'antispoof-empty' => 'رشته خالی',
@@ -568,7 +572,8 @@ Sielç par plasê un altri non.',
  */
 $messages['gl'] = array(
 	'antispoof-desc' => 'Bloquear a creación de contas con guións, confusas ou con nomes de usuarios similares.',
-	'antispoof-name-conflict' => 'O nome escollido "$1" é moi parecido a "$2", un usuario que xa existe. Por favor, escolla outro nome de usuario.',
+	'antispoof-conflict-top' => 'O nome "$1" é moi similar {{PLURAL:$2|á seguinte conta que xa existe|ás seguintes $2 contas}}:',
+	'antispoof-conflict-bottom' => 'Por favor, escolla outro nome.',
 	'antispoof-name-illegal' => 'O nome "$1" non está permitido para evitar confusións ou enganos cos seguintes nomes de usuario: $2. Por favor escolla outro nome.',
 	'antispoof-badtype' => 'Tipo de datos incorrecto',
 	'antispoof-empty' => 'Cadea baleira',
@@ -635,7 +640,7 @@ $messages['hak'] = array(
  */
 $messages['he'] = array(
 	'antispoof-desc' => 'לא מאפשר יצירה של חשבונות עם סוגי כתב מעורבים, חשבונות עם שמות מבלבלים ושמות משתמש דומים',
-	'antispoof-conflict-top'  => 'השם "$1" דומה מדי {{PLURAL:$2|לחשבון הקיים הבא|ל־$2 החשבונות הקיימים הבאים}}:',
+	'antispoof-conflict-top' => 'השם "$1" דומה מדי {{PLURAL:$2|לחשבון הקיים הבא|ל־$2 החשבונות הקיימים הבאים}}:',
 	'antispoof-conflict-bottom' => 'אנא בחרו שם אחר.',
 	'antispoof-name-illegal' => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2.
 אנא בחרו שם משתמש אחר.',
@@ -675,7 +680,8 @@ $messages['hi'] = array(
  */
 $messages['hr'] = array(
 	'antispoof-desc' => 'Sprečava stvaranje sličnih i nepravilnih suradničkih računa',
-	'antispoof-name-conflict' => 'Ime "$1" je preslično postojećem suradničkom imenu "$2". Molimo izaberite drugo ime/nadimak.',
+	'antispoof-conflict-top' => 'Ime "$1" je previše slično već {{PLURAL:$2|postojećem imenu|$2 postojećih imena}}:',
+	'antispoof-conflict-bottom' => 'Molimo odaberite drugo ime.',
 	'antispoof-name-illegal' => 'Ime "$1" nije dozvoljeno da se spriječi moguća zamjena suradničkih nadimaka: $2. Molimo izaberite drugo ime/nadimak.',
 	'antispoof-badtype' => 'Krivi tip podataka',
 	'antispoof-empty' => 'Prazan string',
@@ -694,7 +700,8 @@ $messages['hr'] = array(
  */
 $messages['hsb'] = array(
 	'antispoof-desc' => 'Blokuje wutworjenje kontow z měšanymi pismami, skonfuznjacymi a podobnymi wužiwarskimi mjenami',
-	'antispoof-name-conflict' => 'Požadane wužiwarske mjeno „$1” je hižo eksistowacemu wužiwarskemu mjenu „$2” přepodobne. Prošu wubjer druhe wužiwarske mjeno.',
+	'antispoof-conflict-top' => 'Mjeno "$1" je {{PLURAL:$2|eksistowacemu kontu|slědowacymaj $2 kontomaj|slědowacym $2 kontam|slědowacym kontam}} přepodobne:',
+	'antispoof-conflict-bottom' => 'Prošu wubjer druhe mjeno.',
 	'antispoof-name-illegal' => 'Požadane wužiwarske mjeno „$1” njeje dowolene. Přičina: $2<br />Prošu wubjer druhe wužiwarske mjeno.',
 	'antispoof-badtype' => 'Njepłaćiwy datowy typ',
 	'antispoof-empty' => 'Prózdne polo',
@@ -810,7 +817,8 @@ $messages['is'] = array(
  */
 $messages['it'] = array(
 	'antispoof-desc' => 'Impedisce la creazione di account con caratteri misti, nomi utente che generano confusione o troppo simili tra loro.',
-	'antispoof-name-conflict' => 'Il nome utente "$1" è troppo simile all\'utente "$2", già registrato. Scegliere un altro nome.',
+	'antispoof-conflict-top' => 'Il nome "$1" è troppo simile {{PLURAL:$2|all\'account esistente|ai seguenti $2 account}}:',
+	'antispoof-conflict-bottom' => 'Scegliere un altro nome.',
 	'antispoof-name-illegal' => 'Il nome utente "$1" non è consentito, per evitare confusione o utilizzi fraudolenti: $2. Scegliere un altro nome.',
 	'antispoof-badtype' => 'Tipo di dati errato',
 	'antispoof-empty' => 'Stringa vuota',
@@ -963,7 +971,8 @@ $messages['ko'] = array(
  */
 $messages['ksh'] = array(
 	'antispoof-desc' => 'Dat ongerdröck neu Name für Metmaacher met jemeschte Zeichensätz, neu Name, wo mer jeck von weed, un zo ähnlije Name.',
-	'antispoof-name-conflict' => 'Dä Name „$1“ es „$2“ zoo ähnlich, un künnt met em verwähßelt weede. Dä Name „$2“ jitt et ald. Sök Der jet anders als Dinge Name us.',
+	'antispoof-conflict-top' => 'Dä Name „$1“ eß zoh ähnlesch met {{PLURAL:$2|däm Name, dä&32;|dä Name, di_j_|nix wadd_}}et ald jitt:',
+	'antispoof-conflict-bottom' => 'Nemm ene andere Name.',
 	'antispoof-name-illegal' => 'Dä Name „$1“ es nit zojelohße, domet mer kein nohjemahte Name krije, un keine Durjenein met Schrefte: $2. Sök Der jet anders als Dinge Name us.',
 	'antispoof-badtype' => 'Verkierte Zoot Date',
 	'antispoof-empty' => 'En dem Feld is nix dren',
@@ -1093,7 +1102,8 @@ $messages['mr'] = array(
  */
 $messages['ms'] = array(
 	'antispoof-desc' => 'Menyekat pembukaan akaun dengan nama pengguna yang mengelirukan, menyerupai orang lain, atau terdiri daripada campuran sistem-sistem tulisan yang berlainan',
-	'antispoof-name-conflict' => 'Nama "$1" menyerupai akaun "$2" yang sedia ada. Sila pilih nama lain.',
+	'antispoof-conflict-top' => 'Nama "$1" menyerupai {{PLURAL:$2|akaun berikut|$2 akaun berikut}}:',
+	'antispoof-conflict-bottom' => 'Sila pilih nama lain.',
 	'antispoof-name-illegal' => 'Nama "$1" tidak dibenarkan kerana mengelirukan atau menipu: $2. Sila pilih nama lain.',
 	'antispoof-badtype' => 'Jenis data salah',
 	'antispoof-empty' => 'Rentetan kosong',
@@ -1203,7 +1213,8 @@ $messages['nso'] = array(
  */
 $messages['oc'] = array(
 	'antispoof-desc' => "Blòca, amb un escript mixt, la creacion dels comptes per de noms d'utilizaires similars o podent prestar a confusion.",
-	'antispoof-name-conflict' => 'Lo nom « $1 » se sembla tròp al compte existent « $2 ». Causissètz un autre nom.',
+	'antispoof-conflict-top' => 'Lo nom « $1 » es tròp similar {{PLURAL:$2|al compte existent|als $2 comptes seguents}} :',
+	'antispoof-conflict-bottom' => 'Causissètz un autre nom.',
 	'antispoof-name-illegal' => 'Lo nom « $1 » es pas autorizat per empachar de confondre o d’utilizar lo nom « $2 ». Causissètz un autre nom.',
 	'antispoof-badtype' => 'Marrit tipe de donadas',
 	'antispoof-empty' => 'Cadena voida',
@@ -1252,7 +1263,8 @@ $messages['pam'] = array(
  */
 $messages['pl'] = array(
 	'antispoof-desc' => 'Blokuje tworzenie kont użytkowników o nazwach podobnych do już istniejących lub dezorientujących',
-	'antispoof-name-conflict' => 'Wybierz inną nazwę, ponieważ „$1” jest zbyt podobna do nazwy innego użytkownika „$2”.',
+	'antispoof-conflict-top' => 'Nazwa „$1” jest zbyt podobna do {{PLURAL:$2|nazwy istniejącego konta|nazw następujących $2 kont}}:',
+	'antispoof-conflict-bottom' => 'Proszę wybrać inną nazwę.',
 	'antispoof-name-illegal' => 'Wybierz inną nazwę, ponieważ „$1” nie może być użyta ze względu na podobieństwo do nazwy innego użytkownika „$2”.',
 	'antispoof-badtype' => 'Zły typ danych',
 	'antispoof-empty' => 'Pusty ciąg znaków',
@@ -1262,6 +1274,7 @@ $messages['pl'] = array(
 	'antispoof-noletters' => 'Nie zawiera liter',
 	'antispoof-mixedscripts' => 'Zawiera przemieszane znaki niezgodnych ze sobą pism',
 	'antispoof-tooshort' => 'Zbyt krótka nazwa użytkownika',
+	'antispoof-ignore' => 'Ignoruj podobieństwo do istniejących nazw',
 	'right-override-antispoof' => 'Wyłącza ograniczenia nakładane przez rozszerzenie AntiSpoof, które blokuje zakładanie kont o podobnych nazwach do już istniejących',
 );
 
@@ -1296,7 +1309,8 @@ $messages['ps'] = array(
  */
 $messages['pt'] = array(
 	'antispoof-desc' => 'Impede a criação de contas com escrita mista, e nomes de utilizador confusos e semelhantes',
-	'antispoof-name-conflict' => 'O nome "$1" é muito similar a "$2", já existente. Por favor, escolha outro nome.',
+	'antispoof-conflict-top' => 'O nome "$1" é demasiado semelhante {{PLURAL:$2|ao da seguinte conta já existente|aos das seguintes $2 contas}}:',
+	'antispoof-conflict-bottom' => 'Por favor, escolha outro nome.',
 	'antispoof-name-illegal' => 'O nome "$1" não é permitido para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): já existe $2. Por favor, escolha outro nome.',
 	'antispoof-badtype' => 'Formato de dados incorreto',
 	'antispoof-empty' => 'Linha vazia',
@@ -1338,13 +1352,20 @@ $messages['ro'] = array(
 	'antispoof-noletters' => 'Nu conţine nici o literă',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'antispoof-empty' => 'stringa vacande',
+);
+
 /** Russian (Русский)
  * @author Kaganer
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'antispoof-desc' => 'Запрещает создание учётных записей с именами, содержащими символы из разных систем письма, вводящих в заблуждение и похожих на имена других учётных записей.',
-	'antispoof-conflict-top' => 'Имя «$1» слишком похоже на {{PLURAL:$2|существующую учётную запись|на $2 уже существующие учётные записи|на $2 уже существующих учётных записей}}:',
+	'antispoof-conflict-top' => 'Имя «$1» слишком похоже на {{PLURAL:$2|$2 уже существующую учётную запись|$2 уже существующие учётные записи|$2 уже существующих учётных записей}}:',
 	'antispoof-conflict-bottom' => 'Пожалуйста, выберите другое имя.',
 	'antispoof-name-illegal' => 'Не разрешено использование имени «$1» в целях предотвращения смешения со следующими похожими именами: $2. Пожалуйста, выберите другое имя.',
 	'antispoof-badtype' => 'Неправильный тип данных',
@@ -1400,7 +1421,8 @@ $messages['scn'] = array(
  */
 $messages['sk'] = array(
 	'antispoof-desc' => 'Blokuje tvorbu účtov s názvami obsahujúcimi viacero druhov písma, mätúcimi alebo podobnými existujúcim názvom',
-	'antispoof-name-conflict' => 'Meno „$1“ je príliš podobné názvu existujúceho účtu „$2“. Zvoľte si prosím iné.',
+	'antispoof-conflict-top' => 'Meno „$1” je príliš podobné {{PLURAL:$2|existujúcemu účtu|nasledovným $2 účtom}}:',
+	'antispoof-conflict-bottom' => 'Prosím, vyberte si iné meno.',
 	'antispoof-name-illegal' => 'Meno „$1“ nie je povolené, aby sa zabránilo náhodnému alebo zámernému pomýleniu mien používateľov: $2. Zvoľte si prosím iné meno.',
 	'antispoof-badtype' => 'Nesprávny typ dát',
 	'antispoof-empty' => 'Prázdny reťazec',
@@ -1479,12 +1501,14 @@ $messages['su'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author Boivie
  * @author Lejonel
  * @author M.M.S.
  */
 $messages['sv'] = array(
 	'antispoof-desc' => 'Förhindrar att konton med olika typer av förvirrande namn registreras',
-	'antispoof-name-conflict' => 'Namnet "$1" är för likt det existerande kontot "$2". Välj ett annat namn istället.',
+	'antispoof-conflict-top' => 'Namnet "$1" är för likt {{PLURAL:$2|kontot|följande $2 konton}}:',
+	'antispoof-conflict-bottom' => 'Välj ett annat namn.',
 	'antispoof-name-illegal' => 'För att förhindra förvirrande eller felaktiga användarnamn, så är namnet "$1" inte tillåtet. Anledning: $2. Välj ett annat namn istället.',
 	'antispoof-badtype' => 'Felaktig datatyp',
 	'antispoof-empty' => 'Tom sträng',
