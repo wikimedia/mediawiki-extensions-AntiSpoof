@@ -1183,7 +1183,8 @@ $messages['nn'] = array(
  */
 $messages['no'] = array(
 	'antispoof-desc' => 'Hindrer oppretting av kontoer med lignende eller forvirrende brukernavn, eller brukernavn som inneholder to forskjellige alfabettyper',
-	'antispoof-name-conflict' => 'Navnet «$1» er for likt navnet til den eksisterende kontoen «$2». Vennligst velg et annet navn.',
+	'antispoof-conflict-top' => 'Navnet «$1» er for likt følgende {{PLURAL:$2|konto|kontoer}}:',
+	'antispoof-conflict-bottom' => 'Velg et annet navn.',
 	'antispoof-name-illegal' => 'Navnet «$1» er ikke tillatt for å forhindre sammenblanding: $2. Vennligst velg et annet navn.',
 	'antispoof-badtype' => 'Ugyldig datatype',
 	'antispoof-empty' => 'Tom streng',
