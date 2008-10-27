@@ -484,11 +484,13 @@ $messages['fa'] = array(
 /** Finnish (Suomi)
  * @author Crt
  * @author Nike
+ * @author Silvonen
  * @author Str4nd
  */
 $messages['fi'] = array(
 	'antispoof-desc' => 'Estää käyttäjätunnusten luonnin, jos ne sisältävät eri kirjoitusjärjestelmiä, harhaanjohtavia tai samankaltaisia käyttäjätunnuksia.',
-	'antispoof-name-conflict' => 'Tunnus ”$1” on liian samankaltainen tunnuksen ”$2” kanssa. Valitse toinen tunnus.',
+	'antispoof-conflict-top' => 'Tunnus ”$1” on liian samankaltainen kuin {{PLURAL:$2|olemassa oleva tunnus|seuraavat $2 tunnusta}}:',
+	'antispoof-conflict-bottom' => 'Valitse toinen tunnus.',
 	'antispoof-name-illegal' => 'Tunnusta ”$1” ei sallita, koska $2. Hämäävien tai huijaustarkoitukseen sopivien tunnusten luonti on estetty. Valitse toinen tunnus.',
 	'antispoof-badtype' => 'se on virheellistä tietotyyppiä',
 	'antispoof-empty' => 'se on tyhjä',
@@ -999,7 +1001,8 @@ $messages['la'] = array(
  */
 $messages['lb'] = array(
 	'antispoof-desc' => "Verhënnert d'Opmaache vu Benotzerkonten matt gemeschten Zeechesätz, mat bizare Benotzernimm oder mat Benotzernimm déi zu Verwiesselunge féiere kéinten.",
-	'antispoof-name-conflict' => 'De Benotzernumm "$1" huet zevill Ähnlechkeet mat "$2". Sicht iech w.e.g. een anere Benotzernumm.',
+	'antispoof-conflict-top' => 'Den Numm "$1" ass ze ähnlech mat {{PLURAL:$2|dem Benotzerkont|dëse(n) $2 Benotzerkonten}}:',
+	'antispoof-conflict-bottom' => 'Wielt w.e.g. en anere Numm.',
 	'antispoof-name-illegal' => 'De gewënschte Benotzernumm "$1" ass net erlaabt. Grond: $2<br />
 Sicht iech w.e.g. een anere Benotzernumm.',
 	'antispoof-badtype' => 'Ongültegt Fichiers-Format (bad data type)',
@@ -1607,8 +1610,8 @@ $messages['uk'] = array(
  */
 $messages['vec'] = array(
 	'antispoof-desc' => 'Inpedisse la creazion de account con carateri missià, nomi utente che genera confusion o che se someja massa tra de lori.',
-	'antispoof-name-conflict' => 'El nome "$1" el ghe someja massa a l\'utente "$2", zà registrà.
-Siegli n\'altro nome, par piaser.',
+	'antispoof-conflict-top' => 'El nome "$1" el xe someja massa {{PLURAL:$2|a l\'utensa esistente|a le seguenti $2 utense}}:',
+	'antispoof-conflict-bottom' => "Sièglite n'antro nome.",
 	'antispoof-name-illegal' => 'El nome "$1" no\'l xe mìa permesso, par evitar confusion o utilizi fraudolenti: $2.
 Siegli n\'altro nome, par piaser.',
 	'antispoof-badtype' => 'Tipo de dati mìa giusto.',
