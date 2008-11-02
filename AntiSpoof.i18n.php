@@ -436,15 +436,19 @@ $messages['eo'] = array(
  */
 $messages['es'] = array(
 	'antispoof-desc' => 'Previene la creación de cuentas de usuario nuevas que tengan nombres confusos, similares a nombres existentes, o con alfabetos mixtos.',
-	'antispoof-name-conflict' => 'El nombre "$1" es demasiado parecido a la cuenta "$2", ya existente. Por favor, elige otro nombre.',
-	'antispoof-name-illegal' => 'Con el fin de evitar nombres confusos y suplantaciones no se permite registrar el nombre de usuario "$1": $2. Por favor, escoja otro nombre.',
+	'antispoof-conflict-top' => 'El nombre «$1» es muy similar al de {{PLURAL:$2|la siguiente cuenta|las siguientes $2 cuentas}}:',
+	'antispoof-conflict-bottom' => 'Elije otro nombre, por favor.',
+	'antispoof-name-illegal' => 'El nombre «$1» no está permitido para evitar nombres de usuario confusos o suplantaciones: $2. Por favor, elige otro nombre.',
 	'antispoof-badtype' => 'Tipo de dato erróneo',
-	'antispoof-empty' => 'Texto vacio',
+	'antispoof-empty' => 'Texto vacío',
 	'antispoof-blacklisted' => 'Contiene caracteres no permitidos',
+	'antispoof-combining' => 'Comienza por una marca de combinación',
 	'antispoof-unassigned' => 'Contiene caracteres obsoletos o no asignados',
 	'antispoof-noletters' => 'No contiene letras',
 	'antispoof-mixedscripts' => 'Contiene una mezcla incompatible de alfabetos',
-	'antispoof-ignore' => "Ignorar comprobaciones contra ''spoofing''",
+	'antispoof-tooshort' => 'Nombre en forma canónica demasiado corto',
+	'antispoof-ignore' => 'Ignorar comprobaciones contra suplantaciones',
+	'right-override-antispoof' => 'Anula las comprobaciones de suplantación',
 );
 
 /** Basque (Euskara) */
@@ -759,8 +763,8 @@ $messages['hu'] = array(
  */
 $messages['ia'] = array(
 	'antispoof-desc' => 'Bloca le creation de contos con alphabetos mixte, e nomines de utilisator similar o confundente',
-	'antispoof-name-conflict' => 'Le nomine "$1" es troppo similar al conto existente "$2".
-Per favor selige un altere nomine.',
+	'antispoof-conflict-top' => 'Le nomine "$1" es troppo similar al {{PLURAL:$2|conto existente|sequente $2 contos}}:',
+	'antispoof-conflict-bottom' => 'Per favor selige un altere nomine.',
 	'antispoof-name-illegal' => 'Le nomine "$1" non es permittite pro evitar le nomines de usator confundente o falsificate: $2.
 Per favor selige un altere nomine.',
 	'antispoof-badtype' => 'Mal typo de datos',
