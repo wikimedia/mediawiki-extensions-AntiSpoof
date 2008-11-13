@@ -835,9 +835,11 @@ $messages['jut'] = array(
 
 /** Javanese (Basa Jawa)
  * @author Meursault2004
+ * @author Pras
  */
 $messages['jv'] = array(
 	'antispoof-desc' => 'Menggak nggawé akun utawa rékening mawa jeneng panganggo aksara campuran, mbingungaké lan sing mèmper',
+	'antispoof-conflict-bottom' => 'Mangga milih jeneng liya',
 	'antispoof-name-illegal' => 'Jeneng "$1" ora diidinaké supaya wong ora bingung utawa menggak ngapi-api jeneng panganggo sing wis ana: $2. 
 Mangga pilihen jeneng liya.',
 	'antispoof-badtype' => 'Tipe data salah',
