@@ -839,6 +839,7 @@ $messages['jut'] = array(
  */
 $messages['jv'] = array(
 	'antispoof-desc' => 'Menggak nggawé akun utawa rékening mawa jeneng panganggo aksara campuran, mbingungaké lan sing mèmper',
+	'antispoof-conflict-top' => 'Jeneng "$1" mèmper banget karo {{PLURAL:$2|akun sing wis ana|$2 akun iki}}:',
 	'antispoof-conflict-bottom' => 'Mangga milih jeneng liya',
 	'antispoof-name-illegal' => 'Jeneng "$1" ora diidinaké supaya wong ora bingung utawa menggak ngapi-api jeneng panganggo sing wis ana: $2. 
 Mangga pilihen jeneng liya.',
@@ -850,6 +851,7 @@ Mangga pilihen jeneng liya.',
 	'antispoof-noletters' => 'Ora ngandhut aksara babar belas',
 	'antispoof-mixedscripts' => 'Ngandhut aksara campuran sing ora kompatibel',
 	'antispoof-tooshort' => 'Jeneng kanonikalisasi kecendhaken',
+	'antispoof-ignore' => "Lirwakaké pamrikasaan panipuan akun (''spoofing'')",
 	'right-override-antispoof' => "''Override'' pamriksan palècèhan",
 );
 
@@ -917,9 +919,11 @@ $messages['km'] = array(
 
 /** Korean (한국어)
  * @author Klutzy
+ * @author Kwj2772
  * @author ToePeu
  */
 $messages['ko'] = array(
+	'antispoof-conflict-top' => '계정 이름 "$1"은 {{PLURAL:$2|다음 계정|다음 $2개의 계정}}과 너무 비슷합니다:',
 	'antispoof-name-illegal' => '‘$1’ 사용자 이름은 다음의 이유로 인해 가입이 금지되었습니다: $2. 다른 이름으로 가입해주세요.',
 	'antispoof-badtype' => '잘못된 자료형',
 	'antispoof-empty' => '빈 문자열',
