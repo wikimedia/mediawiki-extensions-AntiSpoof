@@ -1379,9 +1379,11 @@ $messages['sk'] = array(
 /** Serbian Cyrillic ekavian (ћирилица)
  * @author Millosh
  * @author Sasa Stefanovic
+ * @author Јованвб
  */
 $messages['sr-ec'] = array(
 	'antispoof-desc' => 'Онемогућава стварање налога с мешаним писмима, збуњујућим и сличним сарадничким именима.',
+	'antispoof-conflict-bottom' => 'Молимо изаберите друго име.',
 	'antispoof-name-illegal' => 'Име "$1" није дозвољено како би се спречиле забуне или лажирања корисничких имена: $2. Молимо изаберите неко друго име.',
 	'antispoof-badtype' => 'Лош тип податка.',
 	'antispoof-empty' => 'Празан стринг.',
