@@ -255,6 +255,8 @@ $messages['br'] = array(
  */
 $messages['ca'] = array(
 	'antispoof-desc' => "Bloca la creació de comptes amb alfabets barrejats i noms d'usuari similars o que portin a confusió",
+	'antispoof-conflict-top' => 'El nom «$1» és massa similar {{PLURAL:$2|al compte existent|als següents $2 comptes}}:',
+	'antispoof-conflict-bottom' => 'Escolliu si us plau un altre nom.',
 	'antispoof-name-illegal' => "No està permès usar el nom «$1» per evitar confusions o falsificacions amb els noms d'usuari: $2. Si us plau, escolliu un altre nom d'usuari.",
 	'antispoof-badtype' => 'Tipus de dades incorrecte',
 	'antispoof-empty' => 'Cadena buida',
@@ -264,6 +266,7 @@ $messages['ca'] = array(
 	'antispoof-noletters' => 'No conté cap lletra',
 	'antispoof-mixedscripts' => "Conté una mescla incompatible d'escriptures",
 	'antispoof-tooshort' => 'Nom canònic massa curt',
+	'antispoof-ignore' => 'Ignorar controls antispoof',
 	'right-override-antispoof' => "Evitar el control de noms d'usuari",
 );
 
