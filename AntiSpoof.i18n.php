@@ -250,6 +250,15 @@ $messages['br'] = array(
 	'antispoof-tooshort' => 'Anv kanonek re verr',
 );
 
+/** Bosnian (Bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'antispoof-conflict-bottom' => 'Molimo izaberite drugo ime.',
+	'antispoof-empty' => 'Prazan string',
+	'antispoof-noletters' => 'Ne sadrži ni jedno slovo',
+);
+
 /** Catalan (Català)
  * @author SMP
  */
