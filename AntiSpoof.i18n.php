@@ -517,7 +517,7 @@ $messages['fr'] = array(
 	'antispoof-mixedscripts' => 'Contient plusieurs scripts incompatibles',
 	'antispoof-tooshort' => 'Nom canonique trop court',
 	'antispoof-ignore' => 'Ignorer les vérifications de tromperie',
-	'right-override-antispoof' => 'Écrase des pseudo-vérifications',
+	'right-override-antispoof' => "Court-circuiter les vérifications contre le ''spoofing''",
 );
 
 /** Cajun French (Français cadien)
