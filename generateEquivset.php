@@ -1,21 +1,21 @@
 <?php
 
+$dir = dirname(__FILE__) . '/';
+
 require_once ( getenv('MW_INSTALL_PATH') !== false
         ? getenv('MW_INSTALL_PATH')."/maintenance/commandLine.inc"
-        : dirname( __FILE__ ) . '/../../maintenance/commandLine.inc' );
-
-$dir = dirname( __FILE__ );
+        : $dir . '../../maintenance/commandLine.inc' );
 
 $endl = '
 ';
 
-$lines = file( "$dir/equivset.in" );
+$lines = file( $dir . "equivset.in" );
 if ( !$lines ) {
 	print "Unable to open equivset.in\n";
 	exit( 1 );
 }
 
-$setsFile = fopen( "$dir/equivset.txt", 'w' );
+$setsFile = fopen( $dir . "equivset.txt", 'w' );
 if ( !$setsFile ) {
 	print "Unable to open equivset.txt for writing\n";
 	exit( 1 );
@@ -31,7 +31,7 @@ fwrite( $setsFile, <<<EOT
 EOT
 );
 
-$outputFile = fopen( "$dir/equivset.php", 'w' );
+$outputFile = fopen( $dir . "equivset.php", 'w' );
 if ( !$outputFile ) {
 	print "Unable to open equivset.php for writing\n";
 	exit( 1 );
@@ -46,7 +46,7 @@ fwrite( $outputFile, "<?" . "php$endl" . <<<EOT
 EOT
 );
 
-$serializedFile = fopen( "$dir/equivset.ser", 'w' );
+$serializedFile = fopen( $dir . "equivset.ser", 'w' );
 if ( !$serializedFile ) {
 	print "Unable to open equivset.ser for writing\n";
 	exit( 1 );
