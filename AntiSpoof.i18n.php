@@ -255,6 +255,7 @@ $messages['br'] = array(
  */
 $messages['bs'] = array(
 	'antispoof-conflict-bottom' => 'Molimo izaberite drugo ime.',
+	'antispoof-badtype' => 'Pogrešna vrsta podataka',
 	'antispoof-empty' => 'Prazan string',
 	'antispoof-noletters' => 'Ne sadrži ni jedno slovo',
 );
