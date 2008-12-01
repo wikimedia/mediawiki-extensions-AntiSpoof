@@ -812,11 +812,12 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Aotake
  * @author JtFuruhata
  * @author Muttley
  */
 $messages['ja'] = array(
-	'antispoof-desc' => 'スクリプトが混ざっている名前、紛らわしい名前、似た名前によるアカウント作成をブロックする',
+	'antispoof-desc' => '文字体系が混在している利用者名、既存の利用者名と紛らわしい類似する利用者名のアカウント作成をブロックする',
 	'antispoof-name-illegal' => '指定した名前 "$1" は成りすまし防止のため使用できません: $2。別の名前を使用してください。',
 	'antispoof-badtype' => 'データタイプが異常です。',
 	'antispoof-empty' => '文字列が空です',
@@ -937,6 +938,7 @@ $messages['km'] = array(
  */
 $messages['ko'] = array(
 	'antispoof-conflict-top' => '계정 이름 "$1"은 {{PLURAL:$2|다음 계정|다음 $2개의 계정}}과 너무 비슷합니다:',
+	'antispoof-conflict-bottom' => '다른 이름을 선택해주세요.',
 	'antispoof-name-illegal' => '‘$1’ 사용자 이름은 다음의 이유로 인해 가입이 금지되었습니다: $2. 다른 이름으로 가입해주세요.',
 	'antispoof-badtype' => '잘못된 자료형',
 	'antispoof-empty' => '빈 문자열',
