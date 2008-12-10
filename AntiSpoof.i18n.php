@@ -584,20 +584,20 @@ $messages['grc'] = array(
 );
 
 /** Swiss German (Alemannisch)
+ * @author Als-Holder
  * @author Hendergassler
  */
 $messages['gsw'] = array(
-	'antispoof-name-illegal' => 'D\'r Nàma "$1" esch net erlobt om a fahler z\'ferhendera mit "$2".
-Nehm a andera Nàma.',
-	'antispoof-badtype' => 'Latz Dàtatyp',
-	'antispoof-empty' => 'Lahra "string"',
-	'antispoof-blacklisted' => "Beinhàldet büachstàwa fon d'r Schwarz lyst",
-	'antispoof-combining' => 'Kombinationszaicha am Afang.',
-	'antispoof-unassigned' => 'Net züageordneti oder onerwenschdi zaïcha oder enthàlda.',
-	'antispoof-noletters' => 'Ke büachstawa enthalda.',
-	'antispoof-mixedscripts' => 'es sen zaïcha fon onderschidlicha Schreftsystem enthàlda.',
-	'antispoof-tooshort' => 'Dr kanonisierd Nàma esch züa kurz.',
-	'antispoof-ignore' => 'Anlichkaïtsprüafong Ignoriert',
+	'antispoof-name-illegal' => 'Dr Name "$1" isch nit gstattet, wel s e Problem chennt gee mit "$2". <br />Nimm e andre Name.',
+	'antispoof-badtype' => 'Datetyp isch nit giltig.',
+	'antispoof-empty' => 'Läär Fäld',
+	'antispoof-blacklisted' => 'S het Zeiche din, wo nit gstattet sin.',
+	'antispoof-combining' => 'Fangt a mit Kombinationszeiche.',
+	'antispoof-unassigned' => 'S het Zeiche, wo nit zuegordnet oder nit gwinscht sin.',
+	'antispoof-noletters' => 'S sin kaini Buechstabe din.',
+	'antispoof-mixedscripts' => 'S sin Zeiche vo unterschidlige Schriftsyschtem din enthalte.',
+	'antispoof-tooshort' => 'Dr kanonisiert Name isch z churz.',
+	'antispoof-ignore' => 'Ignorier d Ähnlichkeitspriefig',
 );
 
 /** Gujarati (ગુજરાતી) */
