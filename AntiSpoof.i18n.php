@@ -257,6 +257,7 @@ $messages['bs'] = array(
 	'antispoof-conflict-bottom' => 'Molimo izaberite drugo ime.',
 	'antispoof-badtype' => 'Pogrešna vrsta podataka',
 	'antispoof-empty' => 'Prazan string',
+	'antispoof-blacklisted' => 'Sadrži nepoželjni znak',
 	'antispoof-noletters' => 'Ne sadrži ni jedno slovo',
 );
 
@@ -815,19 +816,22 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Aotake
+ * @author Fryed-peach
  * @author JtFuruhata
  * @author Muttley
  */
 $messages['ja'] = array(
 	'antispoof-desc' => '文字体系が混在している利用者名、既存の利用者名と紛らわしい類似する利用者名のアカウント作成をブロックする',
+	'antispoof-conflict-top' => '指定した名前 "$1" は{{PLURAL:$2|既存のアカウント|以下の$2アカウント}}と類似しすぎています:',
+	'antispoof-conflict-bottom' => '別の名前を使用してください。',
 	'antispoof-name-illegal' => '指定した名前 "$1" は成りすまし防止のため使用できません: $2。別の名前を使用してください。',
 	'antispoof-badtype' => 'データタイプが異常です。',
 	'antispoof-empty' => '文字列が空です',
 	'antispoof-blacklisted' => '許可されていない文字が含まれています。',
 	'antispoof-combining' => '結合記号で開始しています',
-	'antispoof-unassigned' => '廃止予定の未割り当て文字が含まれています',
+	'antispoof-unassigned' => '廃止予定または未割り当ての文字が含まれています',
 	'antispoof-noletters' => '文字を含んでいません',
-	'antispoof-mixedscripts' => '互換性のない文字列の混合を含んでいます',
+	'antispoof-mixedscripts' => '互換性のない文字列の混在があります',
 	'antispoof-tooshort' => '正規化した名前が短すぎます',
 	'antispoof-ignore' => 'なりすましチェックを無効にします。',
 	'right-override-antispoof' => 'なりすましチェックを無視する',
@@ -1283,6 +1287,13 @@ $messages['pt'] = array(
 	'antispoof-tooshort' => 'Nome canónico demasiado curto',
 	'antispoof-ignore' => 'Ignorar verificações de "spoofing"',
 	'right-override-antispoof' => 'Sobrepor verificações de spoofing',
+);
+
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Heldergeovane
+ */
+$messages['pt-br'] = array(
+	'antispoof-tooshort' => 'Nome canônico curto demais',
 );
 
 /** Quechua (Runa Simi)
