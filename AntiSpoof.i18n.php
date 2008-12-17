@@ -831,7 +831,7 @@ $messages['ja'] = array(
 	'antispoof-combining' => '結合記号で開始しています',
 	'antispoof-unassigned' => '廃止予定または未割り当ての文字が含まれています',
 	'antispoof-noletters' => '文字を含んでいません',
-	'antispoof-mixedscripts' => '互換性のない文字列の混在があります',
+	'antispoof-mixedscripts' => '互換性のない文字体系の混在があります',
 	'antispoof-tooshort' => '正規化した名前が短すぎます',
 	'antispoof-ignore' => 'なりすましチェックを無効にします。',
 	'right-override-antispoof' => 'なりすましチェックを無視する',
@@ -1411,6 +1411,7 @@ $messages['sk'] = array(
  */
 $messages['sr-ec'] = array(
 	'antispoof-desc' => 'Онемогућава стварање налога с мешаним писмима, збуњујућим и сличним сарадничким именима.',
+	'antispoof-conflict-top' => 'Име је превише слично са {{PLURAL:$2|постојећим налогом|постојећа $2 налога|постојеих $2 налога}}:',
 	'antispoof-conflict-bottom' => 'Молимо изаберите друго име.',
 	'antispoof-name-illegal' => 'Име "$1" није дозвољено како би се спречиле забуне или лажирања корисничких имена: $2. Молимо изаберите неко друго име.',
 	'antispoof-badtype' => 'Лош тип податка.',
