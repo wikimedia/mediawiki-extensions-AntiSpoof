@@ -370,7 +370,7 @@ $messages['de'] = array(
  */
 $messages['dsb'] = array(
 	'antispoof-desc' => 'Blokěrujo napóranje kontow z měšanym pismom, mjerwjece a pódobne wužywarske mjenja',
-	'antispoof-conflict-top' => 'Mě "$1" jo pśepódobny {{PLURAL:$2|eksistujucemu kontoju|slědujucyma $2 kontoma|slědujucym kontam|slědujucym kontam}}:',
+	'antispoof-conflict-top' => 'Mě "$1" jo pśepódobny {{PLURAL:$2|eksistěrujucemu kontoju|slědujucyma $2 kontoma|slědujucym kontam|slědujucym kontam}}:',
 	'antispoof-conflict-bottom' => 'Pšosym wubjeŕ druge mě.',
 	'antispoof-name-illegal' => 'Mě "$1" se njedowólujo, aby se mjerwjece abo manipulěrowane wužywarske mjenja wopinuli: $2. Wubjeŕ pšosym druge mě.',
 	'antispoof-badtype' => 'Wopacny datowy typ',
