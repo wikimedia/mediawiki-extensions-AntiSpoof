@@ -314,6 +314,8 @@ Zvolte si prosím jiné jméno.',
  */
 $messages['cy'] = array(
 	'antispoof-desc' => "Yn atal creu cyfrifon ag iddynt enwau o wyddorau cymysg, neu enwau dryslyd, neu enwau sy'n rhy debyg i enwau eraill",
+	'antispoof-conflict-top' => 'Mae\'r enw "$1" yn rhy debyg i\'r {{PLURAL:$2||cyfrif|$2 gyfrif|$2 chyfrif|$2 chyfrif|$2 cyfrif}} canlynol:',
+	'antispoof-conflict-bottom' => 'Dewiswch enw arall os gwelwch yn dda.',
 	'antispoof-name-illegal' => 'Ni chaniateir yr enw "$1" er mwyn osgoi cael enwau dryslyd neu gellweirus ar ddefnyddwyr: $2. Byddwch gystal â dewis enw gwahanol.',
 	'antispoof-badtype' => 'Math data gwallus',
 	'antispoof-empty' => 'Llinyn gwag',
@@ -323,6 +325,7 @@ $messages['cy'] = array(
 	'antispoof-noletters' => "Nid yw'r enw'n cynnwys unrhyw lythyren",
 	'antispoof-mixedscripts' => 'Yn cynnwys gwyddorau cymysg anghydweddol',
 	'antispoof-tooshort' => "Mae'r enw, ar ôl ei normaleiddio gan y meddalwedd, yn rhy fyr i'w drin a'i drafod.",
+	'antispoof-ignore' => 'Anwybydder gwirio am enwau gwallus',
 	'right-override-antispoof' => 'Anwybydder gwirio am enwau gwallus',
 );
 
