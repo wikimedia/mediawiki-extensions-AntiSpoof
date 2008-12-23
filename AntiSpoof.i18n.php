@@ -254,11 +254,21 @@ $messages['br'] = array(
  * @author CERminator
  */
 $messages['bs'] = array(
+	'antispoof-desc' => 'Blokira pravljenje računa sa miješanim slovima, zbunjujućim i sličnim korisničkim imenima',
+	'antispoof-conflict-top' => 'Ime "$1" je previše slično {{PLURAL:$2|slijedećem postojećem računu|sa slijedeća $2 postojeća  računa|sa slijedećih $2 postojećih računa}}:',
 	'antispoof-conflict-bottom' => 'Molimo izaberite drugo ime.',
+	'antispoof-name-illegal' => 'Ime "$1" nije dopušteno da bi se izbjegla zbunjujuća ili slična korisnička imena: $2.
+Molimo Vas da odaberete drugo ime.',
 	'antispoof-badtype' => 'Pogrešna vrsta podataka',
 	'antispoof-empty' => 'Prazan string',
 	'antispoof-blacklisted' => 'Sadrži nepoželjni znak',
+	'antispoof-combining' => 'Počinje sa znakom kombinacije',
+	'antispoof-unassigned' => 'Sadrži nepoželjene ili neodobrene znakove',
 	'antispoof-noletters' => 'Ne sadrži ni jedno slovo',
+	'antispoof-mixedscripts' => 'Sadrži miješana slova koja nisu podržana',
+	'antispoof-tooshort' => 'Normalizirano ime je prekratko',
+	'antispoof-ignore' => 'Ignoriraj provjeru sličnosti',
+	'right-override-antispoof' => 'Zaobilaženje provjera korisničkog imena',
 );
 
 /** Catalan (Català)
@@ -927,11 +937,12 @@ $messages['kk-latn'] = array(
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Lovekhmer
+ * @author Thearith
  * @author គីមស៊្រុន
  */
 $messages['km'] = array(
 	'antispoof-conflict-bottom' => 'សូមជ្រើសរើសឈ្មោះផ្សេងទៀត។',
-	'antispoof-name-illegal' => 'ឈ្មោះ "$1" មិនត្រូវបានអោយបង្កើតទេ ដើម្បីកុំអោយច្រលំជាមួយនឹងឈ្មោះអ្នកប្រើប្រាស់៖ $2។
+	'antispoof-name-illegal' => 'ឈ្មោះ "$1" មិនត្រូវបានឱ្យបង្កើតទេ ដើម្បីកុំឱ្យច្រឡំជាមួយនឹងឈ្មោះអ្នកប្រើប្រាស់៖ $2។
 
 សូមជ្រើសរើសឈ្មោះផ្សេងមួយទៀត។',
 	'antispoof-badtype' => 'ប្រភេទទិន្នន័យអន់',
@@ -951,6 +962,9 @@ $messages['ko'] = array(
 	'antispoof-name-illegal' => '‘$1’ 사용자 이름은 다음의 이유로 인해 가입이 금지되었습니다: $2. 다른 이름으로 가입해주세요.',
 	'antispoof-badtype' => '잘못된 자료형',
 	'antispoof-empty' => '빈 문자열',
+	'antispoof-blacklisted' => '사용이 금지된 문자를 포함하고 있습니다.',
+	'antispoof-ignore' => '안티스푸프 검사를 무시',
+	'right-override-antispoof' => '혼란을 줄 수 있는 계정 이름 금지(안티스푸프)를 무시',
 );
 
 /** Ripoarisch (Ripoarisch)
@@ -1148,6 +1162,27 @@ Kies een andere naam.',
 	'antispoof-tooshort' => 'Afgekorte naam te kort',
 	'antispoof-ignore' => 'Controle op gelijkende gebruikersnamen negeren',
 	'right-override-antispoof' => 'Spoofcontroles negeren',
+);
+
+/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+ * @author Harald Khan
+ */
+$messages['nn'] = array(
+	'antispoof-desc' => 'Blokkerer for oppretting av konti med liknande eller forvirrande brukarnamn, eller brukarnamn som inneheld forskjellige alfabettypar',
+	'antispoof-conflict-top' => 'Namnet «$1» er for likt følgjande {{PLURAL:$2|konto|kontoar}}:',
+	'antispoof-conflict-bottom' => 'Vel eit anna namn.',
+	'antispoof-name-illegal' => 'Namnet «$1» er ikkje tillate for å hindra samanblanding: $2. 
+Ver venleg og vel eit anna namn.',
+	'antispoof-badtype' => 'Ugyldig datatype',
+	'antispoof-empty' => 'Tom streng',
+	'antispoof-blacklisted' => 'Inneheld svartelista teikn',
+	'antispoof-combining' => 'Byrjar med eit kombinasjonsteikn',
+	'antispoof-unassigned' => 'Inneheld ugyldige eller forelda teikn',
+	'antispoof-noletters' => 'Inneheld ingen bokstavar',
+	'antispoof-mixedscripts' => 'Inneheld blanding av ikkje-kompatible skriftsystem',
+	'antispoof-tooshort' => 'Namnet er for kort',
+	'antispoof-ignore' => 'Ignorer misbrukssjekk',
+	'right-override-antispoof' => 'Overkøyra sjekk av brukarnamn',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
