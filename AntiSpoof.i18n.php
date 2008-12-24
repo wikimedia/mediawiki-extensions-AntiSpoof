@@ -734,6 +734,8 @@ $messages['ht'] = array(
  */
 $messages['hu'] = array(
 	'antispoof-desc' => 'Letiltja a kevert szövegű, zavaró és hasonló nevű felhasználói fiókok készítését',
+	'antispoof-conflict-top' => 'A megadott név „$1” túl hasonló a következő {{PLURAL:$2|azonosítóhoz|$2 azonosítóhoz}}:',
+	'antispoof-conflict-bottom' => 'Kérlek válassz egy másik nevet.',
 	'antispoof-name-illegal' => 'A név, „$1”, nem engedélyezett a zavaró vagy becsapó felhasználónevek megelőzése érdekében: $2.',
 	'antispoof-badtype' => 'Hibás adattípus',
 	'antispoof-empty' => 'Üres szöveg',
@@ -743,6 +745,7 @@ $messages['hu'] = array(
 	'antispoof-noletters' => 'Nem tartalmaz egyetlen betűt sem',
 	'antispoof-mixedscripts' => 'Összeférhetetlen kevert szöveget tartalmaz',
 	'antispoof-tooshort' => 'A kanonizált változat túl rövid',
+	'antispoof-ignore' => 'Névellenőrzés figyelmen kívül hagyása',
 	'right-override-antispoof' => 'felhasználói nevek ellenőrzésének figyelmen kívül hagyása',
 );
 
@@ -1354,6 +1357,7 @@ $messages['qu'] = array(
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
+	'antispoof-conflict-bottom' => 'Vă rugăm să alegeţi alt nume.',
 	'antispoof-name-illegal' => 'Numele "$1" nu este permis pentru a preveni confuziile cu numele: $2. Vă rugăm să alegeţi alt nume de utilizator.',
 	'antispoof-badtype' => 'Tip de date greşit',
 	'antispoof-empty' => 'Şir vid',
