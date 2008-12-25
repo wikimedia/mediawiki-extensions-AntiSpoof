@@ -181,10 +181,13 @@ $messages['bcl'] = array(
 
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
  * @author EugeneZelenko
+ * @author Jim-by
  * @author Red Winged Duck
  */
 $messages['be-tarask'] = array(
 	'antispoof-desc' => 'Блякуе стварэньне рахункаў зь імёнамі карыстальнікаў са зьмяшаных альфабэтаў, падобных ці тых, якія можна зблытаць',
+	'antispoof-conflict-top' => 'Назва «$1» занадта падобна на {{PLURAL:$2|$2 існуючы рахунак|$2 існуючых рахунка|$2 існуючых рахункаў}}:',
+	'antispoof-conflict-bottom' => 'Калі ласка, выберыце іншую назву.',
 	'antispoof-name-illegal' => 'Імя «$1» не дазволенае, каб прадухіліць блытаніну ці падробку імені ўдзельніка: $2. Калі ласка, абярыце іншае імя.',
 	'antispoof-badtype' => 'Няслушны тып зьвестак',
 	'antispoof-empty' => 'Пусты радок',
@@ -195,6 +198,7 @@ $messages['be-tarask'] = array(
 	'antispoof-mixedscripts' => 'Утрымлівае несумяшчальныя зьмяшаныя альфабэты',
 	'antispoof-tooshort' => 'Нармалізаванае імя занадта кароткае',
 	'antispoof-ignore' => 'Ігнараваць праверкі на падобнасьць імёнаў',
+	'right-override-antispoof' => 'Ігнараваньне праверак на падобныя назвы',
 );
 
 /** Bulgarian (Български)
@@ -1564,6 +1568,27 @@ $messages['tg-cyrl'] = array(
 	'antispoof-noletters' => 'Ягон ҳарфҳо надорад',
 	'antispoof-mixedscripts' => 'Скриптҳои омехтаи носозгарро дар бар мегирад',
 	'antispoof-tooshort' => 'Номи мӯътариф хеле кӯтоҳ аст',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'antispoof-desc' => 'Humahadlang sa paglikha ng mga akawnt/kuwentang may pinaghalong panitik, nakakalito at magkakatulad na mga pangalan ng tagagamit',
+	'antispoof-conflict-top' => 'Ang pangalang "$1" ay may labis na pagkakatulad sa {{PLURAL:$2|umiiral na kuwenta/akawnt| sumusunod na $2 mga kuwenta/akawnt}}:',
+	'antispoof-conflict-bottom' => 'Mangyaring pumili lamang ng iba pang pangalan.',
+	'antispoof-name-illegal' => 'Hindi pinapayagan ang pangalang "$1" upang maiwasan ang nakalilito o mapanlilang na mga pangalan ng tagagamit: $2.
+Mangyaring pumili ng iba pang pangalan.',
+	'antispoof-badtype' => 'Masamang uri ng dato',
+	'antispoof-empty' => "Bagting (''string'') na walang laman",
+	'antispoof-blacklisted' => 'Naglalaman ng pinagbabawal na panitik (karakter)',
+	'antispoof-combining' => 'Nagsisimula sa panandang pambuklod',
+	'antispoof-unassigned' => 'Naglalaman ng walang katakdaan o tinututulang panitik (karakter)',
+	'antispoof-noletters' => 'Hindi naglalaman ng anumang mga titik',
+	'antispoof-mixedscripts' => 'Naglalaman ng hindi magkakatugmang pinaghalong mga panitik',
+	'antispoof-tooshort' => 'Napakamaikli ng naging panuntunang pangalan',
+	'antispoof-ignore' => "Balewalain ang mga pagsusuring pangpanlilinlang (''spoof'')",
+	'right-override-antispoof' => "Daigin ang mga pagsusuring pangpanlilinlang (''spoof'')",
 );
 
 /** Tonga (faka-Tonga)
