@@ -99,6 +99,7 @@ $messages['ar'] = array(
 );
 
 /** Egyptian Spoken Arabic (مصرى)
+ * @author Ghaly
  * @author Meno25
  * @author Ramsis II
  */
@@ -114,7 +115,7 @@ $messages['arz'] = array(
 	'antispoof-unassigned' => 'بيحتوى على علامة مش مخصصة أو مش مقبولة',
 	'antispoof-noletters' => 'ما بيحتويش على اى حروف',
 	'antispoof-mixedscripts' => 'بيحتوى على سكريبتات مخلوطة مش متوافقة',
-	'antispoof-tooshort' => 'الاسم المستعل قصير خالص',
+	'antispoof-tooshort' => 'الاسم المستعمل قصير خالص',
 	'antispoof-ignore' => 'اتجاهل التشييك على سبوفينج',
 	'right-override-antispoof' => 'اتجاوز التشييك على سبوفينج',
 );
@@ -1418,10 +1419,14 @@ $messages['sah'] = array(
 );
 
 /** Sicilian (Sicilianu)
+ * @author Santu
  * @author Tonyfroio
  */
 $messages['scn'] = array(
-	'antispoof-name-illegal' => 'Lu nomu utenti "$1" nun è cunzintitu, pi evitari confusioni o utilizzi illeciti: $2. Scegghiri n\'àutru nomu.',
+	'antispoof-desc' => "Blocca la criazzioni di account cu carattirìstichi ammiscati, noma utenti ca fannu cunfusioni troppu simigghiati ntra d'iddi",
+	'antispoof-conflict-top' => 'Lu nomu "$1" è troppu simigghianti {{PLURAL:$2|a l\'account ca c\'è già|a li account $2 ca si sunnu già}}:',
+	'antispoof-conflict-bottom' => "Circari n'àutru nomu.",
+	'antispoof-name-illegal' => 'Lu nomu utenti "$1" nun è pirmessu, pi scanzari confusioni o utilizzi non lèciti: $2. Scègghiri n\'àutru nomu.',
 	'antispoof-badtype' => 'Tipu di dati erratu',
 	'antispoof-empty' => 'Stringa vacanti',
 	'antispoof-blacklisted' => 'Usu di carattiri nun cunzintiti',
@@ -1430,6 +1435,8 @@ $messages['scn'] = array(
 	'antispoof-noletters' => 'Nun cunteni nudda lìttira',
 	'antispoof-mixedscripts' => 'Cumminazzioni di sistemi di scrittura nun cumpatibbili',
 	'antispoof-tooshort' => "Nomu 'n forma canonica troppu curtu",
+	'antispoof-ignore' => 'Trascura li cuntolli pi spoofing',
+	'right-override-antispoof' => 'Trascura li cuntrolli spoofing',
 );
 
 /** Slovak (Slovenčina)
