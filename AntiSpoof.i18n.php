@@ -1139,6 +1139,7 @@ $messages['nah'] = array(
  */
 $messages['nds'] = array(
 	'antispoof-desc' => 'Verhinnert dat Opstellen vun Brukerkonten mit mischte Tekensätz un Brukernaams, de verwirrt oder liek utseht as annere Brukernaams',
+	'antispoof-conflict-top' => 'De Naam „$1“ is to ähnlich to {{PLURAL:$2|dat Brukerkonto|de $2 Brukerkonten}}, de dat al gifft:',
 	'antispoof-conflict-bottom' => 'Söök di en annern Naam ut.',
 	'antispoof-name-illegal' => 'De Brukernaam „$1“ is nich verlöövt. Grund: $2<br />Söök di en annern Brukernaam ut.',
 	'antispoof-badtype' => 'Leeg Datentyp',
@@ -1150,6 +1151,7 @@ $messages['nds'] = array(
 	'antispoof-mixedscripts' => 'in’n Text sünd Teken ut verschedene Schriftsystemen binnen',
 	'antispoof-tooshort' => 'De kanoniseerte Naam is to kort.',
 	'antispoof-ignore' => 'Nich op ähnliche Brukernaams pröfen',
+	'right-override-antispoof' => 'De Kuntrull op ähnliche Brukernaams ümgahn',
 );
 
 /** Dutch (Nederlands)
