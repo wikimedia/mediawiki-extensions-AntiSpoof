@@ -1733,9 +1733,13 @@ $messages['zea'] = array(
 	'antispoof-tooshort' => 'Afekorte naem te kort',
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Gzdavidwong
+ */
 $messages['zh-hans'] = array(
 	'antispoof-desc' => '封锁以含有程式码或是容易混淆、与已存在用户相似的名称建立用户',
+	'antispoof-conflict-top' => '名称“$1”与以下$2个账户太相似：',
+	'antispoof-conflict-bottom' => '请选择其他名称。',
 	'antispoof-name-illegal' => '用户名"$1"易与用户名"$2"混淆，已被禁止使用。请使用其他用户名。',
 	'antispoof-badtype' => '错误的数据类型',
 	'antispoof-empty' => '空白字串',
@@ -1750,11 +1754,12 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
+ * @author Gzdavidwong
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
 	'antispoof-desc' => '封鎖以含有程式碼或是容易混淆、與已存在使用者相似的名稱建立使用者',
-	'antispoof-conflict-top' => '名稱「$1」與{{PLURAL:$2|以下戶口|以下$2個戶口}}太相似:',
+	'antispoof-conflict-top' => '名稱「$1」與{{PLURAL:$2|以下戶口|以下$2個戶口}}太相似：',
 	'antispoof-conflict-bottom' => '請選擇其他名稱。',
 	'antispoof-name-illegal' => '使用者名稱"$1"容易與"$2"混淆，已被禁止使用。請使用其他使用者名稱。',
 	'antispoof-badtype' => '錯誤的資料類型',
