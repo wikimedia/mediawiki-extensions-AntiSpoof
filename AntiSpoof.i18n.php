@@ -1690,6 +1690,8 @@ $messages['vi'] = array(
  */
 $messages['vo'] = array(
 	'antispoof-desc' => 'Blokön jafi kalas labü gebananems kofudik, tu sümiks u labü lafabs distik',
+	'antispoof-conflict-top' => 'Nem: "$1" binon tu sümik äs {{PLURAL:$1|nem kala ya dabinöla|nems kalas ya dabinölas}}:',
+	'antispoof-conflict-bottom' => 'Välolös nemi votik.',
 	'antispoof-name-illegal' => 'Nem: „$1“ no padälon, ad vitön gebananemis kofudik u smilöfikis: $2. Välolös, begö! nemi votik.',
 	'antispoof-badtype' => 'Nünasot badik',
 	'antispoof-empty' => 'Vödem vagik',
@@ -1699,6 +1701,8 @@ $messages['vo'] = array(
 	'antispoof-noletters' => 'No ninädon tonatis alseimik',
 	'antispoof-mixedscripts' => 'Keninükon migi penamasitas no balabikas',
 	'antispoof-tooshort' => 'Nem valemik tu brefik',
+	'antispoof-ignore' => 'Nedemön sümikontrolis',
+	'right-override-antispoof' => 'Nefägükon sümikontrolis',
 );
 
 /** Yue (粵語) */
