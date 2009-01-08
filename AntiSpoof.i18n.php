@@ -468,8 +468,11 @@ $messages['es'] = array(
 	'right-override-antispoof' => 'Anula las comprobaciones de suplantación',
 );
 
-/** Basque (Euskara) */
+/** Basque (Euskara)
+ * @author Kobazulo
+ */
 $messages['eu'] = array(
+	'antispoof-conflict-bottom' => 'Mesedez, beste izen bat aukeratu.',
 	'antispoof-name-illegal' => '"$1" izena ez dago onartuta gaizkiulertuak saihesteko: $2. Beste izen bat hautatu mesedez.',
 	'antispoof-badtype' => 'Datu mota ezegokia',
 	'antispoof-empty' => 'Kate hutsa',
@@ -607,6 +610,9 @@ $messages['grc'] = array(
  * @author Hendergassler
  */
 $messages['gsw'] = array(
+	'antispoof-desc' => 'Verhinderet s Aalege vu Benutzerkonte mit gmischlete Zeichesätz, Benutzernäme wu verwirre oder ähnligs',
+	'antispoof-conflict-top' => 'Dr Name „$1“ isch {{PLURAL:$2|däm Benutzerkonto|däne $2 Benutzerkonte}} zue ähnli:',
+	'antispoof-conflict-bottom' => 'Bitte wehl e andere Name.',
 	'antispoof-name-illegal' => 'Dr Name "$1" isch nit gstattet, wel s e Problem chennt gee mit "$2". <br />Nimm e andre Name.',
 	'antispoof-badtype' => 'Datetyp isch nit giltig.',
 	'antispoof-empty' => 'Läär Fäld',
@@ -617,6 +623,7 @@ $messages['gsw'] = array(
 	'antispoof-mixedscripts' => 'S sin Zeiche vo unterschidlige Schriftsyschtem din enthalte.',
 	'antispoof-tooshort' => 'Dr kanonisiert Name isch z churz.',
 	'antispoof-ignore' => 'Ignorier d Ähnlichkeitspriefig',
+	'right-override-antispoof' => 'D Benutzernäme-Ähnligkeitspriefig usser Chraft setze',
 );
 
 /** Gujarati (ગુજરાતી) */
