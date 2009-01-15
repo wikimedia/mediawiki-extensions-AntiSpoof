@@ -972,12 +972,14 @@ $messages['km'] = array(
  * @author ToePeu
  */
 $messages['ko'] = array(
+	'antispoof-desc' => '여러 문자 체계를 섞은 이름이나, 혼동될 수 있고 비슷한 이름의 계정 생성을 막음',
 	'antispoof-conflict-top' => '계정 이름 "$1"은 {{PLURAL:$2|다음 계정|다음 $2개의 계정}}과 너무 비슷합니다:',
 	'antispoof-conflict-bottom' => '다른 이름을 선택해주세요.',
 	'antispoof-name-illegal' => '‘$1’ 사용자 이름은 다음의 이유로 인해 가입이 금지되었습니다: $2. 다른 이름으로 가입해주세요.',
 	'antispoof-badtype' => '잘못된 자료형',
 	'antispoof-empty' => '빈 문자열',
 	'antispoof-blacklisted' => '사용이 금지된 문자를 포함하고 있습니다.',
+	'antispoof-mixedscripts' => '여러 문자 체계가 섞여 있습니다.',
 	'antispoof-ignore' => '안티스푸프 검사를 무시',
 	'right-override-antispoof' => '혼란을 줄 수 있는 계정 이름 금지(안티스푸프)를 무시',
 );
@@ -1500,6 +1502,8 @@ $messages['sr-el'] = array(
  */
 $messages['stq'] = array(
 	'antispoof-desc' => 'Ferhinnert dät Moakjen fon Benutserkonten mäd miskede Teekensatse, fertoogede un äänelke Benutsernoomen',
+	'antispoof-conflict-top' => 'Die Noome „$1“ is {{PLURAL:$2|dät existierjende Benutserkonto|do foulgjende $2 Benutserkonten}} tou äänelk:',
+	'antispoof-conflict-bottom' => 'Wääl n uur Noome.',
 	'antispoof-name-illegal' => 'Die wonskede Benutsernoome „$1“ is nit ferlööwed. Gruund: $2<br />Wääl n uur Benutsernoome.',
 	'antispoof-badtype' => 'Ungultigen Doatentyp',
 	'antispoof-empty' => 'Loos Fäild',
@@ -1618,14 +1622,24 @@ $messages['to'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Joseph
  * @author Srhat
  */
 $messages['tr'] = array(
+	'antispoof-desc' => 'Karışık-betikli, kafa karıştırıcı ve benzer kullanıcı adlarıyla hesap oluşturulmasını engeller',
+	'antispoof-conflict-top' => '"$1" adı, şu {{PLURAL:$2|mevcut hesaba|$2 hesaba}} çok benziyor:',
+	'antispoof-conflict-bottom' => 'Lütfen başka bir isim seçin.',
 	'antispoof-name-illegal' => '$2 hesabıyla karışmaması için "$1" ismine izin verilmemektedir. Lütfen başka bir kullanıcı adı seçiniz.',
 	'antispoof-badtype' => 'Bozuk veri tipi',
 	'antispoof-empty' => 'Boş dizi',
 	'antispoof-blacklisted' => 'Karalisteye alınmış karakter içerir.',
+	'antispoof-combining' => 'Kaynaştırma işaretiyle başlıyor',
+	'antispoof-unassigned' => 'Atanmamış ya da onaylanmamış karakter içeriyor',
 	'antispoof-noletters' => 'Hiç harf içermez',
+	'antispoof-mixedscripts' => 'Uyumsuz karışık betikler içeriyor',
+	'antispoof-tooshort' => 'Standartlaştırılmış isim çok kısa',
+	'antispoof-ignore' => 'Aldatıcı kontrolleri ihmal et',
+	'right-override-antispoof' => 'Aldatıcı kontrolleri gerçersiz kıl',
 );
 
 /** Ukrainian (Українська)
