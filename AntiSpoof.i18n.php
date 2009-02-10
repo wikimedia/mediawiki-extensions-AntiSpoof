@@ -981,6 +981,7 @@ $messages['ko'] = array(
 	'antispoof-blacklisted' => '사용이 금지된 문자를 포함하고 있습니다.',
 	'antispoof-noletters' => '어떤 문자도 포함하고 있지 않습니다.',
 	'antispoof-mixedscripts' => '여러 문자 체계가 섞여 있습니다.',
+	'antispoof-tooshort' => '고유 이름이 너무 짧습니다.',
 	'antispoof-ignore' => '안티스푸프 검사를 무시',
 	'right-override-antispoof' => '혼란을 줄 수 있는 계정 이름 금지(안티스푸프)를 무시',
 );
