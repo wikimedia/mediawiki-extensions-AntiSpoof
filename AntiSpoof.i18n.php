@@ -1351,10 +1351,25 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (Português do Brasil)
+ * @author Eduardo.mps
  * @author Heldergeovane
  */
 $messages['pt-br'] = array(
+	'antispoof-desc' => 'Impede a criação de contas com escrita mista, e nomes de utilizador confusos e semelhantes',
+	'antispoof-conflict-top' => 'O nome "$1" é demasiado semelhante {{PLURAL:$2|ao da seguinte conta já existente|aos das seguintes $2 contas}}',
+	'antispoof-conflict-bottom' => 'Por favor, escolha outro nome.',
+	'antispoof-name-illegal' => 'O nome "$1" não é permitido para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): já existe $2. 
+Por favor, escolha outro nome.',
+	'antispoof-badtype' => 'Formato de dados incorreto',
+	'antispoof-empty' => 'Linha vazia',
+	'antispoof-blacklisted' => 'Contém caracteres proibidos',
+	'antispoof-combining' => 'Inicia com um caractere de combinação',
+	'antispoof-unassigned' => 'Contém caracteres não reconhecidos ou depreciados',
+	'antispoof-noletters' => 'Não contém nenhuma letra',
+	'antispoof-mixedscripts' => 'Contém scripts de escrita incompatíveis mesclados',
 	'antispoof-tooshort' => 'Nome canônico curto demais',
+	'antispoof-ignore' => 'Ignorar verificações de "spoofing"',
+	'right-override-antispoof' => 'Sobrepor verificações de spoofing',
 );
 
 /** Quechua (Runa Simi)
