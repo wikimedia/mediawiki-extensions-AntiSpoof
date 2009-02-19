@@ -527,22 +527,24 @@ $messages['fi'] = array(
  * @author Louperivois
  * @author Sherbrooke
  * @author Urhixidur
+ * @author Verdy p
  */
 $messages['fr'] = array(
-	'antispoof-desc' => "Bloque, avec un script mixte, la création des comptes par des noms d'utilisateur similaires ou pouvant prêter à confusion",
+	'antispoof-desc' => 'Bloque la création de compte avec des noms d’utilisateur similaires, utilisant diverses écritures, ou pouvant prêter à confusion',
 	'antispoof-conflict-top' => 'Le nom « $1 » est trop similaire {{PLURAL:$2|au compte existant|aux $2 comptes suivants}} :',
 	'antispoof-conflict-bottom' => 'Veuillez choisir un autre nom.',
-	'antispoof-name-illegal' => "Le nom d'utilisateur « $1 » n’est pas autorisé à cause de sa ressemblance avec « $2 ». Veuillez choisir un autre nom.",
+	'antispoof-name-illegal' => 'Le nom d’utilisateur « $1 » n’est pas autorisé à cause de sa similitude pouvant porter à confusion avec « $2 ».
+Veuillez choisir un autre nom.',
 	'antispoof-badtype' => 'Mauvais type de données',
 	'antispoof-empty' => 'Chaîne vide',
 	'antispoof-blacklisted' => 'Contient un caractère interdit',
 	'antispoof-combining' => 'Commence avec une marque combinatoire',
 	'antispoof-unassigned' => 'Contient un caractère non assigné ou désuet',
 	'antispoof-noletters' => 'Ne contient aucune lettre',
-	'antispoof-mixedscripts' => 'Contient plusieurs scripts incompatibles',
+	'antispoof-mixedscripts' => 'Contient plusieurs écritures incompatibles',
 	'antispoof-tooshort' => 'Nom canonique trop court',
 	'antispoof-ignore' => 'Ignorer les vérifications de tromperie',
-	'right-override-antispoof' => "Court-circuiter les vérifications contre le ''spoofing''",
+	'right-override-antispoof' => 'Court-circuiter les vérifications de tromperie',
 );
 
 /** Cajun French (Français cadien)
@@ -979,6 +981,8 @@ $messages['ko'] = array(
 	'antispoof-badtype' => '잘못된 자료형',
 	'antispoof-empty' => '빈 문자열',
 	'antispoof-blacklisted' => '사용이 금지된 문자를 포함하고 있습니다.',
+	'antispoof-combining' => '혼합된 문자로 시작됩니다.',
+	'antispoof-unassigned' => '코드가 부여되지 않거나 잘못된 문자를 포함하고 있습니다.',
 	'antispoof-noletters' => '어떤 문자도 포함하고 있지 않습니다.',
 	'antispoof-mixedscripts' => '여러 문자 체계가 섞여 있습니다.',
 	'antispoof-tooshort' => '고유 이름이 너무 짧습니다.',
@@ -1163,6 +1167,24 @@ $messages['nds'] = array(
 	'antispoof-tooshort' => 'De kanoniseerte Naam is to kort.',
 	'antispoof-ignore' => 'Nich op ähnliche Brukernaams pröfen',
 	'right-override-antispoof' => 'De Kuntrull op ähnliche Brukernaams ümgahn',
+);
+
+/** Nedersaksisch (Nedersaksisch)
+ * @author Servien
+ */
+$messages['nds-nl'] = array(
+	'antispoof-desc' => "Blokkeert 't anmaken van gebrukers mit meerdere schriffen, verwierende en soortgelieke gebrukersnamen",
+	'antispoof-conflict-top' => 'De naam "$1" liek te veule op de volgende bestaonde {{PLURAL:$2|gebruker|$2 gebrukers}}:',
+	'antispoof-conflict-bottom' => 'Kies een aandere naam.',
+	'antispoof-name-illegal' => 'De naam "$1" is neet toe-estaon, um verwarring of lillijke gebrukersnamen te veurkoemen: $2. Kies een aandere naam.',
+	'antispoof-empty' => 'Leeg veld',
+	'antispoof-blacklisted' => 'Bevat tekens dee-j neet gebruken maggen',
+	'antispoof-combining' => 'Begint mit een ecombineerd markteken',
+	'antispoof-unassigned' => 'Bevat een neet toe-ewezen of ongewunst teken',
+	'antispoof-noletters' => 'Bevat gien letters',
+	'antispoof-mixedscripts' => 'Bevat onverenigbaore schrifsystemen',
+	'antispoof-tooshort' => 'De naam dee-j in-evoerd hemmen is te kort.',
+	'antispoof-ignore' => 'Controle op soortgelieke gebrukersnamen negeren',
 );
 
 /** Dutch (Nederlands)
