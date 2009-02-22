@@ -365,6 +365,7 @@ $messages['da'] = array(
 /** German (Deutsch)
  * @author Metalhead64
  * @author Raimond Spekking
+ * @author Umherirrender
  */
 $messages['de'] = array(
 	'antispoof-desc' => 'Verhindert die Erstellung von Benutzerkonten mit gemischten Zeichensätzen, verwirrenden und ähnlichen Benutzernamen',
@@ -379,7 +380,7 @@ $messages['de'] = array(
 	'antispoof-noletters' => 'Es sind keine Buchstaben enthalten.',
 	'antispoof-mixedscripts' => 'Es sind Zeichen unterschiedlicher Schriftsysteme enthalten.',
 	'antispoof-tooshort' => 'Der kanonisierte Name ist zu kurz.',
-	'antispoof-ignore' => 'Ignoriere Ähnlichkeitsprüfung',
+	'antispoof-ignore' => 'Ähnlichkeitsprüfung ignorieren',
 	'right-override-antispoof' => 'Außer Kraft setzen der Benutzernamens-Ähnlichkeitsprüfung',
 );
 
