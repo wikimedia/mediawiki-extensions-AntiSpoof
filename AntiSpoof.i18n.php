@@ -594,7 +594,7 @@ $messages['gl'] = array(
 	'antispoof-combining' => 'Principia cun carácter de combinación',
 	'antispoof-unassigned' => 'Contén un carácter sen asignar ou desaconsellado',
 	'antispoof-noletters' => 'Non contén ningunha letra',
-	'antispoof-mixedscripts' => 'Contén guións mesturados incompatíbeis',
+	'antispoof-mixedscripts' => 'Contén guións incompatibles mesturados',
 	'antispoof-tooshort' => 'Nome curto de máis',
 	'antispoof-ignore' => 'Ignorar as comprobacións parodia (spoofing)',
 	'right-override-antispoof' => 'Ignorar as comprobacións parodia (spoofing)',
@@ -1198,7 +1198,7 @@ $messages['nl'] = array(
 	'antispoof-conflict-bottom' => 'Kies een andere naam.',
 	'antispoof-name-illegal' => 'De naam "$1" is niet toegestaan om verwarring of gefingeerde gebruikersnamen te voorkomen: $2.
 Kies een andere naam.',
-	'antispoof-badtype' => 'Verkeerd datatype',
+	'antispoof-badtype' => 'Ongeldig datatype',
 	'antispoof-empty' => 'Lege string',
 	'antispoof-blacklisted' => 'Bevat verboden karakter',
 	'antispoof-combining' => 'Begint met een gecombineerd merkteken',
