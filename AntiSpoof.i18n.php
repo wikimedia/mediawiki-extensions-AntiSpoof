@@ -1045,6 +1045,8 @@ Sicht iech w.e.g. een anere Benotzernumm.',
  */
 $messages['li'] = array(
 	'antispoof-desc' => "Blokkeert 't aanmake van gebroekers mit miedere sjrifte, verwarrende en geliekmakende gebroekersname",
+	'antispoof-conflict-top' => 'De naam "$1" liek te zeer op de volgende zeendje {{PLURAL:$2|gebroeker|$2 gebroekers}}:',
+	'antispoof-conflict-bottom' => "Kees 'ne angere naam.",
 	'antispoof-name-illegal' => 'De naam "$1" is net toegestaon óm verwarring of vervörmdje gebroekersname te veurkómme: $2. Kees estebleef \'ne angere naam.',
 	'antispoof-badtype' => 'Verkeerd datatype',
 	'antispoof-empty' => 'Laege string',
