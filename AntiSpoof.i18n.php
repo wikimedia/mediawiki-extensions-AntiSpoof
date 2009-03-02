@@ -407,10 +407,13 @@ $messages['dsb'] = array(
 /** Greek (Ελληνικά)
  * @author Badseed
  * @author Dead3y3
+ * @author Omnipaedista
  * @author ZaDiak
  */
 $messages['el'] = array(
 	'antispoof-desc' => 'Μπλοκάρει τη δημιουργία λογαριασμών με χαρακτήρες μικτής γραφής, συγχεχυμένα και παρόμοια ονόματα χρηστών.',
+	'antispoof-conflict-top' => 'Το όνομα "$1" είναι υπερβολικά όμοιο με {{PLURAL:$2|τον υπάρχοντα λογαριασμό|τους ακόλουθους $2 λογαριασμούς}}:',
+	'antispoof-conflict-bottom' => 'Διαλέξτε ένα διαφορετικό όνομα.',
 	'antispoof-name-illegal' => 'Το όνομα "$1" δεν επιτρέπεται, για την αποτροπή συγκεχυμένων ή απατηλών ονομάτων χρηστών: $2. Παρακαλώ διαλέξτε ένα άλλο όνομα.',
 	'antispoof-badtype' => 'Εσφαλμένος τύπος δεδομένων',
 	'antispoof-empty' => 'Κενή συμβολοσειρά',
@@ -421,6 +424,7 @@ $messages['el'] = array(
 	'antispoof-mixedscripts' => 'Περιέχει ανεμιγμένους ασύμβατους χαρακτήρες γραπτού κειμένου',
 	'antispoof-tooshort' => 'Κανονικοποιημένο όνομα πολύ μικρό',
 	'antispoof-ignore' => 'Αγνόησε ελέγχους spoofing',
+	'right-override-antispoof' => 'Υπερκάλυψη των ελέγχων εξαπάτησης',
 );
 
 /** Esperanto (Esperanto)
@@ -606,6 +610,7 @@ $messages['gl'] = array(
 $messages['grc'] = array(
 	'antispoof-badtype' => 'Κακὸς τύπος δεδομένων',
 	'antispoof-empty' => 'Κενὴ συμβολοσειρά',
+	'right-override-antispoof' => 'Ὑπερκάλυψις τῶν ἐλέγχων ἐξαπατήσεως',
 );
 
 /** Swiss German (Alemannisch)
