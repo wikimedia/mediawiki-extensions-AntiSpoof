@@ -1181,7 +1181,7 @@ $messages['nds'] = array(
  * @author Servien
  */
 $messages['nds-nl'] = array(
-	'antispoof-desc' => "Blokkeert 't anmaken van gebrukers mit meerdere schriffen, verwierende en soortgelieke gebrukersnamen",
+	'antispoof-desc' => "Blokkeert 't anmaken van gebrukers mit meerdere schriffen, verwarrende en soortgelieke gebrukersnamen",
 	'antispoof-conflict-top' => 'De naam "$1" liek te veule op de volgende bestaonde {{PLURAL:$2|gebruker|$2 gebrukers}}:',
 	'antispoof-conflict-bottom' => 'Kies een aandere naam.',
 	'antispoof-name-illegal' => 'De naam "$1" is neet toe-estaon, um verwarring of lillijke gebrukersnamen te veurkoemen: $2. Kies een aandere naam.',
