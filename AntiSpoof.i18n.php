@@ -530,6 +530,7 @@ $messages['fi'] = array(
 /** French (Français)
  * @author Grondin
  * @author Louperivois
+ * @author PieRRoMaN
  * @author Sherbrooke
  * @author Urhixidur
  * @author Verdy p
@@ -548,7 +549,7 @@ Veuillez choisir un autre nom.',
 	'antispoof-noletters' => 'Ne contient aucune lettre',
 	'antispoof-mixedscripts' => 'Contient plusieurs écritures incompatibles',
 	'antispoof-tooshort' => 'Nom canonique trop court',
-	'antispoof-ignore' => 'Ignorer les vérifications de tromperie',
+	'antispoof-ignore' => 'Ignorer les vérifications d’usurpation d’identité',
 	'right-override-antispoof' => 'Court-circuiter les vérifications de tromperie',
 );
 
