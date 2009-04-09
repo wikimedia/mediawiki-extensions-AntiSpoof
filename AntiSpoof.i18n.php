@@ -1663,7 +1663,7 @@ Mangyaring pumili ng iba pang pangalan.',
 	'right-override-antispoof' => "Daigin ang mga pagsusuring pangpanlilinlang (''spoof'')",
 );
 
-/** Tonga (faka-Tonga)
+/** Tonga (lea faka-Tonga)
  * @author Tauʻolunga
  */
 $messages['to'] = array(
