@@ -1,6 +1,7 @@
 <?php
 
 $wgExtensionCredits['other'][] = array(
+	'path' => __FILE__,
 	'name' => 'AntiSpoof',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:AntiSpoof',
 	'author' => 'Brion Vibber',
