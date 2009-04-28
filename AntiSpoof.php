@@ -80,7 +80,7 @@ function asAbortNewAccountHook( $user, &$message ) {
 			wfDebugLog( 'antispoof', "{$mode}CONFLICT new account '$name' [$normalized] spoofs " . implode( ',', $conflicts ) );
 			if( $active ) {
 				$numConflicts = count( $conflicts );
-				$message = wfMsgExt( 'antispoof-conflict-top', array('parsemag'), $name, $numConflicts );
+				$message = wfMsgExt( 'antispoof-conflict-top', array('parsemag'), htmlspecialchars( $name ), $numConflicts );
 				$message .= '<ul>';
 				foreach( $conflicts as $simUser ) {
 					$message .= '<li>' . wfMsg( 'antispoof-conflict-item', $simUser ) . '</li>';
