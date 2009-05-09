@@ -788,7 +788,7 @@ Per favor selige un altere nomine.',
 	'antispoof-mixedscripts' => 'Contine un mixtura incompatibile de alphabetos',
 	'antispoof-tooshort' => 'Nomine canonic troppo curte',
 	'antispoof-ignore' => 'Ignorar le verificationes contra falsification',
-	'right-override-antispoof' => 'Ultrapassar le verificationes contra falsification',
+	'right-override-antispoof' => 'Ignorar le verificationes contra falsification',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -1774,6 +1774,16 @@ $messages['vo'] = array(
 	'antispoof-tooshort' => 'Nem valemik tu brefik',
 	'antispoof-ignore' => 'Nedemön sümikontrolis',
 	'right-override-antispoof' => 'Nefägükon sümikontrolis',
+);
+
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'antispoof-badtype' => 'שלעכטער דאַטן טיפ',
+	'antispoof-empty' => 'ליידיג שנירל',
+	'antispoof-blacklisted' => "כולל א געאסר'טן צייכן",
+	'antispoof-noletters' => 'אַנטהאַלט ניט קײַן בוכשטאַבן.',
 );
 
 /** Yue (粵語) */
