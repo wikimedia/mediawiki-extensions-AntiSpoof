@@ -529,6 +529,7 @@ $messages['fi'] = array(
 
 /** French (Français)
  * @author Grondin
+ * @author IAlex
  * @author Louperivois
  * @author PieRRoMaN
  * @author Sherbrooke
@@ -549,7 +550,7 @@ Veuillez choisir un autre nom.',
 	'antispoof-noletters' => 'Ne contient aucune lettre',
 	'antispoof-mixedscripts' => 'Contient plusieurs écritures incompatibles',
 	'antispoof-tooshort' => 'Nom canonique trop court',
-	'antispoof-ignore' => 'Ignorer les vérifications d’usurpation d’identité',
+	'antispoof-ignore' => "Ignorer la vérification d'une similitude trop proche avec un utilisateur existant",
 	'right-override-antispoof' => 'Court-circuiter les vérifications de tromperie',
 );
 
@@ -1512,7 +1513,7 @@ $messages['sk'] = array(
 	'antispoof-empty' => 'Prázdny reťazec',
 	'antispoof-blacklisted' => 'Obsahuje znak zo zoznamu zakázaných',
 	'antispoof-combining' => 'Začína kombinačným znakom',
-	'antispoof-unassigned' => 'Obsahuje nepriradený alebo zastaralý znak',
+	'antispoof-unassigned' => 'Obsahuje nepriradený alebo zavrhovaný znak',
 	'antispoof-noletters' => 'Neobsahuje žiadne písmená',
 	'antispoof-mixedscripts' => 'Obsahuje nekompatibilné zmiešané písma',
 	'antispoof-tooshort' => 'Meno prevedené do kanonického tvaru je príliš krátke',
