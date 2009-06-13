@@ -1422,13 +1422,17 @@ $messages['qu'] = array(
 
 /** Romanian (Română)
  * @author KlaudiuMihaila
+ * @author Minisarm
  */
 $messages['ro'] = array(
+	'antispoof-conflict-top' => 'Numele „$1” este prea asemănător cu {{PLURAL:$2|următorul cont deja existent|următoarele $2 conturi}}:',
 	'antispoof-conflict-bottom' => 'Vă rugăm să alegeţi alt nume.',
-	'antispoof-name-illegal' => 'Numele "$1" nu este permis pentru a preveni confuziile cu numele: $2. Vă rugăm să alegeţi alt nume de utilizator.',
+	'antispoof-name-illegal' => 'Numele „$1” nu este permis pentru a preveni confuziile cu numele: $2. Vă rog alegeţi alt nume de utilizator.',
 	'antispoof-badtype' => 'Tip de date greşit',
 	'antispoof-empty' => 'Şir vid',
+	'antispoof-blacklisted' => 'Conţine un caracter interzis',
 	'antispoof-noletters' => 'Nu conţine nici o literă',
+	'antispoof-ignore' => 'Nu verifica existenţa unor nume de cont similare',
 );
 
 /** Tarandíne (Tarandíne)
