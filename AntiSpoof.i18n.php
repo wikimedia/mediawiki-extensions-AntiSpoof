@@ -265,7 +265,7 @@ $messages['bs'] = array(
 	'antispoof-name-illegal' => 'Ime "$1" nije dopušteno da bi se izbjegla zbunjujuća ili slična korisnička imena: $2.
 Molimo Vas da odaberete drugo ime.',
 	'antispoof-badtype' => 'Pogrešna vrsta podataka',
-	'antispoof-empty' => 'Prazan string',
+	'antispoof-empty' => 'Prazan unos',
 	'antispoof-blacklisted' => 'Sadrži nepoželjni znak',
 	'antispoof-combining' => 'Počinje sa znakom kombinacije',
 	'antispoof-unassigned' => 'Sadrži nepoželjene ili neodobrene znakove',
