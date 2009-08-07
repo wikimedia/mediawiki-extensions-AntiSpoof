@@ -473,6 +473,13 @@ $messages['es'] = array(
 	'right-override-antispoof' => 'Anula las comprobaciones de suplantación',
 );
 
+/** Estonian (Eesti)
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'right-override-antispoof' => 'Mööduda kasutajanimede sarnasuse testist',
+);
+
 /** Basque (Euskara)
  * @author Kobazulo
  */
