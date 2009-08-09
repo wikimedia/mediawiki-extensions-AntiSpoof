@@ -477,6 +477,7 @@ $messages['es'] = array(
  * @author Pikne
  */
 $messages['et'] = array(
+	'antispoof-desc' => 'Blokeerib erinevaid kirjasüsteeme kasutavate, eksitavate ja sarnaste kasutajanimedega kontode loomise.',
 	'right-override-antispoof' => 'Mööduda kasutajanimede sarnasuse testist',
 );
 
