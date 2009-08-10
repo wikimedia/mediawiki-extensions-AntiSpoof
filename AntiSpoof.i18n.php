@@ -1556,9 +1556,24 @@ $messages['sr-ec'] = array(
 	'right-override-antispoof' => 'Препиши провере на бесмислице.',
 );
 
-/** latinica (latinica) */
+/** latinica (latinica)
+ * @author Michaello
+ */
 $messages['sr-el'] = array(
+	'antispoof-desc' => 'Onemogućava stvaranje naloga s mešanim pismima, zbunjujućim i sličnim saradničkim imenima.',
+	'antispoof-conflict-top' => 'Ime „$1“ je previše slično sa {{PLURAL:$2|imenom postojećeg naloga|imenima sledećih $2 naloga}}:',
+	'antispoof-conflict-bottom' => 'Molimo izaberite drugo ime.',
 	'antispoof-name-illegal' => 'Ime "$1" nije dozvoljeno kako bi se sprečile zabune ili lažiranja korisničkih imena: $2. Molimo izaberite neko drugo ime.',
+	'antispoof-badtype' => 'Loš tip podatka.',
+	'antispoof-empty' => 'Prazan string.',
+	'antispoof-blacklisted' => 'Sadrži onemogućene karaktere.',
+	'antispoof-combining' => 'Počinje s kombinovanom oznakom.',
+	'antispoof-unassigned' => 'Sadrži nedodeljene ili potisnute karaktere.',
+	'antispoof-noletters' => 'Ne sadrži ni jedno slovo',
+	'antispoof-mixedscripts' => 'Sadrži neusklađena mešana pisma.',
+	'antispoof-tooshort' => 'Kanoničko ime previše kratko.',
+	'antispoof-ignore' => 'Zanemari provere na besmislice.',
+	'right-override-antispoof' => 'Prepiši provere na besmislice.',
 );
 
 /** Seeltersk (Seeltersk)
