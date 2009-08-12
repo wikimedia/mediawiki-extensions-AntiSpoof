@@ -478,6 +478,14 @@ $messages['es'] = array(
  */
 $messages['et'] = array(
 	'antispoof-desc' => 'Blokeerib erinevaid kirjasüsteeme kasutavate, eksitavate ja sarnaste kasutajanimedega kontode loomise.',
+	'antispoof-conflict-top' => 'Nimi "$1" on liiga sarnane {{PLURAL:$2|olemasoleva|järgneva $2}} kontoga:',
+	'antispoof-conflict-bottom' => 'Palun vali teine nimi.',
+	'antispoof-name-illegal' => 'Nimi "$1" ei ole lubatud, et vältida eksitavaid või pilavaid kasutajanimesid. Põhjus: $2<br />
+Palun vali teine nimi.',
+	'antispoof-blacklisted' => 'Sisaldab mustas nimekirjas olevat märki',
+	'antispoof-noletters' => 'Ei sisalda ühtegi tähte',
+	'antispoof-mixedscripts' => 'Sisaldab ühildumatuid kirjasüsteeme',
+	'antispoof-ignore' => 'Eira sarnasuskontrolle',
 	'right-override-antispoof' => 'Mööduda kasutajanimede sarnasuse testist',
 );
 
