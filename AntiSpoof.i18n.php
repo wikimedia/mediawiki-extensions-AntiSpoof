@@ -1857,20 +1857,21 @@ $messages['zea'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Gzdavidwong
+ * @author PhiLiP
  */
 $messages['zh-hans'] = array(
-	'antispoof-desc' => '封锁以含有程式码或是容易混淆、与已存在用户相似的名称建立用户',
-	'antispoof-conflict-top' => '名称“$1”与以下$2个账户太相似：',
+	'antispoof-desc' => '禁止创建用户名使用混合文字、容易混淆或与已存在用户名过于相似的帐户',
+	'antispoof-conflict-top' => '用户名“$1”与{{PLURAL:$2|现有帐户|下列$2个账户}}过于相似：',
 	'antispoof-conflict-bottom' => '请选择其他名称。',
-	'antispoof-name-illegal' => '用户名"$1"易与用户名"$2"混淆，已被禁止使用。请使用其他用户名。',
-	'antispoof-badtype' => '错误的数据类型',
+	'antispoof-name-illegal' => '为了防止混淆或欺诈性使用用户名“$2”，用户名“$1”已被禁止使用。请使用其他用户名。',
+	'antispoof-badtype' => '错误数据类型',
 	'antispoof-empty' => '空白字串',
-	'antispoof-blacklisted' => '包含在黑名单上的字元',
+	'antispoof-blacklisted' => '包含黑名单上的字符',
 	'antispoof-combining' => '以结合标记开始',
-	'antispoof-unassigned' => '包含未指定或不再使用的字元',
-	'antispoof-noletters' => '不包含任何字元',
-	'antispoof-mixedscripts' => '包含不相容混合的脚本',
-	'antispoof-tooshort' => '合符标准的名称太短',
+	'antispoof-unassigned' => '包含未指定或不再使用的字符',
+	'antispoof-noletters' => '未包含任何字符',
+	'antispoof-mixedscripts' => '包含不兼容的混合文字',
+	'antispoof-tooshort' => '符合标准的用户名过短',
 	'antispoof-ignore' => '略过欺诈检查',
 	'right-override-antispoof' => '无视欺诈检查',
 );
