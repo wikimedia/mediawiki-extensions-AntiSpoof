@@ -244,6 +244,8 @@ $messages['bn'] = array(
  */
 $messages['br'] = array(
 	'antispoof-desc' => "Stankañ a ra, dre ur skript kemmesk, krouidigezh kontoù dezho anvioù implijer heñvel pe a c'hall sevel amjestregezh diwarno",
+	'antispoof-conflict-top' => 'Heñvel betek re eo an anv "$1" da hini {{PLURAL:$2|ar gont zo anezhi|d\'an $2 anv kont da-heul}}:',
+	'antispoof-conflict-bottom' => 'Dibabit un anv all mar plij.',
 	'antispoof-name-illegal' => 'N\'eo ket aotreet ober gant an anv "$1" kuit da gemmeskañ gant un anv all pe da implijout an anv : $2. Grit gant un anv all mar plij.',
 	'antispoof-badtype' => 'Seurt roadennoù fall',
 	'antispoof-empty' => 'Neudennad goullo',
@@ -253,6 +255,8 @@ $messages['br'] = array(
 	'antispoof-noletters' => 'Lizherenn ebet e-barzh',
 	'antispoof-mixedscripts' => 'Meur a skript digenglotus zo e-barzh',
 	'antispoof-tooshort' => 'Anv kanonek re verr',
+	'antispoof-ignore' => "Chom hep gwiriañ hag-eñ n'eus ket un implijer all gantañ un anv damheñvel",
+	'right-override-antispoof' => 'Chom hep gwiriañ ha touellerezh zo',
 );
 
 /** Bosnian (Bosanski)
