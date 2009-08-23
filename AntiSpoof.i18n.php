@@ -877,6 +877,7 @@ $messages['it'] = array(
  * @author Aotake
  * @author Fryed-peach
  * @author JtFuruhata
+ * @author Mizusumashi
  * @author Muttley
  */
 $messages['ja'] = array(
@@ -890,7 +891,7 @@ $messages['ja'] = array(
 	'antispoof-combining' => '結合記号で開始しています',
 	'antispoof-unassigned' => '廃止予定または未割り当ての文字が含まれています',
 	'antispoof-noletters' => '文字を含んでいません',
-	'antispoof-mixedscripts' => '互換性のない文字体系の混在があります',
+	'antispoof-mixedscripts' => '一緒に使うことできない複数の文字体系が混在しています',
 	'antispoof-tooshort' => '正規化した名前が短すぎます',
 	'antispoof-ignore' => 'なりすましチェックを無効にします。',
 	'right-override-antispoof' => 'なりすましチェックを無視する',
@@ -1546,7 +1547,7 @@ $messages['sk'] = array(
 	'right-override-antispoof' => 'Prekonať kontroly klamania',
 );
 
-/** Serbian Cyrillic ekavian (ћирилица)
+/** Serbian Cyrillic ekavian (Српски (ћирилица))
  * @author Millosh
  * @author Sasa Stefanovic
  * @author Јованвб
@@ -1569,7 +1570,7 @@ $messages['sr-ec'] = array(
 	'right-override-antispoof' => 'Препиши провере на бесмислице.',
 );
 
-/** latinica (latinica)
+/** Serbian Latin ekavian (Srpski (latinica))
  * @author Michaello
  */
 $messages['sr-el'] = array(
