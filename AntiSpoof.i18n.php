@@ -1362,8 +1362,12 @@ $messages['pl'] = array(
 
 /** Piedmontese (Piemontèis)
  * @author Bèrto 'd Sèra
+ * @author Dragonòt
  */
 $messages['pms'] = array(
+	'antispoof-desc' => 'A blòca la creassion ëd cont con nòm utent mës-cià a script, confundent e via parèj',
+	'antispoof-conflict-top' => 'Ël nòm "$1" a smija tròp {{PLURAL:$2|al cont esistent|a sti $2 cont-sì}}:',
+	'antispoof-conflict-bottom' => "Për piasì sern n'àutr nòm.",
 	'antispoof-name-illegal' => 'Lë stranòm "$1" as peul nen dovresse për evité confusion e/ò che cheidun as fassa passé për: $2. Për piasì, ch\'as në sërna n\'àotr.',
 	'antispoof-badtype' => 'Sòrt ëd dat nen bon-a',
 	'antispoof-empty' => 'Espression veujda',
@@ -1373,6 +1377,8 @@ $messages['pms'] = array(
 	'antispoof-noletters' => "A l'ha pa gnun caràter",
 	'antispoof-mixedscripts' => "Combinassion ëd sistema dë scritura ch'as peulo pa butesse ansema",
 	'antispoof-tooshort' => 'Butà an forma canònica lë stranòm a resta esagerà curt',
+	'antispoof-ignore' => 'Sàuta ij controj dë spoofing',
+	'right-override-antispoof' => 'Ignora ij controj dë spoofing',
 );
 
 /** Pashto (پښتو)
