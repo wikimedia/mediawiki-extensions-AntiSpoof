@@ -593,7 +593,7 @@ $messages['frc'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
-	'antispoof-desc' => 'Bloque, avouéc un script mècllo, la crèacion des comptos per des noms d’utilisator semblâblos ou povent prétar a confusion.',
+	'antispoof-desc' => 'Bloque la crèacion des comptos qu’utilisont un mouél d’ècritures avouéc des noms d’utilisator semblâblos ou ben povent prétar a confusion.',
 	'antispoof-conflict-bottom' => 'Volyéd chouèsir un ôtro nom.',
 	'antispoof-name-illegal' => 'Lo nom d’utilisator « $1 » est pas ôtorisâ por empachiér de confondre ou d’utilisar lo nom « $2 ». Volyéd chouèsir/cièrdre un ôtro nom.',
 	'antispoof-badtype' => 'Crouyo tipo de balyês',
@@ -602,7 +602,7 @@ $messages['frp'] = array(
 	'antispoof-combining' => 'Comence avouéc una mârca combinâ.',
 	'antispoof-unassigned' => 'Contint un caractèro pas assignê ou ben dèpassâ.',
 	'antispoof-noletters' => 'Contint gins de lètra.',
-	'antispoof-mixedscripts' => 'Contint un mouél de scripts que vont pas avouéc.',
+	'antispoof-mixedscripts' => 'Contint un mouél d’ècritures que vont pas avouéc.',
 	'antispoof-tooshort' => 'Nom canonico trop côrt',
 );
 
