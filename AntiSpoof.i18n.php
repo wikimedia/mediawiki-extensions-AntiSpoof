@@ -1829,6 +1829,8 @@ $messages['vo'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'antispoof-desc' => 'בלאקירט שאפֿן קאנטעס מיט געמישטע שריפֿטן, פֿארפלאנטערטע און ענלעכע באניצער נעמען',
+	'antispoof-conflict-bottom' => 'ביטע קלויבט אויס אן אנדער נאָמען.',
 	'antispoof-badtype' => 'שלעכטער דאַטן טיפ',
 	'antispoof-empty' => 'ליידיג שנירל',
 	'antispoof-blacklisted' => "כולל א געאסר'טן צייכן",
