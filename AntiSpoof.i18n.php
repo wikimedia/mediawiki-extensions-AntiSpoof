@@ -631,6 +631,7 @@ $messages['gl'] = array(
  * @author Omnipaedista
  */
 $messages['grc'] = array(
+	'antispoof-conflict-bottom' => 'Ἐπίλεξαι ἕτερον ὄνομα.',
 	'antispoof-badtype' => 'Κακὸς τύπος δεδομένων',
 	'antispoof-empty' => 'Κενὴ συμβολοσειρά',
 	'right-override-antispoof' => 'Ὑπερκάλυψις τῶν ἐλέγχων ἐξαπατήσεως',
