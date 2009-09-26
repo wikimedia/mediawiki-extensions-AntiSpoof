@@ -103,17 +103,15 @@ function asAbortNewAccountHook( $user, &$message ) {
 /**
  * Set the ignore spoof thingie
  */
-function asUserCreateFormHook( &$sp ) {
+function asUserCreateFormHook( &$template ) {
 	global $wgRequest, $wgAntiSpoofAccounts, $wgUser;
 
 	wfLoadExtensionMessages( 'AntiSpoof' );
 
 	if( $wgAntiSpoofAccounts && $wgUser->isAllowed( 'override-antispoof' ) )
-		$sp->mFormFields['IgnoreAntiSpoof'] = array(
-			'type'          => 'check',
-			'default'       => $wgRequest->getCheck('wpIgnoreAntiSpoof'),
-			'label-message' => 'antispoof-ignore' 
-		);
+		$template->addInputItem( 'wpIgnoreAntiSpoof',
+			$wgRequest->getCheck('wpIgnoreAntiSpoof'),
+			'checkbox', 'antispoof-ignore' );
 	return true;
 }
 
