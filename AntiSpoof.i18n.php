@@ -390,6 +390,25 @@ $messages['de'] = array(
 	'right-override-antispoof' => 'Außer Kraft setzen der Benutzernamens-Ähnlichkeitsprüfung',
 );
 
+/** Zazaki (Zazaki)
+ * @author Xoser
+ */
+$messages['diq'] = array(
+	'antispoof-desc' => 'Hesaban pê skriptê mîxî, nameyê munaneyî bloke keno',
+	'antispoof-conflict-top' => 'Ena nameyê "$1"î ena {{PLURAL:$2|the existing account|the following $2 accounts}} rê zaf nizdiyo:',
+	'antispoof-conflict-bottom' => 'Ma rica keno ke yewno nameyê karberî mucneno.',
+	'antispoof-badtype' => 'Tipê data yê xirabî',
+	'antispoof-empty' => 'Stringê vengî',
+	'antispoof-blacklisted' => 'Karakterê listeyê siyayî mucneno',
+	'antispoof-combining' => 'Îşaretê combinasyonî ra dest beno',
+	'antispoof-unassigned' => 'Karekterê destur-ne-diyaye ya zi deprecatedî mucneno',
+	'antispoof-noletters' => 'Yew zi herf çini yo',
+	'antispoof-mixedscripts' => 'Te de skriptanê xeripîyaye esto',
+	'antispoof-tooshort' => 'Ena name zaf kilm o',
+	'antispoof-ignore' => 'Kontrolê spoofî rê diket meke',
+	'right-override-antispoof' => 'Kontrolanê spoofî override bike',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
