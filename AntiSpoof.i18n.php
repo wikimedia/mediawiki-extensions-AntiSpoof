@@ -397,6 +397,8 @@ $messages['diq'] = array(
 	'antispoof-desc' => 'Hesaban pê skriptê mîxî, nameyê munaneyî bloke keno',
 	'antispoof-conflict-top' => 'Ena nameyê "$1"î ena {{PLURAL:$2|the existing account|the following $2 accounts}} rê zaf nizdiyo:',
 	'antispoof-conflict-bottom' => 'Ma rica keno ke yewno nameyê karberî mucneno.',
+	'antispoof-name-illegal' => 'Nameyê "$1"î nieşkeno nameyê karberî ke şweş keno înan vindarne: $2.
+Yewna name weçine.',
 	'antispoof-badtype' => 'Tipê data yê xirabî',
 	'antispoof-empty' => 'Stringê vengî',
 	'antispoof-blacklisted' => 'Karakterê listeyê siyayî mucneno',
@@ -1137,6 +1139,27 @@ $messages['lt'] = array(
 	'antispoof-tooshort' => 'Kanonizuotas vardas per trumpas',
 );
 
+/** Macedonian (Македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'antispoof-desc' => 'Блокира создавање на сметки со имиња од мешани писма/азбуки, кои личат на други кориснички имиња и со тоа создаваат забуни',
+	'antispoof-conflict-top' => 'Името „$1“ е премногу слично на {{PLURAL:$2|постоечката сметка|следниве $2 сметки}}:',
+	'antispoof-conflict-bottom' => 'Одберете друго име',
+	'antispoof-name-illegal' => 'Името „$1“ не е дозволено за да сес пречат збунувачки имиња кои се злоупотребливо слични: $2.
+Одберете друго име.',
+	'antispoof-badtype' => 'Грешен тип на податоци',
+	'antispoof-empty' => 'Празна низа',
+	'antispoof-blacklisted' => 'Содржи забранет знак',
+	'antispoof-combining' => 'Започнува со составен знак',
+	'antispoof-unassigned' => 'Содржи неопределен или застарен знак',
+	'antispoof-noletters' => 'Не содржи букви',
+	'antispoof-mixedscripts' => 'Содржи некомпатибилни мешани писма/азбуки',
+	'antispoof-tooshort' => 'Нормализираното име е премногу кратко',
+	'antispoof-ignore' => 'Занемарување на меѓусебно слични имиња',
+	'right-override-antispoof' => 'Прескокнување на проверките за меѓусебно слични имиња',
+);
+
 /** Malayalam (മലയാളം)
  * @author Praveenp
  * @author Shijualex
@@ -1151,6 +1174,7 @@ $messages['ml'] = array(
 	'antispoof-blacklisted' => 'കരിമ്പട്ടികയില്‍ പെട്ട അക്ഷരങ്ങളുണ്ട്',
 	'antispoof-noletters' => 'അക്ഷരങ്ങള്‍ ഒന്നും തന്നെ ഇല്ല',
 	'antispoof-mixedscripts' => 'പൊരുത്തക്കേടുള്ള സങ്കരലിപികള്‍ ഉള്‍പ്പെടുന്നു',
+	'antispoof-ignore' => 'സ്പൂഫിങ് പരിശോധനകൾ അവഗണിക്കുക',
 );
 
 /** Marathi (मराठी)
