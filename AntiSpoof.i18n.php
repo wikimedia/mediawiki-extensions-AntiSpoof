@@ -1175,6 +1175,7 @@ $messages['ml'] = array(
 	'antispoof-noletters' => 'അക്ഷരങ്ങള്‍ ഒന്നും തന്നെ ഇല്ല',
 	'antispoof-mixedscripts' => 'പൊരുത്തക്കേടുള്ള സങ്കരലിപികള്‍ ഉള്‍പ്പെടുന്നു',
 	'antispoof-ignore' => 'സ്പൂഫിങ് പരിശോധനകൾ അവഗണിക്കുക',
+	'right-override-antispoof' => 'സ്പൂഫിങ് പരിശോധനകൾ അതിലംഘിക്കുക',
 );
 
 /** Marathi (मराठी)
@@ -1256,7 +1257,7 @@ $messages['nds'] = array(
  */
 $messages['nds-nl'] = array(
 	'antispoof-desc' => "Blokkeert 't anmaken van gebrukers mit meerdere schriffen, verwarrende en soortgelieke gebrukersnamen",
-	'antispoof-conflict-top' => 'De naam "$1" liek te veule op de volgende bestaonde {{PLURAL:$2|gebruker|$2 gebrukers}}:',
+	'antispoof-conflict-top' => 'De naam "$1" lik te veule op de volgende bestaonde {{PLURAL:$2|gebruker|$2 gebrukers}}:',
 	'antispoof-conflict-bottom' => 'Kies een aandere naam.',
 	'antispoof-name-illegal' => 'De naam "$1" is neet toe-estaon, um verwarring of lillijke gebrukersnamen te veurkoemen: $2. Kies een aandere naam.',
 	'antispoof-empty' => 'Leeg veld',
