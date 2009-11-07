@@ -1272,7 +1272,7 @@ $messages['nds-nl'] = array(
 );
 
 /** Dutch (Nederlands)
- * @author Erwin85
+ * @author Erwin
  * @author Siebrand
  */
 $messages['nl'] = array(
