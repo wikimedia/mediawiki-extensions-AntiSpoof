@@ -839,6 +839,7 @@ Per favor selige un altere nomine.',
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author IvanLanin
  * @author Meursault2004
  * @author Rex
  */
@@ -856,7 +857,7 @@ $messages['id'] = array(
 	'antispoof-mixedscripts' => 'Mengandung huruf campuran yang tak kompatibel',
 	'antispoof-tooshort' => 'Nama kanonikalisasi terlalu pendek',
 	'antispoof-ignore' => 'Abaikan pemeriksaan penipuan akun',
-	'right-override-antispoof' => 'Abaikan pengecekan penipuan nama pengguna',
+	'right-override-antispoof' => 'Mengabaikan pengecekan penipuan nama pengguna',
 );
 
 /** Icelandic (Íslenska)
