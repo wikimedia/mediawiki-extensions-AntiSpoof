@@ -1174,6 +1174,7 @@ $messages['ml'] = array(
 	'antispoof-badtype' => 'മോശം ഡേറ്റാ തരം',
 	'antispoof-empty' => 'ശൂന്യമായ സ്ട്രിംങ്ങ്',
 	'antispoof-blacklisted' => 'കരിമ്പട്ടികയില്‍ പെട്ട അക്ഷരങ്ങളുണ്ട്',
+	'antispoof-unassigned' => 'നിർദ്ദേശിക്കപ്പെടാത്തതോ പിന്തള്ളപ്പെട്ടതോ ആയ അക്ഷരം ഉൾക്കൊള്ളുന്നു',
 	'antispoof-noletters' => 'അക്ഷരങ്ങള്‍ ഒന്നും തന്നെ ഇല്ല',
 	'antispoof-mixedscripts' => 'പൊരുത്തക്കേടുള്ള സങ്കരലിപികള്‍ ഉള്‍പ്പെടുന്നു',
 	'antispoof-ignore' => 'സ്പൂഫിങ് പരിശോധനകൾ അവഗണിക്കുക',
