@@ -41,6 +41,7 @@ $messages['qqq'] = array(
  * @author Naudefj
  */
 $messages['af'] = array(
+	'antispoof-conflict-bottom' => "Kies asseblief 'n ander naam.",
 	'antispoof-badtype' => 'Verkeerde datatipe',
 	'antispoof-empty' => 'Leë string',
 	'antispoof-blacklisted' => 'Bevat verbode karakter',
@@ -1506,6 +1507,7 @@ $messages['qu'] = array(
 /** Romanian (Română)
  * @author KlaudiuMihaila
  * @author Minisarm
+ * @author Stelistcristi
  */
 $messages['ro'] = array(
 	'antispoof-conflict-top' => 'Numele „$1” este prea asemănător cu {{PLURAL:$2|următorul cont deja existent|următoarele $2 conturi}}:',
@@ -1516,6 +1518,7 @@ $messages['ro'] = array(
 	'antispoof-blacklisted' => 'Conţine un caracter interzis',
 	'antispoof-noletters' => 'Nu conţine nici o literă',
 	'antispoof-ignore' => 'Nu verifica existenţa unor nume de cont similare',
+	'right-override-antispoof' => 'Asupreşte verificările spoofing',
 );
 
 /** Tarandíne (Tarandíne)
