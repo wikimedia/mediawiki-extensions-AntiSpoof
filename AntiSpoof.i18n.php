@@ -1750,6 +1750,13 @@ $messages['tg-cyrl'] = array(
 	'antispoof-tooshort' => 'Номи мӯътариф хеле кӯтоҳ аст',
 );
 
+/** Turkmen (Türkmençe)
+ * @author Hanberke
+ */
+$messages['tk'] = array(
+	'antispoof-conflict-bottom' => 'Başga bir at saýlaň.',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
