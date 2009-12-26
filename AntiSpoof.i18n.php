@@ -108,7 +108,7 @@ $messages['arz'] = array(
 	'antispoof-desc' => 'بيمنع فتح حسابات بأسامى يوزرز متشابهة،و بتلخبط أو بسكريبت متخلط',
 	'antispoof-conflict-top' => 'الاسم "$1" شديد الشبه ب{{PLURAL:$2|الحساب الموجود|ال$2 حساب التالية}}:',
 	'antispoof-conflict-bottom' => 'من فضلك اختر اسما آخر.',
-	'antispoof-name-illegal' => 'الاسم "$1"  مش مسموح علشان نمنع اللخبطة أوانتحال أسماء اليوزرز: $2. لو سمحت تختار اسم تاني.',
+	'antispoof-name-illegal' => 'الاسم "$1"  مش مسموح علشان نمنع اللخبطة أوانتحال أسماء اليوزرز: $2. لو سمحت تختار اسم تانى.',
 	'antispoof-badtype' => 'نوع البيانات غلط',
 	'antispoof-empty' => 'سلسلة فاضية',
 	'antispoof-blacklisted' => 'بيحتوى على علامة من البلاك ليست',
@@ -1937,6 +1937,7 @@ $messages['zea'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Gzdavidwong
+ * @author Liangent
  * @author PhiLiP
  */
 $messages['zh-hans'] = array(
@@ -1944,20 +1945,21 @@ $messages['zh-hans'] = array(
 	'antispoof-conflict-top' => '用户名“$1”与{{PLURAL:$2|现有帐户|下列$2个账户}}过于相似：',
 	'antispoof-conflict-bottom' => '请选择其他名称。',
 	'antispoof-name-illegal' => '为了防止混淆或欺诈性使用用户名“$2”，用户名“$1”已被禁止使用。请使用其他用户名。',
-	'antispoof-badtype' => '错误数据类型',
+	'antispoof-badtype' => '错误的数据类型',
 	'antispoof-empty' => '空白字串',
 	'antispoof-blacklisted' => '包含黑名单上的字符',
 	'antispoof-combining' => '以结合标记开始',
 	'antispoof-unassigned' => '包含未指定或不再使用的字符',
 	'antispoof-noletters' => '未包含任何字符',
 	'antispoof-mixedscripts' => '包含不兼容的混合文字',
-	'antispoof-tooshort' => '符合标准的用户名过短',
+	'antispoof-tooshort' => '标准化后的用户名过短',
 	'antispoof-ignore' => '略过欺诈检查',
 	'right-override-antispoof' => '无视欺诈检查',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Gzdavidwong
+ * @author Liangent
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
@@ -1965,14 +1967,14 @@ $messages['zh-hant'] = array(
 	'antispoof-conflict-top' => '名稱「$1」與{{PLURAL:$2|以下戶口|以下$2個戶口}}太相似：',
 	'antispoof-conflict-bottom' => '請選擇其他名稱。',
 	'antispoof-name-illegal' => '使用者名稱"$1"容易與"$2"混淆，已被禁止使用。請使用其他使用者名稱。',
-	'antispoof-badtype' => '錯誤的資料類型',
+	'antispoof-badtype' => '錯誤的數據類型',
 	'antispoof-empty' => '空白字串',
-	'antispoof-blacklisted' => '包含在黑名單上的字元',
+	'antispoof-blacklisted' => '包含黑名單上的字符',
 	'antispoof-combining' => '以結合標記開始',
 	'antispoof-unassigned' => '包含未指定或不再使用的字元',
 	'antispoof-noletters' => '不包含任何字元',
 	'antispoof-mixedscripts' => '包含不相容混合的程式碼',
-	'antispoof-tooshort' => '合符標準的名稱太短',
+	'antispoof-tooshort' => '標準化后的用戶名過短',
 	'antispoof-ignore' => '略過欺詐檢查',
 	'right-override-antispoof' => '無視欺詐檢查',
 );
