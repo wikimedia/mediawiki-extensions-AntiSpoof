@@ -1770,7 +1770,20 @@ $messages['tg-latn'] = array(
  * @author Hanberke
  */
 $messages['tk'] = array(
+	'antispoof-desc' => 'Garyşyk şriftli, bulaşyklyk dörediji we çalymdaş ulanyjy atlarynyň döredilmegini blokirleýär.',
+	'antispoof-conflict-top' => '"$1" diýen at {{PLURAL:$2|bar bolan şu hasaba|aşakdaky $2 hasaba}} örän çalymdaş:',
 	'antispoof-conflict-bottom' => 'Başga bir at saýlaň.',
+	'antispoof-name-illegal' => 'Ulanyjy atlarynyň  garjaşmagynyň ýa-da bulaşdyrylmagynyň öňüni almak "$1" adyna rugsat berilmeýär: $2. Başga bir ulanyjy adyny saýlaň.',
+	'antispoof-badtype' => 'Näsaz maglumat tipi',
+	'antispoof-empty' => 'Boş setir',
+	'antispoof-blacklisted' => 'Gara sanawa goşulan simwoly öz içine alýar',
+	'antispoof-combining' => 'Birleşdiriş belligi bilen başlaýar',
+	'antispoof-unassigned' => 'Bellenilmedik ýa-da tassyklanmadyk simwoly öz içine alýar',
+	'antispoof-noletters' => 'Hiç hili harpy ýok',
+	'antispoof-mixedscripts' => 'Laýyk däl garjaşyk şriftleri öz içine alýar',
+	'antispoof-tooshort' => 'Kadalaşdyrylan at örän gysga',
+	'antispoof-ignore' => 'Bulaşyklyk barlaglaryna üns berme',
+	'right-override-antispoof' => 'Bulaşyklyk barlagyny pisint etme',
 );
 
 /** Tagalog (Tagalog)
