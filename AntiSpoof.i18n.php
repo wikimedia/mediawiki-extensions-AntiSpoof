@@ -391,6 +391,13 @@ $messages['de'] = array(
 	'right-override-antispoof' => 'Außer Kraft setzen der Benutzernamens-Ähnlichkeitsprüfung',
 );
 
+/** German (formal address) (Deutsch (Sie-Form))
+ * @author Imre
+ */
+$messages['de-formal'] = array(
+	'antispoof-conflict-bottom' => 'Bitte wählen Sie einen anderen Namen.',
+);
+
 /** Zazaki (Zazaki)
  * @author Xoser
  */
