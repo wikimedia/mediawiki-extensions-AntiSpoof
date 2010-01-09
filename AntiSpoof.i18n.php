@@ -1448,6 +1448,7 @@ $messages['pms'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
+	'antispoof-conflict-bottom' => 'لطفاُ يو بل نوم وټاکۍ.',
 	'antispoof-badtype' => 'ناسمه مالوماتي بڼه',
 	'antispoof-noletters' => 'هېڅ کوم توری نه شته',
 );
