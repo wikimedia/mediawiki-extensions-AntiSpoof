@@ -41,6 +41,7 @@ $messages['qqq'] = array(
  * @author Naudefj
  */
 $messages['af'] = array(
+	'antispoof-conflict-top' => 'Die naam "$1" lyk te soortgelyk aan die van die volgende bestaande {{PLURAL:$2|gebruiker|$2 gebruikers}}:',
 	'antispoof-conflict-bottom' => "Kies asseblief 'n ander naam.",
 	'antispoof-badtype' => 'Verkeerde datatipe',
 	'antispoof-empty' => 'Leë string',
