@@ -1192,6 +1192,22 @@ $messages['ml'] = array(
 	'right-override-antispoof' => 'സ്പൂഫിങ് പരിശോധനകൾ അതിലംഘിക്കുക',
 );
 
+/** Mongolian (Монгол)
+ * @author Chinneeb
+ */
+$messages['mn'] = array(
+	'antispoof-name-illegal' => '"$1" гэсэн нэр нь андуурагдаж болохуйц, хуурмаг хэрэглэгчийн нэрнүүдээс сэргийлэхийн тулд зөвшөөрөгдөхгүй: $2.
+Өөр нэр сонгоно уу.',
+	'antispoof-badtype' => 'Буруу өгөгдлийн төрөл',
+	'antispoof-empty' => 'Хоосон цуваа',
+	'antispoof-blacklisted' => 'Хар дансанд орсон тэмдэгт агуулагдаж байна',
+	'antispoof-combining' => 'Холбох тэмдэгээр эхлэж байна',
+	'antispoof-unassigned' => 'Тогтоогоогүй эсвэл хуучирсан тэмдэгт агуулагдаж байна',
+	'antispoof-noletters' => 'Ямар ч тэмдэгт агуулагдаагүй байна',
+	'antispoof-mixedscripts' => 'Хоорондоо нийцэхгүй холилдсон бичилтүүд агуулагдаж байна',
+	'antispoof-tooshort' => 'Албан ёсны нэр хэт богино байна',
+);
+
 /** Marathi (मराठी)
  * @author Kaustubh
  * @author Mahitgar
