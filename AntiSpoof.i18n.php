@@ -1290,6 +1290,7 @@ $messages['nds-nl'] = array(
 	'antispoof-conflict-top' => 'De naam "$1" lik te veule op de volgende bestaonde {{PLURAL:$2|gebruker|$2 gebrukers}}:',
 	'antispoof-conflict-bottom' => 'Kies een aandere naam.',
 	'antispoof-name-illegal' => 'De naam "$1" is neet toe-estaon, um verwarring of lillijke gebrukersnamen te veurkoemen: $2. Kies een aandere naam.',
+	'antispoof-badtype' => 'Ongeldig datatype',
 	'antispoof-empty' => 'Leeg veld',
 	'antispoof-blacklisted' => 'Bevat tekens dee-j neet gebruken maggen',
 	'antispoof-combining' => 'Begint mit een ecombineerd markteken',
@@ -1298,6 +1299,7 @@ $messages['nds-nl'] = array(
 	'antispoof-mixedscripts' => 'Bevat onverenigbaore schrifsystemen',
 	'antispoof-tooshort' => 'De naam dee-j in-evoerd hemmen is te kort.',
 	'antispoof-ignore' => 'Controle op soortgelieke gebrukersnamen negeren',
+	'right-override-antispoof' => 'Fopcontroles negeren',
 );
 
 /** Dutch (Nederlands)
