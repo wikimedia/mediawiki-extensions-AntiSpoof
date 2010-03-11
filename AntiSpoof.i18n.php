@@ -1708,6 +1708,8 @@ $messages['stq'] = array(
  */
 $messages['su'] = array(
 	'antispoof-desc' => 'Peungpeuk dijieunna rekening nu landihanana skrip campuran, ngaco, atawa sarupa',
+	'antispoof-conflict-top' => 'Ngaran "$1" mirip teuing jeung {{PLURAL:$2|rekening nu geus aya|$2 rekening ieu}}:',
+	'antispoof-conflict-bottom' => 'Mangga pilih ngaran séjén.',
 	'antispoof-name-illegal' => 'Landihan "$1" teu diwenangkeun ngarah teu pahili jeung landihan: $2. Mangga pilih landihan séjén.',
 	'antispoof-badtype' => 'Tipeu datana awon',
 	'antispoof-empty' => 'String kosong',
