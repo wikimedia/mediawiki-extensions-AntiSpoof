@@ -18,4 +18,4 @@ CREATE TABLE /*$wgDBprefix*/spoofuser (
   
   -- for checking matching possible spoofs
   KEY(su_normalized, su_name)
-) TYPE=InnoDB;
+) /*$wgDBTableOptions*/;
