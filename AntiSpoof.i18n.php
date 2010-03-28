@@ -1639,6 +1639,27 @@ $messages['sk'] = array(
 	'right-override-antispoof' => 'Prekonať kontroly klamania',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'antispoof-desc' => 'Prepreči ustvarjanje računov z mešanimi pisavami ter begajočimi in podobnimi uporabniškimi imeni',
+	'antispoof-conflict-top' => 'Ime »$1« je preveč podobno {{PLURAL:$2|obsoječemu računu|naslednjim obstoječima računoma|naslednjim $2 obstoječim računom}}:',
+	'antispoof-conflict-bottom' => 'Prosimo, izberite drugačno ime.',
+	'antispoof-name-illegal' => 'Ime »$1« ni dovoljeno, saj se lahko zamenja oz. norčuje iz »$2«.
+Prosimo, izberite drugo ime.',
+	'antispoof-badtype' => 'Napačen podatkovni tip',
+	'antispoof-empty' => 'Prazen niz',
+	'antispoof-blacklisted' => 'Vsebuje znak, ki je na črni listi',
+	'antispoof-combining' => 'Začne se z združevalnim znakom',
+	'antispoof-unassigned' => 'Vsebuje nepripisan ali nedovoljen znak',
+	'antispoof-noletters' => 'Ne vsebuje nobenih črk',
+	'antispoof-mixedscripts' => 'Vsebuje nezdružljive mešane skripte',
+	'antispoof-tooshort' => 'Poenoteno ime je prekratko',
+	'antispoof-ignore' => 'Prezri preverjanja prevare',
+	'right-override-antispoof' => 'Preskoči preverjanja prevar',
+);
+
 /** Serbian Cyrillic ekavian (Српски (ћирилица))
  * @author Millosh
  * @author Sasa Stefanovic
