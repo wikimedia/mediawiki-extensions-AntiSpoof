@@ -1644,7 +1644,7 @@ $messages['sk'] = array(
  */
 $messages['sl'] = array(
 	'antispoof-desc' => 'Prepreči ustvarjanje računov z mešanimi pisavami ter begajočimi in podobnimi uporabniškimi imeni',
-	'antispoof-conflict-top' => 'Ime »$1« je preveč podobno {{PLURAL:$2|obsoječemu računu|naslednjim obstoječima računoma|naslednjim $2 obstoječim računom}}:',
+	'antispoof-conflict-top' => 'Ime »$1« je preveč podobno {{PLURAL:$2|$2 obsoječemu računu|$2 obstoječima računoma|naslednjim $2 obstoječim računom}}:',
 	'antispoof-conflict-bottom' => 'Prosimo, izberite drugačno ime.',
 	'antispoof-name-illegal' => 'Ime »$1« ni dovoljeno, saj se lahko zamenja oz. norčuje iz »$2«.
 Prosimo, izberite drugo ime.',
