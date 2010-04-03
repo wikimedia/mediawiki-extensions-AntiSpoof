@@ -1,4 +1,7 @@
 <?php
+if ( !defined( 'MEDIAWIKI' ) ) {
+	exit( 1 );
+}
 
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
@@ -56,10 +59,10 @@ function asAbortNewAccountHook( $user, &$message ) {
 	global $wgAntiSpoofAccounts, $wgUser, $wgRequest;
 	wfLoadExtensionMessages( 'AntiSpoof' );
 
-	if( !$wgAntiSpoofAccounts ) {
+	if ( !$wgAntiSpoofAccounts ) {
 		$mode = 'LOGGING ';
 		$active = false;
-	} elseif( $wgRequest->getCheck('wpIgnoreAntiSpoof') &&
+	} elseif ( $wgRequest->getCheck( 'wpIgnoreAntiSpoof' ) &&
 			$wgUser->isAllowed( 'override-antispoof' ) ) {
 		$mode = 'OVERRIDE ';
 		$active = false;
@@ -70,18 +73,18 @@ function asAbortNewAccountHook( $user, &$message ) {
 
 	$name = $user->getName();
 	$spoof = new SpoofUser( $name );
-	if( $spoof->isLegal() ) {
+	if ( $spoof->isLegal() ) {
 		$normalized = $spoof->getNormalized();
 		$conflicts = $spoof->getConflicts();
-		if( empty($conflicts) ) {
+		if ( empty( $conflicts ) ) {
 			wfDebugLog( 'antispoof', "{$mode}PASS new account '$name' [$normalized]" );
 		} else {
 			wfDebugLog( 'antispoof', "{$mode}CONFLICT new account '$name' [$normalized] spoofs " . implode( ',', $conflicts ) );
-			if( $active ) {
+			if ( $active ) {
 				$numConflicts = count( $conflicts );
-				$message = wfMsgExt( 'antispoof-conflict-top', array('parsemag'), htmlspecialchars( $name ), $numConflicts );
+				$message = wfMsgExt( 'antispoof-conflict-top', array( 'parsemag' ), htmlspecialchars( $name ), $numConflicts );
 				$message .= '<ul>';
-				foreach( $conflicts as $simUser ) {
+				foreach ( $conflicts as $simUser ) {
 					$message .= '<li>' . wfMsg( 'antispoof-conflict-item', $simUser ) . '</li>';
 				}
 				$message .= '</ul>' . wfMsg( 'antispoof-conflict-bottom' );
@@ -91,7 +94,7 @@ function asAbortNewAccountHook( $user, &$message ) {
 	} else {
 		$error = $spoof->getError();
 		wfDebugLog( 'antispoof', "{$mode}ILLEGAL new account '$name' $error" );
-		if( $active ) {
+		if ( $active ) {
 			$message = wfMsg( 'antispoof-name-illegal', $name, $error );
 			return false;
 		}
@@ -107,9 +110,9 @@ function asUserCreateFormHook( &$template ) {
 
 	wfLoadExtensionMessages( 'AntiSpoof' );
 
-	if( $wgAntiSpoofAccounts && $wgUser->isAllowed( 'override-antispoof' ) )
+	if ( $wgAntiSpoofAccounts && $wgUser->isAllowed( 'override-antispoof' ) )
 		$template->addInputItem( 'wpIgnoreAntiSpoof',
-			$wgRequest->getCheck('wpIgnoreAntiSpoof'),
+			$wgRequest->getCheck( 'wpIgnoreAntiSpoof' ),
 			'checkbox', 'antispoof-ignore' );
 	return true;
 }

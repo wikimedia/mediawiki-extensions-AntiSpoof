@@ -3,7 +3,7 @@
  * Internationalisation file for extension AntiSpoof.
  *
  * @addtogroup Extensions
-*/
+ */
 
 $messages = array();
 
@@ -956,7 +956,7 @@ $messages['jv'] = array(
 	'antispoof-desc' => 'Menggak nggawé akun utawa rékening mawa jeneng panganggo aksara campuran, mbingungaké lan sing mèmper',
 	'antispoof-conflict-top' => 'Jeneng "$1" mèmper banget karo {{PLURAL:$2|akun sing wis ana|$2 akun iki}}:',
 	'antispoof-conflict-bottom' => 'Mangga milih jeneng liya',
-	'antispoof-name-illegal' => 'Jeneng "$1" ora diidinaké supaya wong ora bingung utawa menggak ngapi-api jeneng panganggo sing wis ana: $2. 
+	'antispoof-name-illegal' => 'Jeneng "$1" ora diidinaké supaya wong ora bingung utawa menggak ngapi-api jeneng panganggo sing wis ana: $2.
 Mangga pilihen jeneng liya.',
 	'antispoof-badtype' => 'Tipe data salah',
 	'antispoof-empty' => 'Data kosong',
@@ -1331,7 +1331,7 @@ $messages['nn'] = array(
 	'antispoof-desc' => 'Blokkerer for oppretting av konti med liknande eller forvirrande brukarnamn, eller brukarnamn som inneheld forskjellige alfabettypar',
 	'antispoof-conflict-top' => 'Namnet «$1» er for likt følgjande {{PLURAL:$2|konto|kontoar}}:',
 	'antispoof-conflict-bottom' => 'Vel eit anna namn.',
-	'antispoof-name-illegal' => 'Namnet «$1» er ikkje tillate for å hindra samanblanding: $2. 
+	'antispoof-name-illegal' => 'Namnet «$1» er ikkje tillate for å hindra samanblanding: $2.
 Ver venleg og vel eit anna namn.',
 	'antispoof-badtype' => 'Ugyldig datatype',
 	'antispoof-empty' => 'Tom streng',
@@ -1502,7 +1502,7 @@ $messages['pt-br'] = array(
 	'antispoof-desc' => 'Impede a criação de contas com escrita mista, e nomes de utilizador confusos e semelhantes',
 	'antispoof-conflict-top' => 'O nome "$1" é demasiado semelhante {{PLURAL:$2|ao da seguinte conta já existente|aos das seguintes $2 contas}}',
 	'antispoof-conflict-bottom' => 'Por favor, escolha outro nome.',
-	'antispoof-name-illegal' => 'O nome "$1" não é permitido para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): já existe $2. 
+	'antispoof-name-illegal' => 'O nome "$1" não é permitido para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): já existe $2.
 Por favor, escolha outro nome.',
 	'antispoof-badtype' => 'Formato de dados incorreto',
 	'antispoof-empty' => 'Linha vazia',

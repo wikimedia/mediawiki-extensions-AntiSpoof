@@ -5,7 +5,7 @@ class SpoofUser {
 		$this->mName = strval( $name );
 		list( $ok, $normalized ) = AntiSpoof::checkUnicodeString( $this->mName );
 		$this->mLegal = ( $ok == 'OK' );
-		if( $this->mLegal ) {
+		if ( $this->mLegal ) {
 			$this->mNormalized = $normalized;
 			$this->mError = null;
 		} else {
@@ -59,7 +59,7 @@ class SpoofUser {
 			) );
 
 		$spoofs = array();
-		while( $row = $dbr->fetchObject( $spoofedUsers ) ) {
+		while ( $row = $dbr->fetchObject( $spoofedUsers ) ) {
 			array_push( $spoofs, $row->user_name );
 		}
 		return $spoofs;
@@ -87,9 +87,9 @@ class SpoofUser {
 	 * @param $items array of SpoofUser
 	 */
 	public function batchRecord( $items ) {
-		if( count( $items ) ) {
+		if ( count( $items ) ) {
 			$fields = array();
-			foreach( $items as $item ) {
+			foreach ( $items as $item ) {
 				$fields[] = $item->insertFields();
 			}
 			$dbw = wfGetDB( DB_MASTER );
