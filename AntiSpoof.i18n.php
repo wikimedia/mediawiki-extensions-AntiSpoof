@@ -70,7 +70,7 @@ $messages['an'] = array(
 	'right-override-antispoof' => "Inorar as prebas d'identidat",
 );
 
-/** Old English (Anglo-Saxon)
+/** Old English (Ænglisc)
  * @author Wōdenhelm
  */
 $messages['ang'] = array(
@@ -1055,7 +1055,7 @@ $messages['ko'] = array(
 	'right-override-antispoof' => '혼란을 줄 수 있는 계정 이름 금지(안티스푸프)를 무시',
 );
 
-/** Ripoarisch (Ripoarisch)
+/** Colognian (Ripoarisch)
  * @author Purodha
  */
 $messages['ksh'] = array(
@@ -1983,7 +1983,7 @@ $messages['yi'] = array(
 	'antispoof-noletters' => 'אַנטהאַלט ניט קײַן בוכשטאַבן.',
 );
 
-/** Yue (粵語) */
+/** Cantonese (粵語) */
 $messages['yue'] = array(
 	'antispoof-desc' => '封鎖一啲對於有混合程序、混淆同埋相似嘅用戶名嘅開戶口動作',
 	'antispoof-name-illegal' => '呢個名"$1"唔畀用，以預防撈亂或者冒充："$2"。請揀過個名。',
