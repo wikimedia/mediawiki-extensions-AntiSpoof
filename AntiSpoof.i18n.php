@@ -52,6 +52,26 @@ $messages['af'] = array(
 	'antispoof-tooshort' => 'Afgekorte naam te kort',
 );
 
+/** Gheg Albanian (Gegë)
+ * @author Mdupont
+ */
+$messages['aln'] = array(
+	'antispoof-desc' => 'Bllokon krijimin e llogarive me script-të përziera, konfuze dhe të ngjashme përdoruesve',
+	'antispoof-conflict-top' => 'Emrin "$1" është shumë e ngjashme me {{PLURAL:$2|llogari ekzistuese|mëposhtme $2 llogaritë}}:',
+	'antispoof-conflict-bottom' => 'Ju lutem zgjidhni një tjetër.',
+	'antispoof-name-illegal' => 'Emrin "$1" nuk është e lejuar për të parandaluar ose spoofed përdoruesve konfuze: $2. Ju lutem zgjidhni një tjetër.',
+	'antispoof-badtype' => 'Bad dhënat lloj',
+	'antispoof-empty' => 'string bosh',
+	'antispoof-blacklisted' => 'Përmban në listën e zezë karakter',
+	'antispoof-combining' => 'Fillon me shenjën e kombinuar',
+	'antispoof-unassigned' => 'Përmban unassigned ose deprecated karakter',
+	'antispoof-noletters' => 'Nuk përmban asnjë shkronja',
+	'antispoof-mixedscripts' => 'Përmban Scripts papajtueshëm të përziera',
+	'antispoof-tooshort' => 'Emri Canonicalized shumë i shkurtër',
+	'antispoof-ignore' => 'Ignore spoofing kontrolle',
+	'right-override-antispoof' => 'Refuzim spoofing kontrolle',
+);
+
 /** Aragonese (Aragonés)
  * @author Juanpabl
  */
