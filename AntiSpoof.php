@@ -57,6 +57,7 @@ function asUpdateSchema() {
  */
 function asAbortNewAccountHook( $user, &$message ) {
 	global $wgAntiSpoofAccounts, $wgUser, $wgRequest;
+	wfLoadExtensionMessages( 'AntiSpoof' );
 
 	if ( !$wgAntiSpoofAccounts ) {
 		$mode = 'LOGGING ';
@@ -106,6 +107,8 @@ function asAbortNewAccountHook( $user, &$message ) {
  */
 function asUserCreateFormHook( &$template ) {
 	global $wgRequest, $wgAntiSpoofAccounts, $wgUser;
+
+	wfLoadExtensionMessages( 'AntiSpoof' );
 
 	if ( $wgAntiSpoofAccounts && $wgUser->isAllowed( 'override-antispoof' ) )
 		$template->addInputItem( 'wpIgnoreAntiSpoof',
