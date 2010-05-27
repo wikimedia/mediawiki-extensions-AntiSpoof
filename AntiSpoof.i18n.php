@@ -868,6 +868,7 @@ Per favor selige un altere nomine.',
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author Bennylin
  * @author IvanLanin
  * @author Meursault2004
  * @author Rex
@@ -882,7 +883,7 @@ $messages['id'] = array(
 	'antispoof-blacklisted' => 'Mengandung karakter yang tak diizinkan',
 	'antispoof-combining' => 'Dimulai dengan tanda kombinasi',
 	'antispoof-unassigned' => 'Mengandung karakter yang tak diberikan atau tak digunakan lagi',
-	'antispoof-noletters' => 'Tidak mengandung huruf apapun',
+	'antispoof-noletters' => 'Tidak mengandung huruf apa pun',
 	'antispoof-mixedscripts' => 'Mengandung huruf campuran yang tak kompatibel',
 	'antispoof-tooshort' => 'Nama kanonikalisasi terlalu pendek',
 	'antispoof-ignore' => 'Abaikan pemeriksaan penipuan akun',
@@ -992,9 +993,23 @@ Mangga pilihen jeneng liya.',
 
 /** Georgian (ქართული)
  * @author Alsandro
+ * @author BRUTE
  */
 $messages['ka'] = array(
+	'antispoof-desc' => 'ბლოკავს ახალი ანგარიშების გახსნას შერეული სკრიპტით, შეცდომითი და ერთიდაიგივე მომხმარებლის სახელების შეთხვევაში',
+	'antispoof-conflict-top' => 'სახელი "$1" ძალიან ჰგავს {{PLURAL:$2|არსებულ ანგარიშს|შემდეგ $2 ანგარიშს}}:',
+	'antispoof-conflict-bottom' => 'გთხოვთ სხვა სახელი გამოიყენოთ.',
+	'antispoof-name-illegal' => 'სახელი "$1" არაა ნებადართული, რათა არ იყოს არეული სხვა სახელთან: $2.
+გთხოვთ აირჩიოთ სხვა სახელი.',
 	'antispoof-badtype' => 'არასწორი მონაცემთა ტიპი',
+	'antispoof-empty' => 'ცარიელი სტრიქონი',
+	'antispoof-blacklisted' => 'შეიცავს სიმბოლოს შავი სიიდან',
+	'antispoof-combining' => 'იწყება კომბინაციის სიმბოლოთი',
+	'antispoof-unassigned' => 'შეიცავს მიუკუთვნებელ ან დაუშვებელ სიმბოლოებს',
+	'antispoof-noletters' => 'არ შეიცავს ასოებს',
+	'antispoof-mixedscripts' => 'შეიცავს შეუთავსებელ შერეულ სცენარებს',
+	'antispoof-tooshort' => 'ნორმალიზებული სახელი ძალიან მოკლეა',
+	'antispoof-ignore' => 'მსგავს სახელებზე შემოწმების ინგნორირება',
 );
 
 /** Kazakh (Arabic script) (‫قازاقشا (تٴوتە)‬) */
