@@ -2,7 +2,8 @@
 /**
  * Internationalisation file for extension AntiSpoof.
  *
- * @addtogroup Extensions
+ * @file
+ * @ingroup Extensions
  */
 
 $messages = array();
