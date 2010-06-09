@@ -77,18 +77,18 @@ $messages['aln'] = array(
  * @author Juanpabl
  */
 $messages['an'] = array(
-	'antispoof-desc' => "Bloqueya a creyazión de cuentas confusas, con tipografía mezclata y nombres d'usuario parellanos.",
-	'antispoof-name-illegal' => 'No se premite rechistrar-se con o nombre "$1" ta pribar confusions y suplantazions con os nombres d\'usuario: $2. Por fabor, eslicha una atro nombre.',
+	'antispoof-desc' => "Bloqueya a creyación de cuentas confusas, con tipografía mezclata y nombres d'usuario parellanos.",
+	'antispoof-name-illegal' => 'No se premite rechistrar-se con o nombre "$1" ta privar confusions y suplantacions con os nombres d\'usuario: $2. Por favor, esliya una atro nombre.',
 	'antispoof-badtype' => 'Tipo de datos no conforme',
 	'antispoof-empty' => 'Cadena bueda',
-	'antispoof-blacklisted' => 'Contiene caráuters no premititos',
-	'antispoof-combining' => 'Prenzipia con un siñal combinatorio',
-	'antispoof-unassigned' => 'Contiene caráuters no conformes u obsoletos',
+	'antispoof-blacklisted' => 'Contiene carácters no premititos',
+	'antispoof-combining' => 'Prencipia con un sinyal combinatorio',
+	'antispoof-unassigned' => 'Contiene carácters no conformes u obsoletos',
 	'antispoof-noletters' => 'No contiene garra letra',
 	'antispoof-mixedscripts' => 'Contiene un mezclallo incompatible de scripts',
 	'antispoof-tooshort' => 'Nombre canonico masiau curto',
-	'antispoof-ignore' => 'Innorar as comprebazions de spoofing',
-	'right-override-antispoof' => "Inorar as prebas d'identidat",
+	'antispoof-ignore' => 'Ignorar as comprebacions de spoofing',
+	'right-override-antispoof' => "Ignorar as prebas d'identidat",
 );
 
 /** Old English (Ænglisc)
