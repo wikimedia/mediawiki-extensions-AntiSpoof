@@ -1557,6 +1557,8 @@ Por favor, escolha outro nome.',
  */
 $messages['qu'] = array(
 	'antispoof-desc' => "Chaqrusqa sananchayuq, pantachiq, musphachiq rakiquna suti kamariyta hark'an",
+	'antispoof-conflict-top' => '"$1" nisqa sutiqa {{PLURAL:$2|kay kachkaqña rakiqunapman|kay $2 kachkaqña rakiqunakunapman}} nisyu kaqllam kachkan:',
+	'antispoof-conflict-bottom' => 'Ama hina kaspa, huk hina sutita akllakuy.',
 	'antispoof-name-illegal' => 'Nisqayki "$1" sutiqa manam saqillasqachu, suti pantachiyta hark\'anapaq: "$2". Ama hina kaspa, huk sutita akllay.',
 	'antispoof-badtype' => 'Willa layaqa manam allinchu',
 	'antispoof-empty' => "Ch'usaq qillqa",
@@ -1566,6 +1568,8 @@ $messages['qu'] = array(
 	'antispoof-noletters' => 'Manam ima sanampayuqchu',
 	'antispoof-mixedscripts' => 'Mana allin chaqrusqa qillqayuq',
 	'antispoof-tooshort' => 'Kanunikuchasqa sutiqa nisyu pisillam',
+	'antispoof-ignore' => 'Kaqlla kay llanchiyta ama ruraychu',
+	'right-override-antispoof' => 'Kaqlla kay llanchiyta ama atichiychu',
 );
 
 /** Romanian (Română)
