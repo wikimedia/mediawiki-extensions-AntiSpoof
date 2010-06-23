@@ -1573,6 +1573,7 @@ $messages['qu'] = array(
 );
 
 /** Romanian (Română)
+ * @author Cin
  * @author KlaudiuMihaila
  * @author Minisarm
  * @author Stelistcristi
@@ -1582,7 +1583,7 @@ $messages['ro'] = array(
 	'antispoof-conflict-bottom' => 'Vă rugăm să alegeți alt nume.',
 	'antispoof-name-illegal' => 'Numele „$1” nu este permis pentru a preveni confuziile cu numele: $2. Vă rog alegeți alt nume de utilizator.',
 	'antispoof-badtype' => 'Tip de date greșit',
-	'antispoof-empty' => 'Şir vid',
+	'antispoof-empty' => 'Şir gol',
 	'antispoof-blacklisted' => 'Conține un caracter interzis',
 	'antispoof-noletters' => 'Nu conține nici o literă',
 	'antispoof-ignore' => 'Nu verifica existența unor nume de cont similare',
