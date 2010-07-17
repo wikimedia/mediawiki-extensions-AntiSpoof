@@ -374,11 +374,14 @@ $messages['cy'] = array(
 );
 
 /** Danish (Dansk)
+ * @author Froztbyte
  * @author Jan Friberg
  * @author Jon Harald Søby
  */
 $messages['da'] = array(
 	'antispoof-desc' => 'Blokerer for oprettelse af konti med blandede tegnsæt, forvirrende eller lignende brugernavne',
+	'antispoof-conflict-top' => 'Navnet "$1" er for ens med {{PLURAL:$2|den eksisterende konto|de følgende $2 konti}}:',
+	'antispoof-conflict-bottom' => 'Vælg et andet navn.',
 	'antispoof-name-illegal' => 'Navnet "$1" er ikke tilladt for at forhindre forvirrende eller efterlignede brugernavne: $2. Vælg venligst et andet navn.',
 	'antispoof-badtype' => 'Forkert datatype',
 	'antispoof-empty' => 'Tom streng',
@@ -388,6 +391,7 @@ $messages['da'] = array(
 	'antispoof-noletters' => 'Indeholder ikke bogstaver',
 	'antispoof-mixedscripts' => 'Indeholder inkompatible, blandede tegnsæt',
 	'antispoof-tooshort' => 'Navnet er for kort',
+	'antispoof-ignore' => 'Ignorer spoofing kontrol',
 	'right-override-antispoof' => 'Omgå kontrollerne af brugernavne',
 );
 
