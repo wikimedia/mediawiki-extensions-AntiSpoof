@@ -70,7 +70,7 @@ class SpoofUser {
 	 * for later comparison of future names...
 	 */
 	public function record() {
-		return self::batchRecord( array( $this ) );
+		return $this->batchRecord( array( $this ) );
 	}
 
 	private function insertFields() {
