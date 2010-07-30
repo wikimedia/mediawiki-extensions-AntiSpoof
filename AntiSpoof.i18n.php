@@ -896,6 +896,13 @@ $messages['id'] = array(
 	'right-override-antispoof' => 'Mengabaikan pengecekan penipuan nama pengguna',
 );
 
+/** Igbo (Igbo)
+ * @author Ukabia
+ */
+$messages['ig'] = array(
+	'antispoof-empty' => 'Cháfù érírí',
+);
+
 /** Icelandic (Íslenska)
  * @author S.Örvarr.S
  * @author Spacebirdy
