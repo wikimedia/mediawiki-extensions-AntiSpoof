@@ -70,7 +70,7 @@ class SpoofUser {
 	 * for later comparison of future names...
 	 */
 	public function record() {
-		return $this->batchRecord( array( $this ) );
+		return self::batchRecord( array( $this ) );
 	}
 
 	private function insertFields() {
@@ -86,7 +86,7 @@ class SpoofUser {
 	 * Insert a batch of spoof normalization records into the database.
 	 * @param $items array of SpoofUser
 	 */
-	public function batchRecord( $items ) {
+	public static function batchRecord( $items ) {
 		if ( count( $items ) ) {
 			$fields = array();
 			foreach ( $items as $item ) {
