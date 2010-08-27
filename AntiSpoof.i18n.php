@@ -1739,9 +1739,10 @@ $messages['sr-ec'] = array(
 
 /** Serbian Latin ekavian (Srpski (latinica))
  * @author Michaello
+ * @author Жељко Тодоровић
  */
 $messages['sr-el'] = array(
-	'antispoof-desc' => 'Onemogućava stvaranje naloga s mešanim pismima, zbunjujućim i sličnim saradničkim imenima.',
+	'antispoof-desc' => 'Onemogućava stvaranje naloga s mešanim pismima, zbunjujućim i sličnim korisničkim imenima.',
 	'antispoof-conflict-top' => 'Ime „$1“ je previše slično sa {{PLURAL:$2|imenom postojećeg naloga|imenima sledećih $2 naloga}}:',
 	'antispoof-conflict-bottom' => 'Molimo izaberite drugo ime.',
 	'antispoof-name-illegal' => 'Ime "$1" nije dozvoljeno kako bi se sprečile zabune ili lažiranja korisničkih imena: $2. Molimo izaberite neko drugo ime.',
