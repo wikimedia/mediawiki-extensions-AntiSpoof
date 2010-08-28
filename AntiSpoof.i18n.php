@@ -1488,7 +1488,7 @@ $messages['pl'] = array(
 	'antispoof-mixedscripts' => 'Zawiera przemieszane znaki niezgodnych ze sobą pism',
 	'antispoof-tooshort' => 'Zbyt krótka nazwa użytkownika',
 	'antispoof-ignore' => 'Ignoruj podobieństwo do istniejących nazw',
-	'right-override-antispoof' => 'Wyłącza ograniczenia nakładane przez rozszerzenie AntiSpoof, które blokuje zakładanie kont o podobnych nazwach do już istniejących',
+	'right-override-antispoof' => 'Brak ograniczenia przed zakładaniem kont o podobnych nazwach do już istniejących',
 );
 
 /** Piedmontese (Piemontèis)
