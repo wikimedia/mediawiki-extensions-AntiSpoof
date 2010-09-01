@@ -651,7 +651,7 @@ $messages['frc'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
-	'antispoof-desc' => 'Bloque la crèacion des comptos qu’utilisont un mouél d’ècritures avouéc des noms d’utilisator semblâblos ou ben povent prétar a confusion.',
+	'antispoof-desc' => 'Dèfend la crèacion de comptos qu’utilisont un mouél d’ècritures avouéc des noms d’utilisator semblâblos, ou ben que pôvont prétar a confusion.',
 	'antispoof-conflict-bottom' => 'Volyéd chouèsir un ôtro nom.',
 	'antispoof-name-illegal' => 'Lo nom d’utilisator « $1 » est pas ôtorisâ por empachiér de confondre ou ben d’utilisar lo nom « $2 ».
 Volyéd chouèsir un ôtro nom.',
