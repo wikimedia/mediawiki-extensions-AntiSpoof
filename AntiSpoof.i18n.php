@@ -1135,7 +1135,7 @@ $messages['la'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
-	'antispoof-desc' => "Verhënnert d'Opmaache vu Benotzerkonte matt gemeschten Zeechesätz, mat bizare Benotzernimm oder mat Benotzernimm déi zu Verwiesselunge féiere kéinten.",
+	'antispoof-desc' => "Verhënnert d'Opmaache vu Benotzerkonte mat gemëschten Zeechesätz, mat gelungene Benotzernimm oder mat Benotzernimm déi zu Verwiesselunge féiere kéinten.",
 	'antispoof-conflict-top' => 'Den Numm "$1" ass ze ähnlech mat {{PLURAL:$2|dem Benotzerkont|dëse(n) $2 Benotzerkonten}}:',
 	'antispoof-conflict-bottom' => 'Wielt w.e.g. en aneren Numm.',
 	'antispoof-name-illegal' => 'De gewënschte Benotzernumm "$1" ass net erlaabt. Grond: $2<br />
@@ -1143,9 +1143,9 @@ Sicht iech w.e.g. een anere Benotzernumm.',
 	'antispoof-badtype' => 'Ongültegt Fichiers-Format (bad data type)',
 	'antispoof-empty' => 'Eidelt Feld',
 	'antispoof-blacklisted' => 'Et si verbueden Zeechen (Caractèren) dran.',
-	'antispoof-combining' => 'Fängt mat engem Kombinatiounszeechen un.',
-	'antispoof-unassigned' => 'Et sinn nët zougeuerdent oder onerwéinschten Zeechen (Caractèren) dran.',
-	'antispoof-noletters' => 'Et si keng Buschstawen dran.',
+	'antispoof-combining' => 'Fänkt mat engem Kombinatiounszeechen un.',
+	'antispoof-unassigned' => 'Et sinn net zougeuerdnet oder onerwënschten Zeechen (Caractèren) dran.',
+	'antispoof-noletters' => 'Et si keng Buschtawen dran.',
 	'antispoof-mixedscripts' => 'Et si gemëschte Skripten dran, déi net kompatibel sinn',
 	'antispoof-tooshort' => 'De kanoniséierten Numm ass ze kuerz.',
 	'antispoof-ignore' => 'Keng Kontroll op ähnlech Benotzernimm',
