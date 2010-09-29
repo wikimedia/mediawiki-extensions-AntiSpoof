@@ -245,6 +245,13 @@ $messages['bg'] = array(
 	'antispoof-tooshort' => 'Каноничното име е твърде кратко',
 );
 
+/** Bihari (भोजपुरी)
+ * @author Ganesh
+ */
+$messages['bh'] = array(
+	'antispoof-conflict-bottom' => 'कृपया कउनो दुसर नाम चुनीं',
+);
+
 /** Bengali (বাংলা)
  * @author Bellayet
  * @author Zaheen
