@@ -670,6 +670,8 @@ Volyéd chouèsir un ôtro nom.',
 	'antispoof-noletters' => 'Contint gins de lètra.',
 	'antispoof-mixedscripts' => 'Contint un mouél d’ècritures que vont pas avouéc.',
 	'antispoof-tooshort' => 'Nom canonico trop côrt',
+	'antispoof-ignore' => 'Ignorar los contrôlos de frôda',
+	'right-override-antispoof' => 'Ignorar los contrôlos de frôda',
 );
 
 /** Galician (Galego)
