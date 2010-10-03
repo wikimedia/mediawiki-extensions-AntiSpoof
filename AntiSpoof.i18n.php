@@ -1830,6 +1830,14 @@ $messages['sv'] = array(
 	'right-override-antispoof' => 'Slipper kontroller mot förvirrande användarnamn',
 );
 
+/** Tamil (தமிழ்)
+ * @author Karthi.dr
+ */
+$messages['ta'] = array(
+	'antispoof-badtype' => 'மோசமான தரவு வகை',
+	'antispoof-noletters' => 'எந்த எழுத்தையும் கொண்டிருக்கவில்லை',
+);
+
 /** Telugu (తెలుగు)
  * @author Mpradeep
  * @author Veeven
