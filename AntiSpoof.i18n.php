@@ -1832,9 +1832,11 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Karthi.dr
+ * @author TRYPPN
  */
 $messages['ta'] = array(
 	'antispoof-badtype' => 'மோசமான தரவு வகை',
+	'antispoof-empty' => 'வெற்றுச் சொற்றொடர்',
 	'antispoof-noletters' => 'எந்த எழுத்தையும் கொண்டிருக்கவில்லை',
 );
 
