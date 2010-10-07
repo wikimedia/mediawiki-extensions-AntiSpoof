@@ -1837,6 +1837,7 @@ $messages['sv'] = array(
 $messages['ta'] = array(
 	'antispoof-badtype' => 'மோசமான தரவு வகை',
 	'antispoof-empty' => 'வெற்றுச் சொற்றொடர்',
+	'antispoof-blacklisted' => 'தடுக்கப்பட்ட எழுத்து உள்ளது',
 	'antispoof-noletters' => 'எந்த எழுத்தையும் கொண்டிருக்கவில்லை',
 );
 
