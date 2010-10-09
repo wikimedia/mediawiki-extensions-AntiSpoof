@@ -46,10 +46,10 @@ function asUpdateSchema( $updater = null ) {
 		global $wgExtNewTables, $wgDBtype;
 		$wgExtNewTables[] = array(
 			'spoofuser',
-			dirname( __FILE__ ) . '/sql/patch-antispoof.' . $wgDBtype . '.sql' );
+			dirname( __FILE__ ) . '/sql/patch-antispoof.' . $wgDBtype . '.sql', true );
 	} else {
 		$updater->addExtensionUpdate( array( 'addTable', 'spoofuser',
-			dirname( __FILE__ ) . '/sql/patch-antispoof.' . $updater->getDB()->getType() . '.sql' ) );
+			dirname( __FILE__ ) . '/sql/patch-antispoof.' . $updater->getDB()->getType() . '.sql', true ) );
 	}
 	return true;
 }
