@@ -102,4 +102,17 @@ class SpoofUser {
 			return false;
 		}
 	}
+	
+	public function update( $oldName ) {
+
+		$dbw = wfGetDB( DB_MASTER );
+
+		if( $this->record() ) {
+			$dbw->delete(
+				'spoofuser',
+				array( 'su_name' => $oldName ),
+				__METHOD__
+			);
+		}
+	}
 }

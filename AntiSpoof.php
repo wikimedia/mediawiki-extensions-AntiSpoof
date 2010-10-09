@@ -40,6 +40,7 @@ $wgHooks['LoadExtensionSchemaUpdates'][] = 'asUpdateSchema';
 $wgHooks['AbortNewAccount'][] = 'asAbortNewAccountHook';
 $wgHooks['UserCreateForm'][] = 'asUserCreateFormHook';
 $wgHooks['AddNewAccount'][] = 'asAddNewAccountHook';
+$wgHooks['RenameUserComplete'][] = 'asAddRenameUserHook';
 
 function asUpdateSchema( $updater = null ) {
 	if ( $updater === null ) {
@@ -128,5 +129,14 @@ function asUserCreateFormHook( &$template ) {
 function asAddNewAccountHook( $user ) {
 	$spoof = new SpoofUser( $user->getName() );
 	$spoof->record();
+	return true;
+}
+
+/**
+ * On rename, remove the old entry and add the new
+ */
+function asAddRenameUserHook( $uid, $oldName, $newName ) {
+	$spoof = new SpoofUser( $newName );
+	$spoof->update( $oldName );
 	return true;
 }
