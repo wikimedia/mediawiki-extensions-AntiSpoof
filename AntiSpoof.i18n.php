@@ -1654,6 +1654,7 @@ $messages['rue'] = array(
 	'antispoof-blacklisted' => 'Обсягує недоволеный сімбол',
 	'antispoof-combining' => 'Зачінать комбінуючім діакрітічным сімболом',
 	'antispoof-unassigned' => 'Обсягує невызначеный або непідпорованый знак',
+	'antispoof-noletters' => 'Не обсягує жадну літеру',
 	'antispoof-mixedscripts' => 'Обсягує недоволену комбінацію тіпів писма',
 	'antispoof-tooshort' => 'Мено є по нормалізації дуже курте',
 );
