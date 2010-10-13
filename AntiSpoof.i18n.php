@@ -1854,6 +1854,7 @@ $messages['sv'] = array(
  * @author TRYPPN
  */
 $messages['ta'] = array(
+	'antispoof-conflict-bottom' => 'தயவு செய்து மற்றொரு பெயரைத் தேர்ந்தெடுக்கவும்.',
 	'antispoof-badtype' => 'மோசமான தரவு வகை',
 	'antispoof-empty' => 'வெற்றுச் சொற்றொடர்',
 	'antispoof-blacklisted' => 'தடுக்கப்பட்ட எழுத்து உள்ளது',
