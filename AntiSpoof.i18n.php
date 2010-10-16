@@ -1868,6 +1868,7 @@ $messages['ta'] = array(
  */
 $messages['te'] = array(
 	'antispoof-desc' => 'మిశ్రమ లిపులతో, అయోమయపు మరియు సామీప్యపు పేర్లతో ఖాతాలను సృష్టించడాన్ని నిరోధిస్తుంది',
+	'antispoof-conflict-top' => '"$1" అన్న పేరు {{PLURAL:$2|ఈ ప్రస్తుత ఖాతాకి|ఈ $2 ఖాతాలకు}} చాలా దగ్గరగా ఉంది:',
 	'antispoof-conflict-bottom' => 'దయచేసి మరో పేరుని ఎంచుకోండి.',
 	'antispoof-name-illegal' => '"$1" అనే పేరును అనుమతించము; అయోమయాన్ని, ఎగతాళి చేయడాన్ని నివారించేందుకు: $2. దయచేసి మరో పేరును ఎంచుకోండి.',
 	'antispoof-badtype' => 'తప్పుడు డాటా రకం',
@@ -2113,13 +2114,14 @@ $messages['zea'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Gzdavidwong
+ * @author Jimmy xu wrk
  * @author Liangent
  * @author PhiLiP
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'antispoof-desc' => '禁止创建用户名使用混合文字、容易混淆或与已存在用户名过于相似的帐户',
-	'antispoof-conflict-top' => '用户名“$1”与下列账户过于相似：',
+	'antispoof-conflict-top' => '用户名“$1”与{{PLURAL:$2|下列账户|下列 $2 个账户}}过于相似：',
 	'antispoof-conflict-bottom' => '请选择其他名称。',
 	'antispoof-name-illegal' => '为了防止混淆或欺诈性使用用户名“$2”，用户名“$1”已被禁止使用。请使用其他用户名。',
 	'antispoof-badtype' => '错误的数据类型',
