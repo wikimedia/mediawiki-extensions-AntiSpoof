@@ -551,6 +551,7 @@ $messages['et'] = array(
 	'antispoof-conflict-bottom' => 'Palun vali teine nimi.',
 	'antispoof-name-illegal' => 'Nimi "$1" ei ole lubatud, et vältida eksitavaid või pilavaid kasutajanimesid. Põhjus: $2<br />
 Palun vali teine nimi.',
+	'antispoof-badtype' => 'Halb andmetüüp',
 	'antispoof-blacklisted' => 'Sisaldab mustas nimekirjas olevat märki',
 	'antispoof-noletters' => 'Ei sisalda ühtegi tähte',
 	'antispoof-mixedscripts' => 'Sisaldab ühildumatuid kirjasüsteeme',
@@ -1599,14 +1600,18 @@ $messages['qu'] = array(
  * @author KlaudiuMihaila
  * @author Minisarm
  * @author Stelistcristi
+ * @author Strainu
  */
 $messages['ro'] = array(
+	'antispoof-desc' => 'Blochează crearea de conturi cu nume de utilizator cu LiTeRe AmEsTeCate, confuzante sau similare',
 	'antispoof-conflict-top' => 'Numele „$1” este prea asemănător cu {{PLURAL:$2|următorul cont deja existent|următoarele $2 conturi}}:',
 	'antispoof-conflict-bottom' => 'Vă rugăm să alegeți alt nume.',
 	'antispoof-name-illegal' => 'Numele „$1” nu este permis pentru a preveni confuziile cu numele: $2. Vă rog alegeți alt nume de utilizator.',
 	'antispoof-badtype' => 'Tip de date greșit',
 	'antispoof-empty' => 'Şir gol',
 	'antispoof-blacklisted' => 'Conține un caracter interzis',
+	'antispoof-combining' => 'Începe cu marcajul de combinare',
+	'antispoof-unassigned' => 'Conține un caracter neatribuit sau învechit',
 	'antispoof-noletters' => 'Nu conține nici o literă',
 	'antispoof-ignore' => 'Nu verifica existența unor nume de cont similare',
 	'right-override-antispoof' => 'Asuprește verificările spoofing',
@@ -1616,6 +1621,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'antispoof-badtype' => 'Tipe de date errate',
 	'antispoof-empty' => 'stringa vacande',
 );
 
@@ -1657,6 +1663,8 @@ $messages['rue'] = array(
 	'antispoof-noletters' => 'Не обсягує жадну літеру',
 	'antispoof-mixedscripts' => 'Обсягує недоволену комбінацію тіпів писма',
 	'antispoof-tooshort' => 'Мено є по нормалізації дуже курте',
+	'antispoof-ignore' => 'Іґноровати перевіркы на ошалюючі імена',
+	'right-override-antispoof' => 'Іґнорованя перевірок на подобны імена',
 );
 
 /** Yakut (Саха тыла)
@@ -2078,6 +2086,13 @@ $messages['yi'] = array(
 	'antispoof-empty' => 'ליידיג שנירל',
 	'antispoof-blacklisted' => "כולל א געאסר'טן צייכן",
 	'antispoof-noletters' => 'אַנטהאַלט ניט קײַן בוכשטאַבן.',
+);
+
+/** Yoruba (Yorùbá)
+ * @author Demmy
+ */
+$messages['yo'] = array(
+	'antispoof-badtype' => 'Irú dátà burúkú',
 );
 
 /** Cantonese (粵語) */
