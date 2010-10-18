@@ -1208,6 +1208,13 @@ $messages['lt'] = array(
 	'antispoof-tooshort' => 'Kanonizuotas vardas per trumpas',
 );
 
+/** Latvian (Latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'antispoof-badtype' => 'Nederīgs datu tips',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
