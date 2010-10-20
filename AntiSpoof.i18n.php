@@ -2088,6 +2088,7 @@ $messages['vo'] = array(
  */
 $messages['yi'] = array(
 	'antispoof-desc' => 'בלאקירט שאפֿן קאנטעס מיט געמישטע שריפֿטן, פֿארפלאנטערטע און ענלעכע באניצער נעמען',
+	'antispoof-conflict-top' => 'דער נאָמען "$1" איז צו ענלעך צו {{PLURAL:$2|דער עקזיסטירנטער קאנטע|די פֿאלגנדע $2 קאנטעס}}:',
 	'antispoof-conflict-bottom' => 'ביטע קלויבט אויס אן אנדער נאָמען.',
 	'antispoof-badtype' => 'שלעכטער דאַטן טיפ',
 	'antispoof-empty' => 'ליידיג שנירל',
