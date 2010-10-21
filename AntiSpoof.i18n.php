@@ -1213,6 +1213,7 @@ $messages['lt'] = array(
  */
 $messages['lv'] = array(
 	'antispoof-badtype' => 'Nederīgs datu tips',
+	'antispoof-empty' => 'Tukša virkne',
 );
 
 /** Macedonian (Македонски)
@@ -1626,10 +1627,17 @@ $messages['ro'] = array(
 
 /** Tarandíne (Tarandíne)
  * @author Joetaras
+ * @author Reder
  */
 $messages['roa-tara'] = array(
 	'antispoof-badtype' => 'Tipe de date errate',
 	'antispoof-empty' => 'stringa vacande',
+	'antispoof-blacklisted' => "Condène carattere jndr'à liste gnure",
+	'antispoof-combining' => "Accumenze cu 'nu marche combinate",
+	'antispoof-unassigned' => 'Condène carattere non assignate o deprecate',
+	'antispoof-noletters' => 'Non ge condène nisciune lettere',
+	'antispoof-mixedscripts' => 'Condène script miste incompatibbele',
+	'antispoof-tooshort' => 'Canonicizze nome assaje piccenne',
 );
 
 /** Russian (Русский)
@@ -1720,7 +1728,7 @@ $messages['scn'] = array(
  * @author Helix84
  */
 $messages['sk'] = array(
-	'antispoof-desc' => 'Blokuje tvorbu účtov s názvami obsahujúcimi viacero druhov písma, mätúcimi alebo podobnými existujúcim názvom',
+	'antispoof-desc' => 'Blokuje tvorbu účtov so zmiešanými písmami, mätúce a podobné mená.',
 	'antispoof-conflict-top' => 'Meno „$1” je príliš podobné {{PLURAL:$2|existujúcemu účtu|nasledovným $2 účtom}}:',
 	'antispoof-conflict-bottom' => 'Prosím, vyberte si iné meno.',
 	'antispoof-name-illegal' => 'Meno „$1“ nie je povolené, aby sa zabránilo náhodnému alebo zámernému pomýleniu mien používateľov: $2. Zvoľte si prosím iné meno.',
@@ -2100,7 +2108,12 @@ $messages['yi'] = array(
  * @author Demmy
  */
 $messages['yo'] = array(
+	'antispoof-conflict-top' => "Orúkọ ''$1'' jọ {{PLURAL:$2|àpamọ́ tó wà yìí|àwọn àpamọ́ $2 wọ̀nyí}} jù:",
+	'antispoof-conflict-bottom' => 'Ẹ jọ̀wọ́ ẹ yan orúkọ míràn.',
+	'antispoof-name-illegal' => "Orúkọ ''$1'' kò ṣe é gbà ní àyè láti dínà ìdojúrú tàbí ìtànjẹ orúkọ oníṣe: $2.
+Ẹ jọ̀wọ́ ẹ yan orúkọ míràn.",
 	'antispoof-badtype' => 'Irú dátà burúkú',
+	'antispoof-noletters' => 'Kò ní lẹ́tà kankan nínú',
 );
 
 /** Cantonese (粵語) */
