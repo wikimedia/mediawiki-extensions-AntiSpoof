@@ -121,6 +121,13 @@ $messages['ar'] = array(
 	'right-override-antispoof' => 'تجاوز التحقق من سبوفينج',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'antispoof-noletters' => 'ܠܐ ܚܒܫ ܐܬܘܬܐ ܡܕܡ',
+);
+
 /** Egyptian Spoken Arabic (مصرى)
  * @author Ghaly
  * @author Meno25
@@ -170,6 +177,27 @@ $messages['avk'] = array(
 	'antispoof-badtype' => 'Origordaj',
 	'antispoof-empty' => 'Vlardafa roda',
 	'antispoof-noletters' => 'Va mek eltay ruldar',
+);
+
+/** Bashkir (Башҡорт)
+ * @author Assele
+ */
+$messages['ba'] = array(
+	'antispoof-desc' => 'Төрлө яҙма системаларының хәрефтәренән торған, яңылыштырырлыҡ һәм башҡа ҡатнашыусы исемдәренән оҡшаш исемле иҫәп яҙмаларҙы булдырыуҙы тыя.',
+	'antispoof-conflict-top' => '"$1" исеме түбәндәге {{PLURAL:$2|иҫәп яҙмаһына|$2 иҫәп яҙмаһына }} бигерәк оҡшаш:',
+	'antispoof-conflict-bottom' => 'Зинһар, башҡа исем һайлағыҙ.',
+	'antispoof-name-illegal' => '"$1" исемен ҡүлланыу түбәндәге оҡшаш исемдәр менән бутамау өсөн тыйылған: $2.
+Зинһар, башҡа исем һайлағыҙ.',
+	'antispoof-badtype' => 'Мәғлүмәт төрө дөрөҫ түгел',
+	'antispoof-empty' => 'Буш юл',
+	'antispoof-blacklisted' => 'Тыйылған хәрефтәр исемлегенән хәреф бар.',
+	'antispoof-combining' => 'Берләштереү билдәһе менән башлана',
+	'antispoof-unassigned' => 'Билдәһеҙ йәки рөхсәт ителмәгән хәреф бар',
+	'antispoof-noletters' => 'Бер хәреф тә юҡ',
+	'antispoof-mixedscripts' => 'Берләштереү мөмкин булмаған яҙма системаларының хәрефтәре бар',
+	'antispoof-tooshort' => 'Ҡанунлаштырылған исем бигерәк ҡыҫҡа',
+	'antispoof-ignore' => 'Оҡшаш исемдәргә тикшереүҙе иғтибарға алмаҫҡа',
+	'right-override-antispoof' => 'Оҡшаш исемдәргә тикшереүҙе иғтибарһыҙ ҡалдырыу',
 );
 
 /** Southern Balochi (بلوچی مکرانی)
@@ -1216,6 +1244,21 @@ $messages['lv'] = array(
 	'antispoof-empty' => 'Tukša virkne',
 );
 
+/** Malagasy (Malagasy)
+ * @author Jagwar
+ */
+$messages['mg'] = array(
+	'antispoof-desc' => 'Manakana ny fanokafana kaonty miaraka amina anaram-pikambana mitovy, mampiasa fomba fanoratana samihafa, na mety azo afangaron.',
+	'antispoof-name-illegal' => 'Tsy mahazo alalana ny anaram-pikambana "$1" noho ny fanakekezany amin\'ny anarana "$2".
+Misafidia anarana hafa.',
+	'antispoof-badtype' => 'Tsy izy ny karazana fampahalalàna',
+	'antispoof-empty' => 'fitohitohizan-tsoratra (string) foàna',
+	'antispoof-blacklisted' => 'Misy tarehintsoratra voarara',
+	'antispoof-combining' => 'Manomboka amina mari-pitambatambarana (marque combinatoire)',
+	'antispoof-noletters' => 'Tsy misy tarehintsoratra',
+	'antispoof-mixedscripts' => 'Misy endri-tsoratra maro samihafa tsy zaka',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
@@ -1630,6 +1673,7 @@ $messages['ro'] = array(
  * @author Reder
  */
 $messages['roa-tara'] = array(
+	'antispoof-conflict-bottom' => "Se preghe de scacchià n'otre nome.",
 	'antispoof-badtype' => 'Tipe de date errate',
 	'antispoof-empty' => 'stringa vacande',
 	'antispoof-blacklisted' => "Condène carattere jndr'à liste gnure",
