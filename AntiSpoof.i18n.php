@@ -1773,6 +1773,27 @@ $messages['scn'] = array(
 	'right-override-antispoof' => 'Trascura li cuntrolli spoofing',
 );
 
+/** Serbo-Croatian (Srpskohrvatski / Српскохрватски)
+ * @author OC Ripper
+ */
+$messages['sh'] = array(
+	'antispoof-desc' => 'Blokira pravljenje računa sa miješanim slovima, zbunjujućim i sličnim korisničkim imenima',
+	'antispoof-conflict-top' => 'Ime "$1" je previše slično {{PLURAL:$2|slijedećem postojećem računu|sa slijedeća $2 postojeća  računa|sa slijedećih $2 postojećih računa}}:',
+	'antispoof-conflict-bottom' => 'Molimo izaberite drugo ime.',
+	'antispoof-name-illegal' => 'Ime "$1" nije dopušteno da bi se izbjegla zbunjujuća ili slična korisnička imena: $2.
+Molimo Vas da odaberete drugo ime.',
+	'antispoof-badtype' => 'Krivi tip podataka',
+	'antispoof-empty' => 'Prazan unos',
+	'antispoof-blacklisted' => 'Sadrži nedozvoljeno slovo (karakter)',
+	'antispoof-combining' => 'Počinje sa znakom kombinacije',
+	'antispoof-unassigned' => 'Sadrži nedodijeljen ili zastarjeli znak (karakter)',
+	'antispoof-noletters' => 'Ne sadrži ni jedno slovo',
+	'antispoof-mixedscripts' => 'Sadrži neusklađena miješana pisma.',
+	'antispoof-tooshort' => 'Normalizirano ime je prekratko',
+	'antispoof-ignore' => 'Ignoriraj provjeru nevaljanih imena (antispoof)',
+	'right-override-antispoof' => 'Zaobilaženje provjera korisničkog imena',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
