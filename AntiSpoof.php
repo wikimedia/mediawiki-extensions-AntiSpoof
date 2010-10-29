@@ -113,7 +113,6 @@ function asAbortNewAccountHook( $user, &$message ) {
 function asUserCreateFormHook( &$template ) {
 	global $wgRequest, $wgAntiSpoofAccounts, $wgUser;
 
-	wfLoadExtensionMessages( 'AntiSpoof' );
 
 	if ( $wgAntiSpoofAccounts && $wgUser->isAllowed( 'override-antispoof' ) )
 		$template->addInputItem( 'wpIgnoreAntiSpoof',
