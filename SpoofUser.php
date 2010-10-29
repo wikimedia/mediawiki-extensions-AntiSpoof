@@ -59,7 +59,7 @@ class SpoofUser {
 			) );
 
 		$spoofs = array();
-		while ( $row = $dbr->fetchObject( $spoofedUsers ) ) {
+		foreach ( $spoofedUsers as $row ) {
 			array_push( $spoofs, $row->user_name );
 		}
 		return $spoofs;

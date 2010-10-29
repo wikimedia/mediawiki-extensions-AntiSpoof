@@ -12,7 +12,7 @@ $batchSize = 1000;
 
 $result = $dbw->select( 'user', 'user_name', null, 'batchAntiSpoof.php' );
 $n = 0;
-while ( $row = $dbw->fetchObject( $result ) ) {
+foreach( $res as $row ) {
 	if ( $n++ % $batchSize == 0 ) {
 		echo "$wgDBname $n\n";
 	}
