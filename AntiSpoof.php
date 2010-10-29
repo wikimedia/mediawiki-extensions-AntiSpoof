@@ -63,7 +63,6 @@ function asUpdateSchema( $updater = null ) {
  */
 function asAbortNewAccountHook( $user, &$message ) {
 	global $wgAntiSpoofAccounts, $wgUser, $wgRequest;
-	wfLoadExtensionMessages( 'AntiSpoof' );
 
 	if ( !$wgAntiSpoofAccounts ) {
 		$mode = 'LOGGING ';
