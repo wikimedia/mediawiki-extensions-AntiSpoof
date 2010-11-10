@@ -59,6 +59,7 @@ $sp = '[\ \t]';
 $lineNum = 0;
 $setsByChar = array();
 $sets = array();
+$exitStatus = 0;
 foreach ( $lines as $line ) {
 	++$lineNum;
 	$line = trim( $line );
@@ -73,6 +74,7 @@ foreach ( $lines as $line ) {
 "/^(?P<hexleft> [A-F0-9]+) $sp+ (?P<charleft> .+?) $sp+ => $sp+ (?:(?P<hexright> [A-F0-9]+) $sp+|) (?P<charright> .+?) $sp* (?: \#.*|) $ /x", $line, $m ) )
 	{
 		print "Error: invalid entry at line $lineNum: $line\n";
+		$exitStatus = 1;
 		continue;
 	}
 	$error = false;
@@ -101,6 +103,7 @@ foreach ( $lines as $line ) {
 		$error = true;
 	}
 	if ( $error ) {
+		$exitStatus = 1;
 		continue;
 	}
 
@@ -139,3 +142,6 @@ fwrite( $serializedFile, serialize( $codepointMap ) );
 fclose( $setsFile );
 fclose( $outputFile );
 fclose( $serializedFile );
+
+exit( $exitStatus );
+
