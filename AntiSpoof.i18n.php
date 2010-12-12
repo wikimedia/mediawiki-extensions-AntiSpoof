@@ -798,10 +798,12 @@ $messages['he'] = array(
 
 /** Hindi (हिन्दी)
  * @author Kaustubh
+ * @author Shyam123.ckp
  */
 $messages['hi'] = array(
 	'antispoof-desc' => 'मिश्र भाषा और संभ्रम पैदा करनेवाली तथा एकसरीके सदस्यनाम के इस्तेमाल पर रोक हैं।',
-	'antispoof-name-illegal' => '"$1" यह नाम इस्तेमाल करने से रोका गया हैं क्योंकी यह अन्य नामोंसे मिलताजुलता हैं। कॄपया दूसरे नाम का प्रयोग करें।',
+	'antispoof-conflict-top' => 'धोखा-संघर्ष टॉप विरोधी',
+	'antispoof-name-illegal' => 'धोखा नाम,अवैध विरोधी',
 	'antispoof-badtype' => 'गलत डाटा प्रकार',
 	'antispoof-empty' => 'खाली स्ट्रिंग',
 	'antispoof-blacklisted' => 'इसमें ब्लैकलिस्टेड अक्षर हैं',
