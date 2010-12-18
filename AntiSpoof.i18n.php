@@ -1858,6 +1858,26 @@ Prosimo, izberite drugo ime.',
 	'right-override-antispoof' => 'Preskoči preverjanja prevar',
 );
 
+/** Albanian (Shqip)
+ * @author Olsi
+ */
+$messages['sq'] = array(
+	'antispoof-desc' => 'Bllokon krijimin e llogarive me shkrime të përziera, duke çrregulluar edhe emrat e ngjashëm të përdorusve',
+	'antispoof-conflict-top' => 'Emri "$1" është shumë i ngjashëm me {{PLURAL:$2||llogarinë ekzistuese|me $2 llogaritë e mëposhtme}}:',
+	'antispoof-conflict-bottom' => 'Ju lutemi zgjidhni një emër tjetër.',
+	'antispoof-name-illegal' => 'Emri "$1" nuk është i lejuar për të shmangur emrat e ngatërrueshëm apo të rremë: $2.',
+	'antispoof-badtype' => 'Shtypje e keqe e të dhënave',
+	'antispoof-empty' => 'Fushë boshe',
+	'antispoof-blacklisted' => 'Përmban karaktere të palejuara',
+	'antispoof-combining' => 'Fillon me shenjën e kombinuar',
+	'antispoof-unassigned' => 'Përmban karakter të papërcaktuar ose të palejuar',
+	'antispoof-noletters' => 'Nuk përmban asnjë shkronjë',
+	'antispoof-mixedscripts' => 'Përmban shkrime të përziera të papajtueshme',
+	'antispoof-tooshort' => 'Emri Canonicalized shumë i shkurtër',
+	'antispoof-ignore' => 'Tejkaloni kontrollet për emra të rremë',
+	'right-override-antispoof' => 'Refuzoni kontrollet për emra të rremë',
+);
+
 /** Serbian Cyrillic ekavian (Српски (ћирилица))
  * @author Millosh
  * @author Sasa Stefanovic
