@@ -857,18 +857,20 @@ $messages['hsb'] = array(
 );
 
 /** Haitian (Kreyòl ayisyen)
+ * @author Boukman
  * @author Masterches
  */
 $messages['ht'] = array(
-	'antispoof-desc' => 'Bloke kreyasyon kont ki genyen Eskript ki mikse, ki ap mennen konfizyon oubyen ki genyen menm non',
-	'antispoof-name-illegal' => 'non itilizatè "$1" pa otorize pou anpeche li konfonn aknon "$2" oubyen itilize li. Souple chwazi yon lòt non.',
+	'antispoof-desc' => 'Bloke kreyasyon kont ki genyen diferan alfabèt, ki ka mennen nan konfizyon oubyen ki genyen non itilizatè ki sanble trop',
+	'antispoof-name-illegal' => 'Non itilizatè "$1" pa otorize pou anpeche li konfonn ak non itilizatè: "$2"
+Tanpri chwazi yon lòt non.',
 	'antispoof-badtype' => 'Tip done sa yo move',
 	'antispoof-empty' => 'Chèn vid',
 	'antispoof-blacklisted' => 'Kontni yon karaktè ki pa otorize',
 	'antispoof-combining' => 'Ap koumanse avèk yon mak konbine',
 	'antispoof-unassigned' => 'Kontni yon karaktè ki pa asiyen oubyen ki pa itilize ankò',
 	'antispoof-noletters' => 'Pa kontni pyès lèt',
-	'antispoof-mixedscripts' => 'Kontni plizyè eskript ki pa konpatib',
+	'antispoof-mixedscripts' => 'Kontni plizyè alfabèt ki pa konpatib',
 	'antispoof-tooshort' => 'Non kanonik an two kout',
 );
 
