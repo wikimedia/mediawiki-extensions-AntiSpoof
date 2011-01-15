@@ -2290,11 +2290,12 @@ $messages['zh-hans'] = array(
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Gzdavidwong
  * @author Liangent
+ * @author Mark85296341
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
 	'antispoof-desc' => '封鎖以含有程式碼或是容易混淆、與已存在使用者相似的名稱建立使用者',
-	'antispoof-conflict-top' => '名稱「$1」與{{PLURAL:$2|以下戶口|以下$2個戶口}}太相似：',
+	'antispoof-conflict-top' => '名稱「$1」與{{PLURAL:$2|以下用戶|以下$2個用戶}}太相似：',
 	'antispoof-conflict-bottom' => '請選擇其他名稱。',
 	'antispoof-name-illegal' => '使用者名稱"$1"容易與"$2"混淆，已被禁止使用。請使用其他使用者名稱。',
 	'antispoof-badtype' => '錯誤的數據類型',
@@ -2304,7 +2305,7 @@ $messages['zh-hant'] = array(
 	'antispoof-unassigned' => '包含未指定或不再使用的字元',
 	'antispoof-noletters' => '不包含任何字元',
 	'antispoof-mixedscripts' => '包含不相容混合的程式碼',
-	'antispoof-tooshort' => '標準化后的用戶名過短',
+	'antispoof-tooshort' => '標準化後的用戶名過短',
 	'antispoof-ignore' => '略過欺詐檢查',
 	'right-override-antispoof' => '無視欺詐檢查',
 );
