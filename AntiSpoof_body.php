@@ -201,6 +201,7 @@ class AntiSpoof {
 	 * Convert string into array of Unicode code points as integers
 	 */
 	public static function stringToList( $str ) {
+		$ar = array();
 		if ( !preg_match_all( '/./us', $str, $ar ) ) {
 			return array();
 		}
