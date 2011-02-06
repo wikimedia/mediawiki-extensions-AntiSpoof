@@ -360,6 +360,13 @@ $messages['ca'] = array(
 	'right-override-antispoof' => "Evitar el control de noms d'usuari",
 );
 
+/** Chechen (Нохчийн)
+ * @author Sasan700
+ */
+$messages['ce'] = array(
+	'antispoof-ignore' => 'Терго ма йе цхьатерра цlераш йуй хьажарна',
+);
+
 /** Corsican (Corsu) */
 $messages['co'] = array(
 	'antispoof-badtype' => 'Tipu gattivu di dati',
