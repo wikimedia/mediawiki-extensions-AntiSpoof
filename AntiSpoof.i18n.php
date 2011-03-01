@@ -2318,3 +2318,14 @@ $messages['zh-hant'] = array(
 	'right-override-antispoof' => '無視欺詐檢查',
 );
 
+/** Chinese (Hong Kong) (‪中文(香港)‬)
+ * @author Oapbtommy
+ */
+$messages['zh-hk'] = array(
+	'antispoof-conflict-bottom' => '請選擇另一個名稱。',
+	'antispoof-badtype' => '差的數據類型',
+	'antispoof-blacklisted' => '包含了已列入黑名單的字元',
+	'antispoof-combining' => '以結合標記開始',
+	'antispoof-noletters' => '沒有包含任何字母',
+);
+
