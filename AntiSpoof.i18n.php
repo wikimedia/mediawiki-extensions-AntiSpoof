@@ -38,6 +38,13 @@ $messages['qqq'] = array(
 	'right-override-antispoof' => '{{doc-right}}',
 );
 
+/** Dusun Bundu-liwan (Dusun Bundu-liwan)
+ * @author FRANELYA
+ */
+$messages['dtp'] = array(
+	'antispoof-conflict-bottom' => 'Mangai alanai do suai ngaran.',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
