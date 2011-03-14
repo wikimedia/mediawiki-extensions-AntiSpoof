@@ -1435,6 +1435,13 @@ $messages['nds-nl'] = array(
 	'right-override-antispoof' => 'Fopcontroles negeren',
 );
 
+/** Nepali (नेपाली)
+ * @author Bhawani Gautam Rhk
+ */
+$messages['ne'] = array(
+	'antispoof-badtype' => 'अमान्य आँकड़ा प्रकार',
+);
+
 /** Dutch (Nederlands)
  * @author Erwin
  * @author Siebrand
@@ -1608,6 +1615,7 @@ $messages['ps'] = array(
 
 /** Portuguese (Português)
  * @author Brunoy Anastasiya Seryozhenko
+ * @author Hamilton Abreu
  * @author Malafaya
  */
 $messages['pt'] = array(
@@ -1618,7 +1626,7 @@ $messages['pt'] = array(
 	'antispoof-badtype' => 'Formato de dados incorreto',
 	'antispoof-empty' => 'Linha vazia',
 	'antispoof-blacklisted' => 'Contém caracteres proibidos',
-	'antispoof-combining' => 'Inicia com um caractere de combinação',
+	'antispoof-combining' => 'Começa com um carácter de combinação',
 	'antispoof-unassigned' => 'Contém caracteres não reconhecidos ou depreciados',
 	'antispoof-noletters' => 'Não inclui nenhuma letra',
 	'antispoof-mixedscripts' => 'Contém scripts de escrita incompatíveis mesclados',
@@ -1954,7 +1962,7 @@ $messages['stq'] = array(
 	'antispoof-combining' => 'Kombinationsteeken toun Ounfang.',
 	'antispoof-unassigned' => 'Änthaalt nit tou-oardnede of nit wonskede Teekene.',
 	'antispoof-noletters' => 'Änthaalt neen Bouksteeuwe.',
-	'antispoof-mixedscripts' => 'Änthaalt Teekene fon uunglieke Schriftsysteme.',
+	'antispoof-mixedscripts' => 'Änthaalt Teekene fon uunglieke Skriftsysteme.',
 	'antispoof-tooshort' => 'Die kanonisierde Noome is tou kuut.',
 	'antispoof-ignore' => 'Ignorierje Äänelkhaidswröich',
 	'right-override-antispoof' => 'Buute Kraft sätten fon ju Benutsernoome-Äänelkhaidswröige',
