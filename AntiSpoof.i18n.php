@@ -2187,6 +2187,15 @@ Siegli n\'altro nome, par piaser.',
 	'right-override-antispoof' => 'Ignora le verifiche de spoofing',
 );
 
+/** Veps (Vepsan kel')
+ * @author Игорь Бродский
+ */
+$messages['vep'] = array(
+	'antispoof-conflict-bottom' => 'Olgat hüväd, valikat toine nimi.',
+	'antispoof-badtype' => 'Vär andmusidentip',
+	'antispoof-empty' => "Pall'az rivi",
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  * @author Vinhtantran
