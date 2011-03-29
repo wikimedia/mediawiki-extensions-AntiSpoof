@@ -1535,6 +1535,13 @@ $messages['oc'] = array(
 	'right-override-antispoof' => 'Espotís de pseudoverificacions',
 );
 
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Psubhashish
+ */
+$messages['or'] = array(
+	'antispoof-conflict-bottom' => 'ଦୟାକରି ଆଉ ଗୋଟେ ନାଆଁ ବାଛନ୍ତୁ ।',
+);
+
 /** Ossetic (Иронау)
  * @author Amikeco
  */
