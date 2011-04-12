@@ -1544,9 +1544,11 @@ $messages['or'] = array(
 
 /** Ossetic (Иронау)
  * @author Amikeco
+ * @author Amire80
  */
 $messages['os'] = array(
 	'antispoof-empty' => 'Афтид рæнхъ',
+	'antispoof-noletters' => 'Иу дамгъæ дæр нæй',
 );
 
 /** Pangasinan (Pangasinan) */
