@@ -38,13 +38,6 @@ $messages['qqq'] = array(
 	'right-override-antispoof' => '{{doc-right}}',
 );
 
-/** Dusun Bundu-liwan (Dusun Bundu-liwan)
- * @author FRANELYA
- */
-$messages['dtp'] = array(
-	'antispoof-conflict-bottom' => 'Mangai alanai do suai ngaran.',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
@@ -512,6 +505,13 @@ $messages['dsb'] = array(
 	'antispoof-tooshort' => 'Kanonizěrowane mě jo pśekrotko.',
 	'antispoof-ignore' => 'Torjeńsku kontrolu ignorěrowaś',
 	'right-override-antispoof' => 'Kontrole pódobnosći wužywarskich mjenjow pódtłocyś',
+);
+
+/** Dusun Bundu-liwan (Dusun Bundu-liwan)
+ * @author FRANELYA
+ */
+$messages['dtp'] = array(
+	'antispoof-conflict-bottom' => 'Mangai alanai do suai ngaran.',
 );
 
 /** Greek (Ελληνικά)
@@ -1241,8 +1241,11 @@ $messages['lo'] = array(
 	'antispoof-tooshort' => 'ຊື່ຫຍໍ້ສັ້ນໂພດ',
 );
 
-/** Lithuanian (Lietuvių) */
+/** Lithuanian (Lietuvių)
+ * @author Perkunas
+ */
 $messages['lt'] = array(
+	'antispoof-conflict-bottom' => 'Prašome pasirinkti kitą vardą.',
 	'antispoof-name-illegal' => 'Vardas "$1" neleidžiamas, kad būtų apsisaugota nuo apgaulingų ar parodijuotų naudotojų vardų: $2. Prašome pasirinkti kitą vardą.',
 	'antispoof-badtype' => 'Blogas duomenų tipas',
 	'antispoof-empty' => 'Tuščias tekstas',
@@ -1539,6 +1542,7 @@ $messages['oc'] = array(
  * @author Psubhashish
  */
 $messages['or'] = array(
+	'antispoof-desc' => 'ମିଶା-ସ୍କ୍ରିପ୍ଟ, ଭ୍ରମାତ୍ମକ ଓ ଏକା ଇଉଜର ନାଆଁ ତିଆରିକୁ ବନ୍ଦ କରିଥାଏ',
 	'antispoof-conflict-bottom' => 'ଦୟାକରି ଆଉ ଗୋଟେ ନାଆଁ ବାଛନ୍ତୁ ।',
 );
 
