@@ -179,6 +179,13 @@ $messages['avk'] = array(
 	'antispoof-noletters' => 'Va mek eltay ruldar',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Vugar 1981
+ */
+$messages['az'] = array(
+	'antispoof-empty' => 'Boş sətir',
+);
+
 /** Bashkir (Башҡортса)
  * @author Assele
  */
