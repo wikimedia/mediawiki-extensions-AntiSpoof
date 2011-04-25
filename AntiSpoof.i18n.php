@@ -1550,7 +1550,19 @@ $messages['oc'] = array(
  */
 $messages['or'] = array(
 	'antispoof-desc' => 'ମିଶା-ସ୍କ୍ରିପ୍ଟ, ଭ୍ରମାତ୍ମକ ଓ ଏକା ଇଉଜର ନାଆଁ ତିଆରିକୁ ବନ୍ଦ କରିଥାଏ',
+	'antispoof-conflict-top' => '"$1"  ନାଆଁଟି {{PLURAL:$2|ଆଗରୁ ଥିବା ଖାତା|$2 ଖାତାଗୁଡ଼ିକ}} ସହିତ ବହୁତ ସମାନ:',
 	'antispoof-conflict-bottom' => 'ଦୟାକରି ଆଉ ଗୋଟେ ନାଆଁ ବାଛନ୍ତୁ ।',
+	'antispoof-name-illegal' => 'ସନ୍ଦେହ ହେଲାଭଳି ନାଆଁପାଇଁ "$1" ନାଆଁଟିକୁ ଅନୁମତି ଦେଇପାରୁନାହୁଁ: $2 ।
+ଦୟାକରି ଆଉଗୋଟିଏ ନାଆଁ ବାଛନ୍ତୁ ।',
+	'antispoof-badtype' => 'ଖରାପ ତଥ୍ୟ',
+	'antispoof-empty' => 'ଖାଲି ଘର',
+	'antispoof-blacklisted' => 'ଏହା ଭିତରେ ବାରଣ କରାଯାଇଥିବା ନାଆଁ ଅଛି',
+	'antispoof-combining' => 'ମିଶାଇବା ଚିହ୍ନସହ ଆରମ୍ଭ ହୁଏ',
+	'antispoof-unassigned' => 'ଏଥିରେ ଏବେଯାଏଁ ଦିଆ ଯାଇନଥିବା ବା ବାରଣ କରାଯାଇଥିବା ନାଆଁ ଅଛି',
+	'antispoof-noletters' => 'ଏଥିରେ କିଛି ବି ଲେଖା ନାହିଁ',
+	'antispoof-mixedscripts' => 'ଏଥିରେ ମିଶୁନଥିବା ଅଜଣା ଲେଖା ଅଛି',
+	'antispoof-tooshort' => 'ମୂଳ ନାଆଁଟି ଖୁବ ସାନ',
+	'antispoof-ignore' => 'ଖରାପ ନାଆଁକୁ ଦେଖନ୍ତୁ ନାହିଁ',
 );
 
 /** Ossetic (Иронау)
