@@ -183,6 +183,8 @@ $messages['avk'] = array(
  * @author Vugar 1981
  */
 $messages['az'] = array(
+	'antispoof-conflict-bottom' => 'Zəhmət olmasa başqa ad seçin.',
+	'antispoof-name-illegal' => '$2 hesabıyla qarışmaması üçün "$1" adına icazə verilmir. Zəhmət olmasa başqa istifadəçi adını seçin.',
 	'antispoof-empty' => 'Boş sətir',
 );
 
@@ -1738,7 +1740,10 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'antispoof-desc' => "Bluècche 'a ccrejazione de cunde utende cu script-misckate, confuse e cu nome de l'utinde ca s'assomigliane",
+	'antispoof-conflict-top' => '\'U nome "$1" s\'assomigghie assaije a {{PLURAL:$2|\'u cunde esistende|le seguende $2 cunde}}:',
 	'antispoof-conflict-bottom' => "Se preghe de scacchià n'otre nome.",
+	'antispoof-name-illegal' => "'U nome \"\$1\" non g'è permesse pe prevenìe casine o 'mbruegghie de nome utinde: \$2.
+Pe piacere scacchie 'n'otre nome.",
 	'antispoof-badtype' => 'Tipe de date errate',
 	'antispoof-empty' => 'stringa vacande',
 	'antispoof-blacklisted' => "Condène carattere jndr'à liste gnure",
@@ -1747,6 +1752,8 @@ $messages['roa-tara'] = array(
 	'antispoof-noletters' => 'Non ge condène nisciune lettere',
 	'antispoof-mixedscripts' => 'Condène script miste incompatibbele',
 	'antispoof-tooshort' => 'Canonicizze nome assaje piccenne',
+	'antispoof-ignore' => "Ignore verifeche sus a le 'mbruegghie",
+	'right-override-antispoof' => "Sovrascrive le verifeche sus a le 'mbruegghie",
 );
 
 /** Russian (Русский)
