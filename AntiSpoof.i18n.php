@@ -185,7 +185,11 @@ $messages['avk'] = array(
 $messages['az'] = array(
 	'antispoof-conflict-bottom' => 'Zəhmət olmasa başqa ad seçin.',
 	'antispoof-name-illegal' => '$2 hesabıyla qarışmaması üçün "$1" adına icazə verilmir. Zəhmət olmasa başqa istifadəçi adını seçin.',
+	'antispoof-badtype' => 'Yanlış məlumat',
 	'antispoof-empty' => 'Boş sətir',
+	'antispoof-noletters' => 'Heç bir hərf yoxdur',
+	'antispoof-ignore' => 'Oxşar adlar yoxlanmasına məhəl qoymamaq',
+	'right-override-antispoof' => 'Oxşar adlar yoxlanmasına məhəl qoymamaq',
 );
 
 /** Bashkir (Башҡортса)
