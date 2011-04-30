@@ -183,11 +183,18 @@ $messages['avk'] = array(
  * @author Vugar 1981
  */
 $messages['az'] = array(
+	'antispoof-desc' => 'Digər hesablarla qarışmamamq üçün fərqli yazı sistemindən ibarət olan simvollarla yaradılmış hesabların açılması qadağandır',
+	'antispoof-conflict-top' => '«$1» adı {{PLURAL:$2|$2 mövcud hesab|$2 mövcud hesab|$2 mövcud hesaba}} çox bənzəyir:',
 	'antispoof-conflict-bottom' => 'Zəhmət olmasa başqa ad seçin.',
 	'antispoof-name-illegal' => '$2 hesabıyla qarışmaması üçün "$1" adına icazə verilmir. Zəhmət olmasa başqa istifadəçi adını seçin.',
 	'antispoof-badtype' => 'Yanlış məlumat',
 	'antispoof-empty' => 'Boş sətir',
+	'antispoof-blacklisted' => 'Qadağan edilmiş siyahının simvollarından istifadə edilmişdir',
+	'antispoof-combining' => 'Birləşdirmə işarəsindən başlayır',
+	'antispoof-unassigned' => 'Qeyri-müəyyən yaxud dəstəklənməyən simvollardan istifadə edilir',
 	'antispoof-noletters' => 'Heç bir hərf yoxdur',
+	'antispoof-mixedscripts' => 'Qəbul edilməz yazı sistemi işlədilir',
+	'antispoof-tooshort' => 'Normallaşdırılmış ad çox qısadır',
 	'antispoof-ignore' => 'Oxşar adlar yoxlanmasına məhəl qoymamaq',
 	'right-override-antispoof' => 'Oxşar adlar yoxlanmasına məhəl qoymamaq',
 );
