@@ -1882,16 +1882,17 @@ Molimo Vas da odaberete drugo ime.',
 );
 
 /** Sinhala (සිංහල)
+ * @author Singhalawap
  * @author Thameera123
  */
 $messages['si'] = array(
-	'antispoof-desc' => 'මිශ්‍ර අක්ෂර සහිත, ව්‍යාකූල සහ සමාන පරිශීලක නම් වාරණය කරයි',
+	'antispoof-desc' => 'මිශ්‍ර අකුරු සහිත, ව්‍යාකූල සහ සමාන පරිශීලක නම් වාරණය කරයි',
 	'antispoof-conflict-top' => '"$1" යන නම {{PLURAL:$2|දැනට පවතින ගිණුමට|පහත ගිණුම් $2 ට}} බෙහෙවින් සමානය:',
 	'antispoof-conflict-bottom' => 'කරුණාකර වෙනත් නමක් තෝරාගන්න',
 	'antispoof-name-illegal' => 'ව්‍යාකූල පරිශීලක නම් වැළැක්වීම සඳහා "$1" යන නමට අවසර දිය නොහැකිය: $2.',
 	'antispoof-badtype' => 'අවලංගු දත්ත වර්ගයකි',
 	'antispoof-empty' => 'හිස් string එකකි',
-	'antispoof-blacklisted' => 'අවලංගුකරන ලද අක්ෂරයක් අඩංගුවේ.',
+	'antispoof-blacklisted' => 'අවලංගු අකුරක් අඩංගුවේ.',
 	'antispoof-combining' => 'සම්බන්ධක ලකුණකින් ආරම්භවේ.',
 	'antispoof-unassigned' => 'නොපවරන ලද හෝ විරුද්ධත්වය ප්‍රකාශ කරන ලද අක්ෂරයක් අඩංගු වේ',
 	'antispoof-noletters' => 'අකුරු කිසිවක් අඩංගු නොවේ',
