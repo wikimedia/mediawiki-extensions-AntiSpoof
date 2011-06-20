@@ -1147,6 +1147,7 @@ $messages['kk-latn'] = array(
  * @author គីមស៊្រុន
  */
 $messages['km'] = array(
+	'antispoof-conflict-top' => 'ឈ្មោះ "$1"គឺស្រដៀងគ្នានឹង {{PLURAL:$2|គណនីដែលមាន|គណនីចំនួន$2}}}ពេកហើយ :',
 	'antispoof-conflict-bottom' => 'សូមជ្រើសរើសឈ្មោះផ្សេងទៀត។',
 	'antispoof-name-illegal' => 'ឈ្មោះ "$1" មិនត្រូវបានឱ្យបង្កើតទេ ដើម្បីកុំឱ្យច្រឡំជាមួយនឹងអត្តនាម៖ $2។
 
