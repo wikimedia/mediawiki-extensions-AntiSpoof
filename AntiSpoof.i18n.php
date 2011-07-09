@@ -1267,6 +1267,7 @@ $messages['lo'] = array(
  * @author Perkunas
  */
 $messages['lt'] = array(
+	'antispoof-desc' => 'Blokuoja kūrimą paskyrų, turinčių maišyto scenarijaus, klaidinančius ar panašius naudotojų vardus',
 	'antispoof-conflict-top' => 'Vardas "$1" yra per daug panašus į {{PLURAL:$2|esamų paskyra|su $2 paskyromis}}:',
 	'antispoof-conflict-bottom' => 'Prašome pasirinkti kitą vardą.',
 	'antispoof-name-illegal' => 'Vardas "$1" neleidžiamas, kad būtų apsisaugota nuo apgaulingų ar parodijuotų naudotojų vardų: $2. Prašome pasirinkti kitą vardą.',
