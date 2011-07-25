@@ -1466,20 +1466,20 @@ $messages['nds'] = array(
  * @author Servien
  */
 $messages['nds-nl'] = array(
-	'antispoof-desc' => "Blokkeert 't anmaken van gebrukers mit meerdere schriffen, verwarrende en soortgelieke gebrukersnamen",
+	'antispoof-desc' => 'Blokkeert t anmaken van gebrukers mit meerdere schriften, verwarrende en soortgelieke gebrukersnamen',
 	'antispoof-conflict-top' => 'De naam "$1" lik te veule op de volgende bestaonde {{PLURAL:$2|gebruker|$2 gebrukers}}:',
 	'antispoof-conflict-bottom' => 'Kies een aandere naam.',
-	'antispoof-name-illegal' => 'De naam "$1" is neet toe-estaon, um verwarring of lillijke gebrukersnamen te veurkoemen: $2. Kies een aandere naam.',
+	'antispoof-name-illegal' => 'De naam "$1" is niet toe-estaon, um verwarring of lelike gebrukersnamen te veurkoemen: $2. Kies een aandere naam.',
 	'antispoof-badtype' => 'Ongeldig datatype',
 	'antispoof-empty' => 'Leeg veld',
-	'antispoof-blacklisted' => 'Bevat tekens dee-j neet gebruken maggen',
-	'antispoof-combining' => 'Begint mit een ecombineerd markteken',
-	'antispoof-unassigned' => 'Bevat een neet toe-ewezen of ongewunst teken',
+	'antispoof-blacklisted' => "Bevat tekens die'j niet gebruken maggen",
+	'antispoof-combining' => 'Begint mit een ekombineerd markteken',
+	'antispoof-unassigned' => 'Bevat een niet toe-ewezen of ongewunst teken',
 	'antispoof-noletters' => 'Bevat gien letters',
-	'antispoof-mixedscripts' => 'Bevat onverenigbaore schrifsystemen',
-	'antispoof-tooshort' => 'De naam dee-j in-evoerd hemmen is te kort.',
-	'antispoof-ignore' => 'Controle op soortgelieke gebrukersnamen negeren',
-	'right-override-antispoof' => 'Fopcontroles negeren',
+	'antispoof-mixedscripts' => 'Bevat onverenigbaore schriftsystemen',
+	'antispoof-tooshort' => "De naam die'j in-evoerd hebben is te kort.",
+	'antispoof-ignore' => 'Kontrole op soortgelieke gebrukersnamen negeren',
+	'right-override-antispoof' => 'Fopkontroles negeren',
 );
 
 /** Nepali (नेपाली)
@@ -1908,7 +1908,7 @@ Molimo Vas da odaberete drugo ime.',
  * @author Thameera123
  */
 $messages['si'] = array(
-	'antispoof-desc' => 'මිශ්‍ර අකුරු සහිත, ව්‍යාකූල සහ සමාන පරිශීලක නම් වාරණය කරයි',
+	'antispoof-desc' => 'අකුරු වර්ග මිශ්‍ර, ව්‍යාකූල සහ සමාන ලෙස පෙනෙන පරිශීලක නම් වාරණය කරයි',
 	'antispoof-conflict-top' => '"$1" යන නම {{PLURAL:$2|දැනට පවතින ගිණුමට|පහත ගිණුම් $2 ට}} බෙහෙවින් සමානය:',
 	'antispoof-conflict-bottom' => 'කරුණාකර වෙනත් නමක් තෝරාගන්න',
 	'antispoof-name-illegal' => 'ව්‍යාකූල පරිශීලක නම් වැළැක්වීම සඳහා "$1" යන නමට අවසර දිය නොහැකිය: $2.',
