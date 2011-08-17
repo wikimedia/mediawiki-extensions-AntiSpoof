@@ -320,6 +320,13 @@ $messages['bh'] = array(
 	'antispoof-conflict-bottom' => 'कृपया कउनो दुसर नाम चुनीं',
 );
 
+/** Bhojpuri (भोजपुरी)
+ * @author Ganesh
+ */
+$messages['bho'] = array(
+	'antispoof-conflict-bottom' => 'कृपया कउनो दुसर नाम चुनीं',
+);
+
 /** Bengali (বাংলা)
  * @author Bellayet
  * @author Zaheen
@@ -547,7 +554,7 @@ $messages['dsb'] = array(
 	'right-override-antispoof' => 'Kontrole pódobnosći wužywarskich mjenjow pódtłocyś',
 );
 
-/** Dusun Bundu-liwan (Dusun Bundu-liwan)
+/** Central Dusun (Dusun Bundu-liwan)
  * @author FRANELYA
  */
 $messages['dtp'] = array(
@@ -1483,6 +1490,7 @@ $messages['nds-nl'] = array(
 );
 
 /** Nepali (नेपाली)
+ * @author Bhawani Gautam
  * @author Bhawani Gautam Rhk
  */
 $messages['ne'] = array(
@@ -1602,7 +1610,7 @@ $messages['or'] = array(
 	'antispoof-ignore' => 'ଖରାପ ନାଆଁକୁ ଦେଖନ୍ତୁ ନାହିଁ',
 );
 
-/** Ossetic (Иронау)
+/** Ossetic (Ирон)
  * @author Amikeco
  * @author Amire80
  */
@@ -1840,7 +1848,7 @@ $messages['sa'] = array(
 	'antispoof-name-illegal' => 'अवैध नाम',
 );
 
-/** Yakut (Саха тыла)
+/** Sakha (Саха тыла)
  * @author Bert Jickty
  * @author HalanTul
  */
@@ -2198,7 +2206,7 @@ Mangyaring pumili ng iba pang pangalan.',
 	'right-override-antispoof' => "Daigin ang mga pagsusuring pangpanlilinlang (''spoof'')",
 );
 
-/** Tonga (lea faka-Tonga)
+/** Tongan (lea faka-Tonga)
  * @author Tauʻolunga
  */
 $messages['to'] = array(
