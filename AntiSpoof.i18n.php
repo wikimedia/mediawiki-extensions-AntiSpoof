@@ -1681,6 +1681,23 @@ $messages['pms'] = array(
 	'right-override-antispoof' => 'Ignora ij controj dë spoofing',
 );
 
+/** Western Punjabi (پنجابی)
+ * @author Khalid Mahmood
+ */
+$messages['pnb'] = array(
+	'antispoof-conflict-bottom' => 'مہربنی کرکے ہور ناں چنو',
+	'antispoof-badtype' => 'ڈیٹا ٹھیک نیں',
+	'antispoof-empty' => 'خالی سلسلہ',
+	'antispoof-blacklisted' => 'ایدے چ بنا اجازت والیاں چیزاں نیں۔',
+	'antispoof-combining' => 'جوڑن والے نشان نال ٹردا اے',
+	'antispoof-unassigned' => 'ایدے کج کیریکٹر پھیک نیں',
+	'antispoof-noletters' => 'ایدے چ کوئی اکرا نیں۔',
+	'antispoof-mixedscripts' => 'ایدے چ رلے ملے تے ناں ملن والے کیریکٹر نیں',
+	'antispoof-tooshort' => 'وڈے ناں بعوت نکے نیں',
+	'antispoof-ignore' => 'بے تکیاں چیزاں ناں چیک کرو',
+	'right-override-antispoof' => 'بےتکیاں چیزاں نوں چھڈو',
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
