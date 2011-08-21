@@ -1685,7 +1685,11 @@ $messages['pms'] = array(
  * @author Khalid Mahmood
  */
 $messages['pnb'] = array(
+	'antispoof-desc' => 'ایدے توں ملے جلے، سر پھرے تے رلدے خط آلے ورتن ناں بنن توں رک جاندے نیں',
+	'antispoof-conflict-top' => 'اے ناں "$1" پہلاں توں بنے ہوۓ {{PLURAL:$2|اس ورتن ناں|ایناں ورتن ناواں}} دے نال بوت رلدا اے:',
 	'antispoof-conflict-bottom' => 'مہربنی کرکے ہور ناں چنو',
+	'antispoof-name-illegal' => 'اس ناں "$1" توں ورتن ناں نئیں بنایا جا سکدا کیونجے انجان تے مزاحیہ دے اتے روک اے: $2
+مہربانی کر کے کوئی دوجا ناں چنو۔',
 	'antispoof-badtype' => 'ڈیٹا ٹھیک نیں',
 	'antispoof-empty' => 'خالی سلسلہ',
 	'antispoof-blacklisted' => 'ایدے چ بنا اجازت والیاں چیزاں نیں۔',
