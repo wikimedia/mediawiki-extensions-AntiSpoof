@@ -1291,6 +1291,7 @@ $messages['lo'] = array(
 
 /** Lithuanian (Lietuvių)
  * @author Eitvys200
+ * @author Ignas693
  * @author Perkunas
  */
 $messages['lt'] = array(
@@ -1306,6 +1307,8 @@ $messages['lt'] = array(
 	'antispoof-noletters' => 'Nėra nei vienos raidės',
 	'antispoof-mixedscripts' => 'Turi nepalaikomų įvairių rašmenų',
 	'antispoof-tooshort' => 'Kanonizuotas vardas per trumpas',
+	'antispoof-ignore' => 'Nepaisyti spoofing patikrinimai',
+	'right-override-antispoof' => 'Nepaisyti spoofing patikrinimai',
 );
 
 /** Latvian (Latviešu)
@@ -1778,6 +1781,7 @@ $messages['qu'] = array(
 
 /** Romanian (Română)
  * @author Cin
+ * @author Firilacroco
  * @author KlaudiuMihaila
  * @author Minisarm
  * @author Stelistcristi
@@ -1794,6 +1798,8 @@ $messages['ro'] = array(
 	'antispoof-combining' => 'Începe cu marcajul de combinare',
 	'antispoof-unassigned' => 'Conține un caracter neatribuit sau învechit',
 	'antispoof-noletters' => 'Nu conține nici o literă',
+	'antispoof-mixedscripts' => 'Conține mai multe scripturi incompatibile',
+	'antispoof-tooshort' => 'Nume canonizat prea scurt',
 	'antispoof-ignore' => 'Nu verifica existența unor nume de cont similare',
 	'right-override-antispoof' => 'Asuprește verificările spoofing',
 );
