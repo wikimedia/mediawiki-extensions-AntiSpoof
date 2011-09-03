@@ -102,9 +102,10 @@ $messages['ang'] = array(
  * @author Meno25
  * @author Mido
  * @author Mimouni
+ * @author محمد الجداوي
  */
 $messages['ar'] = array(
-	'antispoof-desc' => 'يمنع إنشاء الحسابات بسكريبت مختلط، أسماء مشابهة ومربكة',
+	'antispoof-desc' => 'يمنع إنشاء الحسابات بسكريبت مختلط، وبأسماء مشابهة ومربكة',
 	'antispoof-conflict-top' => 'الاسم "$1" شديد الشبه ب{{PLURAL:$2|الحساب الموجود|ال$2 حساب التالية}}:',
 	'antispoof-conflict-bottom' => 'من فضلك اختر اسما آخر.',
 	'antispoof-name-illegal' => 'الاسم "$1" غير مسموح به لمنع الخلط وانتحال أسماء المستخدمين: $2.
@@ -116,7 +117,7 @@ $messages['ar'] = array(
 	'antispoof-unassigned' => 'يحتوي على حرف غير مخصص أو غير مقبول',
 	'antispoof-noletters' => 'لا يحتوي على أية حروف',
 	'antispoof-mixedscripts' => 'يحتوي على سكريبتات غير متوافقة مختلطة',
-	'antispoof-tooshort' => 'الاسم المستخدم قصير جدا',
+	'antispoof-tooshort' => 'الاسم المستخدم قصير جدًا',
 	'antispoof-ignore' => 'تجاهل التحقق من التشابه',
 	'right-override-antispoof' => 'تجاوز التحقق من سبوفينج',
 );
@@ -749,6 +750,7 @@ $messages['frc'] = array(
  */
 $messages['frp'] = array(
 	'antispoof-desc' => 'Dèfend la crèacion de comptos qu’utilisont un mouél d’ècritures avouéc des noms d’utilisator semblâblos, ou ben que pôvont prétar a confusion.',
+	'antispoof-conflict-top' => 'Lo nom « $1 » est trop pariér {{PLURAL:$2|u compto ègzistent|a cetos $2 comptos}} :',
 	'antispoof-conflict-bottom' => 'Volyéd chouèsir un ôtro nom.',
 	'antispoof-name-illegal' => 'Lo nom d’utilisator « $1 » est pas ôtorisâ por empachiér de confondre ou ben d’utilisar lo nom « $2 ».
 Volyéd chouèsir un ôtro nom.',
