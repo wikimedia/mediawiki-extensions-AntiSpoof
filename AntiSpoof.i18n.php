@@ -1613,6 +1613,7 @@ $messages['or'] = array(
 	'antispoof-mixedscripts' => 'ଏଥିରେ ମିଶୁନଥିବା ଅଜଣା ଲେଖା ଅଛି',
 	'antispoof-tooshort' => 'ମୂଳ ନାଆଁଟି ଖୁବ ସାନ',
 	'antispoof-ignore' => 'ଖରାପ ନାଆଁକୁ ଦେଖନ୍ତୁ ନାହିଁ',
+	'right-override-antispoof' => 'ଜାଣିଶୁଣି କରାଯିଇଥିବା ଭୁଲସବୁକୁ ଅଣଦେଖା କରିବେ',
 );
 
 /** Ossetic (Ирон)
