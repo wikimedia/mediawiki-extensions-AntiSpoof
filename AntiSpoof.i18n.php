@@ -30,10 +30,26 @@ Please choose another name.',
 
 /** Message documentation (Message documentation)
  * @author Beau
+ * @author Siebrand
  * @author Titoxd
  */
 $messages['qqq'] = array(
 	'antispoof-desc' => 'Used in [[Special:Version]] as the description for [[mw:Extension:AntiSpoof|Extension:AntiSpoof]]',
+	'antispoof-conflict-top' => 'Account creation error message because attempted username is too similar to existing username(s). Parameters:
+* $1 is the username that someone wanted to create
+* $2 are the usernames that already existed that triggered the error.',
+	'antispoof-conflict-bottom' => 'Suggestion for user that tried to create a user with a name that was not accepted.',
+	'antispoof-name-illegal' => 'Account creation error message because a user account creation rule was violated. Parameters:
+* $1 is the username that someone wanted to create
+* $2 is the error message. One of {{msg-mw|antispoof-badtype}}, {{msg-mw|antispoof-empty}}, {{msg-mw|antispoof-blacklisted}} and others.',
+	'antispoof-badtype' => 'Reason for failed account creation.',
+	'antispoof-empty' => 'Reason for failed account creation.',
+	'antispoof-blacklisted' => 'Reason for failed account creation.',
+	'antispoof-combining' => 'Reason for failed account creation.',
+	'antispoof-unassigned' => 'Reason for failed account creation.',
+	'antispoof-noletters' => 'Reason for failed account creation.',
+	'antispoof-mixedscripts' => 'Reason for failed account creation.',
+	'antispoof-tooshort' => 'Reason for failed account creation.',
 	'antispoof-ignore' => 'This is a checkbox shown on [[Special:UserLogin|a signup page]] when a user with both [[MediaWiki:Right-createaccount/qqq|createaccount]] and [[MediaWiki:Right-override-antispoof/qqq|override-antispoof]] rights tries to register a new user account. It allows to register a username that would otherwise be blocked by the [[mw:Extension:AntiSpoof|AntiSpoof extension]].',
 	'right-override-antispoof' => '{{doc-right}}',
 );
