@@ -1330,9 +1330,11 @@ $messages['lt'] = array(
 );
 
 /** Latvian (Latviešu)
+ * @author GreenZeb
  * @author Papuass
  */
 $messages['lv'] = array(
+	'antispoof-conflict-bottom' => 'Lūdzu, izvēlieties citu faila nosaukumu.',
 	'antispoof-badtype' => 'Nederīgs datu tips',
 	'antispoof-empty' => 'Tukša virkne',
 );
