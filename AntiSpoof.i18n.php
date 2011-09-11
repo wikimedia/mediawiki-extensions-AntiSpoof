@@ -2148,6 +2148,13 @@ $messages['sv'] = array(
 	'right-override-antispoof' => 'Slipper kontroller mot förvirrande användarnamn',
 );
 
+/** Silesian (Ślůnski)
+ * @author Przemub
+ */
+$messages['szl'] = array(
+	'antispoof-badtype' => 'Felerny typ danych',
+);
+
 /** Tamil (தமிழ்)
  * @author Karthi.dr
  * @author TRYPPN
