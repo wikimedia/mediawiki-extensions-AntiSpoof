@@ -678,17 +678,18 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Huji
+ * @author ZxxZxxZ
  */
 $messages['fa'] = array(
 	'antispoof-desc' => 'از ایجاد حساب‌های کاربری با حروف مختلط، گیج‌کننده یا مشابه با دیگر حساب‌های کاربری جلوگیری می‌کند',
 	'antispoof-conflict-top' => 'نام «$1» خیلی به {{PLURAL:$2|این حساب کاربری|این $2 حساب کاربری}} شباهت دارد:',
-	'antispoof-conflict-bottom' => 'لطفاً یک نام دیگر انتخاب کنید.',
+	'antispoof-conflict-bottom' => 'لطفاً نام دیگری انتخاب کنید.',
 	'antispoof-name-illegal' => 'نام «$1» به دلیل جلوگیری از نام‌های کاربری سردرگم‌کننده یا مسخره مجاز نیست: $2. لطفاً نام دیگری انتخاب کنید.',
-	'antispoof-badtype' => 'نوع داده نامناسب',
-	'antispoof-empty' => 'رشته خالی',
+	'antispoof-badtype' => 'داده با نوع نامناسب',
+	'antispoof-empty' => 'رشتهٔ خالی',
 	'antispoof-blacklisted' => 'حاوی نویسه‌هایی است که در فهرست سیاه قرار دارند',
 	'antispoof-combining' => 'با علامت جمع شروع می‌شود',
-	'antispoof-unassigned' => 'حاوی نویسه‌های تعیین نشده یا نامناسب است',
+	'antispoof-unassigned' => 'دارای نویسه‌های تعیین‌نشده یا نامناسب است',
 	'antispoof-noletters' => 'دربردارندهٔ هیچ حرفی نیست.',
 	'antispoof-mixedscripts' => 'حاوی نویسه‌های مختلط ناسازگار است',
 	'antispoof-tooshort' => 'نام متعارف خیلی کوتاه است',
