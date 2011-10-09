@@ -32,6 +32,7 @@ Please choose another name.',
  * @author Beau
  * @author Siebrand
  * @author Titoxd
+ * @author Umherirrender
  */
 $messages['qqq'] = array(
 	'antispoof-desc' => 'Used in [[Special:Version]] as the description for [[mw:Extension:AntiSpoof|Extension:AntiSpoof]]',
@@ -51,7 +52,7 @@ $messages['qqq'] = array(
 	'antispoof-mixedscripts' => 'Reason for failed account creation.',
 	'antispoof-tooshort' => 'Reason for failed account creation.',
 	'antispoof-ignore' => 'This is a checkbox shown on [[Special:UserLogin|a signup page]] when a user with both [[MediaWiki:Right-createaccount/qqq|createaccount]] and [[MediaWiki:Right-override-antispoof/qqq|override-antispoof]] rights tries to register a new user account. It allows to register a username that would otherwise be blocked by the [[mw:Extension:AntiSpoof|AntiSpoof extension]].',
-	'right-override-antispoof' => '{{doc-right}}',
+	'right-override-antispoof' => '{{doc-right|override-antispoof}}',
 );
 
 /** Afrikaans (Afrikaans)
@@ -2043,28 +2044,30 @@ $messages['sq'] = array(
 	'right-override-antispoof' => 'Refuzoni kontrollet për emra të rremë',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Millosh
+ * @author Rancher
  * @author Sasa Stefanovic
  * @author Јованвб
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
-	'antispoof-desc' => 'Онемогућава стварање налога с мешаним писмима, збуњујућим и сличним корисничким именима.',
-	'antispoof-conflict-top' => 'Име „$1“ је превише слично са {{PLURAL:$2|именом постојећег налога|именима следећих $2 налога}}:',
-	'antispoof-conflict-bottom' => 'Молимо изаберите друго име.',
-	'antispoof-name-illegal' => 'Име "$1" није дозвољено како би се спречиле забуне или лажирања корисничких имена: $2. Молимо изаберите неко друго име.',
-	'antispoof-badtype' => 'Лош тип податка.',
-	'antispoof-empty' => 'Празан стринг.',
-	'antispoof-blacklisted' => 'Садржи онемогућене карактере.',
-	'antispoof-combining' => 'Почиње с комбинованом ознаком.',
-	'antispoof-unassigned' => 'Садржи недодељене или потиснуте карактере.',
-	'antispoof-noletters' => 'Не садржи ни једно слово',
-	'antispoof-mixedscripts' => 'Садржи неусклађена мешана писма.',
-	'antispoof-tooshort' => 'Каноничко име превише кратко.',
-	'antispoof-ignore' => 'Занемари провере на бесмислице.',
-	'right-override-antispoof' => 'Препиши провере на бесмислице.',
+	'antispoof-desc' => 'Спречава отварање налога с мешаним писмима, збуњујућим и сличним корисничким именима',
+	'antispoof-conflict-top' => 'Име „$1“ је превише слично с {{PLURAL:$2|именом постојећег налога|именима следећа $2 налога|именима следећих $2 налога}}:',
+	'antispoof-conflict-bottom' => 'Изаберите друго име.',
+	'antispoof-name-illegal' => 'Име „$1“ није дозвољено да би се избегла збуњујућа или лажирана корисничка имена: $2.
+Изаберите друго име.',
+	'antispoof-badtype' => 'Погрешна врста података',
+	'antispoof-empty' => 'Празна ниска',
+	'antispoof-blacklisted' => 'Садржи забрањени знак',
+	'antispoof-combining' => 'Почиње са саставним знаком',
+	'antispoof-unassigned' => 'Садржи недодељен или застарели знак',
+	'antispoof-noletters' => 'Не садржи ниједно слово',
+	'antispoof-mixedscripts' => 'Садржи несагласна мешана писма',
+	'antispoof-tooshort' => 'Нормализовано име је прекратко',
+	'antispoof-ignore' => 'Занемари међусобно слична имена',
+	'right-override-antispoof' => 'заобилажење провера за међусобно слична имена',
 );
 
 /** Serbian Latin ekavian (‪Srpski (latinica)‬)
