@@ -731,10 +731,10 @@ $messages['fi'] = array(
  * @author Verdy p
  */
 $messages['fr'] = array(
-	'antispoof-desc' => 'Bloque la création de compte avec des noms d’utilisateur similaires, utilisant diverses écritures, ou pouvant prêter à confusion',
+	'antispoof-desc' => 'Bloque la création de comptes ayant des noms d’utilisateur similaires, utilisant diverses écritures, ou pouvant prêter à confusion',
 	'antispoof-conflict-top' => 'Le nom « $1 » est trop similaire {{PLURAL:$2|au compte existant|aux $2 comptes suivants}} :',
 	'antispoof-conflict-bottom' => 'Veuillez choisir un autre nom.',
-	'antispoof-name-illegal' => 'Le nom d’utilisateur « $1 » n’est pas autorisé à cause de sa similitude pouvant porter à confusion avec « $2 ».
+	'antispoof-name-illegal' => 'Le nom d’utilisateur « $1 » n’est pas autorisé pour la raison suivante : « $2 ».
 Veuillez choisir un autre nom.',
 	'antispoof-badtype' => 'Mauvais type de données',
 	'antispoof-empty' => 'Chaîne vide',
@@ -744,7 +744,7 @@ Veuillez choisir un autre nom.',
 	'antispoof-noletters' => 'Ne contient aucune lettre',
 	'antispoof-mixedscripts' => 'Contient plusieurs écritures incompatibles',
 	'antispoof-tooshort' => 'Nom canonique trop court',
-	'antispoof-ignore' => "Ignorer la vérification d'une similitude trop proche avec un utilisateur existant",
+	'antispoof-ignore' => 'Ignorer la vérification de similitude avec les utilisateurs existants',
 	'right-override-antispoof' => 'Court-circuiter les vérifications de tromperie',
 );
 
