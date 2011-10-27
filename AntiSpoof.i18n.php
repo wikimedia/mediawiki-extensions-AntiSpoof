@@ -721,6 +721,20 @@ $messages['fi'] = array(
 	'right-override-antispoof' => 'Ohittaa tarkastukset samankaltaisista tai epäilyttävistä käyttäjätunnuksista',
 );
 
+/** Faroese (Føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'antispoof-conflict-bottom' => 'Vinarliga vel eitt annað navn.',
+	'antispoof-name-illegal' => 'Navnið "$1" er ikki loyvt til tess at fyribyrgja følsk ella forvirrandi brúkaranøvn: $2.',
+	'antispoof-badtype' => 'Ringt slag av data.',
+	'antispoof-empty' => 'Tøm strongin',
+	'antispoof-blacklisted' => 'Inniheldur tekn sum eru á svaralista',
+	'antispoof-combining' => 'Byrjar við kombinatións tekni',
+	'antispoof-noletters' => 'Inniheldur ikki nakran bókstav',
+	'antispoof-ignore' => 'Síggj burtur frá "spoofing" kanning',
+);
+
 /** French (Français)
  * @author Grondin
  * @author IAlex
@@ -1026,6 +1040,13 @@ $messages['ig'] = array(
 	'antispoof-empty' => 'Cháfù érírí',
 );
 
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'antispoof-conflict-bottom' => 'Pangaasi ta agpili ka ti sabali nga nagan.',
+);
+
 /** Icelandic (Íslenska)
  * @author S.Örvarr.S
  * @author Spacebirdy
@@ -1130,12 +1151,13 @@ Mangga pilihen jeneng liya.',
 /** Georgian (ქართული)
  * @author Alsandro
  * @author BRUTE
+ * @author Nodar Kherkheulidze
  */
 $messages['ka'] = array(
 	'antispoof-desc' => 'ბლოკავს ახალი ანგარიშების გახსნას შერეული სკრიპტით, შეცდომითი და ერთიდაიგივე მომხმარებლის სახელების შეთხვევაში',
-	'antispoof-conflict-top' => 'სახელი "$1" ძალიან ჰგავს {{PLURAL:$2|არსებულ ანგარიშს|შემდეგ $2 ანგარიშს}}:',
+	'antispoof-conflict-top' => 'სახელი „$1“ ძალიან ჰგავს {{PLURAL:$2|არსებულ ანგარიშს|შემდეგ $2 ანგარიშს}}:',
 	'antispoof-conflict-bottom' => 'გთხოვთ სხვა სახელი გამოიყენოთ.',
-	'antispoof-name-illegal' => 'სახელი "$1" არაა ნებადართული, რათა არ იყოს არეული სხვა სახელთან: $2.
+	'antispoof-name-illegal' => 'სახელი „$1“ არაა ნებადართული, რათა არ იყოს არეული სხვა სახელთან: $2.
 გთხოვთ აირჩიოთ სხვა სახელი.',
 	'antispoof-badtype' => 'არასწორი მონაცემთა ტიპი',
 	'antispoof-empty' => 'ცარიელი სტრიქონი',
