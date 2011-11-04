@@ -1611,6 +1611,7 @@ $messages['no'] = array(
  * @author Mohau
  */
 $messages['nso'] = array(
+	'antispoof-conflict-bottom' => 'Ka kgopelo, kgetha leina le lengwe.',
 	'antispoof-name-illegal' => 'Leina le "$1", ga la dumelwa go thibela go rarakana: $2. Ka kgopelo, kgetha leina le lengwe.',
 	'antispoof-badtype' => "Mohuta o mobe wa 'data'",
 	'antispoof-blacklisted' => 'E nale dihlaka tšeo di sego tša dumelwa',
