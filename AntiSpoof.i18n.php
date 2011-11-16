@@ -1363,6 +1363,27 @@ $messages['lv'] = array(
 	'antispoof-empty' => 'Tukša virkne',
 );
 
+/** Basa Banyumasan (Basa Banyumasan)
+ * @author StefanusRA
+ */
+$messages['map-bms'] = array(
+	'antispoof-desc' => 'Menggak nggawé akun sing jeneng panganggone nganggo aksara campuran, mbingungna lan sing mèmper',
+	'antispoof-conflict-top' => 'Jeneng "$1" mèmper banget karo {{PLURAL:$2|akun sing wis ana|$2 akun kiye}}:',
+	'antispoof-conflict-bottom' => 'Monggo milih jeneng liyane.',
+	'antispoof-name-illegal' => 'Jeneng "$1" ora olih dinggo supaya wong ora bingung utawa menggak ngapi-api jeneng panganggo sing wis ana: $2.
+Monggo pilihen jeneng liyane baen.',
+	'antispoof-badtype' => 'Tipe data salah',
+	'antispoof-empty' => 'Data kosong',
+	'antispoof-blacklisted' => 'Ngandhut karakter sing ora olih dienggo',
+	'antispoof-combining' => 'Diwiwiti karo tandha kombinasi',
+	'antispoof-unassigned' => 'Ngandhut karakter sing ora ditunjuk utawa uwis ora dienggo maning',
+	'antispoof-noletters' => 'Ora ngandhut aksara babar belas',
+	'antispoof-mixedscripts' => 'Ngandhut aksara campuran sing ora kompatibel',
+	'antispoof-tooshort' => 'Jeneng kanonikalisasi kecendhaken',
+	'antispoof-ignore' => "Lirwakaké pamrikasaan panipuan akun (''spoofing'')",
+	'right-override-antispoof' => "''Override'' pamriksan palècèhan",
+);
+
 /** Malagasy (Malagasy)
  * @author Jagwar
  */
