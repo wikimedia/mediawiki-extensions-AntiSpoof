@@ -141,8 +141,10 @@ $messages['ar'] = array(
 
 /** Aramaic (ܐܪܡܝܐ)
  * @author Basharh
+ * @author Man2fly2002
  */
 $messages['arc'] = array(
+	'antispoof-conflict-bottom' => 'ܦܝܣܐ ܡܢܟ ܓܒܝ ܚܕ ܫܡܐ ܐܚܪܝܢܐ.',
 	'antispoof-noletters' => 'ܠܐ ܚܒܫ ܐܬܘܬܐ ܡܕܡ',
 );
 
@@ -1183,7 +1185,7 @@ $messages['kk-arab'] = array(
 	'antispoof-tooshort' => 'ەرەجەلەنگەن اتاۋى تىم قىسقا',
 );
 
-/** Kazakh (Cyrillic) (Қазақша (Cyrillic)) */
+/** Kazakh (Cyrillic script) (‪Қазақша (кирил)‬) */
 $messages['kk-cyrl'] = array(
 	'antispoof-name-illegal' => 'Қатысушы аты шатақтауын немесе қалжындауын бөгеу үшін «$1» атауы рұқсат етілмейді: $2. Басқа атау таңдаңыз.',
 	'antispoof-badtype' => 'Жарамсыз дерек түрі',
@@ -1196,7 +1198,7 @@ $messages['kk-cyrl'] = array(
 	'antispoof-tooshort' => 'Ережеленген атауы тым қысқа',
 );
 
-/** Kazakh (Latin) (Қазақша (Latin)) */
+/** Kazakh (Latin script) (‪Qazaqşa (latın)‬) */
 $messages['kk-latn'] = array(
 	'antispoof-name-illegal' => 'Qatıswşı atı şataqtawın nemese qaljındawın bögew üşin «$1» atawı ruqsat etilmeýdi: $2. Basqa ataw tañdañız.',
 	'antispoof-badtype' => 'Jaramsız derek türi',
@@ -1936,7 +1938,7 @@ $messages['rue'] = array(
 	'right-override-antispoof' => 'Іґнорованя перевірок на подобны імена',
 );
 
-/** Sanskrit (संस्कृत)
+/** Sanskrit (संस्कृतम्)
  * @author Vibhijain
  */
 $messages['sa'] = array(
@@ -1985,7 +1987,7 @@ $messages['scn'] = array(
 	'right-override-antispoof' => 'Trascura li cuntrolli spoofing',
 );
 
-/** Serbo-Croatian (Srpskohrvatski / Српскохрватски)
+/** Serbo-Croatian (Srpskohrvatski)
  * @author OC Ripper
  */
 $messages['sh'] = array(
@@ -2237,7 +2239,7 @@ $messages['te'] = array(
 	'right-override-antispoof' => 'స్పూఫింగ్ తనిఖీలను అధిక్రమించు',
 );
 
-/** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
+/** Tajik (Cyrillic script) (Тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -2253,7 +2255,7 @@ $messages['tg-cyrl'] = array(
 	'antispoof-tooshort' => 'Номи мӯътариф хеле кӯтоҳ аст',
 );
 
-/** Tajik (Latin) (Тоҷикӣ (Latin))
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
