@@ -68,11 +68,15 @@ class SpoofUser {
 	/**
 	 * Record the username's normalized form into the database
 	 * for later comparison of future names...
+	 * @return bool
 	 */
 	public function record() {
 		return self::batchRecord( array( $this ) );
 	}
 
+	/**
+	 * @return array
+	 */
 	private function insertFields() {
 		return array(
 			'su_name'       => $this->mName,
@@ -85,24 +89,28 @@ class SpoofUser {
 	/**
 	 * Insert a batch of spoof normalization records into the database.
 	 * @param $items array of SpoofUser
+	 * @return bool
 	 */
 	public static function batchRecord( $items ) {
-		if ( count( $items ) ) {
-			$fields = array();
-			foreach ( $items as $item ) {
-				$fields[] = $item->insertFields();
-			}
-			$dbw = wfGetDB( DB_MASTER );
-			return $dbw->replace(
-				'spoofuser',
-				array( 'su_name' ),
-				$fields,
-				__METHOD__ );
-		} else {
+		if ( !count( $items ) ) {
 			return false;
 		}
+		$fields = array();
+		foreach ( $items as $item ) {
+			$fields[] = $item->insertFields();
+		}
+		$dbw = wfGetDB( DB_MASTER );
+		$dbw->replace(
+			'spoofuser',
+			array( 'su_name' ),
+			$fields,
+			__METHOD__ );
+		return true;
 	}
-	
+
+	/**
+	 * @param $oldName
+	 */
 	public function update( $oldName ) {
 
 		$dbw = wfGetDB( DB_MASTER );

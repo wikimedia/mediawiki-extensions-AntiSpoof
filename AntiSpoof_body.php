@@ -152,6 +152,10 @@ class AntiSpoof {
 		}
 	}
 
+	/**
+	 * @param $ch
+	 * @return string
+	 */
 	private static function getScriptCode( $ch ) {
 		# Linear search: binary chop would be faster...
 		foreach ( self::$script_ranges as $range ) {
@@ -163,8 +167,13 @@ class AntiSpoof {
 		return "SCRIPT_UNASSIGNED";
 	}
 
-	# From the name of a script, get a script descriptor, if valid,
-	# otherwise return None
+	/**
+	 * From the name of a script, get a script descriptor, if valid,
+	 * otherwise return None
+	 *
+	 * @param $name
+	 * @return null|string
+	 */
 	private static function getScriptTag( $name ) {
 		$name = "SCRIPT_" . strtoupper( trim( $name ) );
 		# Linear search
@@ -177,11 +186,21 @@ class AntiSpoof {
 		return null;
 	}
 
+	/**
+	 * @param $aList array
+	 * @param $bList array
+	 * @return bool
+	 */
 	private static function isSubsetOf( $aList, $bList ) {
 		return count( array_diff( $aList, $bList ) ) == 0;
 	}
 
-	# Is this an allowed script mixture?
+	/**
+	 * Is this an allowed script mixture?
+	 *
+	 * @param $scriptList
+	 * @return bool
+	 */
 	private static function isAllowedScriptCombination( $scriptList ) {
 		$allowedScriptCombinations = array(
 			array( "SCRIPT_COPTIC", "SCRIPT_COPTIC_EXTRAS" ), # Coptic, using old Greek chars
@@ -200,6 +219,8 @@ class AntiSpoof {
 
 	/**
 	 * Convert string into array of Unicode code points as integers
+	 * @param $str
+	 * @return array
 	 */
 	public static function stringToList( $str ) {
 		$ar = array();
@@ -213,6 +234,10 @@ class AntiSpoof {
 		return $out;
 	}
 
+	/**
+	 * @param $list array
+	 * @return string
+	 */
 	public static function listToString( $list ) {
 		$out = '';
 		foreach ( $list as $cp ) {
@@ -221,10 +246,18 @@ class AntiSpoof {
 		return $out;
 	}
 
+	/**
+	 * @param $a_list array
+	 * @return string
+	 */
 	private static function hardjoin( $a_list ) {
 		return implode( '', $a_list );
 	}
 
+	/**
+	 * @param $testName
+	 * @return array
+	 */
 	public static function equivString( $testName ) {
 		$out = array();
 		self::initEquivSet();
@@ -238,6 +271,12 @@ class AntiSpoof {
 	   return $out;
 	}
 
+	/**
+	 * @param $text
+	 * @param $pair
+	 * @param $result
+	 * @return array
+	 */
 	private static function mergePairs( $text, $pair, $result ) {
 		$out = array();
 		for ( $i = 0; $i < count( $text ); $i++ ) {
@@ -251,6 +290,11 @@ class AntiSpoof {
 		return $out;
 	}
 
+	/**
+	 * @param $text
+	 * @param $script
+	 * @return array
+	 */
 	private static function stripScript( $text, $script ) {
 		$scripts = array_map( array( 'AntiSpoof', 'getScriptCode' ), $text );
 		$out = array();
@@ -262,7 +306,11 @@ class AntiSpoof {
 		return $out;
 	}
 
-	# TODO: does too much in one routine, refactor...
+	/**
+	 * TODO: does too much in one routine, refactor...
+	 * @param $testName
+	 * @return array
+	 */
 	public static function checkUnicodeString( $testName ) {
 		# Start with some sanity checking
 		if ( !is_string( $testName ) ) {

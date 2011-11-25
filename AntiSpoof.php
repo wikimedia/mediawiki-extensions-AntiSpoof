@@ -42,6 +42,10 @@ $wgHooks['UserCreateForm'][] = 'asUserCreateFormHook';
 $wgHooks['AddNewAccount'][] = 'asAddNewAccountHook';
 $wgHooks['RenameUserComplete'][] = 'asAddRenameUserHook';
 
+/**
+ * @param $updater DatabaseUpdater
+ * @return bool
+ */
 function asUpdateSchema( $updater = null ) {
 	if ( $updater === null ) {
 		global $wgExtNewTables, $wgDBtype;
@@ -56,9 +60,10 @@ function asUpdateSchema( $updater = null ) {
 }
 
 /**
- * Hook for user creation form submissions.
- * @param User $u
- * @param string $message
+ * Can be used to cancel user account creation
+ *
+ * @param $user User
+ * @param $message string
  * @return bool true to continue, false to abort user creation
  */
 function asAbortNewAccountHook( $user, &$message ) {
@@ -109,20 +114,28 @@ function asAbortNewAccountHook( $user, &$message ) {
 
 /**
  * Set the ignore spoof thingie
+ * (Manipulate the user create form)
+ *
+ * @param $template UsercreateTemplate
+ * @return bool
  */
 function asUserCreateFormHook( &$template ) {
 	global $wgRequest, $wgAntiSpoofAccounts, $wgUser;
 
-
-	if ( $wgAntiSpoofAccounts && $wgUser->isAllowed( 'override-antispoof' ) )
+	if ( $wgAntiSpoofAccounts && $wgUser->isAllowed( 'override-antispoof' ) ) {
 		$template->addInputItem( 'wpIgnoreAntiSpoof',
 			$wgRequest->getCheck( 'wpIgnoreAntiSpoof' ),
 			'checkbox', 'antispoof-ignore' );
+	}
 	return true;
 }
 
 /**
  * On new account creation, record the username's thing-bob.
+ * (Called after a user account is created)
+ *
+ * @param $user User
+ * @return bool
  */
 function asAddNewAccountHook( $user ) {
 	$spoof = new SpoofUser( $user->getName() );
@@ -132,6 +145,12 @@ function asAddNewAccountHook( $user ) {
 
 /**
  * On rename, remove the old entry and add the new
+ * (After a sucessful user rename)
+ *
+ * @param $uid
+ * @param $oldName
+ * @param $newName
+ * @return bool
  */
 function asAddRenameUserHook( $uid, $oldName, $newName ) {
 	$spoof = new SpoofUser( $newName );
