@@ -894,13 +894,16 @@ $messages['he'] = array(
 );
 
 /** Hindi (हिन्दी)
+ * @author Kannankumar
  * @author Kaustubh
+ * @author Knight Samar
  * @author Shyam123.ckp
  */
 $messages['hi'] = array(
 	'antispoof-desc' => 'मिश्र भाषा और संभ्रम पैदा करनेवाली तथा एकसरीके सदस्यनाम के इस्तेमाल पर रोक हैं।',
 	'antispoof-conflict-top' => 'धोखा-संघर्ष टॉप विरोधी',
-	'antispoof-name-illegal' => 'धोखा नाम,अवैध विरोधी',
+	'antispoof-conflict-bottom' => 'कृपया कोई अन्य नाम चुनिये ।',
+	'antispoof-name-illegal' => 'नाम " $1  faltu है:  $2 .!एन!कृपया kuch aur chuniye',
 	'antispoof-badtype' => 'गलत डाटा प्रकार',
 	'antispoof-empty' => 'खाली स्ट्रिंग',
 	'antispoof-blacklisted' => 'इसमें ब्लैकलिस्टेड अक्षर हैं',
@@ -1466,12 +1469,17 @@ $messages['mn'] = array(
 );
 
 /** Marathi (मराठी)
+ * @author Balaji
+ * @author Dnyanesh325
  * @author Kaustubh
  * @author Mahitgar
+ * @author Saleelk
  * @author प्रणव कुलकर्णी
  */
 $messages['mr'] = array(
 	'antispoof-desc' => 'मिश्र भाषा तसेच संभ्रमित करणारी व सारखी असणारी सदस्य नामे वापरण्यास बंदी आहे.',
+	'antispoof-conflict-top' => '$१ नाव $२ च्या समान आहे.',
+	'antispoof-conflict-bottom' => 'कृपया दुसरे नाव निवडा.',
 	'antispoof-name-illegal' => '"$1" हे नाव वापरण्यास बंदी आहे कारण हे नाव इतर नावांशी साम्य राखते: $2.
 त्यामुळे कृपया वेगळे नाव वापरा.',
 	'antispoof-badtype' => 'वाईट विदा प्रकार',
@@ -1482,6 +1490,7 @@ $messages['mr'] = array(
 	'antispoof-noletters' => 'कोणत्याही अक्षराचा समावेश नाही',
 	'antispoof-mixedscripts' => 'यामध्ये इतर मिश्र लिपी आहेत.',
 	'antispoof-tooshort' => 'अधिकारयुक्त नाव खूप छोटे आहे',
+	'antispoof-ignore' => 'नकली चीन्हे विसरा',
 	'right-override-antispoof' => 'स्पूफिंग चेक्स कडे दुर्लक्ष करा',
 );
 
@@ -1564,7 +1573,19 @@ $messages['nds-nl'] = array(
  * @author Bhawani Gautam Rhk
  */
 $messages['ne'] = array(
+	'antispoof-desc' => 'भ्रामक तथा एकै प्रकारका प्रयोगकर्ता नामहरु, मिश्रित-स्क्रिप्ट भएका खाताहरु बनाउनमाथि रोक लगाउने',
+	'antispoof-conflict-top' => ' "$1" नाम  {{PLURAL:$2|वर्तमान खाता|निम्नलिखित  $2 खाताहरु}}सित मेल खाँदैछ:',
+	'antispoof-conflict-bottom' => 'कृपया अर्को नाम छान्नुहोस्।',
+	'antispoof-name-illegal' => '$2 भ्रामक र जाली प्रयोगकर्ता नामको रोकथामको निम्ति "$1" नामलाई अनुमति छैन।
+कृपया अर्को नाम छान्नुहोस्।',
 	'antispoof-badtype' => 'अमान्य आँकड़ा प्रकार',
+	'antispoof-empty' => 'रिक्त रज्जु (string)',
+	'antispoof-blacklisted' => 'कालो सूचीकृत चरित्र भएको',
+	'antispoof-combining' => 'संयोजन चिन्हबाट सुरु हुने',
+	'antispoof-noletters' => 'कुनै अक्षरहरु नभएको',
+	'antispoof-mixedscripts' => 'असंगत मिश्रित लिपिहरु सम्मिलित गरिएको',
+	'antispoof-tooshort' => 'संक्षिप्त साह्रै छोटो नाम',
+	'antispoof-ignore' => 'धोका रोकाईलाई अन्देखा गर्ने',
 );
 
 /** Dutch (Nederlands)
