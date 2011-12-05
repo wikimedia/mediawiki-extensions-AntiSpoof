@@ -897,6 +897,7 @@ $messages['he'] = array(
  * @author Kannankumar
  * @author Kaustubh
  * @author Knight Samar
+ * @author Pooja.srivastava
  * @author Shyam123.ckp
  */
 $messages['hi'] = array(
@@ -912,6 +913,7 @@ $messages['hi'] = array(
 	'antispoof-noletters' => 'इसमें कोईभी अक्षर नहीं हैं',
 	'antispoof-mixedscripts' => 'इसमें अन्य मिश्र लिपीयां हैं',
 	'antispoof-tooshort' => 'अधिकारयुक्त नाम बहुत छोटा हैं',
+	'antispoof-ignore' => 'उपेक्षा स्पूफिंग चेक',
 	'right-override-antispoof' => 'स्पूफिंग चेक्स को नजर अंदाज करें',
 );
 
