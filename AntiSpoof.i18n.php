@@ -1592,6 +1592,7 @@ $messages['ne'] = array(
 
 /** Dutch (Nederlands)
  * @author Erwin
+ * @author SPQRobin
  * @author Siebrand
  */
 $messages['nl'] = array(
@@ -1600,7 +1601,7 @@ $messages['nl'] = array(
 	'antispoof-conflict-bottom' => 'Kies een andere naam.',
 	'antispoof-name-illegal' => 'De naam "$1" is niet toegestaan om verwarring of gefingeerde gebruikersnamen te voorkomen: $2.
 Kies een andere naam.',
-	'antispoof-badtype' => 'Ongeldig datatype',
+	'antispoof-badtype' => 'Ongeldig gegevenstype',
 	'antispoof-empty' => 'Lege string',
 	'antispoof-blacklisted' => 'Bevat verboden karakter',
 	'antispoof-combining' => 'Begint met een gecombineerd merkteken',
