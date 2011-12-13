@@ -1,8 +1,9 @@
 <?php
 // Go through all usernames and calculate and record spoof thingies
 
-$base = dirname( dirname( dirname( __FILE__ ) ) );
-require $base . '/maintenance/commandLine.inc';
+require_once ( getenv( 'MW_INSTALL_PATH' ) !== false
+	? getenv( 'MW_INSTALL_PATH' ) . "/maintenance/commandLine.inc"
+	: dirname( __FILE__ ) . '/../../maintenance/commandLine.inc' );
 
 $dbw = wfGetDB( DB_MASTER );
 
