@@ -12,7 +12,7 @@ class BatchAntiSpoof extends Maintenance {
 	/**
 	 * @param $items array
 	 */
-	private function batchRecord( $items ) {
+	protected function batchRecord( $items ) {
 		SpoofUser::batchRecord( $items );
 	}
 
