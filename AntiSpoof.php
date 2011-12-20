@@ -36,6 +36,7 @@ $wgExtensionMessagesFiles['AntiSpoof'] = "$dir/AntiSpoof.i18n.php";
 $wgAutoloadClasses['AntiSpoof'] = "$dir/AntiSpoof_body.php";
 $wgAutoloadClasses['AntiSpoofHooks'] = "$dir/AntiSpoofHooks.php";
 $wgAutoloadClasses['SpoofUser'] = "$dir/SpoofUser.php";
+$wgAutoloadClasses['BatchAntiSpoof'] = "$dir/batchAntiSpoof.php";
 
 $wgHooks['LoadExtensionSchemaUpdates'][] = 'AntiSpoofHooks::asUpdateSchema';
 $wgHooks['AbortNewAccount'][] = 'AntiSpoofHooks::asAbortNewAccountHook';

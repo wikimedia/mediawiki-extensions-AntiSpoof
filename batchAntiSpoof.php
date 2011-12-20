@@ -1,31 +1,51 @@
 <?php
 // Go through all usernames and calculate and record spoof thingies
 
-require_once ( getenv( 'MW_INSTALL_PATH' ) !== false
-	? getenv( 'MW_INSTALL_PATH' ) . "/maintenance/commandLine.inc"
-	: dirname( __FILE__ ) . '/../../maintenance/commandLine.inc' );
+$IP = getenv( 'MW_INSTALL_PATH' );
+if ( $IP === false ) {
+	$IP = dirname( __FILE__ ) . '/../..';
+}
+require( "$IP/maintenance/Maintenance.php" );
 
-$dbw = wfGetDB( DB_MASTER );
+class BatchAntiSpoof extends Maintenance {
 
-$dbw->bufferResults( false );
-
-$batchSize = 1000;
-
-$result = $dbw->select( 'user', 'user_name', null, 'batchAntiSpoof.php' );
-$n = 0;
-foreach( $result as $row ) {
-	if ( $n++ % $batchSize == 0 ) {
-		echo "$wgDBname $n\n";
+	/**
+	 * @param $items array
+	 */
+	private function batchRecord( $items ) {
+		SpoofUser::batchRecord( $items );
 	}
 
-	$items[] = new SpoofUser( $row->user_name );
+	/**
+	 * Do the actual work. All child classes will need to implement this
+	 */
+	public function execute() {
+		$dbw = $this->getDB( DB_MASTER );
 
-	if ( $n % $batchSize == 0 ) {
-		SpoofUser::batchRecord( $items );
+		$dbw->bufferResults( false );
+
+		$batchSize = 1000;
+
+		$result = $dbw->select( 'user', 'user_name', null, __FUNCTION__ );
+		$n = 0;
 		$items = array();
+		foreach( $result as $row ) {
+			if ( $n++ % $batchSize == 0 ) {
+				$this->output( "...$n\n" );
+			}
+
+			$items[] = new SpoofUser( $row->user_name );
+
+			if ( $n % $batchSize == 0 ) {
+				$this->batchRecord( $items );
+				$items = array();
+			}
+		}
+
+		$this->batchRecord( $items );
+		$this->output( "$n user(s) done.\n" );
 	}
 }
 
-SpoofUser::batchRecord( $items );
-echo "$wgDBname $n done.\n";
-$dbw->freeResult( $result );
+$maintClass = "BatchAntiSpoof";
+require_once( DO_MAINTENANCE );
