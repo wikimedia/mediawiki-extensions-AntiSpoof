@@ -48,7 +48,7 @@ class SpoofUser {
 	 * @return array empty if no conflict, or array containing conflicting usernames
 	 */
 	public function getConflicts() {
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = self::getDBSlave();
 
 		// Join against the user table to ensure that we skip stray
 		// entries left after an account is renamed or otherwise munged.
@@ -108,7 +108,7 @@ class SpoofUser {
 		foreach ( $items as $item ) {
 			$fields[] = $item->insertFields();
 		}
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = self::getDBMaster();
 		$dbw->replace(
 			'spoofuser',
 			array( 'su_name' ),
@@ -121,7 +121,7 @@ class SpoofUser {
 	 * @param $oldName
 	 */
 	public function update( $oldName ) {
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = self::getDBMaster();
 
 		if( $this->record() ) {
 			$dbw->delete(
@@ -130,5 +130,19 @@ class SpoofUser {
 				__METHOD__
 			);
 		}
+	}
+
+	/**
+	 * @return DatabaseBase
+	 */
+	protected static function getDBSlave() {
+		return wfGetDB( DB_SLAVE );
+	}
+
+	/**
+	 * @return DatabaseBase
+	 */
+	protected static function getDBMaster() {
+		return wfGetDB( DB_MASTER );
 	}
 }
