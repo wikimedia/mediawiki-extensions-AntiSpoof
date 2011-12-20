@@ -17,7 +17,7 @@ require_once( dirname( __FILE__ ) . '/SpoofUser.php' );
 require_once( dirname( __FILE__ ) . '/AntiSpoof_body.php' );
 
 class TestSpoof extends PHPUnit_Framework_TestCase {
-	
+
 	public function providePositives() {
 		return array(
 			array( 'Laura Fiorucci', 'Låura Fiorucci' ),
@@ -28,7 +28,7 @@ class TestSpoof extends PHPUnit_Framework_TestCase {
 			array( 'BetoCG', 'ВетоС6' )
 		);
 	}
-	
+
 	/**
 	 * @dataProvider providePositives
 	 * See http://www.phpunit.de/manual/3.4/en/appendixes.annotations.html#appendixes.annotations.dataProvider
@@ -36,7 +36,7 @@ class TestSpoof extends PHPUnit_Framework_TestCase {
 	public function testCheckSpoofing( $userName, $spooferName ) {
 		$Alice = new SpoofUser( $userName );
 		$Eve = new SpoofUser( $spooferName );
-		
+
 		if ( $Eve->isLegal() ) {
 			$this->assertEquals( $Alice->getNormalized(), $Eve->getNormalized(), "Check that '$spooferName' can't spoof account '$userName'");
 		}

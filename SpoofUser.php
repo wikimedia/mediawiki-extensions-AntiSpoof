@@ -1,6 +1,10 @@
 <?php
 
 class SpoofUser {
+
+	/**
+	 * @param $name string
+	 */
 	public function __construct( $name ) {
 		$this->mName = strval( $name );
 		list( $ok, $normalized ) = AntiSpoof::checkUnicodeString( $this->mName );
@@ -24,6 +28,7 @@ class SpoofUser {
 
 	/**
 	 * Describe the error.
+	 * @return null|string
 	 */
 	public function getError() {
 		return $this->mError;
@@ -31,6 +36,7 @@ class SpoofUser {
 
 	/**
 	 * Get the normalized key form
+	 * @return string|nuyll
 	 */
 	public function getNormalized() {
 		return $this->mNormalized;
@@ -96,6 +102,9 @@ class SpoofUser {
 			return false;
 		}
 		$fields = array();
+		/**
+		 * @var $item SpoofUser
+		 */
 		foreach ( $items as $item ) {
 			$fields[] = $item->insertFields();
 		}
@@ -112,7 +121,6 @@ class SpoofUser {
 	 * @param $oldName
 	 */
 	public function update( $oldName ) {
-
 		$dbw = wfGetDB( DB_MASTER );
 
 		if( $this->record() ) {

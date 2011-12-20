@@ -148,8 +148,8 @@ function asAddNewAccountHook( $user ) {
  * (After a sucessful user rename)
  *
  * @param $uid
- * @param $oldName
- * @param $newName
+ * @param $oldName string
+ * @param $newName string
  * @return bool
  */
 function asAddRenameUserHook( $uid, $oldName, $newName ) {
