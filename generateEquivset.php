@@ -144,7 +144,11 @@ EOT
 		fclose( $outputFile );
 		fclose( $serializedFile );
 
-		$this->error( '', $exitStatus );
+		$text = 'Finished';
+		if ( $exitStatus > 0 ) {
+			$text .= ' with errors';
+		}
+		$this->error( $text, $exitStatus );
 	}
 }
 
