@@ -1368,6 +1368,7 @@ $messages['lv'] = array(
 	'antispoof-conflict-bottom' => 'Lūdzu, izvēlieties citu faila nosaukumu.',
 	'antispoof-badtype' => 'Nederīgs datu tips',
 	'antispoof-empty' => 'Tukša virkne',
+	'antispoof-blacklisted' => 'Satur aizliegtu simbolu',
 );
 
 /** Basa Banyumasan (Basa Banyumasan)
@@ -2142,23 +2143,25 @@ $messages['sr-ec'] = array(
 
 /** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
+ * @author Rancher
  * @author Жељко Тодоровић
  */
 $messages['sr-el'] = array(
 	'antispoof-desc' => 'Sprečava otvaranje naloga s mešanim pismima, zbunjujućim i sličnim korisničkim imenima',
-	'antispoof-conflict-top' => 'Ime „$1“ je previše slično sa {{PLURAL:$2|imenom postojećeg naloga|imenima sledećih $2 naloga}}:',
-	'antispoof-conflict-bottom' => 'Molimo izaberite drugo ime.',
-	'antispoof-name-illegal' => 'Ime "$1" nije dozvoljeno kako bi se sprečile zabune ili lažiranja korisničkih imena: $2. Molimo izaberite neko drugo ime.',
-	'antispoof-badtype' => 'Loš tip podatka.',
-	'antispoof-empty' => 'Prazan string.',
-	'antispoof-blacklisted' => 'Sadrži onemogućene karaktere.',
-	'antispoof-combining' => 'Počinje s kombinovanom oznakom.',
-	'antispoof-unassigned' => 'Sadrži nedodeljene ili potisnute karaktere.',
-	'antispoof-noletters' => 'Ne sadrži ni jedno slovo',
-	'antispoof-mixedscripts' => 'Sadrži neusklađena mešana pisma.',
-	'antispoof-tooshort' => 'Kanoničko ime previše kratko.',
-	'antispoof-ignore' => 'Zanemari provere na besmislice.',
-	'right-override-antispoof' => 'Prepiši provere na besmislice.',
+	'antispoof-conflict-top' => 'Ime „$1“ je previše slično s {{PLURAL:$2|imenom postojećeg naloga|imenima sledeća $2 naloga|imenima sledećih $2 naloga}}:',
+	'antispoof-conflict-bottom' => 'Izaberite drugo ime.',
+	'antispoof-name-illegal' => 'Ime „$1“ nije dozvoljeno da bi se izbegla zbunjujuća ili lažirana korisnička imena: $2.
+Izaberite drugo ime.',
+	'antispoof-badtype' => 'Pogrešna vrsta podataka',
+	'antispoof-empty' => 'Prazna niska',
+	'antispoof-blacklisted' => 'Sadrži zabranjeni znak',
+	'antispoof-combining' => 'Počinje sa sastavnim znakom',
+	'antispoof-unassigned' => 'Sadrži nedodeljen ili zastareli znak',
+	'antispoof-noletters' => 'Ne sadrži nijedno slovo',
+	'antispoof-mixedscripts' => 'Sadrži nesaglasna mešana pisma',
+	'antispoof-tooshort' => 'Normalizovano ime je prekratko',
+	'antispoof-ignore' => 'Zanemari međusobno slična imena',
+	'right-override-antispoof' => 'zaobilaženje provera za međusobno slična imena',
 );
 
 /** Seeltersk (Seeltersk)
