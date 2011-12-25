@@ -1638,7 +1638,7 @@ Ver venleg og vel eit anna namn.',
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'antispoof-desc' => 'Hindrer oppretting av kontoer med lignende eller forvirrende brukernavn, eller brukernavn som inneholder to forskjellige alfabettyper',
 	'antispoof-conflict-top' => 'Navnet «$1» er for likt følgende {{PLURAL:$2|konto|kontoer}}:',
 	'antispoof-conflict-bottom' => 'Velg et annet navn.',
