@@ -661,6 +661,7 @@ $messages['et'] = array(
 	'antispoof-name-illegal' => 'Nimi "$1" ei ole lubatud, et vältida eksitavaid või pilavaid kasutajanimesid. Põhjus: $2<br />
 Palun vali teine nimi.',
 	'antispoof-badtype' => 'Halb andmetüüp',
+	'antispoof-empty' => 'Tühi sõne',
 	'antispoof-blacklisted' => 'Sisaldab mustas nimekirjas olevat märki',
 	'antispoof-noletters' => 'Ei sisalda ühtegi tähte',
 	'antispoof-mixedscripts' => 'Sisaldab ühildumatuid kirjasüsteeme',
@@ -1531,6 +1532,26 @@ $messages['nah'] = array(
 	'antispoof-badtype' => 'Ahcualli tlahcuilōliztli',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
+$messages['nb'] = array(
+	'antispoof-desc' => 'Hindrer oppretting av kontoer med lignende eller forvirrende brukernavn, eller brukernavn som inneholder to forskjellige alfabettyper',
+	'antispoof-conflict-top' => 'Navnet «$1» er for likt følgende {{PLURAL:$2|konto|kontoer}}:',
+	'antispoof-conflict-bottom' => 'Velg et annet navn.',
+	'antispoof-name-illegal' => 'Navnet «$1» er ikke tillatt for å forhindre sammenblanding: $2. Vennligst velg et annet navn.',
+	'antispoof-badtype' => 'Ugyldig datatype',
+	'antispoof-empty' => 'Tom streng',
+	'antispoof-blacklisted' => 'Inneholder svartelistede tegn',
+	'antispoof-combining' => 'Begynner med kombinasjonstegn',
+	'antispoof-unassigned' => 'Inneholder ugyldig eller foreldet tegn.',
+	'antispoof-noletters' => 'Inneholder ingen bokstaver',
+	'antispoof-mixedscripts' => 'Inneholder blanding av skriftsystemer',
+	'antispoof-tooshort' => 'Navnet er for kort',
+	'antispoof-ignore' => 'Ignorer misbrukssjekk',
+	'right-override-antispoof' => 'Overkjøre sjekk av brukernavn',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -1633,26 +1654,6 @@ Ver venleg og vel eit anna namn.',
 	'antispoof-tooshort' => 'Namnet er for kort',
 	'antispoof-ignore' => 'Ignorer misbrukssjekk',
 	'right-override-antispoof' => 'Overkøyra sjekk av brukarnamn',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
-$messages['nb'] = array(
-	'antispoof-desc' => 'Hindrer oppretting av kontoer med lignende eller forvirrende brukernavn, eller brukernavn som inneholder to forskjellige alfabettyper',
-	'antispoof-conflict-top' => 'Navnet «$1» er for likt følgende {{PLURAL:$2|konto|kontoer}}:',
-	'antispoof-conflict-bottom' => 'Velg et annet navn.',
-	'antispoof-name-illegal' => 'Navnet «$1» er ikke tillatt for å forhindre sammenblanding: $2. Vennligst velg et annet navn.',
-	'antispoof-badtype' => 'Ugyldig datatype',
-	'antispoof-empty' => 'Tom streng',
-	'antispoof-blacklisted' => 'Inneholder svartelistede tegn',
-	'antispoof-combining' => 'Begynner med kombinasjonstegn',
-	'antispoof-unassigned' => 'Inneholder ugyldig eller foreldet tegn.',
-	'antispoof-noletters' => 'Inneholder ingen bokstaver',
-	'antispoof-mixedscripts' => 'Inneholder blanding av skriftsystemer',
-	'antispoof-tooshort' => 'Navnet er for kort',
-	'antispoof-ignore' => 'Ignorer misbrukssjekk',
-	'right-override-antispoof' => 'Overkjøre sjekk av brukernavn',
 );
 
 /** Northern Sotho (Sesotho sa Leboa)
@@ -2235,14 +2236,25 @@ $messages['szl'] = array(
 
 /** Tamil (தமிழ்)
  * @author Karthi.dr
+ * @author Shanmugamp7
  * @author TRYPPN
  */
 $messages['ta'] = array(
+	'antispoof-desc' => 'கலப்பு படிவம், குழப்பமான மற்றும் ஒரேமாதிரியான பயனர்பெயர்களை கொண்ட கணக்குகளை உருவாக்குவதை தடுக்கும்.',
+	'antispoof-conflict-top' => 'இந்த பெயர்  "$1" ஆனது இது மாதிரியாக உள்ளது {{PLURAL:$2|ஏற்கனவே உள்ள கணக்கு|கீழ்காணும்  $2 கணக்குகள்}}:',
 	'antispoof-conflict-bottom' => 'தயவு செய்து மற்றொரு பெயரைத் தேர்ந்தெடுக்கவும்.',
+	'antispoof-name-illegal' => "இந்த பெயர் ''$1'' அனுமதிக்கப்படவில்லை ஏனெனில் குழப்பமான அல்லது போலியான பயனர்பெயர்களை தடுப்பதற்காக:$2
+தயவுகூர்ந்து வேறு பெயரை தேர்ந்தெடு.",
 	'antispoof-badtype' => 'மோசமான தரவு வகை',
 	'antispoof-empty' => 'வெற்றுச் சொற்றொடர்',
 	'antispoof-blacklisted' => 'தடுக்கப்பட்ட எழுத்து உள்ளது',
+	'antispoof-combining' => 'ஒருங்கிணைக்கும் குறியுடன் ஆரம்பிக்கும்.',
+	'antispoof-unassigned' => 'வகுத்தமைக்கப்படாத அல்லது நீக்கப்பட்ட எழுத்தை கொண்டுள்ளது',
 	'antispoof-noletters' => 'எந்த எழுத்தையும் கொண்டிருக்கவில்லை',
+	'antispoof-mixedscripts' => 'பொருந்தாத கலந்த உரையை (scripts) கொண்டுள்ளது',
+	'antispoof-tooshort' => 'Canonicalized பெயர் மிக குறுகியதாக உள்ளது.',
+	'antispoof-ignore' => 'ஏமாற்றுதல் சரிபார்த்தலை புறக்கணி.',
+	'right-override-antispoof' => 'ஏமாற்றுதல் சரிபார்த்தலை ரத்துசெய்',
 );
 
 /** Telugu (తెలుగు)
