@@ -663,8 +663,10 @@ Palun vali teine nimi.',
 	'antispoof-badtype' => 'Halb andmetüüp',
 	'antispoof-empty' => 'Tühi sõne',
 	'antispoof-blacklisted' => 'Sisaldab mustas nimekirjas olevat märki',
+	'antispoof-combining' => 'Algab kombineeruva märgiga',
 	'antispoof-noletters' => 'Ei sisalda ühtegi tähte',
 	'antispoof-mixedscripts' => 'Sisaldab ühildumatuid kirjasüsteeme',
+	'antispoof-tooshort' => 'Kanooniline nimi on liiga lühike',
 	'antispoof-ignore' => 'Eira sarnasuskontrolle',
 	'right-override-antispoof' => 'Mööduda kasutajanimede sarnasuse testist',
 );
@@ -728,6 +730,7 @@ $messages['fi'] = array(
  * @author EileenSanda
  */
 $messages['fo'] = array(
+	'antispoof-conflict-top' => 'Navnið "$1" líkist ov nógv {{PLURAL:$2|verandi konto|hesum $2 kontum}}:',
 	'antispoof-conflict-bottom' => 'Vinarliga vel eitt annað navn.',
 	'antispoof-name-illegal' => 'Navnið "$1" er ikki loyvt til tess at fyribyrgja følsk ella forvirrandi brúkaranøvn: $2.',
 	'antispoof-badtype' => 'Ringt slag av data.',
@@ -735,6 +738,7 @@ $messages['fo'] = array(
 	'antispoof-blacklisted' => 'Inniheldur tekn sum eru á svaralista',
 	'antispoof-combining' => 'Byrjar við kombinatións tekni',
 	'antispoof-noletters' => 'Inniheldur ikki nakran bókstav',
+	'antispoof-tooshort' => 'Navnið er ov stutt',
 	'antispoof-ignore' => 'Síggj burtur frá "spoofing" kanning',
 );
 
@@ -1516,6 +1520,20 @@ $messages['ms'] = array(
 	'antispoof-tooshort' => 'Nama berkanun terlalu pendek',
 	'antispoof-ignore' => 'Abaikan pemeriksaan penipuan',
 	'right-override-antispoof' => 'Mengatasi pemeriksaan penipuan',
+);
+
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'antispoof-desc' => "Jimblokka l-ħolqien ta' kontijiet b'karattri mħawwda, ismijiet tal-utent li joħolqu konfużjoni jew huma wisq simili ma' xulxin.",
+	'antispoof-conflict-top' => 'L-isem "$1" huwa wisq simili {{PLURAL:$2|għall-kont eżistenti|għal $2 kontijiet segwenti}}:',
+	'antispoof-conflict-bottom' => 'Jekk jogħġbok agħżel isem ieħor.',
+	'antispoof-name-illegal' => 'L-isem "$1" mhuwiex permess sabiex jiġi evitat kwalunkwe konfużjoni jew użu qarrieq: $2. Agħżel isem ieħor.',
+	'antispoof-empty' => 'Stringa vojta',
+	'antispoof-blacklisted' => 'Jinkludi karattri li mhumiex permessi',
+	'antispoof-combining' => "Jibda b'karattru ta' kombinazzjoni",
+	'antispoof-noletters' => 'Ma jinkludix ittri',
 );
 
 /** Erzya (Эрзянь)
