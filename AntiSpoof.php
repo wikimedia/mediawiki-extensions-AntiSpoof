@@ -3,7 +3,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	exit( 1 );
 }
 
-$wgExtensionCredits[version_compare($wgVersion, '1.17alpha', '>=') ? 'antispam' : 'other'][] = array(
+$wgExtensionCredits['antispam'][] = array(
 	'path' => __FILE__,
 	'name' => 'AntiSpoof',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:AntiSpoof',
