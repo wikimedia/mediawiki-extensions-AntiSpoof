@@ -1056,7 +1056,21 @@ $messages['ig'] = array(
  * @author Lam-ang
  */
 $messages['ilo'] = array(
+	'antispoof-desc' => 'Serraan na ti panagaramid kadagiti pakabilangan nga addaan ti naglalaok-a panagsurat, maka-allilaw ken dagiti agpapada a nagan ti agar-aramat',
+	'antispoof-conflict-top' => 'Ti nagan a "$1" ket agpadpada unay {{PLURAL:$2|idiay addaan a pakabilangan|kadagidiay sumaganad $2 a pakabilangan}}:',
 	'antispoof-conflict-bottom' => 'Pangaasi ta agpili ka ti sabali nga nagan.',
+	'antispoof-name-illegal' => 'Ti nagan a "$1" ket saan a mabalin tapno pawilan ti maka-allilaw wenno dagiti naanigaas a nagan ti agararamat: $2.
+Pangngaasi ti agpili iti sabali a nagan.',
+	'antispoof-badtype' => 'Dakes a kita a linaon',
+	'antispoof-empty' => 'Awan ti nagyan na a kuerdas',
+	'antispoof-blacklisted' => 'Nagyan kadagiti naiparit a karakter',
+	'antispoof-combining' => 'Nangrugi iti pinagtipon ti marka',
+	'antispoof-unassigned' => 'Nagyan iti saan a nainaganan wenno naikkaten a karakter',
+	'antispoof-noletters' => 'Awan ti nagyan na a dagiti ania man a letra',
+	'antispoof-mixedscripts' => 'Nagyan iti saan a mabalin nga aglalaok a panagsurat',
+	'antispoof-tooshort' => 'Ti nakanonikal a nagan ket nababa unay',
+	'antispoof-ignore' => 'Saan nga ikaskaso dagiti kinita nga aningaas',
+	'right-override-antispoof' => 'Parabawan ti pinagkita nga aningaas',
 );
 
 /** Icelandic (Íslenska)
@@ -1824,6 +1838,7 @@ $messages['pnb'] = array(
 $messages['ps'] = array(
 	'antispoof-conflict-bottom' => 'لطفاُ يو بل نوم وټاکۍ.',
 	'antispoof-badtype' => 'ناسمه مالوماتي بڼه',
+	'antispoof-blacklisted' => 'د تور لړليک توري لري',
 	'antispoof-noletters' => 'هېڅ کوم توری نه شته',
 );
 
