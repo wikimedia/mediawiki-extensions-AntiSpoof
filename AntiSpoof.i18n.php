@@ -813,7 +813,7 @@ $messages['gl'] = array(
 	'antispoof-desc' => 'Bloquea a creación de contas con escrituras mesturadas, confusas ou con nomes de usuario similares',
 	'antispoof-conflict-top' => 'O nome "$1" é moi similar {{PLURAL:$2|á seguinte conta que xa existe|ás seguintes $2 contas}}:',
 	'antispoof-conflict-bottom' => 'Por favor, escolla outro nome.',
-	'antispoof-name-illegal' => 'O nome "$1" non está permitido para evitar confusións ou enganos cos seguintes nomes de usuario: $2. Por favor escolla outro nome.',
+	'antispoof-name-illegal' => 'O nome "$1" non está permitido para evitar confusións ou enganos cos seguintes nomes de usuario: $2. Por favor, escolla outro nome.',
 	'antispoof-badtype' => 'Tipo de datos incorrecto',
 	'antispoof-empty' => 'Cadea baleira',
 	'antispoof-blacklisted' => 'Inclúe un carácter prohibido',
@@ -1388,6 +1388,7 @@ $messages['lv'] = array(
 	'antispoof-badtype' => 'Nederīgs datu tips',
 	'antispoof-empty' => 'Tukša virkne',
 	'antispoof-blacklisted' => 'Satur aizliegtu simbolu',
+	'antispoof-noletters' => 'Nesatur nevienu burtu',
 );
 
 /** Basa Banyumasan (Basa Banyumasan)
