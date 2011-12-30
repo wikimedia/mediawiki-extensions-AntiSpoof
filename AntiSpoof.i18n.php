@@ -1384,11 +1384,15 @@ $messages['lt'] = array(
  * @author Papuass
  */
 $messages['lv'] = array(
+	'antispoof-desc' => 'Bloķē kontu izveidi ar jauktas rakstības, mulsinošiem un līdzīgiem lietotājvārdiem',
+	'antispoof-conflict-top' => 'Nosaukums "$1" ir pārāk līdzīgs {{PLURAL:$2|esošajam kontam|šiem $2 kontiem}}:',
 	'antispoof-conflict-bottom' => 'Lūdzu, izvēlieties citu faila nosaukumu.',
 	'antispoof-badtype' => 'Nederīgs datu tips',
 	'antispoof-empty' => 'Tukša virkne',
 	'antispoof-blacklisted' => 'Satur aizliegtu simbolu',
+	'antispoof-unassigned' => 'Satur nepiešķirtu vai novecojušu rakstzīmi',
 	'antispoof-noletters' => 'Nesatur nevienu burtu',
+	'antispoof-mixedscripts' => 'Satur nesavietojamas jauktas rakstu zīmes',
 );
 
 /** Basa Banyumasan (Basa Banyumasan)
