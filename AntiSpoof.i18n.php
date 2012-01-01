@@ -347,6 +347,27 @@ $messages['bho'] = array(
 	'antispoof-conflict-bottom' => 'कृपया कउनो दुसर नाम चुनीं',
 );
 
+/** Banjar (Bahasa Banjar)
+ * @author J Subhi
+ */
+$messages['bjn'] = array(
+	'antispoof-desc' => 'Blukir paulahan akun bangaran pamuruk awan hurup-bacampur, mambingungakan, wan mirip',
+	'antispoof-conflict-top' => 'Si ngaran "$1" kamiripan awan {{PLURAL:$2|akun nang sudah ada|$2 akun barikut}}:',
+	'antispoof-conflict-bottom' => 'Muhun pilih ngaran nang lain.',
+	'antispoof-name-illegal' => 'Si ngaran "$1" kada dibulihakan hagan mancagah kabingungan atawa ngaran tipuan: $2.
+Muhun pilih ngaran nang lain.',
+	'antispoof-badtype' => 'Janis data buruk',
+	'antispoof-empty' => 'String kusung',
+	'antispoof-blacklisted' => 'Mangandung karaktir daptar-hirang',
+	'antispoof-combining' => 'Bamula awan ciri kumbinasi',
+	'antispoof-unassigned' => 'Mangandung karaktir kada dibariakan atawa kada dipuruk pulang',
+	'antispoof-noletters' => 'Kada baisi sa-asa hurup gin',
+	'antispoof-mixedscripts' => 'Mangandung hurup-bacampur kada kumpatibal',
+	'antispoof-tooshort' => 'Ngaran kanunicalisa kahandapan',
+	'antispoof-ignore' => 'Abaiakan pamariksaan panipuan akun',
+	'right-override-antispoof' => 'Abaiakan pamariksaan panipuan',
+);
+
 /** Bengali (বাংলা)
  * @author Bellayet
  * @author Zaheen
@@ -730,6 +751,7 @@ $messages['fi'] = array(
  * @author EileenSanda
  */
 $messages['fo'] = array(
+	'antispoof-desc' => 'Blokkerar fyri upprættan av konti við blandaðum teknum, forvirrandi ella líknandi brúkaranøvnum',
 	'antispoof-conflict-top' => 'Navnið "$1" líkist ov nógv {{PLURAL:$2|verandi konto|hesum $2 kontum}}:',
 	'antispoof-conflict-bottom' => 'Vinarliga vel eitt annað navn.',
 	'antispoof-name-illegal' => 'Navnið "$1" er ikki loyvt til tess at fyribyrgja følsk ella forvirrandi brúkaranøvn: $2.',
@@ -737,6 +759,7 @@ $messages['fo'] = array(
 	'antispoof-empty' => 'Tøm strongin',
 	'antispoof-blacklisted' => 'Inniheldur tekn sum eru á svaralista',
 	'antispoof-combining' => 'Byrjar við kombinatións tekni',
+	'antispoof-unassigned' => 'Inniheldur óbrúktar bókstavar',
 	'antispoof-noletters' => 'Inniheldur ikki nakran bókstav',
 	'antispoof-tooshort' => 'Navnið er ov stutt',
 	'antispoof-ignore' => 'Síggj burtur frá "spoofing" kanning',
