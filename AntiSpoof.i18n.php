@@ -2577,6 +2577,7 @@ $messages['yue'] = array(
 
 /** Zeeuws (Zeêuws)
  * @author NJ
+ * @author Ooswesthoesbes
  */
 $messages['zea'] = array(
 	'antispoof-desc' => "Blokkeer 't anmaeken van gebrukers mie meêdere schriffen, verwarr'nde en heliekende gebrukersnaemen",
@@ -2589,6 +2590,7 @@ $messages['zea'] = array(
 	'antispoof-noletters' => 'Bevat hin letters',
 	'antispoof-mixedscripts' => 'Bevat nie compatibele schriffen',
 	'antispoof-tooshort' => 'Afekorte naem te kort',
+	'antispoof-ignore' => 'Controle op geliekende gebrukersnaemen negeren',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
