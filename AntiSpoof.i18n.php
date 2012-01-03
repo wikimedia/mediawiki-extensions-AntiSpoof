@@ -57,8 +57,10 @@ $messages['qqq'] = array(
 
 /** Afrikaans (Afrikaans)
  * @author Naudefj
+ * @author පසිඳු කාවින්ද
  */
 $messages['af'] = array(
+	'antispoof-desc' => 'Blokke van die skepping van rekeninge met gemengde-script, verwarrend en soortgelyke gebruikersname',
 	'antispoof-conflict-top' => 'Die naam "$1" lyk te soortgelyk aan die van die volgende bestaande {{PLURAL:$2|gebruiker|$2 gebruikers}}:',
 	'antispoof-conflict-bottom' => "Kies asseblief 'n ander naam.",
 	'antispoof-badtype' => 'Verkeerde datatipe',
@@ -67,7 +69,10 @@ $messages['af'] = array(
 	'antispoof-combining' => "Begin met 'n gekombineerde merker",
 	'antispoof-unassigned' => 'Bevat nie toegekende of verouderde karakter',
 	'antispoof-noletters' => 'Bevat geen letters nie',
+	'antispoof-mixedscripts' => 'Bevat onverenigbaar gemengde skrifte',
 	'antispoof-tooshort' => 'Afgekorte naam te kort',
+	'antispoof-ignore' => 'Ignoreer spoofing tjeks',
+	'right-override-antispoof' => 'Ignoreer die spoofing tjeks',
 );
 
 /** Gheg Albanian (Gegë)
@@ -1276,6 +1281,17 @@ $messages['km'] = array(
 	'antispoof-noletters' => 'គ្មានផ្ទុក​អក្សរណាមួយ',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author Abhirama
+ */
+$messages['kn'] = array(
+	'antispoof-conflict-bottom' => 'ಇನ್ನೊಂದು ಹೆಸರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.',
+	'antispoof-name-illegal' => '$ 2: ಹೆಸರು "$ 1" ಗೊಂದಲ ಅಥವಾ ವಂಚಕ ಬಳಕೆದಾರರ ಹೆಸರುಗಳನ್ನು ತಡೆಯಲು ಅವಕಾಶವಿಲ್ಲ.
+ಇನ್ನೊಂದು ಹೆಸರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.',
+	'antispoof-badtype' => 'ಕೆಟ್ಟ ಮಾಹಿತಿ ರೀತಿ',
+	'antispoof-empty' => 'ಖಾಲಿ ಸ್ಟ್ರಿನ್ಗ್',
+);
+
 /** Korean (한국어)
  * @author Klutzy
  * @author Kwj2772
@@ -2026,10 +2042,14 @@ $messages['rue'] = array(
 );
 
 /** Sanskrit (संस्कृतम्)
+ * @author Shreekant Hegde
  * @author Vibhijain
  */
 $messages['sa'] = array(
 	'antispoof-name-illegal' => 'अवैध नाम',
+	'antispoof-badtype' => 'स्वस्थाननिर्माणे विपन्नतायाः कारणम् ।',
+	'antispoof-empty' => 'स्वस्थाननिर्माणे विपन्नतायाः कारणम् ।',
+	'antispoof-blacklisted' => 'स्वस्थाननिर्माणे विपन्नतायाः हेतुः ।',
 );
 
 /** Sakha (Саха тыла)
