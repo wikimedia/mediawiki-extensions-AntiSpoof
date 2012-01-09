@@ -100,9 +100,11 @@ $messages['aln'] = array(
  */
 $messages['an'] = array(
 	'antispoof-desc' => "Bloqueya a creyación de cuentas confusas, con tipografía mezclata y nombres d'usuario parellanos.",
+	'antispoof-conflict-top' => "O nombre «$1» ye masiau semellant a o d'{{PLURAL:$2|ista cuenta existent|istas $2 cuentas existents}}:",
+	'antispoof-conflict-bottom' => 'Esleiga belatro nombre, por favor.',
 	'antispoof-name-illegal' => 'No se premite rechistrar-se con o nombre "$1" ta privar confusions y suplantacions con os nombres d\'usuario: $2. Por favor, esliya una atro nombre.',
 	'antispoof-badtype' => 'Tipo de datos no conforme',
-	'antispoof-empty' => 'Cadena bueda',
+	'antispoof-empty' => 'Cadena vueda',
 	'antispoof-blacklisted' => 'Contiene carácters no premititos',
 	'antispoof-combining' => 'Prencipia con un sinyal combinatorio',
 	'antispoof-unassigned' => 'Contiene carácters no conformes u obsoletos',
@@ -2118,6 +2120,7 @@ Molimo Vas da odaberete drugo ime.',
 /** Sinhala (සිංහල)
  * @author Singhalawap
  * @author Thameera123
+ * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
 	'antispoof-desc' => 'අකුරු වර්ග මිශ්‍ර, ව්‍යාකූල සහ සමාන ලෙස පෙනෙන පරිශීලක නම් වාරණය කරයි',
@@ -2125,7 +2128,7 @@ $messages['si'] = array(
 	'antispoof-conflict-bottom' => 'කරුණාකර වෙනත් නමක් තෝරාගන්න',
 	'antispoof-name-illegal' => 'ව්‍යාකූල පරිශීලක නම් වැළැක්වීම සඳහා "$1" යන නමට අවසර දිය නොහැකිය: $2.',
 	'antispoof-badtype' => 'අවලංගු දත්ත වර්ගයකි',
-	'antispoof-empty' => 'හිස් string එකකි',
+	'antispoof-empty' => 'හිස් තන්තුවකි',
 	'antispoof-blacklisted' => 'වලංගු නැති සංඛේතයක් අඩංගුවේ.',
 	'antispoof-combining' => 'සම්බන්ධක ලකුණකින් ආරම්භවේ.',
 	'antispoof-unassigned' => 'නොපවරන ලද හෝ විරුද්ධත්වය ප්‍රකාශ කරන ලද අක්ෂරයක් අඩංගු වේ',
