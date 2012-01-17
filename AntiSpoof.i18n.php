@@ -1541,6 +1541,7 @@ $messages['mn'] = array(
  * @author Dnyanesh325
  * @author Kaustubh
  * @author Mahitgar
+ * @author Mvkulkarni23
  * @author Saleelk
  * @author प्रणव कुलकर्णी
  */
@@ -1550,7 +1551,7 @@ $messages['mr'] = array(
 	'antispoof-conflict-bottom' => 'कृपया दुसरे नाव निवडा.',
 	'antispoof-name-illegal' => '"$1" हे नाव वापरण्यास बंदी आहे कारण हे नाव इतर नावांशी साम्य राखते: $2.
 त्यामुळे कृपया वेगळे नाव वापरा.',
-	'antispoof-badtype' => 'वाईट विदा प्रकार',
+	'antispoof-badtype' => 'वाईट विदा (डाटा) प्रकार',
 	'antispoof-empty' => 'रिकामा तंतु',
 	'antispoof-blacklisted' => 'मान्यताप्राप्त यादीत नसलेले अक्षर',
 	'antispoof-combining' => 'एकत्रीकरण चिन्हाने सुरुवात केलेली आहे.',
