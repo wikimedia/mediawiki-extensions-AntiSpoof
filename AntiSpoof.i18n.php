@@ -298,6 +298,26 @@ $messages['bcl'] = array(
 	'antispoof-mixedscripts' => 'Igwang dai angay na mga halong script',
 );
 
+/** Belarusian (Беларуская)
+ * @author Хомелка
+ */
+$messages['be'] = array(
+	'antispoof-desc' => 'Блакуе стварэнне рахункаў з імёнамі карыстальнікаў са змяшанымі раскладкамі, падобных ці тых, якія можна зблытаць',
+	'antispoof-conflict-top' => 'Назва рахунку «$1» занадта падобная на $2 {{PLURAL:$2|існуючы рахунак|існуючыя рахункі|існуючых рахункаў}}:',
+	'antispoof-conflict-bottom' => 'Калі ласка, выберыце іншую назву рахунку.',
+	'antispoof-name-illegal' => 'Імя «$1» не дазволенае, каб прадухіліць блытаніну ці падробку імені ўдзельніка: $2. Калі ласка, абярыце іншае імя.',
+	'antispoof-badtype' => 'Няслушны тып звестак',
+	'antispoof-empty' => 'Пусты радок',
+	'antispoof-blacklisted' => 'Утрымлівае забаронены сімвал',
+	'antispoof-combining' => "Пачынаецца з аб'яднальнага знаку",
+	'antispoof-unassigned' => 'Утрымлівае нявызначаны ці састарэлы сімвал',
+	'antispoof-noletters' => 'Не ўтрымлівае ніводнай літары',
+	'antispoof-mixedscripts' => 'Утрымлівае несумяшчальныя змяшаныя альфавіты',
+	'antispoof-tooshort' => 'Нармалізаванае імя занадта кароткае',
+	'antispoof-ignore' => 'Ігнараваць праверкі на падобнасць імёнаў',
+	'right-override-antispoof' => 'ігнараванне праверак на падобныя назвы рахункаў',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
