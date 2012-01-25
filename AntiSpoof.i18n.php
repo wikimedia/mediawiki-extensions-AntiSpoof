@@ -1572,14 +1572,14 @@ $messages['mr'] = array(
 	'antispoof-name-illegal' => '"$1" हे नाव वापरण्यास बंदी आहे कारण हे नाव इतर नावांशी साम्य राखते: $2.
 त्यामुळे कृपया वेगळे नाव वापरा.',
 	'antispoof-badtype' => 'वाईट विदा (डाटा) प्रकार',
-	'antispoof-empty' => 'रिकामा तंतु',
+	'antispoof-empty' => 'रिकामा धागा',
 	'antispoof-blacklisted' => 'मान्यताप्राप्त यादीत नसलेले अक्षर',
 	'antispoof-combining' => 'एकत्रीकरण चिन्हाने सुरुवात केलेली आहे.',
 	'antispoof-unassigned' => 'यामध्ये चुकीची चिन्हे आहेत.',
 	'antispoof-noletters' => 'कोणत्याही अक्षराचा समावेश नाही',
 	'antispoof-mixedscripts' => 'यामध्ये इतर मिश्र लिपी आहेत.',
 	'antispoof-tooshort' => 'अधिकारयुक्त नाव खूप छोटे आहे',
-	'antispoof-ignore' => 'नकली चीन्हे विसरा',
+	'antispoof-ignore' => 'नकली चिन्हे विसरा',
 	'right-override-antispoof' => 'स्पूफिंग चेक्स कडे दुर्लक्ष करा',
 );
 
