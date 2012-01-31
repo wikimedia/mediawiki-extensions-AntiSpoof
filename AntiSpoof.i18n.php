@@ -2639,6 +2639,7 @@ $messages['zea'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Gzdavidwong
+ * @author Hzy980512
  * @author Jimmy xu wrk
  * @author Liangent
  * @author PhiLiP
@@ -2646,7 +2647,7 @@ $messages['zea'] = array(
  */
 $messages['zh-hans'] = array(
 	'antispoof-desc' => '禁止创建用户名使用混合文字、容易混淆或与已存在用户名过于相似的帐户',
-	'antispoof-conflict-top' => '用户名“$1”与{{PLURAL:$2|下列账户|下列 $2 个账户}}过于相似：',
+	'antispoof-conflict-top' => '用户名“$1”与{{PLURAL:$2|这个已存在的账户|下列$2个账户}}过于相似：',
 	'antispoof-conflict-bottom' => '请选择其他名称。',
 	'antispoof-name-illegal' => '为了防止混淆或欺诈性使用用户名“$2”，用户名“$1”已被禁止使用。请使用其他用户名。',
 	'antispoof-badtype' => '错误的数据类型',
@@ -2657,7 +2658,7 @@ $messages['zh-hans'] = array(
 	'antispoof-noletters' => '未包含任何字符',
 	'antispoof-mixedscripts' => '包含不兼容的混合文字',
 	'antispoof-tooshort' => '标准化后的用户名过短',
-	'antispoof-ignore' => '略过欺诈检查',
+	'antispoof-ignore' => '忽略欺诈检查',
 	'right-override-antispoof' => '无视欺诈检查',
 );
 
