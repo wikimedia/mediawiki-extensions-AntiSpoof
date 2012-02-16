@@ -17,17 +17,40 @@ class BatchAntiSpoof extends Maintenance {
 	}
 
 	/**
+	 * @return string
+	 */
+	protected function getTableName() {
+		return 'user';
+	}
+
+	/**
+	 * @return string
+	 */
+	protected function getUserColumn() {
+		return 'user_name';
+	}
+
+	/**
+	 * @param $name string
+	 * @return SpoofUser
+	 */
+	protected function makeSpoofUser( $name ) {
+		return new SpoofUser( $name );
+	}
+
+	/**
 	 * Do the actual work. All child classes will need to implement this
 	 */
 	public function execute() {
 		$dbw = $this->getDB( DB_MASTER );
 
-		$dbw->bufferResults( false );
+		// $dbw->bufferResults( false );
 
 		$batchSize = 1000;
 
 		$this->output( "Creating username spoofs...\n" );
-		$result = $dbw->select( 'user', 'user_name', null, __FUNCTION__ );
+		$userCol = $this->getUserColumn();
+		$result = $dbw->select( $this->getTableName(), $userCol, null, __FUNCTION__ );
 		$n = 0;
 		$items = array();
 		foreach( $result as $row ) {
@@ -35,7 +58,7 @@ class BatchAntiSpoof extends Maintenance {
 				$this->output( "...$n\n" );
 			}
 
-			$items[] = new SpoofUser( $row->user_name );
+			$items[] = $this->makeSpoofUser( $row->$userCol );
 
 			if ( $n % $batchSize == 0 ) {
 				$this->batchRecord( $items );
