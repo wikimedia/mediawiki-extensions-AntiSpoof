@@ -36,7 +36,7 @@ class SpoofUser {
 
 	/**
 	 * Get the normalized key form
-	 * @return string|nuyll
+	 * @return string|null
 	 */
 	public function getNormalized() {
 		return $this->mNormalized;
@@ -48,7 +48,7 @@ class SpoofUser {
 	 * @return array empty if no conflict, or array containing conflicting usernames
 	 */
 	public function getConflicts() {
-		$dbr = self::getDBSlave();
+		$dbr = static::getDBSlave();
 
 		// Join against the user table to ensure that we skip stray
 		// entries left after an account is renamed or otherwise munged.
@@ -108,7 +108,7 @@ class SpoofUser {
 		foreach ( $items as $item ) {
 			$fields[] = $item->insertFields();
 		}
-		$dbw = self::getDBMaster();
+		$dbw = static::getDBMaster();
 		$dbw->replace(
 			'spoofuser',
 			array( 'su_name' ),
@@ -121,7 +121,7 @@ class SpoofUser {
 	 * @param $oldName
 	 */
 	public function update( $oldName ) {
-		$dbw = self::getDBMaster();
+		$dbw = static::getDBMaster();
 
 		if( $this->record() ) {
 			$dbw->delete(
