@@ -52,7 +52,7 @@ class AntiSpoofHooks {
 		}
 
 		$name = $user->getName();
-		$spoof = self::makeSpoofUser( $name );
+		$spoof = static::makeSpoofUser( $name );
 		if ( $spoof->isLegal() ) {
 			$normalized = $spoof->getNormalized();
 			$conflicts = $spoof->getConflicts();
@@ -108,7 +108,7 @@ class AntiSpoofHooks {
 	 * @return bool
 	 */
 	public static function asAddNewAccountHook( $user ) {
-		$spoof = self::makeSpoofUser( $user->getName() );
+		$spoof = static::makeSpoofUser( $user->getName() );
 		$spoof->record();
 		return true;
 	}
@@ -123,7 +123,7 @@ class AntiSpoofHooks {
 	 * @return bool
 	 */
 	public static function asAddRenameUserHook( $uid, $oldName, $newName ) {
-		$spoof = self::makeSpoofUser( $newName );
+		$spoof = static::makeSpoofUser( $newName );
 		$spoof->update( $oldName );
 		return true;
 	}
