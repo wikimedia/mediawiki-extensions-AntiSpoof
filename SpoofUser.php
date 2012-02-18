@@ -43,6 +43,20 @@ class SpoofUser {
 	}
 
 	/**
+	 * @return string
+	 */
+	protected function getTableName() {
+		return 'user';
+	}
+
+	/**
+	 * @return string
+	 */
+	protected function getUserColumn() {
+		return 'user_name';
+	}
+
+	/**
 	 * Does the username pass Unicode legality and script-mixing checks?
 	 *
 	 * @return array empty if no conflict, or array containing conflicting usernames
@@ -53,11 +67,11 @@ class SpoofUser {
 		// Join against the user table to ensure that we skip stray
 		// entries left after an account is renamed or otherwise munged.
 		$spoofedUsers = $dbr->select(
-			array( 'spoofuser', 'user' ),
-			array( 'user_name' ),
+			array( 'spoofuser', $this->getTableName() ),
+			array( 'su_name' ), // Same thing due to the join. Saves extra variableness
 			array(
 				'su_normalized' => $this->mNormalized,
-				'su_name=user_name',
+				'su_name = ' . $this->getUserColumn(),
 			),
 			__METHOD__,
 			array(
@@ -66,7 +80,7 @@ class SpoofUser {
 
 		$spoofs = array();
 		foreach ( $spoofedUsers as $row ) {
-			array_push( $spoofs, $row->user_name );
+			array_push( $spoofs, $row->su_name );
 		}
 		return $spoofs;
 	}
