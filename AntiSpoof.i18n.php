@@ -553,6 +553,7 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
+ * @author Geitost
  * @author Metalhead64
  * @author Raimond Spekking
  * @author Umherirrender
@@ -571,7 +572,7 @@ $messages['de'] = array(
 	'antispoof-mixedscripts' => 'Es sind Zeichen unterschiedlicher Schriftsysteme enthalten.',
 	'antispoof-tooshort' => 'Der kanonisierte Name ist zu kurz.',
 	'antispoof-ignore' => 'Ähnlichkeitsprüfung ignorieren',
-	'right-override-antispoof' => 'Außer Kraft setzen der Benutzernamens-Ähnlichkeitsprüfung',
+	'right-override-antispoof' => 'Die Benutzernamens-Ähnlichkeitsprüfung außer Kraft setzen',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
