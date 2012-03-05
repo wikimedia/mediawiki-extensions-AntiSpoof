@@ -749,8 +749,8 @@ $messages['fa'] = array(
 	'antispoof-noletters' => 'دربردارندهٔ هیچ حرفی نیست.',
 	'antispoof-mixedscripts' => 'حاوی نویسه‌های مختلط ناسازگار است',
 	'antispoof-tooshort' => 'نام متعارف خیلی کوتاه است',
-	'antispoof-ignore' => 'نادیده گرفتن بررسی عبارات سردرگم کننده',
-	'right-override-antispoof' => 'گذر از بررسی عبارات سردرگم کننده',
+	'antispoof-ignore' => 'نادیده‌گرفتن بررسی عبارات سردرگم‌کننده',
+	'right-override-antispoof' => 'گذر از بررسی عبارات سردرگم‌کننده',
 );
 
 /** Finnish (Suomi)
@@ -1324,13 +1324,14 @@ $messages['km'] = array(
 
 /** Kannada (ಕನ್ನಡ)
  * @author Abhirama
+ * @author VASANTH S.N.
  */
 $messages['kn'] = array(
 	'antispoof-conflict-bottom' => 'ಇನ್ನೊಂದು ಹೆಸರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.',
 	'antispoof-name-illegal' => '$ 2: ಹೆಸರು "$ 1" ಗೊಂದಲ ಅಥವಾ ವಂಚಕ ಬಳಕೆದಾರರ ಹೆಸರುಗಳನ್ನು ತಡೆಯಲು ಅವಕಾಶವಿಲ್ಲ.
 ಇನ್ನೊಂದು ಹೆಸರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.',
 	'antispoof-badtype' => 'ಕೆಟ್ಟ ಮಾಹಿತಿ ರೀತಿ',
-	'antispoof-empty' => 'ಖಾಲಿ ಸ್ಟ್ರಿನ್ಗ್',
+	'antispoof-empty' => 'ಖಾಲಿ ಅಕ್ಷರಪುಂಜ',
 );
 
 /** Korean (한국어)
