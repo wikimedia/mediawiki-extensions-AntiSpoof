@@ -436,6 +436,7 @@ $messages['br'] = array(
 
 /** Bosnian (Bosanski)
  * @author CERminator
+ * @author Palapa
  */
 $messages['bs'] = array(
 	'antispoof-desc' => 'Blokira pravljenje računa sa miješanim slovima, zbunjujućim i sličnim korisničkim imenima',
@@ -447,7 +448,7 @@ Molimo Vas da odaberete drugo ime.',
 	'antispoof-empty' => 'Prazan unos',
 	'antispoof-blacklisted' => 'Sadrži nepoželjni znak',
 	'antispoof-combining' => 'Počinje sa znakom kombinacije',
-	'antispoof-unassigned' => 'Sadrži nepoželjene ili neodobrene znakove',
+	'antispoof-unassigned' => 'Sadrži nepoželjne ili neodobrene znakove',
 	'antispoof-noletters' => 'Ne sadrži ni jedno slovo',
 	'antispoof-mixedscripts' => 'Sadrži miješana slova koja nisu podržana',
 	'antispoof-tooshort' => 'Normalizirano ime je prekratko',
