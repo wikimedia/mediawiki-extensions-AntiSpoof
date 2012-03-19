@@ -15,11 +15,14 @@ $messages['en'] = array(
 	'antispoof-conflict-bottom' => 'Please choose another name.',
 	'antispoof-name-illegal'  => 'The name "$1" is not allowed to prevent confusing or spoofed usernames: $2.
 Please choose another name.',
+	'antispoof-bad-char'      => '"$1" ($2)',
+	'antispoof-bad-char-non-printable' => '$1',
 	'antispoof-badtype'       => 'Bad data type',
 	'antispoof-empty'         => 'Empty string',
-	'antispoof-blacklisted'   => 'Contains blacklisted character',
-	'antispoof-combining'     => 'Begins with combining mark',
-	'antispoof-unassigned'    => 'Contains unassigned or deprecated character',
+	'antispoof-blacklisted'   => 'Contains blacklisted character $1',
+	'antispoof-combining'     => 'Begins with combining mark $1',
+	'antispoof-unassigned'    => 'Contains unassigned character $1',
+	'antispoof-deprecated'    => 'Contains deprecated character $1',
 	'antispoof-noletters'     => 'Does not contain any letters',
 	'antispoof-mixedscripts'  => 'Contains incompatible mixed scripts',
 	'antispoof-tooshort'      => 'Canonicalized name too short',
@@ -43,11 +46,21 @@ $messages['qqq'] = array(
 	'antispoof-name-illegal' => 'Account creation error message because a user account creation rule was violated. Parameters:
 * $1 is the username that someone wanted to create
 * $2 is the error message. One of {{msg-mw|antispoof-badtype}}, {{msg-mw|antispoof-empty}}, {{msg-mw|antispoof-blacklisted}} and others.',
+	'antispoof-bad-char'      => 'It is not a complete message but a template for designator of a bad character, so localization can format it properly. Parameters:
+* $1 is the bad character itself.
+* $2 is the Unicode code point of bad character ("U+" followed by hex number).',
+	'antispoof-bad-char-non-printable' => 'The same as antispooof-bad-char, but for non-printable characters. Since non-printable characters do not have visual representation, template has only one parameter:
+* $1 is the Unicode code point of bad character ("U+" followed by hex number).',
 	'antispoof-badtype' => 'Reason for failed account creation.',
 	'antispoof-empty' => 'Reason for failed account creation.',
-	'antispoof-blacklisted' => 'Reason for failed account creation.',
-	'antispoof-combining' => 'Reason for failed account creation.',
-	'antispoof-unassigned' => 'Reason for failed account creation.',
+	'antispoof-blacklisted' => 'Reason for failed account creation. Parameters:
+* $1 — bad character designator (built with either antispoof-bad-char or …-non-printable).',
+	'antispoof-combining' => 'Reason for failed account creation. Parameters:
+* $1 — bad character designator (built with either antispoof-bad-char or …-non-printable).',
+	'antispoof-unassigned' => 'Reason for failed account creation. Parameters:
+* $1 — bad character designator (built with either antispoof-bad-char or …-non-printable).',
+	'antispoof-deprecated' => 'Reason for failed account creation. Parameters:
+* $1 — bad character designator (built with either antispoof-bad-char or …-non-printable).',
 	'antispoof-noletters' => 'Reason for failed account creation.',
 	'antispoof-mixedscripts' => 'Reason for failed account creation.',
 	'antispoof-tooshort' => 'Reason for failed account creation.',
