@@ -46,11 +46,9 @@ $messages['qqq'] = array(
 	'antispoof-name-illegal' => 'Account creation error message because a user account creation rule was violated. Parameters:
 * $1 is the username that someone wanted to create
 * $2 is the error message. One of {{msg-mw|antispoof-badtype}}, {{msg-mw|antispoof-empty}}, {{msg-mw|antispoof-blacklisted}} and others.',
-	'antispoof-bad-char'      => 'It is not a complete message but a template for designator of a bad character, so localization can format it properly. Parameters:
+	'antispoof-bad-char' => 'It is not a complete message but a template for designator of a bad character, so localization can format it properly. Parameters:
 * $1 is the bad character itself.
 * $2 is the Unicode code point of bad character ("U+" followed by hex number).',
-	'antispoof-bad-char-non-printable' => 'The same as antispooof-bad-char, but for non-printable characters. Since non-printable characters do not have visual representation, template has only one parameter:
-* $1 is the Unicode code point of bad character ("U+" followed by hex number).',
 	'antispoof-badtype' => 'Reason for failed account creation.',
 	'antispoof-empty' => 'Reason for failed account creation.',
 	'antispoof-blacklisted' => 'Reason for failed account creation. Parameters:
@@ -854,10 +852,10 @@ $messages['frc'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
-	'antispoof-desc' => 'Dèfend la crèacion de comptos qu’utilisont un mouél d’ècritures avouéc des noms d’utilisator semblâblos, ou ben que pôvont prétar a confusion.',
+	'antispoof-desc' => 'Dèfend la crèacion de comptos qu’utilisont un mouél d’ècritures avouéc des noms d’usanciér semblâblos, ou ben que pôvont prétar a confusion.',
 	'antispoof-conflict-top' => 'Lo nom « $1 » est trop pariér {{PLURAL:$2|u compto ègzistent|a cetos $2 comptos}} :',
 	'antispoof-conflict-bottom' => 'Volyéd chouèsir un ôtro nom.',
-	'antispoof-name-illegal' => 'Lo nom d’utilisator « $1 » est pas ôtorisâ por empachiér de confondre ou ben d’utilisar lo nom « $2 ».
+	'antispoof-name-illegal' => 'Lo nom d’usanciér « $1 » est pas ôtorisâ por empachiér de confondre ou ben d’utilisar lo nom « $2 ».
 Volyéd chouèsir un ôtro nom.',
 	'antispoof-badtype' => 'Crouyo tipo de balyês',
 	'antispoof-empty' => 'Chêna voueda',
@@ -1770,6 +1768,7 @@ Kies een andere naam.',
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'antispoof-desc' => 'Blokkerer for oppretting av konti med liknande eller forvirrande brukarnamn, eller brukarnamn som inneheld forskjellige alfabettypar',
