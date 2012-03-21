@@ -179,6 +179,7 @@ $messages['arz'] = array(
 
 /** Asturian (Asturianu)
  * @author Esbardu
+ * @author Xuacu
  */
 $messages['ast'] = array(
 	'antispoof-desc' => "Bloquea la creación de cuentes con script mistu que tengan nomes d'usuariu asemeyaos o confusos",
@@ -187,9 +188,10 @@ $messages['ast'] = array(
 	'antispoof-name-illegal' => 'Nun se permite\'l nome "$1" pa evitar nomes d\'usuariu confusos o paródicos: $2. Por favor escueyi otru nome.',
 	'antispoof-badtype' => 'Triba de datos incorreuta',
 	'antispoof-empty' => 'Testu vaciu',
-	'antispoof-blacklisted' => 'Contién un caráuter prohibíu',
-	'antispoof-combining' => 'Empecipia con una marca combinada',
+	'antispoof-blacklisted' => 'Contién el caráuter non permitíu $1',
+	'antispoof-combining' => 'Empecipia cola marca de combinación $1',
 	'antispoof-unassigned' => 'Contién un caráuter non asignáu o obsoletu',
+	'antispoof-deprecated' => 'Contién el caráuter anticuáu $1',
 	'antispoof-noletters' => 'Nun contién nenguna lletra',
 	'antispoof-mixedscripts' => 'Contién munchos scripts incompatibles',
 	'antispoof-tooshort' => 'Nome canónicu demasiao curtiu',
@@ -322,6 +324,7 @@ $messages['be'] = array(
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
+ * @author Wizardist
  */
 $messages['be-tarask'] = array(
 	'antispoof-desc' => 'Блякуе стварэньне рахункаў зь імёнамі карыстальнікаў са зьмяшаных альфабэтаў, падобных ці тых, якія можна зблытаць',
@@ -330,9 +333,10 @@ $messages['be-tarask'] = array(
 	'antispoof-name-illegal' => 'Імя «$1» не дазволенае, каб прадухіліць блытаніну ці падробку імені ўдзельніка: $2. Калі ласка, абярыце іншае імя.',
 	'antispoof-badtype' => 'Няслушны тып зьвестак',
 	'antispoof-empty' => 'Пусты радок',
-	'antispoof-blacklisted' => 'Утрымлівае забаронены сымбаль',
-	'antispoof-combining' => "Пачынаецца з аб'яднальнага знаку",
+	'antispoof-blacklisted' => 'Утрымлівае забаронены сымбаль «$1»',
+	'antispoof-combining' => 'Пачынаецца з аб’яднальнага знаку «$1»',
 	'antispoof-unassigned' => 'Утрымлівае нявызначаны ці састарэлы сымбаль',
+	'antispoof-deprecated' => 'Утрымлівае састарэлы сымбаль «$1»',
 	'antispoof-noletters' => 'Ня ўтрымлівае ніводнай літары',
 	'antispoof-mixedscripts' => 'Утрымлівае несумяшчальныя зьмяшаныя альфабэты',
 	'antispoof-tooshort' => 'Нармалізаванае імя занадта кароткае',
@@ -555,6 +559,7 @@ $messages['da'] = array(
 
 /** German (Deutsch)
  * @author Geitost
+ * @author Kghbln
  * @author Metalhead64
  * @author Raimond Spekking
  * @author Umherirrender
@@ -566,9 +571,10 @@ $messages['de'] = array(
 	'antispoof-name-illegal' => 'Der gewünschte Benutzername „$1“ ist nicht erlaubt. Grund: $2<br />Bitte einen anderen Benutzernamen wählen.',
 	'antispoof-badtype' => 'Ungültiger Datentyp',
 	'antispoof-empty' => 'Leeres Feld',
-	'antispoof-blacklisted' => 'Es sind unerlaubte Zeichen enthalten.',
-	'antispoof-combining' => 'Kombinationszeichen zu Beginn.',
+	'antispoof-blacklisted' => 'Es ist das nicht zulässige Zeichen $1 enthalten.',
+	'antispoof-combining' => 'Es beginnt mit der Zeichenkombination $1',
 	'antispoof-unassigned' => 'Es sind nicht zugeordnete oder unerwünschte Zeichen enthalten.',
+	'antispoof-deprecated' => 'Es ist das veraltete Zeichen $1 enthalten.',
 	'antispoof-noletters' => 'Es sind keine Buchstaben enthalten.',
 	'antispoof-mixedscripts' => 'Es sind Zeichen unterschiedlicher Schriftsysteme enthalten.',
 	'antispoof-tooshort' => 'Der kanonisierte Name ist zu kurz.',
@@ -614,9 +620,10 @@ $messages['dsb'] = array(
 	'antispoof-name-illegal' => 'Mě "$1" se njedowólujo, aby se mjerwjece abo manipulěrowane wužywarske mjenja wopinuli: $2. Wubjeŕ pšosym druge mě.',
 	'antispoof-badtype' => 'Wopacny datowy typ',
 	'antispoof-empty' => 'Prozne pólo',
-	'antispoof-blacklisted' => 'Wopśimjejo njedowólene znamješka',
-	'antispoof-combining' => 'Zachopina se z kombinaciskim znamješkom',
+	'antispoof-blacklisted' => 'Wopśimujo njedowólone znamuško $1',
+	'antispoof-combining' => 'Zachopina se ze znamuškoweju kombinaciju $1',
 	'antispoof-unassigned' => 'Wopśimjejo njepśirědowane abo njewitane znamješka',
+	'antispoof-deprecated' => 'Wopśimujo zestarjone znamuško $1',
 	'antispoof-noletters' => 'Njewopśimjejo pismiki',
 	'antispoof-mixedscripts' => 'Wopśimjejo znamješka z njekompatibelnych rozdźělnych pismow',
 	'antispoof-tooshort' => 'Kanonizěrowane mě jo pśekrotko.',
@@ -796,6 +803,7 @@ $messages['fo'] = array(
 );
 
 /** French (Français)
+ * @author Gomoko
  * @author Grondin
  * @author IAlex
  * @author Louperivois
@@ -812,9 +820,10 @@ $messages['fr'] = array(
 Veuillez choisir un autre nom.',
 	'antispoof-badtype' => 'Mauvais type de données',
 	'antispoof-empty' => 'Chaîne vide',
-	'antispoof-blacklisted' => 'Contient un caractère interdit',
-	'antispoof-combining' => 'Commence avec une marque combinatoire',
+	'antispoof-blacklisted' => 'Contient le caractère interdit $1',
+	'antispoof-combining' => 'Commence avec une balise combinée $1',
 	'antispoof-unassigned' => 'Contient un caractère non assigné ou désuet',
+	'antispoof-deprecated' => 'Contient le caractère obsolète $1',
 	'antispoof-noletters' => 'Ne contient aucune lettre',
 	'antispoof-mixedscripts' => 'Contient plusieurs écritures incompatibles',
 	'antispoof-tooshort' => 'Nom canonique trop court',
@@ -1023,9 +1032,10 @@ $messages['hsb'] = array(
 	'antispoof-name-illegal' => 'Požadane wužiwarske mjeno „$1” njeje dowolene. Přičina: $2<br />Prošu wubjer druhe wužiwarske mjeno.',
 	'antispoof-badtype' => 'Njepłaćiwy datowy typ',
 	'antispoof-empty' => 'Prózdne polo',
-	'antispoof-blacklisted' => 'Su njedowolene znamješka wobsahowane.',
-	'antispoof-combining' => 'Započina so z kombinaciskim znamješkom.',
+	'antispoof-blacklisted' => 'Wobsahuje njedowolene znamješko $1',
+	'antispoof-combining' => 'Započina so ze znamješkowej kombinaciju $1',
 	'antispoof-unassigned' => 'Su njepřirjadowane abo njewitane znamješka wobsahowane.',
+	'antispoof-deprecated' => 'Wobsahuje zestarjene znamješko $1',
 	'antispoof-noletters' => 'Njejsu pismiki wobsahowane.',
 	'antispoof-mixedscripts' => 'Su znamješka rozdźělnych njekompatibelnych pismow wobsahowane',
 	'antispoof-tooshort' => 'Kanonizowane mjeno je překrótke.',
@@ -1082,9 +1092,10 @@ $messages['ia'] = array(
 Per favor selige un altere nomine.',
 	'antispoof-badtype' => 'Mal typo de datos',
 	'antispoof-empty' => 'Serie de characteres vacue',
-	'antispoof-blacklisted' => 'Contine un character prohibite',
-	'antispoof-combining' => 'Comencia con un marca combinatori',
+	'antispoof-blacklisted' => 'Contine le character prohibite $1',
+	'antispoof-combining' => 'Comencia con le marca combinatori $1',
 	'antispoof-unassigned' => 'Contine un character non assignate o obsolete',
+	'antispoof-deprecated' => 'Contine le character $1 que non plus es permittite',
 	'antispoof-noletters' => 'Non contine alcun litteras',
 	'antispoof-mixedscripts' => 'Contine un mixtura incompatibile de alphabetos',
 	'antispoof-tooshort' => 'Nomine canonic troppo curte',
@@ -1247,6 +1258,7 @@ Mangga pilihen jeneng liya.',
 /** Georgian (ქართული)
  * @author Alsandro
  * @author BRUTE
+ * @author David1010
  * @author Nodar Kherkheulidze
  */
 $messages['ka'] = array(
@@ -1257,8 +1269,8 @@ $messages['ka'] = array(
 გთხოვთ აირჩიოთ სხვა სახელი.',
 	'antispoof-badtype' => 'არასწორი მონაცემთა ტიპი',
 	'antispoof-empty' => 'ცარიელი სტრიქონი',
-	'antispoof-blacklisted' => 'შეიცავს სიმბოლოს შავი სიიდან',
-	'antispoof-combining' => 'იწყება კომბინაციის სიმბოლოთი',
+	'antispoof-blacklisted' => 'შეიცავს $1 სიმბლოს შავი სიიდან',
+	'antispoof-combining' => 'იწყება კომბინაციის $1 სიმბოლოთი',
 	'antispoof-unassigned' => 'შეიცავს მიუკუთვნებელ ან დაუშვებელ სიმბოლოებს',
 	'antispoof-noletters' => 'არ შეიცავს ასოებს',
 	'antispoof-mixedscripts' => 'შეიცავს შეუთავსებელ შერეულ სცენარებს',
@@ -1396,9 +1408,10 @@ $messages['lb'] = array(
 Sicht iech w.e.g. een anere Benotzernumm.',
 	'antispoof-badtype' => 'Ongültegt Fichiers-Format (bad data type)',
 	'antispoof-empty' => 'Eidelt Feld',
-	'antispoof-blacklisted' => 'Et si verbueden Zeechen (Caractèren) dran.',
-	'antispoof-combining' => 'Fänkt mat engem Kombinatiounszeechen un.',
+	'antispoof-blacklisted' => 'Dat verbuedent Zeechen (Caractèren) $1 ass dran.',
+	'antispoof-combining' => 'Fänkt mam Kombinatiounszeechen $1 un',
 	'antispoof-unassigned' => 'Et sinn net zougeuerdnet oder onerwënschten Zeechen (Caractèren) dran.',
+	'antispoof-deprecated' => 'Dat vereelsten Zeechen (Caractère) $1 ass dran.',
 	'antispoof-noletters' => 'Et si keng Buschtawen dran.',
 	'antispoof-mixedscripts' => 'Et si gemëschte Skripten dran, déi net kompatibel sinn',
 	'antispoof-tooshort' => 'De kanoniséierten Numm ass ze kuerz.',
@@ -1524,9 +1537,10 @@ $messages['mk'] = array(
 Одберете друго име.',
 	'antispoof-badtype' => 'Грешен тип на податоци',
 	'antispoof-empty' => 'Празна низа',
-	'antispoof-blacklisted' => 'Содржи забранет знак',
-	'antispoof-combining' => 'Започнува со составен знак',
+	'antispoof-blacklisted' => 'Го содржи забранетиот знак $1',
+	'antispoof-combining' => 'Почнува со составниот уникоден знак $1',
 	'antispoof-unassigned' => 'Содржи неопределен или застарен знак',
+	'antispoof-deprecated' => 'Го содржи застарениот знак $1',
 	'antispoof-noletters' => 'Не содржи букви',
 	'antispoof-mixedscripts' => 'Содржи нескладни мешани писма/азбуки',
 	'antispoof-tooshort' => 'Нормализираното име е премногу кратко',
@@ -1546,9 +1560,10 @@ $messages['ml'] = array(
 ദയവായി മറ്റൊരു നാമം തിരഞ്ഞെടുക്കുക.',
 	'antispoof-badtype' => 'മോശം ഡേറ്റാ തരം',
 	'antispoof-empty' => 'ശൂന്യമായ അക്ഷരക്കൂട്ടം',
-	'antispoof-blacklisted' => 'കരിമ്പട്ടികയിൽ പെട്ട അക്ഷരങ്ങളുണ്ട്',
-	'antispoof-combining' => 'യോജിപ്പിക്കാനുള്ള അടയാളത്തോടെ തുടങ്ങുന്നു',
+	'antispoof-blacklisted' => 'കരിമ്പട്ടികയിൽ പെട്ട അക്ഷരമായ $1 ഉണ്ട്',
+	'antispoof-combining' => 'യോജിപ്പിക്കാനുള്ള അടയാളമായ $1 എന്നതിൽ തുടങ്ങുന്നു',
 	'antispoof-unassigned' => 'നിർദ്ദേശിക്കപ്പെടാത്തതോ പിന്തള്ളപ്പെട്ടതോ ആയ അക്ഷരം ഉൾക്കൊള്ളുന്നു',
+	'antispoof-deprecated' => 'ഒഴിവാക്കപ്പെട്ട അക്ഷരമായ $1 ഉണ്ട്',
 	'antispoof-noletters' => 'അക്ഷരങ്ങൾ ഒന്നും തന്നെ ഇല്ല',
 	'antispoof-mixedscripts' => 'പൊരുത്തക്കേടുള്ള സങ്കരലിപികൾ ഉൾപ്പെടുന്നു',
 	'antispoof-tooshort' => 'ചട്ടപ്പടിയാക്കിയ പേര് വളരെ ചെറുതാണ്',
@@ -1605,6 +1620,7 @@ $messages['mr'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
  * @author Aviator
  */
 $messages['ms'] = array(
@@ -1614,9 +1630,10 @@ $messages['ms'] = array(
 	'antispoof-name-illegal' => 'Nama "$1" tidak dibenarkan kerana mengelirukan atau menipu: $2. Sila pilih nama lain.',
 	'antispoof-badtype' => 'Jenis data salah',
 	'antispoof-empty' => 'Rentetan kosong',
-	'antispoof-blacklisted' => 'Mengandungi aksara yang telah disenaraihitamkan',
-	'antispoof-combining' => 'Bermula dengan tanda penggabung',
+	'antispoof-blacklisted' => 'Mengandungi aksara $1 yang telah disenaraihitamkan',
+	'antispoof-combining' => 'Bermula dengan tanda penggabung $1',
 	'antispoof-unassigned' => 'Mengandungi aksara yang tidak sah atau yang telah dimansuhkan',
+	'antispoof-deprecated' => 'Mengandungi aksara $1 yang lapuk',
 	'antispoof-noletters' => 'Tidak mengandungi huruf',
 	'antispoof-mixedscripts' => 'Mengandungi campuran sistem-sistem tulisan yang tidak bersesuaian',
 	'antispoof-tooshort' => 'Nama berkanun terlalu pendek',
@@ -1733,6 +1750,7 @@ $messages['ne'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author AvatarTeam
  * @author Erwin
  * @author SPQRobin
  * @author Siebrand
@@ -1745,8 +1763,8 @@ $messages['nl'] = array(
 Kies een andere naam.',
 	'antispoof-badtype' => 'Ongeldig gegevenstype',
 	'antispoof-empty' => 'Lege string',
-	'antispoof-blacklisted' => 'Bevat verboden karakter',
-	'antispoof-combining' => 'Begint met een gecombineerd merkteken',
+	'antispoof-blacklisted' => 'Bevat verboden karakter $1',
+	'antispoof-combining' => 'Begint met een gecombineerd merkteken $1',
 	'antispoof-unassigned' => 'Bevat niet toegewezen of verouderd karakter',
 	'antispoof-noletters' => 'Bevat geen letters',
 	'antispoof-mixedscripts' => 'Bevat niet compatibele schriften',
@@ -1859,6 +1877,7 @@ $messages['pam'] = array(
 );
 
 /** Polish (Polski)
+ * @author BeginaFelicysym
  * @author Derbeth
  * @author Sp5uhe
  */
@@ -1869,9 +1888,10 @@ $messages['pl'] = array(
 	'antispoof-name-illegal' => 'Wybierz inną nazwę, ponieważ „$1” nie może być użyta ze względu na podobieństwo do nazwy innego użytkownika „$2”.',
 	'antispoof-badtype' => 'Zły typ danych',
 	'antispoof-empty' => 'Pusty ciąg znaków',
-	'antispoof-blacklisted' => 'Zawiera niedozwolone znaki',
-	'antispoof-combining' => 'Zaczyna się od łącznika',
+	'antispoof-blacklisted' => 'Zawiera niedozwolony znak $1',
+	'antispoof-combining' => 'Zaczyna się od łącznika $1',
 	'antispoof-unassigned' => 'Zawiera nieprzypisany lub wycofany znak',
+	'antispoof-deprecated' => 'Zawiera niezalecany znak $1',
 	'antispoof-noletters' => 'Nie zawiera liter',
 	'antispoof-mixedscripts' => 'Zawiera przemieszane znaki niezgodnych ze sobą pism',
 	'antispoof-tooshort' => 'Zbyt krótka nazwa użytkownika',
@@ -2011,8 +2031,8 @@ $messages['ro'] = array(
 	'antispoof-name-illegal' => 'Numele „$1” nu este permis pentru a preveni confuziile cu numele: $2. Vă rugăm să alegeți un alt nume de utilizator.',
 	'antispoof-badtype' => 'Tip de date greșit',
 	'antispoof-empty' => 'Șir gol',
-	'antispoof-blacklisted' => 'Conține un caracter interzis',
-	'antispoof-combining' => 'Începe cu marcajul de combinare',
+	'antispoof-blacklisted' => 'Conține caracterul interzis $1',
+	'antispoof-combining' => 'Începe cu marcajul de combinații $1',
 	'antispoof-unassigned' => 'Conține un caracter neatribuit sau învechit',
 	'antispoof-noletters' => 'Nu conține nici o literă',
 	'antispoof-mixedscripts' => 'Conține mai multe scripturi incompatibile',
@@ -2204,6 +2224,7 @@ $messages['sk'] = array(
 
 /** Slovenian (Slovenščina)
  * @author Dbc334
+ * @author Irena Plahuta
  */
 $messages['sl'] = array(
 	'antispoof-desc' => 'Prepreči ustvarjanje računov z mešanimi pisavami ter begajočimi in podobnimi uporabniškimi imeni',
@@ -2213,8 +2234,8 @@ $messages['sl'] = array(
 Prosimo, izberite drugo ime.',
 	'antispoof-badtype' => 'Napačen podatkovni tip',
 	'antispoof-empty' => 'Prazen niz',
-	'antispoof-blacklisted' => 'Vsebuje znak, ki je na črni listi',
-	'antispoof-combining' => 'Začne se z združevalnim znakom',
+	'antispoof-blacklisted' => 'Vsebuje znak $1, ki je na črni listi',
+	'antispoof-combining' => 'Začne se z združevalnim znakom $1.',
 	'antispoof-unassigned' => 'Vsebuje nepripisan ali nedovoljen znak',
 	'antispoof-noletters' => 'Ne vsebuje nobenih črk',
 	'antispoof-mixedscripts' => 'Vsebuje nezdružljive mešane skripte',
