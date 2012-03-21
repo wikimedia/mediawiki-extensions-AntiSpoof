@@ -306,29 +306,6 @@ class AntiSpoof {
 		return $out;
 	}
 
-	/*
-	 * Helper function for checkUnicodeString: Return an error on a bad character.
-	 * TODO: I would like to show Unicode character name, but it is not clear how to get it.
-	 * @param $msgId -- string, message identifier.
-	 * @param $point -- number, codepoint of the bad character.
-	 * @return Formatted error message.
-	 */
-	private static function badCharErr( $msgId, $point ) {
-		$symbol = codepointToUtf8( $point );
-		// Combining marks are combined with the previous character. If abusing character is a
-		// combining mark, prepend it with space to show them correctly.
-		if ( self::getScriptCode( $point ) == "SCRIPT_COMBINING_MARKS" ) {
-			$symbol = ' ' . $symbol;
-		}
-		$code = sprintf( 'U+%04X', $point );
-		if ( preg_match( '/\A\p{C}\z/u', $symbol ) ) {
-			$char = wfMsg( 'antispoof-bad-char-non-printable', $code );
-		} else {
-			$char = wfMsg( 'antispoof-bad-char', $symbol, $code );
-		}
-		return array( "ERROR", wfMsg( $msgId, $char ) );
-	}
-
 	/**
 	 * TODO: does too much in one routine, refactor...
 	 * @param $testName
@@ -344,10 +321,8 @@ class AntiSpoof {
 			return array( "ERROR", wfMsg( 'antispoof-empty' ) );
 		}
 
-		foreach ( self::stringToList( $testName ) as $char ) {
-			if ( in_array( $char, self::$character_blacklist ) ) {
-				return self::badCharErr( 'antispoof-blacklisted', $char );
-			}
+		if ( array_intersect( self::stringToList( $testName ), self::$character_blacklist ) ) {
+			return array( "ERROR", wfMsg( 'antispoof-blacklisted' ) );
 		}
 
 		# Perform Unicode _compatibility_ decomposition
@@ -355,31 +330,23 @@ class AntiSpoof {
 		$testChars = self::stringToList( $testName );
 
 		# Be paranoid: check again, just in case Unicode normalization code changes...
-		foreach ( $testChars as $char ) {
-			if ( in_array( $char, self::$character_blacklist ) ) {
-				return self::badCharErr( 'antispoof-blacklisted', $char );
-			}
+		if ( array_intersect( $testChars, self::$character_blacklist ) ) {
+			return array( "ERROR", wfMsg( 'antispoof-blacklisted' ) );
 		}
 
 		# Check for this: should not happen in any valid Unicode string
 		if ( self::getScriptCode( $testChars[0] ) == "SCRIPT_COMBINING_MARKS" ) {
-			return self::badCharErr( 'antispoof-combining', $testChars[0] );
+			return array( "ERROR", wfMsg( 'antispoof-combining' ) );
 		}
 
 		# Strip all combining characters in order to crudely strip accents
 		# Note: NFKD normalization should have decomposed all accented chars earlier
 		$testChars = self::stripScript( $testChars, "SCRIPT_COMBINING_MARKS" );
 
-		$testScripts = array_map( array( 'AntiSpoof', 'getScriptCode' ), $testChars );
-		$unassigned = array_search( "SCRIPT_UNASSIGNED", $testScripts );
-		if ( $unassigned !== False ) {
-			return self::badCharErr( 'antispoof-unassigned', $testChars[$unassigned] );
+		$testScripts = array_unique( array_map( array( 'AntiSpoof', 'getScriptCode' ), $testChars ) );
+		if ( in_array( "SCRIPT_UNASSIGNED", $testScripts ) || in_array( "SCRIPT_DEPRECATED", $testScripts ) ) {
+			return array( "ERROR", wfMsg( 'antispoof-unassigned' ) );
 		}
-		$deprecated = array_search( "SCRIPT_DEPRECTED", $testScripts );
-		if ( $deprecated !== False ) {
-			return self::badCharErr( 'antispoof-deprecated', $testChars[$deprecated] );
-		}
-		$testScripts = array_unique( $testScripts );
 
 		# We don't mind ASCII punctuation or digits
 		$testScripts = array_diff( $testScripts,
