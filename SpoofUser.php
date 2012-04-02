@@ -36,7 +36,7 @@ class SpoofUser {
 
 	/**
 	 * Get the normalized key form
-	 * @return string|nuyll
+	 * @return string|null
 	 */
 	public function getNormalized() {
 		return $this->mNormalized;
@@ -62,7 +62,7 @@ class SpoofUser {
 	 * @return array empty if no conflict, or array containing conflicting usernames
 	 */
 	public function getConflicts() {
-		$dbr = self::getDBSlave();
+		$dbr = $this->getDBSlave();
 
 		// Join against the user table to ensure that we skip stray
 		// entries left after an account is renamed or otherwise munged.
@@ -91,7 +91,7 @@ class SpoofUser {
 	 * @return bool
 	 */
 	public function record() {
-		return self::batchRecord( array( $this ) );
+		return self::batchRecord( $this->getDBMaster(), array( $this ) );
 	}
 
 	/**
@@ -111,7 +111,7 @@ class SpoofUser {
 	 * @param $items array of SpoofUser
 	 * @return bool
 	 */
-	public static function batchRecord( $items ) {
+	public static function batchRecord( $dbw, $items ) {
 		if ( !count( $items ) ) {
 			return false;
 		}
@@ -122,7 +122,6 @@ class SpoofUser {
 		foreach ( $items as $item ) {
 			$fields[] = $item->insertFields();
 		}
-		$dbw = self::getDBMaster();
 		$dbw->replace(
 			'spoofuser',
 			array( 'su_name' ),
@@ -135,7 +134,7 @@ class SpoofUser {
 	 * @param $oldName
 	 */
 	public function update( $oldName ) {
-		$dbw = self::getDBMaster();
+		$dbw = $this->getDBMaster();
 
 		if( $this->record() ) {
 			$dbw->delete(
@@ -149,14 +148,14 @@ class SpoofUser {
 	/**
 	 * @return DatabaseBase
 	 */
-	protected static function getDBSlave() {
+	protected function getDBSlave() {
 		return wfGetDB( DB_SLAVE );
 	}
 
 	/**
 	 * @return DatabaseBase
 	 */
-	protected static function getDBMaster() {
+	protected function getDBMaster() {
 		return wfGetDB( DB_MASTER );
 	}
 }

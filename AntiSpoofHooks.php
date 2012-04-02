@@ -22,14 +22,6 @@ class AntiSpoofHooks {
 	}
 
 	/**
-	 * @param $name string Username
-	 * @return SpoofUser
-	 */
-	protected static function makeSpoofUser( $name ) {
-		return new SpoofUser( $name );
-	}
-
-	/**
 	 * Can be used to cancel user account creation
 	 *
 	 * @param $user User
@@ -52,7 +44,7 @@ class AntiSpoofHooks {
 		}
 
 		$name = $user->getName();
-		$spoof = self::makeSpoofUser( $name );
+		$spoof = new SpoofUser( $name );
 		if ( $spoof->isLegal() ) {
 			$normalized = $spoof->getNormalized();
 			$conflicts = $spoof->getConflicts();
@@ -108,7 +100,7 @@ class AntiSpoofHooks {
 	 * @return bool
 	 */
 	public static function asAddNewAccountHook( $user ) {
-		$spoof = self::makeSpoofUser( $user->getName() );
+		$spoof = new SpoofUser( $user->getName() );
 		$spoof->record();
 		return true;
 	}
@@ -123,7 +115,7 @@ class AntiSpoofHooks {
 	 * @return bool
 	 */
 	public static function asAddRenameUserHook( $uid, $oldName, $newName ) {
-		$spoof = self::makeSpoofUser( $newName );
+		$spoof = new SpoofUser( $newName );
 		$spoof->update( $oldName );
 		return true;
 	}
