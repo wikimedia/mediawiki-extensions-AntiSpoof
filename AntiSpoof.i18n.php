@@ -1269,17 +1269,20 @@ $messages['it'] = array(
  * @author JtFuruhata
  * @author Mizusumashi
  * @author Muttley
+ * @author Shirayuki
  */
 $messages['ja'] = array(
 	'antispoof-desc' => '文字体系が混在している利用者名、既存の利用者名と紛らわしい類似する利用者名のアカウント作成をブロックする',
 	'antispoof-conflict-top' => '指定した名前 "$1" は{{PLURAL:$2|既存のアカウント|以下の$2アカウント}}と類似しすぎています:',
 	'antispoof-conflict-bottom' => '別の名前を使用してください。',
 	'antispoof-name-illegal' => '指定した名前 "$1" は成りすまし防止のため使用できません: $2。別の名前を使用してください。',
+	'antispoof-bad-char' => '"$1" ($2)',
 	'antispoof-badtype' => 'データタイプが異常です。',
 	'antispoof-empty' => '文字列が空です',
-	'antispoof-blacklisted' => '許可されていない文字が含まれています。',
-	'antispoof-combining' => '結合記号で開始しています',
-	'antispoof-unassigned' => '廃止予定または未割り当ての文字が含まれています',
+	'antispoof-blacklisted' => '禁止された文字 $1 を含んでいます',
+	'antispoof-combining' => '結合記号 $1 で始まっています',
+	'antispoof-unassigned' => '未割り当ての文字 $1 を含んでいます',
+	'antispoof-deprecated' => '推奨されない文字 $1 を含んでいます',
 	'antispoof-noletters' => '文字を含んでいません',
 	'antispoof-mixedscripts' => '一緒に使うことできない複数の文字体系が混在しています',
 	'antispoof-tooshort' => '正規化した名前が短すぎます',
@@ -2081,10 +2084,10 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (Português do Brasil)
+ * @author 555
  * @author Eduardo.mps
  * @author Helder.wiki
  * @author Heldergeovane
- * @author 555
  */
 $messages['pt-br'] = array(
 	'antispoof-desc' => 'Impede a criação de contas com escrita mista, e nomes de utilizador confusos e semelhantes',
@@ -2468,6 +2471,7 @@ $messages['su'] = array(
 /** Swedish (Svenska)
  * @author Boivie
  * @author Lejonel
+ * @author Lokal Profil
  * @author M.M.S.
  */
 $messages['sv'] = array(
@@ -2477,9 +2481,10 @@ $messages['sv'] = array(
 	'antispoof-name-illegal' => 'För att förhindra förvirrande eller felaktiga användarnamn, så är namnet "$1" inte tillåtet. Anledning: $2. Välj ett annat namn istället.',
 	'antispoof-badtype' => 'Felaktig datatyp',
 	'antispoof-empty' => 'Tom sträng',
-	'antispoof-blacklisted' => 'Innehåller svartlistade tecken',
-	'antispoof-combining' => 'Börjar med ett kombinationstecken',
-	'antispoof-unassigned' => 'Innehåller obsoleta eller icke-tilldelade tecken',
+	'antispoof-blacklisted' => 'Innehåller det svartlistade tecknet $1',
+	'antispoof-combining' => 'Börjar med kombinationstecknet $1',
+	'antispoof-unassigned' => 'Innehåller det icke-tilldelade tecknet $1',
+	'antispoof-deprecated' => 'Innehåller det utfasade tecknet $1',
 	'antispoof-noletters' => 'Innehåller inga bokstäver',
 	'antispoof-mixedscripts' => 'Innehåller tecken från flera inkompatibla skriftsystem',
 	'antispoof-tooshort' => 'Det kanoniserade namnet är för kort',
