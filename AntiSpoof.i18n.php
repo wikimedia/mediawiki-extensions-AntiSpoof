@@ -262,6 +262,7 @@ $messages['avk'] = array(
 
 /** Azerbaijani (Azərbaycanca)
  * @author Vugar 1981
+ * @author Wertuose
  */
 $messages['az'] = array(
 	'antispoof-desc' => 'Digər hesablarla qarışmamamq üçün fərqli yazı sistemindən ibarət olan simvollarla yaradılmış hesabların açılması qadağandır',
@@ -270,9 +271,9 @@ $messages['az'] = array(
 	'antispoof-name-illegal' => '$2 hesabıyla qarışmaması üçün "$1" adına icazə verilmir. Zəhmət olmasa başqa istifadəçi adını seçin.',
 	'antispoof-badtype' => 'Yanlış məlumat',
 	'antispoof-empty' => 'Boş sətir',
-	'antispoof-blacklisted' => 'Qadağan edilmiş siyahının simvollarından istifadə edilmişdir',
+	'antispoof-blacklisted' => 'Qadağan olunmuş simvol istifadə edilib: $1',
 	'antispoof-combining' => 'Birləşdirmə işarəsindən başlayır',
-	'antispoof-unassigned' => 'Qeyri-müəyyən yaxud dəstəklənməyən simvollardan istifadə edilir',
+	'antispoof-unassigned' => 'Dəstəklənməyən simvol istifadə edilib: $1',
 	'antispoof-noletters' => 'Heç bir hərf yoxdur',
 	'antispoof-mixedscripts' => 'Qəbul edilməz yazı sistemi işlədilir',
 	'antispoof-tooshort' => 'Normallaşdırılmış ad çox qısadır',
@@ -1272,7 +1273,7 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'antispoof-desc' => '文字体系が混在している利用者名、既存の利用者名と紛らわしい類似する利用者名のアカウント作成をブロックする',
+	'antispoof-desc' => '文字体系が混在している利用者名、既存の利用者名と類似していて紛らわしい利用者名のアカウント作成をブロック',
 	'antispoof-conflict-top' => '指定した名前 "$1" は{{PLURAL:$2|既存のアカウント|以下の$2アカウント}}と類似しすぎています:',
 	'antispoof-conflict-bottom' => '別の名前を使用してください。',
 	'antispoof-name-illegal' => '指定した名前 "$1" は成りすまし防止のため使用できません: $2。別の名前を使用してください。',
@@ -1287,7 +1288,7 @@ $messages['ja'] = array(
 	'antispoof-mixedscripts' => '一緒に使うことできない複数の文字体系が混在しています',
 	'antispoof-tooshort' => '正規化した名前が短すぎます',
 	'antispoof-ignore' => 'なりすましチェックを無効にします。',
-	'right-override-antispoof' => 'なりすましチェックを無視する',
+	'right-override-antispoof' => 'なりすましチェックを無視',
 );
 
 /** Jutish (Jysk)
