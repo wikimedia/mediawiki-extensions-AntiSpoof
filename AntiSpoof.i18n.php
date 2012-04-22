@@ -1274,7 +1274,7 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'antispoof-desc' => '文字体系が混在している利用者名、既存の利用者名と類似していて紛らわしい利用者名のアカウント作成をブロック',
-	'antispoof-conflict-top' => '指定した名前 "$1" は{{PLURAL:$2|既存のアカウント|以下の$2アカウント}}と類似しすぎています:',
+	'antispoof-conflict-top' => '指定した名前「$1」は{{PLURAL:$2|既存のアカウント|以下の$2アカウント}}と類似しすぎています:',
 	'antispoof-conflict-bottom' => '別の名前を使用してください。',
 	'antispoof-name-illegal' => '指定した名前 "$1" は成りすまし防止のため使用できません: $2。別の名前を使用してください。',
 	'antispoof-bad-char' => '"$1" ($2)',
