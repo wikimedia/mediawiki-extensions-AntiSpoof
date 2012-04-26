@@ -1997,6 +1997,8 @@ Nemmän onare Noame.',
 	'antispoof-noletters' => 'Do hods kä Buchschdawe',
 	'antispoof-mixedscripts' => 'Do hods Zaische vun unaschiedlische Schrifde.',
 	'antispoof-tooshort' => 'De kanonisierde Noame isch zu korz',
+	'antispoof-ignore' => 'Fälschungsiwabriefung iwageje',
+	'right-override-antispoof' => 'Fälschungsiwabriefung iwschraiwe',
 );
 
 /** Polish (Polski)
@@ -2845,6 +2847,7 @@ $messages['zh-hans'] = array(
  * @author Gzdavidwong
  * @author Liangent
  * @author Mark85296341
+ * @author Simon Shek
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
@@ -2854,9 +2857,9 @@ $messages['zh-hant'] = array(
 	'antispoof-name-illegal' => '使用者名稱"$1"容易與"$2"混淆，已被禁止使用。請使用其他使用者名稱。',
 	'antispoof-badtype' => '錯誤的數據類型',
 	'antispoof-empty' => '空白字串',
-	'antispoof-blacklisted' => '包含黑名單上的字符',
-	'antispoof-combining' => '以結合標記開始',
-	'antispoof-unassigned' => '包含未指定或不再使用的字元',
+	'antispoof-blacklisted' => '包含已列入黑名單的字元$1',
+	'antispoof-combining' => '以結合標記開始$1',
+	'antispoof-unassigned' => '包含未指定或不再使用的字元$1',
 	'antispoof-noletters' => '不包含任何字元',
 	'antispoof-mixedscripts' => '包含不相容混合的程式碼',
 	'antispoof-tooshort' => '標準化後的用戶名過短',
