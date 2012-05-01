@@ -283,6 +283,7 @@ $messages['az'] = array(
 
 /** Bashkir (Башҡортса)
  * @author Assele
+ * @author Haqmar
  */
 $messages['ba'] = array(
 	'antispoof-desc' => 'Төрлө яҙма системаларының хәрефтәренән торған, яңылыштырырлыҡ һәм башҡа ҡатнашыусы исемдәренән оҡшаш исемле иҫәп яҙмаларҙы булдырыуҙы тыя.',
@@ -292,9 +293,10 @@ $messages['ba'] = array(
 Зинһар, башҡа исем һайлағыҙ.',
 	'antispoof-badtype' => 'Мәғлүмәт төрө дөрөҫ түгел',
 	'antispoof-empty' => 'Буш юл',
-	'antispoof-blacklisted' => 'Тыйылған хәрефтәр исемлегенән хәреф бар.',
-	'antispoof-combining' => 'Берләштереү билдәһе менән башлана',
-	'antispoof-unassigned' => 'Билдәһеҙ йәки рөхсәт ителмәгән хәреф бар',
+	'antispoof-blacklisted' => 'Ҡара исемлектәге символ бар: $1',
+	'antispoof-combining' => 'Берләштереү билдәһе менән башлана: $1',
+	'antispoof-unassigned' => 'Рөхсәт ителмәгән символ бар: $1',
+	'antispoof-deprecated' => 'Ҡулланыуҙан сығарылған символ бар: $1',
 	'antispoof-noletters' => 'Бер хәреф тә юҡ',
 	'antispoof-mixedscripts' => 'Берләштереү мөмкин булмаған яҙма системаларының хәрефтәре бар',
 	'antispoof-tooshort' => 'Ҡанунлаштырылған исем бигерәк ҡыҫҡа',
@@ -2092,7 +2094,7 @@ $messages['pt'] = array(
 	'antispoof-badtype' => 'Formato de dados incorreto',
 	'antispoof-empty' => 'Linha vazia',
 	'antispoof-blacklisted' => 'Contém caracter proibido $1',
-	'antispoof-combining' => 'Começa com um carácter de combinação',
+	'antispoof-combining' => 'Começa com carácter de combinação $1',
 	'antispoof-unassigned' => 'Contém caracteres não reconhecidos ou depreciados',
 	'antispoof-noletters' => 'Não inclui nenhuma letra',
 	'antispoof-mixedscripts' => 'Contém scripts de escrita incompatíveis mesclados',
