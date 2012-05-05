@@ -175,6 +175,7 @@ $messages['ang'] = array(
 );
 
 /** Arabic (العربية)
+ * @author DRIHEM
  * @author Meno25
  * @author Mido
  * @author Mimouni
@@ -188,9 +189,10 @@ $messages['ar'] = array(
 من فضلك اختر اسم آخر.',
 	'antispoof-badtype' => 'نوع بيانات خاطئ',
 	'antispoof-empty' => 'سلسلة فارغة',
-	'antispoof-blacklisted' => 'يحتوي على حرف في القائمة السوداء',
-	'antispoof-combining' => 'يبدأ بعلامة مختلطة',
-	'antispoof-unassigned' => 'يحتوي على حرف غير مخصص أو غير مقبول',
+	'antispoof-blacklisted' => 'يحتوي على حرف $1 من القائمة السوداء',
+	'antispoof-combining' => 'يبدأ بالعلامة المختلطة $1',
+	'antispoof-unassigned' => 'يحتوي على حرف غير معين $1',
+	'antispoof-deprecated' => 'يحتوي على الحرف المهمل $1',
 	'antispoof-noletters' => 'لا يحتوي على أية حروف',
 	'antispoof-mixedscripts' => 'يحتوي على سكريبتات غير متوافقة مختلطة',
 	'antispoof-tooshort' => 'الاسم المستخدم قصير جدًا',
