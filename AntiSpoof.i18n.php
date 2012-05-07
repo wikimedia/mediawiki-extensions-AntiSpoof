@@ -439,7 +439,7 @@ $messages['bho'] = array(
  * @author J Subhi
  */
 $messages['bjn'] = array(
-	'antispoof-desc' => 'Blukir paulahan akun bangaran pamuruk awan hurup-bacampur, mambingungakan, wan mirip',
+	'antispoof-desc' => 'Blukir paulahan akun bangaran pamakai awan hurup-bacampur, mambingungakan, wan mirip',
 	'antispoof-conflict-top' => 'Si ngaran "$1" kamiripan awan {{PLURAL:$2|akun nang sudah ada|$2 akun barikut}}:',
 	'antispoof-conflict-bottom' => 'Muhun pilih ngaran nang lain.',
 	'antispoof-name-illegal' => 'Si ngaran "$1" kada dibulihakan hagan mancagah kabingungan atawa ngaran tipuan: $2.
