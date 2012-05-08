@@ -89,24 +89,6 @@ $messages['aeb'] = array(
 	'right-override-antispoof' => 'تجاوز التحقق من سبوفينج',
 );
 
-/** Santali (Santali)
- * @author Salvator
- */
-$messages['sat'] = array(
-	'antispoof-conflict-bottom' => 'Eṭaḱ ńutum sendraeme',
-	'antispoof-name-illegal' => 'Ńutum"$1" do baṅ hoyoḱa se okokomṛogea: $2. Dayakate eṭaḱ ńutum emam.',
-	'antispoof-badtype' => 'Bạṛić tottho lekan',
-	'antispoof-empty' => 'Eken ghuṛã',
-	'antispoof-blacklisted' => 'Begor samuṅ karekṭar menaḱa',
-	'antispoof-combining' => 'Joṛa cikhnạ khon ehobme',
-	'antispoof-unassigned' => 'Baṅ ganoḱ karekṭar menaḱa',
-	'antispoof-noletters' => 'Cet́ okhor hõ banuḱa',
-	'antispoof-mixedscripts' => 'Begor jutsoi olnolko menaḱa',
-	'antispoof-tooshort' => 'Ạḍi kạtić ńutum',
-	'antispoof-ignore' => 'Beganoḱ bachao paromme',
-	'right-override-antispoof' => 'Beganoḱ koyoḱ parom bachaome',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  * @author පසිඳු කාවින්ද
@@ -2273,6 +2255,24 @@ $messages['sah'] = array(
 	'antispoof-tooshort' => 'Каноннаммыт тыл наһаа кылгас',
 	'antispoof-ignore' => 'Майгынныыр ааттары бэрэбиэркэлээһини оҥорума',
 	'right-override-antispoof' => 'Майгынныыр ааттары тэҥнээмэ',
+);
+
+/** Santali (Santali)
+ * @author Salvator
+ */
+$messages['sat'] = array(
+	'antispoof-conflict-bottom' => 'Eṭaḱ ńutum sendraeme',
+	'antispoof-name-illegal' => 'Ńutum"$1" do baṅ hoyoḱa se okokomṛogea: $2. Dayakate eṭaḱ ńutum emam.',
+	'antispoof-badtype' => 'Bạṛić tottho lekan',
+	'antispoof-empty' => 'Eken ghuṛã',
+	'antispoof-blacklisted' => 'Begor samuṅ karekṭar menaḱa',
+	'antispoof-combining' => 'Joṛa cikhnạ khon ehobme',
+	'antispoof-unassigned' => 'Baṅ ganoḱ karekṭar menaḱa',
+	'antispoof-noletters' => 'Cet́ okhor hõ banuḱa',
+	'antispoof-mixedscripts' => 'Begor jutsoi olnolko menaḱa',
+	'antispoof-tooshort' => 'Ạḍi kạtić ńutum',
+	'antispoof-ignore' => 'Beganoḱ bachao paromme',
+	'right-override-antispoof' => 'Beganoḱ koyoḱ parom bachaome',
 );
 
 /** Sicilian (Sicilianu)
