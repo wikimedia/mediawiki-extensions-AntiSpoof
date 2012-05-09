@@ -707,6 +707,13 @@ $messages['el'] = array(
 	'right-override-antispoof' => 'Υπερκάλυψη των ελέγχων εξαπάτησης',
 );
 
+/** British English (British English)
+ * @author Pooja.srivastava
+ */
+$messages['en-gb'] = array(
+	'antispoof-conflict-top' => 'Jo naam"$1"isse milta hai unse{{bahuvachan:$2| jo maujuda khata| jo nimnlikht $2 khata}}:',
+);
+
 /** Esperanto (Esperanto)
  * @author Tlustulimu
  * @author Yekrats
@@ -1041,7 +1048,7 @@ $messages['he'] = array(
  * @author Shyam123.ckp
  */
 $messages['hi'] = array(
-	'antispoof-desc' => 'मिश्र भाषा और संभ्रम पैदा करनेवाली तथा एकसरीके सदस्यनाम के इस्तेमाल पर रोक हैं।',
+	'antispoof-desc' => 'rokhta hai',
 	'antispoof-conflict-top' => 'धोखा-संघर्ष टॉप विरोधी',
 	'antispoof-conflict-bottom' => 'कृपया कोई अन्य नाम चुनिये ।',
 	'antispoof-name-illegal' => 'नाम " $1  faltu है:  $2 .!एन!कृपया kuch aur chuniye',
@@ -1246,6 +1253,7 @@ $messages['it'] = array(
 	'antispoof-blacklisted' => 'Contiene il carattere non consentito $1',
 	'antispoof-combining' => 'Inizia con la combinazione di caratteri $1',
 	'antispoof-unassigned' => 'Contiene il carattere non assegnato $1',
+	'antispoof-deprecated' => 'Contiene il carattere deprecato $1',
 	'antispoof-noletters' => 'Assenza di lettere',
 	'antispoof-mixedscripts' => 'Combinazione di sistemi di scrittura non compatibili',
 	'antispoof-tooshort' => 'Nome in forma canonica troppo corto',
