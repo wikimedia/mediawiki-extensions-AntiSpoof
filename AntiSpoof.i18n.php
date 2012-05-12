@@ -1493,6 +1493,14 @@ Sicht iech w.e.g. een anere Benotzernumm.',
 	'right-override-antispoof' => "D'Resultat vun der Iwwerpréifung no ähnleche Benotzernimm ignoréieren",
 );
 
+/** Lezghian (Лезги)
+ * @author Migraghvi
+ */
+$messages['lez'] = array(
+	'antispoof-badtype' => 'Ганайбурун дуьзтушир жуьре',
+	'antispoof-empty' => 'ичIи цıар',
+);
+
 /** Limburgish (Limburgs)
  * @author Matthias
  * @author Ooswesthoesbes
@@ -2696,7 +2704,7 @@ Siegli n\'altro nome, par piaser.',
 	'right-override-antispoof' => 'Ignora le verifiche de spoofing',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
