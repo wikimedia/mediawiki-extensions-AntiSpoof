@@ -1744,28 +1744,6 @@ $messages['nah'] = array(
 	'antispoof-badtype' => 'Ahcualli tlahcuilōliztli',
 );
 
-/** Min Nan Chinese (Bân-lâm-gú)
- * @author Ianbu
- */
-$messages['nan'] = array(
-	'antispoof-desc' => '對有濫字體抑是佮別人相siâng、會拂毋著的用者名稱建立是封鎖牢咧',
-	'antispoof-conflict-top' => '「$1」的名佮{{PLURAL:$2|下跤口座|下跤$2个口座}}傷成：',
-	'antispoof-conflict-bottom' => '請用別个名稱',
-	'antispoof-name-illegal' => '"$1"這个名袂用得，會佮"$2"彼个名拂毋著，
-請用別个名。',
-	'antispoof-badtype' => '錯誤的資料類型',
-	'antispoof-empty' => '空的字串',
-	'antispoof-blacklisted' => '包括著佇烏名單的字元$1',
-	'antispoof-combining' => '開始是附加符號$1',
-	'antispoof-unassigned' => '包括著無指定的字元$1',
-	'antispoof-deprecated' => '包括著莫用的字元$1',
-	'antispoof-noletters' => '無包括任何字',
-	'antispoof-mixedscripts' => '包括著敆袂倚的字體',
-	'antispoof-tooshort' => '標準化了的名稱傷過短',
-	'antispoof-ignore' => '閬過詐欺檢查',
-	'right-override-antispoof' => '毋管詐欺檢查',
-);
-
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
