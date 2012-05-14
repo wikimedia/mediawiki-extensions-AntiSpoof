@@ -213,6 +213,28 @@ $messages['arz'] = array(
 	'right-override-antispoof' => 'اتجاوز التشييك على سبوفينج',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Gitartha.bordoloi
+ */
+$messages['as'] = array(
+	'antispoof-desc' => "মিশ্ৰ লিপিত লিখা, অস্পষ্ট বা একে সদস্যনাম ব্যৱহাৰ কৰি একাউণ্ট সৃষ্টিত বাধা দিয়া হ'ব",
+	'antispoof-conflict-top' => '"$1" নামটো {{PLURAL:$2|একাউণ্টৰ|$2 একাউণ্টসমূহৰ}} লগত একে হৈছে',
+	'antispoof-conflict-bottom' => 'অনুগ্ৰহ কৰি আন এটা নাম বাছনি কৰক।',
+	'antispoof-name-illegal' => '"$1" নামটো বিভ্ৰান্তিকৰ হোৱা বাবে অনুমোদন কৰা নহ\'ব: $2।
+অনুগ্ৰহ কৰি আন এটা নাম বাছনি কৰক।',
+	'antispoof-badtype' => 'তথ্যৰ ধৰণ ঠিক নহয়',
+	'antispoof-empty' => 'খালী সূত্ৰ',
+	'antispoof-blacklisted' => 'নিষিদ্ধ চিহ্ন $1 আছে',
+	'antispoof-combining' => 'সংযোজিত চিহ্ন $1ৰে আৰম্ভ হৈছে',
+	'antispoof-unassigned' => 'অপ্ৰযুক্ত চিহ্ন $1 আছে',
+	'antispoof-deprecated' => 'অননুমোদিত চিহ্ন $1 আছে',
+	'antispoof-noletters' => 'কোনো আখৰ নাই',
+	'antispoof-mixedscripts' => 'অনুপযুক্ত মিশ্ৰ লিপি আছে',
+	'antispoof-tooshort' => 'প্ৰদান কৰা নাম অতি চুটি',
+	'antispoof-ignore' => 'স্পুফিং পৰীক্ষা অৱজ্ঞা কৰক',
+	'right-override-antispoof' => 'স্পুফিং পৰীক্ষা অনৱেক্ষা কৰক',
+);
+
 /** Asturian (Asturianu)
  * @author Esbardu
  * @author Xuacu
@@ -2551,7 +2573,7 @@ $messages['te'] = array(
 	'antispoof-name-illegal' => '"$1" అనే పేరును అనుమతించము; అయోమయాన్ని, ఎగతాళి చేయడాన్ని నివారించేందుకు: $2. దయచేసి మరో పేరును ఎంచుకోండి.',
 	'antispoof-badtype' => 'తప్పుడు డాటా రకం',
 	'antispoof-empty' => 'ఖాళీ వాక్యం',
-	'antispoof-blacklisted' => 'అనుమానాస్పద అక్షరాన్ని కలిగివుంది',
+	'antispoof-blacklisted' => '$1 అనే నిషేదిత అక్షరాన్ని కలిగి ఉంది',
 	'antispoof-combining' => 'సంయుత గుర్తుతో మొదలయ్యింది',
 	'antispoof-unassigned' => 'ఇంతవరకూ ఆపాదించబడని లేదా ఉపయోగంలోంచి తీసేయాలనుకుంటున్న అక్షరం కలిగి ఉంది',
 	'antispoof-noletters' => 'ఎటువంటి అక్షరాలూ లేవు',
