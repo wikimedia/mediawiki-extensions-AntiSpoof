@@ -440,6 +440,7 @@ $messages['bho'] = array(
 );
 
 /** Banjar (Bahasa Banjar)
+ * @author Ezagren
  * @author J Subhi
  */
 $messages['bjn'] = array(
@@ -462,6 +463,7 @@ Muhun pilih ngaran nang lain.',
 
 /** Bengali (বাংলা)
  * @author Bellayet
+ * @author Nasir8891
  * @author Zaheen
  */
 $messages['bn'] = array(
@@ -471,12 +473,15 @@ $messages['bn'] = array(
 	'antispoof-name-illegal' => '"$1" নামটি, বিভ্রান্তিকর বা ধাপ্পাবাজ ব্যবহারকারী নাম: $2 কে রোধ করার অনুমতি নাই। দয়া করে অন্য নাম পছন্দ করুন।',
 	'antispoof-badtype' => 'তথ্যের ধরণ ঠিক নাই',
 	'antispoof-empty' => 'খালি স্ট্রিং',
-	'antispoof-blacklisted' => 'নিষিদ্ধ বর্ণ বা অক্ষর রয়েছে',
-	'antispoof-combining' => 'সংযোগসূচক চিহ্ন দিয়ে শুরু হয়েছে',
-	'antispoof-unassigned' => 'অপ্রযুক্ত বা অননুমোদিত ক্যারেক্টার ধারণ করে',
+	'antispoof-blacklisted' => 'নিষিদ্ধ বর্ণ বা অক্ষর $1 রয়েছে',
+	'antispoof-combining' => '$1 সংযোগসূচক চিহ্ন দিয়ে শুরু হয়েছে',
+	'antispoof-unassigned' => '$1 অপ্রযুক্ত বা অননুমোদিত ক্যারেক্টার ধারণ করে',
+	'antispoof-deprecated' => '$1 অবচিত অক্ষর রয়েছে',
 	'antispoof-noletters' => 'কোন অক্ষর বা বর্ণ নাই',
 	'antispoof-mixedscripts' => 'বেমানান স্ক্রিপ্টের মিশ্রণ ধারণ করে',
 	'antispoof-tooshort' => 'সূত্রায়িত নাম খুব সংক্ষিপ্ত',
+	'antispoof-ignore' => 'স্পুফিং চেক অগ্রাহ্য করো',
+	'right-override-antispoof' => 'স্পুফিং চেক ওভাররাইড করো',
 );
 
 /** Breton (Brezhoneg)
@@ -1068,9 +1073,10 @@ $messages['he'] = array(
  * @author Knight Samar
  * @author Pooja.srivastava
  * @author Shyam123.ckp
+ * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
-	'antispoof-desc' => 'rokhta hai',
+	'antispoof-desc' => 'मिश्रित लिपि और संभ्रम पैदा करने वाले तथा मिलते-जुलते सदस्यनामों के प्रयोग पर रोक लगाता है।',
 	'antispoof-conflict-top' => 'धोखा-संघर्ष टॉप विरोधी',
 	'antispoof-conflict-bottom' => 'कृपया कोई अन्य नाम चुनिये ।',
 	'antispoof-name-illegal' => 'नाम " $1  faltu है:  $2 .!एन!कृपया kuch aur chuniye',
@@ -2871,6 +2877,7 @@ $messages['zh-hans'] = array(
  * @author Liangent
  * @author Mark85296341
  * @author Simon Shek
+ * @author Waihorace
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
@@ -2883,6 +2890,7 @@ $messages['zh-hant'] = array(
 	'antispoof-blacklisted' => '包含已列入黑名單的字元$1',
 	'antispoof-combining' => '以結合標記開始$1',
 	'antispoof-unassigned' => '包含未指定或不再使用的字元$1',
+	'antispoof-deprecated' => '包括已禁用的字符 $1',
 	'antispoof-noletters' => '不包含任何字元',
 	'antispoof-mixedscripts' => '包含不相容混合的程式碼',
 	'antispoof-tooshort' => '標準化後的用戶名過短',
