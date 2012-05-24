@@ -849,6 +849,7 @@ $messages['fa'] = array(
 
 /** Finnish (Suomi)
  * @author Crt
+ * @author Linnea
  * @author Nike
  * @author Silvonen
  * @author Str4nd
@@ -860,9 +861,9 @@ $messages['fi'] = array(
 	'antispoof-name-illegal' => 'Tunnusta ”$1” ei sallita, koska $2. Hämäävien tai huijaustarkoitukseen sopivien tunnusten luonti on estetty. Valitse toinen tunnus.',
 	'antispoof-badtype' => 'se on virheellistä tietotyyppiä',
 	'antispoof-empty' => 'se on tyhjä',
-	'antispoof-blacklisted' => 'se sisältää kielletyn merkin',
-	'antispoof-combining' => 'se alkaa yhdistyvällä merkillä',
-	'antispoof-unassigned' => 'se sisältää määräämättömiä tai käytöstä poistuvia merkkejä',
+	'antispoof-blacklisted' => 'Sisältää kielletyn merkin $1',
+	'antispoof-combining' => 'Alkaa yhdistävällä merkillä $1',
+	'antispoof-unassigned' => 'Sisältää määrittämättömiä merkkejä $1',
 	'antispoof-noletters' => 'se ei sisällä kirjaimia',
 	'antispoof-mixedscripts' => 'se sisältää yhteensopimattomia kirjoitusjärjestelmiä',
 	'antispoof-tooshort' => 'sen kanonisoitu muoto on liian lyhyt',
@@ -1154,17 +1155,20 @@ Tanpri chwazi yon lòt non.',
 
 /** Hungarian (Magyar)
  * @author Dani
+ * @author Dj
  */
 $messages['hu'] = array(
 	'antispoof-desc' => 'Letiltja a kevert szövegű, zavaró és hasonló nevű felhasználói fiókok készítését',
 	'antispoof-conflict-top' => 'A megadott név „$1” túl hasonló a következő {{PLURAL:$2|azonosítóhoz|$2 azonosítóhoz}}:',
 	'antispoof-conflict-bottom' => 'Kérlek válassz egy másik nevet.',
 	'antispoof-name-illegal' => 'A név, „$1”, nem engedélyezett a zavaró vagy becsapó felhasználónevek megelőzése érdekében: $2.',
+	'antispoof-bad-char' => '"$1" ($2)',
 	'antispoof-badtype' => 'Hibás adattípus',
 	'antispoof-empty' => 'Üres szöveg',
-	'antispoof-blacklisted' => 'Nem használható karaktert tartalmaz',
-	'antispoof-combining' => 'Összekapcsoló jellel kezdődik',
-	'antispoof-unassigned' => 'Még nem kijelölt vagy nem használt karaktert tartalmaz',
+	'antispoof-blacklisted' => 'Tiltott karaktert tartalmaz: $1',
+	'antispoof-combining' => 'Összekapcsoló jellel kezdődik: $1',
+	'antispoof-unassigned' => 'Még nem kiosztott karaktert tartalmaz: $1',
+	'antispoof-deprecated' => 'Érvénytelen karaktert tartalmaz: $1',
 	'antispoof-noletters' => 'Nem tartalmaz egyetlen betűt sem',
 	'antispoof-mixedscripts' => 'Összeférhetetlen kevert szöveget tartalmaz',
 	'antispoof-tooshort' => 'A kanonizált változat túl rövid',
