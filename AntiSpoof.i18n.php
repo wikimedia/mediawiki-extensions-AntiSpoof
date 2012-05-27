@@ -714,6 +714,7 @@ $messages['dtp'] = array(
 /** Greek (Ελληνικά)
  * @author Badseed
  * @author Dead3y3
+ * @author Lou
  * @author Omnipaedista
  * @author ZaDiak
  */
@@ -725,7 +726,7 @@ $messages['el'] = array(
 	'antispoof-badtype' => 'Εσφαλμένος τύπος δεδομένων',
 	'antispoof-empty' => 'Κενή συμβολοσειρά',
 	'antispoof-blacklisted' => 'Περιέχει χαρακτήρα στη «μαύρη λίστα»',
-	'antispoof-combining' => 'Ξεκινάει με συνδυαστικό σημάδι',
+	'antispoof-combining' => 'Αρχίζει με τον ειδικό χαρακτήρα $1',
 	'antispoof-unassigned' => 'Περιέχει μη καταχωρημένο χαρακτήρα ή χαρακτήρα του οποίου η χρήση αποθαρρύνεται',
 	'antispoof-noletters' => 'Δεν περιέχει καθόλου γράμματα',
 	'antispoof-mixedscripts' => 'Περιέχει ανεμιγμένους ασύμβατους χαρακτήρες γραπτού κειμένου',
