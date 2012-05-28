@@ -610,6 +610,7 @@ $messages['cy'] = array(
  * @author Froztbyte
  * @author Jan Friberg
  * @author Jon Harald Søby
+ * @author Sarrus
  */
 $messages['da'] = array(
 	'antispoof-desc' => 'Blokerer for oprettelse af konti med blandede tegnsæt, forvirrende eller lignende brugernavne',
@@ -618,7 +619,7 @@ $messages['da'] = array(
 	'antispoof-name-illegal' => 'Navnet "$1" er ikke tilladt for at forhindre forvirrende eller efterlignede brugernavne: $2. Vælg venligst et andet navn.',
 	'antispoof-badtype' => 'Forkert datatype',
 	'antispoof-empty' => 'Tom streng',
-	'antispoof-blacklisted' => 'Indeholder sortlistet tegn',
+	'antispoof-blacklisted' => 'Indeholder sortlistet tegn $1',
 	'antispoof-combining' => 'Begynder med kombinationsbogstaven $1',
 	'antispoof-unassigned' => 'Indeholder ubrugte bogstaver',
 	'antispoof-noletters' => 'Indeholder ikke bogstaver',
@@ -891,6 +892,7 @@ $messages['fo'] = array(
 );
 
 /** French (Français)
+ * @author DavidL
  * @author Gomoko
  * @author Grondin
  * @author IAlex
@@ -910,7 +912,7 @@ Veuillez choisir un autre nom.',
 	'antispoof-empty' => 'Chaîne vide',
 	'antispoof-blacklisted' => 'Contient le caractère interdit $1',
 	'antispoof-combining' => 'Commence avec une marque combinatoire $1',
-	'antispoof-unassigned' => 'Contient un caractère non assigné ou désuet',
+	'antispoof-unassigned' => 'Contient un caractère non assigné $1',
 	'antispoof-deprecated' => 'Contient le caractère obsolète $1',
 	'antispoof-noletters' => 'Ne contient aucune lettre',
 	'antispoof-mixedscripts' => 'Contient plusieurs écritures incompatibles',
@@ -2051,9 +2053,10 @@ $messages['pms'] = array(
 	'antispoof-name-illegal' => 'Lë stranòm "$1" as peul nen dovresse për evité confusion e/ò che cheidun as fassa passé për: $2. Për piasì, ch\'as në sërna n\'àotr.',
 	'antispoof-badtype' => 'Sòrt ëd dat nen bon-a',
 	'antispoof-empty' => 'Espression veujda',
-	'antispoof-blacklisted' => "A-i é ëd caràter ch'as peulo pa dovresse",
-	'antispoof-combining' => 'As anandia con na combinassion',
-	'antispoof-unassigned' => "A son dovrasse dij caràter nen assignà, ò pura ch'as dovrìo pì nen dovresse",
+	'antispoof-blacklisted' => "A-i é ëd caràter ch'as peulo pa dovresse $1",
+	'antispoof-combining' => 'As anandia con na combinassion $1',
+	'antispoof-unassigned' => 'A conten dij caràter nen assignà $1',
+	'antispoof-deprecated' => 'A conten dij caràter deprecà $1',
 	'antispoof-noletters' => "A l'ha pa gnun caràter",
 	'antispoof-mixedscripts' => "Combinassion ëd sistema dë scritura ch'as peulo pa butesse ansema",
 	'antispoof-tooshort' => 'Butà an forma canònica lë stranòm a resta esagerà curt',
