@@ -611,6 +611,7 @@ $messages['cy'] = array(
  * @author Jan Friberg
  * @author Jon Harald Søby
  * @author Sarrus
+ * @author Tjernobyl
  */
 $messages['da'] = array(
 	'antispoof-desc' => 'Blokerer for oprettelse af konti med blandede tegnsæt, forvirrende eller lignende brugernavne',
@@ -621,7 +622,8 @@ $messages['da'] = array(
 	'antispoof-empty' => 'Tom streng',
 	'antispoof-blacklisted' => 'Indeholder sortlistet tegn $1',
 	'antispoof-combining' => 'Begynder med kombinationsbogstaven $1',
-	'antispoof-unassigned' => 'Indeholder ubrugte bogstaver',
+	'antispoof-unassigned' => 'Indeholder det ikke-tildelte tegn $1',
+	'antispoof-deprecated' => 'Indeholder det uvelsete tegn $1',
 	'antispoof-noletters' => 'Indeholder ikke bogstaver',
 	'antispoof-mixedscripts' => 'Indeholder inkompatible, blandede tegnsæt',
 	'antispoof-tooshort' => 'Navnet er for kort',
@@ -1228,6 +1230,7 @@ $messages['id'] = array(
  * @author Ukabia
  */
 $messages['ig'] = array(
+	'antispoof-conflict-bottom' => 'Biko ra áhà ọzọ.',
 	'antispoof-empty' => 'Cháfù érírí',
 );
 
@@ -1310,7 +1313,7 @@ $messages['ja'] = array(
 	'antispoof-conflict-bottom' => '別の名前を使用してください。',
 	'antispoof-name-illegal' => '指定した名前「$1」はなりすまし防止のため使用できません: $2。別の名前を使用してください。',
 	'antispoof-bad-char' => '"$1" ($2)',
-	'antispoof-badtype' => 'データタイプが異常です。',
+	'antispoof-badtype' => 'データタイプが異常です',
 	'antispoof-empty' => '文字列が空です',
 	'antispoof-blacklisted' => '禁止された文字 $1 を含んでいます',
 	'antispoof-combining' => '結合記号 $1 で始まっています',
@@ -1319,7 +1322,7 @@ $messages['ja'] = array(
 	'antispoof-noletters' => '文字を含んでいません',
 	'antispoof-mixedscripts' => '一緒に使用できない複数の文字体系が混在しています',
 	'antispoof-tooshort' => '正規化した名前が短すぎます',
-	'antispoof-ignore' => 'なりすましチェックを無効にします。',
+	'antispoof-ignore' => 'なりすましチェックを無効にする',
 	'right-override-antispoof' => 'なりすましチェックを無視',
 );
 
@@ -1488,9 +1491,10 @@ $messages['ksh'] = array(
 	'antispoof-name-illegal' => 'Dä Name „$1“ es nit zojelohße, domet mer kein nohjemahte Name krije, un keine Durjenein met Schrefte: $2. Sök Der jet anders als Dinge Name us.',
 	'antispoof-badtype' => 'Verkierte Zoot Date',
 	'antispoof-empty' => 'En dem Feld is nix dren',
-	'antispoof-blacklisted' => 'Do sin Zeiche dren, die nit zojeloße sin.',
-	'antispoof-combining' => 'Dat fängk med ennem kombineerende Zeiche aan.',
-	'antispoof-unassigned' => 'Do sen Zeiche dren, die mer nit han welle, odder wo mer der Zeichesatz ja nit kenne.',
+	'antispoof-blacklisted' => 'Do es dat Zeiche „$1“ dren, wat nit zojelohße es',
+	'antispoof-combining' => 'Dat fängk med däm kombineerende Zeiche „$1“ aan.',
+	'antispoof-unassigned' => 'Do es dat Zeiche „$1“ dren, wat nit zojedeild es',
+	'antispoof-deprecated' => 'Do es dat Zeiche „$1“ dren, wat nit jään jesinn es',
 	'antispoof-noletters' => 'Do es nit eine Bochstabe dren.',
 	'antispoof-mixedscripts' => 'He sin Zeichesätz jemesch.',
 	'antispoof-tooshort' => 'Dä vereinheitlechte Name es zo koot.',
@@ -2043,6 +2047,7 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Bèrto 'd Sèra
  * @author Dragonòt
  */
@@ -2056,7 +2061,7 @@ $messages['pms'] = array(
 	'antispoof-blacklisted' => "A-i é ëd caràter ch'as peulo pa dovresse $1",
 	'antispoof-combining' => 'As anandia con na combinassion $1',
 	'antispoof-unassigned' => 'A conten dij caràter nen assignà $1',
-	'antispoof-deprecated' => 'A conten dij caràter deprecà $1',
+	'antispoof-deprecated' => 'A conten dij caràter frust $1',
 	'antispoof-noletters' => "A l'ha pa gnun caràter",
 	'antispoof-mixedscripts' => "Combinassion ëd sistema dë scritura ch'as peulo pa butesse ansema",
 	'antispoof-tooshort' => 'Butà an forma canònica lë stranòm a resta esagerà curt',
