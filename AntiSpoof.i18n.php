@@ -157,6 +157,7 @@ $messages['ang'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Abanima
  * @author DRIHEM
  * @author Meno25
  * @author Mido
@@ -166,9 +167,9 @@ $messages['ang'] = array(
 $messages['ar'] = array(
 	'antispoof-desc' => 'يمنع إنشاء الحسابات بسكريبت مختلط، وبأسماء مشابهة ومربكة',
 	'antispoof-conflict-top' => 'الاسم "$1" شديد الشبه ب{{PLURAL:$2|الحساب الموجود|ال$2 حساب التالية}}:',
-	'antispoof-conflict-bottom' => 'من فضلك اختر اسما آخر.',
-	'antispoof-name-illegal' => 'الاسم "$1" غير مسموح به لمنع الخلط وانتحال أسماء المستخدمين: $2.
-من فضلك اختر اسم آخر.',
+	'antispoof-conflict-bottom' => 'من فضلك اختر اسماً آخر.',
+	'antispoof-name-illegal' => 'الاسم «$1» غير مسموح به لمنع الخلط وانتحال أسماء المستخدمين: $2.
+من فضلك اختر اسماً آخر.',
 	'antispoof-badtype' => 'نوع بيانات خاطئ',
 	'antispoof-empty' => 'سلسلة فارغة',
 	'antispoof-blacklisted' => 'يحتوي على حرف $1 من القائمة السوداء',
@@ -2185,6 +2186,7 @@ $messages['ro'] = array(
 	'antispoof-blacklisted' => 'Conține caracterul interzis $1',
 	'antispoof-combining' => 'Începe cu marcajul de combinare $1',
 	'antispoof-unassigned' => 'Conține un caracter neasociat sau învechit',
+	'antispoof-deprecated' => 'Conține caracterul interzis $1',
 	'antispoof-noletters' => 'Nu conține nici o literă',
 	'antispoof-mixedscripts' => 'Conține mai multe scripturi incompatibile',
 	'antispoof-tooshort' => 'Nume canonizat prea scurt',
