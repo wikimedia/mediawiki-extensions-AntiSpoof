@@ -189,7 +189,7 @@ $messages['ar'] = array(
  */
 $messages['arc'] = array(
 	'antispoof-conflict-bottom' => 'ܦܝܣܐ ܡܢܟ ܓܒܝ ܚܕ ܫܡܐ ܐܚܪܝܢܐ.',
-	'antispoof-noletters' => 'ܠܐ ܚܒܫ ܐܬܘܬܐ ܡܕܡ',
+	'antispoof-noletters' => 'ܠܐ ܬܚܒܘܫ ܐܬܘܬܐ ܡܕܡ',
 );
 
 /** Egyptian Spoken Arabic (مصرى)
@@ -2105,6 +2105,7 @@ $messages['ps'] = array(
  * @author Brunoy Anastasiya Seryozhenko
  * @author Hamilton Abreu
  * @author Malafaya
+ * @author Rhaijin
  */
 $messages['pt'] = array(
 	'antispoof-desc' => 'Impede a criação de contas com escrita mista, e nomes de utilizador confusos e semelhantes',
@@ -2115,7 +2116,8 @@ $messages['pt'] = array(
 	'antispoof-empty' => 'Linha vazia',
 	'antispoof-blacklisted' => 'Contém caracter proibido $1',
 	'antispoof-combining' => 'Começa com carácter de combinação $1',
-	'antispoof-unassigned' => 'Contém caracteres não reconhecidos ou depreciados',
+	'antispoof-unassigned' => 'Contém caracter proibido $1',
+	'antispoof-deprecated' => 'Contém caracter proibido $1',
 	'antispoof-noletters' => 'Não inclui nenhuma letra',
 	'antispoof-mixedscripts' => 'Contém scripts de escrita incompatíveis mesclados',
 	'antispoof-tooshort' => 'Nome canónico demasiado curto',
@@ -2128,6 +2130,7 @@ $messages['pt'] = array(
  * @author Eduardo.mps
  * @author Helder.wiki
  * @author Heldergeovane
+ * @author Rhaijin
  */
 $messages['pt-br'] = array(
 	'antispoof-desc' => 'Impede a criação de contas com escrita mista, e nomes de utilizador confusos e semelhantes',
@@ -2139,7 +2142,7 @@ Por favor, escolha outro nome.',
 	'antispoof-empty' => 'Linha vazia',
 	'antispoof-blacklisted' => 'Contém o caractere $1, presente na lista negra',
 	'antispoof-combining' => 'Inicia com o caractere de combinação $1',
-	'antispoof-unassigned' => 'Contém caracteres não reconhecidos: $1',
+	'antispoof-unassigned' => 'Contém caracteres não reconhecidos ou depreciados',
 	'antispoof-noletters' => 'Não contém nenhuma letra',
 	'antispoof-mixedscripts' => 'Contém scripts de escrita incompatíveis mesclados',
 	'antispoof-tooshort' => 'Nome canônico curto demais',
