@@ -606,7 +606,7 @@ $messages['cy'] = array(
 	'right-override-antispoof' => 'Anwybydder gwirio am enwau gwallus',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Dittaeva
  * @author Froztbyte
  * @author Jan Friberg
@@ -894,7 +894,7 @@ $messages['fo'] = array(
 	'antispoof-ignore' => 'Síggj burtur frá "spoofing" kanning',
 );
 
-/** French (Français)
+/** French (français)
  * @author DavidL
  * @author Gomoko
  * @author Grondin
@@ -2101,7 +2101,7 @@ $messages['ps'] = array(
 	'antispoof-noletters' => 'هېڅ کوم توری نه شته',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Brunoy Anastasiya Seryozhenko
  * @author Hamilton Abreu
  * @author Malafaya
@@ -2125,7 +2125,7 @@ $messages['pt'] = array(
 	'right-override-antispoof' => 'Sobrepor verificações de spoofing',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author 555
  * @author Eduardo.mps
  * @author Helder.wiki
@@ -2171,7 +2171,7 @@ $messages['qu'] = array(
 	'right-override-antispoof' => 'Kaqlla kay llanchiyta ama atichiychu',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Cin
  * @author Firilacroco
  * @author KlaudiuMihaila
