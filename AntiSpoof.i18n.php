@@ -1464,10 +1464,11 @@ $messages['kn'] = array(
  * @author Klutzy
  * @author Kwj2772
  * @author ToePeu
+ * @author 아라
  */
 $messages['ko'] = array(
 	'antispoof-desc' => '여러 문자 체계를 섞은 이름이나, 혼동될 수 있고 비슷한 이름의 계정 생성을 막음',
-	'antispoof-conflict-top' => '계정 이름 "$1"은 {{PLURAL:$2|다음 계정|다음 $2개의 계정}}과 너무 비슷합니다:',
+	'antispoof-conflict-top' => '계정 이름 "$1"은 {{PLURAL:$2|다음 계정과|다음 계정 $2개와}} 너무 비슷합니다:',
 	'antispoof-conflict-bottom' => '다른 이름을 선택해주세요.',
 	'antispoof-name-illegal' => '‘$1’ 사용자 이름은 다음의 이유로 인해 가입이 금지되었습니다: $2. 다른 이름으로 가입해주세요.',
 	'antispoof-badtype' => '잘못된 자료형',
@@ -2143,7 +2144,7 @@ Por favor, escolha outro nome.',
 	'antispoof-empty' => 'Linha vazia',
 	'antispoof-blacklisted' => 'Contém o caractere $1, presente na lista negra',
 	'antispoof-combining' => 'Inicia com o caractere de combinação $1',
-	'antispoof-unassigned' => 'Contém caracteres não reconhecidos ou depreciados',
+	'antispoof-unassigned' => 'Contém caracteres não reconhecidos: $1',
 	'antispoof-noletters' => 'Não contém nenhuma letra',
 	'antispoof-mixedscripts' => 'Contém scripts de escrita incompatíveis mesclados',
 	'antispoof-tooshort' => 'Nome canônico curto demais',
