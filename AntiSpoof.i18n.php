@@ -1310,7 +1310,7 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'antispoof-desc' => '文字体系が混在している利用者名、既存の利用者名と類似していて紛らわしい利用者名のアカウント作成をブロック',
+	'antispoof-desc' => '文字体系が混在している利用者名、既存の利用者名と類似していて紛らわしい利用者名のアカウント作成をブロックする',
 	'antispoof-conflict-top' => '指定した名前「$1」は{{PLURAL:$2|既存のアカウント|以下の$2アカウント}}と類似しすぎています:',
 	'antispoof-conflict-bottom' => '別の名前を使用してください。',
 	'antispoof-name-illegal' => '指定した名前「$1」はなりすまし防止のため使用できません: $2。別の名前を使用してください。',
@@ -1321,7 +1321,7 @@ $messages['ja'] = array(
 	'antispoof-combining' => '結合記号 $1 で始まっています',
 	'antispoof-unassigned' => '未割り当ての文字 $1 を含んでいます',
 	'antispoof-deprecated' => '推奨されない文字 $1 を含んでいます',
-	'antispoof-noletters' => '文字を含んでいません',
+	'antispoof-noletters' => '英字を含んでいません',
 	'antispoof-mixedscripts' => '一緒に使用できない複数の文字体系が混在しています',
 	'antispoof-tooshort' => '正規化した名前が短すぎます',
 	'antispoof-ignore' => 'なりすましチェックを無効にする',
@@ -2710,7 +2710,8 @@ $messages['tr'] = array(
 	'right-override-antispoof' => 'Aldatıcı kontrolleri gerçersiz kıl',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
+ * @author A1
  * @author AS
  * @author Ahonc
  */
@@ -2721,9 +2722,10 @@ $messages['uk'] = array(
 	'antispoof-name-illegal' => "Не дозволене використання імені «$1» з метою запобігання плутанню з занадто схожими на нього іменами: $2. Будь ласка, виберіть інше ім'я.",
 	'antispoof-badtype' => 'Невірний тип даних',
 	'antispoof-empty' => 'Порожній рядок',
-	'antispoof-blacklisted' => 'Містить заборонені символи',
-	'antispoof-combining' => "Починається з об'єднувальної мітки",
-	'antispoof-unassigned' => 'Містить невизначений або непідтримуваний символ',
+	'antispoof-blacklisted' => 'Містить заборонений символ: $1',
+	'antispoof-combining' => 'Починається з символу $1',
+	'antispoof-unassigned' => 'Містить неприпустимий символ: $1',
+	'antispoof-deprecated' => 'Містить заборонений символ: $1',
 	'antispoof-noletters' => 'Не містить жодної літери',
 	'antispoof-mixedscripts' => 'Використовуються несумісні системи письма',
 	'antispoof-tooshort' => "Канонічне ім'я надто коротке",
