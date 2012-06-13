@@ -2819,6 +2819,7 @@ $messages['yi'] = array(
 	'antispoof-blacklisted' => "כולל דעם געאסר'טן צייכן $1",
 	'antispoof-combining' => 'הייבט אן מיטן קאמבינאציע צייכן $1',
 	'antispoof-unassigned' => 'כולל א נישט געניצטער אדער אלטלעכער צייכן',
+	'antispoof-deprecated' => 'אנטהאלט פארעלטערטן כאראקטער $1',
 	'antispoof-noletters' => 'אַנטהאַלט ניט קײַן בוכשטאַבן.',
 );
 
