@@ -236,7 +236,7 @@ $messages['as'] = array(
 	'right-override-antispoof' => 'স্পুফিং পৰীক্ষা অনৱেক্ষা কৰক',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Esbardu
  * @author Xuacu
  */
@@ -267,7 +267,7 @@ $messages['avk'] = array(
 	'antispoof-noletters' => 'Va mek eltay ruldar',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Vugar 1981
  * @author Wertuose
  */
@@ -362,7 +362,7 @@ $messages['bcl'] = array(
 	'antispoof-mixedscripts' => 'Igwang dai angay na mga halong script',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author Хомелка
  */
 $messages['be'] = array(
@@ -406,7 +406,7 @@ $messages['be-tarask'] = array(
 	'right-override-antispoof' => 'ігнараваньне праверак на падобныя назвы рахункаў',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author Borislav
  * @author DCLXVI
  * @author Spiritia
@@ -485,7 +485,7 @@ $messages['bn'] = array(
 	'right-override-antispoof' => 'স্পুফিং চেক ওভাররাইড করো',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -506,7 +506,7 @@ $messages['br'] = array(
 	'right-override-antispoof' => 'Chom hep gwiriañ ha touellerezh zo',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  * @author Palapa
  */
@@ -528,7 +528,7 @@ Molimo Vas da odaberete drugo ime.',
 	'right-override-antispoof' => 'Zaobilaženje provjera korisničkog imena',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -555,12 +555,12 @@ $messages['ce'] = array(
 	'antispoof-ignore' => 'Терго ма йе цхьатерра цlераш йуй хьажарна',
 );
 
-/** Corsican (Corsu) */
+/** Corsican (corsu) */
 $messages['co'] = array(
 	'antispoof-badtype' => 'Tipu gattivu di dati',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Danny B.
  * @author Li-sung
  * @author Mormegil
@@ -767,7 +767,7 @@ $messages['eo'] = array(
 	'right-override-antispoof' => 'Superebligi la artifikajn kontrolojn.',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Cvmontuy
  * @author Icvav
@@ -795,7 +795,7 @@ $messages['es'] = array(
 	'right-override-antispoof' => 'Anula las comprobaciones de suplantación',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Pikne
  */
 $messages['et'] = array(
@@ -817,7 +817,7 @@ Palun vali teine nimi.',
 	'right-override-antispoof' => 'Mööduda kasutajanimede sarnasuse testist',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Kobazulo
  */
 $messages['eu'] = array(
@@ -852,7 +852,7 @@ $messages['fa'] = array(
 	'right-override-antispoof' => 'گذر از بررسی عبارات سردرگم‌کننده',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Linnea
  * @author Nike
@@ -876,7 +876,7 @@ $messages['fi'] = array(
 	'right-override-antispoof' => 'Ohittaa tarkastukset samankaltaisista tai epäilyttävistä käyttäjätunnuksista',
 );
 
-/** Faroese (Føroyskt)
+/** Faroese (føroyskt)
  * @author EileenSanda
  */
 $messages['fo'] = array(
@@ -924,7 +924,7 @@ Veuillez choisir un autre nom.',
 	'right-override-antispoof' => 'Court-circuiter les vérifications de tromperie',
 );
 
-/** Cajun French (Français cadien)
+/** Cajun French (français cadien)
  * @author JeanVoisin
  */
 $messages['frc'] = array(
@@ -939,7 +939,7 @@ $messages['frc'] = array(
 	'antispoof-tooshort' => 'Le nom choisi est trop court',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -1099,7 +1099,7 @@ $messages['hi'] = array(
 	'right-override-antispoof' => 'स्पूफिंग चेक्स को नजर अंदाज करें',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dalibor Bosits
  * @author SpeedyGonsales
  */
@@ -1159,7 +1159,7 @@ Tanpri chwazi yon lòt non.',
 	'antispoof-tooshort' => 'Non kanonik an two kout',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Dj
  */
@@ -1182,7 +1182,7 @@ $messages['hu'] = array(
 	'right-override-antispoof' => 'felhasználói nevek ellenőrzésének figyelmen kívül hagyása',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -1257,7 +1257,7 @@ Pangngaasi ti agpili iti sabali a nagan.',
 	'right-override-antispoof' => 'Parabawan ti panagkita nga aningaas',
 );
 
-/** Icelandic (Íslenska)
+/** Icelandic (íslenska)
  * @author S.Örvarr.S
  * @author Snævar
  * @author Spacebirdy
@@ -1277,7 +1277,7 @@ $messages['is'] = array(
 	'antispoof-tooshort' => 'Nafn of stutt',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author BrokenArrow
  * @author Darth Kule
@@ -1328,7 +1328,7 @@ $messages['ja'] = array(
 	'right-override-antispoof' => 'なりすましチェックを無視',
 );
 
-/** Jutish (Jysk)
+/** Jutish (jysk)
  * @author Huslåke
  */
 $messages['jut'] = array(
@@ -1577,7 +1577,7 @@ $messages['lo'] = array(
 	'antispoof-tooshort' => 'ຊື່ຫຍໍ້ສັ້ນໂພດ',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Ignas693
  * @author Perkunas
@@ -1599,7 +1599,7 @@ $messages['lt'] = array(
 	'right-override-antispoof' => 'Nepaisyti spoofing patikrinimai',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author GreenZeb
  * @author Papuass
  */
@@ -1651,7 +1651,7 @@ Misafidia anarana hafa.',
 	'antispoof-mixedscripts' => 'Misy endri-tsoratra maro samihafa tsy zaka',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1696,7 +1696,7 @@ $messages['ml'] = array(
 	'right-override-antispoof' => 'സ്പൂഫിങ് പരിശോധനകൾ അതിലംഘിക്കുക',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -1899,7 +1899,7 @@ Kies een andere naam.',
 	'right-override-antispoof' => 'Spoofcontroles negeren',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Dittaeva
  * @author Harald Khan
  * @author Njardarlogar
@@ -1933,7 +1933,7 @@ $messages['nso'] = array(
 	'antispoof-noletters' => 'Ga e na dihlaka',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -2025,7 +2025,7 @@ Nemmän onare Noame.',
 	'right-override-antispoof' => 'Fälschungsiwabriefung iwschraiwe',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  * @author Derbeth
  * @author Mikołka
@@ -2199,7 +2199,7 @@ $messages['ro'] = array(
 	'right-override-antispoof' => 'Asuprește verificările spoofing',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  * @author Reder
  */
@@ -2222,7 +2222,7 @@ Pe piacere scacchie 'n'otre nome.",
 	'right-override-antispoof' => "Sovrascrive le verifeche sus a le 'mbruegghie",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author DCamer
  * @author Kaganer
  * @author Van de Bugger
@@ -2278,7 +2278,7 @@ $messages['sa'] = array(
 	'antispoof-blacklisted' => 'स्वस्थाननिर्माणे विपन्नतायाः हेतुः ।',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author Bert Jickty
  * @author HalanTul
  */
@@ -2317,7 +2317,7 @@ $messages['sat'] = array(
 	'right-override-antispoof' => 'Beganoḱ koyoḱ parom bachaome',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Santu
  * @author Tonyfroio
  */
@@ -2338,7 +2338,7 @@ $messages['scn'] = array(
 	'right-override-antispoof' => 'Trascura li cuntrolli spoofing',
 );
 
-/** Serbo-Croatian (Srpskohrvatski)
+/** Serbo-Croatian (srpskohrvatski / српскохрватски)
  * @author OC Ripper
  */
 $messages['sh'] = array(
@@ -2381,7 +2381,7 @@ $messages['si'] = array(
 	'right-override-antispoof' => 'අනවශ්‍ය පිරික්සුම් ප්‍රතික්ෂේප කරන්න',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -2401,7 +2401,7 @@ $messages['sk'] = array(
 	'right-override-antispoof' => 'Prekonať kontroly klamania',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  * @author Irena Plahuta
  */
@@ -2424,7 +2424,7 @@ Prosimo, izberite drugo ime.',
 	'right-override-antispoof' => 'Preskoči preverjanja prevar',
 );
 
-/** Albanian (Shqip)
+/** Albanian (shqip)
  * @author Olsi
  */
 $messages['sq'] = array(
@@ -2444,7 +2444,7 @@ $messages['sq'] = array(
 	'right-override-antispoof' => 'Refuzoni kontrollet për emra të rremë',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Millosh
  * @author Rancher
  * @author Sasa Stefanovic
@@ -2470,7 +2470,7 @@ $messages['sr-ec'] = array(
 	'right-override-antispoof' => 'заобилажење провера за међусобно слична имена',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  * @author Rancher
  * @author Жељко Тодоровић
@@ -2533,7 +2533,7 @@ $messages['su'] = array(
 	'right-override-antispoof' => 'Abeykeun pangecekan panipuan ngaran pamaké',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Boivie
  * @author Lejonel
  * @author Lokal Profil
@@ -2608,7 +2608,7 @@ $messages['te'] = array(
 	'right-override-antispoof' => 'స్పూఫింగ్ తనిఖీలను అధిక్రమించు',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -2624,7 +2624,7 @@ $messages['tg-cyrl'] = array(
 	'antispoof-tooshort' => 'Номи мӯътариф хеле кӯтоҳ аст',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -2733,7 +2733,7 @@ $messages['uk'] = array(
 	'right-override-antispoof' => 'Ігнорування перевірок на схожі імена',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -2869,7 +2869,7 @@ $messages['zea'] = array(
 	'antispoof-ignore' => 'Controle op geliekende gebrukersnaemen negeren',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Gzdavidwong
  * @author Hzy980512
  * @author Jimmy xu wrk
@@ -2896,7 +2896,7 @@ $messages['zh-hans'] = array(
 	'right-override-antispoof' => '无视欺诈检查',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Gzdavidwong
  * @author Liangent
  * @author Mark85296341
