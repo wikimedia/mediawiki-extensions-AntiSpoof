@@ -392,7 +392,8 @@ $messages['be-tarask'] = array(
 	'antispoof-desc' => 'Блякуе стварэньне рахункаў зь імёнамі карыстальнікаў са зьмяшаных альфабэтаў, падобных ці тых, якія можна зблытаць',
 	'antispoof-conflict-top' => 'Назва рахунку «$1» занадта падобная на $2 {{PLURAL:$2|існуючы рахунак|існуючыя рахункі|існуючых рахункаў}}:',
 	'antispoof-conflict-bottom' => 'Калі ласка, выберыце іншую назву рахунку.',
-	'antispoof-name-illegal' => 'Імя «$1» не дазволенае, каб прадухіліць блытаніну ці падробку імені ўдзельніка: $2. Калі ласка, абярыце іншае імя.',
+	'antispoof-name-illegal' => 'Імя «$1» не дазволенае, каб прадухіліць блытаніну ці падробку імені ўдзельніка: $2.
+Калі ласка, абярыце іншае імя.',
 	'antispoof-badtype' => 'Няслушны тып зьвестак',
 	'antispoof-empty' => 'Пусты радок',
 	'antispoof-blacklisted' => 'Утрымлівае забаронены сымбаль $1',
@@ -2303,11 +2304,12 @@ $messages['sah'] = array(
  * @author Salvator
  */
 $messages['sat'] = array(
+	'antispoof-conflict-top' => 'Ńtum do pray mit́gea{{PLURAL:$2| menaḱ akaunṭ| noakodo $2 akaunṭ kana}}:',
 	'antispoof-conflict-bottom' => 'Eṭaḱ ńutum sendraeme',
 	'antispoof-name-illegal' => 'Ńutum"$1" do baṅ hoyoḱa se okokomṛogea: $2. Dayakate eṭaḱ ńutum emam.',
 	'antispoof-badtype' => 'Bạṛić tottho lekan',
 	'antispoof-empty' => 'Eken ghuṛã',
-	'antispoof-blacklisted' => 'Begor samuṅ karekṭar menaḱa',
+	'antispoof-blacklisted' => '$1 Begor samuṅ karekṭar menaḱa',
 	'antispoof-combining' => 'Joṛa cikhnạ khon ehobme',
 	'antispoof-unassigned' => 'Baṅ ganoḱ karekṭar menaḱa',
 	'antispoof-noletters' => 'Cet́ okhor hõ banuḱa',
