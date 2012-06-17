@@ -215,6 +215,7 @@ $messages['arz'] = array(
 );
 
 /** Assamese (অসমীয়া)
+ * @author Chaipau
  * @author Gitartha.bordoloi
  */
 $messages['as'] = array(
@@ -223,6 +224,7 @@ $messages['as'] = array(
 	'antispoof-conflict-bottom' => 'অনুগ্ৰহ কৰি আন এটা নাম বাছনি কৰক।',
 	'antispoof-name-illegal' => '"$1" নামটো বিভ্ৰান্তিকৰ হোৱা বাবে অনুমোদন কৰা নহ\'ব: $2।
 অনুগ্ৰহ কৰি আন এটা নাম বাছনি কৰক।',
+	'antispoof-bad-char' => '"$1" ($2)',
 	'antispoof-badtype' => 'তথ্যৰ ধৰণ ঠিক নহয়',
 	'antispoof-empty' => 'খালী সূত্ৰ',
 	'antispoof-blacklisted' => 'নিষিদ্ধ চিহ্ন $1 আছে',
