@@ -832,6 +832,7 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Hooshmand.hasannia
  * @author Huji
  * @author Reza1615
  * @author Surena
@@ -844,7 +845,7 @@ $messages['fa'] = array(
 	'antispoof-name-illegal' => 'نام «$1» به دلیل جلوگیری از نام‌های کاربری سردرگم‌کننده یا مسخره مجاز نیست: $2. لطفاً نام دیگری انتخاب کنید.',
 	'antispoof-badtype' => 'داده با نوع نامناسب',
 	'antispoof-empty' => 'رشتهٔ خالی',
-	'antispoof-blacklisted' => 'حاوی نویسه‌هایی است که در فهرست سیاه قرار دارند',
+	'antispoof-blacklisted' => 'حاوی نویسهٔ $1 است که در فهرست سیاه قرار دارد',
 	'antispoof-combining' => 'با علامت جمع شروع می‌شود',
 	'antispoof-unassigned' => 'دارای نویسه‌های تعیین‌نشده یا نامناسب است',
 	'antispoof-deprecated' => 'شامل نویسهٔ قبیح $1',
@@ -1582,6 +1583,7 @@ $messages['lo'] = array(
 
 /** Lithuanian (lietuvių)
  * @author Eitvys200
+ * @author Garas
  * @author Ignas693
  * @author Perkunas
  */
@@ -1592,9 +1594,10 @@ $messages['lt'] = array(
 	'antispoof-name-illegal' => 'Vardas "$1" neleidžiamas, kad būtų apsisaugota nuo apgaulingų ar parodijuotų naudotojų vardų: $2. Prašome pasirinkti kitą vardą.',
 	'antispoof-badtype' => 'Blogas duomenų tipas',
 	'antispoof-empty' => 'Tuščias tekstas',
-	'antispoof-blacklisted' => 'Turi uždraustų simbolių',
-	'antispoof-combining' => 'Prasideda kombinavimo ženklu',
-	'antispoof-unassigned' => 'Yra nepaskirtų arba nebenaudotinų simbolių',
+	'antispoof-blacklisted' => 'Turi uždraustą simbolį $1',
+	'antispoof-combining' => 'Prasideda kombinavimo ženklu $1',
+	'antispoof-unassigned' => 'Yra nepaskirtas simbolis $1',
+	'antispoof-deprecated' => 'Turi nenaudotiną simbolį $1',
 	'antispoof-noletters' => 'Nėra nei vienos raidės',
 	'antispoof-mixedscripts' => 'Turi nepalaikomų įvairių rašmenų',
 	'antispoof-tooshort' => 'Kanonizuotas vardas per trumpas',
