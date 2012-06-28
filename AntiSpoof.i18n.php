@@ -742,13 +742,6 @@ $messages['el'] = array(
 	'right-override-antispoof' => 'Υπερκάλυψη των ελέγχων εξαπάτησης',
 );
 
-/** British English (British English)
- * @author Pooja.srivastava
- */
-$messages['en-gb'] = array(
-	'antispoof-conflict-top' => 'Jo naam"$1"isse milta hai unse{{bahuvachan:$2| jo maujuda khata| jo nimnlikht $2 khata}}:',
-);
-
 /** Esperanto (Esperanto)
  * @author Tlustulimu
  * @author Yekrats
