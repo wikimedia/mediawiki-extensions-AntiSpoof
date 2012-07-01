@@ -129,7 +129,7 @@ $messages['aln'] = array(
 	'right-override-antispoof' => 'Refuzim spoofing kontrolle',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -384,7 +384,7 @@ $messages['be'] = array(
 	'right-override-antispoof' => 'ігнараванне праверак на падобныя назвы рахункаў',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -690,7 +690,7 @@ Yewna name weçine.',
 	'right-override-antispoof' => 'Kontrolanê spoofî override bike',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -957,7 +957,7 @@ Volyéd chouèsir un ôtro nom.',
 	'right-override-antispoof' => 'Ignorar los contrôlos de frôda',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Alma
  * @author Toliño
  */
@@ -1117,7 +1117,7 @@ $messages['hr'] = array(
 	'right-override-antispoof' => 'Premošćivanje spoofing provjere',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -2245,7 +2245,7 @@ $messages['ru'] = array(
 	'right-override-antispoof' => 'игнорирование проверок на схожие имена',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
@@ -2557,7 +2557,7 @@ $messages['sv'] = array(
 	'right-override-antispoof' => 'Slipper kontroller mot förvirrande användarnamn',
 );
 
-/** Silesian (Ślůnski)
+/** Silesian (ślůnski)
  * @author Przemub
  */
 $messages['szl'] = array(
