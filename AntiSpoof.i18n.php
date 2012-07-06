@@ -215,6 +215,7 @@ $messages['arz'] = array(
 );
 
 /** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
  * @author Chaipau
  * @author Gitartha.bordoloi
  */
@@ -226,7 +227,7 @@ $messages['as'] = array(
 অনুগ্ৰহ কৰি আন এটা নাম বাছনি কৰক।',
 	'antispoof-bad-char' => '"$1" ($2)',
 	'antispoof-badtype' => 'তথ্যৰ ধৰণ ঠিক নহয়',
-	'antispoof-empty' => 'খালী সূত্ৰ',
+	'antispoof-empty' => 'উকা সূত্ৰ',
 	'antispoof-blacklisted' => 'নিষিদ্ধ চিহ্ন $1 আছে',
 	'antispoof-combining' => 'সংযোজিত চিহ্ন $1ৰে আৰম্ভ হৈছে',
 	'antispoof-unassigned' => 'অপ্ৰযুক্ত চিহ্ন $1 আছে',
@@ -1096,6 +1097,25 @@ $messages['hi'] = array(
 	'antispoof-tooshort' => 'अधिकारयुक्त नाम बहुत छोटा हैं',
 	'antispoof-ignore' => 'उपेक्षा स्पूफिंग चेक',
 	'right-override-antispoof' => 'स्पूफिंग चेक्स को नजर अंदाज करें',
+);
+
+/** Fiji Hindi (Latin script) (Fiji Hindi)
+ * @author Girmitya
+ */
+$messages['hif-latn'] = array(
+	'antispoof-desc' => 'Ii waisan acount jisme mixed-script, nai to kharaab username hae, ke banae ke roke hae.',
+	'antispoof-conflict-top' => 'Naam "$1" {{PLURAL:$2|abhi ke account|ii sab $2 accounts}} ke rakam hae:',
+	'antispoof-conflict-bottom' => 'Merbaani kar ke duusra naam ke choose karo.',
+	'antispoof-name-illegal' => 'Naam "$1" ke nai kaam me laawa jaae sake hae, duusra naam se confuse nai kare ke khatir: $2
+Meharbaani kar ke duusra naam ke choose karo.',
+	'antispoof-badtype' => 'Kharaab data type',
+	'antispoof-empty' => 'Khaali string',
+	'antispoof-blacklisted' => 'Isme blacklisted character $1 hae',
+	'antispoof-combining' => 'Jorre waala mark $1 se suruu karo',
+	'antispoof-unassigned' => 'Isme unassigned akchhar $1 hae',
+	'antispoof-deprecated' => 'Isme deprecated akchhar $1 hae',
+	'antispoof-noletters' => 'Isme koi letter nai hae',
+	'antispoof-tooshort' => 'Canonicalized naam bahut chhota hae',
 );
 
 /** Croatian (hrvatski)
