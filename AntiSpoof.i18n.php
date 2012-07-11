@@ -291,7 +291,7 @@ $messages['az'] = array(
 	'right-override-antispoof' => 'Oxşar adlar yoxlanmasına məhəl qoymamaq',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  * @author Haqmar
  */
@@ -554,7 +554,7 @@ $messages['ca'] = array(
 	'right-override-antispoof' => "Evitar el control de noms d'usuari",
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Sasan700
  */
 $messages['ce'] = array(
@@ -1423,7 +1423,7 @@ $messages['kk-arab'] = array(
 	'antispoof-tooshort' => 'ەرەجەلەنگەن اتاۋى تىم قىسقا',
 );
 
-/** Kazakh (Cyrillic script) (‪Қазақша (кирил)‬) */
+/** Kazakh (Cyrillic script) (‪қазақша (кирил)‬) */
 $messages['kk-cyrl'] = array(
 	'antispoof-name-illegal' => 'Қатысушы аты шатақтауын немесе қалжындауын бөгеу үшін «$1» атауы рұқсат етілмейді: $2. Басқа атау таңдаңыз.',
 	'antispoof-badtype' => 'Жарамсыз дерек түрі',
@@ -1436,7 +1436,7 @@ $messages['kk-cyrl'] = array(
 	'antispoof-tooshort' => 'Ережеленген атауы тым қысқа',
 );
 
-/** Kazakh (Latin script) (‪Qazaqşa (latın)‬) */
+/** Kazakh (Latin script) (‪qazaqşa (latın)‬) */
 $messages['kk-latn'] = array(
 	'antispoof-name-illegal' => 'Qatıswşı atı şataqtawın nemese qaljındawın bögew üşin «$1» atawı ruqsat etilmeýdi: $2. Basqa ataw tañdañız.',
 	'antispoof-badtype' => 'Jaramsız derek türi',
@@ -1554,7 +1554,7 @@ Sicht iech w.e.g. een anere Benotzernumm.',
 	'right-override-antispoof' => "D'Resultat vun der Iwwerpréifung no ähnleche Benotzernimm ignoréieren",
 );
 
-/** Lezghian (Лезги)
+/** Lezghian (лезги)
  * @author Migraghvi
  */
 $messages['lez'] = array(
@@ -1801,7 +1801,7 @@ $messages['mt'] = array(
 	'antispoof-noletters' => 'Ma jinkludix ittri',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Amdf
  */
 $messages['myv'] = array(
@@ -1815,8 +1815,9 @@ $messages['nah'] = array(
 	'antispoof-badtype' => 'Ahcualli tlahcuilōliztli',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
+ * @author Dittaeva
+ * @author Event
  */
 $messages['nb'] = array(
 	'antispoof-desc' => 'Hindrer oppretting av kontoer med lignende eller forvirrende brukernavn, eller brukernavn som inneholder to forskjellige alfabettyper',
@@ -1825,9 +1826,10 @@ $messages['nb'] = array(
 	'antispoof-name-illegal' => 'Navnet «$1» er ikke tillatt for å forhindre sammenblanding: $2. Vennligst velg et annet navn.',
 	'antispoof-badtype' => 'Ugyldig datatype',
 	'antispoof-empty' => 'Tom streng',
-	'antispoof-blacklisted' => 'Inneholder svartelistede tegn',
-	'antispoof-combining' => 'Begynner med kombinasjonstegn',
+	'antispoof-blacklisted' => 'Inneholder det svartelistede tegnet $1',
+	'antispoof-combining' => 'Begynner med kombinasjonstegnet $1',
 	'antispoof-unassigned' => 'Inneholder ugyldig eller foreldet tegn.',
+	'antispoof-deprecated' => 'Inneholder det ulovlige tegnet «$1»',
 	'antispoof-noletters' => 'Inneholder ingen bokstaver',
 	'antispoof-mixedscripts' => 'Inneholder blanding av skriftsystemer',
 	'antispoof-tooshort' => 'Navnet er for kort',
@@ -2778,7 +2780,7 @@ Siegli n\'altro nome, par piaser.',
 	'right-override-antispoof' => 'Ignora le verifiche de spoofing',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
