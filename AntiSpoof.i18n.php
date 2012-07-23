@@ -33,6 +33,7 @@ Please choose another name.',
 
 /** Message documentation (Message documentation)
  * @author Beau
+ * @author Kghbln
  * @author Mormegil
  * @author Siebrand
  * @author Titoxd
@@ -60,7 +61,7 @@ $messages['qqq'] = array(
 * $1 — bad character designator (built with either antispoof-bad-char or …-non-printable).',
 	'antispoof-deprecated' => 'Reason for failed account creation. Parameters:
 * $1 — bad character designator (built with either {{msg-mw|antispoof-bad-char}} or {{msg-mw|antispoof-bad-char-non-printable}}).
-"Deprecate" does \'\'\'not\'\'\' mean "out of date" or "old".',
+{{doc-important|"Deprecate" does \'\'\'not\'\'\' mean "out of date" or "old"}}',
 	'antispoof-noletters' => 'Reason for failed account creation.',
 	'antispoof-mixedscripts' => 'Reason for failed account creation.',
 	'antispoof-tooshort' => 'Reason for failed account creation.',
@@ -647,27 +648,29 @@ $messages['da'] = array(
  */
 $messages['de'] = array(
 	'antispoof-desc' => 'Verhindert die Erstellung von Benutzerkonten mit gemischten Zeichensätzen, verwirrenden und ähnlichen Benutzernamen',
-	'antispoof-conflict-top' => 'Der Name „$1“ ist {{PLURAL:$2|dem existierenden Benutzerkonto|den folgenden $2 Benutzerkonten}} zu ähnlich:',
-	'antispoof-conflict-bottom' => 'Bitte wähle einen anderen Namen.',
-	'antispoof-name-illegal' => 'Der gewünschte Benutzername „$1“ ist nicht erlaubt. Grund: $2<br />Bitte einen anderen Benutzernamen wählen.',
+	'antispoof-conflict-top' => 'Der Benutzername „$1“ ist {{PLURAL:$2|dem folgenden Benutzerkonto|den folgenden $2 Benutzerkonten}} zu ähnlich:',
+	'antispoof-conflict-bottom' => 'Bitte wähle einen anderen Benutzernamen.',
+	'antispoof-name-illegal' => 'Der gewünschte Benutzername „$1“ ist nicht möglich. Grund: $2<br />Bitte wähle einen anderen Benutzernamen.',
 	'antispoof-badtype' => 'Ungültiger Datentyp',
 	'antispoof-empty' => 'Leeres Feld',
 	'antispoof-blacklisted' => 'Das nicht zulässige Zeichen $1 ist enthalten.',
-	'antispoof-combining' => 'Es fängt mit einem Verbindungszeichen $1 an.',
-	'antispoof-unassigned' => 'Es sind nicht zugeordnete oder unerwünschte Zeichen enthalten.',
-	'antispoof-deprecated' => 'Es ist das veraltete Zeichen $1 enthalten.',
-	'antispoof-noletters' => 'Es sind keine Buchstaben enthalten.',
-	'antispoof-mixedscripts' => 'Es sind Zeichen unterschiedlicher Schriftsysteme enthalten.',
-	'antispoof-tooshort' => 'Der kanonisierte Name ist zu kurz.',
+	'antispoof-combining' => 'Er fängt mit einem Verbindungszeichen $1 an.',
+	'antispoof-unassigned' => 'Er enthält das nicht zugeordnete Zeichen $1.',
+	'antispoof-deprecated' => 'Er enthält das unzulässige Zeichen $1.',
+	'antispoof-noletters' => 'Er enthält keine Buchstaben.',
+	'antispoof-mixedscripts' => 'Er enthält Zeichen unterschiedlicher Schriftsysteme.',
+	'antispoof-tooshort' => 'Er ist zu kurz.',
 	'antispoof-ignore' => 'Ähnlichkeitsprüfung ignorieren',
 	'right-override-antispoof' => 'Die Benutzernamens-Ähnlichkeitsprüfung außer Kraft setzen',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
  * @author Imre
+ * @author Kghbln
  */
 $messages['de-formal'] = array(
-	'antispoof-conflict-bottom' => 'Bitte wählen Sie einen anderen Namen.',
+	'antispoof-conflict-bottom' => 'Bitte wählen Sie einen anderen Benutzernamen.',
+	'antispoof-name-illegal' => 'Der gewünschte Benutzername „$1“ ist nicht möglich. Grund: $2<br />Bitte wählen Sie einen anderen Benutzernamen.',
 );
 
 /** Zazaki (Zazaki)
@@ -864,12 +867,13 @@ $messages['fi'] = array(
 	'antispoof-conflict-top' => 'Tunnus ”$1” on liian samankaltainen kuin {{PLURAL:$2|olemassa oleva tunnus|seuraavat $2 tunnusta}}:',
 	'antispoof-conflict-bottom' => 'Valitse toinen tunnus.',
 	'antispoof-name-illegal' => 'Tunnusta ”$1” ei sallita, koska $2. Hämäävien tai huijaustarkoitukseen sopivien tunnusten luonti on estetty. Valitse toinen tunnus.',
-	'antispoof-badtype' => 'se on virheellistä tietotyyppiä',
-	'antispoof-empty' => 'se on tyhjä',
+	'antispoof-badtype' => 'Virheellinen tietotyyppi',
+	'antispoof-empty' => 'Tyhjä merkkijono',
 	'antispoof-blacklisted' => 'Sisältää kielletyn merkin $1',
 	'antispoof-combining' => 'Alkaa yhdistävällä merkillä $1',
 	'antispoof-unassigned' => 'Sisältää määrittämättömiä merkkejä $1',
-	'antispoof-noletters' => 'se ei sisällä kirjaimia',
+	'antispoof-deprecated' => 'Sisältää kielletyn merkin $1',
+	'antispoof-noletters' => 'Ei sisällä mitään kirjaimia',
 	'antispoof-mixedscripts' => 'se sisältää yhteensopimattomia kirjoitusjärjestelmiä',
 	'antispoof-tooshort' => 'sen kanonisoitu muoto on liian lyhyt',
 	'antispoof-ignore' => 'Älä käytä hämäävien tunnusten tarkistusta',
@@ -1599,6 +1603,7 @@ $messages['lo'] = array(
 /** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Garas
+ * @author Homo
  * @author Ignas693
  * @author Perkunas
  */
@@ -1616,8 +1621,8 @@ $messages['lt'] = array(
 	'antispoof-noletters' => 'Nėra nei vienos raidės',
 	'antispoof-mixedscripts' => 'Turi nepalaikomų įvairių rašmenų',
 	'antispoof-tooshort' => 'Kanonizuotas vardas per trumpas',
-	'antispoof-ignore' => 'Nepaisyti spoofing patikrinimai',
-	'right-override-antispoof' => 'Nepaisyti spoofing patikrinimai',
+	'antispoof-ignore' => 'Nepaisyti „spoofing“ patikrinimų',
+	'right-override-antispoof' => 'Nepaisyti „spoofing“ patikrinimų',
 );
 
 /** Latvian (latviešu)
@@ -2292,13 +2297,25 @@ $messages['rue'] = array(
 
 /** Sanskrit (संस्कृतम्)
  * @author Shreekant Hegde
+ * @author Shubha
  * @author Vibhijain
  */
 $messages['sa'] = array(
+	'antispoof-desc' => 'मिश्रितलिपियुक्तानां, भ्रमजनकानां, समानयोजकनामयुक्तानां च प्रयोगाः अवरुद्ध्यन्ताम् ।',
+	'antispoof-conflict-top' => '" $1" इत्येतत् नाम {{PLURAL:$2|विद्यमानस्य| $2 }}: इत्येतस्य समानं वर्तते ।',
+	'antispoof-conflict-bottom' => 'कृपया भिन्नं नाम चिनोतु ।',
 	'antispoof-name-illegal' => 'अवैध नाम',
 	'antispoof-badtype' => 'स्वस्थाननिर्माणे विपन्नतायाः कारणम् ।',
 	'antispoof-empty' => 'स्वस्थाननिर्माणे विपन्नतायाः कारणम् ।',
-	'antispoof-blacklisted' => 'स्वस्थाननिर्माणे विपन्नतायाः हेतुः ।',
+	'antispoof-blacklisted' => '$1 अमान्यपदार्थयुक्तः अस्ति',
+	'antispoof-combining' => '$1 योजनसङ्केतेन आरभ्यते',
+	'antispoof-unassigned' => '$1 अनिर्दिष्टपदार्थयुक्तः अस्ति',
+	'antispoof-deprecated' => '$1 विरोधपदार्थयुक्तः अस्ति',
+	'antispoof-noletters' => 'अस्मिन् किमपि अक्षरं न विद्यते',
+	'antispoof-mixedscripts' => 'असिन्धुमिश्रलिपियुक्तः अस्ति',
+	'antispoof-tooshort' => 'अधिकृतं नाम परमलघु वर्तते',
+	'antispoof-ignore' => 'अनुकरणावलोकनानि निर्लक्ष्यताम्',
+	'right-override-antispoof' => 'अनुकरणावलोकनं परिष्क्रियताम्',
 );
 
 /** Sakha (саха тыла)
