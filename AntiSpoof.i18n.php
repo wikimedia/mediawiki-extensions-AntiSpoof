@@ -728,6 +728,7 @@ $messages['dtp'] = array(
 /** Greek (Ελληνικά)
  * @author Badseed
  * @author Dead3y3
+ * @author Glavkos
  * @author Lou
  * @author Omnipaedista
  * @author ZaDiak
@@ -739,9 +740,9 @@ $messages['el'] = array(
 	'antispoof-name-illegal' => 'Το όνομα "$1" δεν επιτρέπεται, για την αποτροπή συγκεχυμένων ή απατηλών ονομάτων χρηστών: $2. Παρακαλώ διαλέξτε ένα άλλο όνομα.',
 	'antispoof-badtype' => 'Εσφαλμένος τύπος δεδομένων',
 	'antispoof-empty' => 'Κενή συμβολοσειρά',
-	'antispoof-blacklisted' => 'Περιέχει χαρακτήρα στη «μαύρη λίστα»',
+	'antispoof-blacklisted' => 'Περιέχει ανεπιθύμητο χαρακτήρα $1',
 	'antispoof-combining' => 'Αρχίζει με τον ειδικό χαρακτήρα $1',
-	'antispoof-unassigned' => 'Περιέχει μη καταχωρημένο χαρακτήρα ή χαρακτήρα του οποίου η χρήση αποθαρρύνεται',
+	'antispoof-unassigned' => 'Περιέχει μη καταχωρημένο χαρακτήρα $1',
 	'antispoof-noletters' => 'Δεν περιέχει καθόλου γράμματα',
 	'antispoof-mixedscripts' => 'Περιέχει ανεμιγμένους ασύμβατους χαρακτήρες γραπτού κειμένου',
 	'antispoof-tooshort' => 'Κανονικοποιημένο όνομα πολύ μικρό',
