@@ -536,6 +536,7 @@ Molimo Vas da odaberete drugo ime.',
 );
 
 /** Catalan (català)
+ * @author Pginer
  * @author SMP
  */
 $messages['ca'] = array(
@@ -545,7 +546,7 @@ $messages['ca'] = array(
 	'antispoof-name-illegal' => "No està permès usar el nom «$1» per evitar confusions o falsificacions amb els noms d'usuari: $2. Si us plau, escolliu un altre nom d'usuari.",
 	'antispoof-badtype' => 'Tipus de dades incorrecte',
 	'antispoof-empty' => 'Cadena buida',
-	'antispoof-blacklisted' => 'Conté caràcters no permesos',
+	'antispoof-blacklisted' => 'Conté el caràcter no permés $1',
 	'antispoof-combining' => 'Comença amb un caràcter combinatori',
 	'antispoof-unassigned' => 'Conté caràcters invàlids o obsolets',
 	'antispoof-noletters' => 'No conté cap lletra',
@@ -1235,6 +1236,7 @@ Per favor selige un altere nomine.',
 /** Indonesian (Bahasa Indonesia)
  * @author Bennylin
  * @author IvanLanin
+ * @author Kenrick95
  * @author Meursault2004
  * @author Rex
  */
@@ -1245,9 +1247,10 @@ $messages['id'] = array(
 	'antispoof-name-illegal' => 'Nama "$1" tidak diijinkan untuk mencegah kebingungan atau penipuan nama: $2. Harap pilih nama lain.',
 	'antispoof-badtype' => 'Tipe data salah',
 	'antispoof-empty' => 'Data kosong',
-	'antispoof-blacklisted' => 'Mengandung karakter yang tak diizinkan',
-	'antispoof-combining' => 'Dimulai dengan tanda kombinasi',
-	'antispoof-unassigned' => 'Mengandung karakter yang tak diberikan atau tak digunakan lagi',
+	'antispoof-blacklisted' => 'Mengandung karakter yang tak diizinkan $1',
+	'antispoof-combining' => 'Dimulai dengan tanda kombinasi $1',
+	'antispoof-unassigned' => 'Mengandung karakter yang tak diberikan $1',
+	'antispoof-deprecated' => 'Mengandung karakter yang tak digunakan lagi $1',
 	'antispoof-noletters' => 'Tidak mengandung huruf apa pun',
 	'antispoof-mixedscripts' => 'Mengandung huruf campuran yang tak kompatibel',
 	'antispoof-tooshort' => 'Nama kanonikalisasi terlalu pendek',
@@ -1299,7 +1302,7 @@ $messages['is'] = array(
 	'antispoof-empty' => 'Tómur strengur',
 	'antispoof-blacklisted' => 'Inniheldur bannaða rittáknið $1',
 	'antispoof-combining' => 'Byrjar á samsetningartákninu $1',
-	'antispoof-unassigned' => 'Inniheldur óúthlutað eða úrelt tákn',
+	'antispoof-unassigned' => 'Inniheldur óúthlutaða eða úrelda táknið $1',
 	'antispoof-deprecated' => 'Inniheldur úrelda táknið $1',
 	'antispoof-noletters' => 'Inniheldur enga stafi',
 	'antispoof-mixedscripts' => 'Inniheldur ósamhæfðar skriftur',
@@ -1375,6 +1378,7 @@ $messages['jut'] = array(
 
 /** Javanese (Basa Jawa)
  * @author Meursault2004
+ * @author NoiX180
  * @author Pras
  */
 $messages['jv'] = array(
@@ -1385,9 +1389,9 @@ $messages['jv'] = array(
 Mangga pilihen jeneng liya.',
 	'antispoof-badtype' => 'Tipe data salah',
 	'antispoof-empty' => 'Data kosong',
-	'antispoof-blacklisted' => 'Ngandhut karakter sing ora diidinaké',
-	'antispoof-combining' => 'Diwiwiti karo tandha kombinasi',
-	'antispoof-unassigned' => 'Ngandhut karakter sing ora ditunjuk utawa ora dienggo manèh',
+	'antispoof-blacklisted' => 'Ngandung karakter $1 sing ora kalilan',
+	'antispoof-combining' => 'Wiwiti mawa tandha kombinasi $1',
+	'antispoof-unassigned' => 'Ngandung karakter $1 sing durung katetepaké',
 	'antispoof-noletters' => 'Ora ngandhut aksara babar belas',
 	'antispoof-mixedscripts' => 'Ngandhut aksara campuran sing ora kompatibel',
 	'antispoof-tooshort' => 'Jeneng kanonikalisasi kecendhaken',
@@ -1556,6 +1560,15 @@ $messages['ky'] = array(
  */
 $messages['la'] = array(
 	'antispoof-name-illegal' => 'Non licet uti nomine "$1" ad nominum usorum simulationem prohibendam: $2. Selige nomen alterum.',
+);
+
+/** Ladino (Ladino)
+ * @author Jewbask
+ */
+$messages['lad'] = array(
+	'antispoof-conflict-top' => 'El nombre "$1" es muy paresido a {{PLURAL:$2|el sigiente nombre de usador|los sigientes $2 nombres de usador}}:',
+	'antispoof-conflict-bottom' => 'Por hatir, eskoje otro nombre de usador',
+	'antispoof-empty' => 'Teksto vazio',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -1824,7 +1837,7 @@ $messages['mt'] = array(
 	'antispoof-conflict-bottom' => 'Jekk jogħġbok agħżel isem ieħor.',
 	'antispoof-name-illegal' => 'L-isem "$1" mhuwiex permess sabiex jiġi evitat kwalunkwe konfużjoni jew użu qarrieq: $2. Agħżel isem ieħor.',
 	'antispoof-empty' => 'Stringa vojta',
-	'antispoof-blacklisted' => 'Jinkludi karattri li mhumiex permessi',
+	'antispoof-blacklisted' => 'Jinkludi l-karattru li mhuwiex permess $1',
 	'antispoof-combining' => "Jibda b'karattru ta' kombinazzjoni",
 	'antispoof-noletters' => 'Ma jinkludix ittri',
 );
@@ -2005,6 +2018,7 @@ $messages['oc'] = array(
 );
 
 /** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
  * @author Psubhashish
  */
 $messages['or'] = array(
@@ -2015,9 +2029,10 @@ $messages['or'] = array(
 ଦୟାକରି ଆଉଗୋଟିଏ ନାଆଁ ବାଛନ୍ତୁ ।',
 	'antispoof-badtype' => 'ଖରାପ ତଥ୍ୟ',
 	'antispoof-empty' => 'ଖାଲି ଘର',
-	'antispoof-blacklisted' => 'ଏହା ଭିତରେ ବାରଣ କରାଯାଇଥିବା ନାଆଁ ଅଛି',
-	'antispoof-combining' => 'ମିଶାଇବା ଚିହ୍ନସହ ଆରମ୍ଭ ହୁଏ',
-	'antispoof-unassigned' => 'ଏଥିରେ ଏବେଯାଏଁ ଦିଆ ଯାଇନଥିବା ବା ବାରଣ କରାଯାଇଥିବା ନାଆଁ ଅଛି',
+	'antispoof-blacklisted' => 'ଏଥିରେ $1ନାମକ ବାରଣ କରାଯାଇଥିବା ଅକ୍ଷର ଅଛି',
+	'antispoof-combining' => '$1ମିଶାଇବା ଚିହ୍ନସହ ଆରମ୍ଭ ହୁଏ',
+	'antispoof-unassigned' => 'ଏଥିରେ ଏବେଯାଏଁ ଦିଆ ଯାଇନଥିବା ଅକ୍ଷର $1  ଅଛି',
+	'antispoof-deprecated' => 'ଏଥିରେ $1ନାମକ ଅଦରକାରୀ ଅକ୍ଷର ଅଛି',
 	'antispoof-noletters' => 'ଏଥିରେ କିଛି ବି ଲେଖା ନାହିଁ',
 	'antispoof-mixedscripts' => 'ଏଥିରେ ମିଶୁନଥିବା ଅଜଣା ଲେଖା ଅଛି',
 	'antispoof-tooshort' => 'ମୂଳ ନାଆଁଟି ଖୁବ ସାନ',
@@ -2528,7 +2543,7 @@ $messages['sr-ec'] = array(
 	'antispoof-empty' => 'Празна ниска',
 	'antispoof-blacklisted' => 'Садржи забрањени знак $1',
 	'antispoof-combining' => 'Почиње са саставним знаком $1',
-	'antispoof-unassigned' => 'Садржи непрепознатљиви знак $1',
+	'antispoof-unassigned' => 'Садржи недодељен знак $1',
 	'antispoof-deprecated' => 'Садржи застарели знак $1',
 	'antispoof-noletters' => 'Не садржи ниједно слово',
 	'antispoof-mixedscripts' => 'Садржи несагласна мешана писма',
