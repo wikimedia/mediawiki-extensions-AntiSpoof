@@ -159,6 +159,7 @@ $messages['ang'] = array(
 
 /** Arabic (العربية)
  * @author Abanima
+ * @author Avocato
  * @author DRIHEM
  * @author Meno25
  * @author Mido
@@ -1500,10 +1501,11 @@ $messages['kn'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'antispoof-desc' => '여러 문자 체계를 섞은 이름이나, 혼동될 수 있고 비슷한 이름의 계정 생성을 막음',
+	'antispoof-desc' => '여러 문자 체계를 섞은 이름이나, 혼동될 수 있고 비슷한 이름의 계정 만들기를 막음',
 	'antispoof-conflict-top' => '계정 이름 "$1"은 {{PLURAL:$2|다음 계정과|다음 계정 $2개와}} 너무 비슷합니다:',
 	'antispoof-conflict-bottom' => '다른 이름을 선택해주세요.',
-	'antispoof-name-illegal' => '‘$1’ 사용자 이름은 다음의 이유로 인해 가입이 금지되었습니다: $2. 다른 이름으로 가입해주세요.',
+	'antispoof-name-illegal' => '"$1" 사용자 이름은 다음의 이유로 인해 가입이 금지되었습니다: $2.
+다른 이름으로 가입해주세요.',
 	'antispoof-badtype' => '잘못된 자료형',
 	'antispoof-empty' => '빈 문자열',
 	'antispoof-blacklisted' => '사용이 금지된 $1 문자 포함',
@@ -2184,8 +2186,8 @@ $messages['pt'] = array(
 	'antispoof-empty' => 'Linha vazia',
 	'antispoof-blacklisted' => 'Contém caracter proibido $1',
 	'antispoof-combining' => 'Começa com carácter de combinação $1',
-	'antispoof-unassigned' => 'Contém caracter proibido $1',
-	'antispoof-deprecated' => 'Contém caracter proibido $1',
+	'antispoof-unassigned' => 'Contém o carácter proibido $1',
+	'antispoof-deprecated' => 'Contém o carácter proibido $1',
 	'antispoof-noletters' => 'Não inclui nenhuma letra',
 	'antispoof-mixedscripts' => 'Contém scripts de escrita incompatíveis mesclados',
 	'antispoof-tooshort' => 'Nome canónico demasiado curto',
