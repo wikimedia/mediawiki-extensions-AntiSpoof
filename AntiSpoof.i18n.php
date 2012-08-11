@@ -537,6 +537,7 @@ Molimo Vas da odaberete drugo ime.',
 );
 
 /** Catalan (català)
+ * @author Arnaugir
  * @author Pginer
  * @author SMP
  */
@@ -548,8 +549,9 @@ $messages['ca'] = array(
 	'antispoof-badtype' => 'Tipus de dades incorrecte',
 	'antispoof-empty' => 'Cadena buida',
 	'antispoof-blacklisted' => 'Conté el caràcter no permés $1',
-	'antispoof-combining' => 'Comença amb un caràcter combinatori',
-	'antispoof-unassigned' => 'Conté caràcters invàlids o obsolets',
+	'antispoof-combining' => 'Comença amb la marca de combinació $1',
+	'antispoof-unassigned' => 'Conté el caràcter no assignat $1',
+	'antispoof-deprecated' => 'Conté el caràcter obsolet $1',
 	'antispoof-noletters' => 'No conté cap lletra',
 	'antispoof-mixedscripts' => "Conté una mescla incompatible d'escriptures",
 	'antispoof-tooshort' => 'Nom canònic massa curt',
@@ -2508,6 +2510,7 @@ Prosimo, izberite drugo ime.',
 );
 
 /** Albanian (shqip)
+ * @author FatosMorina
  * @author Olsi
  */
 $messages['sq'] = array(
@@ -2520,6 +2523,7 @@ $messages['sq'] = array(
 	'antispoof-blacklisted' => 'Përmban karaktere të palejuara',
 	'antispoof-combining' => 'Fillon me shenjën e kombinuar',
 	'antispoof-unassigned' => 'Përmban karakter të papërcaktuar ose të palejuar',
+	'antispoof-deprecated' => 'Përmban karakter të palejueshëm $1',
 	'antispoof-noletters' => 'Nuk përmban asnjë shkronjë',
 	'antispoof-mixedscripts' => 'Përmban shkrime të përziera të papajtueshme',
 	'antispoof-tooshort' => 'Emri Canonicalized shumë i shkurtër',
@@ -2639,6 +2643,14 @@ $messages['sv'] = array(
 	'antispoof-tooshort' => 'Det kanoniserade namnet är för kort',
 	'antispoof-ignore' => 'Ignorera missbrukskontroll',
 	'right-override-antispoof' => 'Slipper kontroller mot förvirrande användarnamn',
+);
+
+/** Swahili (Kiswahili)
+ * @author Stephenwanjau
+ */
+$messages['sw'] = array(
+	'antispoof-badtype' => 'Aina mbaya ya takwimu',
+	'antispoof-noletters' => 'Haina herufi zozote',
 );
 
 /** Silesian (ślůnski)
