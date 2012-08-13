@@ -963,9 +963,10 @@ $messages['frp'] = array(
 Volyéd chouèsir un ôtro nom.',
 	'antispoof-badtype' => 'Crouyo tipo de balyês',
 	'antispoof-empty' => 'Chêna voueda',
-	'antispoof-blacklisted' => 'Contint un caractèro dèfendu.',
-	'antispoof-combining' => 'Comence avouéc una mârca combinâ.',
-	'antispoof-unassigned' => 'Contint un caractèro pas assignê ou ben dèpassâ.',
+	'antispoof-blacklisted' => 'Contint lo caractèro de la lista nêre $1',
+	'antispoof-combining' => 'Comence avouéc na mârca combinâye $1',
+	'antispoof-unassigned' => 'Contint lo caractèro pas assignê $1',
+	'antispoof-deprecated' => 'Contint lo caractèro dèfendu $1',
 	'antispoof-noletters' => 'Contint gins de lètra.',
 	'antispoof-mixedscripts' => 'Contint un mouél d’ècritures que vont pas avouéc.',
 	'antispoof-tooshort' => 'Nom canonico trop côrt',
@@ -1506,7 +1507,7 @@ $messages['kn'] = array(
  */
 $messages['ko'] = array(
 	'antispoof-desc' => '여러 문자 체계를 섞은 이름이나, 혼동될 수 있고 비슷한 이름의 계정 만들기를 막음',
-	'antispoof-conflict-top' => '계정 이름 "$1"은 {{PLURAL:$2|다음 계정과|다음 계정 $2개와}} 너무 비슷합니다:',
+	'antispoof-conflict-top' => '"$1" 사용자 이름은 {{PLURAL:$2|다음 계정과|다음 계정 $2개와}} 너무 비슷합니다:',
 	'antispoof-conflict-bottom' => '다른 이름을 선택해주세요.',
 	'antispoof-name-illegal' => '"$1" 사용자 이름은 다음의 이유로 인해 가입이 금지되었습니다: $2.
 다른 이름으로 가입해주세요.',
@@ -1520,7 +1521,7 @@ $messages['ko'] = array(
 	'antispoof-mixedscripts' => '여러 문자 체계가 섞여 있습니다.',
 	'antispoof-tooshort' => '고유 이름이 너무 짧습니다.',
 	'antispoof-ignore' => '안티스푸프 검사를 무시',
-	'right-override-antispoof' => '혼란을 줄 수 있는 계정 이름 금지(안티스푸프)를 무시',
+	'right-override-antispoof' => '혼란을 줄 수 있는 사용자 이름 금지(안티스푸프)를 무시',
 );
 
 /** Colognian (Ripoarisch)
@@ -1677,7 +1678,7 @@ $messages['lv'] = array(
 	'antispoof-conflict-bottom' => 'Lūdzu, izvēlieties citu faila nosaukumu.',
 	'antispoof-badtype' => 'Nederīgs datu tips',
 	'antispoof-empty' => 'Tukša virkne',
-	'antispoof-blacklisted' => 'Satur aizliegtu simbolu',
+	'antispoof-blacklisted' => 'Satur aizliegtu simbolu $1',
 	'antispoof-unassigned' => 'Satur nepiešķirtu vai novecojušu rakstzīmi',
 	'antispoof-noletters' => 'Nesatur nevienu burtu',
 	'antispoof-mixedscripts' => 'Satur nesavietojamas jauktas rakstu zīmes',
@@ -1842,10 +1843,16 @@ $messages['mt'] = array(
 	'antispoof-conflict-top' => 'L-isem "$1" huwa wisq simili {{PLURAL:$2|għall-kont eżistenti|għal $2 kontijiet segwenti}}:',
 	'antispoof-conflict-bottom' => 'Jekk jogħġbok agħżel isem ieħor.',
 	'antispoof-name-illegal' => 'L-isem "$1" mhuwiex permess sabiex jiġi evitat kwalunkwe konfużjoni jew użu qarrieq: $2. Agħżel isem ieħor.',
+	'antispoof-badtype' => "Tip ta' dejta ħażina",
 	'antispoof-empty' => 'Stringa vojta',
 	'antispoof-blacklisted' => 'Jinkludi l-karattru li mhuwiex permess $1',
-	'antispoof-combining' => "Jibda b'karattru ta' kombinazzjoni",
+	'antispoof-combining' => "Jibda bil-kombinazzjoni ta' karattri $1",
+	'antispoof-unassigned' => 'Jinkludi l-karattru mhux assenjat $1',
 	'antispoof-noletters' => 'Ma jinkludix ittri',
+	'antispoof-mixedscripts' => 'Jinkludi skripts imħallta li mhumiex kompatibbli',
+	'antispoof-tooshort' => 'L-isem fil-forma kanonika huwa wisq qasir',
+	'antispoof-ignore' => "Injora l-kontroll għall-''ispoofing''",
+	'right-override-antispoof' => "Jinjora l-kontrolli għall-''ispoofing''",
 );
 
 /** Erzya (эрзянь)
@@ -2547,6 +2554,7 @@ $messages['sr-ec'] = array(
 	'antispoof-conflict-bottom' => 'Изаберите друго име.',
 	'antispoof-name-illegal' => 'Име „$1“ није дозвољено да би се избегла збуњујућа или лажирана корисничка имена: $2.
 Изаберите друго име.',
+	'antispoof-bad-char' => '„$1“ ($2)',
 	'antispoof-badtype' => 'Погрешна врста података',
 	'antispoof-empty' => 'Празна ниска',
 	'antispoof-blacklisted' => 'Садржи забрањени знак $1',
