@@ -2530,9 +2530,9 @@ $messages['sq'] = array(
 	'antispoof-name-illegal' => 'Emri "$1" nuk është i lejuar për të shmangur emrat e ngatërrueshëm apo të rremë: $2.',
 	'antispoof-badtype' => 'Shtypje e keqe e të dhënave',
 	'antispoof-empty' => 'Fushë boshe',
-	'antispoof-blacklisted' => 'Përmban karaktere të palejuara',
-	'antispoof-combining' => 'Fillon me shenjën e kombinuar',
-	'antispoof-unassigned' => 'Përmban karakter të papërcaktuar ose të palejuar',
+	'antispoof-blacklisted' => 'Përmban karakter të palejuar $1',
+	'antispoof-combining' => 'Fillon me shenjën e kombinuar $1',
+	'antispoof-unassigned' => 'Përmban karakter të papërcaktuar $1',
 	'antispoof-deprecated' => 'Përmban karakter të palejueshëm $1',
 	'antispoof-noletters' => 'Nuk përmban asnjë shkronjë',
 	'antispoof-mixedscripts' => 'Përmban shkrime të përziera të papajtueshme',
@@ -2843,6 +2843,17 @@ $messages['uk'] = array(
 	'antispoof-tooshort' => "Канонічне ім'я надто коротке",
 	'antispoof-ignore' => 'Ігнорувати перевірки на схожі імена',
 	'right-override-antispoof' => 'Ігнорування перевірок на схожі імена',
+);
+
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'antispoof-conflict-bottom' => 'براہ مہربانی ایک اور نام کا انتخاب کریں ۔',
+	'antispoof-badtype' => 'برا اعداد و شمار کی قسم',
+	'antispoof-empty' => 'خالی تار',
+	'antispoof-noletters' => 'نہیں کسی بھی حروف پر مشتمل',
+	'antispoof-mixedscripts' => 'مطابقت مخلوط سکرپٹ پر مشتمل ہے',
 );
 
 /** vèneto (vèneto)
