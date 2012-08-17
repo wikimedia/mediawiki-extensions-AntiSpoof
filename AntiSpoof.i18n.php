@@ -1679,7 +1679,7 @@ $messages['lv'] = array(
 	'antispoof-badtype' => 'Nederīgs datu tips',
 	'antispoof-empty' => 'Tukša virkne',
 	'antispoof-blacklisted' => 'Satur aizliegtu simbolu $1',
-	'antispoof-unassigned' => 'Satur nepiešķirtu vai novecojušu rakstzīmi',
+	'antispoof-unassigned' => 'Satur nepiešķirtu rakstzīmi $1',
 	'antispoof-noletters' => 'Nesatur nevienu burtu',
 	'antispoof-mixedscripts' => 'Satur nesavietojamas jauktas rakstu zīmes',
 );
