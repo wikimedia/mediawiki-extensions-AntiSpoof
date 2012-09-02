@@ -13,11 +13,10 @@ if ( !$IP ) {
 
 require_once( "$IP/includes/AutoLoader.php" );
 require_once( "$IP/includes/normal/UtfNormalUtil.php" );
-require_once( dirname( __FILE__ ) . '/SpoofUser.php' );
-require_once( dirname( __FILE__ ) . '/AntiSpoof_body.php' );
+require_once( __DIR__ . '/SpoofUser.php' );
+require_once( __DIR__ . '/AntiSpoof_body.php' );
 
 class TestSpoof extends PHPUnit_Framework_TestCase {
-
 	public function providePositives() {
 		return array(
 			array( 'Laura Fiorucci', 'Låura Fiorucci' ),
