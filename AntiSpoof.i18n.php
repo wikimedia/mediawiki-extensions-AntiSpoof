@@ -2062,6 +2062,13 @@ $messages['os'] = array(
 	'antispoof-noletters' => 'Иу дамгъæ дæр нæй',
 );
 
+/** Punjabi (ਪੰਜਾਬੀ)
+ * @author TariButtar
+ */
+$messages['pa'] = array(
+	'antispoof-conflict-bottom' => 'ਮਿਹਰਬਾਨੀ ਕਰਕੇ ਹੋਰ ਨਾਮ ਚੁਣੋ।',
+);
+
 /** Pangasinan (Pangasinan) */
 $messages['pag'] = array(
 	'antispoof-empty' => 'String ya Andilugan',
