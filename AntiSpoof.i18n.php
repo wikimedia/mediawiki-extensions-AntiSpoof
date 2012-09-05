@@ -567,6 +567,13 @@ $messages['ce'] = array(
 	'antispoof-ignore' => 'Терго ма йе цхьатерра цlераш йуй хьажарна',
 );
 
+/** Sorani Kurdish (کوردی)
+ * @author Calak
+ */
+$messages['ckb'] = array(
+	'antispoof-ignore' => 'تاوتوێکردنی خەڵەتێنەکان  لەبەر چاو مەگرە',
+);
+
 /** Corsican (corsu) */
 $messages['co'] = array(
 	'antispoof-badtype' => 'Tipu gattivu di dati',
