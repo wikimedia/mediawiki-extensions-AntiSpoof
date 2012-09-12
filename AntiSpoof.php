@@ -29,7 +29,7 @@ $wgGroupPermissions['sysop']['override-antispoof'] = true;
 $wgGroupPermissions['bureaucrat']['override-antispoof'] = true;
 $wgAvailableRights[] = 'override-antispoof';
 
-$dir = dirname( __FILE__ );
+$dir = __DIR__;
 
 $wgExtensionMessagesFiles['AntiSpoof'] = "$dir/AntiSpoof.i18n.php";
 

@@ -108,6 +108,7 @@ class SpoofUser {
 
 	/**
 	 * Insert a batch of spoof normalization records into the database.
+	 * @param $dbw DatabaseBase
 	 * @param $items array of SpoofUser
 	 * @return bool
 	 */

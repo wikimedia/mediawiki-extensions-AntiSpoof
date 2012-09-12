@@ -1,7 +1,4 @@
 <?php
-if ( !defined( 'MEDIAWIKI' ) ) {
-	exit( 1 );
-}
 
 class AntiSpoofHooks {
 	/**
@@ -13,10 +10,10 @@ class AntiSpoofHooks {
 			global $wgExtNewTables, $wgDBtype;
 			$wgExtNewTables[] = array(
 				'spoofuser',
-				dirname( __FILE__ ) . '/sql/patch-antispoof.' . $wgDBtype . '.sql', true );
+				__DIR__ . '/sql/patch-antispoof.' . $wgDBtype . '.sql', true );
 		} else {
 			$updater->addExtensionUpdate( array( 'addTable', 'spoofuser',
-				dirname( __FILE__ ) . '/sql/patch-antispoof.' . $updater->getDB()->getType() . '.sql', true ) );
+				__DIR__ . '/sql/patch-antispoof.' . $updater->getDB()->getType() . '.sql', true ) );
 		}
 		return true;
 	}
@@ -54,12 +51,13 @@ class AntiSpoofHooks {
 				wfDebugLog( 'antispoof', "{$mode}CONFLICT new account '$name' [$normalized] spoofs " . implode( ',', $conflicts ) );
 				if ( $active ) {
 					$numConflicts = count( $conflicts );
-					$message = wfMsgExt( 'antispoof-conflict-top', array( 'parsemag' ), htmlspecialchars( $name ), $numConflicts );
+					$message = wfMessage( 'antispoof-conflict-top', $name )
+						->numParams( $numConflicts )->escaped();
 					$message .= '<ul>';
 					foreach ( $conflicts as $simUser ) {
-						$message .= '<li>' . wfMsg( 'antispoof-conflict-item', $simUser ) . '</li>';
+						$message .= '<li>' . wfMessage( 'antispoof-conflict-item', $simUser )->escaped() . '</li>';
 					}
-					$message .= '</ul>' . wfMsg( 'antispoof-conflict-bottom' );
+					$message .= '</ul>' . wfMessage( 'antispoof-conflict-bottom' )->escaped();
 					return false;
 				}
 			}
@@ -67,7 +65,7 @@ class AntiSpoofHooks {
 			$error = $spoof->getError();
 			wfDebugLog( 'antispoof', "{$mode}ILLEGAL new account '$name' $error" );
 			if ( $active ) {
-				$message = wfMsg( 'antispoof-name-illegal', $name, $error );
+				$message = wfMessage( 'antispoof-name-illegal', $name, $error )->text();
 				return false;
 			}
 		}

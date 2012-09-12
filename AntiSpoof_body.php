@@ -148,7 +148,7 @@ class AntiSpoof {
 	static function initEquivSet() {
 		if ( is_null( self::$equivset ) ) {
 			self::$equivset = unserialize( file_get_contents(
-				dirname( __FILE__ ) . '/equivset.ser' ) );
+				__DIR__ . '/equivset.ser' ) );
 		}
 	}
 
@@ -308,7 +308,7 @@ class AntiSpoof {
 
 	/*
 	 * Helper function for checkUnicodeString: Return an error on a bad character.
-	 * TODO: I would like to show Unicode character name, but it is not clear how to get it.
+	 * @todo I would like to show Unicode character name, but it is not clear how to get it.
 	 * @param $msgId -- string, message identifier.
 	 * @param $point -- number, codepoint of the bad character.
 	 * @return Formatted error message.
@@ -322,11 +322,11 @@ class AntiSpoof {
 		}
 		$code = sprintf( 'U+%04X', $point );
 		if ( preg_match( '/\A\p{C}\z/u', $symbol ) ) {
-			$char = wfMsg( 'antispoof-bad-char-non-printable', $code );
+			$char = wfMessage( 'antispoof-bad-char-non-printable', $code )->text();
 		} else {
-			$char = wfMsg( 'antispoof-bad-char', $symbol, $code );
+			$char = wfMessage( 'antispoof-bad-char', $symbol, $code )->text();
 		}
-		return array( "ERROR", wfMsg( $msgId, $char ) );
+		return array( "ERROR", wfMessage( $msgId, $char )->text() );
 	}
 
 	/**
@@ -337,11 +337,11 @@ class AntiSpoof {
 	public static function checkUnicodeString( $testName ) {
 		# Start with some sanity checking
 		if ( !is_string( $testName ) ) {
-			return array( "ERROR", wfMsg( 'antispoof-badtype' ) );
+			return array( "ERROR", wfMessage( 'antispoof-badtype' )->text() );
 		}
 
 		if ( strlen( $testName ) == 0 ) {
-			return array( "ERROR", wfMsg( 'antispoof-empty' ) );
+			return array( "ERROR", wfMessage( 'antispoof-empty' )->text() );
 		}
 
 		foreach ( self::stringToList( $testName ) as $char ) {
@@ -386,11 +386,11 @@ class AntiSpoof {
 						array( "SCRIPT_ASCII_PUNCTUATION", "SCRIPT_ASCII_DIGITS" ) );
 
 		if ( !$testScripts ) {
-			return array( "ERROR", wfMsg( 'antispoof-noletters' ) );
+			return array( "ERROR", wfMessage( 'antispoof-noletters' )->text() );
 		}
 
 		if ( count( $testScripts ) > 1 && !self::isAllowedScriptCombination( $testScripts ) ) {
-			return array( "ERROR", wfMsg( 'antispoof-mixedscripts' ) );
+			return array( "ERROR", wfMessage( 'antispoof-mixedscripts' )->text() );
 		}
 
 		# At this point, we should probably check for BiDi violations if they aren't
@@ -422,7 +422,7 @@ class AntiSpoof {
 		# BUG: TODO: implement this
 
 		if ( strlen( $testName ) < 1 ) {
-			return array( "ERROR", wfMsg( 'antispoof-tooshort' ) );
+			return array( "ERROR", wfMessage( 'antispoof-tooshort' )->text() );
 		}
 
 		# Don't ASCIIfy: we assume we are UTF-8 capable on output
