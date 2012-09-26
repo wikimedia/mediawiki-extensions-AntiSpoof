@@ -2583,7 +2583,7 @@ $messages['sr-ec'] = array(
 	'right-override-antispoof' => 'заобилажење провера за међусобно слична имена',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  * @author Rancher
  * @author Жељко Тодоровић
@@ -2594,11 +2594,13 @@ $messages['sr-el'] = array(
 	'antispoof-conflict-bottom' => 'Izaberite drugo ime.',
 	'antispoof-name-illegal' => 'Ime „$1“ nije dozvoljeno da bi se izbegla zbunjujuća ili lažirana korisnička imena: $2.
 Izaberite drugo ime.',
+	'antispoof-bad-char' => '„$1“ ($2)',
 	'antispoof-badtype' => 'Pogrešna vrsta podataka',
 	'antispoof-empty' => 'Prazna niska',
-	'antispoof-blacklisted' => 'Sadrži zabranjeni znak',
-	'antispoof-combining' => 'Počinje sa sastavnim znakom',
-	'antispoof-unassigned' => 'Sadrži nedodeljen ili zastareli znak',
+	'antispoof-blacklisted' => 'Sadrži zabranjeni znak $1',
+	'antispoof-combining' => 'Počinje sa sastavnim znakom $1',
+	'antispoof-unassigned' => 'Sadrži nedodeljen znak $1',
+	'antispoof-deprecated' => 'Sadrži zastareli znak $1',
 	'antispoof-noletters' => 'Ne sadrži nijedno slovo',
 	'antispoof-mixedscripts' => 'Sadrži nesaglasna mešana pisma',
 	'antispoof-tooshort' => 'Normalizovano ime je prekratko',
