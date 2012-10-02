@@ -388,7 +388,7 @@ $messages['be'] = array(
 	'right-override-antispoof' => 'ігнараванне праверак на падобныя назвы рахункаў',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -676,7 +676,14 @@ $messages['de'] = array(
 	'right-override-antispoof' => 'Die Benutzernamens-Ähnlichkeitsprüfung außer Kraft setzen',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** Swiss High German (Schweizer Hochdeutsch)
+ * @author Geitost
+ */
+$messages['de-ch'] = array(
+	'right-override-antispoof' => 'Die Benutzernamens-Ähnlichkeitsprüfung ausser Kraft setzen.',
+);
+
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Imre
  * @author Kghbln
  */
@@ -1437,7 +1444,7 @@ $messages['ka'] = array(
 	'right-override-antispoof' => 'მსგავსი სახელების შემოწმების უგულებელყოფა',
 );
 
-/** Kazakh (Arabic script) (‫قازاقشا (تٴوتە)‬) */
+/** Kazakh (Arabic script) (قازاقشا (تٴوتە)‏) */
 $messages['kk-arab'] = array(
 	'antispoof-name-illegal' => 'قاتىسۋشى اتى شاتاقتاۋىن نەمەسە قالجىنداۋىن بٶگەۋ ٷشٸن «$1» اتاۋى رۇقسات ەتٸلمەيدٸ: $2. باسقا اتاۋ تاڭداڭىز.',
 	'antispoof-badtype' => 'جارامسىز دەرەك تٷرٸ',
@@ -1450,7 +1457,7 @@ $messages['kk-arab'] = array(
 	'antispoof-tooshort' => 'ەرەجەلەنگەن اتاۋى تىم قىسقا',
 );
 
-/** Kazakh (Cyrillic script) (‪қазақша (кирил)‬) */
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎) */
 $messages['kk-cyrl'] = array(
 	'antispoof-name-illegal' => 'Қатысушы аты шатақтауын немесе қалжындауын бөгеу үшін «$1» атауы рұқсат етілмейді: $2. Басқа атау таңдаңыз.',
 	'antispoof-badtype' => 'Жарамсыз дерек түрі',
@@ -1463,7 +1470,7 @@ $messages['kk-cyrl'] = array(
 	'antispoof-tooshort' => 'Ережеленген атауы тым қысқа',
 );
 
-/** Kazakh (Latin script) (‪qazaqşa (latın)‬) */
+/** Kazakh (Latin script) (qazaqşa (latın)‎) */
 $messages['kk-latn'] = array(
 	'antispoof-name-illegal' => 'Qatıswşı atı şataqtawın nemese qaljındawın bögew üşin «$1» atawı ruqsat etilmeýdi: $2. Basqa ataw tañdañız.',
 	'antispoof-badtype' => 'Jaramsız derek türi',
@@ -1876,7 +1883,7 @@ $messages['nah'] = array(
 	'antispoof-badtype' => 'Ahcualli tlahcuilōliztli',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Dittaeva
  * @author Event
  */
@@ -1983,7 +1990,7 @@ Kies een andere naam.',
 	'right-override-antispoof' => 'Spoofcontroles negeren',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Dittaeva
  * @author Harald Khan
  * @author Njardarlogar
@@ -2555,7 +2562,7 @@ $messages['sq'] = array(
 	'right-override-antispoof' => 'Refuzoni kontrollet për emra të rremë',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Millosh
  * @author Rancher
  * @author Sasa Stefanovic
@@ -3008,7 +3015,7 @@ $messages['zea'] = array(
 	'antispoof-ignore' => 'Controle op geliekende gebrukersnaemen negeren',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Gzdavidwong
  * @author Hzy980512
  * @author Jimmy xu wrk
@@ -3035,7 +3042,7 @@ $messages['zh-hans'] = array(
 	'right-override-antispoof' => '无视欺诈检查',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Gzdavidwong
  * @author Liangent
  * @author Mark85296341
