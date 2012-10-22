@@ -44,6 +44,7 @@ $messages['qqq'] = array(
 	'antispoof-conflict-top' => 'Account creation error message because attempted username is too similar to existing username(s). Parameters:
 * $1 is the username that someone wanted to create
 * $2 are the usernames that already existed that triggered the error.',
+	'antispoof-conflict-item' => '{{notranslate}}',
 	'antispoof-conflict-bottom' => 'Suggestion for user that tried to create a user with a name that was not accepted.',
 	'antispoof-name-illegal' => 'Account creation error message because a user account creation rule was violated. Parameters:
 * $1 is the username that someone wanted to create
@@ -51,6 +52,8 @@ $messages['qqq'] = array(
 	'antispoof-bad-char' => 'It is not a complete message but a template for designator of a bad character, so localization can format it properly. Parameters:
 * $1 is the bad character itself.
 * $2 is the Unicode code point of bad character ("U+" followed by hex number).',
+	'antispoof-bad-char-non-printable' => 'The same as antispooof-bad-char, but for non-printable characters. Since non-printable characters do not have visual representation, template has only one parameter:
+* $1 is the Unicode code point of bad character ("U+" followed by hex number).',
 	'antispoof-badtype' => 'Reason for failed account creation.',
 	'antispoof-empty' => 'Reason for failed account creation.',
 	'antispoof-blacklisted' => 'Reason for failed account creation. Parameters:
@@ -80,8 +83,8 @@ $messages['aeb'] = array(
 من فضلك اختر اسم آخر.',
 	'antispoof-badtype' => 'نوع بيانات خاطئ',
 	'antispoof-empty' => 'سلسلة فارغة',
-	'antispoof-blacklisted' => 'يحتوي على حرف في القائمة السوداء',
-	'antispoof-combining' => 'يبدأ بعلامة مختلطة',
+	'antispoof-blacklisted' => 'يحتوي على حرف في القائمة السوداء', # Fuzzy
+	'antispoof-combining' => 'يبدأ بعلامة مختلطة', # Fuzzy
 	'antispoof-unassigned' => 'يحتوي على حرف غير مخصص أو غير مقبول',
 	'antispoof-noletters' => 'لا يحتوي على أية حروف',
 	'antispoof-mixedscripts' => 'يحتوي على سكريبتات غير متوافقة مختلطة',
@@ -121,9 +124,9 @@ $messages['aln'] = array(
 	'antispoof-name-illegal' => 'Emrin "$1" nuk është e lejuar për të parandaluar ose spoofed përdoruesve konfuze: $2. Ju lutem zgjidhni një tjetër.',
 	'antispoof-badtype' => 'Bad dhënat lloj',
 	'antispoof-empty' => 'string bosh',
-	'antispoof-blacklisted' => 'Përmban në listën e zezë karakter',
-	'antispoof-combining' => 'Fillon me shenjën e kombinuar',
-	'antispoof-unassigned' => 'Përmban unassigned ose deprecated karakter',
+	'antispoof-blacklisted' => 'Përmban në listën e zezë karakter', # Fuzzy
+	'antispoof-combining' => 'Fillon me shenjën e kombinuar', # Fuzzy
+	'antispoof-unassigned' => 'Përmban unassigned ose deprecated karakter', # Fuzzy
 	'antispoof-noletters' => 'Nuk përmban asnjë shkronja',
 	'antispoof-mixedscripts' => 'Përmban Scripts papajtueshëm të përziera',
 	'antispoof-tooshort' => 'Emri Canonicalized shumë i shkurtër',
@@ -141,9 +144,9 @@ $messages['an'] = array(
 	'antispoof-name-illegal' => 'No se premite rechistrar-se con o nombre "$1" ta privar confusions y suplantacions con os nombres d\'usuario: $2. Por favor, esliya una atro nombre.',
 	'antispoof-badtype' => 'Tipo de datos no conforme',
 	'antispoof-empty' => 'Cadena vueda',
-	'antispoof-blacklisted' => 'Contiene carácters no premititos',
-	'antispoof-combining' => 'Prencipia con un sinyal combinatorio',
-	'antispoof-unassigned' => 'Contiene carácters no conformes u obsoletos',
+	'antispoof-blacklisted' => 'Contiene carácters no premititos', # Fuzzy
+	'antispoof-combining' => 'Prencipia con un sinyal combinatorio', # Fuzzy
+	'antispoof-unassigned' => 'Contiene carácters no conformes u obsoletos', # Fuzzy
 	'antispoof-noletters' => 'No contiene garra letra',
 	'antispoof-mixedscripts' => 'Contiene un mezclallo incompatible de scripts',
 	'antispoof-tooshort' => 'Nombre canonico masiau curto',
@@ -207,9 +210,9 @@ $messages['arz'] = array(
 	'antispoof-name-illegal' => 'الاسم "$1"  مش مسموح علشان نمنع اللخبطة أوانتحال أسماء اليوزرز: $2. لو سمحت تختار اسم تانى.',
 	'antispoof-badtype' => 'نوع البيانات غلط',
 	'antispoof-empty' => 'سلسلة فاضية',
-	'antispoof-blacklisted' => 'بيحتوى على علامة من البلاك ليست',
-	'antispoof-combining' => 'بيبتدى بعلامة مختلطة',
-	'antispoof-unassigned' => 'بيحتوى على علامة مش مخصصة أو مش مقبولة',
+	'antispoof-blacklisted' => 'بيحتوى على علامة من البلاك ليست', # Fuzzy
+	'antispoof-combining' => 'بيبتدى بعلامة مختلطة', # Fuzzy
+	'antispoof-unassigned' => 'بيحتوى على علامة مش مخصصة أو مش مقبولة', # Fuzzy
 	'antispoof-noletters' => 'ما بيحتويش على اى حروف',
 	'antispoof-mixedscripts' => 'بيحتوى على سكريبتات مخلوطة مش متوافقة',
 	'antispoof-tooshort' => 'الاسم المستعمل قصير خالص',
@@ -285,7 +288,7 @@ $messages['az'] = array(
 	'antispoof-badtype' => 'Yanlış məlumat',
 	'antispoof-empty' => 'Boş sətir',
 	'antispoof-blacklisted' => 'Qadağan olunmuş simvol istifadə edilib: $1',
-	'antispoof-combining' => 'Birləşdirmə işarəsindən başlayır',
+	'antispoof-combining' => 'Birləşdirmə işarəsindən başlayır', # Fuzzy
 	'antispoof-unassigned' => 'Dəstəklənməyən simvol istifadə edilib: $1',
 	'antispoof-noletters' => 'Heç bir hərf yoxdur',
 	'antispoof-mixedscripts' => 'Qəbul edilməz yazı sistemi işlədilir',
@@ -327,9 +330,9 @@ $messages['bar'] = array(
 	'antispoof-name-illegal' => 'Da ausgsuachte Benutzernåm „$1“ is ned dalaabt. Grund: $2<br />Bittschee an åndern Benutzernåmen aussuachen.',
 	'antispoof-badtype' => 'Ungütiger Daatentyp',
 	'antispoof-empty' => 'Laars Föd',
-	'antispoof-blacklisted' => 'Es san ned dalaabte Zeichen enthoiden.',
-	'antispoof-combining' => "Kombinazionszeichen z' Beginn.",
-	'antispoof-unassigned' => 'Es san ned zuagordnate oder unerwynschte Zeichen enthoiden.',
+	'antispoof-blacklisted' => 'Es san ned dalaabte Zeichen enthoiden.', # Fuzzy
+	'antispoof-combining' => "Kombinazionszeichen z' Beginn.", # Fuzzy
+	'antispoof-unassigned' => 'Es san ned zuagordnate oder unerwynschte Zeichen enthoiden.', # Fuzzy
 	'antispoof-noletters' => 'Es san koane Buachstom enthoiden.',
 	'antispoof-mixedscripts' => 'Es san Zeichen voh unterschiadliche Schriftsysteme enthoiden.',
 	'antispoof-tooshort' => "Da kanonisiarde Nåm is z' kurz.",
@@ -346,9 +349,9 @@ $messages['bcc'] = array(
 لطفا یک دگه نامی انتخاب کنیت.',
 	'antispoof-badtype' => 'بدین نوع دیتا',
 	'antispoof-empty' => 'رشتگ حالیکین',
-	'antispoof-blacklisted' => 'شامل لیست سیاهی کاراکتر',
-	'antispoof-combining' => 'شروع بیت همراه گون علامت',
-	'antispoof-unassigned' => 'شامل نامشخص یا کدیمی کاراکتریء',
+	'antispoof-blacklisted' => 'شامل لیست سیاهی کاراکتر', # Fuzzy
+	'antispoof-combining' => 'شروع بیت همراه گون علامت', # Fuzzy
+	'antispoof-unassigned' => 'شامل نامشخص یا کدیمی کاراکتریء', # Fuzzy
 	'antispoof-noletters' => 'شامل هچ حرفی نهنت',
 	'antispoof-mixedscripts' => 'شامل نا سازین جمع اسکریپتانء',
 	'antispoof-tooshort' => 'استاندارد این نام باز هوردن',
@@ -361,9 +364,9 @@ $messages['bcc'] = array(
  */
 $messages['bcl'] = array(
 	'antispoof-name-illegal' => 'An parágamit na "$1" dai tinotogotan tangarig maibitaran an pagparibong o pag-arog sa "$2". Paki pilî tabî nin ibang pangaran.',
-	'antispoof-blacklisted' => 'Igwang blacklisted na karakter',
-	'antispoof-combining' => 'Nagpopoon sa nagsasalak na marka',
-	'antispoof-unassigned' => 'Igwang dai naka-assign o deprecated na karakter',
+	'antispoof-blacklisted' => 'Igwang blacklisted na karakter', # Fuzzy
+	'antispoof-combining' => 'Nagpopoon sa nagsasalak na marka', # Fuzzy
+	'antispoof-unassigned' => 'Igwang dai naka-assign o deprecated na karakter', # Fuzzy
 	'antispoof-noletters' => 'Mayong nakakaag na mga letra',
 	'antispoof-mixedscripts' => 'Igwang dai angay na mga halong script',
 );
@@ -378,9 +381,9 @@ $messages['be'] = array(
 	'antispoof-name-illegal' => 'Імя «$1» не дазволенае, каб прадухіліць блытаніну ці падробку імені ўдзельніка: $2. Калі ласка, абярыце іншае імя.',
 	'antispoof-badtype' => 'Няслушны тып звестак',
 	'antispoof-empty' => 'Пусты радок',
-	'antispoof-blacklisted' => 'Утрымлівае забаронены сімвал',
-	'antispoof-combining' => "Пачынаецца з аб'яднальнага знаку",
-	'antispoof-unassigned' => 'Утрымлівае нявызначаны ці састарэлы сімвал',
+	'antispoof-blacklisted' => 'Утрымлівае забаронены сімвал', # Fuzzy
+	'antispoof-combining' => "Пачынаецца з аб'яднальнага знаку", # Fuzzy
+	'antispoof-unassigned' => 'Утрымлівае нявызначаны ці састарэлы сімвал', # Fuzzy
 	'antispoof-noletters' => 'Не ўтрымлівае ніводнай літары',
 	'antispoof-mixedscripts' => 'Утрымлівае несумяшчальныя змяшаныя альфавіты',
 	'antispoof-tooshort' => 'Нармалізаванае імя занадта кароткае',
@@ -425,9 +428,9 @@ $messages['bg'] = array(
 	'antispoof-name-illegal' => 'Името „$1“ не е разрешено за защита от объркване или злоупотреби с имена: $2. Моля, изберете друго име!',
 	'antispoof-badtype' => 'Грешен тип на данните',
 	'antispoof-empty' => 'Празен низ',
-	'antispoof-blacklisted' => 'Съдържа забранен знак',
-	'antispoof-combining' => 'Започва със съставен знак',
-	'antispoof-unassigned' => 'Съдържа неопределен или нежелан знак',
+	'antispoof-blacklisted' => 'Съдържа забранен знак', # Fuzzy
+	'antispoof-combining' => 'Започва със съставен знак', # Fuzzy
+	'antispoof-unassigned' => 'Съдържа неопределен или нежелан знак', # Fuzzy
 	'antispoof-noletters' => 'Не съдържа букви',
 	'antispoof-mixedscripts' => 'Съдържа несъвместими писмени системи',
 	'antispoof-tooshort' => 'Каноничното име е твърде кратко',
@@ -459,9 +462,9 @@ $messages['bjn'] = array(
 Muhun pilih ngaran nang lain.',
 	'antispoof-badtype' => 'Janis data buruk',
 	'antispoof-empty' => 'String kusung',
-	'antispoof-blacklisted' => 'Mangandung karaktir daptar-hirang',
-	'antispoof-combining' => 'Bamula awan ciri kumbinasi',
-	'antispoof-unassigned' => 'Mangandung karaktir kada dibariakan atawa kada dipuruk pulang',
+	'antispoof-blacklisted' => 'Mangandung karaktir daptar-hirang', # Fuzzy
+	'antispoof-combining' => 'Bamula awan ciri kumbinasi', # Fuzzy
+	'antispoof-unassigned' => 'Mangandung karaktir kada dibariakan atawa kada dipuruk pulang', # Fuzzy
 	'antispoof-noletters' => 'Kada baisi sa-asa hurup gin',
 	'antispoof-mixedscripts' => 'Mangandung hurup-bacampur kada kumpatibal',
 	'antispoof-tooshort' => 'Ngaran kanunicalisa kahandapan',
@@ -527,9 +530,9 @@ $messages['bs'] = array(
 Molimo Vas da odaberete drugo ime.',
 	'antispoof-badtype' => 'Pogrešna vrsta podataka',
 	'antispoof-empty' => 'Prazan unos',
-	'antispoof-blacklisted' => 'Sadrži nepoželjni znak',
-	'antispoof-combining' => 'Počinje sa znakom kombinacije',
-	'antispoof-unassigned' => 'Sadrži nepoželjne ili neodobrene znakove',
+	'antispoof-blacklisted' => 'Sadrži nepoželjni znak', # Fuzzy
+	'antispoof-combining' => 'Počinje sa znakom kombinacije', # Fuzzy
+	'antispoof-unassigned' => 'Sadrži nepoželjne ili neodobrene znakove', # Fuzzy
 	'antispoof-noletters' => 'Ne sadrži ni jedno slovo',
 	'antispoof-mixedscripts' => 'Sadrži miješana slova koja nisu podržana',
 	'antispoof-tooshort' => 'Normalizirano ime je prekratko',
@@ -574,7 +577,8 @@ $messages['ckb'] = array(
 	'antispoof-ignore' => 'تاوتوێکردنی خەڵەتێنەکان  لەبەر چاو مەگرە',
 );
 
-/** Corsican (corsu) */
+/** Corsican (corsu)
+ */
 $messages['co'] = array(
 	'antispoof-badtype' => 'Tipu gattivu di dati',
 );
@@ -958,9 +962,9 @@ $messages['frc'] = array(
 	'antispoof-name-illegal' => 'Le nom "$1" est pas permit pour empêcher de confondre ou d\'user le nom "$2".  Choisissez donc un autre nom.',
 	'antispoof-badtype' => "Mauvaise qualité d'information",
 	'antispoof-empty' => 'Chaîne vide',
-	'antispoof-blacklisted' => 'Contient un caractère pas permit',
-	'antispoof-combining' => 'Commence avec une marque combinée',
-	'antispoof-unassigned' => 'Contient un caractère pas assigné ou désapprouvé',
+	'antispoof-blacklisted' => 'Contient un caractère pas permit', # Fuzzy
+	'antispoof-combining' => 'Commence avec une marque combinée', # Fuzzy
+	'antispoof-unassigned' => 'Contient un caractère pas assigné ou désapprouvé', # Fuzzy
 	'antispoof-noletters' => 'Contient pas de lettres',
 	'antispoof-mixedscripts' => "Contient plusieurs scripts qui s'adonnont pas",
 	'antispoof-tooshort' => 'Le nom choisi est trop court',
@@ -1072,9 +1076,9 @@ $messages['hak'] = array(
 	'antispoof-name-illegal' => 'Yung-fu-miàng "$1" yi-lâu Yung-fu-miàng "$2" fun-chha̍p, yí-kîn pûn kim-chṳ́ sṳ́-yung. Chhiáng sṳ́-yung khì-thâ ke yung-fu-miàng.',
 	'antispoof-badtype' => 'Chho-ngu ke chṳ̂-liau lui-hìn',
 	'antispoof-empty' => 'Khûng-pha̍k sṳ-chhon',
-	'antispoof-blacklisted' => 'Pâu-hàm chhai het-miàng-tân song ke sṳ-ngièn',
-	'antispoof-combining' => 'Chhut-yì kiet-ha̍p phêu-ki khôi-sṳ́',
-	'antispoof-unassigned' => 'Pâu-hàm mò chṳ́-thin fe̍t-he put-chai sṳ́-yung ke sṳ-ngièn',
+	'antispoof-blacklisted' => 'Pâu-hàm chhai het-miàng-tân song ke sṳ-ngièn', # Fuzzy
+	'antispoof-combining' => 'Chhut-yì kiet-ha̍p phêu-ki khôi-sṳ́', # Fuzzy
+	'antispoof-unassigned' => 'Pâu-hàm mò chṳ́-thin fe̍t-he put-chai sṳ́-yung ke sṳ-ngièn', # Fuzzy
 	'antispoof-noletters' => 'Mò pâu-hàm ngim-hò sṳ-ngièn',
 	'antispoof-mixedscripts' => 'Pâu-hàm mò siong-yùng fun-ha̍p ke chṳ́-lin',
 	'antispoof-tooshort' => 'Ha̍p-fù phêu-chún ke miàng-chhṳ̂n thai-tón',
@@ -1118,9 +1122,9 @@ $messages['hi'] = array(
 	'antispoof-name-illegal' => 'नाम " $1  faltu है:  $2 .!एन!कृपया kuch aur chuniye',
 	'antispoof-badtype' => 'गलत डाटा प्रकार',
 	'antispoof-empty' => 'खाली स्ट्रिंग',
-	'antispoof-blacklisted' => 'इसमें ब्लैकलिस्टेड कैरैक्टर हैं',
-	'antispoof-combining' => 'एकत्रिकरण चिन्हसे शुरु होता हैं',
-	'antispoof-unassigned' => 'इसमें गलत अक्षर हैं',
+	'antispoof-blacklisted' => 'इसमें ब्लैकलिस्टेड कैरैक्टर हैं', # Fuzzy
+	'antispoof-combining' => 'एकत्रिकरण चिन्हसे शुरु होता हैं', # Fuzzy
+	'antispoof-unassigned' => 'इसमें गलत अक्षर हैं', # Fuzzy
 	'antispoof-noletters' => 'इसमें कोईभी अक्षर नहीं हैं',
 	'antispoof-mixedscripts' => 'इसमें अन्य मिश्र लिपीयां हैं',
 	'antispoof-tooshort' => 'अधिकारयुक्त नाम बहुत छोटा हैं',
@@ -1158,9 +1162,9 @@ $messages['hr'] = array(
 	'antispoof-name-illegal' => 'Ime "$1" nije dozvoljeno da se spriječi moguća zamjena suradničkih nadimaka: $2. Molimo izaberite drugo ime/nadimak.',
 	'antispoof-badtype' => 'Krivi tip podataka',
 	'antispoof-empty' => 'Prazan string',
-	'antispoof-blacklisted' => 'Sadrži nedozvoljeno slovo (karakter)',
-	'antispoof-combining' => 'Počinje s znakom spajanja',
-	'antispoof-unassigned' => 'Sadrži nedodijeljen ili zastarjeli znak (karakter)',
+	'antispoof-blacklisted' => 'Sadrži nedozvoljeno slovo (karakter)', # Fuzzy
+	'antispoof-combining' => 'Počinje s znakom spajanja', # Fuzzy
+	'antispoof-unassigned' => 'Sadrži nedodijeljen ili zastarjeli znak (karakter)', # Fuzzy
 	'antispoof-noletters' => 'Prekratko',
 	'antispoof-mixedscripts' => 'Nekompatibilna pisma',
 	'antispoof-tooshort' => 'Prekratko ime',
@@ -1199,9 +1203,9 @@ $messages['ht'] = array(
 Tanpri chwazi yon lòt non.',
 	'antispoof-badtype' => 'Tip done sa yo move',
 	'antispoof-empty' => 'Chèn vid',
-	'antispoof-blacklisted' => 'Kontni yon karaktè ki pa otorize',
-	'antispoof-combining' => 'Ap koumanse avèk yon mak konbine',
-	'antispoof-unassigned' => 'Kontni yon karaktè ki pa asiyen oubyen ki pa itilize ankò',
+	'antispoof-blacklisted' => 'Kontni yon karaktè ki pa otorize', # Fuzzy
+	'antispoof-combining' => 'Ap koumanse avèk yon mak konbine', # Fuzzy
+	'antispoof-unassigned' => 'Kontni yon karaktè ki pa asiyen oubyen ki pa itilize ankò', # Fuzzy
 	'antispoof-noletters' => 'Pa kontni pyès lèt',
 	'antispoof-mixedscripts' => 'Kontni plizyè alfabèt ki pa konpatib',
 	'antispoof-tooshort' => 'Non kanonik an two kout',
@@ -1217,6 +1221,7 @@ $messages['hu'] = array(
 	'antispoof-conflict-bottom' => 'Kérlek válassz egy másik nevet.',
 	'antispoof-name-illegal' => 'A név, „$1”, nem engedélyezett a zavaró vagy becsapó felhasználónevek megelőzése érdekében: $2.',
 	'antispoof-bad-char' => '"$1" ($2)',
+	'antispoof-bad-char-non-printable' => '$1',
 	'antispoof-badtype' => 'Hibás adattípus',
 	'antispoof-empty' => 'Üres szöveg',
 	'antispoof-blacklisted' => 'Tiltott karaktert tartalmaz: $1',
@@ -1387,9 +1392,9 @@ $messages['jut'] = array(
 	'antispoof-name-illegal' => 'Navnet "$1" er ikke tilladt for at forhindre forvirrende eller efterlignede brugernavne: $2. Vælg venligst et andet navn.',
 	'antispoof-badtype' => 'Førkært datatype',
 	'antispoof-empty' => 'Tom streng',
-	'antispoof-blacklisted' => 'Indeholder sortlistet tegn',
-	'antispoof-combining' => 'Begynder ve et kombinationsbogstav',
-	'antispoof-unassigned' => 'Indeholder ubrugte bogstaver',
+	'antispoof-blacklisted' => 'Indeholder sortlistet tegn', # Fuzzy
+	'antispoof-combining' => 'Begynder ve et kombinationsbogstav', # Fuzzy
+	'antispoof-unassigned' => 'Indeholder ubrugte bogstaver', # Fuzzy
 	'antispoof-noletters' => "Indeholder ig'n bogstaver",
 	'antispoof-mixedscripts' => 'Indeholder inkompatible, blandede tegnsæt',
 	'antispoof-tooshort' => 'Kanonisaliset navn til kårt',
@@ -1444,40 +1449,43 @@ $messages['ka'] = array(
 	'right-override-antispoof' => 'მსგავსი სახელების შემოწმების უგულებელყოფა',
 );
 
-/** Kazakh (Arabic script) (قازاقشا (تٴوتە)‏) */
+/** Kazakh (Arabic script) (قازاقشا (تٴوتە)‏)
+ */
 $messages['kk-arab'] = array(
 	'antispoof-name-illegal' => 'قاتىسۋشى اتى شاتاقتاۋىن نەمەسە قالجىنداۋىن بٶگەۋ ٷشٸن «$1» اتاۋى رۇقسات ەتٸلمەيدٸ: $2. باسقا اتاۋ تاڭداڭىز.',
 	'antispoof-badtype' => 'جارامسىز دەرەك تٷرٸ',
 	'antispoof-empty' => 'بوس جول',
-	'antispoof-blacklisted' => 'قارا تٸزٸمگە كٸرگەن ٵرٸپ بار',
-	'antispoof-combining' => 'قۇرامدى بەلگٸمەن باستالعان',
-	'antispoof-unassigned' => 'تاعايىندالماعان نەمەسە تىيىلعان ٵرٸپ بار',
+	'antispoof-blacklisted' => 'قارا تٸزٸمگە كٸرگەن ٵرٸپ بار', # Fuzzy
+	'antispoof-combining' => 'قۇرامدى بەلگٸمەن باستالعان', # Fuzzy
+	'antispoof-unassigned' => 'تاعايىندالماعان نەمەسە تىيىلعان ٵرٸپ بار', # Fuzzy
 	'antispoof-noletters' => 'ٸشٸندە ەشبٸر ٵرٸپ جوق',
 	'antispoof-mixedscripts' => 'ٸشٸندە سيىسپايتىن ارالاس جازۋ تٷرلەرٸ بار',
 	'antispoof-tooshort' => 'ەرەجەلەنگەن اتاۋى تىم قىسقا',
 );
 
-/** Kazakh (Cyrillic script) (қазақша (кирил)‎) */
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
+ */
 $messages['kk-cyrl'] = array(
 	'antispoof-name-illegal' => 'Қатысушы аты шатақтауын немесе қалжындауын бөгеу үшін «$1» атауы рұқсат етілмейді: $2. Басқа атау таңдаңыз.',
 	'antispoof-badtype' => 'Жарамсыз дерек түрі',
 	'antispoof-empty' => 'Бос жол',
-	'antispoof-blacklisted' => 'Қара тізімге кірген әріп бар',
-	'antispoof-combining' => 'Құрамды белгімен басталған',
-	'antispoof-unassigned' => 'Тағайындалмаған немесе тыйылған әріп бар',
+	'antispoof-blacklisted' => 'Қара тізімге кірген әріп бар', # Fuzzy
+	'antispoof-combining' => 'Құрамды белгімен басталған', # Fuzzy
+	'antispoof-unassigned' => 'Тағайындалмаған немесе тыйылған әріп бар', # Fuzzy
 	'antispoof-noletters' => 'Ішінде ешбір әріп жоқ',
 	'antispoof-mixedscripts' => 'Ішінде сиыспайтын аралас жазу түрлері бар',
 	'antispoof-tooshort' => 'Ережеленген атауы тым қысқа',
 );
 
-/** Kazakh (Latin script) (qazaqşa (latın)‎) */
+/** Kazakh (Latin script) (qazaqşa (latın)‎)
+ */
 $messages['kk-latn'] = array(
 	'antispoof-name-illegal' => 'Qatıswşı atı şataqtawın nemese qaljındawın bögew üşin «$1» atawı ruqsat etilmeýdi: $2. Basqa ataw tañdañız.',
 	'antispoof-badtype' => 'Jaramsız derek türi',
 	'antispoof-empty' => 'Bos jol',
-	'antispoof-blacklisted' => 'Qara tizimge kirgen ärip bar',
-	'antispoof-combining' => 'Quramdı belgimen bastalğan',
-	'antispoof-unassigned' => 'Tağaýındalmağan nemese tıýılğan ärip bar',
+	'antispoof-blacklisted' => 'Qara tizimge kirgen ärip bar', # Fuzzy
+	'antispoof-combining' => 'Quramdı belgimen bastalğan', # Fuzzy
+	'antispoof-unassigned' => 'Tağaýındalmağan nemese tıýılğan ärip bar', # Fuzzy
 	'antispoof-noletters' => 'İşinde eşbir ärip joq',
 	'antispoof-mixedscripts' => 'İşinde sïıspaýtın aralas jazw türleri bar',
 	'antispoof-tooshort' => 'Erejelengen atawı tım qısqa',
@@ -1497,7 +1505,7 @@ $messages['km'] = array(
 សូមជ្រើសរើសអត្តនាមផ្សេងមួយទៀត។',
 	'antispoof-badtype' => 'ប្រភេទទិន្នន័យអន់',
 	'antispoof-empty' => 'ខ្សែអក្សរទទេ',
-	'antispoof-blacklisted' => 'មាន​អក្សរ​ដែល​ត្រូវបាន​ចាត់ចូលទៅក្នុងបញ្ជីខ្មៅ',
+	'antispoof-blacklisted' => 'មាន​អក្សរ​ដែល​ត្រូវបាន​ចាត់ចូលទៅក្នុងបញ្ជីខ្មៅ', # Fuzzy
 	'antispoof-noletters' => 'គ្មានផ្ទុក​អក្សរណាមួយ',
 );
 
@@ -1508,7 +1516,7 @@ $messages['km'] = array(
 $messages['kn'] = array(
 	'antispoof-conflict-bottom' => 'ಇನ್ನೊಂದು ಹೆಸರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.',
 	'antispoof-name-illegal' => '$ 2: ಹೆಸರು "$ 1" ಗೊಂದಲ ಅಥವಾ ವಂಚಕ ಬಳಕೆದಾರರ ಹೆಸರುಗಳನ್ನು ತಡೆಯಲು ಅವಕಾಶವಿಲ್ಲ.
-ಇನ್ನೊಂದು ಹೆಸರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.',
+ಇನ್ನೊಂದು ಹೆಸರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.', # Fuzzy
 	'antispoof-badtype' => 'ಕೆಟ್ಟ ಮಾಹಿತಿ ರೀತಿ',
 	'antispoof-empty' => 'ಖಾಲಿ ಅಕ್ಷರಪುಂಜ',
 );
@@ -1585,6 +1593,7 @@ $messages['la'] = array(
 
 /** Ladino (Ladino)
  * @author Jewbask
+ * @author Maor X
  */
 $messages['lad'] = array(
 	'antispoof-conflict-top' => 'El nombre "$1" es muy paresido a {{PLURAL:$2|el sigiente nombre de usador|los sigientes $2 nombres de usador}}:',
@@ -1645,13 +1654,14 @@ $messages['li'] = array(
 	'right-override-antispoof' => 'Spoofkonträöl negere',
 );
 
-/** Lao (ລາວ) */
+/** Lao (ລາວ)
+ */
 $messages['lo'] = array(
 	'antispoof-name-illegal' => 'ບໍ່ສາມາດອະນຸຍາດ ຊື່ "$1" ໄດ້ ເພີ່ມຫຼີກລ້ຽງ ການສັບສົນ ກັບ : $2. ກະລຸນາເລືອກຊື່ອື່ນ.',
 	'antispoof-badtype' => 'ປະເພດ ຂໍ້ມູນ ບໍ່ຖືກຕ້ອງ',
 	'antispoof-empty' => 'ບໍ່ມີໂຕໜັງສື',
-	'antispoof-blacklisted' => 'ມີໂຕໜັງສືໃນບັນຊີດຳ',
-	'antispoof-combining' => 'ເລີ່ມຕົ້ນດ້ວຍເຄື່ອງໝາຍປະສົມ',
+	'antispoof-blacklisted' => 'ມີໂຕໜັງສືໃນບັນຊີດຳ', # Fuzzy
+	'antispoof-combining' => 'ເລີ່ມຕົ້ນດ້ວຍເຄື່ອງໝາຍປະສົມ', # Fuzzy
 	'antispoof-noletters' => 'ບໍ່ມີໂຕໜັງສື',
 	'antispoof-mixedscripts' => 'ມີສະກຣິບປະປົນແບບບໍ່ຖືກຕ້ອງ',
 	'antispoof-tooshort' => 'ຊື່ຫຍໍ້ສັ້ນໂພດ',
@@ -1709,9 +1719,9 @@ $messages['map-bms'] = array(
 Monggo pilihen jeneng liyane baen.',
 	'antispoof-badtype' => 'Tipe data salah',
 	'antispoof-empty' => 'Data kosong',
-	'antispoof-blacklisted' => 'Ngandhut karakter sing ora olih dienggo',
-	'antispoof-combining' => 'Diwiwiti karo tandha kombinasi',
-	'antispoof-unassigned' => 'Ngandhut karakter sing ora ditunjuk utawa uwis ora dienggo maning',
+	'antispoof-blacklisted' => 'Ngandhut karakter sing ora olih dienggo', # Fuzzy
+	'antispoof-combining' => 'Diwiwiti karo tandha kombinasi', # Fuzzy
+	'antispoof-unassigned' => 'Ngandhut karakter sing ora ditunjuk utawa uwis ora dienggo maning', # Fuzzy
 	'antispoof-noletters' => 'Ora ngandhut aksara babar belas',
 	'antispoof-mixedscripts' => 'Ngandhut aksara campuran sing ora kompatibel',
 	'antispoof-tooshort' => 'Jeneng kanonikalisasi kecendhaken',
@@ -1728,8 +1738,8 @@ $messages['mg'] = array(
 Misafidia anarana hafa.',
 	'antispoof-badtype' => 'Tsy izy ny karazana fampahalalàna',
 	'antispoof-empty' => 'fitohitohizan-tsoratra (string) foàna',
-	'antispoof-blacklisted' => 'Misy tarehintsoratra voarara',
-	'antispoof-combining' => 'Manomboka amina mari-pitambatambarana (marque combinatoire)',
+	'antispoof-blacklisted' => 'Misy tarehintsoratra voarara', # Fuzzy
+	'antispoof-combining' => 'Manomboka amina mari-pitambatambarana (marque combinatoire)', # Fuzzy
 	'antispoof-noletters' => 'Tsy misy tarehintsoratra',
 	'antispoof-mixedscripts' => 'Misy endri-tsoratra maro samihafa tsy zaka',
 );
@@ -1790,9 +1800,9 @@ $messages['mn'] = array(
 Өөр нэр сонгоно уу.',
 	'antispoof-badtype' => 'Буруу өгөгдлийн төрөл',
 	'antispoof-empty' => 'Хоосон цуваа',
-	'antispoof-blacklisted' => 'Хар дансанд орсон тэмдэгт агуулагдаж байна',
-	'antispoof-combining' => 'Холбох тэмдэгээр эхлэж байна',
-	'antispoof-unassigned' => 'Тогтоогоогүй эсвэл хуучирсан тэмдэгт агуулагдаж байна',
+	'antispoof-blacklisted' => 'Хар дансанд орсон тэмдэгт агуулагдаж байна', # Fuzzy
+	'antispoof-combining' => 'Холбох тэмдэгээр эхлэж байна', # Fuzzy
+	'antispoof-unassigned' => 'Тогтоогоогүй эсвэл хуучирсан тэмдэгт агуулагдаж байна', # Fuzzy
 	'antispoof-noletters' => 'Ямар ч тэмдэгт агуулагдаагүй байна',
 	'antispoof-mixedscripts' => 'Хоорондоо нийцэхгүй холилдсон бичилтүүд агуулагдаж байна',
 	'antispoof-tooshort' => 'Албан ёсны нэр хэт богино байна',
@@ -1817,9 +1827,9 @@ $messages['mr'] = array(
 त्यामुळे कृपया वेगळे नाव वापरा.',
 	'antispoof-badtype' => 'वाईट विदा (डाटा) प्रकार',
 	'antispoof-empty' => 'रिकामा धागा',
-	'antispoof-blacklisted' => 'मान्यताप्राप्त यादीत नसलेले अक्षर',
-	'antispoof-combining' => 'एकत्रीकरण चिन्हाने सुरुवात केलेली आहे.',
-	'antispoof-unassigned' => 'यामध्ये चुकीची चिन्हे आहेत.',
+	'antispoof-blacklisted' => 'मान्यताप्राप्त यादीत नसलेले अक्षर', # Fuzzy
+	'antispoof-combining' => 'एकत्रीकरण चिन्हाने सुरुवात केलेली आहे.', # Fuzzy
+	'antispoof-unassigned' => 'यामध्ये चुकीची चिन्हे आहेत.', # Fuzzy
 	'antispoof-noletters' => 'कोणत्याही अक्षराचा समावेश नाही',
 	'antispoof-mixedscripts' => 'यामध्ये इतर मिश्र लिपी आहेत.',
 	'antispoof-tooshort' => 'अधिकारयुक्त नाव खूप छोटे आहे',
@@ -1915,9 +1925,9 @@ $messages['nds'] = array(
 	'antispoof-name-illegal' => 'De Brukernaam „$1“ is nich verlöövt. Grund: $2<br />Söök di en annern Brukernaam ut.',
 	'antispoof-badtype' => 'Leeg Datentyp',
 	'antispoof-empty' => 'Feld leddig',
-	'antispoof-blacklisted' => 'In’n Text sünd nich verlöövte Teken binnen',
-	'antispoof-combining' => 'Kombinatschoonsteken to Anfang',
-	'antispoof-unassigned' => 'In’n Text sünd nich toornte oder nich wünschte Teken binnen',
+	'antispoof-blacklisted' => 'In’n Text sünd nich verlöövte Teken binnen', # Fuzzy
+	'antispoof-combining' => 'Kombinatschoonsteken to Anfang', # Fuzzy
+	'antispoof-unassigned' => 'In’n Text sünd nich toornte oder nich wünschte Teken binnen', # Fuzzy
 	'antispoof-noletters' => 'Dor sünd kene Bookstaven in.',
 	'antispoof-mixedscripts' => 'in’n Text sünd Teken ut verschedene Schriftsystemen binnen',
 	'antispoof-tooshort' => 'De kanoniseerte Naam is to kort.',
@@ -1957,8 +1967,8 @@ $messages['ne'] = array(
 कृपया अर्को नाम छान्नुहोस्।',
 	'antispoof-badtype' => 'अमान्य आँकड़ा प्रकार',
 	'antispoof-empty' => 'रिक्त रज्जु (string)',
-	'antispoof-blacklisted' => 'कालो सूचीकृत चरित्र भएको',
-	'antispoof-combining' => 'संयोजन चिन्हबाट सुरु हुने',
+	'antispoof-blacklisted' => 'कालो सूचीकृत चरित्र भएको', # Fuzzy
+	'antispoof-combining' => 'संयोजन चिन्हबाट सुरु हुने', # Fuzzy
 	'antispoof-noletters' => 'कुनै अक्षरहरु नभएको',
 	'antispoof-mixedscripts' => 'असंगत मिश्रित लिपिहरु सम्मिलित गरिएको',
 	'antispoof-tooshort' => 'संक्षिप्त साह्रै छोटो नाम',
@@ -2003,7 +2013,7 @@ $messages['nn'] = array(
 Ver venleg og vel eit anna namn.',
 	'antispoof-badtype' => 'Ugyldig datatype',
 	'antispoof-empty' => 'Tom streng',
-	'antispoof-blacklisted' => 'Inneheld svartelista teikn',
+	'antispoof-blacklisted' => 'Inneheld svartelista teikn', # Fuzzy
 	'antispoof-combining' => 'Byrjar med kombinasjonsteiknet «$1»',
 	'antispoof-unassigned' => 'Inneheld ugyldig eller forelda teikn',
 	'antispoof-noletters' => 'Inneheld ingen bokstavar',
@@ -2020,7 +2030,7 @@ $messages['nso'] = array(
 	'antispoof-conflict-bottom' => 'Ka kgopelo, kgetha leina le lengwe.',
 	'antispoof-name-illegal' => 'Leina le "$1", ga la dumelwa go thibela go rarakana: $2. Ka kgopelo, kgetha leina le lengwe.',
 	'antispoof-badtype' => "Mohuta o mobe wa 'data'",
-	'antispoof-blacklisted' => 'E nale dihlaka tšeo di sego tša dumelwa',
+	'antispoof-blacklisted' => 'E nale dihlaka tšeo di sego tša dumelwa', # Fuzzy
 	'antispoof-noletters' => 'Ga e na dihlaka',
 );
 
@@ -2034,9 +2044,9 @@ $messages['oc'] = array(
 	'antispoof-name-illegal' => 'Lo nom « $1 » es pas autorizat per empachar de confondre o d’utilizar lo nom « $2 ». Causissètz un autre nom.',
 	'antispoof-badtype' => 'Marrit tipe de donadas',
 	'antispoof-empty' => 'Cadena voida',
-	'antispoof-blacklisted' => 'Conten un caractèr interdich',
-	'antispoof-combining' => 'Comença amb una marca combinada',
-	'antispoof-unassigned' => 'Conten un caractèr non assignat o obsolèt',
+	'antispoof-blacklisted' => 'Conten un caractèr interdich', # Fuzzy
+	'antispoof-combining' => 'Comença amb una marca combinada', # Fuzzy
+	'antispoof-unassigned' => 'Conten un caractèr non assignat o obsolèt', # Fuzzy
 	'antispoof-noletters' => 'Conten pas cap de letra',
 	'antispoof-mixedscripts' => 'Conten mantun escript incompatible',
 	'antispoof-tooshort' => 'Nom canonic tròp cort',
@@ -2083,10 +2093,11 @@ $messages['pa'] = array(
 	'antispoof-conflict-bottom' => 'ਮਿਹਰਬਾਨੀ ਕਰਕੇ ਹੋਰ ਨਾਮ ਚੁਣੋ।',
 );
 
-/** Pangasinan (Pangasinan) */
+/** Pangasinan (Pangasinan)
+ */
 $messages['pag'] = array(
 	'antispoof-empty' => 'String ya Andilugan',
-	'antispoof-blacklisted' => 'Walay laman ton bawal ya character',
+	'antispoof-blacklisted' => 'Walay laman ton bawal ya character', # Fuzzy
 	'antispoof-noletters' => 'Anggapoy laman ton letra',
 );
 
@@ -2097,8 +2108,8 @@ $messages['pam'] = array(
 	'antispoof-desc' => 'Sabatan na ing pamaglalang kareng account a maki misasamut a kulit (mixed-script), makabaligo ampong miwawangis a lagyungtalagamit (username).',
 	'antispoof-name-illegal' => 'E malyaring gamitan ing  "$1" uling bawal la reng username a mákabaligo o balamu piglocu: $2. Sana mamili kang aliwang lagyu.',
 	'antispoof-badtype' => 'Marauak a uri ning data',
-	'antispoof-blacklisted' => 'Makit kulit (character) yang mibawal',
-	'antispoof-combining' => 'Maki tatak yang mangabaldugang pamituglung',
+	'antispoof-blacklisted' => 'Makit kulit (character) yang mibawal', # Fuzzy
+	'antispoof-combining' => 'Maki tatak yang mangabaldugang pamituglung', # Fuzzy
 	'antispoof-noletters' => 'Ala yang letra',
 	'antispoof-mixedscripts' => 'Misamut la reng sulat a e malyaring piyabe',
 );
@@ -2183,9 +2194,9 @@ $messages['pnb'] = array(
 مہربانی کر کے کوئی دوجا ناں چنو۔',
 	'antispoof-badtype' => 'ڈیٹا ٹھیک نیں',
 	'antispoof-empty' => 'خالی سلسلہ',
-	'antispoof-blacklisted' => 'ایدے چ بنا اجازت والیاں چیزاں نیں۔',
-	'antispoof-combining' => 'جوڑن والے نشان نال ٹردا اے',
-	'antispoof-unassigned' => 'ایدے کج کیریکٹر پھیک نیں',
+	'antispoof-blacklisted' => 'ایدے چ بنا اجازت والیاں چیزاں نیں۔', # Fuzzy
+	'antispoof-combining' => 'جوڑن والے نشان نال ٹردا اے', # Fuzzy
+	'antispoof-unassigned' => 'ایدے کج کیریکٹر پھیک نیں', # Fuzzy
 	'antispoof-noletters' => 'ایدے چ کوئی اکرا نیں۔',
 	'antispoof-mixedscripts' => 'ایدے چ رلے ملے تے ناں ملن والے کیریکٹر نیں',
 	'antispoof-tooshort' => 'وڈے ناں بعوت نکے نیں',
@@ -2228,11 +2239,11 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
- * @author 555
  * @author Eduardo.mps
  * @author Helder.wiki
  * @author Heldergeovane
  * @author Rhaijin
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'antispoof-desc' => 'Impede a criação de contas com escrita mista, e nomes de utilizador confusos e semelhantes',
@@ -2402,9 +2413,9 @@ $messages['sah'] = array(
 	'antispoof-name-illegal' => '"$1" диэн аат $2 диэн ааттары кытта буккулубаттарын туһугар бобуллар. Онон атын ааты толкуйдаа.',
 	'antispoof-badtype' => 'Сыыһа тииптээх дааннайдар',
 	'antispoof-empty' => 'Кураанах устуруока',
-	'antispoof-blacklisted' => 'Бобуллубут бэлиэлэр бааллар',
-	'antispoof-combining' => 'Уларытар бэлиэттэн саҕаланар',
-	'antispoof-unassigned' => 'Биллибэт эбэтэр өйөммөт бэлиэлэр бааллар',
+	'antispoof-blacklisted' => 'Бобуллубут бэлиэлэр бааллар', # Fuzzy
+	'antispoof-combining' => 'Уларытар бэлиэттэн саҕаланар', # Fuzzy
+	'antispoof-unassigned' => 'Биллибэт эбэтэр өйөммөт бэлиэлэр бааллар', # Fuzzy
 	'antispoof-noletters' => 'Биир даҕаны буукуба суох',
 	'antispoof-mixedscripts' => 'Сөп түбэһиспэт атын-атын суруктарынан суруллубут',
 	'antispoof-tooshort' => 'Каноннаммыт тыл наһаа кылгас',
@@ -2416,13 +2427,13 @@ $messages['sah'] = array(
  * @author Salvator
  */
 $messages['sat'] = array(
-	'antispoof-conflict-top' => 'Ńtum do pray mit́gea{{PLURAL:$2| menaḱ akaunṭ| noakodo $2 akaunṭ kana}}:',
+	'antispoof-conflict-top' => 'Ńtum do pray mit́gea{{PLURAL:$2| menaḱ akaunṭ| noakodo $2 akaunṭ kana}}:', # Fuzzy
 	'antispoof-conflict-bottom' => 'Eṭaḱ ńutum sendraeme',
 	'antispoof-name-illegal' => 'Ńutum"$1" do baṅ hoyoḱa se okokomṛogea: $2. Dayakate eṭaḱ ńutum emam.',
 	'antispoof-badtype' => 'Bạṛić tottho lekan',
 	'antispoof-empty' => 'Eken ghuṛã',
 	'antispoof-blacklisted' => '$1 Begor samuṅ karekṭar menaḱa',
-	'antispoof-combining' => 'Joṛa cikhnạ khon ehobme',
+	'antispoof-combining' => 'Joṛa cikhnạ khon ehobme', # Fuzzy
 	'antispoof-unassigned' => 'Baṅ ganoḱ karekṭar menaḱa',
 	'antispoof-noletters' => 'Cet́ okhor hõ banuḱa',
 	'antispoof-mixedscripts' => 'Begor jutsoi olnolko menaḱa',
@@ -2442,9 +2453,9 @@ $messages['scn'] = array(
 	'antispoof-name-illegal' => 'Lu nomu utenti "$1" nun è pirmessu, pi scanzari confusioni o utilizzi non lèciti: $2. Scègghiri n\'àutru nomu.',
 	'antispoof-badtype' => 'Tipu di dati erratu',
 	'antispoof-empty' => 'Stringa vacanti',
-	'antispoof-blacklisted' => 'Usu di carattiri nun cunzintiti',
-	'antispoof-combining' => 'Primu carattiri di cumminazzioni',
-	'antispoof-unassigned' => 'Cunteni carattiri nun assignati o dipricati',
+	'antispoof-blacklisted' => 'Usu di carattiri nun cunzintiti', # Fuzzy
+	'antispoof-combining' => 'Primu carattiri di cumminazzioni', # Fuzzy
+	'antispoof-unassigned' => 'Cunteni carattiri nun assignati o dipricati', # Fuzzy
 	'antispoof-noletters' => 'Nun cunteni nudda lìttira',
 	'antispoof-mixedscripts' => 'Cumminazzioni di sistemi di scrittura nun cumpatibbili',
 	'antispoof-tooshort' => "Nomu 'n forma canonica troppu curtu",
@@ -2463,9 +2474,9 @@ $messages['sh'] = array(
 Molimo Vas da odaberete drugo ime.',
 	'antispoof-badtype' => 'Krivi tip podataka',
 	'antispoof-empty' => 'Prazan unos',
-	'antispoof-blacklisted' => 'Sadrži nedozvoljeno slovo (karakter)',
-	'antispoof-combining' => 'Počinje sa znakom kombinacije',
-	'antispoof-unassigned' => 'Sadrži nedodijeljen ili zastarjeli znak (karakter)',
+	'antispoof-blacklisted' => 'Sadrži nedozvoljeno slovo (karakter)', # Fuzzy
+	'antispoof-combining' => 'Počinje sa znakom kombinacije', # Fuzzy
+	'antispoof-unassigned' => 'Sadrži nedodijeljen ili zastarjeli znak (karakter)', # Fuzzy
 	'antispoof-noletters' => 'Ne sadrži ni jedno slovo',
 	'antispoof-mixedscripts' => 'Sadrži neusklađena miješana pisma.',
 	'antispoof-tooshort' => 'Normalizirano ime je prekratko',
@@ -2625,9 +2636,9 @@ $messages['stq'] = array(
 	'antispoof-name-illegal' => 'Die wonskede Benutsernoome „$1“ is nit ferlööwed. Gruund: $2<br />Wääl n uur Benutsernoome.',
 	'antispoof-badtype' => 'Ungultigen Doatentyp',
 	'antispoof-empty' => 'Loos Fäild',
-	'antispoof-blacklisted' => 'Änthaalt nit tousteene Teekene.',
-	'antispoof-combining' => 'Kombinationsteeken toun Ounfang.',
-	'antispoof-unassigned' => 'Änthaalt nit tou-oardnede of nit wonskede Teekene.',
+	'antispoof-blacklisted' => 'Änthaalt nit tousteene Teekene.', # Fuzzy
+	'antispoof-combining' => 'Kombinationsteeken toun Ounfang.', # Fuzzy
+	'antispoof-unassigned' => 'Änthaalt nit tou-oardnede of nit wonskede Teekene.', # Fuzzy
 	'antispoof-noletters' => 'Änthaalt neen Bouksteeuwe.',
 	'antispoof-mixedscripts' => 'Änthaalt Teekene fon uunglieke Skriftsysteme.',
 	'antispoof-tooshort' => 'Die kanonisierde Noome is tou kuut.',
@@ -2646,9 +2657,9 @@ $messages['su'] = array(
 	'antispoof-name-illegal' => 'Landihan "$1" teu diwenangkeun ngarah teu pahili jeung landihan: $2. Mangga pilih landihan séjén.',
 	'antispoof-badtype' => 'Tipeu datana awon',
 	'antispoof-empty' => 'String kosong',
-	'antispoof-blacklisted' => 'Ngandung karakter nu dicaram',
-	'antispoof-combining' => 'Dimimitian ku tanda gabungan',
-	'antispoof-unassigned' => 'Ngandung karakter nu teu dipaké ayawa teu didaptar',
+	'antispoof-blacklisted' => 'Ngandung karakter nu dicaram', # Fuzzy
+	'antispoof-combining' => 'Dimimitian ku tanda gabungan', # Fuzzy
+	'antispoof-unassigned' => 'Ngandung karakter nu teu dipaké ayawa teu didaptar', # Fuzzy
 	'antispoof-noletters' => 'Kosong',
 	'antispoof-mixedscripts' => 'Ngandung tulisan campuran nu teu kompatibel',
 	'antispoof-tooshort' => 'Landihan kanonikna pondok teuing',
@@ -2733,8 +2744,8 @@ $messages['te'] = array(
 	'antispoof-badtype' => 'తప్పుడు డాటా రకం',
 	'antispoof-empty' => 'ఖాళీ వాక్యం',
 	'antispoof-blacklisted' => '$1 అనే నిషేదిత అక్షరాన్ని కలిగి ఉంది',
-	'antispoof-combining' => 'సంయుత గుర్తుతో మొదలయ్యింది',
-	'antispoof-unassigned' => 'ఇంతవరకూ ఆపాదించబడని లేదా ఉపయోగంలోంచి తీసేయాలనుకుంటున్న అక్షరం కలిగి ఉంది',
+	'antispoof-combining' => 'సంయుత గుర్తుతో మొదలయ్యింది', # Fuzzy
+	'antispoof-unassigned' => 'ఇంతవరకూ ఆపాదించబడని లేదా ఉపయోగంలోంచి తీసేయాలనుకుంటున్న అక్షరం కలిగి ఉంది', # Fuzzy
 	'antispoof-noletters' => 'ఎటువంటి అక్షరాలూ లేవు',
 	'antispoof-mixedscripts' => 'అసంగత మిశ్రమ లిపులు ఉన్నాయి',
 	'antispoof-tooshort' => 'విహితమైన పేరు మరీ చిన్నగా ఉంది',
@@ -2749,9 +2760,9 @@ $messages['tg-cyrl'] = array(
 	'antispoof-name-illegal' => 'Номи "$1" ба далели ҷилавгирӣ аз номҳои корбарии сардардкунанда ё масхара миҷоз нест: $2. Лутфан номи дигареро интихоб кунед.',
 	'antispoof-badtype' => 'Навъи додаи номуносиб',
 	'antispoof-empty' => 'Риштаи холӣ',
-	'antispoof-blacklisted' => 'Аломатҳои дар феҳристи сиёҳ қарордоштаро дар бар мегирад',
-	'antispoof-combining' => 'Бо аломати ҷамъ шурӯъ мешавад.',
-	'antispoof-unassigned' => 'Аломати таъйиннашуда ё номуносиб аст',
+	'antispoof-blacklisted' => 'Аломатҳои дар феҳристи сиёҳ қарордоштаро дар бар мегирад', # Fuzzy
+	'antispoof-combining' => 'Бо аломати ҷамъ шурӯъ мешавад.', # Fuzzy
+	'antispoof-unassigned' => 'Аломати таъйиннашуда ё номуносиб аст', # Fuzzy
 	'antispoof-noletters' => 'Ягон ҳарфҳо надорад',
 	'antispoof-mixedscripts' => 'Скриптҳои омехтаи носозгарро дар бар мегирад',
 	'antispoof-tooshort' => 'Номи мӯътариф хеле кӯтоҳ аст',
@@ -2765,9 +2776,9 @@ $messages['tg-latn'] = array(
 	'antispoof-name-illegal' => 'Nomi "$1" ba daleli çilavgirī az nomhoi korbariji sardardkunanda jo masxara miçoz nest: $2. Lutfan nomi digarero intixob kuned.',
 	'antispoof-badtype' => "Nav'i dodai nomunosib",
 	'antispoof-empty' => 'Riştai xolī',
-	'antispoof-blacklisted' => 'Alomathoi dar fehristi sijoh qarordoştaro dar bar megirad',
-	'antispoof-combining' => "Bo alomati çam' şurū' meşavad.",
-	'antispoof-unassigned' => "Alomati ta'jinnaşuda jo nomunosib ast",
+	'antispoof-blacklisted' => 'Alomathoi dar fehristi sijoh qarordoştaro dar bar megirad', # Fuzzy
+	'antispoof-combining' => "Bo alomati çam' şurū' meşavad.", # Fuzzy
+	'antispoof-unassigned' => "Alomati ta'jinnaşuda jo nomunosib ast", # Fuzzy
 	'antispoof-noletters' => 'Jagon harfho nadorad',
 	'antispoof-mixedscripts' => 'Skripthoi omextai nosozgarro dar bar megirad',
 	'antispoof-tooshort' => "Nomi mū'tarif xele kūtoh ast",
@@ -2783,9 +2794,9 @@ $messages['tk'] = array(
 	'antispoof-name-illegal' => 'Ulanyjy atlarynyň  garjaşmagynyň ýa-da bulaşdyrylmagynyň öňüni almak "$1" adyna rugsat berilmeýär: $2. Başga bir ulanyjy adyny saýlaň.',
 	'antispoof-badtype' => 'Näsaz maglumat tipi',
 	'antispoof-empty' => 'Boş setir',
-	'antispoof-blacklisted' => 'Gara sanawa goşulan simwoly öz içine alýar',
-	'antispoof-combining' => 'Birleşdiriş belligi bilen başlaýar',
-	'antispoof-unassigned' => 'Bellenilmedik ýa-da tassyklanmadyk simwoly öz içine alýar',
+	'antispoof-blacklisted' => 'Gara sanawa goşulan simwoly öz içine alýar', # Fuzzy
+	'antispoof-combining' => 'Birleşdiriş belligi bilen başlaýar', # Fuzzy
+	'antispoof-unassigned' => 'Bellenilmedik ýa-da tassyklanmadyk simwoly öz içine alýar', # Fuzzy
 	'antispoof-noletters' => 'Hiç hili harpy ýok',
 	'antispoof-mixedscripts' => 'Laýyk däl garjaşyk şriftleri öz içine alýar',
 	'antispoof-tooshort' => 'Kadalaşdyrylan at örän gysga',
@@ -2835,9 +2846,9 @@ $messages['tr'] = array(
 	'antispoof-name-illegal' => '$2 hesabıyla karışmaması için "$1" ismine izin verilmemektedir. Lütfen başka bir kullanıcı adı seçiniz.',
 	'antispoof-badtype' => 'Bozuk veri tipi',
 	'antispoof-empty' => 'Boş dizi',
-	'antispoof-blacklisted' => 'Karalisteye alınmış karakter içerir.',
-	'antispoof-combining' => 'Kaynaştırma işaretiyle başlıyor',
-	'antispoof-unassigned' => 'Atanmamış ya da onaylanmamış karakter içeriyor',
+	'antispoof-blacklisted' => 'Karalisteye alınmış karakter içerir.', # Fuzzy
+	'antispoof-combining' => 'Kaynaştırma işaretiyle başlıyor', # Fuzzy
+	'antispoof-unassigned' => 'Atanmamış ya da onaylanmamış karakter içeriyor', # Fuzzy
 	'antispoof-noletters' => 'Hiç harf içermez',
 	'antispoof-mixedscripts' => 'Uyumsuz karışık betikler içeriyor',
 	'antispoof-tooshort' => 'Standartlaştırılmış isim çok kısa',
@@ -2890,9 +2901,9 @@ $messages['vec'] = array(
 Siegli n\'altro nome, par piaser.',
 	'antispoof-badtype' => 'Tipo de dati mìa giusto.',
 	'antispoof-empty' => 'Stringa voda',
-	'antispoof-blacklisted' => 'Contien carateri mìa consentìi',
-	'antispoof-combining' => 'Scuminsia con un caratere de conbinazion',
-	'antispoof-unassigned' => 'Contien carateri non assegnà o deprecà',
+	'antispoof-blacklisted' => 'Contien carateri mìa consentìi', # Fuzzy
+	'antispoof-combining' => 'Scuminsia con un caratere de conbinazion', # Fuzzy
+	'antispoof-unassigned' => 'Contien carateri non assegnà o deprecà', # Fuzzy
 	'antispoof-noletters' => 'No ghe xe letere',
 	'antispoof-mixedscripts' => 'Conbinazion de sistemi de scritura mìa conpatibili',
 	'antispoof-tooshort' => 'Nome in forma canonica massa curto',
@@ -2938,14 +2949,14 @@ $messages['vi'] = array(
  */
 $messages['vo'] = array(
 	'antispoof-desc' => 'Blokön jafi kalas labü gebananems kofudik, tu sümiks u labü lafabs distik',
-	'antispoof-conflict-top' => 'Nem: "$1" binon tu sümik äs {{PLURAL:$1|nem kala ya dabinöla|nems kalas ya dabinölas}}:',
+	'antispoof-conflict-top' => 'Nem: "$1" binon tu sümik äs {{PLURAL:$1|nem kala ya dabinöla|nems kalas ya dabinölas}}:', # Fuzzy
 	'antispoof-conflict-bottom' => 'Välolös nemi votik.',
 	'antispoof-name-illegal' => 'Nem: „$1“ no padälon, ad vitön gebananemis kofudik u smilöfikis: $2. Välolös, begö! nemi votik.',
 	'antispoof-badtype' => 'Nünasot badik',
 	'antispoof-empty' => 'Vödem vagik',
-	'antispoof-blacklisted' => 'Keninükon malatis no pedälölis.',
-	'antispoof-combining' => 'Primon me malat kobüköl',
-	'antispoof-unassigned' => 'Keninükon malatis no lonöfölis u vorädikis',
+	'antispoof-blacklisted' => 'Keninükon malatis no pedälölis.', # Fuzzy
+	'antispoof-combining' => 'Primon me malat kobüköl', # Fuzzy
+	'antispoof-unassigned' => 'Keninükon malatis no lonöfölis u vorädikis', # Fuzzy
 	'antispoof-noletters' => 'No ninädon tonatis alseimik',
 	'antispoof-mixedscripts' => 'Keninükon migi penamasitas no balabikas',
 	'antispoof-tooshort' => 'Nem valemik tu brefik',
@@ -2981,15 +2992,16 @@ $messages['yo'] = array(
 	'antispoof-noletters' => 'Kò ní lẹ́tà kankan nínú',
 );
 
-/** Cantonese (粵語) */
+/** Cantonese (粵語)
+ */
 $messages['yue'] = array(
 	'antispoof-desc' => '封鎖一啲對於有混合程序、混淆同埋相似嘅用戶名嘅開戶口動作',
 	'antispoof-name-illegal' => '呢個名"$1"唔畀用，以預防撈亂或者冒充："$2"。請揀過個名。',
 	'antispoof-badtype' => '錯誤嘅資料類型',
 	'antispoof-empty' => '空白字串',
-	'antispoof-blacklisted' => '有列響黑名單度嘅字元',
-	'antispoof-combining' => '以結合標記開始',
-	'antispoof-unassigned' => '包含未指定或者唔再用嘅字元',
+	'antispoof-blacklisted' => '有列響黑名單度嘅字元', # Fuzzy
+	'antispoof-combining' => '以結合標記開始', # Fuzzy
+	'antispoof-unassigned' => '包含未指定或者唔再用嘅字元', # Fuzzy
 	'antispoof-noletters' => '唔包含任何字元',
 	'antispoof-mixedscripts' => '包含唔相容嘅混合碼',
 	'antispoof-tooshort' => '正規化嘅名太短',
@@ -3006,9 +3018,9 @@ $messages['zea'] = array(
 	'antispoof-name-illegal' => 'De naem "$1" is nie toehestaen om verwarrieng of gefinheerde gebrukersnaemen te voorkomm\'n: $2. Kies asjeblieft een aore naem.',
 	'antispoof-badtype' => 'Verkeêrd datatype',
 	'antispoof-empty' => 'Lehe strieng',
-	'antispoof-blacklisted' => "Bevat verbood'n karakter",
-	'antispoof-combining' => 'Behun mie een hecombineerd merkteêken',
-	'antispoof-unassigned' => 'Bevat nie toehewezen of verouwerd karakter',
+	'antispoof-blacklisted' => "Bevat verbood'n karakter", # Fuzzy
+	'antispoof-combining' => 'Behun mie een hecombineerd merkteêken', # Fuzzy
+	'antispoof-unassigned' => 'Bevat nie toehewezen of verouwerd karakter', # Fuzzy
 	'antispoof-noletters' => 'Bevat hin letters',
 	'antispoof-mixedscripts' => 'Bevat nie compatibele schriffen',
 	'antispoof-tooshort' => 'Afekorte naem te kort',
@@ -3078,4 +3090,3 @@ $messages['zh-hk'] = array(
 	'antispoof-combining' => '以結合標記開始',
 	'antispoof-noletters' => '沒有包含任何字母',
 );
-
