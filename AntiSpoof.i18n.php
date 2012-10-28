@@ -1221,7 +1221,6 @@ $messages['hu'] = array(
 	'antispoof-conflict-bottom' => 'Kérlek válassz egy másik nevet.',
 	'antispoof-name-illegal' => 'A név, „$1”, nem engedélyezett a zavaró vagy becsapó felhasználónevek megelőzése érdekében: $2.',
 	'antispoof-bad-char' => '"$1" ($2)',
-	'antispoof-bad-char-non-printable' => '$1',
 	'antispoof-badtype' => 'Hibás adattípus',
 	'antispoof-empty' => 'Üres szöveg',
 	'antispoof-blacklisted' => 'Tiltott karaktert tartalmaz: $1',
