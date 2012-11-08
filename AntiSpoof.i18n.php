@@ -1448,6 +1448,14 @@ $messages['ka'] = array(
 	'right-override-antispoof' => 'მსგავსი სახელების შემოწმების უგულებელყოფა',
 );
 
+/** Khowar (کھوار)
+ * @author Rachitrali
+ */
+$messages['khw'] = array(
+	'antispoof-badtype' => 'شوم اعداد و شمارو قسم',
+	'antispoof-empty' => 'خالی تار',
+);
+
 /** Kazakh (Arabic script) (قازاقشا (تٴوتە)‏)
  */
 $messages['kk-arab'] = array(
@@ -2855,6 +2863,13 @@ $messages['tr'] = array(
 	'right-override-antispoof' => 'Aldatıcı kontrolleri gerçersiz kıl',
 );
 
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'antispoof-bad-char' => '"$1" ($2)',
+);
+
 /** Ukrainian (українська)
  * @author A1
  * @author AS
@@ -2977,6 +2992,7 @@ $messages['yi'] = array(
 	'antispoof-unassigned' => 'כולל א נישט געניצטער אדער אלטלעכער צייכן',
 	'antispoof-deprecated' => 'אנטהאלט פארעלטערטן כאראקטער $1',
 	'antispoof-noletters' => 'אַנטהאַלט ניט קײַן בוכשטאַבן.',
+	'antispoof-tooshort' => 'נאמען צו קורץ',
 );
 
 /** Yoruba (Yorùbá)
