@@ -297,6 +297,13 @@ $messages['az'] = array(
 	'right-override-antispoof' => 'Oxşar adlar yoxlanmasına məhəl qoymamaq',
 );
 
+/** تورکجه (تورکجه)
+ * @author E THP
+ */
+$messages['azb'] = array(
+	'antispoof-empty' => 'بوش سطیر',
+);
+
 /** Bashkir (башҡортса)
  * @author Assele
  * @author Haqmar
