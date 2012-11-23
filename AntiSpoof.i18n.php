@@ -301,7 +301,9 @@ $messages['az'] = array(
  * @author E THP
  */
 $messages['azb'] = array(
+	'antispoof-badtype' => 'یانلیش بیلگی',
 	'antispoof-empty' => 'بوش سطیر',
+	'antispoof-blacklisted' => 'قاداغان اولونموش سیموول ایستیفاده ائدیلیب: $1',
 );
 
 /** Bashkir (башҡортса)
