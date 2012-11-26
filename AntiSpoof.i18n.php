@@ -298,12 +298,25 @@ $messages['az'] = array(
 );
 
 /** تورکجه (تورکجه)
+ * @author Amir a57
  * @author E THP
  */
 $messages['azb'] = array(
+	'antispoof-desc' => 'دیگر حساب‌لارلا قاریشمامامق اوچون فرق‌لی یازی سیستئمین‌دن عبارت اولان سیموول‌لارلا یارادیلمیش حساب‌لارین آچیلماسی قاداغان‌دیر',
+	'antispoof-conflict-top' => '«$1» آدی {{پلورال:$2|$2 مؤوجود هئساب|$2 مؤوجود هئساب|$2 مؤوجود حسابا}} چوخ بنزییر:', # Fuzzy
+	'antispoof-conflict-bottom' => 'زحمت اولماسا باشقا آد سئچین.',
+	'antispoof-name-illegal' => '$2 هئسابییلا قاریشماماسی اوچون "$1" آدینا ایجازه وئریلمیر. زحمت اولماسا باشقا ایستیفاده‌چی آدینی سئچین.',
 	'antispoof-badtype' => 'یانلیش بیلگی',
 	'antispoof-empty' => 'بوش سطیر',
 	'antispoof-blacklisted' => 'قاداغان اولونموش سیموول ایستیفاده ائدیلیب: $1',
+	'antispoof-combining' => 'بیرلشدیرمه ایشاره‌سین‌دن باشلاییر', # Fuzzy
+	'antispoof-unassigned' => 'دستکلنمه‌ین سیموول ایستیفاده ائدیلیب: $1',
+	'antispoof-deprecated' => 'پیس یازی لارا شامل اولور', # Fuzzy
+	'antispoof-noletters' => 'هئچ بیر هرف یوخ‌دور',
+	'antispoof-mixedscripts' => 'قبول ائدیلمز یازی سیستئمی ایشلدیلیر',
+	'antispoof-tooshort' => 'نورماللاشدیریلمیش آد چوخ قیسا‌دیر',
+	'antispoof-ignore' => 'اوخشار آدلار یوخلانماسینا محل قویماماق',
+	'right-override-antispoof' => 'اوخشار آدلار یوخلانماسینا محل قویماماق',
 );
 
 /** Bashkir (башҡортса)
@@ -429,6 +442,7 @@ $messages['be-tarask'] = array(
  * @author Borislav
  * @author DCLXVI
  * @author Spiritia
+ * @author Stanqo
  */
 $messages['bg'] = array(
 	'antispoof-desc' => 'Блокиране на създаването на сметки, изписани с различни писмени системи, объркващи или подобни на други потребителски имена',
@@ -440,9 +454,12 @@ $messages['bg'] = array(
 	'antispoof-blacklisted' => 'Съдържа забранен знак', # Fuzzy
 	'antispoof-combining' => 'Започва със съставен знак', # Fuzzy
 	'antispoof-unassigned' => 'Съдържа неопределен или нежелан знак', # Fuzzy
+	'antispoof-deprecated' => 'Съдържа неприемлив знак $1',
 	'antispoof-noletters' => 'Не съдържа букви',
 	'antispoof-mixedscripts' => 'Съдържа несъвместими писмени системи',
 	'antispoof-tooshort' => 'Каноничното име е твърде кратко',
+	'antispoof-ignore' => 'Игнорирай проверката на подобни имена',
+	'right-override-antispoof' => 'Игнориране проверката на подобни имена',
 );
 
 /** Bihari (भोजपुरी)
