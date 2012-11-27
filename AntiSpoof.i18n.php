@@ -3079,7 +3079,7 @@ $messages['zea'] = array(
  * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
-	'antispoof-desc' => '禁止创建用户名使用混合文字、容易混淆或与已存在用户名过于相似的帐户',
+	'antispoof-desc' => '禁止使用混合文字、容易混淆或与已存在用户名过于相似的用户名创建帐户',
 	'antispoof-conflict-top' => '用户名“$1”与{{PLURAL:$2|这个已存在的账户|下列$2个账户}}过于相似：',
 	'antispoof-conflict-bottom' => '请选择其他名称。',
 	'antispoof-name-illegal' => '为了防止混淆或欺诈性使用用户名“$2”，用户名“$1”已被禁止使用。请使用其他用户名。',
@@ -3105,10 +3105,10 @@ $messages['zh-hans'] = array(
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
-	'antispoof-desc' => '封鎖以含有程式碼或是容易混淆、與已存在使用者相似的名稱建立使用者',
+	'antispoof-desc' => '禁止使用混合文字、容易混淆或與已存在用戶名過於相似的用戶名創建帳戶',
 	'antispoof-conflict-top' => '名稱「$1」與{{PLURAL:$2|以下用戶|以下$2個用戶}}太相似：',
 	'antispoof-conflict-bottom' => '請選擇其他名稱。',
-	'antispoof-name-illegal' => '使用者名稱"$1"容易與"$2"混淆，已被禁止使用。請使用其他使用者名稱。',
+	'antispoof-name-illegal' => '使用者名稱「$1」容易與「$2」混淆，已被禁止使用。請使用其他使用者名稱。',
 	'antispoof-badtype' => '錯誤的數據類型',
 	'antispoof-empty' => '空白字串',
 	'antispoof-blacklisted' => '包含已列入黑名單的字元$1',
