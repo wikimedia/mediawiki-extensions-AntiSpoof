@@ -454,12 +454,12 @@ $messages['bg'] = array(
 	'antispoof-blacklisted' => 'Съдържа забранен знак', # Fuzzy
 	'antispoof-combining' => 'Започва със съставен знак', # Fuzzy
 	'antispoof-unassigned' => 'Съдържа неопределен или нежелан знак', # Fuzzy
-	'antispoof-deprecated' => 'Съдържа неприемлив знак $1',
+	'antispoof-deprecated' => 'Съдържа неприемливия символ $1',
 	'antispoof-noletters' => 'Не съдържа букви',
 	'antispoof-mixedscripts' => 'Съдържа несъвместими писмени системи',
 	'antispoof-tooshort' => 'Каноничното име е твърде кратко',
-	'antispoof-ignore' => 'Игнорирай проверката на подобни имена',
-	'right-override-antispoof' => 'Игнориране проверката на подобни имена',
+	'antispoof-ignore' => ' Игнорирай проверката на подобни имена', # Fuzzy
+	'right-override-antispoof' => ' Игнориране проверката на подобни имена', # Fuzzy
 );
 
 /** Bihari (भोजपुरी)
