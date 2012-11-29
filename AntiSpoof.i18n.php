@@ -297,7 +297,7 @@ $messages['az'] = array(
 	'right-override-antispoof' => 'Oxşar adlar yoxlanmasına məhəl qoymamaq',
 );
 
-/** تورکجه (تورکجه)
+/** South Azerbaijani (تورکجه)
  * @author Amir a57
  * @author E THP
  */
