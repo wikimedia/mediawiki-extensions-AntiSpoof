@@ -300,10 +300,11 @@ $messages['az'] = array(
 /** South Azerbaijani (تورکجه)
  * @author Amir a57
  * @author E THP
+ * @author Mousa
  */
 $messages['azb'] = array(
 	'antispoof-desc' => 'دیگر حساب‌لارلا قاریشمامامق اوچون فرق‌لی یازی سیستئمین‌دن عبارت اولان سیموول‌لارلا یارادیلمیش حساب‌لارین آچیلماسی قاداغان‌دیر',
-	'antispoof-conflict-top' => '«$1»آدی{{PLURAL:$2|$2 مؤوجود حئساب|$2  مؤوجود حئساب|$2 مؤوجود حسابا}} چوخ بنزییر:', # Fuzzy
+	'antispoof-conflict-top' => '«$1» آدی، اؤنجه‌دن اولان {{PLURAL:$2|بو حسابا|بو $2 حسابلارا}} چوخ بنزه‌ییر:',
 	'antispoof-conflict-bottom' => 'زحمت اولماسا باشقا آد سئچین.',
 	'antispoof-name-illegal' => '$2 هئسابییلا قاریشماماسی اوچون "$1" آدینا ایجازه وئریلمیر. زحمت اولماسا باشقا ایستیفاده‌چی آدینی سئچین.',
 	'antispoof-badtype' => 'یانلیش بیلگی',
@@ -1602,6 +1603,7 @@ $messages['ksh'] = array(
 
 /** Kirghiz (Кыргызча)
  * @author Chorobek
+ * @author Growingup
  */
 $messages['ky'] = array(
 	'antispoof-conflict-bottom' => 'Башка ат тандап алыңыз',
@@ -1613,8 +1615,8 @@ $messages['ky'] = array(
 	'antispoof-noletters' => 'Бир дагы тамга жок',
 	'antispoof-mixedscripts' => 'Ар башка тилдеги тамгалар колдонулган',
 	'antispoof-tooshort' => 'Өтө кыска ат',
-	'antispoof-ignore' => 'Аттардын окшоштугун  текшербе',
-	'right-override-antispoof' => 'Аттардын окшотугун текшерүүнү четке как',
+	'antispoof-ignore' => 'Аттардын окшоштугун текшербөө',
+	'right-override-antispoof' => 'Окшош аттардын текшерүүлөрүнө көңүл салбоо',
 );
 
 /** Latin (Latina)
