@@ -2899,6 +2899,17 @@ $messages['tzm'] = array(
 	'antispoof-bad-char' => '"$1" ($2)',
 );
 
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Arlin
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'antispoof-conflict-bottom' => 'باشقا ئىسىم تاللاڭ.',
+	'antispoof-badtype' => 'خاتا سانلىق مەلۇمات تىپى',
+	'antispoof-empty' => 'قۇرۇق تىزىقى',
+	'antispoof-blacklisted' => 'قارا تىزىملىكتىكى ھەرپ $1 نى ئۆز ئىچىگە ئالغان',
+);
+
 /** Ukrainian (українська)
  * @author A1
  * @author AS
