@@ -2908,6 +2908,10 @@ $messages['ug-arab'] = array(
 	'antispoof-badtype' => 'خاتا سانلىق مەلۇمات تىپى',
 	'antispoof-empty' => 'قۇرۇق تىزىقى',
 	'antispoof-blacklisted' => 'قارا تىزىملىكتىكى ھەرپ $1 نى ئۆز ئىچىگە ئالغان',
+	'antispoof-combining' => 'بىرلەشكەن بەلگىدىن باشلانغان $1',
+	'antispoof-unassigned' => 'بەلگىلەنگەنمۇ خاراكتېر ئۆز ئىچىگە ئالغان $1',
+	'antispoof-deprecated' => ' زىددىيەتلىشىدىغان خاراكتېر ئۆز ئىچىگە ئالغان $1',
+	'antispoof-noletters' => 'ھېچقانداق ھەرپنى ئۆز ئىچىگە ئالمىغان.',
 );
 
 /** Ukrainian (українська)
