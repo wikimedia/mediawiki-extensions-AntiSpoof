@@ -2048,9 +2048,10 @@ $messages['nn'] = array(
 Ver venleg og vel eit anna namn.',
 	'antispoof-badtype' => 'Ugyldig datatype',
 	'antispoof-empty' => 'Tom streng',
-	'antispoof-blacklisted' => 'Inneheld svartelista teikn', # Fuzzy
+	'antispoof-blacklisted' => 'Inneheld det svartelista teiknet $1',
 	'antispoof-combining' => 'Byrjar med kombinasjonsteiknet «$1»',
 	'antispoof-unassigned' => 'Inneheld ugyldig eller forelda teikn',
+	'antispoof-deprecated' => 'Inneheld det eldre teiknet $1',
 	'antispoof-noletters' => 'Inneheld ingen bokstavar',
 	'antispoof-mixedscripts' => 'Inneheld blanding av ikkje-kompatible skriftsystem',
 	'antispoof-tooshort' => 'Namnet er for kort',
