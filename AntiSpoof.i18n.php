@@ -1754,9 +1754,10 @@ $messages['map-bms'] = array(
 Monggo pilihen jeneng liyane baen.',
 	'antispoof-badtype' => 'Tipe data salah',
 	'antispoof-empty' => 'Data kosong',
-	'antispoof-blacklisted' => 'Ngandhut karakter sing ora olih dienggo', # Fuzzy
-	'antispoof-combining' => 'Diwiwiti karo tandha kombinasi', # Fuzzy
-	'antispoof-unassigned' => 'Ngandhut karakter sing ora ditunjuk utawa uwis ora dienggo maning', # Fuzzy
+	'antispoof-blacklisted' => 'Ngandhut karakter sing ora olih dienggo yakuwe $1',
+	'antispoof-combining' => 'Diwiwiti karo tandha kombinasi $1',
+	'antispoof-unassigned' => 'Ngandhut karakter sing ora dienggo yakuwe $1',
+	'antispoof-deprecated' => 'Ngandhut karakter sing wis ora dinggo maning yakuwe $1',
 	'antispoof-noletters' => 'Ora ngandhut aksara babar belas',
 	'antispoof-mixedscripts' => 'Ngandhut aksara campuran sing ora kompatibel',
 	'antispoof-tooshort' => 'Jeneng kanonikalisasi kecendhaken',
