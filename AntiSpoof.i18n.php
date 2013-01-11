@@ -2874,6 +2874,7 @@ $messages['to'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Incelemeelemani
  * @author Joseph
  * @author Srhat
  */
@@ -2884,9 +2885,9 @@ $messages['tr'] = array(
 	'antispoof-name-illegal' => '$2 hesabıyla karışmaması için "$1" ismine izin verilmemektedir. Lütfen başka bir kullanıcı adı seçiniz.',
 	'antispoof-badtype' => 'Bozuk veri tipi',
 	'antispoof-empty' => 'Boş dizi',
-	'antispoof-blacklisted' => 'Karalisteye alınmış karakter içerir.', # Fuzzy
-	'antispoof-combining' => 'Kaynaştırma işaretiyle başlıyor', # Fuzzy
-	'antispoof-unassigned' => 'Atanmamış ya da onaylanmamış karakter içeriyor', # Fuzzy
+	'antispoof-blacklisted' => '$1 Kara listeye karakteri içeriyor',
+	'antispoof-combining' => '$1 Kaynaştırma işaretiyle başlıyor',
+	'antispoof-unassigned' => '$1 Atanmamış ya da onaylanmamış karakter içeriyor',
 	'antispoof-noletters' => 'Hiç harf içermez',
 	'antispoof-mixedscripts' => 'Uyumsuz karışık betikler içeriyor',
 	'antispoof-tooshort' => 'Standartlaştırılmış isim çok kısa',
