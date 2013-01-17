@@ -2964,6 +2964,7 @@ $messages['ur'] = array(
 
 /** vèneto (vèneto)
  * @author Candalua
+ * @author GatoSelvadego
  */
 $messages['vec'] = array(
 	'antispoof-desc' => 'Inpedisse la creazion de account con carateri missià, nomi utente che genera confusion o che se someja massa tra de lori.',
@@ -2973,9 +2974,10 @@ $messages['vec'] = array(
 Siegli n\'altro nome, par piaser.',
 	'antispoof-badtype' => 'Tipo de dati mìa giusto.',
 	'antispoof-empty' => 'Stringa voda',
-	'antispoof-blacklisted' => 'Contien carateri mìa consentìi', # Fuzzy
-	'antispoof-combining' => 'Scuminsia con un caratere de conbinazion', # Fuzzy
-	'antispoof-unassigned' => 'Contien carateri non assegnà o deprecà', # Fuzzy
+	'antispoof-blacklisted' => 'Contien el caratere mìa consentio $1',
+	'antispoof-combining' => 'Scuminsia có ła conbinasion de carateri $1',
+	'antispoof-unassigned' => 'Contien el caratere nó asegnà $1',
+	'antispoof-deprecated' => 'Contien el caratere deprecà $1',
 	'antispoof-noletters' => 'No ghe xe letere',
 	'antispoof-mixedscripts' => 'Conbinazion de sistemi de scritura mìa conpatibili',
 	'antispoof-tooshort' => 'Nome in forma canonica massa curto',
