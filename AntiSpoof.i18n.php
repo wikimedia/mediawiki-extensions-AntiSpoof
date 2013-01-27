@@ -74,7 +74,7 @@ It is not a complete message but a template for designator of a bad character, s
 	'right-override-antispoof' => '{{doc-right|override-antispoof}}',
 );
 
-/**    زَوُن (   زَوُن)
+/** Tunisian Spoken Arabic (   زَوُن)
  * @author Csisc
  */
 $messages['aeb'] = array(
@@ -465,7 +465,7 @@ $messages['bg'] = array(
 	'right-override-antispoof' => ' Игнориране проверката на подобни имена', # Fuzzy
 );
 
-/** Bihari (भोजपुरी)
+/** bh (भोजपुरी)
  * @author Ganesh
  */
 $messages['bh'] = array(
@@ -1973,7 +1973,7 @@ $messages['nds'] = array(
 	'right-override-antispoof' => 'De Kuntrull op ähnliche Brukernaams ümgahn',
 );
 
-/** Nedersaksisch (Nedersaksisch)
+/** Nedersaksies (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
