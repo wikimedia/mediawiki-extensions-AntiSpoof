@@ -465,13 +465,6 @@ $messages['bg'] = array(
 	'right-override-antispoof' => ' Игнориране проверката на подобни имена', # Fuzzy
 );
 
-/** bh (भोजपुरी)
- * @author Ganesh
- */
-$messages['bh'] = array(
-	'antispoof-conflict-bottom' => 'कृपया कउनो दुसर नाम चुनीं',
-);
-
 /** Bhojpuri (भोजपुरी)
  * @author Ganesh
  */
