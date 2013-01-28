@@ -1457,6 +1457,7 @@ $messages['ka'] = array(
 	'antispoof-conflict-bottom' => 'გთხოვთ სხვა სახელი გამოიყენოთ.',
 	'antispoof-name-illegal' => 'სახელი „$1“ არაა ნებადართული, რათა არ იყოს არეული სხვა სახელთან: $2.
 გთხოვთ აირჩიოთ სხვა სახელი.',
+	'antispoof-bad-char' => '"$1" ($2)',
 	'antispoof-badtype' => 'არასწორი მონაცემთა ტიპი',
 	'antispoof-empty' => 'ცარიელი სტრიქონი',
 	'antispoof-blacklisted' => 'შავი სიიდან შეიცავს სიმბოლოს $1',
