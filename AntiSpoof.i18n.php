@@ -868,6 +868,7 @@ Palun vali teine nimi.',
 );
 
 /** Basque (euskara)
+ * @author Joxemai
  * @author Kobazulo
  */
 $messages['eu'] = array(
@@ -876,6 +877,7 @@ $messages['eu'] = array(
 	'antispoof-badtype' => 'Datu mota ezegokia',
 	'antispoof-empty' => 'Kate hutsa',
 	'antispoof-noletters' => 'Ez dauka letrarik',
+	'antispoof-tooshort' => 'Izen kanonikoa laburregia',
 );
 
 /** Persian (فارسی)
