@@ -1537,7 +1537,8 @@ $messages['km'] = array(
 សូមជ្រើសរើសអត្តនាមផ្សេងមួយទៀត។',
 	'antispoof-badtype' => 'ប្រភេទទិន្នន័យអន់',
 	'antispoof-empty' => 'ខ្សែអក្សរទទេ',
-	'antispoof-blacklisted' => 'មាន​អក្សរ​ដែល​ត្រូវបាន​ចាត់ចូលទៅក្នុងបញ្ជីខ្មៅ', # Fuzzy
+	'antispoof-blacklisted' => 'មាន​អក្សរ​ដែល​ត្រូវបាន​ចាត់ចូលទៅក្នុងបញ្ជីខ្មៅ $1',
+	'antispoof-combining' => 'ចាប់ផ្ដើមដោយសញ្ញាផ្សំគ្នា $1',
 	'antispoof-noletters' => 'គ្មានផ្ទុក​អក្សរណាមួយ',
 );
 
