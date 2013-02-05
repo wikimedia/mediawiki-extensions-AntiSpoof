@@ -1561,7 +1561,7 @@ $messages['kn'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'antispoof-desc' => '여러 문자 체계를 섞은 이름이나, 혼동될 수 있고 비슷한 이름의 계정 만들기를 막음',
+	'antispoof-desc' => '여러 문자 체계를 섞은 이름이나, 혼동될 수 있고 비슷한 이름의 계정 만들기를 차단합니다',
 	'antispoof-conflict-top' => '"$1" 사용자 이름은 {{PLURAL:$2|다음 계정과|다음 계정 $2개와}} 너무 비슷합니다:',
 	'antispoof-conflict-bottom' => '다른 이름을 선택해주세요.',
 	'antispoof-name-illegal' => '"$1" 사용자 이름은 다음의 이유로 인해 가입이 금지되었습니다: $2.
