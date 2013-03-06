@@ -795,6 +795,13 @@ $messages['el'] = array(
 	'right-override-antispoof' => 'Υπερκάλυψη των ελέγχων εξαπάτησης',
 );
 
+/** British English (British English)
+ * @author Shirayuki
+ */
+$messages['en-gb'] = array(
+	'antispoof-tooshort' => 'Canonicalised name too short',
+);
+
 /** Esperanto (Esperanto)
  * @author Tlustulimu
  * @author Yekrats
