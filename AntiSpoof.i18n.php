@@ -51,7 +51,7 @@ $messages['qqq'] = array(
 * $1 is the username that someone wanted to create
 * $2 is the error message. One of {{msg-mw|antispoof-badtype}}, {{msg-mw|antispoof-empty}}, {{msg-mw|antispoof-blacklisted}} and others.',
 	'antispoof-bad-char' => '{{Optional}}
-It is not a complete message but a template for designator of a bad character, so localization can format it properly. Parameters:
+It is not a complete message, but a template for designator of a bad character, so localization can format it properly. Parameters:
 * $1 is the bad character itself.
 * $2 is the Unicode code point of bad character ("U+" followed by hex number).',
 	'antispoof-bad-char-non-printable' => 'The same as antispooof-bad-char, but for non-printable characters. Since non-printable characters do not have visual representation, template has only one parameter:
