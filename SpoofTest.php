@@ -1,24 +1,9 @@
 <?php
+class TestSpoof extends MediaWikiTestCase {
 
-$IP = getenv( 'MW_INSTALL_PATH' );
-if ( !$IP ) {
-	if ( file_exists( "../../includes/DefaultSettings.php" ) ) {
-		$IP = '../..';
-	} elseif ( file_exists( "../../phase3/includes/DefaultSettings.php" ) ) {
-		$IP = '../../phase3';
-	} else {
-		die( 'Please set MW_INSTALL_PATH' );
-	}
-}
-
-require_once( "$IP/includes/AutoLoader.php" );
-require_once( "$IP/includes/normal/UtfNormalUtil.php" );
-require_once( __DIR__ . '/SpoofUser.php' );
-require_once( __DIR__ . '/AntiSpoof_body.php' );
-
-class TestSpoof extends PHPUnit_Framework_TestCase {
 	public function providePositives() {
 		return array(
+			/** Format: username -> spoofing attempt */
 			array( 'Laura Fiorucci', 'Låura Fiorucci' ),
 			array( 'Lucien leGrey', 'Lucien le6rey' ),
 			array( 'Poco a poco', 'Poco a ƿoco' ),
@@ -35,8 +20,14 @@ class TestSpoof extends PHPUnit_Framework_TestCase {
 		$Alice = new SpoofUser( $userName );
 		$Eve = new SpoofUser( $spooferName );
 
-		if ( $Eve->isLegal() ) {
-			$this->assertEquals( $Alice->getNormalized(), $Eve->getNormalized(), "Check that '$spooferName' can't spoof account '$userName'");
-		}
+		$this->assertTrue( $Eve->isLegal(),
+			"SpoofUser must consider '$spooferName' to be a valid unicode string"
+		);
+
+		$this->assertEquals(
+			$Alice->getNormalized(),
+			$Eve->getNormalized(),
+			"Check that '$spooferName' can not spoof account '$userName'"
+		);
 	}
 }
