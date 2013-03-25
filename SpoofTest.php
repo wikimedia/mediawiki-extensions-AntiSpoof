@@ -22,7 +22,6 @@ class TestSpoof extends PHPUnit_Framework_TestCase {
 			array( 'Laura Fiorucci', 'Låura Fiorucci' ),
 			array( 'Lucien leGrey', 'Lucien le6rey' ),
 			array( 'Poco a poco', 'Poco a ƿoco' ),
-			array( 'Comae', 'Comæ' ),
 			array( 'Sabbut', 'ЅаЬЬцт'),
 			array( 'BetoCG', 'ВетоС6' )
 		);
