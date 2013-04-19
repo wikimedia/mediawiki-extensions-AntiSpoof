@@ -386,14 +386,24 @@ $messages['bcc'] = array(
 
 /** Bikol Central (Bikol Central)
  * @author Filipinayzd
+ * @author Geopoet
  */
 $messages['bcl'] = array(
+	'antispoof-desc' => 'Minakubkob sa pagmukna nin mga panindog na igwang pinaghalong eskripto, nakakalibong asin may kaparehong mga paragamit-ngaran',
+	'antispoof-conflict-top' => 'An pangaran na "$1" may kaparehong gayo sa {{PLURAL:$2|eksistido nang panindog|mga minasunod na $2 na mga panindog}}:',
+	'antispoof-conflict-bottom' => 'Pakipili tabi nin ibang pangaran.',
 	'antispoof-name-illegal' => 'An parágamit na "$1" dai tinotogotan tangarig maibitaran an pagparibong o pag-arog sa "$2". Paki pilî tabî nin ibang pangaran.',
-	'antispoof-blacklisted' => 'Igwang blacklisted na karakter', # Fuzzy
-	'antispoof-combining' => 'Nagpopoon sa nagsasalak na marka', # Fuzzy
-	'antispoof-unassigned' => 'Igwang dai naka-assign o deprecated na karakter', # Fuzzy
+	'antispoof-badtype' => 'Maraot na tipo nin datos',
+	'antispoof-empty' => 'Mayong laman na panunod',
+	'antispoof-blacklisted' => 'Minalaman nin pinagbaraduhang panggurit na $1',
+	'antispoof-combining' => 'Minapoon na igwang pinagkasararong marka $1',
+	'antispoof-unassigned' => 'Minalaman nin bakong designadong panggurit na $1',
+	'antispoof-deprecated' => 'Minalaman nin deprekadong panggurit na $1',
 	'antispoof-noletters' => 'Mayong nakakaag na mga letra',
 	'antispoof-mixedscripts' => 'Igwang dai angay na mga halong script',
+	'antispoof-tooshort' => 'Kanonikalisadong pangaran na grabe kahalipoton',
+	'antispoof-ignore' => 'Pabayae an palibongong mga rikisa',
+	'right-override-antispoof' => 'Salambawan an palibongong mga rikisa',
 );
 
 /** Belarusian (беларуская)
