@@ -396,14 +396,14 @@ $messages['bcl'] = array(
 	'antispoof-badtype' => 'Maraot na tipo nin datos',
 	'antispoof-empty' => 'Mayong laman na panunod',
 	'antispoof-blacklisted' => 'Minalaman nin pinagbaraduhang panggurit na $1',
-	'antispoof-combining' => 'Minapoon na igwang pinagkasararong marka $1',
+	'antispoof-combining' => 'Minapoon na igwang kasalakang marka an $1',
 	'antispoof-unassigned' => 'Minalaman nin bakong designadong panggurit na $1',
 	'antispoof-deprecated' => 'Minalaman nin deprekadong panggurit na $1',
 	'antispoof-noletters' => 'Mayong nakakaag na mga letra',
 	'antispoof-mixedscripts' => 'Igwang dai angay na mga halong script',
 	'antispoof-tooshort' => 'Kanonikalisadong pangaran na grabe kahalipoton',
-	'antispoof-ignore' => 'Pabayae an palibongong mga rikisa',
-	'right-override-antispoof' => 'Salambawan an palibongong mga rikisa',
+	'antispoof-ignore' => 'Pabayae an palibong na mga rikisa',
+	'right-override-antispoof' => 'Salambawan an palibong na mga rikisa',
 );
 
 /** Belarusian (беларуская)
