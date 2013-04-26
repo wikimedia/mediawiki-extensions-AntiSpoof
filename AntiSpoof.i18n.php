@@ -576,6 +576,7 @@ Molimo Vas da odaberete drugo ime.',
  * @author Arnaugir
  * @author Pginer
  * @author SMP
+ * @author Vriullop
  */
 $messages['ca'] = array(
 	'antispoof-desc' => "Bloca la creació de comptes amb alfabets barrejats i noms d'usuari similars o que portin a confusió",
@@ -591,7 +592,7 @@ $messages['ca'] = array(
 	'antispoof-noletters' => 'No conté cap lletra',
 	'antispoof-mixedscripts' => "Conté una mescla incompatible d'escriptures",
 	'antispoof-tooshort' => 'Nom canònic massa curt',
-	'antispoof-ignore' => 'Ignorar controls antispoof',
+	'antispoof-ignore' => 'Ignora controls antispoof',
 	'right-override-antispoof' => "Evitar el control de noms d'usuari",
 );
 
