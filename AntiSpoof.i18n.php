@@ -1797,6 +1797,13 @@ Misafidia anarana hafa.',
 	'antispoof-mixedscripts' => 'Misy endri-tsoratra maro samihafa tsy zaka',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'antispoof-ignore' => 'Abaikan pamarisoan akun',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
