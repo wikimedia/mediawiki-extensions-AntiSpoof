@@ -2305,11 +2305,12 @@ $messages['pt'] = array(
  * @author Eduardo.mps
  * @author Helder.wiki
  * @author Heldergeovane
+ * @author Luckas
  * @author Rhaijin
  * @author 555
  */
 $messages['pt-br'] = array(
-	'antispoof-desc' => 'Impede a criação de contas com escrita mista, e nomes de utilizador confusos e semelhantes',
+	'antispoof-desc' => 'Impede a criação de contas com escrita mista, e nomes de usuário confusos e semelhantes',
 	'antispoof-conflict-top' => 'O nome "$1" é demasiado semelhante {{PLURAL:$2|ao da seguinte conta já existente|aos das seguintes $2 contas}}',
 	'antispoof-conflict-bottom' => 'Por favor, escolha outro nome.',
 	'antispoof-name-illegal' => 'O nome "$1" não é permitido para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): já existe $2.
