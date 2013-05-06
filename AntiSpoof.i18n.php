@@ -1802,6 +1802,7 @@ Misafidia anarana hafa.',
  */
 $messages['min'] = array(
 	'antispoof-ignore' => 'Abaikan pamarisoan akun',
+	'right-override-antispoof' => 'Maimpok namo pangguno',
 );
 
 /** Macedonian (македонски)
