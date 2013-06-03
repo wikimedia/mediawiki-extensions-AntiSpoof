@@ -222,7 +222,7 @@ $messages['arz'] = array(
 	'right-override-antispoof' => 'اتجاوز التشييك على سبوفينج',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  * @author Chaipau
  * @author Gitartha.bordoloi
@@ -1954,7 +1954,7 @@ $messages['nah'] = array(
 	'antispoof-badtype' => 'Ahcualli tlahcuilōliztli',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Dittaeva
  * @author Event
  */
@@ -1996,7 +1996,7 @@ $messages['nds'] = array(
 	'right-override-antispoof' => 'De Kuntrull op ähnliche Brukernaams ümgahn',
 );
 
-/** Nedersaksies (Nedersaksies)
+/** Low Saxon (Netherlands) (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
@@ -2061,7 +2061,7 @@ Kies een andere naam.',
 	'right-override-antispoof' => 'Spoofcontroles negeren',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Dittaeva
  * @author Harald Khan
  * @author Njardarlogar
@@ -2117,7 +2117,7 @@ $messages['oc'] = array(
 	'right-override-antispoof' => 'Espotís de pseudoverificacions',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  * @author Psubhashish
  */
