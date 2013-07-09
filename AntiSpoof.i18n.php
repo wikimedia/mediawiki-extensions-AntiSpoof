@@ -2030,6 +2030,7 @@ $messages['nds-nl'] = array(
 	'antispoof-blacklisted' => 'Hierin steet t verbeujen teken $1',
 	'antispoof-combining' => 'Begint mit t kombinasieteken $1',
 	'antispoof-unassigned' => 'Bevat n niet toe-ewezen of ongewunst teken',
+	'antispoof-deprecated' => 'Hierin steet t verbeujen teken $1',
 	'antispoof-noletters' => 'Bevat gien letters',
 	'antispoof-mixedscripts' => 'Bevat onverenigbaore schriftsystemen',
 	'antispoof-tooshort' => "De naam die'j in-evoerd hebben is te kort.",
