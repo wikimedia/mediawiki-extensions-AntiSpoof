@@ -157,10 +157,11 @@ $messages['an'] = array(
 );
 
 /** Old English (Ænglisc)
+ * @author Gott wisst
  * @author Wōdenhelm
  */
 $messages['ang'] = array(
-	'antispoof-noletters' => 'Ġehæfþ nān stafas',
+	'antispoof-noletters' => 'Næfþ nǣnge stafas',
 );
 
 /** Arabic (العربية)
