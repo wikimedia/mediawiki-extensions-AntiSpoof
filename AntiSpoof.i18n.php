@@ -1183,16 +1183,17 @@ $messages['hi'] = array(
 	'antispoof-desc' => 'मिश्रित लिपि और संभ्रम पैदा करने वाले तथा मिलते-जुलते सदस्यनामों के प्रयोग पर रोक लगाता है।',
 	'antispoof-conflict-top' => 'धोखा-संघर्ष टॉप विरोधी',
 	'antispoof-conflict-bottom' => 'कृपया कोई अन्य नाम चुनिये ।',
-	'antispoof-name-illegal' => 'नाम " $1  faltu है:  $2 .!एन!कृपया kuch aur chuniye',
+	'antispoof-name-illegal' => 'भ्रामक नामों को रोकने के लिए नाम "$1" रखना मन है: $2
+कृपया कोई अन्य नाम चुनिये।',
 	'antispoof-badtype' => 'गलत डाटा प्रकार',
 	'antispoof-empty' => 'खाली स्ट्रिंग',
-	'antispoof-blacklisted' => 'इसमें ब्लैकलिस्टेड कैरैक्टर हैं', # Fuzzy
-	'antispoof-combining' => 'एकत्रिकरण चिन्हसे शुरु होता हैं', # Fuzzy
-	'antispoof-unassigned' => 'इसमें गलत अक्षर हैं', # Fuzzy
-	'antispoof-noletters' => 'इसमें कोईभी अक्षर नहीं हैं',
-	'antispoof-mixedscripts' => 'इसमें अन्य मिश्र लिपीयां हैं',
+	'antispoof-blacklisted' => 'इसमें ब्लैकलिस्टेड कैरैक्टर $1 हैं',
+	'antispoof-combining' => 'एकत्रिकरण चिन्ह $1 से शुरु होता है',
+	'antispoof-unassigned' => 'इसमें गलत अक्षर $1 है',
+	'antispoof-noletters' => 'इसमें कोई भी अक्षर नहीं हैं',
+	'antispoof-mixedscripts' => 'इसमें असंगत मिश्र लिपियाँ हैं',
 	'antispoof-tooshort' => 'अधिकारयुक्त नाम बहुत छोटा हैं',
-	'antispoof-ignore' => 'उपेक्षा स्पूफिंग चेक',
+	'antispoof-ignore' => 'स्पूफिंग जाँच नज़रंदाज़ करें',
 	'right-override-antispoof' => 'स्पूफिंग चेक्स को नजर अंदाज करें',
 );
 
