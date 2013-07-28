@@ -1901,6 +1901,7 @@ $messages['mn'] = array(
  * @author Mahitgar
  * @author Mvkulkarni23
  * @author Saleelk
+ * @author V.narsikar
  * @author प्रणव कुलकर्णी
  */
 $messages['mr'] = array(
@@ -1911,9 +1912,9 @@ $messages['mr'] = array(
 त्यामुळे कृपया वेगळे नाव वापरा.',
 	'antispoof-badtype' => 'वाईट विदा (डाटा) प्रकार',
 	'antispoof-empty' => 'रिकामा धागा',
-	'antispoof-blacklisted' => 'मान्यताप्राप्त यादीत नसलेले अक्षर', # Fuzzy
-	'antispoof-combining' => 'एकत्रीकरण चिन्हाने सुरुवात केलेली आहे.', # Fuzzy
-	'antispoof-unassigned' => 'यामध्ये चुकीची चिन्हे आहेत.', # Fuzzy
+	'antispoof-blacklisted' => 'मान्यताप्राप्त यादीत नसलेले अक्षर $1',
+	'antispoof-combining' => 'एकत्रीकरण चिन्हाने सुरुवात केलेली आहे $1',
+	'antispoof-unassigned' => 'यामध्ये चुकीची चिन्हे आहेत $1',
 	'antispoof-noletters' => 'कोणत्याही अक्षराचा समावेश नाही',
 	'antispoof-mixedscripts' => 'यामध्ये इतर मिश्र लिपी आहेत.',
 	'antispoof-tooshort' => 'अधिकारयुक्त नाव खूप छोटे आहे',
