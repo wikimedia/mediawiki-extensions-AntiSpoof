@@ -609,6 +609,7 @@ $messages['ce'] = array(
  */
 $messages['ckb'] = array(
 	'antispoof-ignore' => 'تاوتوێکردنی خەڵەتێنەکان  لەبەر چاو مەگرە',
+	'right-override-antispoof' => 'تێپەڕاندنی تاوتوێی ناوە وەکوویەکەکان',
 );
 
 /** Corsican (corsu)
