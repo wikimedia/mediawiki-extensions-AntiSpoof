@@ -1916,6 +1916,7 @@ $messages['mr'] = array(
 	'antispoof-blacklisted' => 'मान्यताप्राप्त यादीत नसलेले अक्षर $1',
 	'antispoof-combining' => 'एकत्रीकरण चिन्हाने सुरुवात केलेली आहे $1',
 	'antispoof-unassigned' => 'यामध्ये चुकीची चिन्हे आहेत $1',
+	'antispoof-deprecated' => 'नापसंत वर्ण $1 यात आहेत',
 	'antispoof-noletters' => 'कोणत्याही अक्षराचा समावेश नाही',
 	'antispoof-mixedscripts' => 'यामध्ये इतर मिश्र लिपी आहेत.',
 	'antispoof-tooshort' => 'अधिकारयुक्त नाव खूप छोटे आहे',
