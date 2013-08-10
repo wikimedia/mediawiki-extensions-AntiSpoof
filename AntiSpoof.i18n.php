@@ -1402,11 +1402,12 @@ $messages['is'] = array(
  * @author Beta16
  * @author BrokenArrow
  * @author Darth Kule
+ * @author Nemo bis
  * @author Pietrodn
  */
 $messages['it'] = array(
-	'antispoof-desc' => 'Impedisce la creazione di account con caratteri misti, nomi utente che generano confusione o troppo simili tra loro.',
-	'antispoof-conflict-top' => 'Il nome "$1" è troppo simile {{PLURAL:$2|all\'account esistente|ai seguenti $2 account}}:',
+	'antispoof-desc' => 'Impedisce la creazione di nomi utente con caratteri misti e nomi utente che generano confusione o troppo simili tra loro.',
+	'antispoof-conflict-top' => 'Il nome "$1" è troppo simile {{PLURAL:$2|al nome utente esistente|ai seguenti $2 nomi utente}}:',
 	'antispoof-conflict-bottom' => 'Scegliere un altro nome.',
 	'antispoof-name-illegal' => 'Il nome utente "$1" non è consentito, per evitare confusione o utilizzi fraudolenti: $2. Scegliere un altro nome.',
 	'antispoof-badtype' => 'Tipo di dati errato',
