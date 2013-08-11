@@ -10,7 +10,7 @@ $messages = array();
 
 $messages['en'] = array(
 	'antispoof-desc'          => 'Blocks the creation of accounts with mixed-script, confusing and similar usernames',
-	'antispoof-conflict-top'  => 'The name "$1" is too similar to {{PLURAL:$2|the existing account|the following $2 accounts}}:',
+	'antispoof-conflict-top'  => 'The name "$1" is too similar to the following {{PLURAL:$2|username|usernames}}:',
 	'antispoof-conflict-item' => '$1', # do not translate or duplicate this message to other languages
 	'antispoof-conflict-bottom' => 'Please choose another name.',
 	'antispoof-name-illegal'  => 'The name "$1" is not allowed to prevent confusing or spoofed usernames: $2.
