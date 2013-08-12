@@ -1407,7 +1407,7 @@ $messages['is'] = array(
  */
 $messages['it'] = array(
 	'antispoof-desc' => 'Impedisce la creazione di nomi utente con caratteri misti e nomi utente che generano confusione o troppo simili tra loro.',
-	'antispoof-conflict-top' => 'Il nome "$1" è troppo simile {{PLURAL:$2|al nome utente esistente|ai seguenti $2 nomi utente}}:',
+	'antispoof-conflict-top' => 'Il nome "$1" è troppo simile {{PLURAL:$2|al nome utente esistente|ai seguenti $2 nomi utente}}:', # Fuzzy
 	'antispoof-conflict-bottom' => 'Scegliere un altro nome.',
 	'antispoof-name-illegal' => 'Il nome utente "$1" non è consentito, per evitare confusione o utilizzi fraudolenti: $2. Scegliere un altro nome.',
 	'antispoof-badtype' => 'Tipo di dati errato',
@@ -1908,7 +1908,7 @@ $messages['mn'] = array(
  */
 $messages['mr'] = array(
 	'antispoof-desc' => 'मिश्र भाषा तसेच संभ्रमित करणारी व सारखी असणारी सदस्य नामे वापरण्यास बंदी आहे.',
-	'antispoof-conflict-top' => '"$1" नाव {{PLURAL:$2|या अस्तित्वातील खात्याशी|निम्नलिखीत  $2 खात्यांशी}} मिळतेजुळते आहे:',
+	'antispoof-conflict-top' => '"$1" नाव {{PLURAL:$2|या अस्तित्वातील खात्याशी|निम्नलिखीत  $2 खात्यांशी}} मिळतेजुळते आहे:', # Fuzzy
 	'antispoof-conflict-bottom' => 'कृपया दुसरे नाव निवडा.',
 	'antispoof-name-illegal' => '"$1" हे नाव वापरण्यास बंदी आहे कारण हे नाव इतर नावांशी साम्य राखते: $2.
 त्यामुळे कृपया वेगळे नाव वापरा.',
