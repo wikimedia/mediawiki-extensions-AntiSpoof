@@ -699,7 +699,7 @@ $messages['da'] = array(
  */
 $messages['de'] = array(
 	'antispoof-desc' => 'Verhindert die Erstellung von Benutzerkonten mit gemischten Zeichensätzen, verwirrenden und ähnlichen Benutzernamen',
-	'antispoof-conflict-top' => 'Der Benutzername „$1“ ist {{PLURAL:$2|dem folgenden Benutzerkonto|den folgenden $2 Benutzerkonten}} zu ähnlich:',
+	'antispoof-conflict-top' => 'Der Benutzername „$1“ ist {{PLURAL:$2|dem|den}} folgenden Benutzernamen zu ähnlich:',
 	'antispoof-conflict-bottom' => 'Bitte wähle einen anderen Benutzernamen.',
 	'antispoof-name-illegal' => 'Der gewünschte Benutzername „$1“ ist nicht möglich. Grund: $2<br />Bitte wähle einen anderen Benutzernamen.',
 	'antispoof-badtype' => 'Ungültiger Datentyp',
@@ -982,7 +982,7 @@ $messages['fo'] = array(
  */
 $messages['fr'] = array(
 	'antispoof-desc' => 'Bloque la création de comptes ayant des noms d’utilisateur similaires, utilisant diverses écritures, ou pouvant prêter à confusion',
-	'antispoof-conflict-top' => 'Le nom « $1 » est trop similaire {{PLURAL:$2|au compte existant|aux $2 comptes suivants}} :',
+	'antispoof-conflict-top' => 'Le nom « $1 » est trop similaire {{PLURAL:$2|à l’utilisateur suivant|aux utilisateurs suivants}} :',
 	'antispoof-conflict-bottom' => 'Veuillez choisir un autre nom.',
 	'antispoof-name-illegal' => 'Le nom d’utilisateur « $1 » n’est pas autorisé pour la raison suivante : « $2 ».
 Veuillez choisir un autre nom.',
@@ -1433,7 +1433,7 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'antispoof-desc' => '文字体系が混在している利用者名、既存の利用者名と類似していて紛らわしい利用者名のアカウント作成をブロックする',
-	'antispoof-conflict-top' => '指定した名前「$1」は{{PLURAL:$2|既存のアカウント|以下の$2アカウント}}と類似しすぎています:',
+	'antispoof-conflict-top' => '指定した名前「$1」は以下の{{PLURAL:$2|利用者名}}と類似しすぎています:',
 	'antispoof-conflict-bottom' => '別の名前を使用してください。',
 	'antispoof-name-illegal' => '指定した名前「$1」はなりすまし防止のため使用できません: $2。別の名前を使用してください。',
 	'antispoof-bad-char' => '「$1」 ($2)',
@@ -1605,7 +1605,7 @@ $messages['kn'] = array(
  */
 $messages['ko'] = array(
 	'antispoof-desc' => '여러 문자 체계를 섞은 이름이나, 혼동될 수 있고 비슷한 이름의 계정 만들기를 차단합니다',
-	'antispoof-conflict-top' => '"$1" 사용자 이름은 {{PLURAL:$2|다음 계정과|다음 계정 $2개와}} 너무 비슷합니다:',
+	'antispoof-conflict-top' => '"$1" 이름은 다음 {{PLURAL:$2|사용자 이름}}과 너무 비슷합니다:',
 	'antispoof-conflict-bottom' => '다른 이름을 선택해주세요.',
 	'antispoof-name-illegal' => '"$1" 사용자 이름은 다음의 이유로 인해 가입이 금지되었습니다: $2.
 다른 이름으로 가입해주세요.',
@@ -1684,7 +1684,7 @@ $messages['lad'] = array(
  */
 $messages['lb'] = array(
 	'antispoof-desc' => "Verhënnert d'Opmaache vu Benotzerkonte mat gemëschten Zeechesätz, mat gelungene Benotzernimm oder mat Benotzernimm déi zu Verwiesselunge féiere kéinten.",
-	'antispoof-conflict-top' => 'Den Numm "$1" ass ze ähnlech mat {{PLURAL:$2|dem Benotzerkont|dëse(n) $2 Benotzerkonten}}:',
+	'antispoof-conflict-top' => 'Den Numm "$1" ass ze ähnlech mat {{PLURAL:$2|dësem Benotzernumm|dëse Benotzernimm}}:',
 	'antispoof-conflict-bottom' => 'Wielt w.e.g. en aneren Numm.',
 	'antispoof-name-illegal' => 'De gewënschte Benotzernumm "$1" ass net erlaabt. Grond: $2<br />
 Sicht iech w.e.g. een anere Benotzernumm.',
