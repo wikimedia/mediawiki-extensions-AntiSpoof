@@ -391,7 +391,7 @@ $messages['bcc'] = array(
  */
 $messages['bcl'] = array(
 	'antispoof-desc' => 'Minakubkob sa pagmukna nin mga panindog na igwang pinaghalong eskripto, nakakalibong asin may kaparehong mga paragamit-ngaran',
-	'antispoof-conflict-top' => 'An pangaran na "$1" may kaparehong gayo sa {{PLURAL:$2|eksistido nang panindog|mga minasunod na $2 na mga panindog}}:',
+	'antispoof-conflict-top' => 'An pangaran na "$1" may kaagid sa minasunod na {{PLURAL:$2|ngaran-paragamit|mga ngaran-paragamit}}:',
 	'antispoof-conflict-bottom' => 'Pakipili tabi nin ibang pangaran.',
 	'antispoof-name-illegal' => 'An parágamit na "$1" dai tinotogotan tanganing maibitaran an pagpaparibong o inarogan na mga ngaran-paragamit: $2. Pakipilî tabî nin ibang pangaran.',
 	'antispoof-badtype' => 'Maraot na tipo nin datos',
@@ -870,7 +870,7 @@ $messages['es'] = array(
  */
 $messages['et'] = array(
 	'antispoof-desc' => 'Blokeerib erinevaid kirjasüsteeme kasutavate, eksitavate ja sarnaste kasutajanimedega kontode loomise.',
-	'antispoof-conflict-top' => 'Nimi "$1" on liiga sarnane {{PLURAL:$2|olemasoleva|järgneva $2}} kontoga:',
+	'antispoof-conflict-top' => 'Nimi "$1" on liiga sarnane {{PLURAL:$2|järgmise kasutajanimega|järgmiste kasutajanimedega}}:',
 	'antispoof-conflict-bottom' => 'Palun vali teine nimi.',
 	'antispoof-name-illegal' => 'Nimi "$1" ei ole lubatud, et vältida eksitavaid või pilavaid kasutajanimesid. Põhjus: $2.
 Palun vali teine nimi.',
@@ -1835,7 +1835,7 @@ $messages['min'] = array(
  */
 $messages['mk'] = array(
 	'antispoof-desc' => 'Блокира создавање на сметки со имиња од мешани писма/азбуки, кои личат на други кориснички имиња и со тоа создаваат забуни',
-	'antispoof-conflict-top' => 'Името „$1“ е премногу слично на {{PLURAL:$2|постоечката сметка|следниве $2 сметки}}:',
+	'antispoof-conflict-top' => 'Името „$1“ е премногу слично на {{PLURAL:$2|следното корисничко име|следните кориснички имиња}}:',
 	'antispoof-conflict-bottom' => 'Одберете друго име',
 	'antispoof-name-illegal' => 'Името „$1“ не е дозволено за да сес пречат збунувачки имиња кои се злоупотребливо слични: $2.
 Одберете друго име.',
