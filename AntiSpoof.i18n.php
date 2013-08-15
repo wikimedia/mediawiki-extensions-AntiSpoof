@@ -625,7 +625,7 @@ $messages['co'] = array(
  */
 $messages['cs'] = array(
 	'antispoof-desc' => 'Brání vytváření účtů, jejichž jména jsou matoucí, podobná jiným uživatelům, nebo kombinují několik druhů písem',
-	'antispoof-conflict-top' => 'Jméno „$1“ je příliš podobné {{PLURAL:$2|následujícímu již existujícímu uživatelskému jménu|následujícím již existujícím uživatelským jménům}}:',
+	'antispoof-conflict-top' => 'Jméno „$1“ je příliš podobné {{PLURAL:$2|následujícímu uživatelskému jménu|následujícím uživatelským jménům}}:',
 	'antispoof-conflict-bottom' => 'Zvolte si jiné jméno.',
 	'antispoof-name-illegal' => 'Jméno „$1“ není povoleno vytvořit, aby se nepletlo nebo nesloužilo k napodobování cizích uživatelských jmen: $2.
 Zvolte si prosím jiné jméno.',
