@@ -1305,7 +1305,7 @@ $messages['hu'] = array(
  */
 $messages['ia'] = array(
 	'antispoof-desc' => 'Bloca le creation de contos con alphabetos mixte, e nomines de utilisator similar o confundente',
-	'antispoof-conflict-top' => 'Le nomine "$1" es troppo similar al {{PLURAL:$2|conto existente|sequente $2 contos}}:',
+	'antispoof-conflict-top' => 'Le nomine "$1" es troppo similar al sequente {{PLURAL:$2|nomine|nomines}} de usator:',
 	'antispoof-conflict-bottom' => 'Per favor selige un altere nomine.',
 	'antispoof-name-illegal' => 'Le nomine "$1" non es permittite pro evitar le nomines de usator confundente o falsificate: $2.
 Per favor selige un altere nomine.',
@@ -3096,7 +3096,7 @@ $messages['vo'] = array(
  */
 $messages['yi'] = array(
 	'antispoof-desc' => 'בלאקירט שאפֿן קאנטעס מיט געמישטע שריפֿטן, פֿארפלאנטערטע און ענלעכע באניצער נעמען',
-	'antispoof-conflict-top' => 'דער נאָמען "$1" איז צו ענלעך צו {{PLURAL:$2|דער עקזיסטירנטער קאנטע|די פֿאלגנדע $2 קאנטעס}}:',
+	'antispoof-conflict-top' => 'דער נאָמען "$1" איז צו ענלעך צו {{PLURAL:$2|דעם פֿאלגנדעם באניצער נאמען|די פֿאלגנדע באניצער נעמען}}:',
 	'antispoof-conflict-bottom' => 'ביטע קלויבט אויס אן אנדער נאָמען.',
 	'antispoof-badtype' => 'שלעכטער דאַטן טיפ',
 	'antispoof-empty' => 'ליידיג שנירל',
