@@ -2409,7 +2409,7 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'antispoof-desc' => "Bluècche 'a ccrejazione de cunde utende cu script-misckate, confuse e cu nome de l'utinde ca s'assomigliane",
-	'antispoof-conflict-top' => '\'U nome "$1" s\'assomigghie assaije a {{PLURAL:$2|\'u cunde esistende|le seguende $2 cunde}}:',
+	'antispoof-conflict-top' => '\'U nome "$1" s\'assomigghie assaije a {{PLURAL:$2|\'u cunde esistende|le cunde}}:',
 	'antispoof-conflict-bottom' => "Se preghe de scacchià n'otre nome.",
 	'antispoof-name-illegal' => "'U nome \"\$1\" non g'è permesse pe prevenìe casine o 'mbruegghie de nome utinde: \$2.
 Pe piacere scacchie 'n'otre nome.",
@@ -2985,10 +2985,11 @@ $messages['ug-arab'] = array(
  * @author A1
  * @author AS
  * @author Ahonc
+ * @author Andriykopanytsia
  */
 $messages['uk'] = array(
 	'antispoof-desc' => 'Забороняє створення облікових записів з іменами, подібними або схожими на імена інших облікових записів, та іменами, що містять символи з різних систем письма.',
-	'antispoof-conflict-top' => "Ім'я «$1» дуже схоже на {{PLURAL:$2|існуюче ім'я|такі існуючі імена}}:",
+	'antispoof-conflict-top' => "Ім'я „$1“ дуже схоже на {{PLURAL:$2|таке ім'я|такі імена}}:",
 	'antispoof-conflict-bottom' => "Будь ласка, оберіть інше ім'я.",
 	'antispoof-name-illegal' => "Не дозволене використання імені «$1» з метою запобігання плутанню з занадто схожими на нього іменами: $2. Будь ласка, виберіть інше ім'я.",
 	'antispoof-badtype' => 'Невірний тип даних',
