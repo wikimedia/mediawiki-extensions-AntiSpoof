@@ -1041,7 +1041,7 @@ Volyéd chouèsir un ôtro nom.',
  */
 $messages['frr'] = array(
 	'antispoof-desc' => 'Ferhanert det iinrachten faan brükerkontos mä aparte tiakens of nöömer, diar dü lacht ferwaksle könst',
-	'antispoof-conflict-top' => 'Di brükernööm „$1“ as bal disalew üs faan {{PLURAL:$2|detdiar konto|jodiar $2 kontos}}:',
+	'antispoof-conflict-top' => 'Di brükernööm „$1“ as bal disalew üs {{PLURAL:$2|didiar brükernööm|jodiar $2 brükernöömer}}:',
 	'antispoof-conflict-bottom' => 'Wees so gud an nem en öödern brükernööm.',
 	'antispoof-name-illegal' => 'Didiar brükernööm „$1“ gongt ei. Grünj: $2<br />Wees so gud an nem en öödern nööm.',
 	'antispoof-badtype' => 'Ferkiard dooten-typ',
@@ -1407,7 +1407,7 @@ $messages['is'] = array(
  */
 $messages['it'] = array(
 	'antispoof-desc' => 'Impedisce la creazione di nomi utente con caratteri misti e nomi utente che generano confusione o troppo simili tra loro.',
-	'antispoof-conflict-top' => 'Il nome "$1" è troppo simile {{PLURAL:$2|al nome utente esistente|ai seguenti $2 nomi utente}}:', # Fuzzy
+	'antispoof-conflict-top' => 'Il nome "$1" è troppo simile {{PLURAL:$2|al seguente nome utente|ai seguenti nomi utente}}:',
 	'antispoof-conflict-bottom' => 'Scegliere un altro nome.',
 	'antispoof-name-illegal' => 'Il nome utente "$1" non è consentito, per evitare confusione o utilizzi fraudolenti: $2. Scegliere un altro nome.',
 	'antispoof-badtype' => 'Tipo di dati errato',
@@ -2314,7 +2314,7 @@ $messages['ps'] = array(
  */
 $messages['pt'] = array(
 	'antispoof-desc' => 'Impede a criação de contas com escrita mista, e nomes de utilizador confusos e semelhantes',
-	'antispoof-conflict-top' => 'O nome "$1" é demasiado semelhante {{PLURAL:$2|ao da seguinte conta já existente|aos das seguintes $2 contas}}:',
+	'antispoof-conflict-top' => 'O nome "$1" é demasiado semelhante {{PLURAL:$2|ao nome de utilizador seguinte|aos nomes de utilizadores seguintes}}:',
 	'antispoof-conflict-bottom' => 'Por favor, escolha outro nome.',
 	'antispoof-name-illegal' => 'O nome "$1" não é permitido para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): já existe $2. Por favor, escolha outro nome.',
 	'antispoof-badtype' => 'Formato de dados incorreto',
