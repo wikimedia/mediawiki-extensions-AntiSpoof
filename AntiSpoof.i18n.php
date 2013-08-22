@@ -955,7 +955,7 @@ $messages['fi'] = array(
  */
 $messages['fo'] = array(
 	'antispoof-desc' => 'Blokkerar fyri upprættan av konti við blandaðum teknum, forvirrandi ella líknandi brúkaranøvnum',
-	'antispoof-conflict-top' => 'Navnið "$1" líkist ov nógv {{PLURAL:$2|verandi konto|hesum $2 kontum}}:',
+	'antispoof-conflict-top' => 'Navnið "$1" líkist ov nógv fylgjandi {{PLURAL:$2|brúkaranavni|brúkaranøvnum}}:',
 	'antispoof-conflict-bottom' => 'Vinarliga vel eitt annað navn.',
 	'antispoof-name-illegal' => 'Navnið "$1" er ikki loyvt til tess at fyribyrgja følsk ella forvirrandi brúkaranøvn: $2.',
 	'antispoof-badtype' => 'Ringt slag av data.',
@@ -2764,10 +2764,11 @@ $messages['su'] = array(
  * @author Lejonel
  * @author Lokal Profil
  * @author M.M.S.
+ * @author Skalman
  */
 $messages['sv'] = array(
 	'antispoof-desc' => 'Förhindrar att konton med olika typer av förvirrande namn registreras',
-	'antispoof-conflict-top' => 'Namnet "$1" är för likt {{PLURAL:$2|kontot|följande $2 konton}}:',
+	'antispoof-conflict-top' => 'Namnet "$1" är för likt {{PLURAL:$2|följande användarnamn|de följande användarnamnen}}:',
 	'antispoof-conflict-bottom' => 'Välj ett annat namn.',
 	'antispoof-name-illegal' => 'För att förhindra förvirrande eller felaktiga användarnamn, så är namnet "$1" inte tillåtet. Anledning: $2. Välj ett annat namn istället.',
 	'antispoof-badtype' => 'Felaktig datatyp',
