@@ -45,7 +45,9 @@ $messages['qqq'] = array(
 	'antispoof-conflict-top' => 'Account creation error message because attempted username is too similar to existing username(s). Parameters:
 * $1 is the username that someone wanted to create
 * $2 are the usernames that already existed that triggered the error.',
-	'antispoof-conflict-item' => '{{notranslate}}',
+	'antispoof-conflict-item' => '{{notranslate}}
+Parameters:
+* $1 - username',
 	'antispoof-conflict-bottom' => 'Suggestion for user that tried to create a user with a name that was not accepted.',
 	'antispoof-name-illegal' => 'Account creation error message because a user account creation rule was violated. Parameters:
 * $1 is the username that someone wanted to create
@@ -254,7 +256,7 @@ $messages['as'] = array(
  */
 $messages['ast'] = array(
 	'antispoof-desc' => "Bloquea la creación de cuentes con script mistu que tengan nomes d'usuariu asemeyaos o confusos",
-	'antispoof-conflict-top' => 'El nome "$1" ye demasiao asemeyáu a {{PLURAL:$2|la cuenta esistente|les siguientes $2 cuentes}}:',
+	'antispoof-conflict-top' => 'El nome "$1" ye demasiao asemeyáu {{PLURAL:$2|al usuariu siguiente|a los usuarios siguientes}}:',
 	'antispoof-conflict-bottom' => 'Por favor escueyi otru nome.',
 	'antispoof-name-illegal' => 'Nun se permite\'l nome "$1" pa evitar nomes d\'usuariu confusos o paródicos: $2. Por favor escueyi otru nome.',
 	'antispoof-badtype' => 'Triba de datos incorreuta',
@@ -3055,7 +3057,7 @@ $messages['vep'] = array(
  */
 $messages['vi'] = array(
 	'antispoof-desc' => 'Cấm không được mở tài khoản dưới tên người dùng sử dụng hơn một hệ thống chữ viết, gây nhầm lẫn, và tương tự với tên người dùng khác',
-	'antispoof-conflict-top' => 'Tên “$1” giống {{PLURAL:$2||$2}} tài khoản sau quá:',
+	'antispoof-conflict-top' => 'Tên “$1” quá giống {{PLURAL:$2|tên|các tên}} người dùng sau:',
 	'antispoof-conflict-bottom' => 'Xin hãy chọn tên khác.',
 	'antispoof-name-illegal' => 'Không được phép dùng tên “$1” vì có thể gây nhầm lẫn hoặc lừa đảo: $2. Xin hãy chọn tên khác.',
 	'antispoof-bad-char' => '“$1” ($2)',
