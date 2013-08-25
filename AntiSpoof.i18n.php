@@ -508,13 +508,14 @@ Muhun pilih ngaran nang lain.',
 );
 
 /** Bengali (বাংলা)
+ * @author Aftab1995
  * @author Bellayet
  * @author Nasir8891
  * @author Zaheen
  */
 $messages['bn'] = array(
 	'antispoof-desc' => 'মিশ্র-লিপিতে লেখা, কিংবা অস্পষ্ট ও একই রকম ব্যবহারকারী নাম দিয়ে অ্যাকাউন্ট সৃষ্টিতে বাধা দেবে',
-	'antispoof-conflict-top' => '"$1" নামটি  {{PLURAL:$2|অ্যাকাউন্টের| $2 অ্যাকাউন্টের}} সাথে বেশ মিলে যায়',
+	'antispoof-conflict-top' => '"$1" নামটি নিম্নলিখিত {{PLURAL:$2|অ্যাকাউন্টের}} সাথে বেশ মিলে যায়:',
 	'antispoof-conflict-bottom' => 'অনুগ্রহ করে অন্য নাম পছন্দ করুন।',
 	'antispoof-name-illegal' => '"$1" নামটি, বিভ্রান্তিকর বা ধাপ্পাবাজ ব্যবহারকারী নাম: $2 কে রোধ করার অনুমতি নাই। দয়া করে অন্য নাম পছন্দ করুন।',
 	'antispoof-badtype' => 'তথ্যের ধরণ ঠিক নাই',
@@ -1361,20 +1362,20 @@ $messages['ig'] = array(
  * @author Lam-ang
  */
 $messages['ilo'] = array(
-	'antispoof-desc' => 'Serraan na ti panagaramid kadagiti pakabilangan nga addaan ti naglalaok-a panagsurat, maka-allilaw ken dagiti agpapada a nagan ti agar-aramat',
-	'antispoof-conflict-top' => 'Ti nagan a "$1" ket agpadpada unay {{PLURAL:$2|idiay addaan a pakabilangan|kadagidiay sumaganad $2 a pakabilangan}}:',
-	'antispoof-conflict-bottom' => 'Pangaasi ta agpili ka ti sabali nga nagan.',
-	'antispoof-name-illegal' => 'Ti nagan a "$1" ket saan a mabalin tapno pawilan ti maka-allilaw wenno dagiti naanigaas a nagan ti agararamat: $2.
-Pangngaasi ti agpili iti sabali a nagan.',
-	'antispoof-badtype' => 'Dakes a kita a linaon',
-	'antispoof-empty' => 'Awan ti nagyan na a kuerdas',
-	'antispoof-blacklisted' => 'Naglaon kadagiti naiparit a karakter $1',
-	'antispoof-combining' => 'Nangrugi ti panagtipon ti marka $1',
+	'antispoof-desc' => 'Serraanna ti panagaramid kadagiti pakabilangan nga addaan ti naglalaok-a panagsurat, maka-allilaw ken dagiti agpapada a nagan ti agar-aramat',
+	'antispoof-conflict-top' => 'Ti nagan a "$1" ket kapada unay ti sumaganad a {{PLURAL:$2|a nagan ti agar-aramat|a nagan dagiti agar-aramat}}:',
+	'antispoof-conflict-bottom' => 'Pangngaasi nga agpilika ti sabali a nagan.',
+	'antispoof-name-illegal' => 'Ti nagan a "$1" ket saan a mabalin tapno pawilan ti maka-allilaw wenno dagiti naanigaas a nagan ti agar-aramat: $2.
+Pangngaasi nga agpili iti sabali a nagan.',
+	'antispoof-badtype' => 'Dakes a kita ti datos',
+	'antispoof-empty' => 'Awan linaon a kuerdas',
+	'antispoof-blacklisted' => 'Naglaon kadagiti naiparit a karakter ti $1',
+	'antispoof-combining' => 'Nangrugi ti panagtipon ti marka ti $1',
 	'antispoof-unassigned' => 'Naglaon kadagiti saan a nainaganan wenno naikkaten a karakter',
-	'antispoof-deprecated' => 'Naglaon ti naikkat a karakter $1',
-	'antispoof-noletters' => 'Awan ti nagyan na a dagiti ania man a letra',
-	'antispoof-mixedscripts' => 'Nagyan iti saan a mabalin nga aglalaok a panagsurat',
-	'antispoof-tooshort' => 'Ti nakanonikal a nagan ket nababa unay',
+	'antispoof-deprecated' => 'Naglaon ti naikkat a karakter ti $1',
+	'antispoof-noletters' => 'Saan nga aglaon kadagiti aniaman a letra',
+	'antispoof-mixedscripts' => 'Aglaon kadagiti saan a mabalin nga aglalaok nga eskritu',
+	'antispoof-tooshort' => 'Ti nakanonikal a nagan ket ababa unay',
 	'antispoof-ignore' => 'Saan nga ikaskaso dagiti kinita nga aningaas',
 	'right-override-antispoof' => 'Parabawan ti panagkita nga aningaas',
 );
