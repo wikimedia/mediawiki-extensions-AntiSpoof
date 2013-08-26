@@ -1066,7 +1066,7 @@ $messages['frr'] = array(
  */
 $messages['gl'] = array(
 	'antispoof-desc' => 'Bloquea a creación de contas con escrituras mesturadas, confusas ou con nomes de usuario similares',
-	'antispoof-conflict-top' => 'O nome "$1" é moi similar {{PLURAL:$2|á seguinte conta que xa existe|ás seguintes $2 contas}}:',
+	'antispoof-conflict-top' => 'O nome "$1" é moi similar {{PLURAL:$2|ao seguinte nome|aos seguintes nomes}} de usuario:',
 	'antispoof-conflict-bottom' => 'Por favor, escolla outro nome.',
 	'antispoof-name-illegal' => 'O nome "$1" non está permitido para evitar confusións ou enganos cos seguintes nomes de usuario: $2. Por favor, escolla outro nome.',
 	'antispoof-badtype' => 'Tipo de datos incorrecto',
@@ -1793,7 +1793,7 @@ $messages['lv'] = array(
  */
 $messages['map-bms'] = array(
 	'antispoof-desc' => 'Menggak nggawé akun sing jeneng panganggone nganggo aksara campuran, mbingungna lan sing mèmper',
-	'antispoof-conflict-top' => 'Jeneng "$1" mèmper banget karo {{PLURAL:$2|akun sing wis ana|$2 akun kiye}}:',
+	'antispoof-conflict-top' => 'Jeneng "$1" mèmper banget karo {{PLURAL:$2|jeneng panganggo|}} kiye:',
 	'antispoof-conflict-bottom' => 'Monggo milih jeneng liyane.',
 	'antispoof-name-illegal' => 'Jeneng "$1" ora olih dinggo supaya wong ora bingung utawa menggak ngapi-api jeneng panganggo sing wis ana: $2.
 Monggo pilihen jeneng liyane baen.',
@@ -2132,7 +2132,7 @@ $messages['nso'] = array(
  */
 $messages['oc'] = array(
 	'antispoof-desc' => "Blòca, amb un escript mixt, la creacion dels comptes per de noms d'utilizaires similars o podent prestar a confusion.",
-	'antispoof-conflict-top' => 'Lo nom « $1 » es tròp similar {{PLURAL:$2|al compte existent|als $2 comptes seguents}} :',
+	'antispoof-conflict-top' => "Lo nom « $1 » es tròp similar {{PLURAL:$2|a l'utilizaire seguent|als utilizaires seguents}} :",
 	'antispoof-conflict-bottom' => 'Causissètz un autre nom.',
 	'antispoof-name-illegal' => 'Lo nom « $1 » es pas autorizat per empachar de confondre o d’utilizar lo nom « $2 ». Causissètz un autre nom.',
 	'antispoof-badtype' => 'Marrit tipe de donadas',
@@ -2630,7 +2630,7 @@ $messages['sk'] = array(
  */
 $messages['sl'] = array(
 	'antispoof-desc' => 'Prepreči ustvarjanje računov z mešanimi pisavami ter begajočimi in podobnimi uporabniškimi imeni',
-	'antispoof-conflict-top' => 'Ime »$1« je preveč podobno {{PLURAL:$2|$2 obsoječemu računu|$2 obstoječima računoma|naslednjim $2 obstoječim računom}}:',
+	'antispoof-conflict-top' => 'Ime »$1« je preveč podobno {{PLURAL:$2|spodnjemu $2 uporabniškemu imenu|spodnjima $2 uporabniškima imenoma|spodnjim $2 uporabniškim imenom}}:',
 	'antispoof-conflict-bottom' => 'Prosimo, izberite drugačno ime.',
 	'antispoof-name-illegal' => 'Ime »$1« ni dovoljeno, saj se lahko zamenja oz. norčuje iz »$2«.
 Prosimo, izberite drugo ime.',
