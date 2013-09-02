@@ -532,12 +532,13 @@ $messages['bn'] = array(
 );
 
 /** Breton (brezhoneg)
+ * @author Fohanno
  * @author Fulup
  * @author Y-M D
  */
 $messages['br'] = array(
 	'antispoof-desc' => "Stankañ a ra, dre ur skript kemmesk, krouidigezh kontoù dezho anvioù implijer heñvel pe a c'hall sevel amjestregezh diwarno",
-	'antispoof-conflict-top' => 'Heñvel betek re eo an anv "$1" da hini {{PLURAL:$2|ar gont zo anezhi|d\'an $2 anv kont da-heul}}:',
+	'antispoof-conflict-top' => 'Heñvel betek re eo an anv "$1" da hini {{PLURAL:$2|anv implijer|anv implijer}}:', # Fuzzy
 	'antispoof-conflict-bottom' => 'Dibabit un anv all mar plij.',
 	'antispoof-name-illegal' => 'N\'eo ket aotreet ober gant an anv "$1" kuit da gemmeskañ gant un anv all pe da implijout an anv : $2.
 Grit gant un anv all mar plij.',
