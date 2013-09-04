@@ -538,7 +538,7 @@ $messages['bn'] = array(
  */
 $messages['br'] = array(
 	'antispoof-desc' => "Stankañ a ra, dre ur skript kemmesk, krouidigezh kontoù dezho anvioù implijer heñvel pe a c'hall sevel amjestregezh diwarno",
-	'antispoof-conflict-top' => 'Heñvel betek re eo an anv "$1" da hini {{PLURAL:$2|anv implijer|anv implijer}}:', # Fuzzy
+	'antispoof-conflict-top' => 'Heñvel betek re eo an anv "$1" da hini {{PLURAL:$2|anv implijer}}:',
 	'antispoof-conflict-bottom' => 'Dibabit un anv all mar plij.',
 	'antispoof-name-illegal' => 'N\'eo ket aotreet ober gant an anv "$1" kuit da gemmeskañ gant un anv all pe da implijout an anv : $2.
 Grit gant un anv all mar plij.',
@@ -2335,6 +2335,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Caio1478
  * @author Eduardo.mps
  * @author Helder.wiki
  * @author Heldergeovane
@@ -2344,10 +2345,11 @@ $messages['pt'] = array(
  */
 $messages['pt-br'] = array(
 	'antispoof-desc' => 'Impede a criação de contas com escrita mista, e nomes de usuário confusos e semelhantes',
-	'antispoof-conflict-top' => 'O nome "$1" é demasiado semelhante {{PLURAL:$2|ao da seguinte conta já existente|aos das seguintes $2 contas}}',
+	'antispoof-conflict-top' => 'O nome "$1" é demasiado semelhante {{PLURAL:$2|ao da seguinte conta já existente|aos das seguintes $2 contas}}', # Fuzzy
 	'antispoof-conflict-bottom' => 'Por favor, escolha outro nome.',
 	'antispoof-name-illegal' => 'O nome "$1" não é permitido para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): já existe $2.
 Por favor, escolha outro nome.',
+	'antispoof-bad-char' => '"$1" ($2)',
 	'antispoof-badtype' => 'Formato de dados incorreto',
 	'antispoof-empty' => 'Linha vazia',
 	'antispoof-blacklisted' => 'Contém o caractere $1, presente na lista negra',
