@@ -580,12 +580,13 @@ Molimo Vas da odaberete drugo ime.',
 /** Catalan (català)
  * @author Arnaugir
  * @author Pginer
+ * @author Qllach
  * @author SMP
  * @author Vriullop
  */
 $messages['ca'] = array(
 	'antispoof-desc' => "Bloca la creació de comptes amb alfabets barrejats i noms d'usuari similars o que portin a confusió",
-	'antispoof-conflict-top' => 'El nom «$1» és massa similar {{PLURAL:$2|al compte existent|als següents $2 comptes}}:',
+	'antispoof-conflict-top' => 'El nom "$1" és massa similar {{PLURAL:$2|al nom d\'usuari següent|als noms d\'usuari següents}}:',
 	'antispoof-conflict-bottom' => 'Escolliu si us plau un altre nom.',
 	'antispoof-name-illegal' => "No està permès usar el nom «$1» per evitar confusions o falsificacions amb els noms d'usuari: $2. Si us plau, escolliu un altre nom d'usuari.",
 	'antispoof-badtype' => 'Tipus de dades incorrecte',
@@ -2461,7 +2462,7 @@ $messages['ru'] = array(
  */
 $messages['rue'] = array(
 	'antispoof-desc' => 'Заборонює створїня конт котрых імена суть подобны іншым хоснователям, што комбінують різны тіпы писма, або што нароком хотять ошалити.',
-	'antispoof-conflict-top' => 'Мено „$1“ є дуже подобне {{PLURAL:$2|наступному уже єствуючому хосновательскому мену|наступным уже єствуючім хосновательскым менам}}:',
+	'antispoof-conflict-top' => 'Мено „$1“ є барз подобне {{PLURAL:$2|наступному хосновательскому імену|наступным хосновательскым іменам}}:',
 	'antispoof-conflict-bottom' => 'Просиме, звольте собі інше імя.',
 	'antispoof-name-illegal' => 'Мено „$1“ не є поволено створити, жебы ся не плело або ся не ужывало про наподобнёваня чуджіх хосновательскых мен: $2.
 Просиме, звольте собі інше мено.',
