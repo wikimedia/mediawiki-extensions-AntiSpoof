@@ -42,9 +42,11 @@ Please choose another name.',
  */
 $messages['qqq'] = array(
 	'antispoof-desc' => 'Used in [[Special:Version]] as the description for [[mw:Extension:AntiSpoof|Extension:AntiSpoof]]',
-	'antispoof-conflict-top' => 'Account creation error message because attempted username is too similar to existing username(s). Parameters:
-* $1 is the username that someone wanted to create
-* $2 are the usernames that already existed that triggered the error.',
+	'antispoof-conflict-top' => 'Account creation error message because attempted username is too similar to existing username(s).
+
+Parameters:
+* $1 - the username that someone wanted to create
+* $2 - number of usernames that triggered the error',
 	'antispoof-conflict-item' => '{{notranslate}}
 Parameters:
 * $1 - username',
@@ -2072,12 +2074,13 @@ $messages['ne'] = array(
 /** Dutch (Nederlands)
  * @author AvatarTeam
  * @author Erwin
+ * @author HanV
  * @author SPQRobin
  * @author Siebrand
  */
 $messages['nl'] = array(
 	'antispoof-desc' => 'Blokkeert het aanmaken van gebruikersnamen in meerdere schriften, en verwarrende en gelijkende gebruikersnamen',
-	'antispoof-conflict-top' => 'De naam "$1" lijkt te veel op de volgende bestaande {{PLURAL:$2|gebruiker|$2 gebruikers}}:',
+	'antispoof-conflict-top' => 'De naam "$1" lijkt te veel op de volgende bestaande {{PLURAL:$2|gebruikersnaam|$2 gebruikersnamen}}:',
 	'antispoof-conflict-bottom' => 'Kies een andere naam.',
 	'antispoof-name-illegal' => 'De naam "$1" is niet toegestaan om verwarring of gefingeerde gebruikersnamen te voorkomen: $2.
 Kies een andere naam.',
@@ -2336,6 +2339,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Caio1478
  * @author Eduardo.mps
  * @author Helder.wiki
@@ -2346,7 +2350,7 @@ $messages['pt'] = array(
  */
 $messages['pt-br'] = array(
 	'antispoof-desc' => 'Impede a criação de contas com escrita mista, e nomes de usuário confusos e semelhantes',
-	'antispoof-conflict-top' => 'O nome "$1" é demasiado semelhante {{PLURAL:$2|ao da seguinte conta já existente|aos das seguintes $2 contas}}', # Fuzzy
+	'antispoof-conflict-top' => 'O nome "$1" é demasiado semelhante {{PLURAL:$2|ao seguinte nome de usuário|aos seguintes nomes de usuário}}:',
 	'antispoof-conflict-bottom' => 'Por favor, escolha outro nome.',
 	'antispoof-name-illegal' => 'O nome "$1" não é permitido para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): já existe $2.
 Por favor, escolha outro nome.',
@@ -3193,6 +3197,7 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Gzdavidwong
+ * @author Justincheng12345
  * @author Liangent
  * @author Mark85296341
  * @author Simon Shek
@@ -3201,7 +3206,7 @@ $messages['zh-hans'] = array(
  */
 $messages['zh-hant'] = array(
 	'antispoof-desc' => '禁止使用混合文字、容易混淆或與已存在用戶名過於相似的用戶名創建帳戶',
-	'antispoof-conflict-top' => '名稱「$1」與{{PLURAL:$2|以下用戶|以下$2個用戶}}太相似：',
+	'antispoof-conflict-top' => '名稱「$1」與以下{{PLURAL:$2|用戶|$2個用戶}}太相似：',
 	'antispoof-conflict-bottom' => '請選擇其他名稱。',
 	'antispoof-name-illegal' => '使用者名稱「$1」容易與「$2」混淆，已被禁止使用。請使用其他使用者名稱。',
 	'antispoof-badtype' => '錯誤的數據類型',
