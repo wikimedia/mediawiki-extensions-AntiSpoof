@@ -1934,11 +1934,12 @@ $messages['mr'] = array(
 
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
+ * @author Aurora
  * @author Aviator
  */
 $messages['ms'] = array(
 	'antispoof-desc' => 'Menyekat pembukaan akaun dengan nama pengguna yang mengelirukan, menyerupai orang lain, atau terdiri daripada campuran sistem-sistem tulisan yang berlainan',
-	'antispoof-conflict-top' => 'Nama "$1" menyerupai {{PLURAL:$2|akaun berikut|$2 akaun berikut}}:',
+	'antispoof-conflict-top' => 'Nama "$1" menyerupai {{PLURAL:$2|nama pengguna|nama pengguna}} berikut:',
 	'antispoof-conflict-bottom' => 'Sila pilih nama lain.',
 	'antispoof-name-illegal' => 'Nama "$1" tidak dibenarkan kerana mengelirukan atau menipu: $2. Sila pilih nama lain.',
 	'antispoof-badtype' => 'Jenis data salah',
