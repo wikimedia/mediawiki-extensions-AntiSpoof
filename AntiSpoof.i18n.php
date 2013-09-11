@@ -853,10 +853,11 @@ $messages['eo'] = array(
  * @author Remember the dot
  * @author Sanbec
  * @author Titoxd
+ * @author VegaDark
  */
 $messages['es'] = array(
 	'antispoof-desc' => 'Previene la creación de cuentas de usuario nuevas que tengan nombres confusos, similares a nombres existentes, o con alfabetos mixtos.',
-	'antispoof-conflict-top' => 'El nombre «$1» es muy similar al de {{PLURAL:$2|la siguiente cuenta|las siguientes $2 cuentas}}:',
+	'antispoof-conflict-top' => 'El nombre «$1» es muy similar al de {{PLURAL:$2|la siguiente cuenta|las siguientes cuentas}}:',
 	'antispoof-conflict-bottom' => 'Elige otro nombre, por favor.',
 	'antispoof-name-illegal' => 'El nombre «$1» no está permitido para evitar nombres de usuario confusos o suplantaciones: $2. Por favor, elige otro nombre.',
 	'antispoof-badtype' => 'Tipo de dato erróneo',
