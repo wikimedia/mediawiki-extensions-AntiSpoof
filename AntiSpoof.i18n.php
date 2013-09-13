@@ -937,12 +937,13 @@ $messages['fa'] = array(
  * @author Crt
  * @author Linnea
  * @author Nike
+ * @author Samoasambia
  * @author Silvonen
  * @author Str4nd
  */
 $messages['fi'] = array(
 	'antispoof-desc' => 'Estää käyttäjätunnusten luonnin, jos ne sisältävät eri kirjoitusjärjestelmiä, harhaanjohtavia tai samankaltaisia käyttäjätunnuksia.',
-	'antispoof-conflict-top' => 'Tunnus ”$1” on liian samankaltainen kuin {{PLURAL:$2|olemassa oleva tunnus|seuraavat $2 tunnusta}}:',
+	'antispoof-conflict-top' => 'Tunnus "$1" on liian samankaltainen kuin {{PLURAL:$2|olemassa oleva tunnus|seuraavat $2 tunnusta}}:',
 	'antispoof-conflict-bottom' => 'Valitse toinen tunnus.',
 	'antispoof-name-illegal' => 'Tunnusta ”$1” ei sallita, koska $2. Hämäävien tai huijaustarkoitukseen sopivien tunnusten luonti on estetty. Valitse toinen tunnus.',
 	'antispoof-badtype' => 'Virheellinen tietotyyppi',
@@ -2401,7 +2402,7 @@ $messages['qu'] = array(
  */
 $messages['ro'] = array(
 	'antispoof-desc' => 'Blochează crearea de conturi cu nume de utilizator cu LiTeRe AmEsTeCate, confuzante sau similare',
-	'antispoof-conflict-top' => 'Numele „$1” este prea asemănător cu {{PLURAL:$2|următorul cont deja existent|următoarele $2 conturi}}:',
+	'antispoof-conflict-top' => 'Numele „$1” este prea asemănător cu {{PLURAL:$2|următorul cont deja existent|următoarele $2 conturi|următoarele $2 de conturi}}:',
 	'antispoof-conflict-bottom' => 'Vă rugăm să alegeți alt nume.',
 	'antispoof-name-illegal' => 'Numele „$1” nu este permis pentru a preveni confuziile cu numele: $2. Vă rugăm să alegeți un alt nume de utilizator.',
 	'antispoof-badtype' => 'Tip de date greșit',
