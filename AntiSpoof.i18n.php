@@ -1160,12 +1160,13 @@ $messages['hak'] = array(
 
 /** Hebrew (עברית)
  * @author Amire80
+ * @author Guycn1
  * @author Rotem Liss
  */
 $messages['he'] = array(
 	'antispoof-desc' => 'לא מאפשר יצירה של חשבונות עם סוגי כתב מעורבים, חשבונות עם שמות מבלבלים ושמות משתמש דומים',
-	'antispoof-conflict-top' => 'השם "$1" דומה מדי {{PLURAL:$2|לחשבון הקיים הבא|ל־$2 החשבונות הקיימים הבאים}}:',
-	'antispoof-conflict-bottom' => 'אנא בחרו שם אחר.',
+	'antispoof-conflict-top' => 'שם המשתמש "$1" דומה מדי {{PLURAL:$2|לחשבון הקיים הבא|לשם המשתמש של $2 החשבונות הקיימים הבאים}}:',
+	'antispoof-conflict-bottom' => 'נא לבחור שם אחר.',
 	'antispoof-name-illegal' => 'לא ניתן לבחור את שם המשתמש "$1" כדי למנוע שמות משתמש מבלבלים: $2.
 אנא בחרו שם משתמש אחר.',
 	'antispoof-badtype' => 'סוג מידע בעייתי',
