@@ -2916,10 +2916,11 @@ $messages['tk'] = array(
 
 /** Tagalog (Tagalog)
  * @author AnakngAraw
+ * @author Sky Harbor
  */
 $messages['tl'] = array(
-	'antispoof-desc' => 'Humahadlang sa paglikha ng mga akawnt/kuwentang may pinaghalong panitik, nakakalito at magkakatulad na mga pangalan ng tagagamit',
-	'antispoof-conflict-top' => 'Ang pangalang "$1" ay may labis na pagkakatulad sa {{PLURAL:$2|umiiral na kuwenta/akawnt| sumusunod na $2 mga kuwenta/akawnt}}:',
+	'antispoof-desc' => 'Humaharang sa paglikha ng mga kuwentang may pinaghalong panitik, nakakalito at magkakatulad na mga pangalan ng tagagamit',
+	'antispoof-conflict-top' => 'Ang pangalang "$1" labis na magkatulad sa {{PLURAL:$2|sumusunod na kuwenta|mga sumusunod na kuwenta}}:',
 	'antispoof-conflict-bottom' => 'Mangyaring pumili lamang ng iba pang pangalan.',
 	'antispoof-name-illegal' => 'Hindi pinapayagan ang pangalang "$1" upang maiwasan ang nakalilito o mapanlilang na mga pangalan ng tagagamit: $2.
 Mangyaring pumili ng iba pang pangalan.',
