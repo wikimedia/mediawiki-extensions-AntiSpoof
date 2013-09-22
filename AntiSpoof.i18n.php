@@ -672,6 +672,7 @@ $messages['cy'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Dittaeva
  * @author Froztbyte
  * @author Jan Friberg
@@ -681,7 +682,7 @@ $messages['cy'] = array(
  */
 $messages['da'] = array(
 	'antispoof-desc' => 'Blokerer for oprettelse af konti med blandede tegnsæt, forvirrende eller lignende brugernavne',
-	'antispoof-conflict-top' => 'Navnet "$1" er for ens med {{PLURAL:$2|den eksisterende konto|de følgende $2 konti}}:',
+	'antispoof-conflict-top' => 'Navnet "$1" ligner for meget {{PLURAL:$2|den eksisterende konto|de følgende $2 konti}}:',
 	'antispoof-conflict-bottom' => 'Vælg et andet navn.',
 	'antispoof-name-illegal' => 'Navnet "$1" er ikke tilladt for at forhindre forvirrende eller efterlignede brugernavne: $2. Vælg venligst et andet navn.',
 	'antispoof-badtype' => 'Forkert datatype',
@@ -2445,12 +2446,13 @@ Pe piacere scacchie 'n'otre nome.",
 /** Russian (русский)
  * @author DCamer
  * @author Kaganer
+ * @author Okras
  * @author Van de Bugger
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'antispoof-desc' => 'Запрещает создание учётных записей с именами, содержащими символы из разных алфавитов, вводящих в заблуждение и похожих на имена других участников.',
-	'antispoof-conflict-top' => 'Имя «$1» слишком похоже на {{PLURAL:$2|уже существующее|уже существующие|уже существующие}}:',
+	'antispoof-conflict-top' => 'Имя «$1» слишком похоже на следующие уже {{PLURAL:$2|имя пользователя|имена пользователей}}:',
 	'antispoof-conflict-bottom' => 'Пожалуйста, выберите другое имя.',
 	'antispoof-name-illegal' => 'Использование имени «$1» запрещено, так как оно $2. Пожалуйста, выберите другое имя.',
 	'antispoof-badtype' => 'Неправильный тип данных',
