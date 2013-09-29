@@ -829,7 +829,7 @@ $messages['en-gb'] = array(
  */
 $messages['eo'] = array(
 	'antispoof-desc' => 'Blokas la kreadon de kontoj kun miksitaj alfabetaj, konfuzemaj, kaj similaj salutnomoj',
-	'antispoof-conflict-top' => 'La nomo "$1" tro similas {{PLURAL:$2|la ekzistantan konton|la jenajn $2 kontojn}}:',
+	'antispoof-conflict-top' => 'La nomo "$1" tro similas al la {{PLURAL:$2|jenan konton|jenajn $2 kontojn}}:',
 	'antispoof-conflict-bottom' => 'Bonvolu elekti alian nomon.',
 	'antispoof-name-illegal' => 'La nomo "$1" ne estas permesita por preventi konfuzigemajn aŭ trompajn uzantnomojn: $2. Bonvolu elekti alian nomon.',
 	'antispoof-badtype' => 'Malvalida datumtipo',
