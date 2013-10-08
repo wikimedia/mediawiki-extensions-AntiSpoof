@@ -742,11 +742,12 @@ $messages['de-formal'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Gorizon
  * @author Xoser
  */
 $messages['diq'] = array(
 	'antispoof-desc' => 'Hesaban pê skriptê mîxî, nameyê munaneyî bloke keno',
-	'antispoof-conflict-top' => 'Ena nameyê "$1"î ena {{PLURAL:$2|the existing account|the following $2 accounts}} rê zaf nizdiyo:', # Fuzzy
+	'antispoof-conflict-top' => 'Ena nameyé "$1"i ena {{PLURAL:$2|Namey karberi|namey karbera}} zaf paweno:',
 	'antispoof-conflict-bottom' => 'Ma rica keno ke yewno nameyê karberî mucneno.',
 	'antispoof-name-illegal' => 'Nameyê "$1"î nieşkeno nameyê karberî ke şweş keno înan vindarne: $2.
 Yewna name weçine.',
