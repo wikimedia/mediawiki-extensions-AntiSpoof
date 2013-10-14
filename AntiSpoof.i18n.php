@@ -2275,7 +2275,7 @@ $messages['pl'] = array(
  */
 $messages['pms'] = array(
 	'antispoof-desc' => 'A blòca la creassion ëd cont con nòm utent mës-cià a script, confundent e via parèj',
-	'antispoof-conflict-top' => 'Ël nòm "$1" a smija tròp {{PLURAL:$2|al cont esistent|a sti $2 cont-sì}}:', # Fuzzy
+	'antispoof-conflict-top' => 'Ël nòm «$1» a smija tròp a {{PLURAL:$2|lë stranòm sì-dapress|a jë stranòm sì-dapress}}:',
 	'antispoof-conflict-bottom' => "Për piasì sern n'àutr nòm.",
 	'antispoof-name-illegal' => 'Lë stranòm "$1" as peul nen dovresse për evité confusion e/ò che cheidun as fassa passé për: $2. Për piasì, ch\'as në sërna n\'àotr.',
 	'antispoof-badtype' => 'Sòrt ëd dat nen bon-a',
