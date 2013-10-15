@@ -912,6 +912,7 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Ebraminio
  * @author Hooshmand.hasannia
  * @author Huji
  * @author Omidh
@@ -921,7 +922,7 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'antispoof-desc' => 'از ایجاد حساب‌های کاربری با حروف مختلط، گیج‌کننده یا مشابه با دیگر حساب‌های کاربری جلوگیری می‌کند',
-	'antispoof-conflict-top' => 'نام "$1" خیلی به {{PLURAL:$2|این حساب کاربری|این حساب های کاربری}} شباهت دارد.',
+	'antispoof-conflict-top' => 'نام «$1» خیلی به {{PLURAL:$2|این حساب کاربری|این حساب‌های کاربری}} شباهت دارد.',
 	'antispoof-conflict-bottom' => 'لطفاً نام دیگری انتخاب کنید.',
 	'antispoof-name-illegal' => 'نام «$1» به دلیل جلوگیری از نام‌های کاربری سردرگم‌کننده یا مسخره مجاز نیست: $2. لطفاً نام دیگری انتخاب کنید.',
 	'antispoof-badtype' => 'داده با نوع نامناسب',
@@ -2275,7 +2276,7 @@ $messages['pl'] = array(
  */
 $messages['pms'] = array(
 	'antispoof-desc' => 'A blòca la creassion ëd cont con nòm utent mës-cià a script, confundent e via parèj',
-	'antispoof-conflict-top' => 'Ël nòm "$1" a smija tròp {{PLURAL:$2|al cont esistent|a sti $2 cont-sì}}:', # Fuzzy
+	'antispoof-conflict-top' => 'Ël nòm «$1» a smija tròp a {{PLURAL:$2|lë stranòm sì-dapress|a jë stranòm sì-dapress}}:',
 	'antispoof-conflict-bottom' => "Për piasì sern n'àutr nòm.",
 	'antispoof-name-illegal' => 'Lë stranòm "$1" as peul nen dovresse për evité confusion e/ò che cheidun as fassa passé për: $2. Për piasì, ch\'as në sërna n\'àotr.',
 	'antispoof-badtype' => 'Sòrt ëd dat nen bon-a',
