@@ -1759,6 +1759,14 @@ $messages['lo'] = array(
 	'antispoof-tooshort' => 'ຊື່ຫຍໍ້ສັ້ນໂພດ',
 );
 
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'antispoof-badtype' => 'نوع دونسمنی  گن',
+	'antispoof-empty' => 'رشته حالی',
+);
+
 /** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Garas
