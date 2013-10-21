@@ -329,12 +329,13 @@ $messages['azb'] = array(
 );
 
 /** Bashkir (башҡортса)
+ * @author Alfiya55
  * @author Assele
  * @author Haqmar
  */
 $messages['ba'] = array(
 	'antispoof-desc' => 'Төрлө яҙма системаларының хәрефтәренән торған, яңылыштырырлыҡ һәм башҡа ҡатнашыусы исемдәренән оҡшаш исемле иҫәп яҙмаларҙы булдырыуҙы тыя.',
-	'antispoof-conflict-top' => '"$1" исеме түбәндәге {{PLURAL:$2|иҫәп яҙмаһына|$2 иҫәп яҙмаһына }} бигерәк оҡшаш:', # Fuzzy
+	'antispoof-conflict-top' => '"$1" исеме булған {{PLURAL:$2|файҙаланыусы исеменә}} бигерәк оҡшаш:',
 	'antispoof-conflict-bottom' => 'Зинһар, башҡа исем һайлағыҙ.',
 	'antispoof-name-illegal' => '"$1" исемен ҡүлланыу түбәндәге оҡшаш исемдәр менән бутамау өсөн тыйылған: $2.
 Зинһар, башҡа исем һайлағыҙ.',
@@ -607,9 +608,11 @@ $messages['ca'] = array(
 
 /** Chechen (нохчийн)
  * @author Sasan700
+ * @author Умар
  */
 $messages['ce'] = array(
 	'antispoof-ignore' => 'Терго ма йе цхьатерра цlераш йуй хьажарна',
+	'right-override-antispoof' => 'цхьатера цӀераш юй хьажар тергалцадар',
 );
 
 /** Sorani Kurdish (کوردی)
