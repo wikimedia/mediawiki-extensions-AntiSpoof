@@ -2393,7 +2393,7 @@ Por favor, escolha outro nome.',
  */
 $messages['qu'] = array(
 	'antispoof-desc' => "Chaqrusqa sananchayuq, pantachiq, musphachiq rakiquna suti kamariyta hark'an",
-	'antispoof-conflict-top' => '"$1" nisqa sutiqa {{PLURAL:$2|kay kachkaqña rakiqunapman|kay $2 kachkaqña rakiqunakunapman}} nisyu kaqllam kachkan:', # Fuzzy
+	'antispoof-conflict-top' => '"$1" nisqa sutiqa {{PLURAL:$2|kay rakiqunapman|kay rakiqunakunapman}} nisyu kaqllam kachkan:',
 	'antispoof-conflict-bottom' => 'Ama hina kaspa, huk hina sutita akllakuy.',
 	'antispoof-name-illegal' => 'Nisqayki "$1" sutiqa manam saqillasqachu, suti pantachiyta hark\'anapaq: "$2". Ama hina kaspa, huk sutita akllay.',
 	'antispoof-badtype' => 'Willa layaqa manam allinchu',
