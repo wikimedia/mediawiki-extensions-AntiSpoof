@@ -951,7 +951,7 @@ $messages['fa'] = array(
  */
 $messages['fi'] = array(
 	'antispoof-desc' => 'Estää käyttäjätunnusten luonnin, jos ne sisältävät eri kirjoitusjärjestelmiä, harhaanjohtavia tai samankaltaisia käyttäjätunnuksia.',
-	'antispoof-conflict-top' => 'Tunnus "$1" on liian samankaltainen kuin {{PLURAL:$2|olemassa oleva tunnus|seuraavat $2 tunnusta}}:',
+	'antispoof-conflict-top' => 'Tunnus ”$1” on liian samankaltainen kuin {{PLURAL:$2|olemassa oleva tunnus|seuraavat $2 tunnusta}}:',
 	'antispoof-conflict-bottom' => 'Valitse toinen tunnus.',
 	'antispoof-name-illegal' => 'Tunnusta ”$1” ei sallita, koska $2. Hämäävien tai huijaustarkoitukseen sopivien tunnusten luonti on estetty. Valitse toinen tunnus.',
 	'antispoof-badtype' => 'Virheellinen tietotyyppi',
