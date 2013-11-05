@@ -1766,8 +1766,14 @@ $messages['lo'] = array(
  * @author Mogoeilor
  */
 $messages['lrc'] = array(
+	'antispoof-conflict-top' => 'نوم که فره د{{PLURAL:$2|username|usernames}}: نزیکه', # Fuzzy
+	'antispoof-conflict-bottom' => 'لطفن یه نوم هنی انتخاو بکید',
 	'antispoof-badtype' => 'نوع دونسمنی  گن',
 	'antispoof-empty' => 'رشته حالی',
+	'antispoof-blacklisted' => 'شومل کاراکتریانوم گه سی $1',
+	'antispoof-combining' => 'وا شومل بیئن نشون $1 شرو بوئه',
+	'antispoof-unassigned' => 'شومل کاراکتریا بی نشون $1',
+	'antispoof-noletters' => 'هیش واجی دش نی',
 );
 
 /** Lithuanian (lietuvių)
