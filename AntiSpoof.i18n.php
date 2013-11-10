@@ -1516,7 +1516,7 @@ Mangga pilihen jeneng liya.',
  */
 $messages['ka'] = array(
 	'antispoof-desc' => 'ბლოკავს ახალი ანგარიშების გახსნას შერეული სკრიპტით, შეცდომითი და ერთიდაიგივე მომხმარებლის სახელების შეთხვევაში',
-	'antispoof-conflict-top' => 'სახელი „$1“ ძალიან ჰგავს {{PLURAL:$2|არსებულ ანგარიშს|შემდეგ $2 ანგარიშს}}:', # Fuzzy
+	'antispoof-conflict-top' => 'The name "$1" is too similar to the following {{PLURAL:$2|username|usernames}}:',
 	'antispoof-conflict-bottom' => 'გთხოვთ სხვა სახელი გამოიყენოთ.',
 	'antispoof-name-illegal' => 'სახელი „$1“ არაა ნებადართული, რათა არ იყოს არეული სხვა სახელთან: $2.
 გთხოვთ აირჩიოთ სხვა სახელი.',
