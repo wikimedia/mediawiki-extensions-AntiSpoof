@@ -1871,6 +1871,7 @@ $messages['mk'] = array(
 	'antispoof-conflict-bottom' => 'Одберете друго име',
 	'antispoof-name-illegal' => 'Името „$1“ не е дозволено за да сес пречат збунувачки имиња кои се злоупотребливо слични: $2.
 Одберете друго име.',
+	'antispoof-bad-char' => '„$1“ ($2)',
 	'antispoof-badtype' => 'Грешен тип на податоци',
 	'antispoof-empty' => 'Празна низа',
 	'antispoof-blacklisted' => 'Го содржи забранетиот знак $1',
