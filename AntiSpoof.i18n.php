@@ -773,7 +773,7 @@ Yewna name weçine.',
  */
 $messages['dsb'] = array(
 	'antispoof-desc' => 'Blokěrujo napóranje kontow z měšanym pismom, mjerwjece a pódobne wužywarske mjenja',
-	'antispoof-conflict-top' => 'Mě "$1" jo pśepódobny {{PLURAL:$2|eksistěrujucemu kontoju|slědujucyma $2 kontoma|slědujucym kontam|slědujucym kontam}}:', # Fuzzy
+	'antispoof-conflict-top' => 'Mě "$1" jo pśepódobny {{PLURAL:$2|slědujucemu wužywarskemu mjenjeju|slědujucyma wužywarskima mjenjoma|slědujucym wužywarskim mjenjam}}:',
 	'antispoof-conflict-bottom' => 'Pšosym wubjeŕ druge mě.',
 	'antispoof-name-illegal' => 'Mě "$1" se njedowólujo, aby se mjerwjece abo manipulěrowane wužywarske mjenja wopinuli: $2. Wubjeŕ pšosym druge mě.',
 	'antispoof-badtype' => 'Wopacny datowy typ',
@@ -1261,7 +1261,7 @@ $messages['hr'] = array(
  */
 $messages['hsb'] = array(
 	'antispoof-desc' => 'Blokuje wutworjenje kontow z měšanymi pismami, skonfuznjacymi a podobnymi wužiwarskimi mjenami',
-	'antispoof-conflict-top' => 'Mjeno "$1" je {{PLURAL:$2|eksistowacemu kontu|slědowacymaj $2 kontomaj|slědowacym $2 kontam|slědowacym kontam}} přepodobne:', # Fuzzy
+	'antispoof-conflict-top' => 'Mjeno "$1" je přepodobny {{PLURAL:$2|slědowacemu wužiwarskemu mjenu|slědowacymaj wužiwarskimaj mjenomaj|slědowacym wužiwarskim mjenam}}:',
 	'antispoof-conflict-bottom' => 'Prošu wubjer druhe mjeno.',
 	'antispoof-name-illegal' => 'Požadane wužiwarske mjeno „$1” njeje dowolene. Přičina: $2<br />Prošu wubjer druhe wužiwarske mjeno.',
 	'antispoof-badtype' => 'Njepłaćiwy datowy typ',
