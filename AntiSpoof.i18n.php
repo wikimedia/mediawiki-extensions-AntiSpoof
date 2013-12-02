@@ -1129,12 +1129,13 @@ $messages['gsw'] = array(
 );
 
 /** Gujarati (ગુજરાતી)
+ * @author Ashok modhvadia
  * @author Dsvyas
  * @author KartikMistry
  */
 $messages['gu'] = array(
 	'antispoof-desc' => 'મિક્સ્ડ-સ્ક્રિપ્ટ, ગૂંચવણ અને સમાન સભ્યનામો વાળા ખાતાં ખોલવા પર પ્રતિબંધ મુકે છે',
-	'antispoof-conflict-top' => 'ઈચ્છિત સભ્યનામ "$1" {{PLURAL:$2|પહેલેથી અસ્તિત્વમાં હોય તેવા સભ્યનામ|નીચેના $2 સભ્યનામ}} સાથે ઘણું મળતું આવે છે:', # Fuzzy
+	'antispoof-conflict-top' => 'ઈચ્છિત સભ્યનામ "$1" નીચેના {{PLURAL:$2|સભ્યનામ|સભ્યનામો}} સાથે ઘણું મળતું આવે છે:',
 	'antispoof-conflict-bottom' => 'મહેરબાની કરી બીજું નામ પસંદ કરો.',
 	'antispoof-name-illegal' => 'સંભવત: ગૂંચવણ કે છેતરામણી જનક સભ્યનામ $2 અટકાવવાના હેતુથી સભ્યનામ "$1"ની છૂટ નથી.
 કૃપા કરી અન્ય નામ પસંદ કરો.',
