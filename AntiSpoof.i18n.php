@@ -629,7 +629,7 @@ $messages['co'] = array(
 	'antispoof-badtype' => 'Tipu gattivu di dati',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Danny B.
  * @author Li-sung
  * @author Mormegil
@@ -1170,6 +1170,7 @@ $messages['hak'] = array(
 /** Hebrew (עברית)
  * @author Amire80
  * @author Guycn1
+ * @author Guycn2
  * @author Rotem Liss
  */
 $messages['he'] = array(
