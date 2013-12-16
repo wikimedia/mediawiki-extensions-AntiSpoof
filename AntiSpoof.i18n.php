@@ -2980,7 +2980,7 @@ $messages['to'] = array(
  */
 $messages['tr'] = array(
 	'antispoof-desc' => 'Karışık-betikli, kafa karıştırıcı ve benzer kullanıcı adlarıyla hesap oluşturulmasını engeller',
-	'antispoof-conflict-top' => '"$1" adı, şu {{PLURAL:$2|mevcut hesaba|$2 hesaba}} çok benziyor:', # Fuzzy
+	'antispoof-conflict-top' => '"$1" adı, şu {{PLURAL:$2|kullanıcı adına|kullanıcı adlarına}} çok benziyor:',
 	'antispoof-conflict-bottom' => 'Lütfen başka bir isim seçin.',
 	'antispoof-name-illegal' => '$2 hesabıyla karışmaması için "$1" ismine izin verilmemektedir. Lütfen başka bir kullanıcı adı seçiniz.',
 	'antispoof-badtype' => 'Bozuk veri tipi',
@@ -2988,6 +2988,7 @@ $messages['tr'] = array(
 	'antispoof-blacklisted' => '$1 Kara listeye karakteri içeriyor',
 	'antispoof-combining' => '$1 Kaynaştırma işaretiyle başlıyor',
 	'antispoof-unassigned' => '$1 Atanmamış ya da onaylanmamış karakter içeriyor',
+	'antispoof-deprecated' => '$1 eski karakterini içeriyor',
 	'antispoof-noletters' => 'Hiç harf içermez',
 	'antispoof-mixedscripts' => 'Uyumsuz karışık betikler içeriyor',
 	'antispoof-tooshort' => 'Standartlaştırılmış isim çok kısa',
