@@ -2216,10 +2216,13 @@ $messages['os'] = array(
 );
 
 /** Punjabi (ਪੰਜਾਬੀ)
+ * @author Satdeep gill
  * @author TariButtar
  */
 $messages['pa'] = array(
 	'antispoof-conflict-bottom' => 'ਮਿਹਰਬਾਨੀ ਕਰਕੇ ਹੋਰ ਨਾਮ ਚੁਣੋ।',
+	'antispoof-empty' => 'ਖਾਲੀ ਸਟਰਿੰਗ',
+	'antispoof-noletters' => 'ਇਸ ਵਿੱਚ ਕੋਈ ਅੱਖਰ ਮੌਜੂਦ ਨਹੀਂ ਹਨ',
 );
 
 /** Pangasinan (Pangasinan)
