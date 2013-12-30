@@ -1692,9 +1692,10 @@ $messages['la'] = array(
 /** Ladino (Ladino)
  * @author Jewbask
  * @author Maor X
+ * @author Menachem.Moreira
  */
 $messages['lad'] = array(
-	'antispoof-conflict-top' => 'El nombre "$1" es muy paresido a {{PLURAL:$2|el sigiente nombre de usador|los sigientes $2 nombres de usador}}:', # Fuzzy
+	'antispoof-conflict-top' => 'El nombre "$1" es muy paresido a los sigientes{{PLURAL:$2|nombre de usador|nombres de usador}}:',
 	'antispoof-conflict-bottom' => 'Por hatir, eskoje otro nombre de usador',
 	'antispoof-empty' => 'Teksto vazio',
 );
@@ -2271,13 +2272,14 @@ Nemmän onare Noame.',
 
 /** Polish (polski)
  * @author BeginaFelicysym
+ * @author Chrumps
  * @author Derbeth
  * @author Mikołka
  * @author Sp5uhe
  */
 $messages['pl'] = array(
 	'antispoof-desc' => 'Blokuje tworzenie kont użytkowników o nazwach podobnych do już istniejących lub dezorientujących',
-	'antispoof-conflict-top' => 'Nazwa „$1” jest zbyt podobna do {{PLURAL:$2|nazwy istniejącego konta|nazw następujących $2 kont}}:', # Fuzzy
+	'antispoof-conflict-top' => 'Nazwa „$1” jest zbyt podobna do {{PLURAL:$2|następującej nazwy konta|następujących nazw kont}}:',
 	'antispoof-conflict-bottom' => 'Proszę wybrać inną nazwę.',
 	'antispoof-name-illegal' => 'Wybierz inną nazwę, ponieważ „$1” nie może być użyta ze względu na podobieństwo do nazwy innego użytkownika „$2”.',
 	'antispoof-badtype' => 'Zły typ danych',
