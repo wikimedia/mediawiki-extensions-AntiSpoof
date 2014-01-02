@@ -535,6 +535,13 @@ $messages['bn'] = array(
 	'right-override-antispoof' => 'স্পুফিং চেক ওভাররাইড করো',
 );
 
+/** Bakhtiari (بختياري)
+ * @author Bonevarluri
+ */
+$messages['bqi'] = array(
+	'antispoof-empty' => 'رشنه حالی',
+);
+
 /** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
@@ -689,16 +696,16 @@ $messages['da'] = array(
 	'antispoof-conflict-top' => 'Navnet "$1" ligner for meget {{PLURAL:$2|den eksisterende konto|de følgende $2 konti}}:',
 	'antispoof-conflict-bottom' => 'Vælg et andet navn.',
 	'antispoof-name-illegal' => 'Navnet "$1" er ikke tilladt for at forhindre forvirrende eller efterlignede brugernavne: $2. Vælg venligst et andet navn.',
-	'antispoof-badtype' => 'Forkert datatype',
+	'antispoof-badtype' => 'Ugyldig datatype',
 	'antispoof-empty' => 'Tom streng',
-	'antispoof-blacklisted' => 'Indeholder sortlistet tegn $1',
+	'antispoof-blacklisted' => 'Indeholder det sortlistede tegn $1',
 	'antispoof-combining' => 'Begynder med kombinationstegnet $1',
 	'antispoof-unassigned' => 'Indeholder det ikke-tildelte tegn $1',
 	'antispoof-deprecated' => 'Indeholder det udfasede tegn $1',
-	'antispoof-noletters' => 'Indeholder ikke bogstaver',
+	'antispoof-noletters' => 'Indeholder ingen bogstaver',
 	'antispoof-mixedscripts' => 'Indeholder inkompatible, blandede tegnsæt',
 	'antispoof-tooshort' => 'Navnet er for kort',
-	'antispoof-ignore' => 'Ignorer spoofing kontrol',
+	'antispoof-ignore' => 'Ignorér misbrugskontrol',
 	'right-override-antispoof' => 'Omgå kontrollerne af brugernavne',
 );
 
@@ -1767,10 +1774,11 @@ $messages['lo'] = array(
 );
 
 /** لوری (لوری)
+ * @author Bonevarluri
  * @author Mogoeilor
  */
 $messages['lrc'] = array(
-	'antispoof-conflict-top' => 'نوم که فره د{{PLURAL:$2|username|usernames}}: نزیکه', # Fuzzy
+	'antispoof-conflict-top' => 'نوم که فره د{{جمی:$2|کارور|کاروریا}}: نزیکه', # Fuzzy
 	'antispoof-conflict-bottom' => 'لطفن یه نوم هنی انتخاو بکید',
 	'antispoof-badtype' => 'نوع دونسمنی  گن',
 	'antispoof-empty' => 'رشته حالی',
@@ -1778,6 +1786,8 @@ $messages['lrc'] = array(
 	'antispoof-combining' => 'وا شومل بیئن نشون $1 شرو بوئه',
 	'antispoof-unassigned' => 'شومل کاراکتریا بی نشون $1',
 	'antispoof-noletters' => 'هیش واجی دش نی',
+	'antispoof-ignore' => 'د نظر نگرتن وارسیا الکی',
+	'right-override-antispoof' => 'باطل کردن وارسیا الکی',
 );
 
 /** Lithuanian (lietuvių)
