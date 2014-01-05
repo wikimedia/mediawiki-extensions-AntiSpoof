@@ -1785,7 +1785,9 @@ $messages['lrc'] = array(
 	'antispoof-blacklisted' => 'شومل کاراکتریانوم گه سی $1',
 	'antispoof-combining' => 'وا شومل بیئن نشون $1 شرو بوئه',
 	'antispoof-unassigned' => 'شومل کاراکتریا بی نشون $1',
+	'antispoof-deprecated' => 'شومل کاراکتریا بی نشون $1',
 	'antispoof-noletters' => 'هیش واجی دش نی',
+	'antispoof-mixedscripts' => 'شومل نیسه یا شی وسه ناسازگار',
 	'antispoof-ignore' => 'د نظر نگرتن وارسیا الکی',
 	'right-override-antispoof' => 'باطل کردن وارسیا الکی',
 );
@@ -2484,6 +2486,7 @@ Pe piacere scacchie 'n'otre nome.",
 );
 
 /** Russian (русский)
+ * @author Amire80
  * @author DCamer
  * @author Kaganer
  * @author Okras
@@ -2492,7 +2495,7 @@ Pe piacere scacchie 'n'otre nome.",
  */
 $messages['ru'] = array(
 	'antispoof-desc' => 'Запрещает создание учётных записей с именами, содержащими символы из разных алфавитов, вводящих в заблуждение и похожих на имена других участников.',
-	'antispoof-conflict-top' => 'Имя «$1» слишком похоже на следующие уже {{PLURAL:$2|1=имя пользователя|имена пользователей}}:', # Fuzzy
+	'antispoof-conflict-top' => 'Имя «$1» слишком похоже на следующие {{PLURAL:$2|1=имя пользователя|имена пользователей}}:',
 	'antispoof-conflict-bottom' => 'Пожалуйста, выберите другое имя.',
 	'antispoof-name-illegal' => 'Использование имени «$1» запрещено, так как оно $2. Пожалуйста, выберите другое имя.',
 	'antispoof-badtype' => 'Неправильный тип данных',
