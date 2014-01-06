@@ -1788,6 +1788,7 @@ $messages['lrc'] = array(
 	'antispoof-deprecated' => 'شومل کاراکتریا بی نشون $1',
 	'antispoof-noletters' => 'هیش واجی دش نی',
 	'antispoof-mixedscripts' => 'شومل نیسه یا شی وسه ناسازگار',
+	'antispoof-tooshort' => 'نوم قانونی فره کؤچک هئ',
 	'antispoof-ignore' => 'د نظر نگرتن وارسیا الکی',
 	'right-override-antispoof' => 'باطل کردن وارسیا الکی',
 );
