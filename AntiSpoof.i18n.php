@@ -1212,7 +1212,7 @@ $messages['hi'] = array(
 	'antispoof-desc' => 'मिश्रित लिपि और संभ्रम पैदा करने वाले तथा मिलते-जुलते सदस्यनामों के प्रयोग पर रोक लगाता है।',
 	'antispoof-conflict-top' => 'धोखा-संघर्ष टॉप विरोधी', # Fuzzy
 	'antispoof-conflict-bottom' => 'कृपया कोई अन्य नाम चुनिये ।',
-	'antispoof-name-illegal' => 'भ्रामक नामों को रोकने के लिए नाम "$1" रखना मन है: $2
+	'antispoof-name-illegal' => 'भ्रामक नामों को रोकने के लिए नाम "$1" रखना मना है: $2
 कृपया कोई अन्य नाम चुनिये।',
 	'antispoof-badtype' => 'गलत डाटा प्रकार',
 	'antispoof-empty' => 'खाली स्ट्रिंग',
