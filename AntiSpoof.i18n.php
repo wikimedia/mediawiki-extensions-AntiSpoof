@@ -1778,6 +1778,7 @@ $messages['lo'] = array(
  * @author Mogoeilor
  */
 $messages['lrc'] = array(
+	'antispoof-desc' => 'مال ونیا وا اسکریپ شیوسه دروس بیه،نومیا کاروری گیژکننه و چی یک',
 	'antispoof-conflict-top' => 'نوم که فره د{{جمی:$2|کارور|کاروریا}}: نزیکه', # Fuzzy
 	'antispoof-conflict-bottom' => 'لطفن یه نوم هنی انتخاو بکید',
 	'antispoof-badtype' => 'نوع دونسمنی  گن',
