@@ -1703,7 +1703,7 @@ $messages['la'] = array(
  */
 $messages['lad'] = array(
 	'antispoof-conflict-top' => 'El nombre "$1" es muy paresido a los sigientes{{PLURAL:$2|nombre de usador|nombres de usador}}:',
-	'antispoof-conflict-bottom' => 'Por hatir, eskoje otro nombre de usador',
+	'antispoof-conflict-bottom' => 'Por hatir, eskoje otro nombre.',
 	'antispoof-empty' => 'Teksto vazio',
 );
 
