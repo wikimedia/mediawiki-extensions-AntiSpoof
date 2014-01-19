@@ -2620,6 +2620,7 @@ $messages['scn'] = array(
 );
 
 /** Serbo-Croatian (srpskohrvatski / српскохрватски)
+ * @author Kolega2357
  * @author OC Ripper
  */
 $messages['sh'] = array(
@@ -2634,7 +2635,7 @@ Molimo Vas da odaberete drugo ime.',
 	'antispoof-combining' => 'Počinje sa znakom kombinacije', # Fuzzy
 	'antispoof-unassigned' => 'Sadrži nedodijeljen ili zastarjeli znak (karakter)', # Fuzzy
 	'antispoof-noletters' => 'Ne sadrži ni jedno slovo',
-	'antispoof-mixedscripts' => 'Sadrži neusklađena miješana pisma.',
+	'antispoof-mixedscripts' => 'Nekompatibilna pisma - Некомпатибилна писма',
 	'antispoof-tooshort' => 'Normalizirano ime je prekratko',
 	'antispoof-ignore' => 'Ignoriraj provjeru nevaljanih imena (antispoof)',
 	'right-override-antispoof' => 'Zaobilaženje provjera korisničkog imena',
