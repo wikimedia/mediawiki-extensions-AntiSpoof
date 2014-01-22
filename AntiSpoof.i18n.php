@@ -2392,7 +2392,6 @@ $messages['pt'] = array(
  * @author Caio1478
  * @author Eduardo.mps
  * @author Helder.wiki
- * @author Heldergeovane
  * @author Luckas
  * @author Rhaijin
  * @author 555
