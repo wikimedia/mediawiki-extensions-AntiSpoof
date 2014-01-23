@@ -618,6 +618,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'antispoof-desc' => 'Башх-башха абатийн элпашца декъашхойн дӀаяздарш кхолла цамаго.',
 	'antispoof-ignore' => 'Терго ма йе цхьатерра цlераш йуй хьажарна',
 	'right-override-antispoof' => 'цхьатера цӀераш юй хьажар тергалцадар',
 );
