@@ -375,7 +375,7 @@ class AntiSpoof {
 		if ( $unassigned !== False ) {
 			return self::badCharErr( 'antispoof-unassigned', $testChars[$unassigned] );
 		}
-		$deprecated = array_search( "SCRIPT_DEPRECTED", $testScripts );
+		$deprecated = array_search( "SCRIPT_DEPRECATED", $testScripts );
 		if ( $deprecated !== False ) {
 			return self::badCharErr( 'antispoof-deprecated', $testChars[$deprecated] );
 		}
