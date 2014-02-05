@@ -1012,6 +1012,7 @@ $messages['fr'] = array(
 	'antispoof-conflict-bottom' => 'Veuillez choisir un autre nom.',
 	'antispoof-name-illegal' => 'Le nom d’utilisateur « $1 » n’est pas autorisé pour la raison suivante : « $2 ».
 Veuillez choisir un autre nom.',
+	'antispoof-bad-char' => '‹$1› ($2)',
 	'antispoof-badtype' => 'Mauvais type de données',
 	'antispoof-empty' => 'Chaîne vide',
 	'antispoof-blacklisted' => 'Contient le caractère interdit $1',
