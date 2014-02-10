@@ -2891,20 +2891,22 @@ $messages['ta'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Chaduvari
  * @author Mpradeep
  * @author Veeven
  * @author వైజాసత్య
  */
 $messages['te'] = array(
 	'antispoof-desc' => 'మిశ్రమ లిపులతో, అయోమయపు మరియు సామీప్యపు పేర్లతో ఖాతాలను సృష్టించడాన్ని నిరోధిస్తుంది',
-	'antispoof-conflict-top' => '"$1" అన్న పేరు {{PLURAL:$2|ఈ ప్రస్తుత ఖాతాకి|ఈ $2 ఖాతాలకు}} చాలా దగ్గరగా ఉంది:', # Fuzzy
+	'antispoof-conflict-top' => '"$1" అన్న పేరు కింది {{PLURAL:$2|వాడుకరి పేరుకు|వాడుకరి పేర్లకు}} మరీ దగ్గరగా ఉంది:',
 	'antispoof-conflict-bottom' => 'దయచేసి మరో పేరుని ఎంచుకోండి.',
 	'antispoof-name-illegal' => '"$1" అనే పేరును అనుమతించము; అయోమయాన్ని, ఎగతాళి చేయడాన్ని నివారించేందుకు: $2. దయచేసి మరో పేరును ఎంచుకోండి.',
 	'antispoof-badtype' => 'తప్పుడు డాటా రకం',
 	'antispoof-empty' => 'ఖాళీ వాక్యం',
 	'antispoof-blacklisted' => '$1 అనే నిషేదిత అక్షరాన్ని కలిగి ఉంది',
-	'antispoof-combining' => 'సంయుత గుర్తుతో మొదలయ్యింది', # Fuzzy
-	'antispoof-unassigned' => 'ఇంతవరకూ ఆపాదించబడని లేదా ఉపయోగంలోంచి తీసేయాలనుకుంటున్న అక్షరం కలిగి ఉంది', # Fuzzy
+	'antispoof-combining' => '$1 సంయుక్త చిహ్నంతో మొదలయ్యింది',
+	'antispoof-unassigned' => 'ఇంతవరకూ ఆపాదించబడని వర్ణం $1 ని కలిగి ఉంది',
+	'antispoof-deprecated' => 'వినియోగం నుండి తీసేసిన వర్ణం $1 ని కలిగి ఉంది',
 	'antispoof-noletters' => 'ఎటువంటి అక్షరాలూ లేవు',
 	'antispoof-mixedscripts' => 'అసంగత మిశ్రమ లిపులు ఉన్నాయి',
 	'antispoof-tooshort' => 'విహితమైన పేరు మరీ చిన్నగా ఉంది',
