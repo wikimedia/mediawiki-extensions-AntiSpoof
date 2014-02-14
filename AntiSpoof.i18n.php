@@ -3192,13 +3192,14 @@ $messages['yo'] = array(
 );
 
 /** Cantonese (粵語)
+ * @author Antonytse
  */
 $messages['yue'] = array(
 	'antispoof-desc' => '封鎖一啲對於有混合程序、混淆同埋相似嘅用戶名嘅開戶口動作',
 	'antispoof-name-illegal' => '呢個名"$1"唔畀用，以預防撈亂或者冒充："$2"。請揀過個名。',
 	'antispoof-badtype' => '錯誤嘅資料類型',
 	'antispoof-empty' => '空白字串',
-	'antispoof-blacklisted' => '有列響黑名單度嘅字元', # Fuzzy
+	'antispoof-blacklisted' => '有列喺黑名單度嘅字符「$1」',
 	'antispoof-combining' => '以結合標記開始', # Fuzzy
 	'antispoof-unassigned' => '包含未指定或者唔再用嘅字元', # Fuzzy
 	'antispoof-noletters' => '唔包含任何字元',
