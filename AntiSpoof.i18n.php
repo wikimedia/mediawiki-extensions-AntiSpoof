@@ -1657,7 +1657,7 @@ $messages['ko'] = array(
  */
 $messages['ksh'] = array(
 	'antispoof-desc' => 'Dat ongerdröck neu Name für Metmaacher met jemeschte Zeichensätz, neu Name, wo mer jeck von weed, un zo ähnlije Name.',
-	'antispoof-conflict-top' => 'Dä Name „$1“ eß zoh ähnlesch met {{PLURAL:$2|däm Name, dä&32;|dä Name, di_j_|nix wadd_}}et ald jitt:', # Fuzzy
+	'antispoof-conflict-top' => 'Dä Name „$1“ eß zoh ähnlesch zoh {{PLURAL:$2|däm Name, dä&32;|dä Name, di_j_|nix wadd_}}et ald jitt:',
 	'antispoof-conflict-bottom' => 'Nemm ene andere Name.',
 	'antispoof-name-illegal' => 'Dä Name „$1“ es nit zojelohße, domet mer kein nohjemahte Name krije, un keine Durjenein met Schrefte: $2. Sök Der jet anders als Dinge Name us.',
 	'antispoof-badtype' => 'Verkierte Zoot Date',
