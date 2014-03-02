@@ -1311,10 +1311,11 @@ Tanpri chwazi yon lòt non.',
 /** Hungarian (magyar)
  * @author Dani
  * @author Dj
+ * @author Tacsipacsi
  */
 $messages['hu'] = array(
 	'antispoof-desc' => 'Letiltja a kevert szövegű, zavaró és hasonló nevű felhasználói fiókok készítését',
-	'antispoof-conflict-top' => 'A megadott név „$1” túl hasonló a következő {{PLURAL:$2|azonosítóhoz|$2 azonosítóhoz}}:', # Fuzzy
+	'antispoof-conflict-top' => 'A megadott név „$1” túl hasonló a következő {{PLURAL:$2|azonosítóhoz|azonosítókhoz}}:',
 	'antispoof-conflict-bottom' => 'Kérlek válassz egy másik nevet.',
 	'antispoof-name-illegal' => 'A név, „$1”, nem engedélyezett a zavaró vagy becsapó felhasználónevek megelőzése érdekében: $2.',
 	'antispoof-bad-char' => '"$1" ($2)',
