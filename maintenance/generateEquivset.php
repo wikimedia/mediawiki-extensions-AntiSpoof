@@ -63,6 +63,11 @@ EOT
 
 		foreach ( $lines as $line ) {
 			++$lineNum;
+			$mapToEmpty = false;
+
+			# Whether the line ends with a null character
+			$mapToEmpty = ( strpos( $line, "\0" ) === strlen( $line ) - 2 );
+
 			$line = trim( $line );
 
 			# Filter comments
@@ -79,33 +84,38 @@ EOT
 				continue;
 			}
 			$error = false;
-			if ( codepointToUtf8( hexdec( $m['hexleft'] ) ) != $m['charleft'] ) {
-				$actual = utf8ToCodepoint( $m['charleft'] );
-				if ( $actual === false ) {
-					$this->output( "Bytes: " . strlen( $m['charleft'] ) . "\n" );
-					$this->output( bin2hex( $line ) . "\n" );
-					$hexForm = bin2hex( $m['charleft'] );
-					$this->output( "Invalid UTF-8 character \"{$m['charleft']}\" ($hexForm) at line $lineNum: $line\n" );
-				} else {
-					$this->output( "Error: left number ({$m['hexleft']}) does not match left character ($actual) " .
-							"at line $lineNum: $line\n" );
+
+			if ( $mapToEmpty ) {
+				$m['charright'] = '';
+			} else {
+				if ( codepointToUtf8( hexdec( $m['hexleft'] ) ) != $m['charleft'] ) {
+					$actual = utf8ToCodepoint( $m['charleft'] );
+					if ( $actual === false ) {
+						$this->output( "Bytes: " . strlen( $m['charleft'] ) . "\n" );
+						$this->output( bin2hex( $line ) . "\n" );
+						$hexForm = bin2hex( $m['charleft'] );
+						$this->output( "Invalid UTF-8 character \"{$m['charleft']}\" ($hexForm) at line $lineNum: $line\n" );
+					} else {
+						$this->output( "Error: left number ({$m['hexleft']}) does not match left character ($actual) " .
+								"at line $lineNum: $line\n" );
+					}
+					$error = true;
 				}
-				$error = true;
-			}
-			if ( !empty( $m['hexright'] ) && codepointToUtf8( hexdec( $m['hexright'] ) ) != $m['charright'] ) {
-				$actual = utf8ToCodepoint( $m['charright'] );
-				if ( $actual === false ) {
-					$hexForm = bin2hex( $m['charright'] );
-					$this->output( "Invalid UTF-8 character \"{$m['charleft']}\" ($hexForm) at line $lineNum: $line\n" );
-				} else {
-					$this->output( "Error: right number ({$m['hexright']}) does not match right character ($actual) " .
-							"at line $lineNum: $line\n" );
+				if ( !empty( $m['hexright'] ) && codepointToUtf8( hexdec( $m['hexright'] ) ) != $m['charright'] ) {
+					$actual = utf8ToCodepoint( $m['charright'] );
+					if ( $actual === false ) {
+						$hexForm = bin2hex( $m['charright'] );
+						$this->output( "Invalid UTF-8 character \"{$m['charleft']}\" ($hexForm) at line $lineNum: $line\n" );
+					} else {
+						$this->output( "Error: right number ({$m['hexright']}) does not match right character ($actual) " .
+								"at line $lineNum: $line\n" );
+					}
+					$error = true;
 				}
-				$error = true;
-			}
-			if ( $error ) {
-				$exitStatus = 1;
-				continue;
+				if ( $error ) {
+					$exitStatus = 1;
+					continue;
+				}
 			}
 
 			# Find the set for the right character, add a new one if necessary
@@ -136,7 +146,10 @@ EOT
 		# Serialized codepoint map
 		$codepointMap = array();
 		foreach ( $setsByChar as $char => $setName ) {
-			$codepointMap[ utf8ToCodepoint( $char ) ] = utf8ToCodepoint( $setName );
+			$key = $char === '' ? '' : utf8ToCodepoint( $char );
+			$value = $setName === '' ? '' : utf8ToCodepoint( $setName );
+
+			$codepointMap[ $key ] = $value;
 		}
 		fwrite( $serializedFile, serialize( $codepointMap ) );
 
