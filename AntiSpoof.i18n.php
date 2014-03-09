@@ -2374,21 +2374,21 @@ $messages['ps'] = array(
  * @author Rhaijin
  */
 $messages['pt'] = array(
-	'antispoof-desc' => 'Impede a criação de contas com escrita mista, e nomes de utilizador confusos e semelhantes',
-	'antispoof-conflict-top' => 'O nome "$1" é demasiado semelhante {{PLURAL:$2|ao nome de utilizador seguinte|aos nomes de utilizadores seguintes}}:',
-	'antispoof-conflict-bottom' => 'Por favor, escolha outro nome.',
-	'antispoof-name-illegal' => 'O nome "$1" não é permitido para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): já existe $2. Por favor, escolha outro nome.',
+	'antispoof-desc' => 'Impede a criação de contas cujo nome de utilizador contenha misturas de alfabetos, ou seja confundível ou semelhante a outros existentes',
+	'antispoof-conflict-top' => 'O nome "$1" é demasiado semelhante {{PLURAL:$2|ao seguinte nome de utilizador|aos seguintes nomes de utilizador}}:',
+	'antispoof-conflict-bottom' => 'Escolha outro nome, por favor.',
+	'antispoof-name-illegal' => 'O nome "$1" não é permitido para evitar confusões ou enganos: $2. Escolha outro nome, por favor.',
 	'antispoof-badtype' => 'Formato de dados incorreto',
 	'antispoof-empty' => 'Linha vazia',
-	'antispoof-blacklisted' => 'Contém caracter proibido $1',
+	'antispoof-blacklisted' => 'Contém o carácter proibido $1',
 	'antispoof-combining' => 'Começa com carácter de combinação $1',
 	'antispoof-unassigned' => 'Contém o carácter proibido $1',
-	'antispoof-deprecated' => 'Contém o carácter proibido $1',
-	'antispoof-noletters' => 'Não inclui nenhuma letra',
-	'antispoof-mixedscripts' => 'Contém scripts de escrita incompatíveis mesclados',
+	'antispoof-deprecated' => 'Contém o carácter não suportado $1',
+	'antispoof-noletters' => 'Não contém letras',
+	'antispoof-mixedscripts' => 'Contém uma mistura de alfabetos incompatíveis',
 	'antispoof-tooshort' => 'Nome canónico demasiado curto',
-	'antispoof-ignore' => 'Ignorar verificações de "spoofing"',
-	'right-override-antispoof' => 'Sobrepor verificações de spoofing',
+	'antispoof-ignore' => 'Ignorar as verificações de semelhança de nomes (<i>spoofing</i>)',
+	'right-override-antispoof' => 'Ultrapassar as verificações de semelhança de nome (<i>spoofing</i>)',
 );
 
 /** Brazilian Portuguese (português do Brasil)
