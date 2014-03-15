@@ -1571,6 +1571,7 @@ $messages['kk-arab'] = array(
 );
 
 /** Kazakh (Cyrillic script) (қазақша (кирил)‎)
+ * @author Arystanbek
  */
 $messages['kk-cyrl'] = array(
 	'antispoof-name-illegal' => 'Қатысушы аты шатақтауын немесе қалжындауын бөгеу үшін «$1» атауы рұқсат етілмейді: $2. Басқа атау таңдаңыз.',
@@ -1582,6 +1583,7 @@ $messages['kk-cyrl'] = array(
 	'antispoof-noletters' => 'Ішінде ешбір әріп жоқ',
 	'antispoof-mixedscripts' => 'Ішінде сиыспайтын аралас жазу түрлері бар',
 	'antispoof-tooshort' => 'Ережеленген атауы тым қысқа',
+	'antispoof-ignore' => 'Айырбастау тексерістерін елемеу',
 );
 
 /** Kazakh (Latin script) (qazaqşa (latın)‎)
