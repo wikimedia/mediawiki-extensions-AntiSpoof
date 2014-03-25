@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Pikne"
+        ]
+    },
+    "antispoof-desc": "Blokeerib erinevaid kirjasüsteeme kasutavate, eksitavate ja sarnaste kasutajanimedega kontode loomise.",
+    "antispoof-conflict-top": "Nimi \"$1\" on liiga sarnane {{PLURAL:$2|järgmise kasutajanimega|järgmiste kasutajanimedega}}:",
+    "antispoof-conflict-bottom": "Palun vali teine nimi.",
+    "antispoof-name-illegal": "Nimi \"$1\" ei ole lubatud, et vältida eksitavaid või pilavaid kasutajanimesid. Põhjus: $2.\nPalun vali teine nimi.",
+    "antispoof-badtype": "Halb andmetüüp",
+    "antispoof-empty": "Tühi sõne",
+    "antispoof-blacklisted": "Sisaldab mustas nimekirjas olevat märki $1.",
+    "antispoof-combining": "Algab kombineeruva märgiga $1.",
+    "antispoof-unassigned": "Sisaldab kinnistamata märki $1.",
+    "antispoof-deprecated": "Sisaldab ebasoovitatavat märki $1.",
+    "antispoof-noletters": "Ei sisalda ühtegi tähte",
+    "antispoof-mixedscripts": "Sisaldab ühildumatuid kirjasüsteeme",
+    "antispoof-tooshort": "Kanooniline nimi on liiga lühike",
+    "antispoof-ignore": "Eira sarnasuskontrolle",
+    "right-override-antispoof": "Mööduda kasutajanimede sarnasuse testist"
+}

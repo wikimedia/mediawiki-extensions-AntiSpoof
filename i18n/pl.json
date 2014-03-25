@@ -1,0 +1,26 @@
+{
+    "@metadata": {
+        "authors": [
+            "BeginaFelicysym",
+            "Chrumps",
+            "Derbeth",
+            "Mikołka",
+            "Sp5uhe"
+        ]
+    },
+    "antispoof-desc": "Blokuje tworzenie kont użytkowników o nazwach podobnych do już istniejących lub dezorientujących",
+    "antispoof-conflict-top": "Nazwa „$1” jest zbyt podobna do {{PLURAL:$2|następującej nazwy konta|następujących nazw kont}}:",
+    "antispoof-conflict-bottom": "Proszę wybrać inną nazwę.",
+    "antispoof-name-illegal": "Wybierz inną nazwę, ponieważ „$1” nie może być użyta ze względu na podobieństwo do nazwy innego użytkownika „$2”.",
+    "antispoof-badtype": "Zły typ danych",
+    "antispoof-empty": "Pusty ciąg znaków",
+    "antispoof-blacklisted": "Zawiera niedozwolony znak $1",
+    "antispoof-combining": "Zaczyna się od łącznika $1",
+    "antispoof-unassigned": "Zawiera nieprzypisany lub niedozwolony znak",
+    "antispoof-deprecated": "Zawiera niezalecany znak $1",
+    "antispoof-noletters": "Nie zawiera liter",
+    "antispoof-mixedscripts": "Zawiera przemieszane znaki niezgodnych ze sobą pism",
+    "antispoof-tooshort": "Zbyt krótka nazwa użytkownika",
+    "antispoof-ignore": "Ignoruj podobieństwo do istniejących nazw",
+    "right-override-antispoof": "Brak ograniczenia przed zakładaniem kont o podobnych nazwach do już istniejących"
+}

@@ -1,0 +1,25 @@
+{
+    "@metadata": {
+        "authors": [
+            "Erdemaslancan",
+            "Gorizon",
+            "Xoser"
+        ]
+    },
+    "antispoof-desc": "Hesaban pê skriptê mîxî, nameyê munaneyî bloke keno",
+    "antispoof-conflict-top": "Ena nameyé \"$1\"i ena {{PLURAL:$2|Namey karberi|namey karbera}} zaf paweno:",
+    "antispoof-conflict-bottom": "Ma rica keno ke yewno nameyê karberî mucneno.",
+    "antispoof-name-illegal": "Nameyê \"$1\"î nieşkeno nameyê karberî ke şweş keno înan vindarne: $2.\nYewna name weçine.",
+    "antispoof-bad-char": "\"$1\" ($2)",
+    "antispoof-badtype": "Tipê data yê xirabî",
+    "antispoof-empty": "Stringê vengî",
+    "antispoof-blacklisted": "$1'i miyan de karaktero xırab esto",
+    "antispoof-combining": "Sembol dê $1 grênayışi ra nata yeno",
+    "antispoof-unassigned": "$1 zerre de çiyo xırab esto",
+    "antispoof-deprecated": "$1'i miyan de karaktero xırab esto",
+    "antispoof-noletters": "Yew zi herf çini yo",
+    "antispoof-mixedscripts": "Te de skriptanê xeripîyaye esto",
+    "antispoof-tooshort": "Ena name zaf kilm o",
+    "antispoof-ignore": "Kontrolê spoofî rê diket meke",
+    "right-override-antispoof": "Kontrolanê spoofî override bike"
+}

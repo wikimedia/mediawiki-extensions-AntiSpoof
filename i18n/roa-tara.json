@@ -1,0 +1,23 @@
+{
+    "@metadata": {
+        "authors": [
+            "Joetaras",
+            "Reder"
+        ]
+    },
+    "antispoof-desc": "Bluècche 'a ccrejazione de cunde utende cu script-misckate, confuse e cu nome de l'utinde ca s'assomigliane",
+    "antispoof-conflict-top": "'U nome \"$1\" s'assomigghie assaije a {{PLURAL:$2|'u cunde esistende|le cunde}}:",
+    "antispoof-conflict-bottom": "Se preghe de scacchià n'otre nome.",
+    "antispoof-name-illegal": "'U nome \"$1\" non g'è permesse pe prevenìe casine o 'mbruegghie de nome utinde: $2.\nPe piacere scacchie 'n'otre nome.",
+    "antispoof-badtype": "Tipe de date errate",
+    "antispoof-empty": "stringa vacande",
+    "antispoof-blacklisted": "Condène carattere jndr'à liste gnure $1",
+    "antispoof-combining": "Accumenze cu 'na marche combinate $1",
+    "antispoof-unassigned": "Condène carattere non assignate o deprecate",
+    "antispoof-deprecated": "Condène carattere deprecate $1",
+    "antispoof-noletters": "Non ge condène nisciune lettere",
+    "antispoof-mixedscripts": "Condène script miste incompatibbele",
+    "antispoof-tooshort": "Canonicizze nome assaje piccenne",
+    "antispoof-ignore": "Ignore verifeche sus a le 'mbruegghie",
+    "right-override-antispoof": "Sovrascrive le verifeche sus a le 'mbruegghie"
+}

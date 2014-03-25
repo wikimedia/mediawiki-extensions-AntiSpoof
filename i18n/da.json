@@ -1,0 +1,28 @@
+{
+    "@metadata": {
+        "authors": [
+            "Christian List",
+            "Dittaeva",
+            "Froztbyte",
+            "Jan Friberg",
+            "Jon Harald Søby",
+            "Sarrus",
+            "Tjernobyl"
+        ]
+    },
+    "antispoof-desc": "Blokerer for oprettelse af konti med blandede tegnsæt, forvirrende eller lignende brugernavne",
+    "antispoof-conflict-top": "Navnet \"$1\" ligner for meget {{PLURAL:$2|den eksisterende konto|de følgende $2 konti}}:",
+    "antispoof-conflict-bottom": "Vælg et andet navn.",
+    "antispoof-name-illegal": "Navnet \"$1\" er ikke tilladt for at forhindre forvirrende eller efterlignede brugernavne: $2. Vælg venligst et andet navn.",
+    "antispoof-badtype": "Ugyldig datatype",
+    "antispoof-empty": "Tom streng",
+    "antispoof-blacklisted": "Indeholder det sortlistede tegn $1",
+    "antispoof-combining": "Begynder med kombinationstegnet $1",
+    "antispoof-unassigned": "Indeholder det ikke-tildelte tegn $1",
+    "antispoof-deprecated": "Indeholder det udfasede tegn $1",
+    "antispoof-noletters": "Indeholder ingen bogstaver",
+    "antispoof-mixedscripts": "Indeholder inkompatible, blandede tegnsæt",
+    "antispoof-tooshort": "Navnet er for kort",
+    "antispoof-ignore": "Ignorér misbrugskontrol",
+    "right-override-antispoof": "Omgå kontrollerne af brugernavne"
+}

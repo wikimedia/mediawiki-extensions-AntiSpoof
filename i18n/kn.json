@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Abhirama",
+            "VASANTH S.N."
+        ]
+    },
+    "antispoof-conflict-bottom": "ಇನ್ನೊಂದು ಹೆಸರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.",
+    "antispoof-name-illegal": "$ 2: ಹೆಸರು \"$ 1\" ಗೊಂದಲ ಅಥವಾ ವಂಚಕ ಬಳಕೆದಾರರ ಹೆಸರುಗಳನ್ನು ತಡೆಯಲು ಅವಕಾಶವಿಲ್ಲ.\nಇನ್ನೊಂದು ಹೆಸರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.",
+    "antispoof-badtype": "ಕೆಟ್ಟ ಮಾಹಿತಿ ರೀತಿ",
+    "antispoof-empty": "ಖಾಲಿ ಅಕ್ಷರಪುಂಜ"
+}

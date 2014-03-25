@@ -31,6 +31,7 @@ $wgAvailableRights[] = 'override-antispoof';
 
 $dir = __DIR__;
 
+$wgMessagesDirs['AntiSpoof'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['AntiSpoof'] = "$dir/AntiSpoof.i18n.php";
 
 $wgAutoloadClasses['AntiSpoof'] = "$dir/AntiSpoof_body.php";

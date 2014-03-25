@@ -1,0 +1,25 @@
+{
+    "@metadata": {
+        "authors": [
+            "Klutzy",
+            "Kwj2772",
+            "ToePeu",
+            "아라"
+        ]
+    },
+    "antispoof-desc": "여러 문자 체계를 섞은 이름이나, 혼동될 수 있고 비슷한 이름의 계정 만들기를 차단합니다",
+    "antispoof-conflict-top": "\"$1\" 이름은 다음 {{PLURAL:$2|사용자 이름}}과 너무 비슷합니다:",
+    "antispoof-conflict-bottom": "다른 이름을 선택하세요.",
+    "antispoof-name-illegal": "\"$1\" 사용자 이름은 다음의 이유로 인해 가입이 금지되었습니다: $2.\n다른 이름으로 가입해주세요.",
+    "antispoof-badtype": "잘못된 자료형",
+    "antispoof-empty": "빈 문자열",
+    "antispoof-blacklisted": "사용이 금지된 $1 문자 포함",
+    "antispoof-combining": "혼합 문자 $1로 시작",
+    "antispoof-unassigned": "코드가 부여되지 않았거나 잘못된 $1 문자를 포함",
+    "antispoof-deprecated": "잘못된 글자 $1이 포함되어 있습니다.",
+    "antispoof-noletters": "어떠한 문자도 포함하고 있지 않습니다",
+    "antispoof-mixedscripts": "여러 문자 체계가 섞여 있습니다.",
+    "antispoof-tooshort": "고유 이름이 너무 짧습니다.",
+    "antispoof-ignore": "안티스푸프 검사를 무시",
+    "right-override-antispoof": "혼란을 줄 수 있는 사용자 이름 금지(안티스푸프)를 무시"
+}

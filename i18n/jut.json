@@ -1,0 +1,17 @@
+{
+    "@metadata": {
+        "authors": [
+            "Huslåke"
+        ]
+    },
+    "antispoof-desc": "Blokerer før åprettelse af konti ve blandede tegnsæt, forvirrende eller lignende brugernavne",
+    "antispoof-name-illegal": "Navnet \"$1\" er ikke tilladt for at forhindre forvirrende eller efterlignede brugernavne: $2. Vælg venligst et andet navn.",
+    "antispoof-badtype": "Førkært datatype",
+    "antispoof-empty": "Tom streng",
+    "antispoof-blacklisted": "Indeholder sortlistet tegn",
+    "antispoof-combining": "Begynder ve et kombinationsbogstav",
+    "antispoof-unassigned": "Indeholder ubrugte bogstaver",
+    "antispoof-noletters": "Indeholder ig'n bogstaver",
+    "antispoof-mixedscripts": "Indeholder inkompatible, blandede tegnsæt",
+    "antispoof-tooshort": "Kanonisaliset navn til kårt"
+}

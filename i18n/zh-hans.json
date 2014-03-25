@@ -1,0 +1,28 @@
+{
+    "@metadata": {
+        "authors": [
+            "Gzdavidwong",
+            "Hzy980512",
+            "Jimmy xu wrk",
+            "Liangent",
+            "PhiLiP",
+            "Xiaomingyan",
+            "Yfdyh000"
+        ]
+    },
+    "antispoof-desc": "禁止使用混合文字、容易混淆或与已存在用户名过于相似的用户名创建帐户",
+    "antispoof-conflict-top": "用户名“$1”与{{PLURAL:$2|这个已存在的账户|下列$2个账户}}过于相似：",
+    "antispoof-conflict-bottom": "请选择其他名称。",
+    "antispoof-name-illegal": "为了防止混淆或欺诈性使用用户名“$2”，用户名“$1”已被禁止使用。请使用其他用户名。",
+    "antispoof-badtype": "错误的数据类型",
+    "antispoof-empty": "空白字串",
+    "antispoof-blacklisted": "包含已列入黑名单的字符 $1",
+    "antispoof-combining": "以组合标记开始 $1",
+    "antispoof-unassigned": "包含未分配的字符 $1",
+    "antispoof-deprecated": "包含不赞成使用的字符 $1",
+    "antispoof-noletters": "未包含任何字符",
+    "antispoof-mixedscripts": "包含不兼容的混合文字",
+    "antispoof-tooshort": "标准化后的用户名过短",
+    "antispoof-ignore": "忽略欺诈检查",
+    "right-override-antispoof": "无视欺诈检查"
+}

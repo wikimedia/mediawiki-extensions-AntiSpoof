@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "JeanVoisin"
+        ]
+    },
+    "antispoof-name-illegal": "Le nom \"$1\" est pas permit pour empêcher de confondre ou d'user le nom \"$2\".  Choisissez donc un autre nom.",
+    "antispoof-badtype": "Mauvaise qualité d'information",
+    "antispoof-empty": "Chaîne vide",
+    "antispoof-blacklisted": "Contient un caractère pas permit",
+    "antispoof-combining": "Commence avec une marque combinée",
+    "antispoof-unassigned": "Contient un caractère pas assigné ou désapprouvé",
+    "antispoof-noletters": "Contient pas de lettres",
+    "antispoof-mixedscripts": "Contient plusieurs scripts qui s'adonnont pas",
+    "antispoof-tooshort": "Le nom choisi est trop court"
+}

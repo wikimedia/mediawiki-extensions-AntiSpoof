@@ -1,0 +1,23 @@
+{
+    "@metadata": {
+        "authors": [
+            "Les Meloures",
+            "Robby"
+        ]
+    },
+    "antispoof-desc": "Verhënnert d'Opmaache vu Benotzerkonte mat gemëschten Zeechesätz, mat gelungene Benotzernimm oder mat Benotzernimm déi zu Verwiesselunge féiere kéinten.",
+    "antispoof-conflict-top": "Den Numm \"$1\" ass ze ähnlech mat {{PLURAL:$2|dësem Benotzernumm|dëse Benotzernimm}}:",
+    "antispoof-conflict-bottom": "Wielt w.e.g. en aneren Numm.",
+    "antispoof-name-illegal": "De gewënschte Benotzernumm \"$1\" ass net erlaabt. Grond: $2<br />\nSicht iech w.e.g. een anere Benotzernumm.",
+    "antispoof-badtype": "Ongültegt Fichiers-Format (bad data type)",
+    "antispoof-empty": "Eidelt Feld",
+    "antispoof-blacklisted": "Verbueden Zeechen (Caractèren): $1",
+    "antispoof-combining": "Fänkt mam Kombinatiounszeechen $1 un.",
+    "antispoof-unassigned": "Et sinn net zougeuerdnet oder onerwënschten Zeechen (Caractèren) dran.",
+    "antispoof-deprecated": "Dat vereelsten Zeechen (Caractère) $1 ass dran.",
+    "antispoof-noletters": "Et si keng Buschtawen dran.",
+    "antispoof-mixedscripts": "Et si gemëschte Skripten dran, déi net kompatibel sinn",
+    "antispoof-tooshort": "De kanoniséierten Numm ass ze kuerz.",
+    "antispoof-ignore": "Keng Kontroll op ähnlech Benotzernimm",
+    "right-override-antispoof": "D'Resultat vun der Iwwerpréifung no ähnleche Benotzernimm ignoréieren"
+}

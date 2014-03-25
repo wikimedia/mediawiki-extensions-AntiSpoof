@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Chhorran",
+            "Lovekhmer",
+            "Thearith",
+            "គីមស៊្រុន"
+        ]
+    },
+    "antispoof-conflict-top": "ឈ្មោះ \"$1\"គឺស្រដៀងគ្នានឹង {{PLURAL:$2|អត្តនាម|អត្តនាម}}ខាងក្រោម ពេកហើយ ៖",
+    "antispoof-conflict-bottom": "សូមជ្រើសរើសឈ្មោះផ្សេងទៀត។",
+    "antispoof-name-illegal": "ឈ្មោះ \"$1\" មិនត្រូវបានឱ្យបង្កើតទេ ដើម្បីកុំឱ្យច្រឡំជាមួយនឹងអត្តនាម៖ $2។\n\nសូមជ្រើសរើសអត្តនាមផ្សេងមួយទៀត។",
+    "antispoof-badtype": "ប្រភេទទិន្នន័យអន់",
+    "antispoof-empty": "ខ្សែអក្សរទទេ",
+    "antispoof-blacklisted": "មាន​អក្សរ​ដែល​ត្រូវបាន​ចាត់ចូលទៅក្នុងបញ្ជីខ្មៅ $1",
+    "antispoof-combining": "ចាប់ផ្ដើមដោយសញ្ញាផ្សំគ្នា $1",
+    "antispoof-noletters": "គ្មានផ្ទុក​អក្សរណាមួយ"
+}
