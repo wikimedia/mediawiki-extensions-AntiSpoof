@@ -5,7 +5,7 @@
         ]
     },
     "antispoof-desc": "Dat ongerdröck neu Name für Metmaacher met jemeschte Zeichensätz, neu Name, wo mer jeck von weed, un zo ähnlije Name.",
-    "antispoof-conflict-top": "Dä Name „$1“ eß zoh ähnlesch zoh {{PLURAL:$2|däm Name, dä&32;|dä Name, di_j_|nix wadd_}}et ald jitt:",
+    "antispoof-conflict-top": "Dä Name „$1“ eß zoh ähnlesch zoh {{PLURAL:$2|däm Name, dä\u002632;|dä Name, di_j_|nix wadd_}}et ald jitt:",
     "antispoof-conflict-bottom": "Nemm ene andere Name.",
     "antispoof-name-illegal": "Dä Name „$1“ es nit zojelohße, domet mer kein nohjemahte Name krije, un keine Durjenein met Schrefte: $2. Sök Der jet anders als Dinge Name us.",
     "antispoof-badtype": "Verkierte Zoot Date",
@@ -18,5 +18,5 @@
     "antispoof-mixedscripts": "He sin Zeichesätz jemesch.",
     "antispoof-tooshort": "Dä vereinheitlechte Name es zo koot.",
     "antispoof-ignore": "Donn de Prööfonge jäje et Name-Nohmaache övverjonn",
-    "right-override-antispoof": "Prööfonge jäje et Name-Nohmaache (<i lang=\"en\">Anti-Spoofing</i>) övverjonn"
+    "right-override-antispoof": "Prööfonge jäje et Name-Nohmaache (\u003Ci lang=\"en\"\u003EAnti-Spoofing\u003C/i\u003E) övverjonn"
 }

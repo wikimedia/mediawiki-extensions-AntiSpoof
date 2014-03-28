@@ -20,6 +20,6 @@
     "antispoof-noletters": "Não contém letras",
     "antispoof-mixedscripts": "Contém uma mistura de alfabetos incompatíveis",
     "antispoof-tooshort": "Nome canónico demasiado curto",
-    "antispoof-ignore": "Ignorar as verificações de semelhança de nomes (<i>spoofing</i>)",
-    "right-override-antispoof": "Ultrapassar as verificações de semelhança de nome (<i>spoofing</i>)"
+    "antispoof-ignore": "Ignorar as verificações de semelhança de nomes (\u003Ci\u003Espoofing\u003C/i\u003E)",
+    "right-override-antispoof": "Ultrapassar as verificações de semelhança de nome (\u003Ci\u003Espoofing\u003C/i\u003E)"
 }
