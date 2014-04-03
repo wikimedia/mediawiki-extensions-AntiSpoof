@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": [
+            "Paul Beppler"
+        ]
+    },
+    "antispoof-badtype": "Ungülticher Datentyp",
+    "antispoof-empty": "Leeres Feld"
+}
