@@ -1,26 +1,26 @@
 {
-    "@metadata": {
-        "authors": [
-            "Beta16",
-            "BrokenArrow",
-            "Darth Kule",
-            "Nemo bis",
-            "Pietrodn"
-        ]
-    },
-    "antispoof-desc": "Impedisce la creazione di nomi utente con caratteri misti e nomi utente che generano confusione o troppo simili tra loro.",
-    "antispoof-conflict-top": "Il nome \"$1\" è troppo simile {{PLURAL:$2|al seguente nome utente|ai seguenti nomi utente}}:",
-    "antispoof-conflict-bottom": "Scegliere un altro nome.",
-    "antispoof-name-illegal": "Il nome utente \"$1\" non è consentito, per evitare confusione o utilizzi fraudolenti: $2. Scegliere un altro nome.",
-    "antispoof-badtype": "Tipo di dati errato",
-    "antispoof-empty": "Stringa vuota",
-    "antispoof-blacklisted": "Contiene il carattere non consentito $1",
-    "antispoof-combining": "Inizia con la combinazione di caratteri $1",
-    "antispoof-unassigned": "Contiene il carattere non assegnato $1",
-    "antispoof-deprecated": "Contiene il carattere deprecato $1",
-    "antispoof-noletters": "Assenza di lettere",
-    "antispoof-mixedscripts": "Combinazione di sistemi di scrittura non compatibili",
-    "antispoof-tooshort": "Nome in forma canonica troppo corto",
-    "antispoof-ignore": "Ignora i controlli per spoofing",
-    "right-override-antispoof": "Ignora i controlli spoofing"
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"BrokenArrow",
+			"Darth Kule",
+			"Nemo bis",
+			"Pietrodn"
+		]
+	},
+	"antispoof-desc": "Impedisce la creazione di nomi utente con caratteri misti e nomi utente che generano confusione o troppo simili tra loro.",
+	"antispoof-conflict-top": "Il nome \"$1\" è troppo simile {{PLURAL:$2|al seguente nome utente|ai seguenti nomi utente}}:",
+	"antispoof-conflict-bottom": "Scegliere un altro nome.",
+	"antispoof-name-illegal": "Il nome utente \"$1\" non è consentito, per evitare confusione o utilizzi fraudolenti: $2. Scegliere un altro nome.",
+	"antispoof-badtype": "Tipo di dati errato",
+	"antispoof-empty": "Stringa vuota",
+	"antispoof-blacklisted": "Contiene il carattere non consentito $1",
+	"antispoof-combining": "Inizia con la combinazione di caratteri $1",
+	"antispoof-unassigned": "Contiene il carattere non assegnato $1",
+	"antispoof-deprecated": "Contiene il carattere deprecato $1",
+	"antispoof-noletters": "Assenza di lettere",
+	"antispoof-mixedscripts": "Combinazione di sistemi di scrittura non compatibili",
+	"antispoof-tooshort": "Nome in forma canonica troppo corto",
+	"antispoof-ignore": "Ignora i controlli per spoofing",
+	"right-override-antispoof": "Ignora i controlli spoofing"
 }

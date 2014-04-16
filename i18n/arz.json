@@ -1,23 +1,23 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ghaly",
-            "Meno25",
-            "Ramsis II"
-        ]
-    },
-    "antispoof-desc": "بيمنع فتح حسابات بأسامى يوزرز متشابهة،و بتلخبط أو بسكريبت متخلط",
-    "antispoof-conflict-top": "الاسم \"$1\" شديد الشبه ب{{PLURAL:$2|الحساب الموجود|ال$2 حساب التالية}}:",
-    "antispoof-conflict-bottom": "من فضلك اختر اسما آخر.",
-    "antispoof-name-illegal": "الاسم \"$1\"  مش مسموح علشان نمنع اللخبطة أوانتحال أسماء اليوزرز: $2. لو سمحت تختار اسم تانى.",
-    "antispoof-badtype": "نوع البيانات غلط",
-    "antispoof-empty": "سلسلة فاضية",
-    "antispoof-blacklisted": "بيحتوى على علامة من البلاك ليست",
-    "antispoof-combining": "بيبتدى بعلامة مختلطة",
-    "antispoof-unassigned": "بيحتوى على علامة مش مخصصة أو مش مقبولة",
-    "antispoof-noletters": "ما بيحتويش على اى حروف",
-    "antispoof-mixedscripts": "بيحتوى على سكريبتات مخلوطة مش متوافقة",
-    "antispoof-tooshort": "الاسم المستعمل قصير خالص",
-    "antispoof-ignore": "اتجاهل التشييك على سبوفينج",
-    "right-override-antispoof": "اتجاوز التشييك على سبوفينج"
+	"@metadata": {
+		"authors": [
+			"Ghaly",
+			"Meno25",
+			"Ramsis II"
+		]
+	},
+	"antispoof-desc": "بيمنع فتح حسابات بأسامى يوزرز متشابهة،و بتلخبط أو بسكريبت متخلط",
+	"antispoof-conflict-top": "الاسم \"$1\" شديد الشبه ب{{PLURAL:$2|الحساب الموجود|ال$2 حساب التالية}}:",
+	"antispoof-conflict-bottom": "من فضلك اختر اسما آخر.",
+	"antispoof-name-illegal": "الاسم \"$1\"  مش مسموح علشان نمنع اللخبطة أوانتحال أسماء اليوزرز: $2. لو سمحت تختار اسم تانى.",
+	"antispoof-badtype": "نوع البيانات غلط",
+	"antispoof-empty": "سلسلة فاضية",
+	"antispoof-blacklisted": "بيحتوى على علامة من البلاك ليست",
+	"antispoof-combining": "بيبتدى بعلامة مختلطة",
+	"antispoof-unassigned": "بيحتوى على علامة مش مخصصة أو مش مقبولة",
+	"antispoof-noletters": "ما بيحتويش على اى حروف",
+	"antispoof-mixedscripts": "بيحتوى على سكريبتات مخلوطة مش متوافقة",
+	"antispoof-tooshort": "الاسم المستعمل قصير خالص",
+	"antispoof-ignore": "اتجاهل التشييك على سبوفينج",
+	"right-override-antispoof": "اتجاوز التشييك على سبوفينج"
 }

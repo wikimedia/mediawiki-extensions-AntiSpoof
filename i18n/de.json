@@ -1,26 +1,26 @@
 {
-    "@metadata": {
-        "authors": [
-            "Geitost",
-            "Kghbln",
-            "Metalhead64",
-            "Raimond Spekking",
-            "Umherirrender"
-        ]
-    },
-    "antispoof-desc": "Verhindert die Erstellung von Benutzerkonten mit gemischten Zeichensätzen, verwirrenden und ähnlichen Benutzernamen",
-    "antispoof-conflict-top": "Der Benutzername „$1“ ist {{PLURAL:$2|dem|den}} folgenden Benutzernamen zu ähnlich:",
-    "antispoof-conflict-bottom": "Bitte wähle einen anderen Benutzernamen.",
-    "antispoof-name-illegal": "Der gewünschte Benutzername „$1“ ist nicht möglich. Grund: $2<br />Bitte wähle einen anderen Benutzernamen.",
-    "antispoof-badtype": "Ungültiger Datentyp",
-    "antispoof-empty": "Leeres Feld",
-    "antispoof-blacklisted": "Das nicht zulässige Zeichen $1 ist enthalten.",
-    "antispoof-combining": "Er fängt mit einem Verbindungszeichen $1 an.",
-    "antispoof-unassigned": "Er enthält das nicht zugeordnete Zeichen $1.",
-    "antispoof-deprecated": "Er enthält das unzulässige Zeichen $1.",
-    "antispoof-noletters": "Er enthält keine Buchstaben.",
-    "antispoof-mixedscripts": "Er enthält Zeichen unterschiedlicher Schriftsysteme.",
-    "antispoof-tooshort": "Er ist zu kurz.",
-    "antispoof-ignore": "Ähnlichkeitsprüfung ignorieren",
-    "right-override-antispoof": "Die Benutzernamens-Ähnlichkeitsprüfung außer Kraft setzen"
+	"@metadata": {
+		"authors": [
+			"Geitost",
+			"Kghbln",
+			"Metalhead64",
+			"Raimond Spekking",
+			"Umherirrender"
+		]
+	},
+	"antispoof-desc": "Verhindert die Erstellung von Benutzerkonten mit gemischten Zeichensätzen, verwirrenden und ähnlichen Benutzernamen",
+	"antispoof-conflict-top": "Der Benutzername „$1“ ist {{PLURAL:$2|dem|den}} folgenden Benutzernamen zu ähnlich:",
+	"antispoof-conflict-bottom": "Bitte wähle einen anderen Benutzernamen.",
+	"antispoof-name-illegal": "Der gewünschte Benutzername „$1“ ist nicht möglich. Grund: $2<br />Bitte wähle einen anderen Benutzernamen.",
+	"antispoof-badtype": "Ungültiger Datentyp",
+	"antispoof-empty": "Leeres Feld",
+	"antispoof-blacklisted": "Das nicht zulässige Zeichen $1 ist enthalten.",
+	"antispoof-combining": "Er fängt mit einem Verbindungszeichen $1 an.",
+	"antispoof-unassigned": "Er enthält das nicht zugeordnete Zeichen $1.",
+	"antispoof-deprecated": "Er enthält das unzulässige Zeichen $1.",
+	"antispoof-noletters": "Er enthält keine Buchstaben.",
+	"antispoof-mixedscripts": "Er enthält Zeichen unterschiedlicher Schriftsysteme.",
+	"antispoof-tooshort": "Er ist zu kurz.",
+	"antispoof-ignore": "Ähnlichkeitsprüfung ignorieren",
+	"right-override-antispoof": "Die Benutzernamens-Ähnlichkeitsprüfung außer Kraft setzen"
 }

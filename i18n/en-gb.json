@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shirayuki"
-        ]
-    },
-    "antispoof-tooshort": "Canonicalised name too short"
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"antispoof-tooshort": "Canonicalised name too short"
 }

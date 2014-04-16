@@ -1,22 +1,22 @@
 {
-    "@metadata": {
-        "authors": [
-            "S.Örvarr.S",
-            "Snævar",
-            "Spacebirdy"
-        ]
-    },
-    "antispoof-desc": "Óheimilar gerð aðganga með blandað skrifletur, ruglandi og svipuð notandanöfn",
-    "antispoof-conflict-top": "Nafnið \"$1\" er of svipað {{PLURAL:$2|aðgangnum sem er til fyrir|$2 aðgöngum sem eru til fyrir}}:",
-    "antispoof-conflict-bottom": "Vinsamlegast veldu annað nafn.",
-    "antispoof-name-illegal": "Nafnið „$1“ er ekki leyfilegt til að sporna gegn ruglandi eða skopstælandi notandanöfnum:: „$2“. Vinsamlegast veldu annað nafn.",
-    "antispoof-badtype": "Lélegt gagnatag",
-    "antispoof-empty": "Tómur strengur",
-    "antispoof-blacklisted": "Inniheldur bannaða rittáknið $1",
-    "antispoof-combining": "Byrjar á samsetningartákninu $1",
-    "antispoof-unassigned": "Inniheldur óúthlutaða eða úrelda táknið $1",
-    "antispoof-deprecated": "Inniheldur úrelda táknið $1",
-    "antispoof-noletters": "Inniheldur enga stafi",
-    "antispoof-mixedscripts": "Inniheldur ósamhæfðar skriftur",
-    "antispoof-tooshort": "Nafn of stutt"
+	"@metadata": {
+		"authors": [
+			"S.Örvarr.S",
+			"Snævar",
+			"Spacebirdy"
+		]
+	},
+	"antispoof-desc": "Óheimilar gerð aðganga með blandað skrifletur, ruglandi og svipuð notandanöfn",
+	"antispoof-conflict-top": "Nafnið \"$1\" er of svipað {{PLURAL:$2|aðgangnum sem er til fyrir|$2 aðgöngum sem eru til fyrir}}:",
+	"antispoof-conflict-bottom": "Vinsamlegast veldu annað nafn.",
+	"antispoof-name-illegal": "Nafnið „$1“ er ekki leyfilegt til að sporna gegn ruglandi eða skopstælandi notandanöfnum:: „$2“. Vinsamlegast veldu annað nafn.",
+	"antispoof-badtype": "Lélegt gagnatag",
+	"antispoof-empty": "Tómur strengur",
+	"antispoof-blacklisted": "Inniheldur bannaða rittáknið $1",
+	"antispoof-combining": "Byrjar á samsetningartákninu $1",
+	"antispoof-unassigned": "Inniheldur óúthlutaða eða úrelda táknið $1",
+	"antispoof-deprecated": "Inniheldur úrelda táknið $1",
+	"antispoof-noletters": "Inniheldur enga stafi",
+	"antispoof-mixedscripts": "Inniheldur ósamhæfðar skriftur",
+	"antispoof-tooshort": "Nafn of stutt"
 }

@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Przemub"
-        ]
-    },
-    "antispoof-badtype": "Felerny typ danych"
+	"@metadata": {
+		"authors": [
+			"Przemub"
+		]
+	},
+	"antispoof-badtype": "Felerny typ danych"
 }

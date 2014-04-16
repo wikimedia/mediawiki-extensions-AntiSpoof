@@ -1,8 +1,6 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "antispoof-empty": "String ya Andilugan",
-    "antispoof-blacklisted": "Walay laman ton bawal ya character",
-    "antispoof-noletters": "Anggapoy laman ton letra"
+	"@metadata": [],
+	"antispoof-empty": "String ya Andilugan",
+	"antispoof-blacklisted": "Walay laman ton bawal ya character",
+	"antispoof-noletters": "Anggapoy laman ton letra"
 }

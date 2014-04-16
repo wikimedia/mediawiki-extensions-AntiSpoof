@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Игорь Бродский"
-        ]
-    },
-    "antispoof-conflict-bottom": "Olgat hüväd, valikat toine nimi.",
-    "antispoof-badtype": "Vär andmusidentip",
-    "antispoof-empty": "Pall'az rivi"
+	"@metadata": {
+		"authors": [
+			"Игорь Бродский"
+		]
+	},
+	"antispoof-conflict-bottom": "Olgat hüväd, valikat toine nimi.",
+	"antispoof-badtype": "Vär andmusidentip",
+	"antispoof-empty": "Pall'az rivi"
 }

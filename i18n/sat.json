@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Salvator"
-        ]
-    },
-    "antispoof-conflict-top": "Ńtum do pray mit́gea{{PLURAL:$2| menaḱ akaunṭ| noakodo $2 akaunṭ kana}}:",
-    "antispoof-conflict-bottom": "Eṭaḱ ńutum sendraeme",
-    "antispoof-name-illegal": "Ńutum\"$1\" do baṅ hoyoḱa se okokomṛogea: $2. Dayakate eṭaḱ ńutum emam.",
-    "antispoof-badtype": "Bạṛić tottho lekan",
-    "antispoof-empty": "Eken ghuṛã",
-    "antispoof-blacklisted": "$1 Begor samuṅ karekṭar menaḱa",
-    "antispoof-combining": "Joṛa cikhnạ khon ehobme",
-    "antispoof-unassigned": "Baṅ ganoḱ karekṭar menaḱa",
-    "antispoof-noletters": "Cet́ okhor hõ banuḱa",
-    "antispoof-mixedscripts": "Begor jutsoi olnolko menaḱa",
-    "antispoof-tooshort": "Ạḍi kạtić ńutum",
-    "antispoof-ignore": "Beganoḱ bachao paromme",
-    "right-override-antispoof": "Beganoḱ koyoḱ parom bachaome"
+	"@metadata": {
+		"authors": [
+			"Salvator"
+		]
+	},
+	"antispoof-conflict-top": "Ńtum do pray mit́gea{{PLURAL:$2| menaḱ akaunṭ| noakodo $2 akaunṭ kana}}:",
+	"antispoof-conflict-bottom": "Eṭaḱ ńutum sendraeme",
+	"antispoof-name-illegal": "Ńutum\"$1\" do baṅ hoyoḱa se okokomṛogea: $2. Dayakate eṭaḱ ńutum emam.",
+	"antispoof-badtype": "Bạṛić tottho lekan",
+	"antispoof-empty": "Eken ghuṛã",
+	"antispoof-blacklisted": "$1 Begor samuṅ karekṭar menaḱa",
+	"antispoof-combining": "Joṛa cikhnạ khon ehobme",
+	"antispoof-unassigned": "Baṅ ganoḱ karekṭar menaḱa",
+	"antispoof-noletters": "Cet́ okhor hõ banuḱa",
+	"antispoof-mixedscripts": "Begor jutsoi olnolko menaḱa",
+	"antispoof-tooshort": "Ạḍi kạtić ńutum",
+	"antispoof-ignore": "Beganoḱ bachao paromme",
+	"right-override-antispoof": "Beganoḱ koyoḱ parom bachaome"
 }

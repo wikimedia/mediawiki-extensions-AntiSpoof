@@ -1,24 +1,24 @@
 {
-    "@metadata": {
-        "authors": [
-            "Anakmalaysia",
-            "Aurora",
-            "Aviator"
-        ]
-    },
-    "antispoof-desc": "Menyekat pembukaan akaun dengan nama pengguna yang mengelirukan, menyerupai orang lain, atau terdiri daripada campuran sistem-sistem tulisan yang berlainan",
-    "antispoof-conflict-top": "Nama \"$1\" menyerupai {{PLURAL:$2|nama pengguna|nama pengguna}} berikut:",
-    "antispoof-conflict-bottom": "Sila pilih nama lain.",
-    "antispoof-name-illegal": "Nama \"$1\" tidak dibenarkan kerana mengelirukan atau menipu: $2. Sila pilih nama lain.",
-    "antispoof-badtype": "Jenis data salah",
-    "antispoof-empty": "Rentetan kosong",
-    "antispoof-blacklisted": "Mengandungi aksara $1 yang telah disenaraihitamkan",
-    "antispoof-combining": "Bermula dengan tanda penggabung $1",
-    "antispoof-unassigned": "Mengandungi aksara yang tidak diuntukkan atau yang lapuk",
-    "antispoof-deprecated": "Mengandungi aksara $1 yang lapuk",
-    "antispoof-noletters": "Tidak mengandungi huruf",
-    "antispoof-mixedscripts": "Mengandungi campuran sistem-sistem tulisan yang tidak bersesuaian",
-    "antispoof-tooshort": "Nama berkanun terlalu pendek",
-    "antispoof-ignore": "Abaikan pemeriksaan penipuan",
-    "right-override-antispoof": "Mengatasi pemeriksaan penipuan"
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Aurora",
+			"Aviator"
+		]
+	},
+	"antispoof-desc": "Menyekat pembukaan akaun dengan nama pengguna yang mengelirukan, menyerupai orang lain, atau terdiri daripada campuran sistem-sistem tulisan yang berlainan",
+	"antispoof-conflict-top": "Nama \"$1\" menyerupai {{PLURAL:$2|nama pengguna|nama pengguna}} berikut:",
+	"antispoof-conflict-bottom": "Sila pilih nama lain.",
+	"antispoof-name-illegal": "Nama \"$1\" tidak dibenarkan kerana mengelirukan atau menipu: $2. Sila pilih nama lain.",
+	"antispoof-badtype": "Jenis data salah",
+	"antispoof-empty": "Rentetan kosong",
+	"antispoof-blacklisted": "Mengandungi aksara $1 yang telah disenaraihitamkan",
+	"antispoof-combining": "Bermula dengan tanda penggabung $1",
+	"antispoof-unassigned": "Mengandungi aksara yang tidak diuntukkan atau yang lapuk",
+	"antispoof-deprecated": "Mengandungi aksara $1 yang lapuk",
+	"antispoof-noletters": "Tidak mengandungi huruf",
+	"antispoof-mixedscripts": "Mengandungi campuran sistem-sistem tulisan yang tidak bersesuaian",
+	"antispoof-tooshort": "Nama berkanun terlalu pendek",
+	"antispoof-ignore": "Abaikan pemeriksaan penipuan",
+	"right-override-antispoof": "Mengatasi pemeriksaan penipuan"
 }

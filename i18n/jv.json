@@ -1,24 +1,24 @@
 {
-    "@metadata": {
-        "authors": [
-            "Meursault2004",
-            "NoiX180",
-            "Pras"
-        ]
-    },
-    "antispoof-desc": "Menggak nggawé akun utawa rékening mawa jeneng panganggo aksara campuran, mbingungaké lan sing mèmper",
-    "antispoof-conflict-top": "Jeneng \"$1\" mèmper banget karo {{PLURAL:$2|akun sing wis ana|$2 akun iki}}:",
-    "antispoof-conflict-bottom": "Mangga milih jeneng liya",
-    "antispoof-name-illegal": "Jeneng \"$1\" ora diidinaké supaya wong ora bingung utawa menggak ngapi-api jeneng panganggo sing wis ana: $2.\nMangga pilihen jeneng liya.",
-    "antispoof-badtype": "Tipe data salah",
-    "antispoof-empty": "Data kosong",
-    "antispoof-blacklisted": "Ngandung karakter $1 sing ora kalilan",
-    "antispoof-combining": "Wiwiti mawa tandha kombinasi $1",
-    "antispoof-unassigned": "Ngandung karakter $1 sing durung katetepaké",
-    "antispoof-deprecated": "Ngandung karakter $1 sing ora kanggo",
-    "antispoof-noletters": "Ora ngandhut aksara babar belas",
-    "antispoof-mixedscripts": "Ngandhut aksara campuran sing ora kompatibel",
-    "antispoof-tooshort": "Jeneng kanonikalisasi kecendhaken",
-    "antispoof-ignore": "Lirwakaké pamrikasaan panipuan akun (''spoofing'')",
-    "right-override-antispoof": "''Override'' pamriksan palècèhan"
+	"@metadata": {
+		"authors": [
+			"Meursault2004",
+			"NoiX180",
+			"Pras"
+		]
+	},
+	"antispoof-desc": "Menggak nggawé akun utawa rékening mawa jeneng panganggo aksara campuran, mbingungaké lan sing mèmper",
+	"antispoof-conflict-top": "Jeneng \"$1\" mèmper banget karo {{PLURAL:$2|akun sing wis ana|$2 akun iki}}:",
+	"antispoof-conflict-bottom": "Mangga milih jeneng liya",
+	"antispoof-name-illegal": "Jeneng \"$1\" ora diidinaké supaya wong ora bingung utawa menggak ngapi-api jeneng panganggo sing wis ana: $2.\nMangga pilihen jeneng liya.",
+	"antispoof-badtype": "Tipe data salah",
+	"antispoof-empty": "Data kosong",
+	"antispoof-blacklisted": "Ngandung karakter $1 sing ora kalilan",
+	"antispoof-combining": "Wiwiti mawa tandha kombinasi $1",
+	"antispoof-unassigned": "Ngandung karakter $1 sing durung katetepaké",
+	"antispoof-deprecated": "Ngandung karakter $1 sing ora kanggo",
+	"antispoof-noletters": "Ora ngandhut aksara babar belas",
+	"antispoof-mixedscripts": "Ngandhut aksara campuran sing ora kompatibel",
+	"antispoof-tooshort": "Jeneng kanonikalisasi kecendhaken",
+	"antispoof-ignore": "Lirwakaké pamrikasaan panipuan akun (''spoofing'')",
+	"right-override-antispoof": "''Override'' pamriksan palècèhan"
 }

@@ -1,22 +1,22 @@
 {
-    "@metadata": {
-        "authors": [
-            "Lam-ang"
-        ]
-    },
-    "antispoof-desc": "Serraanna ti panagaramid kadagiti pakabilangan nga addaan ti naglalaok-a panagsurat, maka-allilaw ken dagiti agpapada a nagan ti agar-aramat",
-    "antispoof-conflict-top": "Ti nagan a \"$1\" ket kapada unay ti sumaganad a {{PLURAL:$2|a nagan ti agar-aramat|a nagan dagiti agar-aramat}}:",
-    "antispoof-conflict-bottom": "Pangngaasi nga agpilika ti sabali a nagan.",
-    "antispoof-name-illegal": "Ti nagan a \"$1\" ket saan a mabalin tapno pawilan ti maka-allilaw wenno dagiti naanigaas a nagan ti agar-aramat: $2.\nPangngaasi nga agpili iti sabali a nagan.",
-    "antispoof-badtype": "Dakes a kita ti datos",
-    "antispoof-empty": "Awan linaon a kuerdas",
-    "antispoof-blacklisted": "Naglaon kadagiti naiparit a karakter ti $1",
-    "antispoof-combining": "Nangrugi ti panagtipon ti marka ti $1",
-    "antispoof-unassigned": "Naglaon kadagiti saan a nainaganan wenno naikkaten a karakter",
-    "antispoof-deprecated": "Naglaon ti naikkat a karakter ti $1",
-    "antispoof-noletters": "Saan nga aglaon kadagiti aniaman a letra",
-    "antispoof-mixedscripts": "Aglaon kadagiti saan a mabalin nga aglalaok nga eskritu",
-    "antispoof-tooshort": "Ti nakanonikal a nagan ket ababa unay",
-    "antispoof-ignore": "Saan nga ikaskaso dagiti kinita nga aningaas",
-    "right-override-antispoof": "Parabawan ti panagkita nga aningaas"
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"antispoof-desc": "Serraanna ti panagaramid kadagiti pakabilangan nga addaan ti naglalaok-a panagsurat, maka-allilaw ken dagiti agpapada a nagan ti agar-aramat",
+	"antispoof-conflict-top": "Ti nagan a \"$1\" ket kapada unay ti sumaganad a {{PLURAL:$2|a nagan ti agar-aramat|a nagan dagiti agar-aramat}}:",
+	"antispoof-conflict-bottom": "Pangngaasi nga agpilika ti sabali a nagan.",
+	"antispoof-name-illegal": "Ti nagan a \"$1\" ket saan a mabalin tapno pawilan ti maka-allilaw wenno dagiti naanigaas a nagan ti agar-aramat: $2.\nPangngaasi nga agpili iti sabali a nagan.",
+	"antispoof-badtype": "Dakes a kita ti datos",
+	"antispoof-empty": "Awan linaon a kuerdas",
+	"antispoof-blacklisted": "Naglaon kadagiti naiparit a karakter ti $1",
+	"antispoof-combining": "Nangrugi ti panagtipon ti marka ti $1",
+	"antispoof-unassigned": "Naglaon kadagiti saan a nainaganan wenno naikkaten a karakter",
+	"antispoof-deprecated": "Naglaon ti naikkat a karakter ti $1",
+	"antispoof-noletters": "Saan nga aglaon kadagiti aniaman a letra",
+	"antispoof-mixedscripts": "Aglaon kadagiti saan a mabalin nga aglalaok nga eskritu",
+	"antispoof-tooshort": "Ti nakanonikal a nagan ket ababa unay",
+	"antispoof-ignore": "Saan nga ikaskaso dagiti kinita nga aningaas",
+	"right-override-antispoof": "Parabawan ti panagkita nga aningaas"
 }

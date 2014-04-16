@@ -1,28 +1,28 @@
 {
-    "@metadata": {
-        "authors": [
-            "Millosh",
-            "Rancher",
-            "Sasa Stefanovic",
-            "Јованвб",
-            "Жељко Тодоровић",
-            "Михајло Анђелковић"
-        ]
-    },
-    "antispoof-desc": "Спречава отварање налога с мешаним писмима, збуњујућим и сличним корисничким именима",
-    "antispoof-conflict-top": "Име „$1“ је превише слично с {{PLURAL:$2|именом постојећег налога|именима следећа $2 налога|именима следећих $2 налога}}:",
-    "antispoof-conflict-bottom": "Изаберите друго име.",
-    "antispoof-name-illegal": "Име „$1“ није дозвољено да би се избегла збуњујућа или лажирана корисничка имена: $2.\nИзаберите друго име.",
-    "antispoof-bad-char": "„$1“ ($2)",
-    "antispoof-badtype": "Погрешна врста података",
-    "antispoof-empty": "Празна ниска",
-    "antispoof-blacklisted": "Садржи забрањени знак $1",
-    "antispoof-combining": "Почиње са саставним знаком $1",
-    "antispoof-unassigned": "Садржи недодељен знак $1",
-    "antispoof-deprecated": "Садржи застарели знак $1",
-    "antispoof-noletters": "Не садржи ниједно слово",
-    "antispoof-mixedscripts": "Садржи несагласна мешана писма",
-    "antispoof-tooshort": "Нормализовано име је прекратко",
-    "antispoof-ignore": "Занемари међусобно слична имена",
-    "right-override-antispoof": "заобилажење провера за међусобно слична имена"
+	"@metadata": {
+		"authors": [
+			"Millosh",
+			"Rancher",
+			"Sasa Stefanovic",
+			"Јованвб",
+			"Жељко Тодоровић",
+			"Михајло Анђелковић"
+		]
+	},
+	"antispoof-desc": "Спречава отварање налога с мешаним писмима, збуњујућим и сличним корисничким именима",
+	"antispoof-conflict-top": "Име „$1“ је превише слично с {{PLURAL:$2|именом постојећег налога|именима следећа $2 налога|именима следећих $2 налога}}:",
+	"antispoof-conflict-bottom": "Изаберите друго име.",
+	"antispoof-name-illegal": "Име „$1“ није дозвољено да би се избегла збуњујућа или лажирана корисничка имена: $2.\nИзаберите друго име.",
+	"antispoof-bad-char": "„$1“ ($2)",
+	"antispoof-badtype": "Погрешна врста података",
+	"antispoof-empty": "Празна ниска",
+	"antispoof-blacklisted": "Садржи забрањени знак $1",
+	"antispoof-combining": "Почиње са саставним знаком $1",
+	"antispoof-unassigned": "Садржи недодељен знак $1",
+	"antispoof-deprecated": "Садржи застарели знак $1",
+	"antispoof-noletters": "Не садржи ниједно слово",
+	"antispoof-mixedscripts": "Садржи несагласна мешана писма",
+	"antispoof-tooshort": "Нормализовано име је прекратко",
+	"antispoof-ignore": "Занемари међусобно слична имена",
+	"right-override-antispoof": "заобилажење провера за међусобно слична имена"
 }

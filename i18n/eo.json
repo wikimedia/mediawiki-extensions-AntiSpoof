@@ -1,23 +1,23 @@
 {
-    "@metadata": {
-        "authors": [
-            "Tlustulimu",
-            "Yekrats"
-        ]
-    },
-    "antispoof-desc": "Blokas la kreadon de kontoj kun miksitaj alfabetaj, konfuzemaj, kaj similaj salutnomoj",
-    "antispoof-conflict-top": "La nomo \"$1\" tro similas al la {{PLURAL:$2|jenan konton|jenajn $2 kontojn}}:",
-    "antispoof-conflict-bottom": "Bonvolu elekti alian nomon.",
-    "antispoof-name-illegal": "La nomo \"$1\" ne estas permesita por preventi konfuzigemajn aŭ trompajn uzantnomojn: $2. Bonvolu elekti alian nomon.",
-    "antispoof-badtype": "Malvalida datumtipo",
-    "antispoof-empty": "Malplena bitĉeno",
-    "antispoof-blacklisted": "Enhavas literojn el nigra listo $1",
-    "antispoof-combining": "Komencas kun kuniga marko $1",
-    "antispoof-unassigned": "Enhavas nedonatan signon $1",
-    "antispoof-deprecated": "Enhavas evitindan signon $1",
-    "antispoof-noletters": "Ne enhavas iujn literojn",
-    "antispoof-mixedscripts": "Enhavas nekompatibilajn miksajn skriptojn",
-    "antispoof-tooshort": "Ordigita nomo estas tro mallonga",
-    "antispoof-ignore": "Ignori kontroladon de trompado",
-    "right-override-antispoof": "Superebligi la artifikajn kontrolojn."
+	"@metadata": {
+		"authors": [
+			"Tlustulimu",
+			"Yekrats"
+		]
+	},
+	"antispoof-desc": "Blokas la kreadon de kontoj kun miksitaj alfabetaj, konfuzemaj, kaj similaj salutnomoj",
+	"antispoof-conflict-top": "La nomo \"$1\" tro similas al la {{PLURAL:$2|jenan konton|jenajn $2 kontojn}}:",
+	"antispoof-conflict-bottom": "Bonvolu elekti alian nomon.",
+	"antispoof-name-illegal": "La nomo \"$1\" ne estas permesita por preventi konfuzigemajn aŭ trompajn uzantnomojn: $2. Bonvolu elekti alian nomon.",
+	"antispoof-badtype": "Malvalida datumtipo",
+	"antispoof-empty": "Malplena bitĉeno",
+	"antispoof-blacklisted": "Enhavas literojn el nigra listo $1",
+	"antispoof-combining": "Komencas kun kuniga marko $1",
+	"antispoof-unassigned": "Enhavas nedonatan signon $1",
+	"antispoof-deprecated": "Enhavas evitindan signon $1",
+	"antispoof-noletters": "Ne enhavas iujn literojn",
+	"antispoof-mixedscripts": "Enhavas nekompatibilajn miksajn skriptojn",
+	"antispoof-tooshort": "Ordigita nomo estas tro mallonga",
+	"antispoof-ignore": "Ignori kontroladon de trompado",
+	"right-override-antispoof": "Superebligi la artifikajn kontrolojn."
 }
