@@ -5,11 +5,12 @@
 			"IvanLanin",
 			"Kenrick95",
 			"Meursault2004",
-			"Rex"
+			"Rex",
+			"Arifin.wijaya"
 		]
 	},
 	"antispoof-desc": "Menghalangi pembuatan akun dengan nama pengguna aksara campuran, membingungkan, dan yang mirip",
-	"antispoof-conflict-top": "Nama \"$1\" terlalu mirip dengan {{PLURAL:$2|akun yang telah ada|$2 akun berikut}}:",
+	"antispoof-conflict-top": "Nama \"$1\" terlalu mirip dengan {{PLURAL:$2|nama pengguna|nama pengguna}} berikut:",
 	"antispoof-conflict-bottom": "Silakan memilih nama lain.",
 	"antispoof-name-illegal": "Nama \"$1\" tidak diijinkan untuk mencegah kebingungan atau penipuan nama: $2. Harap pilih nama lain.",
 	"antispoof-badtype": "Tipe data salah",
