@@ -10,13 +10,15 @@
 			"Remember the dot",
 			"Sanbec",
 			"Titoxd",
-			"VegaDark"
+			"VegaDark",
+			"Themasterriot"
 		]
 	},
 	"antispoof-desc": "Previene la creación de cuentas de usuario nuevas que tengan nombres confusos, similares a nombres existentes, o con alfabetos mixtos.",
 	"antispoof-conflict-top": "El nombre «$1» es muy similar al de {{PLURAL:$2|la siguiente cuenta|las siguientes cuentas}}:",
 	"antispoof-conflict-bottom": "Elige otro nombre.",
 	"antispoof-name-illegal": "El nombre «$1» no está permitido para evitar nombres de usuario confusos o suplantaciones: $2. Por favor, elige otro nombre.",
+	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Tipo de dato erróneo",
 	"antispoof-empty": "Texto vacío",
 	"antispoof-blacklisted": "Contiene el carácter no permitido $1",
