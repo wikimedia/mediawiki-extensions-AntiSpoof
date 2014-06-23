@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Tlustulimu",
-			"Yekrats"
+			"Yekrats",
+			"KuboF"
 		]
 	},
 	"antispoof-desc": "Blokas la kreadon de kontoj kun miksitaj alfabetaj, konfuzemaj, kaj similaj salutnomoj",
@@ -13,9 +14,9 @@
 	"antispoof-empty": "Malplena bitĉeno",
 	"antispoof-blacklisted": "Enhavas literojn el nigra listo $1",
 	"antispoof-combining": "Komencas kun kuniga marko $1",
-	"antispoof-unassigned": "Enhavas nedonatan signon $1",
+	"antispoof-unassigned": "Enhavas neatribuitan signon $1",
 	"antispoof-deprecated": "Enhavas evitindan signon $1",
-	"antispoof-noletters": "Ne enhavas iujn literojn",
+	"antispoof-noletters": "Enhavas neniujn literojn",
 	"antispoof-mixedscripts": "Enhavas nekompatibilajn miksajn skriptojn",
 	"antispoof-tooshort": "Ordigita nomo estas tro mallonga",
 	"antispoof-ignore": "Ignori kontroladon de trompado",

@@ -12,7 +12,7 @@
 	"antispoof-desc": "Menghalangi pembuatan akun dengan nama pengguna aksara campuran, membingungkan, dan yang mirip",
 	"antispoof-conflict-top": "Nama \"$1\" terlalu mirip dengan {{PLURAL:$2|nama pengguna|nama pengguna}} berikut:",
 	"antispoof-conflict-bottom": "Silakan memilih nama lain.",
-	"antispoof-name-illegal": "Nama \"$1\" tidak diijinkan untuk mencegah kebingungan atau penipuan nama: $2. Harap pilih nama lain.",
+	"antispoof-name-illegal": "Nama \"$1\" tidak diizinkan untuk mencegah kebingungan atau penipuan nama: $2. Harap pilih nama lain.",
 	"antispoof-badtype": "Tipe data salah",
 	"antispoof-empty": "Data kosong",
 	"antispoof-blacklisted": "Mengandung karakter yang tak diizinkan $1",
