@@ -7,7 +7,8 @@
 			"Mark85296341",
 			"Simon Shek",
 			"Waihorace",
-			"Wrightbus"
+			"Wrightbus",
+			"LNDDYL"
 		]
 	},
 	"antispoof-desc": "禁止使用混合文字、容易混淆或與已存在用戶名過於相似的用戶名創建帳戶",
@@ -19,10 +20,10 @@
 	"antispoof-blacklisted": "包含已列入黑名單的字元$1",
 	"antispoof-combining": "以結合標記開始$1",
 	"antispoof-unassigned": "包含未指定或不再使用的字元$1",
-	"antispoof-deprecated": "包括已禁用的字符 $1",
+	"antispoof-deprecated": "包括已禁用的字元 $1",
 	"antispoof-noletters": "不包含任何字元",
 	"antispoof-mixedscripts": "包含不相容混合的程式碼",
-	"antispoof-tooshort": "標準化後的用戶名過短",
+	"antispoof-tooshort": "標準化後的使用者名稱過短",
 	"antispoof-ignore": "略過欺詐檢查",
 	"right-override-antispoof": "無視欺詐檢查"
 }
