@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"बिप्लब आनन्द"
+		]
+	},
+	"antispoof-badtype": "खराब डाटा प्रकार",
+	"antispoof-empty": "खाली स्ट्रिंग",
+	"antispoof-blacklisted": "ऐ मे बिरोधसूची क्यारेक्टर $1 अछि",
+	"antispoof-combining": "एकत्रिकरण चिन्ह $1 स सुरु होएत अछि",
+	"antispoof-unassigned": "ऐ मे बिरोधसूची क्यारेक्टर $1 अछि",
+	"antispoof-deprecated": "ऐ मे बिरोधसूची क्यारेक्टर $1 अछि",
+	"antispoof-noletters": "ए मे कोनो अक्षर नै अछि"
+}
