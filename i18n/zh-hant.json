@@ -15,7 +15,7 @@
 	"antispoof-desc": "禁止使用混合 Script、容易混淆或與既有使用者名稱過於相似的使用者名稱建立帳號",
 	"antispoof-conflict-top": "名稱 \"$1\" 與以下{{PLURAL:$2|使用者|$2個使用者}}過於相似：",
 	"antispoof-conflict-bottom": "請選擇其他名稱。",
-	"antispoof-name-illegal": "已禁止使用名稱 \"$1\" 以避免混淆或欺騙用戶名：$2。\n請使用其他名稱。",
+	"antispoof-name-illegal": "已禁止使用名稱 \"$1\" 以避免混淆或欺騙使用者名稱：$2。\n請使用其他名稱。",
 	"antispoof-badtype": "錯誤的資料類型",
 	"antispoof-empty": "空字串",
 	"antispoof-blacklisted": "含有已列入黑名單的字元 $1",
