@@ -22,6 +22,22 @@ $wgExtensionCredits['antispam'][] = array(
 $wgAntiSpoofAccounts = true;
 
 /**
+ * Blacklisted character codes.
+ */
+$wgAntiSpoofBlacklist = array(
+	0x0337, # Combining short solidus overlay
+	0x0338, # Combining long solidus overlay
+	0x2044, # Fraction slash
+	0x2215, # Division slash
+	0x23AE, # Integral extension
+	0x29F6, # Solidus with overbar
+	0x29F8, # Big solidus
+	0x2AFB, # Triple solidus binary relation
+	0x2AFD, # Double solidus operator
+	0xFF0F  # Fullwidth solidus
+);
+
+/**
  * Allow sysops and bureaucrats to override the spoofing checks
  * and create accounts for people which hit false positives.
  */

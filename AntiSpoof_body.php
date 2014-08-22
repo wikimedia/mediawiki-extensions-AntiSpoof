@@ -127,21 +127,6 @@ class AntiSpoof {
 		array( 0x2F800, 0x2FA1F, "SCRIPT_DEPRECATED" )  # CJK Compatibility Ideographs Supplement
 	);
 
-	# Specially naughty characters we don't ever want to see...
-	# Slash-like characters.
-	private static $character_blacklist = array(
-		0x0337, # Combining short solidus overlay
-		0x0338, # Combining long solidus overlay
-		0x2044, # Fraction slash
-		0x2215, # Division slash
-		0x23AE, # Integral extension
-		0x29F6, # Solidus with overbar
-		0x29F8, # Big solidus
-		0x2AFB, # Triple solidus binary relation
-		0x2AFD, # Double solidus operator
-		0xFF0F  # Fullwidth solidus
-	);
-
 	# Equivalence sets
 	private static $equivset = null;
 
@@ -335,7 +320,12 @@ class AntiSpoof {
 	 * @return array
 	 */
 	public static function checkUnicodeString( $testName ) {
+		global $wgAntiSpoofBlacklist;
+
 		# Start with some sanity checking
+		if ( !is_array( $wgAntiSpoofBlacklist ) ) {
+			throw new MWError( '$wgAntiSpoofBlacklist should be an array!' );
+		}
 		if ( !is_string( $testName ) ) {
 			return array( "ERROR", wfMessage( 'antispoof-badtype' )->text() );
 		}
@@ -345,7 +335,7 @@ class AntiSpoof {
 		}
 
 		foreach ( self::stringToList( $testName ) as $char ) {
-			if ( in_array( $char, self::$character_blacklist ) ) {
+			if ( in_array( $char, $wgAntiSpoofBlacklist ) ) {
 				return self::badCharErr( 'antispoof-blacklisted', $char );
 			}
 		}
@@ -356,7 +346,7 @@ class AntiSpoof {
 
 		# Be paranoid: check again, just in case Unicode normalization code changes...
 		foreach ( $testChars as $char ) {
-			if ( in_array( $char, self::$character_blacklist ) ) {
+			if ( in_array( $char, $wgAntiSpoofBlacklist ) ) {
 				return self::badCharErr( 'antispoof-blacklisted', $char );
 			}
 		}
