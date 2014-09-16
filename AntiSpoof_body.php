@@ -324,7 +324,7 @@ class AntiSpoof {
 
 		# Start with some sanity checking
 		if ( !is_array( $wgAntiSpoofBlacklist ) ) {
-			throw new MWError( '$wgAntiSpoofBlacklist should be an array!' );
+			throw new MWException( '$wgAntiSpoofBlacklist should be an array!' );
 		}
 		if ( !is_string( $testName ) ) {
 			return array( "ERROR", wfMessage( 'antispoof-badtype' )->text() );
