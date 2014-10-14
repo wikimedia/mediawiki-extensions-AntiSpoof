@@ -5,16 +5,9 @@ class AntiSpoofHooks {
 	 * @param $updater DatabaseUpdater
 	 * @return bool
 	 */
-	public static function asUpdateSchema( $updater = null ) {
-		if ( $updater === null ) {
-			global $wgExtNewTables, $wgDBtype;
-			$wgExtNewTables[] = array(
-				'spoofuser',
-				__DIR__ . '/sql/patch-antispoof.' . $wgDBtype . '.sql', true );
-		} else {
-			$updater->addExtensionUpdate( array( 'addTable', 'spoofuser',
-				__DIR__ . '/sql/patch-antispoof.' . $updater->getDB()->getType() . '.sql', true ) );
-		}
+	public static function asUpdateSchema( DatabaseUpdater $updater ) {
+		$updater->addExtensionTable( 'spoofuser',
+			__DIR__ . '/sql/patch-antispoof.' . $updater->getDB()->getType() . '.sql' );
 		return true;
 	}
 
