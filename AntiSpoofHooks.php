@@ -111,6 +111,12 @@ class AntiSpoofHooks {
 		return true;
 	}
 
+	public static function asDeleteAccount( User &$oldUser ) {
+		$spoof = new SpoofUser( $oldUser->getName() );
+		$spoof->remove();
+		return true;
+	}
+
 	/**
 	 * Register tests
 	 *
