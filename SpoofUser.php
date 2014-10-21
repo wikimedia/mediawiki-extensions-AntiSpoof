@@ -147,6 +147,17 @@ class SpoofUser {
 	}
 
 	/**
+	 * Remove a user from the spoofuser table
+	 */
+	public function remove() {
+		$this->getDBMaster()->delete(
+			'spoofuser',
+			array( 'su_name' => $this->mName ),
+			__METHOD__
+		);
+	}
+
+	/**
 	 * @return DatabaseBase
 	 */
 	protected function getDBSlave() {
