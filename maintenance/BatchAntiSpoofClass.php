@@ -40,6 +40,10 @@ class BatchAntiSpoof extends Maintenance {
 		return new SpoofUser( $name );
 	}
 
+	protected function waitForSlaves() {
+		wfWaitForSlaves();
+	}
+
 	/**
 	 * Do the actual work. All child classes will need to implement this
 	 */
@@ -63,7 +67,7 @@ class BatchAntiSpoof extends Maintenance {
 			if ( $n % $batchSize == 0 ) {
 				$this->batchRecord( $items );
 				$items = array();
-				wfWaitForSlaves();
+				$this->waitForSlaves();
 			}
 		}
 
