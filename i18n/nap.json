@@ -6,5 +6,16 @@
 	},
 	"antispoof-desc": "Blocca 'a criazione 'e cunte utente cu nu script-mmescato, crianno cunfusione o nomme c'assomigliassero nfra lloro",
 	"antispoof-conflict-top": "'O nomme \"$1\" s'assomiglia assaje assaje a {{PLURAL:$2|'o cunto|'e cunte}}:",
-	"antispoof-conflict-bottom": "Pe' piacere scigliete n'atu nomme."
+	"antispoof-conflict-bottom": "Pe' piacere scigliete n'atu nomme.",
+	"antispoof-badtype": "Tipo 'e data errato",
+	"antispoof-empty": "Stringa abbacante",
+	"antispoof-blacklisted": "Cuntene carattere dint' 'a lista nira $1",
+	"antispoof-combining": "Accummencia cu na marca cumbinata $1",
+	"antispoof-unassigned": "Cuntene nu carattere nun azegnato $1",
+	"antispoof-deprecated": "Cuntene carattere deprecato $1",
+	"antispoof-noletters": "Nun cuntene nisciuna lettera",
+	"antispoof-mixedscripts": "Cuntene script mmiscate incompatibbele",
+	"antispoof-tooshort": "Nomme canonizzato troppo curto",
+	"antispoof-ignore": "Lassa perdere 'e check pe' spoofing (mbruoglie)",
+	"right-override-antispoof": "Sovrascrive 'e check pe' spoofing (mbruoglie)"
 }
