@@ -7,6 +7,7 @@
 	"antispoof-desc": "Blocca 'a criazione 'e cunte utente cu nu script-mmescato, crianno cunfusione o nomme c'assomigliassero nfra lloro",
 	"antispoof-conflict-top": "'O nomme \"$1\" s'assomiglia assaje assaje a {{PLURAL:$2|'o cunto|'e cunte}}:",
 	"antispoof-conflict-bottom": "Pe' piacere scigliete n'atu nomme.",
+	"antispoof-name-illegal": "'O nomme \"$1\" nun è permesso pe prevenì casine o mbruoglie 'e nomme utente: $2.\nPe' piacere scigliete n'atu nomme.",
 	"antispoof-badtype": "Tipo 'e data errato",
 	"antispoof-empty": "Stringa abbacante",
 	"antispoof-blacklisted": "Cuntene carattere dint' 'a lista nira $1",
