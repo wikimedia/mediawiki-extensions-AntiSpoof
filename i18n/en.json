@@ -1,23 +1,26 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "antispoof-desc": "Blocks the creation of accounts with mixed-script, confusing and similar usernames",
-    "antispoof-conflict-top": "The name \"$1\" is too similar to the following {{PLURAL:$2|username|usernames}}:",
-    "antispoof-conflict-item": "$1",
-    "antispoof-conflict-bottom": "Please choose another name.",
-    "antispoof-name-illegal": "The name \"$1\" is not allowed to prevent confusing or spoofed usernames: $2.\nPlease choose another name.",
-    "antispoof-bad-char": "\"$1\" ($2)",
-    "antispoof-bad-char-non-printable": "$1",
-    "antispoof-badtype": "Bad data type",
-    "antispoof-empty": "Empty string",
-    "antispoof-blacklisted": "Contains blacklisted character $1",
-    "antispoof-combining": "Begins with combining mark $1",
-    "antispoof-unassigned": "Contains unassigned character $1",
-    "antispoof-deprecated": "Contains deprecated character $1",
-    "antispoof-noletters": "Does not contain any letters",
-    "antispoof-mixedscripts": "Contains incompatible mixed scripts",
-    "antispoof-tooshort": "Canonicalized name too short",
-    "antispoof-ignore": "Ignore spoofing checks",
-    "right-override-antispoof": "Override the spoofing checks"
+	"@metadata": {
+		"authors": []
+	},
+	"antispoof-desc": "Blocks the creation of accounts with mixed-script, confusing and similar usernames",
+	"antispoof-conflict-top": "The name \"$1\" is too similar to the following {{PLURAL:$2|username|usernames}}:",
+	"antispoof-conflict-item": "$1",
+	"antispoof-conflict-bottom": "Please choose another name.",
+	"antispoof-name-illegal": "The name \"$1\" is not allowed to prevent confusing or spoofed usernames: $2.\nPlease choose another name.",
+	"antispoof-bad-char": "\"$1\" ($2)",
+	"antispoof-bad-char-non-printable": "$1",
+	"antispoof-badtype": "Bad data type",
+	"antispoof-empty": "Empty string",
+	"antispoof-blacklisted": "Contains blacklisted character $1",
+	"antispoof-combining": "Begins with combining mark $1",
+	"antispoof-unassigned": "Contains unassigned character $1",
+	"antispoof-deprecated": "Contains deprecated character $1",
+	"antispoof-noletters": "Does not contain any letters",
+	"antispoof-mixedscripts": "Contains incompatible mixed scripts",
+	"antispoof-tooshort": "Canonicalized name too short",
+	"antispoof-ignore": "Ignore spoofing checks",
+	"right-override-antispoof": "Override the spoofing checks",
+	"apihelp-antispoof-description": "Check a username against AntiSpoof's normalisation checks.",
+	"apihelp-antispoof-param-username": "The username to check against AntiSpoof.",
+	"apihelp-antispoof-example-1": "Check username \"Foo\" against AntiSpoof"
 }
