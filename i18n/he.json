@@ -21,5 +21,8 @@
 	"antispoof-mixedscripts": "כולל סוגי כתב מעורבים שאינם תואמים זה לזה",
 	"antispoof-tooshort": "השם המנורמל קצר מדי",
 	"antispoof-ignore": "התעלמות מבדיקת ההתחזות",
-	"right-override-antispoof": "עקיפת בדיקות ההתחזות"
+	"right-override-antispoof": "עקיפת בדיקות ההתחזות",
+	"apihelp-antispoof-description": "בדיקת שם משתמש אל מול בדיקות נרמול של AntiSpoof.",
+	"apihelp-antispoof-param-username": "שם משתמש לבדוק אל מול AntiSpoof.",
+	"apihelp-antispoof-example-1": "לבדוק את שם המשתמש Foo אל מול AntiSpoof."
 }
