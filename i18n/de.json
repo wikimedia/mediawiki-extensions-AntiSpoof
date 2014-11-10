@@ -22,5 +22,8 @@
 	"antispoof-mixedscripts": "Er enthält Zeichen unterschiedlicher Schriftsysteme.",
 	"antispoof-tooshort": "Er ist zu kurz.",
 	"antispoof-ignore": "Ähnlichkeitsprüfung ignorieren",
-	"right-override-antispoof": "Die Benutzernamens-Ähnlichkeitsprüfung außer Kraft setzen"
+	"right-override-antispoof": "Die Benutzernamens-Ähnlichkeitsprüfung außer Kraft setzen",
+	"apihelp-antispoof-description": "Einen Benutzernamen in die Normalisierungsprüfung der Erweiterung AntiSpoof aufnehmen.",
+	"apihelp-antispoof-param-username": "Der Benutzername, der mit der Erweiterung AntiSpoof geprüft werden soll.",
+	"apihelp-antispoof-example-1": "Den Benutzernamen „Foo“ mit der Erweiterung AntiSpoof überprüfen."
 }
