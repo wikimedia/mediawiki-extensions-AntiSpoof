@@ -7,7 +7,8 @@
 			"Liangent",
 			"PhiLiP",
 			"Xiaomingyan",
-			"Yfdyh000"
+			"Yfdyh000",
+			"Liuxinyu970226"
 		]
 	},
 	"antispoof-desc": "禁止使用混合文字、容易混淆或与已存在用户名过于相似的用户名创建帐户",
@@ -24,5 +25,7 @@
 	"antispoof-mixedscripts": "包含不兼容的混合文字",
 	"antispoof-tooshort": "标准化后的用户名过短",
 	"antispoof-ignore": "忽略欺诈检查",
-	"right-override-antispoof": "无视欺诈检查"
+	"right-override-antispoof": "无视欺诈检查",
+	"apihelp-antispoof-param-username": "要检查是否触犯AntiSpoof的用户名。",
+	"apihelp-antispoof-example-1": "检查用户名“Foo”是否触犯AntiSpoof"
 }
