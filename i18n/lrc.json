@@ -19,6 +19,7 @@
 	"antispoof-tooshort": "نوم قانونی فره کؤچک هئ",
 	"antispoof-ignore": "د نظر نگرتن وارسیا الکی",
 	"right-override-antispoof": "باطل کردن وارسیا الکی",
+	"apihelp-antispoof-description": "وارسی یه گل نوم کاریاری سی وارسی نرمال بیین نها ضد اسپوف.",
 	"apihelp-antispoof-param-username": "وارسی نوم کاریاری سی جستن ضداسپوف.",
 	"apihelp-antispoof-example-1": "نوم کاریاری \"فو\" نه سی ضد اسپوف وارسی بکیت"
 }
