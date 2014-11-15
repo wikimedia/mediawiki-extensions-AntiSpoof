@@ -4,19 +4,22 @@
 			"Lam-ang"
 		]
 	},
-	"antispoof-desc": "Serraanna ti panagaramid kadagiti pakabilangan nga addaan ti naglalaok-a panagsurat, maka-allilaw ken dagiti agpapada a nagan ti agar-aramat",
+	"antispoof-desc": "Serraanna ti panagaramid kadagiti pakabilangan nga addaan iti naglalaok a panagsurat, makaallilaw ken dagiti agpapada a nagan ti agar-aramat",
 	"antispoof-conflict-top": "Ti nagan a \"$1\" ket kapada unay ti sumaganad a {{PLURAL:$2|a nagan ti agar-aramat|a nagan dagiti agar-aramat}}:",
-	"antispoof-conflict-bottom": "Pangngaasi nga agpilika ti sabali a nagan.",
-	"antispoof-name-illegal": "Ti nagan a \"$1\" ket saan a mabalin tapno pawilan ti maka-allilaw wenno dagiti naanigaas a nagan ti agar-aramat: $2.\nPangngaasi nga agpili iti sabali a nagan.",
+	"antispoof-conflict-bottom": "Pangngaasi nga agpilika iti sabali a nagan.",
+	"antispoof-name-illegal": "Ti nagan a \"$1\" ket saan a maipalubos a mangpawil ti makaallilaw wenno dagiti naanigaas a nagan ti agar-aramat: $2.\nPangngaasi nga agpili iti sabali a nagan.",
 	"antispoof-badtype": "Dakes a kita ti datos",
 	"antispoof-empty": "Awan linaon a kuerdas",
 	"antispoof-blacklisted": "Naglaon kadagiti naiparit a karakter ti $1",
 	"antispoof-combining": "Nangrugi ti panagtipon ti marka ti $1",
-	"antispoof-unassigned": "Naglaon kadagiti saan a nainaganan wenno naikkaten a karakter",
-	"antispoof-deprecated": "Naglaon ti naikkat a karakter ti $1",
-	"antispoof-noletters": "Saan nga aglaon kadagiti aniaman a letra",
+	"antispoof-unassigned": "Naglaon kadagiti saan a nainaganan wenno nasukatanen a karakter ti $1",
+	"antispoof-deprecated": "Naglaon ti nasukatanen a karakter ti $1",
+	"antispoof-noletters": "Saan nga aglaon kadagiti ania man a letra",
 	"antispoof-mixedscripts": "Aglaon kadagiti saan a mabalin nga aglalaok nga eskritu",
-	"antispoof-tooshort": "Ti nakanonikal a nagan ket ababa unay",
+	"antispoof-tooshort": "Ti kanonikalisado a nagan ket ababa unay",
 	"antispoof-ignore": "Saan nga ikaskaso dagiti kinita nga aningaas",
-	"right-override-antispoof": "Parabawan ti panagkita nga aningaas"
+	"right-override-antispoof": "Parabawan ti panagkita nga aningaas",
+	"apihelp-antispoof-description": "Kitaen ti nagan ti agar-aramat nga isuppiat iti normalisasion a panagkita ti AntiSpoof.",
+	"apihelp-antispoof-param-username": "Ti nagan ti agar-aramat a kitaen a maisuppiat iti AntiSpoof.",
+	"apihelp-antispoof-example-1": "Kitaen tinagan ti agar-aramat \"Foo\" a maisuppiat iti AntiSpoof"
 }
