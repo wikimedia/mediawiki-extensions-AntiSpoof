@@ -22,5 +22,8 @@
 	"antispoof-mixedscripts": "Innehåller flera inkompatibla skriftsystem",
 	"antispoof-tooshort": "Det kanoniserade namnet är för kort",
 	"antispoof-ignore": "Ignorera missbrukskontroll",
-	"right-override-antispoof": "Slipper kontroller mot förvirrande användarnamn"
+	"right-override-antispoof": "Slipper kontroller mot förvirrande användarnamn",
+	"apihelp-antispoof-description": "Kontrollera ett användarnamn mot AntiSpoofs normaliseringskontroller.",
+	"apihelp-antispoof-param-username": "Det användarnamn som ska kontrolleras mot AntiSpoof.",
+	"apihelp-antispoof-example-1": "Kontrollera användarnamn \"Foo\" mot AntiSpoof"
 }
