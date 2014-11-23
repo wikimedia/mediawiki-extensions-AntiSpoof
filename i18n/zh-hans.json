@@ -26,6 +26,7 @@
 	"antispoof-tooshort": "标准化后的用户名过短",
 	"antispoof-ignore": "忽略欺诈检查",
 	"right-override-antispoof": "无视欺诈检查",
+	"apihelp-antispoof-description": "检查用户名是否触犯AntiSpoof的常规检查。",
 	"apihelp-antispoof-param-username": "要检查是否触犯AntiSpoof的用户名。",
 	"apihelp-antispoof-example-1": "检查用户名“Foo”是否触犯AntiSpoof"
 }
