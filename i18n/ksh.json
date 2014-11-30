@@ -18,5 +18,8 @@
 	"antispoof-mixedscripts": "He sin Zeichesätz jemesch.",
 	"antispoof-tooshort": "Dä vereinheitlechte Name es zo koot.",
 	"antispoof-ignore": "Donn de Prööfonge jäje et Name-Nohmaache övverjonn",
-	"right-override-antispoof": "Prööfonge jäje et Name-Nohmaache (<i lang=\"en\">Anti-Spoofing</i>) övverjonn"
+	"right-override-antispoof": "Prööfonge jäje et Name-Nohmaache (<i lang=\"en\">Anti-Spoofing</i>) övverjonn",
+	"apihelp-antispoof-description": "Donn de Nahme vun de Metmaacher jähje dem <i lang=\"en\" xml:lang=\"en\">AntiSpoof</i> sing Nommallisehronge prööve.",
+	"apihelp-antispoof-param-username": "Dä Nahme zom pröhve jähje dem <i lang=\"en\" xml:lang=\"en\">AntiSpoof</i> sing Nommallisehrong.",
+	"apihelp-antispoof-example-1": "Donn dä Nahme <i lang=\"en\" xml:lang=\"en\">Foo</i> jähje dem <i lang=\"en\" xml:lang=\"en\">AntiSpoof</i> sing Nommallisehronge pröhve."
 }
