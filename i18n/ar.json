@@ -24,5 +24,8 @@
 	"antispoof-mixedscripts": "يحتوي على سكريبتات غير متوافقة مختلطة",
 	"antispoof-tooshort": "الاسم المستخدم قصير جدًا",
 	"antispoof-ignore": "تجاهل التحقق من التشابه",
-	"right-override-antispoof": "تجاوز التحقق من سبوفينج"
+	"right-override-antispoof": "تجاوز التحقق من سبوفينج",
+	"apihelp-antispoof-description": "تحقق من اسم المستخدم باستخدام أداة التحقق من  عدم تشابه الأسماء.",
+	"apihelp-antispoof-param-username": "اسم المستخدم المطلوب التحقق منه باستخدام أداة التحقق من عدم تشابه الأسماء",
+	"apihelp-antispoof-example-1": "تحقق من اسم المستخدم «فلان» بأداة التحقق من عدم تشابه الأسماء."
 }
