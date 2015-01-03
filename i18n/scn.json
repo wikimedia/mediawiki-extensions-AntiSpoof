@@ -2,21 +2,26 @@
 	"@metadata": {
 		"authors": [
 			"Santu",
-			"Tonyfroio"
+			"Tonyfroio",
+			"Pippinu"
 		]
 	},
-	"antispoof-desc": "Blocca la criazzioni di account cu carattirìstichi ammiscati, noma utenti ca fannu cunfusioni troppu simigghiati ntra d'iddi",
-	"antispoof-conflict-top": "Lu nomu \"$1\" è troppu simigghianti {{PLURAL:$2|a l'account ca c'è già|a li account $2 ca si sunnu già}}:",
-	"antispoof-conflict-bottom": "Circari n'àutru nomu.",
-	"antispoof-name-illegal": "Lu nomu utenti \"$1\" nun è pirmessu, pi scanzari confusioni o utilizzi non lèciti: $2. Scègghiri n'àutru nomu.",
+	"antispoof-desc": "Blocca la crïazzioni di cunti d'utenti cu' nomi fatti di alfabbeti mmiscati, chi' ponnu fari cunfùnniri, o chi' s'assimìgghiunu troppu assai",
+	"antispoof-conflict-top": "Lu nomu \"$1\" n'assimigghia troppu assai a' {{PLURAL:$2|stu cuntu ca già cc'è|sti cunti ca già cci sunnu}}:",
+	"antispoof-conflict-bottom": "Pi' favuri scegghî n'autru nomu.",
+	"antispoof-name-illegal": "Lu nomu \"$1\" nun è cunsintutu, pi' scanzari cunfusioni o scancî di pirsuna: $2.\nPi' favuri scegghî n'autru nomu.",
 	"antispoof-badtype": "Tipu di dati erratu",
 	"antispoof-empty": "Stringa vacanti",
-	"antispoof-blacklisted": "Usu di carattiri nun cunzintiti",
-	"antispoof-combining": "Primu carattiri di cumminazzioni",
-	"antispoof-unassigned": "Cunteni carattiri nun assignati o dipricati",
-	"antispoof-noletters": "Nun cunteni nudda lìttira",
-	"antispoof-mixedscripts": "Cumminazzioni di sistemi di scrittura nun cumpatibbili",
+	"antispoof-blacklisted": "Cunteni lu caràttiri nta lista nìura $1",
+	"antispoof-combining": "Accumenza cûn caràttiri cumminanti $1",
+	"antispoof-unassigned": "Cunteni lu caràttiri nun assignatu $1",
+	"antispoof-deprecated": "Cunteni lu caràttiri dipricatu $1",
+	"antispoof-noletters": "Nun cunteni nuḍḍa littra",
+	"antispoof-mixedscripts": "Cunteni alfabbeti mmiscati chi' nun sunnu cumpatìbbili",
 	"antispoof-tooshort": "Nomu 'n forma canonica troppu curtu",
-	"antispoof-ignore": "Trascura li cuntolli pi spoofing",
-	"right-override-antispoof": "Trascura li cuntrolli spoofing"
+	"antispoof-ignore": "Sauta li cuntrolli contra ô scanciu di pirsuna",
+	"right-override-antispoof": "Sautari li cuntrolli contra ô scanciu di pirsuna",
+	"apihelp-antispoof-description": "Suttaponi un nomu utenti ê virìfichi di nurmalizzazzioni di l'AntiSpoof",
+	"apihelp-antispoof-param-username": "Lu nomu utenti di cuntrullari cu' l'AntiSpoof",
+	"apihelp-antispoof-example-1": "Cuntrullari lu nomu utenti \"Pippu\" cu' l'AntiSpoof"
 }
