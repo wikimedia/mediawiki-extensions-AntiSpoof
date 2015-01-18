@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Girmitya"
+			"Girmitya",
+			"Thakurji"
 		]
 	},
 	"antispoof-desc": "Ii waisan acount jisme mixed-script, nai to kharaab username hae, ke banae ke roke hae.",
-	"antispoof-conflict-top": "Naam \"$1\" {{PLURAL:$2|abhi ke account|ii sab $2 accounts}} ke rakam hae:",
+	"antispoof-conflict-top": "Naam \"$1\" {{PLURAL:$2|username|usernames}} abhi ke usename ke rakam hae:",
 	"antispoof-conflict-bottom": "Merbaani kar ke duusra naam ke choose karo.",
 	"antispoof-name-illegal": "Naam \"$1\" ke nai kaam me laawa jaae sake hae, duusra naam se confuse nai kare ke khatir: $2\nMeharbaani kar ke duusra naam ke choose karo.",
 	"antispoof-badtype": "Kharaab data type",
@@ -15,5 +16,11 @@
 	"antispoof-unassigned": "Isme unassigned akchhar $1 hae",
 	"antispoof-deprecated": "Isme deprecated akchhar $1 hae",
 	"antispoof-noletters": "Isme koi letter nai hae",
-	"antispoof-tooshort": "Canonicalized naam bahut chhota hae"
+	"antispoof-mixedscripts": "Isme incompatible mixed script hae",
+	"antispoof-tooshort": "Canonicalized naam bahut chhota hae",
+	"antispoof-ignore": "Spooling check ke ignore kar do",
+	"right-override-antispoof": "Spooling checks ke override karaa jaawe hae",
+	"apihelp-antispoof-description": "Check a username against AntiSpoof's normalisation checks.",
+	"apihelp-antispoof-param-username": "The username to check against AntiSpoof.",
+	"apihelp-antispoof-example-1": "Check username \"Foo\" against AntiSpoof"
 }
