@@ -22,5 +22,8 @@
 	"antispoof-mixedscripts": "Combinazione di sistemi di scrittura non compatibili",
 	"antispoof-tooshort": "Nome in forma canonica troppo corto",
 	"antispoof-ignore": "Ignora i controlli per spoofing",
-	"right-override-antispoof": "Ignora i controlli spoofing"
+	"right-override-antispoof": "Ignora i controlli spoofing",
+	"apihelp-antispoof-description": "Controlla un nome utente con le verifiche di normalizzaizone AntiSpoof",
+	"apihelp-antispoof-param-username": "Il nome utente da verificare con AntiSpoof.",
+	"apihelp-antispoof-example-1": "Controlla il nome utente \"Foo\" con AntiSpoof"
 }
