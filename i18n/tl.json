@@ -3,7 +3,8 @@
 		"authors": [
 			"AnakngAraw",
 			"Sky Harbor",
-			"Jojit fb"
+			"Jojit fb",
+			"Umherirrender"
 		]
 	},
 	"antispoof-desc": "Humaharang sa paglikha ng mga kuwentang may pinaghalong panitik, nakakalito at magkakatulad na mga pangalan ng tagagamit",
@@ -20,6 +21,6 @@
 	"antispoof-noletters": "Hindi naglalaman ng anumang mga titik",
 	"antispoof-mixedscripts": "Naglalaman ng hindi magkakatugmang pinaghalong mga panitik",
 	"antispoof-tooshort": "Napakamaikli ng naging panuntunang pangalan",
-	"antispoof-ignore": "Balewalain ang mga pagsusuring pangpanlilinlang (''spoof'')",
+	"antispoof-ignore": "Balewalain ang mga pagsusuring pangpanlilinlang (spoof)",
 	"right-override-antispoof": "Daigin ang mga pagsusuring pangpanlilinlang (''spoof'')"
 }

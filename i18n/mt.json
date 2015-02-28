@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrisportelli"
+			"Chrisportelli",
+			"Umherirrender"
 		]
 	},
 	"antispoof-desc": "Jimblokka l-ħolqien ta' kontijiet b'karattri mħawwda, ismijiet tal-utent li joħolqu konfużjoni jew huma wisq simili ma' xulxin.",
@@ -16,6 +17,6 @@
 	"antispoof-noletters": "Ma jinkludix ittri",
 	"antispoof-mixedscripts": "Jinkludi skripts imħallta li mhumiex kompatibbli",
 	"antispoof-tooshort": "L-isem fil-forma kanonika huwa wisq qasir",
-	"antispoof-ignore": "Injora l-kontroll għall-''ispoofing''",
+	"antispoof-ignore": "Injora l-kontroll għall-ispoofing",
 	"right-override-antispoof": "Jinjora l-kontrolli għall-''ispoofing''"
 }

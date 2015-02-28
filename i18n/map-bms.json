@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"StefanusRA"
+			"StefanusRA",
+			"Umherirrender"
 		]
 	},
 	"antispoof-desc": "Menggak nggawé akun sing jeneng panganggone nganggo aksara campuran, mbingungna lan sing mèmper",
@@ -17,6 +18,6 @@
 	"antispoof-noletters": "Ora ngandhut aksara babar belas",
 	"antispoof-mixedscripts": "Ngandhut aksara campuran sing ora kompatibel",
 	"antispoof-tooshort": "Jeneng kanonikalisasi kecendhaken",
-	"antispoof-ignore": "Lirwakaké pamrikasaan panipuan akun (''spoofing'')",
+	"antispoof-ignore": "Lirwakaké pamrikasaan panipuan akun (spoofing)",
 	"right-override-antispoof": "''Override'' pamriksan palècèhan"
 }

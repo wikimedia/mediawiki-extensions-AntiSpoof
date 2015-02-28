@@ -5,7 +5,8 @@
 			"Hamilton Abreu",
 			"Malafaya",
 			"Rhaijin",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Umherirrender"
 		]
 	},
 	"antispoof-desc": "Impede a criação de contas cujo nome de utilizador contenha misturas de alfabetos, ou seja confundível ou semelhante a outros existentes",
@@ -21,6 +22,6 @@
 	"antispoof-noletters": "Não contém letras",
 	"antispoof-mixedscripts": "Contém uma mistura de alfabetos incompatíveis",
 	"antispoof-tooshort": "Nome canónico demasiado curto",
-	"antispoof-ignore": "Ignorar as verificações de semelhança de nomes (<i>spoofing</i>)",
+	"antispoof-ignore": "Ignorar as verificações de semelhança de nomes (spoofing)",
 	"right-override-antispoof": "Ultrapassar as verificações de semelhança de nome (<i>spoofing</i>)"
 }

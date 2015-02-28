@@ -3,7 +3,8 @@
 		"authors": [
 			"Meursault2004",
 			"NoiX180",
-			"Pras"
+			"Pras",
+			"Umherirrender"
 		]
 	},
 	"antispoof-desc": "Menggak nggawé akun utawa rékening mawa jeneng panganggo aksara campuran, mbingungaké lan sing mèmper",
@@ -19,6 +20,6 @@
 	"antispoof-noletters": "Ora ngandhut aksara babar belas",
 	"antispoof-mixedscripts": "Ngandhut aksara campuran sing ora kompatibel",
 	"antispoof-tooshort": "Jeneng kanonikalisasi kecendhaken",
-	"antispoof-ignore": "Lirwakaké pamrikasaan panipuan akun (''spoofing'')",
+	"antispoof-ignore": "Lirwakaké pamrikasaan panipuan akun (spoofing)",
 	"right-override-antispoof": "''Override'' pamriksan palècèhan"
 }
