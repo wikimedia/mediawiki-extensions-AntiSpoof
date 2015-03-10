@@ -8,6 +8,7 @@
 	"antispoof-conflict-top": "Dä Name „$1“ eß zoh ähnlesch zoh {{PLURAL:$2|däm Name, dä&32;|dä Name, di_j_|nix wadd_}}et ald jitt:",
 	"antispoof-conflict-bottom": "Nemm ene andere Name.",
 	"antispoof-name-illegal": "Dä Name „$1“ es nit zojelohße, domet mer kein nohjemahte Name krije, un keine Durjenein met Schrefte: $2. Sök Der jet anders als Dinge Name us.",
+	"antispoof-bad-char": "„$1“ ($2)",
 	"antispoof-badtype": "Verkierte Zoot Date",
 	"antispoof-empty": "En dem Feld is nix dren",
 	"antispoof-blacklisted": "Do es dat Zeiche „$1“ dren, wat nit zojelohße es",

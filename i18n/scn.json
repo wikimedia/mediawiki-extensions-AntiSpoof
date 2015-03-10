@@ -6,7 +6,7 @@
 			"Pippinu"
 		]
 	},
-	"antispoof-desc": "Blocca la crïazzioni di cunti d'utenti cu' nomi fatti di alfabbeti mmiscati, chi' ponnu fari cunfùnniri, o chi' s'assimìgghiunu troppu assai",
+	"antispoof-desc": "Blocca la criazzioni di cunti d'utenti cu' nomi fatti di alfabbeti mmiscati, chi' ponnu fari cunfùnniri, o chi' s'assimìgghiunu troppu assai",
 	"antispoof-conflict-top": "Lu nomu \"$1\" n'assimigghia troppu assai a' {{PLURAL:$2|stu cuntu ca già cc'è|sti cunti ca già cci sunnu}}:",
 	"antispoof-conflict-bottom": "Pi' favuri scegghî n'autru nomu.",
 	"antispoof-name-illegal": "Lu nomu \"$1\" nun è cunsintutu, pi' scanzari cunfusioni o scancî di pirsuna: $2.\nPi' favuri scegghî n'autru nomu.",
@@ -16,7 +16,7 @@
 	"antispoof-combining": "Accumenza cûn caràttiri cumminanti $1",
 	"antispoof-unassigned": "Cunteni lu caràttiri nun assignatu $1",
 	"antispoof-deprecated": "Cunteni lu caràttiri dipricatu $1",
-	"antispoof-noletters": "Nun cunteni nuḍḍa littra",
+	"antispoof-noletters": "Nun cunteni nudda littra",
 	"antispoof-mixedscripts": "Cunteni alfabbeti mmiscati chi' nun sunnu cumpatìbbili",
 	"antispoof-tooshort": "Nomu 'n forma canonica troppu curtu",
 	"antispoof-ignore": "Sauta li cuntrolli contra ô scanciu di pirsuna",
