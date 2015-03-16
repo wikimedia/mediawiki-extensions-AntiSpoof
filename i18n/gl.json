@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Alma",
-			"Toliño"
+			"Toliño",
+			"Banjo"
 		]
 	},
 	"antispoof-desc": "Bloquea a creación de contas con escrituras mesturadas, confusas ou con nomes de usuario similares",
@@ -18,6 +19,9 @@
 	"antispoof-noletters": "Non contén ningunha letra",
 	"antispoof-mixedscripts": "Contén guións incompatibles mesturados",
 	"antispoof-tooshort": "Nome curto de máis",
-	"antispoof-ignore": "Ignorar as comprobacións parodia (spoofing)",
-	"right-override-antispoof": "Ignorar as comprobacións parodia (spoofing)"
+	"antispoof-ignore": "Ignorar as comprobacións de engaños (spoofing)",
+	"right-override-antispoof": "Ignorar as comprobacións de engaños (spoofing)",
+	"apihelp-antispoof-description": "Comprobar un nome de usuario coas comprobacións de normalización de AntiSpoof",
+	"apihelp-antispoof-param-username": "Nome de usuario a comprobar có AntiSpoof",
+	"apihelp-antispoof-example-1": "Comprobar nome de usuario \"Foo\" có AntiSpoof"
 }
