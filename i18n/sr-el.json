@@ -3,11 +3,12 @@
 		"authors": [
 			"Michaello",
 			"Rancher",
-			"Жељко Тодоровић"
+			"Жељко Тодоровић",
+			"Milicevic01"
 		]
 	},
 	"antispoof-desc": "Sprečava otvaranje naloga s mešanim pismima, zbunjujućim i sličnim korisničkim imenima",
-	"antispoof-conflict-top": "Ime „$1“ je previše slično s {{PLURAL:$2|imenom postojećeg naloga|imenima sledeća $2 naloga|imenima sledećih $2 naloga}}:",
+	"antispoof-conflict-top": "Ime „$1“ je previše slično sa sledećim korisničkim {{PLURAL:$2|imenom|imenima}}:",
 	"antispoof-conflict-bottom": "Izaberite drugo ime.",
 	"antispoof-name-illegal": "Ime „$1“ nije dozvoljeno da bi se izbegla zbunjujuća ili lažirana korisnička imena: $2.\nIzaberite drugo ime.",
 	"antispoof-bad-char": "„$1“ ($2)",
