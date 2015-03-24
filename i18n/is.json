@@ -18,5 +18,6 @@
 	"antispoof-deprecated": "Inniheldur úrelda táknið $1",
 	"antispoof-noletters": "Inniheldur enga stafi",
 	"antispoof-mixedscripts": "Inniheldur ósamhæfðar skriftur",
-	"antispoof-tooshort": "Nafn of stutt"
+	"antispoof-tooshort": "Nafn of stutt",
+	"antispoof-ignore": "Hunsa misnotkunar athugun"
 }
