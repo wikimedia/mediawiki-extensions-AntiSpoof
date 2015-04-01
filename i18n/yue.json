@@ -1,19 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
-			"Antonytse"
+			"Antonytse",
+			"CRCHF"
 		]
 	},
 	"antispoof-desc": "封鎖一啲對於有混合程序、混淆同埋相似嘅用戶名嘅開戶口動作",
+	"antispoof-conflict-top": "由於戶口”$1“同以下呢啲戶口嘅名太似：\n{{PLURAL:$2|username|usernames}}",
+	"antispoof-conflict-bottom": "請揀第個名",
 	"antispoof-name-illegal": "呢個名\"$1\"唔畀用，以預防撈亂或者冒充：\"$2\"。請揀過個名。",
 	"antispoof-badtype": "錯誤嘅資料類型",
 	"antispoof-empty": "空白字串",
 	"antispoof-blacklisted": "有列喺黑名單度嘅字符「$1」",
-	"antispoof-combining": "以結合標記開始",
-	"antispoof-unassigned": "包含未指定或者唔再用嘅字元",
+	"antispoof-combining": "從結合標記$1開始",
+	"antispoof-unassigned": "包括咗未指定或唔再用嘅字符",
+	"antispoof-deprecated": "有列喺黑名單度嘅字符「$1」",
 	"antispoof-noletters": "唔包含任何字元",
 	"antispoof-mixedscripts": "包含唔相容嘅混合碼",
 	"antispoof-tooshort": "正規化嘅名太短",
 	"antispoof-ignore": "略過欺詐檢查",
-	"right-override-antispoof": "無視欺詐檢查"
+	"right-override-antispoof": "無視欺詐檢查",
+	"apihelp-antispoof-description": "正常檢查一個戶口係咪有網絡釣魚嘅嘢。",
+	"apihelp-antispoof-param-username": "呢個用戶名懷疑有網絡釣魚",
+	"apihelp-antispoof-example-1": "查到“Foo”呢個戶口有網絡釣魚嘅嘢"
 }
