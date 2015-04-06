@@ -26,5 +26,8 @@
 	"antispoof-mixedscripts": "含有混合不相容的 Script",
 	"antispoof-tooshort": "標準化後的使用者名稱過短",
 	"antispoof-ignore": "忽略欺騙檢查",
-	"right-override-antispoof": "覆蓋欺騙檢查"
+	"right-override-antispoof": "覆蓋欺騙檢查",
+	"apihelp-antispoof-description": "檢查使用者名稱是否違反 AntiSpoof 的常態檢查。",
+	"apihelp-antispoof-param-username": "檢查使用者名稱是否違反 AntiSpoof。",
+	"apihelp-antispoof-example-1": "檢查使用者名稱 \"Foo\" 是否違反 AntiSpoof。"
 }

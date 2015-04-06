@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Antonytse",
-			"CRCHF"
+			"CRCHF",
+			"Yueman"
 		]
 	},
 	"antispoof-desc": "封鎖一啲對於有混合程序、混淆同埋相似嘅用戶名嘅開戶口動作",
@@ -13,7 +14,7 @@
 	"antispoof-empty": "空白字串",
 	"antispoof-blacklisted": "有列喺黑名單度嘅字符「$1」",
 	"antispoof-combining": "從結合標記$1開始",
-	"antispoof-unassigned": "包括咗未指定或唔再用嘅字符",
+	"antispoof-unassigned": "有未指定嘅字符「$1」",
 	"antispoof-deprecated": "有列喺黑名單度嘅字符「$1」",
 	"antispoof-noletters": "唔包含任何字元",
 	"antispoof-mixedscripts": "包含唔相容嘅混合碼",
