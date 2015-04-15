@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"عثمان خان شاہ"
 		]
 	},
+	"antispoof-conflict-top": "دا نوم  \"$1\" د کوز ورکړي شوي نوم پشان دي {{PLURAL:$2|کارن نوم|کارن نومونه}}:",
 	"antispoof-conflict-bottom": "لطفاُ يو بل نوم وټاکۍ.",
 	"antispoof-badtype": "ناسمه مالوماتي بڼه",
 	"antispoof-blacklisted": "$1 د تور لړليک توری دی",
