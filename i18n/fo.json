@@ -17,5 +17,6 @@
 	"antispoof-noletters": "Inniheldur ikki nakran bókstav",
 	"antispoof-tooshort": "Navnið er ov stutt",
 	"antispoof-ignore": "Síggj burtur frá \"spoofing\" kanning",
+	"apihelp-antispoof-param-username": "Brúkaranavnið ið skal kannast móti AntiSpoof.",
 	"apihelp-antispoof-example-1": "Kanna brúkaranavnið \"Foo\" móti AntiSpoof"
 }
