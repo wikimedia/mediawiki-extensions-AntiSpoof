@@ -7,7 +7,8 @@
 			"Omidh",
 			"Reza1615",
 			"Surena",
-			"ZxxZxxZ"
+			"ZxxZxxZ",
+			"Dalba"
 		]
 	},
 	"antispoof-desc": "از ایجاد حساب‌های کاربری با حروف مختلط، گیج‌کننده یا مشابه با دیگر حساب‌های کاربری جلوگیری می‌کند",
@@ -24,5 +25,8 @@
 	"antispoof-mixedscripts": "حاوی نویسه‌های مختلط ناسازگار است",
 	"antispoof-tooshort": "نام متعارف خیلی کوتاه است",
 	"antispoof-ignore": "نادیده‌گرفتن بررسی عبارات سردرگم‌کننده",
-	"right-override-antispoof": "گذر از بررسی عبارات سردرگم‌کننده"
+	"right-override-antispoof": "گذر از بررسی عبارات سردرگم‌کننده",
+	"apihelp-antispoof-description": "بررسی یک نام‌ کاربری بر طبق نرمال‌سازی‌های ضدجعل.",
+	"apihelp-antispoof-param-username": "نام کاربری‌ای که با ضدجعل بررسی می‌شود.",
+	"apihelp-antispoof-example-1": "بررسی نام کاربر «Foo» با ضدجعل"
 }
