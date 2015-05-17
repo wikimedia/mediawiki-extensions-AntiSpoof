@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Dittaeva",
-			"Event"
+			"Event",
+			"Chameleon222"
 		]
 	},
 	"antispoof-desc": "Hindrer oppretting av kontoer med lignende eller forvirrende brukernavn, eller brukernavn som inneholder to forskjellige alfabettyper",
@@ -19,5 +20,8 @@
 	"antispoof-mixedscripts": "Inneholder blanding av skriftsystemer",
 	"antispoof-tooshort": "Navnet er for kort",
 	"antispoof-ignore": "Ignorer misbrukssjekk",
-	"right-override-antispoof": "Overkjøre sjekk av brukernavn"
+	"right-override-antispoof": "Overkjøre sjekk av brukernavn",
+	"apihelp-antispoof-description": "Sjekker et brukernavn mot AntiSpoofs normaliseringskontroller.",
+	"apihelp-antispoof-param-username": "Brukernavnet som skal sjekkes mot AntiSpoof.",
+	"apihelp-antispoof-example-1": "Sjekk brukernavn «Foo» mot AntiSpoof"
 }
