@@ -8,7 +8,8 @@
 			"Luckas",
 			"Rhaijin",
 			"555",
-			"He7d3r"
+			"He7d3r",
+			"Dianakc"
 		]
 	},
 	"antispoof-desc": "Impede a criação de contas com escrita mista, e nomes de usuário confusos e semelhantes",
@@ -26,5 +27,8 @@
 	"antispoof-mixedscripts": "Contém scripts de escrita incompatíveis mesclados",
 	"antispoof-tooshort": "Nome canônico curto demais",
 	"antispoof-ignore": "Ignorar verificações de \"spoofing\"",
-	"right-override-antispoof": "Sobrepor verificações de spoofing"
+	"right-override-antispoof": "Sobrepor verificações de spoofing",
+	"apihelp-antispoof-description": "Verifica um nome de usuário contra verificações de normalização do AntiSpoof.",
+	"apihelp-antispoof-param-username": "O nome de usuário para verificar no AntiSpoof.",
+	"apihelp-antispoof-example-1": "Verifica o nome de usuário \"Foo\" através do AntiSpoof"
 }
