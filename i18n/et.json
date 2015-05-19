@@ -7,7 +7,7 @@
 	"antispoof-desc": "Blokeerib erinevaid kirjasüsteeme kasutavate, eksitavate ja sarnaste kasutajanimedega kontode loomise.",
 	"antispoof-conflict-top": "Nimi \"$1\" on liiga sarnane {{PLURAL:$2|järgmise kasutajanimega|järgmiste kasutajanimedega}}:",
 	"antispoof-conflict-bottom": "Palun vali teine nimi.",
-	"antispoof-name-illegal": "Nimi \"$1\" ei ole lubatud, et vältida eksitavaid või pilavaid kasutajanimesid. Põhjus: $2.\nPalun vali teine nimi.",
+	"antispoof-name-illegal": "Nimi \"$1\" ei ole lubatud, et vältida eksitavaid või tüssavaid kasutajanimesid: $2.\nPalun vali teistsugune nimi.",
 	"antispoof-badtype": "Halb andmetüüp",
 	"antispoof-empty": "Tühi sõne",
 	"antispoof-blacklisted": "Sisaldab mustas nimekirjas olevat märki $1.",
@@ -18,5 +18,8 @@
 	"antispoof-mixedscripts": "Sisaldab ühildumatuid kirjasüsteeme",
 	"antispoof-tooshort": "Kanooniline nimi on liiga lühike",
 	"antispoof-ignore": "Eira sarnasuskontrolle",
-	"right-override-antispoof": "Mööduda kasutajanimede sarnasuse testist"
+	"right-override-antispoof": "Alistada sarnasuskontrollid",
+	"apihelp-antispoof-description": "Kasutajanime kontrollimine tüssamisvastaste normaliseerimiskontrollide vastu.",
+	"apihelp-antispoof-param-username": "Kasutajanimi, mida tüssamisvastase kontrolli vastu kontrollida.",
+	"apihelp-antispoof-example-1": "Kontrolli kasutajanime \"Foo\" tüssamisvastase kontrolli vastu"
 }
