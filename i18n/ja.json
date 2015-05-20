@@ -6,7 +6,8 @@
 			"JtFuruhata",
 			"Mizusumashi",
 			"Muttley",
-			"Shirayuki"
+			"Shirayuki",
+			"2nd-player"
 		]
 	},
 	"antispoof-desc": "文字体系が混在している利用者名、既存の利用者名と類似していて紛らわしい利用者名のアカウント作成をブロックする",
@@ -24,5 +25,6 @@
 	"antispoof-mixedscripts": "一緒に使用できない複数の文字体系が混在しています",
 	"antispoof-tooshort": "正規化した名前が短すぎます",
 	"antispoof-ignore": "なりすましチェックを無効にする",
-	"right-override-antispoof": "なりすましチェックを無視"
+	"right-override-antispoof": "なりすましチェックを無視",
+	"apihelp-antispoof-example-1": "利用者名 \"Foo\" を AntiSpoof でチェックする"
 }
