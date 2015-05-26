@@ -3,7 +3,8 @@
 		"authors": [
 			"Incelemeelemani",
 			"Joseph",
-			"Srhat"
+			"Srhat",
+			"Arystanbek"
 		]
 	},
 	"antispoof-desc": "Karışık-betikli, kafa karıştırıcı ve benzer kullanıcı adlarıyla hesap oluşturulmasını engeller",
@@ -20,5 +21,8 @@
 	"antispoof-mixedscripts": "Uyumsuz karışık betikler içeriyor",
 	"antispoof-tooshort": "Standartlaştırılmış isim çok kısa",
 	"antispoof-ignore": "Aldatıcı kontrolleri ihmal et",
-	"right-override-antispoof": "Aldatıcı kontrolleri gerçersiz kıl"
+	"right-override-antispoof": "Aldatıcı kontrolleri gerçersiz kıl",
+	"apihelp-antispoof-description": "AntiSpoof bu normalleşme denetler karşı bir kullanıcı adı kontrol edin.",
+	"apihelp-antispoof-param-username": "Kullanıcı adı AntiSpoof karşı kontrol edin.",
+	"apihelp-antispoof-example-1": "Onay \"\" karşı AntiSpoof Foo kullanıcı adı"
 }
