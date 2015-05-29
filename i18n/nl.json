@@ -5,7 +5,8 @@
 			"Erwin",
 			"HanV",
 			"SPQRobin",
-			"Siebrand"
+			"Siebrand",
+			"Esketti"
 		]
 	},
 	"antispoof-desc": "Blokkeert het aanmaken van gebruikersnamen in meerdere schriften, en verwarrende en gelijkende gebruikersnamen",
@@ -16,11 +17,14 @@
 	"antispoof-empty": "Lege string",
 	"antispoof-blacklisted": "Bevat verboden teken $1",
 	"antispoof-combining": "Begint met gecombineerd merkteken $1",
-	"antispoof-unassigned": "Bevat niet toegewezen of verouderd karakter",
+	"antispoof-unassigned": "Bevat niet toegewezen of verouderd karakter $1",
 	"antispoof-deprecated": "Bevat verouderd teken $1",
 	"antispoof-noletters": "Bevat geen letters",
 	"antispoof-mixedscripts": "Bevat niet compatibele schriften",
 	"antispoof-tooshort": "Afgekorte naam te kort",
 	"antispoof-ignore": "Controle op gelijkende gebruikersnamen negeren",
-	"right-override-antispoof": "Spoofcontroles negeren"
+	"right-override-antispoof": "Spoofcontroles negeren",
+	"apihelp-antispoof-description": "Check een gebruikersnaam tegen AntiSpoof normaliserings  controles.",
+	"apihelp-antispoof-param-username": "De gebruikersnaam om te controleren tegen AntiSpoof.",
+	"apihelp-antispoof-example-1": "Controleer gebruikersnaam \"Foo\" tegen AntiSpoof"
 }
