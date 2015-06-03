@@ -12,7 +12,8 @@
 			"Titoxd",
 			"VegaDark",
 			"Themasterriot",
-			"Ryo567"
+			"Ryo567",
+			"Macofe"
 		]
 	},
 	"antispoof-desc": "Previene la creación de cuentas de usuario nuevas que tengan nombres confusos, similares a nombres existentes, o con alfabetos mixtos.",
@@ -24,8 +25,8 @@
 	"antispoof-empty": "Texto vacío",
 	"antispoof-blacklisted": "Contiene el carácter no permitido $1",
 	"antispoof-combining": "Comienza por la marca de combinación $1",
-	"antispoof-unassigned": "Contiene caracteres obsoletos o no asignados",
-	"antispoof-deprecated": "Contiene el carácter obsoleto $1",
+	"antispoof-unassigned": "Contiene el carácter sin asignar $1",
+	"antispoof-deprecated": "Contiene el carácter desaconsejado $1",
 	"antispoof-noletters": "No contiene letras",
 	"antispoof-mixedscripts": "Contiene una mezcla incompatible de alfabetos",
 	"antispoof-tooshort": "Nombre en forma canónica demasiado corto",
