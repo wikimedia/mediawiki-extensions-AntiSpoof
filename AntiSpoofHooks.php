@@ -141,4 +141,42 @@ class AntiSpoofHooks {
 		return true;
 		// @codeCoverageIgnoreEnd
 	}
+
+	/**
+	 * @param ApiBase $module
+	 * @param array $params
+	 * @return bool
+	 */
+	public static function onAPIGetAllowedParams( &$module, &$params ) {
+		if ( $module instanceof ApiCreateAccount ) {
+			$params['ignoreantispoof'] = array(
+					ApiBase::PARAM_TYPE => 'boolean',
+					ApiBase::PARAM_DFLT => false
+			);
+		}
+
+		return true;
+	}
+
+	/**
+	 * Pass API parameter on to the login form when using
+	 * API account creation.
+	 *
+	 * @param ApiBase $apiModule
+	 * @param LoginForm $loginForm
+	 * @return hook return value
+	 */
+	public static function addNewAccountApiForm( $apiModule, $loginForm ) {
+		global $wgRequest;
+		$main = $apiModule->getMain();
+
+		if ( $main->getVal( 'ignoreantispoof' ) !== null ) {
+			$wgRequest->setVal( 'wpIgnoreAntiSpoof', '1' );
+
+			// Suppress "unrecognized parameter" warning:
+			$main->getVal( 'wpIgnoreAntiSpoof' );
+		}
+
+		return true;
+	}
 }

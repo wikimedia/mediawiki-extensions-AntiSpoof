@@ -65,3 +65,5 @@ $wgHooks['AddNewAccount'][] = 'AntiSpoofHooks::asAddNewAccountHook';
 $wgHooks['RenameUserComplete'][] = 'AntiSpoofHooks::asAddRenameUserHook';
 $wgHooks['DeleteAccount'][] = 'AntiSpoofHooks::asDeleteAccount';
 $wgHooks['UnitTestsList'][] = 'AntiSpoofHooks::asUnitTestsList';
+$wgHooks['APIGetAllowedParams'][] = 'AntiSpoofHooks::onAPIGetAllowedParams';
+$wgHooks['AddNewAccountApiForm'][] = 'AntiSpoofHooks::addNewAccountApiForm';
