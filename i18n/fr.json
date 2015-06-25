@@ -30,5 +30,6 @@
 	"right-override-antispoof": "Court-circuiter les vérifications de tromperie",
 	"apihelp-antispoof-description": "Vérifier un nom d’utilisateur d’après les contrôles de normalisation AntiSpoof.",
 	"apihelp-antispoof-param-username": "Le nom d’utilisateur à vérifier d’après AntiSpoof.",
-	"apihelp-antispoof-example-1": "Vérifier le nom d’utilisateur « Foo » d’après AntiSpoof"
+	"apihelp-antispoof-example-1": "Vérifier le nom d’utilisateur « Foo » d’après AntiSpoof",
+	"apihelp-createaccount-param-ignoreantispoof": "Ignorer les contrôles d’usurpation (nécessite le droit <code>override-antispoof</code>)."
 }

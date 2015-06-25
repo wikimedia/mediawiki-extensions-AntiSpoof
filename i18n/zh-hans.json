@@ -28,5 +28,6 @@
 	"right-override-antispoof": "无视欺诈检查",
 	"apihelp-antispoof-description": "检查用户名是否触犯AntiSpoof的常规检查。",
 	"apihelp-antispoof-param-username": "要检查是否触犯AntiSpoof的用户名。",
-	"apihelp-antispoof-example-1": "检查用户名“Foo”是否触犯AntiSpoof"
+	"apihelp-antispoof-example-1": "检查用户名“Foo”是否触犯AntiSpoof",
+	"apihelp-createaccount-param-ignoreantispoof": "忽略欺骗检查（需要<code>override-antispoof</code>权限）。"
 }
