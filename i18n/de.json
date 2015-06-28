@@ -25,5 +25,6 @@
 	"right-override-antispoof": "Die Benutzernamens-Ähnlichkeitsprüfung außer Kraft setzen",
 	"apihelp-antispoof-description": "Einen Benutzernamen in die Normalisierungsprüfung der Erweiterung AntiSpoof aufnehmen.",
 	"apihelp-antispoof-param-username": "Der Benutzername, der mit der Erweiterung AntiSpoof geprüft werden soll.",
-	"apihelp-antispoof-example-1": "Den Benutzernamen „Foo“ mit der Erweiterung AntiSpoof überprüfen."
+	"apihelp-antispoof-example-1": "Den Benutzernamen „Foo“ mit der Erweiterung AntiSpoof überprüfen.",
+	"apihelp-createaccount-param-ignoreantispoof": "Ignoriert die Prüfung auf Spoofing (erfordert die Berechtigung <code>override-antispoof</code>)."
 }
