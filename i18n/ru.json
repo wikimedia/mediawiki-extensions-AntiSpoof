@@ -23,5 +23,7 @@
 	"antispoof-mixedscripts": "использует символы из разных алфавитов",
 	"antispoof-tooshort": "слишком короткое",
 	"antispoof-ignore": "Игнорировать проверки на схожие имена",
-	"right-override-antispoof": "игнорирование проверок на схожие имена"
+	"right-override-antispoof": "игнорирование проверок на схожие имена",
+	"apihelp-antispoof-param-username": "Имя участника, которое нужно проверить с помощью AntiSpoof.",
+	"apihelp-antispoof-example-1": "Проверить с помощью AntiSpoof имя участника «Foo»"
 }
