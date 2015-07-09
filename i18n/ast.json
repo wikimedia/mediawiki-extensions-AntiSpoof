@@ -22,5 +22,6 @@
 	"right-override-antispoof": "Saltase les comprobaciones d'engañu (spoofing)",
 	"apihelp-antispoof-description": "Comprobar un nome d'usuariu escontra les comprobaciones de normalización AntiSpoof.",
 	"apihelp-antispoof-param-username": "El nome d'usuariu a comprobar escontra AntiSpoof.",
-	"apihelp-antispoof-example-1": "Comprobar el nome d'usuariu «Foo» escontra AntiSpoof"
+	"apihelp-antispoof-example-1": "Comprobar el nome d'usuariu «Foo» escontra AntiSpoof",
+	"apihelp-createaccount-param-ignoreantispoof": "Inorar les comprobaciones d'engañu (spoof) (rique'l permisu <code>override-antispoof</code>)"
 }
