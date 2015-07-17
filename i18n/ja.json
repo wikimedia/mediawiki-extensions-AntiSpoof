@@ -7,7 +7,8 @@
 			"Mizusumashi",
 			"Muttley",
 			"Shirayuki",
-			"2nd-player"
+			"2nd-player",
+			"Takot"
 		]
 	},
 	"antispoof-desc": "文字体系が混在している利用者名、既存の利用者名と類似していて紛らわしい利用者名のアカウント作成をブロックする",
@@ -26,5 +27,8 @@
 	"antispoof-tooshort": "正規化した名前が短すぎます",
 	"antispoof-ignore": "なりすましチェックを無効にする",
 	"right-override-antispoof": "なりすましチェックを無視",
-	"apihelp-antispoof-example-1": "利用者名 \"Foo\" を AntiSpoof でチェックする"
+	"apihelp-antispoof-description": "ユーザー名が AntiSpoof の正規化チェックに反しているかどうかチェックする",
+	"apihelp-antispoof-param-username": "AntiSpoof に対してチェックするユーザー名",
+	"apihelp-antispoof-example-1": "利用者名 \"Foo\" を AntiSpoof でチェックする",
+	"apihelp-createaccount-param-ignoreantispoof": "なりすましチェックを無視する (<code>override-antispoof</code> 権が必要になります)。"
 }
