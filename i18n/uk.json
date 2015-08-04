@@ -5,7 +5,8 @@
 			"AS",
 			"Ahonc",
 			"Andriykopanytsia",
-			"Piramidion"
+			"Piramidion",
+			"Ата"
 		]
 	},
 	"antispoof-desc": "Забороняє створення облікових записів з іменами, подібними або схожими на імена інших облікових записів, та іменами, що містять символи з різних систем письма.",
@@ -22,5 +23,9 @@
 	"antispoof-mixedscripts": "Використовуються несумісні системи письма",
 	"antispoof-tooshort": "Канонічне ім'я надто коротке",
 	"antispoof-ignore": "Ігнорувати перевірки на схожі імена",
-	"right-override-antispoof": "ігнорування перевірок на схожі імена"
+	"right-override-antispoof": "ігнорування перевірок на схожі імена",
+	"apihelp-antispoof-description": "Перевірите ім'я користувача через перевірку нормалізації AntiSpoof.",
+	"apihelp-antispoof-param-username": "Ім'я користувача для перевірки через AntiSpoof.",
+	"apihelp-antispoof-example-1": "Перевірити ім'я користувача «Foo» через AntiSpoof",
+	"apihelp-createaccount-param-ignoreantispoof": "Ігнорувати перевірки підмін (вимагає права <code>override-antispoof</code>)."
 }
