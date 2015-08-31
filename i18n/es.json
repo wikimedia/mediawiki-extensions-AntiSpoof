@@ -13,7 +13,8 @@
 			"VegaDark",
 			"Themasterriot",
 			"Ryo567",
-			"Macofe"
+			"Macofe",
+			"MarcoAurelio"
 		]
 	},
 	"antispoof-desc": "Previene la creación de cuentas de usuario nuevas que tengan nombres confusos, similares a nombres existentes, o con alfabetos mixtos.",
@@ -34,5 +35,6 @@
 	"right-override-antispoof": "Anula las comprobaciones de suplantación",
 	"apihelp-antispoof-description": "Comprobar un nombre de usuario contra las comprobación de normalización del sistema AntiSpoof",
 	"apihelp-antispoof-param-username": "El nombre de usuario a comprobar contra el sistema AntiSpoof.",
-	"apihelp-antispoof-example-1": "Comprobar nombre de usuario \"Foo\" contra el sistema AntiSpoof"
+	"apihelp-antispoof-example-1": "Comprobar nombre de usuario \"Foo\" contra el sistema AntiSpoof",
+	"apihelp-createaccount-param-ignoreantispoof": "Ignorar verificación contra la suplantación de identidad (antispoof) (necesita es permiso <code>override-antispoof</code>)."
 }
