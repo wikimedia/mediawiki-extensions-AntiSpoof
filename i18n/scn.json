@@ -3,10 +3,11 @@
 		"authors": [
 			"Santu",
 			"Tonyfroio",
-			"Pippinu"
+			"Pippinu",
+			"Sarvaturi"
 		]
 	},
-	"antispoof-desc": "Blocca la criazzioni di cunti d'utenti cu' nomi fatti di alfabbeti mmiscati, chi' ponnu fari cunfùnniri, o chi' s'assimìgghiunu troppu assai",
+	"antispoof-desc": "Blocca la criazzioni di cunti d'utenti cu nomi fatti d'arfabbeti ammiscati, chi ponnu fari cunfùnniri, o chi s'assimìgghianu troppu assai",
 	"antispoof-conflict-top": "Lu nomu \"$1\" n'assimigghia troppu assai a' {{PLURAL:$2|stu cuntu ca già cc'è|sti cunti ca già cci sunnu}}:",
 	"antispoof-conflict-bottom": "Pi' favuri scegghî n'autru nomu.",
 	"antispoof-name-illegal": "Lu nomu \"$1\" nun è cunsintutu, pi' scanzari cunfusioni o scancî di pirsuna: $2.\nPi' favuri scegghî n'autru nomu.",
