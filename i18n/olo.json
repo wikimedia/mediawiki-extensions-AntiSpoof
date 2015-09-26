@@ -5,5 +5,6 @@
 		]
 	},
 	"antispoof-conflict-top": "Nimi \"$1\" on liijakse yhtenjyttyine {{PLURAL:$2|tämän nimenke|nämmien nimienke}}:",
-	"antispoof-conflict-bottom": "Ole hyvä, valliče toine nimi."
+	"antispoof-conflict-bottom": "Ole hyvä, valliče toine nimi.",
+	"antispoof-empty": "Tyhjy riädy"
 }
