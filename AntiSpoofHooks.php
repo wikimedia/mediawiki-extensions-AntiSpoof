@@ -45,12 +45,12 @@ class AntiSpoofHooks {
 				if ( $active ) {
 					$numConflicts = count( $conflicts );
 					$message = wfMessage( 'antispoof-conflict-top', $name )
-						->numParams( $numConflicts )->escaped();
+						->numParams( $numConflicts )->parse();
 					$message .= '<ul>';
 					foreach ( $conflicts as $simUser ) {
 						$message .= '<li>' . wfMessage( 'antispoof-conflict-item', $simUser )->escaped() . '</li>';
 					}
-					$message .= '</ul>' . wfMessage( 'antispoof-conflict-bottom' )->escaped();
+					$message .= '</ul>' . wfMessage( 'antispoof-conflict-bottom' )->parse();
 					return false;
 				}
 			}
