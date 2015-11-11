@@ -4,7 +4,8 @@
 			"Klutzy",
 			"Kwj2772",
 			"ToePeu",
-			"아라"
+			"아라",
+			"Revi"
 		]
 	},
 	"antispoof-desc": "여러 문자 체계를 섞은 이름이나, 혼동될 수 있고 비슷한 이름의 계정 만들기를 차단합니다",
@@ -21,5 +22,9 @@
 	"antispoof-mixedscripts": "여러 문자 체계가 섞여 있습니다.",
 	"antispoof-tooshort": "고유 이름이 너무 짧습니다.",
 	"antispoof-ignore": "안티스푸프 검사를 무시",
-	"right-override-antispoof": "혼란을 줄 수 있는 사용자 이름 금지(안티스푸프)를 무시"
+	"right-override-antispoof": "혼란을 줄 수 있는 사용자 이름 금지(안티스푸프)를 무시",
+	"apihelp-antispoof-description": "안티스푸프의 표준화 검사를 사용하여 사용자명을 검사합니다.",
+	"apihelp-antispoof-param-username": "안티스푸프로 검색할 사용자명",
+	"apihelp-antispoof-example-1": "사용자 이름 \"길동\"을 안티스푸프로 검사",
+	"apihelp-createaccount-param-ignoreantispoof": "스푸핑 체크 무시 (<code>override-antispoof<code> 권한 필요)"
 }
