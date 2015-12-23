@@ -22,5 +22,5 @@
 	"antispoof-mixedscripts": "বেমানান স্ক্রিপ্টের মিশ্রণ ধারণ করে",
 	"antispoof-tooshort": "সূত্রায়িত নাম খুব সংক্ষিপ্ত",
 	"antispoof-ignore": "স্পুফিং চেক অগ্রাহ্য করো",
-	"right-override-antispoof": "স্পুফিং চেক ওভাররাইড করো"
+	"right-override-antispoof": "স্পুফিং পরীক্ষা ওভাররাইড করো"
 }
