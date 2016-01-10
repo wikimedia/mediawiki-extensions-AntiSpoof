@@ -4,7 +4,8 @@
 			"Borislav",
 			"DCLXVI",
 			"Spiritia",
-			"Stanqo"
+			"Stanqo",
+			"Vodnokon4e"
 		]
 	},
 	"antispoof-desc": "Блокиране на създаването на сметки, изписани с различни писмени системи, объркващи или подобни на други потребителски имена",
@@ -13,13 +14,13 @@
 	"antispoof-name-illegal": "Името „$1“ не е разрешено за защита от объркване или злоупотреби с имена: $2. Моля, изберете друго име!",
 	"antispoof-badtype": "Грешен тип на данните",
 	"antispoof-empty": "Празен низ",
-	"antispoof-blacklisted": "Съдържа забранен знак",
-	"antispoof-combining": "Започва със съставен знак",
-	"antispoof-unassigned": "Съдържа неопределен или нежелан знак",
+	"antispoof-blacklisted": "Съдържа забранен знак $1",
+	"antispoof-combining": "Започва със съставен знак $1",
+	"antispoof-unassigned": "Съдържа неопределен или нежелан знак $1",
 	"antispoof-deprecated": "Съдържа неприемливия символ $1",
 	"antispoof-noletters": "Не съдържа букви",
 	"antispoof-mixedscripts": "Съдържа несъвместими писмени системи",
 	"antispoof-tooshort": "Каноничното име е твърде кратко",
-	"antispoof-ignore": " Игнорирай проверката на подобни имена",
-	"right-override-antispoof": " Игнориране проверката на подобни имена"
+	"antispoof-ignore": "Игнорирай проверката на подобни имена",
+	"right-override-antispoof": "Пренебрегване на проверката на подобни имена"
 }
