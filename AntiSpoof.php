@@ -9,6 +9,7 @@ $wgExtensionCredits['antispam'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:AntiSpoof',
 	'author' => 'Brion Vibber',
 	'descriptionmsg' => 'antispoof-desc',
+	'license-name' => 'GPL-2.0+',
 );
 
 /**
