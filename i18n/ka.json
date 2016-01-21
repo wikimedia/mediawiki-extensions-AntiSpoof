@@ -22,5 +22,7 @@
 	"antispoof-mixedscripts": "შეიცავს შეუთავსებელ შერეულ სცენარებს",
 	"antispoof-tooshort": "ნორმალიზებული სახელი ძალიან მოკლეა",
 	"antispoof-ignore": "მსგავს სახელებზე შემოწმების ინგნორირება",
-	"right-override-antispoof": "მსგავსი სახელების შემოწმების უგულებელყოფა"
+	"right-override-antispoof": "მსგავსი სახელების შემოწმების უგულებელყოფა",
+	"apihelp-antispoof-param-username": "მომხმარებელი, რომელიც უნდა შემოწმდეს AntiSpoof-ზე.",
+	"apihelp-antispoof-example-1": "შეამოწმეთ მომხმარებელი \"Foo\" AntiSpoof-ზე"
 }
