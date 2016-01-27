@@ -21,9 +21,10 @@
 	"antispoof-noletters": "Innehåller inga bokstäver",
 	"antispoof-mixedscripts": "Innehåller flera inkompatibla skriftsystem",
 	"antispoof-tooshort": "Det kanoniserade namnet är för kort",
-	"antispoof-ignore": "Ignorera missbrukskontroll",
+	"antispoof-ignore": "Ignorera missbrukskontroller",
 	"right-override-antispoof": "Slipper kontroller mot förvirrande användarnamn",
 	"apihelp-antispoof-description": "Kontrollera ett användarnamn mot AntiSpoofs normaliseringskontroller.",
 	"apihelp-antispoof-param-username": "Det användarnamn som ska kontrolleras mot AntiSpoof.",
-	"apihelp-antispoof-example-1": "Kontrollera användarnamn \"Foo\" mot AntiSpoof"
+	"apihelp-antispoof-example-1": "Kontrollera användarnamn \"Foo\" mot AntiSpoof",
+	"apihelp-createaccount-param-ignoreantispoof": "Ignorera missbrukskontroller (kräver <code>override-antispoof</code>-rättigheten)."
 }
