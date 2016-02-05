@@ -4,7 +4,8 @@
 			"Alsandro",
 			"BRUTE",
 			"David1010",
-			"Nodar Kherkheulidze"
+			"Nodar Kherkheulidze",
+			"Tokoko"
 		]
 	},
 	"antispoof-desc": "ბლოკავს ახალი ანგარიშების გახსნას შერეული სკრიპტით, შეცდომითი და ერთიდაიგივე მომხმარებლის სახელების შეთხვევაში",
@@ -23,6 +24,7 @@
 	"antispoof-tooshort": "ნორმალიზებული სახელი ძალიან მოკლეა",
 	"antispoof-ignore": "მსგავს სახელებზე შემოწმების ინგნორირება",
 	"right-override-antispoof": "მსგავსი სახელების შემოწმების უგულებელყოფა",
+	"apihelp-antispoof-description": "მომხმარებლის შემოწმება AntiSpoof-ის ნორმალიზაციით.",
 	"apihelp-antispoof-param-username": "მომხმარებელი, რომელიც უნდა შემოწმდეს AntiSpoof-ზე.",
 	"apihelp-antispoof-example-1": "შეამოწმეთ მომხმარებელი \"Foo\" AntiSpoof-ზე"
 }
