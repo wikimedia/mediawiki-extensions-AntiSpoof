@@ -6,7 +6,8 @@
 			"Kaganer",
 			"Okras",
 			"Van de Bugger",
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"Perevod16"
 		]
 	},
 	"antispoof-desc": "Запрещает создание учётных записей с именами, содержащими символы из разных алфавитов, вводящих в заблуждение и похожих на имена других участников.",
@@ -24,6 +25,7 @@
 	"antispoof-tooshort": "слишком короткое",
 	"antispoof-ignore": "Игнорировать проверки на схожие имена",
 	"right-override-antispoof": "игнорирование проверок на схожие имена",
+	"apihelp-antispoof-description": "Проверьте имя пользователя напротив чек-бокса AntiSpoof's normalisation.",
 	"apihelp-antispoof-param-username": "Имя участника, которое нужно проверить с помощью AntiSpoof.",
 	"apihelp-antispoof-example-1": "Проверить с помощью AntiSpoof имя участника «Foo»"
 }
