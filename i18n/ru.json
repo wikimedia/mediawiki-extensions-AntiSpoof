@@ -27,5 +27,6 @@
 	"right-override-antispoof": "игнорирование проверок на схожие имена",
 	"apihelp-antispoof-description": "Проверьте имя пользователя напротив чек-бокса AntiSpoof's normalisation.",
 	"apihelp-antispoof-param-username": "Имя участника, которое нужно проверить с помощью AntiSpoof.",
-	"apihelp-antispoof-example-1": "Проверить с помощью AntiSpoof имя участника «Foo»"
+	"apihelp-antispoof-example-1": "Проверить с помощью AntiSpoof имя участника «Foo»",
+	"apihelp-createaccount-param-ignoreantispoof": "Игнорировать проверки на схожие имена (требует прав <code>override-antispoof</code>)."
 }
