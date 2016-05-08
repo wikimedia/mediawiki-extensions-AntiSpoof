@@ -29,18 +29,16 @@
 		"AntiSpoof": "AntiSpoof_body.php",
 		"AntiSpoofHooks": "AntiSpoofHooks.php",
 		"SpoofUser": "SpoofUser.php",
+		"AntiSpoofAuthenticationRequest": "AntiSpoofAuthenticationRequest.php",
+		"AntiSpoofPreAuthenticationProvider": "AntiSpoofPreAuthenticationProvider.php",
 		"ApiAntiSpoof": "api/ApiAntiSpoof.php"
 	},
+	"callback": "AntiSpoofHooks::onRegistration",
 	"Hooks": {
 		"LoadExtensionSchemaUpdates": "AntiSpoofHooks::asUpdateSchema",
-		"AbortNewAccount": "AntiSpoofHooks::asAbortNewAccountHook",
-		"UserCreateForm": "AntiSpoofHooks::asUserCreateFormHook",
-		"AddNewAccount": "AntiSpoofHooks::asAddNewAccountHook",
 		"RenameUserComplete": "AntiSpoofHooks::asAddRenameUserHook",
 		"DeleteAccount": "AntiSpoofHooks::asDeleteAccount",
-		"UnitTestsList": "AntiSpoofHooks::asUnitTestsList",
-		"APIGetAllowedParams": "AntiSpoofHooks::onAPIGetAllowedParams",
-		"AddNewAccountApiForm": "AntiSpoofHooks::addNewAccountApiForm"
+		"UnitTestsList": "AntiSpoofHooks::asUnitTestsList"
 	},
 	"config": {
 		"@doc": "see AntiSpoof.php",
