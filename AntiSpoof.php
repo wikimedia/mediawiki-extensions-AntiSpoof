@@ -1,16 +1,19 @@
 <?php
-if ( !defined( 'MEDIAWIKI' ) ) {
-	exit( 1 );
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'AntiSpoof' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['AntiSpoof'] = __DIR__ . '/i18n';
+	/* wfWarn(
+		'Deprecated PHP entry point used for AntiSpoof extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	); */
+	return;
+} else {
+	die( 'This version of the AntiSpoof extension requires MediaWiki 1.25+' );
 }
 
-$wgExtensionCredits['antispam'][] = array(
-	'path' => __FILE__,
-	'name' => 'AntiSpoof',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:AntiSpoof',
-	'author' => 'Brion Vibber',
-	'descriptionmsg' => 'antispoof-desc',
-	'license-name' => 'GPL-2.0+',
-);
+// globals declarations kept here for IDE-friendlyness; this code is never loaded
 
 /**
  * Set this to false to disable the active checks;
@@ -19,52 +22,24 @@ $wgExtensionCredits['antispam'][] = array(
  *
  * Logged items will be marked with 'LOGGING' for
  * easier review of old logs' effect.
+ *
+ * @var bool
  */
-$wgAntiSpoofAccounts = true;
+$wgAntiSpoofAccounts = null;
 
 /**
  * Blacklisted character codes.
+ * @var int[]
  */
-$wgAntiSpoofBlacklist = array(
-	0x0337, # Combining short solidus overlay
-	0x0338, # Combining long solidus overlay
-	0x2044, # Fraction slash
-	0x2215, # Division slash
-	0x23AE, # Integral extension
-	0x29F6, # Solidus with overbar
-	0x29F8, # Big solidus
-	0x2AFB, # Triple solidus binary relation
-	0x2AFD, # Double solidus operator
-	0xFF0F  # Fullwidth solidus
-);
-
-/**
- * Allow sysops and bureaucrats to override the spoofing checks
- * and create accounts for people which hit false positives.
- */
-$wgGroupPermissions['sysop']['override-antispoof'] = true;
-$wgGroupPermissions['bureaucrat']['override-antispoof'] = true;
-$wgAvailableRights[] = 'override-antispoof';
-
-$dir = __DIR__;
-
-$wgMessagesDirs['AntiSpoof'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['AntiSpoof'] = "$dir/AntiSpoof.i18n.php";
-
-$wgAutoloadClasses['AntiSpoof'] = "$dir/AntiSpoof_body.php";
-$wgAutoloadClasses['AntiSpoofHooks'] = "$dir/AntiSpoofHooks.php";
-$wgAutoloadClasses['SpoofUser'] = "$dir/SpoofUser.php";
-
-// Register the API method
-$wgAutoloadClasses['ApiAntiSpoof'] = "$dir/api/ApiAntiSpoof.php";
-$wgAPIModules['antispoof'] = 'ApiAntiSpoof';
-
-$wgHooks['LoadExtensionSchemaUpdates'][] = 'AntiSpoofHooks::asUpdateSchema';
-$wgHooks['AbortNewAccount'][] = 'AntiSpoofHooks::asAbortNewAccountHook';
-$wgHooks['UserCreateForm'][] = 'AntiSpoofHooks::asUserCreateFormHook';
-$wgHooks['AddNewAccount'][] = 'AntiSpoofHooks::asAddNewAccountHook';
-$wgHooks['RenameUserComplete'][] = 'AntiSpoofHooks::asAddRenameUserHook';
-$wgHooks['DeleteAccount'][] = 'AntiSpoofHooks::asDeleteAccount';
-$wgHooks['UnitTestsList'][] = 'AntiSpoofHooks::asUnitTestsList';
-$wgHooks['APIGetAllowedParams'][] = 'AntiSpoofHooks::onAPIGetAllowedParams';
-$wgHooks['AddNewAccountApiForm'][] = 'AntiSpoofHooks::addNewAccountApiForm';
+$wgAntiSpoofBlacklist = null;
+//  defaults:
+//	0x0337, # Combining short solidus overlay
+//	0x0338, # Combining long solidus overlay
+//	0x2044, # Fraction slash
+//	0x2215, # Division slash
+//	0x23AE, # Integral extension
+//	0x29F6, # Solidus with overbar
+//	0x29F8, # Big solidus
+//	0x2AFB, # Triple solidus binary relation
+//	0x2AFD, # Double solidus operator
+//	0xFF0F  # Fullwidth solidus

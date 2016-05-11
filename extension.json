@@ -1,0 +1,63 @@
+{
+	"name": "AntiSpoof",
+	"author": "Brion Vibber",
+	"url": "https://www.mediawiki.org/wiki/Extension:AntiSpoof",
+	"descriptionmsg": "antispoof-desc",
+	"license-name": "GPL-2.0+",
+	"type": "antispam",
+	"requires": {
+		"MediaWiki": ">= 1.25.0"
+	},
+	"GroupPermissions": {
+		"sysop": {
+			"override-antispoof": true
+		},
+		"bureaucrat": {
+			"override-antispoof": true
+		}
+	},
+	"AvailableRights": [
+		"override-antispoof"
+	],
+	"APIModules": {
+		"antispoof": "ApiAntiSpoof"
+	},
+	"MessagesDirs": {
+		"AntiSpoof": "i18n"
+	},
+	"AutoloadClasses": {
+		"AntiSpoof": "AntiSpoof_body.php",
+		"AntiSpoofHooks": "AntiSpoofHooks.php",
+		"SpoofUser": "SpoofUser.php",
+		"ApiAntiSpoof": "api/ApiAntiSpoof.php"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "AntiSpoofHooks::asUpdateSchema",
+		"AbortNewAccount": "AntiSpoofHooks::asAbortNewAccountHook",
+		"UserCreateForm": "AntiSpoofHooks::asUserCreateFormHook",
+		"AddNewAccount": "AntiSpoofHooks::asAddNewAccountHook",
+		"RenameUserComplete": "AntiSpoofHooks::asAddRenameUserHook",
+		"DeleteAccount": "AntiSpoofHooks::asDeleteAccount",
+		"UnitTestsList": "AntiSpoofHooks::asUnitTestsList",
+		"APIGetAllowedParams": "AntiSpoofHooks::onAPIGetAllowedParams",
+		"AddNewAccountApiForm": "AntiSpoofHooks::addNewAccountApiForm"
+	},
+	"config": {
+		"@doc": "see AntiSpoof.php",
+		"AntiSpoofAccounts": true,
+		"AntiSpoofBlacklist": [
+			"\u0337",
+			"\u0338",
+			"\u2044",
+			"\u2215",
+			"\u23AE",
+			"\u29F6",
+			"\u29F8",
+			"\u2AFB",
+			"\u2AFD",
+			"\uFF0F"
+		]
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 1
+}
