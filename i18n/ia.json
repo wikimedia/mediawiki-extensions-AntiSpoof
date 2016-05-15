@@ -14,7 +14,7 @@
 	"antispoof-combining": "Comencia con le marca combinatori $1",
 	"antispoof-unassigned": "Contine un character non assignate o obsolete",
 	"antispoof-deprecated": "Contine le character $1 que non plus es permittite",
-	"antispoof-noletters": "Non contine alcun litteras",
+	"antispoof-noletters": "Non contine litteras",
 	"antispoof-mixedscripts": "Contine un mixtura incompatibile de alphabetos",
 	"antispoof-tooshort": "Nomine canonic troppo curte",
 	"antispoof-ignore": "Ignorar le verificationes contra falsification",
