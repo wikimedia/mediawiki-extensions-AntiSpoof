@@ -19,6 +19,7 @@
 	"antispoof-mixedscripts": "Содржи нескладни мешани писма/азбуки",
 	"antispoof-tooshort": "Нормализираното име е премногу кратко",
 	"antispoof-ignore": "Занемари меѓусебно слични имиња",
+	"antispoof-ignore-help": "Им овозможува на корисниците со достатни права да создаваат сметки дури и кога имињата им се слични на постоечки.",
 	"right-override-antispoof": "Прескокнување на проверките за меѓусебно слични имиња",
 	"apihelp-antispoof-description": "Проверете корисничко име со нормализациската проверка на AntiSpoof.",
 	"apihelp-antispoof-param-username": "Корисничко име за проверка со AntiSpoof.",

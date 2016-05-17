@@ -21,6 +21,7 @@
 	"antispoof-mixedscripts": "כולל סוגי כתב בלתי־תואמים",
 	"antispoof-tooshort": "השם המנורמל קצר מדי",
 	"antispoof-ignore": "התעלמות מבדיקת ההתחזות",
+	"antispoof-ignore-help": "לאפשר למשתמשים עם הרשאות מתאימות ליצור חשבון אפילו אם השם שלו דומה לחשבון קיים.",
 	"right-override-antispoof": "עקיפת בדיקות ההתחזות",
 	"apihelp-antispoof-description": "בדיקת שם משתמש אל מול בדיקות נרמול של AntiSpoof.",
 	"apihelp-antispoof-param-username": "שם משתמש לבדוק אל מול AntiSpoof.",

@@ -22,6 +22,7 @@
 	"antispoof-mixedscripts": "Er enthält Zeichen unterschiedlicher Schriftsysteme.",
 	"antispoof-tooshort": "Er ist zu kurz.",
 	"antispoof-ignore": "Ähnlichkeitsprüfung ignorieren",
+	"antispoof-ignore-help": "Ermöglicht Benutzern mit ausreichenden Rechten, ein Benutzerkonto zu erstellen, auch wenn sein Name mit einem vorhandenen Benutzerkonto ähnlich ist.",
 	"right-override-antispoof": "Die Benutzernamens-Ähnlichkeitsprüfung außer Kraft setzen",
 	"apihelp-antispoof-description": "Einen Benutzernamen in die Normalisierungsprüfung der Erweiterung AntiSpoof aufnehmen.",
 	"apihelp-antispoof-param-username": "Der Benutzername, der mit der Erweiterung AntiSpoof geprüft werden soll.",
