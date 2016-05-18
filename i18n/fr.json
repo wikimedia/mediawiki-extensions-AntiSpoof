@@ -9,7 +9,8 @@
 			"PieRRoMaN",
 			"Sherbrooke",
 			"Urhixidur",
-			"Verdy p"
+			"Verdy p",
+			"Yasten"
 		]
 	},
 	"antispoof-desc": "Bloque la création de comptes ayant des noms d’utilisateur similaires, utilisant diverses écritures, ou pouvant prêter à confusion",
@@ -27,6 +28,7 @@
 	"antispoof-mixedscripts": "Contient plusieurs écritures incompatibles",
 	"antispoof-tooshort": "Nom canonique trop court",
 	"antispoof-ignore": "Ignorer la vérification de similitude avec les utilisateurs existants",
+	"antispoof-ignore-help": "Permet aux utilisateurs avec des privilèges suffisants de créer un compte, même si son nom est similaire à celui d'un compte existant.",
 	"right-override-antispoof": "Court-circuiter les vérifications de tromperie",
 	"apihelp-antispoof-description": "Vérifier un nom d’utilisateur d’après les contrôles de normalisation AntiSpoof.",
 	"apihelp-antispoof-param-username": "Le nom d’utilisateur à vérifier d’après AntiSpoof.",
