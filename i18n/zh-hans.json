@@ -26,6 +26,7 @@
 	"antispoof-mixedscripts": "包含不兼容的混合文字",
 	"antispoof-tooshort": "标准化后的用户名过短",
 	"antispoof-ignore": "忽略欺诈检查",
+	"antispoof-ignore-help": "允许有足够特权的用户创建账户，即便其用户名与现有账户相似。",
 	"right-override-antispoof": "无视欺诈检查",
 	"apihelp-antispoof-description": "检查用户名是否触犯AntiSpoof的常规检查。",
 	"apihelp-antispoof-param-username": "要检查是否触犯AntiSpoof的用户名。",
