@@ -56,6 +56,5 @@
 			"\uFF0F"
 		]
 	},
-	"load_composer_autoloader": true,
 	"manifest_version": 1
 }
