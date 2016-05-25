@@ -5,7 +5,8 @@
 			"BrokenArrow",
 			"Darth Kule",
 			"Nemo bis",
-			"Pietrodn"
+			"Pietrodn",
+			"Matteocng"
 		]
 	},
 	"antispoof-desc": "Impedisce la creazione di nomi utente con caratteri misti e nomi utente che generano confusione o troppo simili tra loro.",
@@ -22,6 +23,7 @@
 	"antispoof-mixedscripts": "Combinazione di sistemi di scrittura non compatibili",
 	"antispoof-tooshort": "Nome in forma canonica troppo corto",
 	"antispoof-ignore": "Ignora i controlli per spoofing",
+	"antispoof-ignore-help": "Consente agli utenti con privilegi sufficienti di creare un account, anche se il suo nome è simile a quello di un account esistente.",
 	"right-override-antispoof": "Ignora i controlli spoofing",
 	"apihelp-antispoof-description": "Controlla un nome utente con le verifiche di normalizzaizone AntiSpoof",
 	"apihelp-antispoof-param-username": "Il nome utente da verificare con AntiSpoof.",
