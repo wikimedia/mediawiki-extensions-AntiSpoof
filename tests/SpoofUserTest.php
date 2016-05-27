@@ -5,6 +5,8 @@
  */
 class SpoofUserTest extends MediaWikiTestCase {
 
+	protected $tablesUsed = [ 'user', 'spoofuser' ];
+
 	private static $usernames = array(
 		'UserFoo',
 		'UserF00',
@@ -30,14 +32,6 @@ class SpoofUserTest extends MediaWikiTestCase {
 
 		$s = new SpoofUser( 'NotInTheUserTable' );
 		$s->record();
-	}
-
-	public function tearDown() {
-		$dbw = wfGetDB( DB_MASTER );
-		// Clean up the mess we made...
-		$dbw->delete( 'user', '*', __METHOD__ );
-		$dbw->delete( 'spoofuser', '*', __METHOD__ );
-		parent::tearDown();
 	}
 
 	/**
