@@ -4,13 +4,14 @@
 			"Erdemaslancan",
 			"Gorizon",
 			"Xoser",
-			"Mirzali"
+			"Mirzali",
+			"Kumkumuk"
 		]
 	},
 	"antispoof-desc": "Hesaban pê skriptê mîxî, nameyê munaneyî bloke keno",
 	"antispoof-conflict-top": "Ena nameyé \"$1\"i ena {{PLURAL:$2|Namey karberi|namey karbera}} zaf paweno:",
-	"antispoof-conflict-bottom": "Ma rica keno ke yewno nameyê karberî mucneno.",
-	"antispoof-name-illegal": "Nameyê \"$1\"î nieşkeno nameyê karberî ke şweş keno înan vindarne: $2.\nYewna name weçine.",
+	"antispoof-conflict-bottom": "Xorê yewna name weçinê.",
+	"antispoof-name-illegal": "Namey şıma name dê \"$2\"ya pê nêvawiyo deye name dê $1  rê mısade çıni yo.  \nYewna name weçine.",
 	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Tipê data yê xirabî",
 	"antispoof-empty": "Stringê vengî",
