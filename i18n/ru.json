@@ -24,6 +24,7 @@
 	"antispoof-mixedscripts": "использует символы из разных алфавитов",
 	"antispoof-tooshort": "слишком короткое",
 	"antispoof-ignore": "Игнорировать проверки на схожие имена",
+	"antispoof-ignore-help": "Позволяет участникам с достаточными правами создать учётную запись даже если это имя похоже на имя уже существующей учётной записи.",
 	"right-override-antispoof": "игнорирование проверок на схожие имена",
 	"apihelp-antispoof-description": "Проверьте имя пользователя напротив чек-бокса AntiSpoof's normalisation.",
 	"apihelp-antispoof-param-username": "Имя участника, которое нужно проверить с помощью AntiSpoof.",
