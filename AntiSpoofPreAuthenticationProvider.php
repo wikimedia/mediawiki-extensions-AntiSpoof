@@ -3,6 +3,7 @@
 use MediaWiki\Auth\AbstractPreAuthenticationProvider;
 use MediaWiki\Auth\AuthenticationRequest;
 use MediaWiki\Auth\AuthManager;
+use Psr\Log\NullLogger;
 
 class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvider {
 	/** @var bool False effectively disables this provider, but spoofed names will still be logged. */
@@ -36,22 +37,27 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 	public function testForAccountCreation( $user, $creator, array $reqs ) {
 		/** @var AntiSpoofAuthenticationRequest $req */
 		$req = AuthenticationRequest::getRequestByClass( $reqs, AntiSpoofAuthenticationRequest::class );
-		$spoofUser = $this->getSpoofUser( $user );
 		$override = $req && $req->ignoreAntiSpoof && $creator->isAllowed( 'override-antispoof' );
-		$active = $this->antiSpoofAccounts && !$override;
+
+		return self::testUserInternal( $user, $override, $this->logger );
+	}
+
+	private function testUserInternal( $user, $override, $logger ) {
+		$spoofUser = $this->getSpoofUser( $user );
 		$mode = !$this->antiSpoofAccounts ? 'LOGGING ' : $override ? 'OVERRIDE ' : '';
+		$active = $this->antiSpoofAccounts && !$override;
 
 		if ( $spoofUser->isLegal() ) {
 			$normalized = $spoofUser->getNormalized();
 			$conflicts = $spoofUser->getConflicts();
 			if ( empty( $conflicts ) ) {
-				$this->logger->debug( "{mode}PASS new account '{name}' [{normalized}]", [
+				$logger->debug( "{mode}PASS new account '{name}' [{normalized}]", [
 					'mode' => $mode,
 					'name' => $user->getName(),
 					'normalized' => $normalized,
 				] );
 			} else {
-				$this->logger->info( "{mode}CONFLICT new account '{name}' [{normalized}] spoofs {spoofs}", [
+				$logger->info( "{mode}CONFLICT new account '{name}' [{normalized}] spoofs {spoofs}", [
 					'mode' => $mode,
 					'name' => $user->getName(),
 					'normalized' => $normalized,
@@ -76,7 +82,7 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 			}
 		} else {
 			$error = $spoofUser->getError();
-			$this->logger->info( "{mode}ILLEGAL new account '{name}' {error}", [
+			$logger->info( "{mode}ILLEGAL new account '{name}' {error}", [
 				'mode' => $mode,
 				'name' => $user->getName(),
 				'error' => $error,
@@ -86,6 +92,20 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 			}
 		}
 		return StatusValue::newGood();
+	}
+
+	public function testUserForCreation( $user, $autocreate ) {
+		$sv = StatusValue::newGood();
+
+		// For "cancreate" checks via the API, test if the current user could
+		// create the username.
+		if ( $this->antiSpoofAccounts && !$autocreate &&
+			!RequestContext::getMain()->getUser()->isAllowed( 'override-antispoof' )
+		) {
+			$sv->merge( $this->testUserInternal( $user, false, new NullLogger ) );
+		}
+
+		return $sv;
 	}
 
 	/**
