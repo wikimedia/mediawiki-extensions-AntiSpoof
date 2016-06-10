@@ -9,7 +9,8 @@
 			"Waihorace",
 			"Wrightbus",
 			"LNDDYL",
-			"Cwlin0416"
+			"Cwlin0416",
+			"Arthur2e5"
 		]
 	},
 	"antispoof-desc": "禁止使用混合 Script、容易混淆或與既有使用者名稱過於相似的使用者名稱建立帳號",
@@ -21,7 +22,7 @@
 	"antispoof-blacklisted": "含有已列入黑名單的字元 $1",
 	"antispoof-combining": "以組合符號開頭 $1",
 	"antispoof-unassigned": "含有未分配的字元 $1",
-	"antispoof-deprecated": "含有已停用的字元 $1",
+	"antispoof-deprecated": "含有不建議使用的字元 $1",
 	"antispoof-noletters": "未含有任何字母",
 	"antispoof-mixedscripts": "含有混合不相容的 Script",
 	"antispoof-tooshort": "標準化後的使用者名稱過短",
