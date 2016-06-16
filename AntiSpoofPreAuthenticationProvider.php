@@ -94,12 +94,12 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 		return StatusValue::newGood();
 	}
 
-	public function testUserForCreation( $user, $autocreate ) {
+	public function testUserForCreation( $user, $autocreate, array $options = [] ) {
 		$sv = StatusValue::newGood();
 
 		// For "cancreate" checks via the API, test if the current user could
 		// create the username.
-		if ( $this->antiSpoofAccounts && !$autocreate &&
+		if ( $this->antiSpoofAccounts && !$autocreate && empty( $options['creating'] ) &&
 			!RequestContext::getMain()->getUser()->isAllowed( 'override-antispoof' )
 		) {
 			$sv->merge( $this->testUserInternal( $user, false, new NullLogger ) );
