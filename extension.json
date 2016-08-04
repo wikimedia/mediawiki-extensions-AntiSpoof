@@ -37,8 +37,7 @@
 	"Hooks": {
 		"LoadExtensionSchemaUpdates": "AntiSpoofHooks::asUpdateSchema",
 		"RenameUserComplete": "AntiSpoofHooks::asAddRenameUserHook",
-		"DeleteAccount": "AntiSpoofHooks::asDeleteAccount",
-		"UnitTestsList": "AntiSpoofHooks::asUnitTestsList"
+		"DeleteAccount": "AntiSpoofHooks::asDeleteAccount"
 	},
 	"config": {
 		"@doc": "see AntiSpoof.php",
