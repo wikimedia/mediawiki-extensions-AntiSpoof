@@ -119,6 +119,7 @@ EOT
 			}
 
 			# Find the set for the right character, add a new one if necessary
+			# FIXME: Don't create mappings of characters to themselves
 			if ( isset( $setsByChar[$m['charright']] ) ) {
 				$setName = $setsByChar[$m['charright']];
 			} else {

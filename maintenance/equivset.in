@@ -32,13 +32,12 @@
 # equivalent, because the latin transliteration of the cyrillic "Н" (which
 # looks like latin H) is "E".
 
+30 0 => 4F O
+31 1 => 49 I
 33 3 => 45 E
 34 4 => 41 A
+35 5 => 53 S
 36 6 => 47 G
-49 I => 31 1
-4C L => 31 1
-4F O => 30 0
-53 S => 35 5
 61 a => 41 A
 62 b => 42 B
 63 c => 43 C
@@ -47,23 +46,23 @@
 66 f => 46 F
 67 g => 47 G
 68 h => 48 H
-69 i => 31 1
-6A j => J
+69 i => 49 I
+6A j => 4A J
 6B k => 4B K
-6C l => 31 1
+6C l => 4C L
 6D m => 4D M
-6E n => N
-6F o => 30 0
+6E n => 4E N
+6F o => 4F O
 70 p => 50 P
 71 q => 51 Q
 72 r => 52 R
-73 s => 35 5
+73 s => 53 S
 74 t => 54 T
 75 u => 55 U
-76 v => V
-77 w => W
+76 v => 56 V
+77 w => 57 W
 78 x => 58 X
-79 y => Y
+79 y => 59 Y
 7A z => 5A Z
 7C | => 31 1
 A2 ¢ => 43 C
