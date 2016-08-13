@@ -5,7 +5,8 @@
 			"Lejonel",
 			"Lokal Profil",
 			"M.M.S.",
-			"Skalman"
+			"Skalman",
+			"Jopparn"
 		]
 	},
 	"antispoof-desc": "Förhindrar registreringen av konton med förvirrande eller liknande namn samt användarnamn som innehåller blandade skriftsystem.",
@@ -22,6 +23,7 @@
 	"antispoof-mixedscripts": "Innehåller flera inkompatibla skriftsystem",
 	"antispoof-tooshort": "Det kanoniserade namnet är för kort",
 	"antispoof-ignore": "Ignorera missbrukskontroller",
+	"antispoof-ignore-help": "Tillåter användare med tillräckliga behörigheter att skapa ett konto, även om dess namn är liknande namnet på ett befintligt konto.",
 	"right-override-antispoof": "Slipper kontroller mot förvirrande användarnamn",
 	"apihelp-antispoof-description": "Kontrollera ett användarnamn mot AntiSpoofs normaliseringskontroller.",
 	"apihelp-antispoof-param-username": "Det användarnamn som ska kontrolleras mot AntiSpoof.",
