@@ -18,8 +18,10 @@
 	"antispoof-mixedscripts": "Aglaon kadagiti saan a mabalin nga aglalaok nga eskritu",
 	"antispoof-tooshort": "Ti kanonikalisado a nagan ket ababa unay",
 	"antispoof-ignore": "Saan nga ikaskaso dagiti kinita nga aningaas",
+	"antispoof-ignore-help": "Mangipalubos kadagiti agar-aramat nga addaan iti makaanay a pribilihio iti agpartuat iti maysa a pakabilangan urayno no ti naganna ket kapada iti maysa nga addan a pakabilangan.",
 	"right-override-antispoof": "Parabawan ti panagkita nga aningaas",
 	"apihelp-antispoof-description": "Kitaen ti nagan ti agar-aramat nga isuppiat iti normalisasion a panagkita ti AntiSpoof.",
 	"apihelp-antispoof-param-username": "Ti nagan ti agar-aramat a kitaen a maisuppiat iti AntiSpoof.",
-	"apihelp-antispoof-example-1": "Kitaen ti nagan ti agar-aramat \"Foo\" a maisuppiat iti AntiSpoof"
+	"apihelp-antispoof-example-1": "Kitaen ti nagan ti agar-aramat \"Foo\" a maisuppiat iti AntiSpoof",
+	"apihelp-createaccount-param-ignoreantispoof": "Di ikaskaso ti panagkita ti spoofing (nasken ti karbengan ti <code>override-antispoof</code>)."
 }
