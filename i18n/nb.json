@@ -20,6 +20,7 @@
 	"antispoof-mixedscripts": "Inneholder blanding av skriftsystemer",
 	"antispoof-tooshort": "Navnet er for kort",
 	"antispoof-ignore": "Ignorer misbrukssjekk",
+	"antispoof-ignore-help": "Lar brukere med tilstrekkelige rettigheter opprette en konto selv om navnet ligner på en eksisterende konto.",
 	"right-override-antispoof": "Overkjøre sjekk av brukernavn",
 	"apihelp-antispoof-description": "Sjekker et brukernavn mot AntiSpoofs normaliseringskontroller.",
 	"apihelp-antispoof-param-username": "Brukernavnet som skal sjekkes mot AntiSpoof.",
