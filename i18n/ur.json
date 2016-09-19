@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"Muhammad Shuaib"
 		]
 	},
 	"antispoof-conflict-bottom": "براہ مہربانی ایک اور نام کا انتخاب کریں ۔",
 	"antispoof-badtype": "برا اعداد و شمار کی قسم",
 	"antispoof-empty": "خالی تار",
 	"antispoof-noletters": "نہیں کسی بھی حروف پر مشتمل",
-	"antispoof-mixedscripts": "مطابقت مخلوط سکرپٹ پر مشتمل ہے"
+	"antispoof-mixedscripts": "مطابقت مخلوط سکرپٹ پر مشتمل ہے",
+	"right-override-antispoof": "فریب کاری کی جانچ کی منسوخی"
 }
