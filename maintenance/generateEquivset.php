@@ -65,7 +65,7 @@ EOT
 			++$lineNum;
 			$mapToEmpty = false;
 
-			# Whether the line ends with a null character
+			# Whether the line ends with a nul character
 			$mapToEmpty = ( strpos( $line, "\0" ) === strlen( $line ) - 2 );
 
 			$line = trim( $line );
@@ -85,37 +85,36 @@ EOT
 			}
 			$error = false;
 
-			if ( $mapToEmpty ) {
+			if ( codepointToUtf8( hexdec( $m['hexleft'] ) ) != $m['charleft'] ) {
+				$actual = utf8ToCodepoint( $m['charleft'] );
+				if ( $actual === false ) {
+					$this->output( "Bytes: " . strlen( $m['charleft'] ) . "\n" );
+					$this->output( bin2hex( $line ) . "\n" );
+					$hexForm = bin2hex( $m['charleft'] );
+					$this->output( "Invalid UTF-8 character \"{$m['charleft']}\" ($hexForm) at line $lineNum: $line\n" );
+				} else {
+					$this->output( "Error: left number ({$m['hexleft']}) does not match left character ($actual) " .
+							"at line $lineNum: $line\n" );
+				}
+				$error = true;
+			}
+			if ( !empty( $m['hexright'] ) && codepointToUtf8( hexdec( $m['hexright'] ) ) != $m['charright'] ) {
+				$actual = utf8ToCodepoint( $m['charright'] );
+				if ( $actual === false ) {
+					$hexForm = bin2hex( $m['charright'] );
+					$this->output( "Invalid UTF-8 character \"{$m['charleft']}\" ($hexForm) at line $lineNum: $line\n" );
+				} else {
+					$this->output( "Error: right number ({$m['hexright']}) does not match right character ($actual) " .
+							"at line $lineNum: $line\n" );
+				}
+				$error = true;
+			}
+			if ( $error ) {
+				$exitStatus = 1;
+				continue;
+			}
+			if ( $mapToEmpty || $m['charright'] == 'NUL' ) {
 				$m['charright'] = '';
-			} else {
-				if ( codepointToUtf8( hexdec( $m['hexleft'] ) ) != $m['charleft'] ) {
-					$actual = utf8ToCodepoint( $m['charleft'] );
-					if ( $actual === false ) {
-						$this->output( "Bytes: " . strlen( $m['charleft'] ) . "\n" );
-						$this->output( bin2hex( $line ) . "\n" );
-						$hexForm = bin2hex( $m['charleft'] );
-						$this->output( "Invalid UTF-8 character \"{$m['charleft']}\" ($hexForm) at line $lineNum: $line\n" );
-					} else {
-						$this->output( "Error: left number ({$m['hexleft']}) does not match left character ($actual) " .
-								"at line $lineNum: $line\n" );
-					}
-					$error = true;
-				}
-				if ( !empty( $m['hexright'] ) && codepointToUtf8( hexdec( $m['hexright'] ) ) != $m['charright'] ) {
-					$actual = utf8ToCodepoint( $m['charright'] );
-					if ( $actual === false ) {
-						$hexForm = bin2hex( $m['charright'] );
-						$this->output( "Invalid UTF-8 character \"{$m['charleft']}\" ($hexForm) at line $lineNum: $line\n" );
-					} else {
-						$this->output( "Error: right number ({$m['hexright']}) does not match right character ($actual) " .
-								"at line $lineNum: $line\n" );
-					}
-					$error = true;
-				}
-				if ( $error ) {
-					$exitStatus = 1;
-					continue;
-				}
 			}
 
 			# Find the set for the right character, add a new one if necessary
