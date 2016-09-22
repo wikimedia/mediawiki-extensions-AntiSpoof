@@ -3,7 +3,8 @@
 		"authors": [
 			"Dittaeva",
 			"Event",
-			"Chameleon222"
+			"Chameleon222",
+			"Jon Harald Søby"
 		]
 	},
 	"antispoof-desc": "Hindrer oppretting av kontoer med lignende eller forvirrende brukernavn, eller brukernavn som inneholder to forskjellige alfabettyper",
