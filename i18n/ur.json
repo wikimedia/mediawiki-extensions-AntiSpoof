@@ -10,5 +10,6 @@
 	"antispoof-empty": "خالی تار",
 	"antispoof-noletters": "نہیں کسی بھی حروف پر مشتمل",
 	"antispoof-mixedscripts": "مطابقت مخلوط سکرپٹ پر مشتمل ہے",
+	"antispoof-ignore": "فریب کاری کی جانچ کو نظر انداز کریں",
 	"right-override-antispoof": "فریب کاری کی جانچ کی منسوخی"
 }

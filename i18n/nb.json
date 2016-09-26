@@ -25,5 +25,6 @@
 	"right-override-antispoof": "Overkjøre sjekk av brukernavn",
 	"apihelp-antispoof-description": "Sjekker et brukernavn mot AntiSpoofs normaliseringskontroller.",
 	"apihelp-antispoof-param-username": "Brukernavnet som skal sjekkes mot AntiSpoof.",
-	"apihelp-antispoof-example-1": "Sjekk brukernavn «Foo» mot AntiSpoof"
+	"apihelp-antispoof-example-1": "Sjekk brukernavn «Foo» mot AntiSpoof",
+	"apihelp-createaccount-param-ignoreantispoof": "Ignorer misbrukskontroller (krever rettigheten <code>override-antispoof</code>)."
 }
