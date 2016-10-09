@@ -16,12 +16,17 @@
 	"antispoof-badtype": "Formato de dados incorreto",
 	"antispoof-empty": "Linha vazia",
 	"antispoof-blacklisted": "Contém o carácter proibido $1",
-	"antispoof-combining": "Começa com carácter de combinação $1",
+	"antispoof-combining": "Começa com o carácter de combinação $1",
 	"antispoof-unassigned": "Contém o carácter proibido $1",
 	"antispoof-deprecated": "Contém o carácter não suportado $1",
 	"antispoof-noletters": "Não contém letras",
 	"antispoof-mixedscripts": "Contém uma mistura de alfabetos incompatíveis",
 	"antispoof-tooshort": "Nome canónico demasiado curto",
-	"antispoof-ignore": "Ignorar as verificações de semelhança de nomes (spoofing)",
-	"right-override-antispoof": "Ultrapassar as verificações de semelhança de nome (<i>spoofing</i>)"
+	"antispoof-ignore": "Ignorar as verificações de semelhança de nomes (<i>spoofing</i>)",
+	"antispoof-ignore-help": "Permite que os utilizadores com os privilégios necessários criem uma conta com nome seja semelhante ao de outra conta existente.",
+	"right-override-antispoof": "Ultrapassar as verificações de semelhança de nome (<i>spoofing</i>)",
+	"apihelp-antispoof-description": "Verificar um nome de utilizador contra as verificações de normalização do AntiSpoof.",
+	"apihelp-antispoof-param-username": "O nome de utilizador para verificação de semelhança de nome (AntiSpoof).",
+	"apihelp-antispoof-example-1": "Verificar a semelhança de nome (AntiSpoof) do utilizador \"Foo\"",
+	"apihelp-createaccount-param-ignoreantispoof": "Ignorar as verificações de semelhança de nome (necessita do privilégio <code>override-antispoof</code>)."
 }
