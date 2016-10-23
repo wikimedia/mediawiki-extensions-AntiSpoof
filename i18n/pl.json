@@ -6,7 +6,8 @@
 			"Derbeth",
 			"Mikołka",
 			"Sp5uhe",
-			"Matma Rex"
+			"Matma Rex",
+			"Woytecr"
 		]
 	},
 	"antispoof-desc": "Blokuje tworzenie kont użytkowników o nazwach podobnych do już istniejących lub dezorientujących",
@@ -23,5 +24,10 @@
 	"antispoof-mixedscripts": "Zawiera przemieszane znaki niezgodnych ze sobą pism",
 	"antispoof-tooshort": "Zbyt krótka nazwa użytkownika",
 	"antispoof-ignore": "Ignoruj podobieństwo do istniejących nazw",
-	"right-override-antispoof": "Brak ograniczenia przed zakładaniem kont o podobnych nazwach do już istniejących"
+	"antispoof-ignore-help": "Pozwala użytkownikom z określonymi uprawnieniami na utworzenie konta, nawet gdy jego nazwa jest podobna do istniejącego już konta.",
+	"right-override-antispoof": "Brak ograniczenia przed zakładaniem kont o podobnych nazwach do już istniejących",
+	"apihelp-antispoof-description": "Sprawdź nazwę użytkownika według kryteriów AntiSpoof.",
+	"apihelp-antispoof-param-username": "Nazwa użytkownika, którą sprawdzić za pomocą AntiSpoof.",
+	"apihelp-antispoof-example-1": "Sprawdź nazwę użytkownika \"Foo\" za pomocą AntiSpoof",
+	"apihelp-createaccount-param-ignoreantispoof": "Ignoruj sprawdzenie podobieństwa nazwy (wymaga uprawnienia <code>override-antispoof</code>)."
 }
