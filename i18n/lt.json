@@ -23,6 +23,7 @@
 	"antispoof-mixedscripts": "Turi nepalaikomų įvairių rašmenų",
 	"antispoof-tooshort": "Kanonizuotas vardas per trumpas",
 	"antispoof-ignore": "Nepaisyti „spoofing“ patikrinimų",
+	"antispoof-ignore-help": "Leidžia vartotojams, turintiems pakankamai teisių, sukurti paskyrą, net jei jos vardas yra panašus į kitos paskyros.",
 	"right-override-antispoof": "Nepaisyti „spoofing“ patikrinimų",
 	"apihelp-antispoof-description": "Patikrinti, ar naudotojo vardas atitinka AntiSpoof's normalizavimo patikras.",
 	"apihelp-antispoof-param-username": "Naudotojo vardas, kuriam atlikti AntiSpoof patikrą.",
