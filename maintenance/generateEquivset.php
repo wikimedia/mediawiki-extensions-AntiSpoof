@@ -7,6 +7,12 @@ if ( $IP === false ) {
 require_once( "$IP/maintenance/Maintenance.php" );
 
 class GenerateEquivset extends Maintenance {
+	public function __construct() {
+		parent::__construct();
+
+		$this->requireExtension('AntiSpoof');
+	}
+
 	public function execute() {
 		$dir = __DIR__;
 

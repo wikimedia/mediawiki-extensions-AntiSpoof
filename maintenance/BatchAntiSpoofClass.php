@@ -11,6 +11,12 @@ require_once( "$IP/maintenance/Maintenance.php" );
  */
 class BatchAntiSpoof extends Maintenance {
 
+	public function __construct() {
+		parent::__construct();
+
+		$this->requireExtension('AntiSpoof');
+	}
+
 	/**
 	 * @param $items array
 	 */
