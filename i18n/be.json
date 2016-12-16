@@ -15,11 +15,14 @@
 	"antispoof-blacklisted": "Утрымлівае забаронены сімвал $1",
 	"antispoof-combining": "Пачынаецца з аб'яднальнага знаку $1",
 	"antispoof-unassigned": "Утрымлівае нявызначаны сімвал $1",
+	"antispoof-deprecated": "Утрымлівае забаронены сімвал $1",
 	"antispoof-noletters": "Не ўтрымлівае ніводнай літары",
 	"antispoof-mixedscripts": "Утрымлівае несумяшчальныя змяшаныя альфавіты",
 	"antispoof-tooshort": "Нармалізаванае імя занадта кароткае",
 	"antispoof-ignore": "Ігнараваць праверкі на падобнасць імёнаў",
+	"antispoof-ignore-help": "Дазваляе карыстальніку з дастатковымі прывілеямі стварыць уліковы запіс, нават калі яго імя падобна на існуючы ўліковы запіс.",
 	"right-override-antispoof": "ігнараванне праверак на падобныя назвы рахункаў",
+	"apihelp-antispoof-description": "Праверце імя карыстальніка праз AntiSpoof.",
 	"apihelp-antispoof-param-username": "Імя карыстальніка для праверкі AntiSpoof.",
 	"apihelp-antispoof-example-1": "Праверыць імя карыстальніка \"Foo\" з дапамогай AntiSpoof"
 }
