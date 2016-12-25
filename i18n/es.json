@@ -14,7 +14,8 @@
 			"Themasterriot",
 			"Ryo567",
 			"Macofe",
-			"MarcoAurelio"
+			"MarcoAurelio",
+			"Dgstranz"
 		]
 	},
 	"antispoof-desc": "Previene la creación de cuentas de usuario nuevas que tengan nombres confusos, similares a nombres existentes, o con alfabetos mixtos.",
@@ -32,6 +33,7 @@
 	"antispoof-mixedscripts": "Contiene una mezcla incompatible de alfabetos",
 	"antispoof-tooshort": "Nombre en forma canónica demasiado corto",
 	"antispoof-ignore": "Ignorar comprobaciones contra suplantaciones",
+	"antispoof-ignore-help": "Permite a los usuarios que tengan suficientes privilegios crear una cuenta incluso aunque su nombre sea similar al de una cuenta existente.",
 	"right-override-antispoof": "Anula las comprobaciones de suplantación",
 	"apihelp-antispoof-description": "Comprobar un nombre de usuario contra las comprobación de normalización del sistema AntiSpoof",
 	"apihelp-antispoof-param-username": "El nombre de usuario a comprobar contra el sistema AntiSpoof.",
