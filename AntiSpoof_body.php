@@ -29,6 +29,8 @@
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301
 # USA
 
+use UtfNormal\Validator;
+
 class AntiSpoof {
 	# Define script tag codes for various Unicode codepoint ranges
 	# If it does not have a code here, it does not have a script assignment
@@ -341,7 +343,7 @@ class AntiSpoof {
 		}
 
 		# Perform Unicode _compatibility_ decomposition
-		$testName = UtfNormal::toNFKD( $testName );
+		$testName = Validator::toNFKD( $testName );
 		$testChars = self::stringToList( $testName );
 
 		# Be paranoid: check again, just in case Unicode normalization code changes...
