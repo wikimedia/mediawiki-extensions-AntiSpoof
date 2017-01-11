@@ -15,12 +15,13 @@
 			"Ryo567",
 			"Macofe",
 			"MarcoAurelio",
-			"Dgstranz"
+			"Dgstranz",
+			"Tusca"
 		]
 	},
 	"antispoof-desc": "Previene la creación de cuentas de usuario nuevas que tengan nombres confusos, similares a nombres existentes, o con alfabetos mixtos.",
 	"antispoof-conflict-top": "El nombre «$1» es muy similar al de {{PLURAL:$2|la siguiente cuenta|las siguientes cuentas}}:",
-	"antispoof-conflict-bottom": "Elige otro nombre.",
+	"antispoof-conflict-bottom": "Elige otro nombre de usuario.",
 	"antispoof-name-illegal": "El nombre «$1» no está permitido para evitar nombres de usuario confusos o suplantaciones: $2. Por favor, elige otro nombre.",
 	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Tipo de dato erróneo",
@@ -31,7 +32,7 @@
 	"antispoof-deprecated": "Contiene el carácter desaconsejado $1",
 	"antispoof-noletters": "No contiene letras",
 	"antispoof-mixedscripts": "Contiene una mezcla incompatible de alfabetos",
-	"antispoof-tooshort": "Nombre en forma canónica demasiado corto",
+	"antispoof-tooshort": "Nombre normalizado demasiado corto",
 	"antispoof-ignore": "Ignorar comprobaciones contra suplantaciones",
 	"antispoof-ignore-help": "Permite a los usuarios que tengan suficientes privilegios crear una cuenta incluso aunque su nombre sea similar al de una cuenta existente.",
 	"right-override-antispoof": "Anula las comprobaciones de suplantación",
