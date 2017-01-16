@@ -7,9 +7,9 @@
 		]
 	},
 	"antispoof-desc": "Óheimilar gerð aðganga með blandað skrifletur, ruglandi og svipuð notandanöfn",
-	"antispoof-conflict-top": "Nafnið \"$1\" er of svipað eftirfarandi {{PLURAL:$2|notandanafni|notendanöfnum}}:",
-	"antispoof-conflict-bottom": "Vinsamlegast veldu annað nafn.",
-	"antispoof-name-illegal": "Nafnið „$1“ er ekki leyfilegt til að sporna gegn ruglandi eða skopstælandi notandanöfnum:: „$2“. Vinsamlegast veldu annað nafn.",
+	"antispoof-conflict-top": "Notandanafnið \"$1\" er of svipað eftirfarandi {{PLURAL:$2|notandanafni|notendanöfnum}}:",
+	"antispoof-conflict-bottom": "Vinsamlegast veldu annað notandanafn.",
+	"antispoof-name-illegal": "Notandanafnið „$1“ er ekki leyfilegt til að sporna gegn ruglandi eða skopstælandi notandanöfnum:: „$2“. Vinsamlegast veldu annað notandanafn.",
 	"antispoof-badtype": "Lélegt gagnatag",
 	"antispoof-empty": "Tómur strengur",
 	"antispoof-blacklisted": "Inniheldur bannaða rittáknið $1",
@@ -18,6 +18,6 @@
 	"antispoof-deprecated": "Inniheldur úrelda táknið $1",
 	"antispoof-noletters": "Inniheldur enga stafi",
 	"antispoof-mixedscripts": "Inniheldur ósamhæfðar skriftur",
-	"antispoof-tooshort": "Nafn of stutt",
+	"antispoof-tooshort": "Staðlað nafn er of stutt",
 	"antispoof-ignore": "Hunsa misnotkunar athugun"
 }
