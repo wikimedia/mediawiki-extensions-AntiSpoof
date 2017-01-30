@@ -7,13 +7,14 @@
 			"SPQRobin",
 			"Siebrand",
 			"Esketti",
-			"McDutchie"
+			"McDutchie",
+			"Mainframe98"
 		]
 	},
 	"antispoof-desc": "Blokkeert het aanmaken van gebruikersnamen in meerdere schriften, en verwarrende en gelijkende gebruikersnamen",
-	"antispoof-conflict-top": "De naam \"$1\" lijkt te veel op de volgende bestaande {{PLURAL:$2|gebruikersnaam|$2 gebruikersnamen}}:",
+	"antispoof-conflict-top": "De gebruikersnaam \"$1\" lijkt te veel op de volgende bestaande {{PLURAL:$2|gebruikersnaam|$2 gebruikersnamen}}:",
 	"antispoof-conflict-bottom": "Kies een andere naam.",
-	"antispoof-name-illegal": "De naam \"$1\" is niet toegestaan om verwarring of gefingeerde gebruikersnamen te voorkomen: $2.\nKies een andere naam.",
+	"antispoof-name-illegal": "De gebruikersnaam \"$1\" is niet toegestaan om verwarring of gefingeerde gebruikersnamen te voorkomen: $2.\nKies een andere naam.",
 	"antispoof-badtype": "Ongeldig gegevenstype",
 	"antispoof-empty": "Lege string",
 	"antispoof-blacklisted": "Bevat verboden teken $1",
