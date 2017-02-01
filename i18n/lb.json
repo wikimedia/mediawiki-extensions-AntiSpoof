@@ -8,7 +8,7 @@
 	"antispoof-desc": "Verhënnert d'Opmaache vu Benotzerkonte mat gemëschten Zeechesätz, mat gelungene Benotzernimm oder mat Benotzernimm déi zu Verwiesselunge féiere kéinten.",
 	"antispoof-conflict-top": "De Benotzernumm \"$1\" ass ze ähnlech mat {{PLURAL:$2|dësem Benotzernumm|dëse Benotzernimm}}:",
 	"antispoof-conflict-bottom": "Wielt w.e.g. en anere Benotzernumm.",
-	"antispoof-name-illegal": "De gewënschte Benotzernumm \"$1\" ass net erlaabt. Grond: $2<br />\nSicht iech w.e.g. een anere Benotzernumm.",
+	"antispoof-name-illegal": "De Benotzernumm \"$1\" ass net erlaabt fir Verwiesslungen oder Verschleierungen vu Benotzernimm ze verhënneren: $2.\n\nSicht iech w.e.g. een anere Benotzernumm.",
 	"antispoof-badtype": "Ongültegt Fichiers-Format (bad data type)",
 	"antispoof-empty": "Eidelt Feld",
 	"antispoof-blacklisted": "Verbueden Zeechen (Caractèren): $1",
