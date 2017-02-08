@@ -6,12 +6,13 @@
 			"Nike",
 			"Samoasambia",
 			"Silvonen",
-			"Str4nd"
+			"Str4nd",
+			"Pyscowicz"
 		]
 	},
 	"antispoof-desc": "Estää käyttäjätunnusten luonnin, jos ne sisältävät eri kirjoitusjärjestelmiä, harhaanjohtavia tai samankaltaisia käyttäjätunnuksia.",
 	"antispoof-conflict-top": "Tunnus ”$1” on liian samankaltainen kuin {{PLURAL:$2|olemassa oleva tunnus|seuraavat $2 tunnusta}}:",
-	"antispoof-conflict-bottom": "Valitse toinen tunnus.",
+	"antispoof-conflict-bottom": "Valitse toinen käyttäjänimi.",
 	"antispoof-name-illegal": "Tunnusta ”$1” ei sallita, koska $2. Hämäävien tai huijaustarkoitukseen sopivien tunnusten luonti on estetty. Valitse toinen tunnus.",
 	"antispoof-badtype": "Virheellinen tietotyyppi",
 	"antispoof-empty": "Tyhjä merkkijono",
@@ -21,7 +22,7 @@
 	"antispoof-deprecated": "Sisältää kielletyn merkin $1",
 	"antispoof-noletters": "Ei sisällä mitään kirjaimia",
 	"antispoof-mixedscripts": "se sisältää yhteensopimattomia kirjoitusjärjestelmiä",
-	"antispoof-tooshort": "sen kanonisoitu muoto on liian lyhyt",
+	"antispoof-tooshort": "Normalisoitu nimi liian lyhyt",
 	"antispoof-ignore": "Älä käytä hämäävien tunnusten tarkistusta",
 	"right-override-antispoof": "Ohittaa tarkastukset samankaltaisista tai epäilyttävistä käyttäjätunnuksista"
 }
