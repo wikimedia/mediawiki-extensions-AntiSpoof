@@ -9,7 +9,7 @@
 	},
 	"antispoof-desc": "Bloquea a creación de contas con escrituras mesturadas, confusas ou con nomes de usuario similares",
 	"antispoof-conflict-top": "O nome \"$1\" é moi similar {{PLURAL:$2|ao seguinte nome|aos seguintes nomes}} de usuario:",
-	"antispoof-conflict-bottom": "Por favor, escolla outro nome.",
+	"antispoof-conflict-bottom": "Por favor, escolle outro nome de usuario.",
 	"antispoof-name-illegal": "O nome \"$1\" non está permitido para evitar confusións ou enganos cos seguintes nomes de usuario: $2. Por favor, escolla outro nome.",
 	"antispoof-badtype": "Tipo de datos incorrecto",
 	"antispoof-empty": "Cadea baleira",
