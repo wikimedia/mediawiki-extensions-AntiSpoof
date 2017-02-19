@@ -11,9 +11,9 @@
 		]
 	},
 	"antispoof-desc": "Blokuje tworzenie kont użytkowników o nazwach podobnych do już istniejących lub dezorientujących",
-	"antispoof-conflict-top": "Nazwa „$1” jest zbyt podobna do {{PLURAL:$2|następującej nazwy konta|następujących nazw kont}}:",
+	"antispoof-conflict-top": "Nazwa użytkownika „$1” jest zbyt podobna do {{PLURAL:$2|następującej nazwy konta|następujących nazw kont}}:",
 	"antispoof-conflict-bottom": "Wybierz inną nazwę użytkownika.",
-	"antispoof-name-illegal": "Nazwa użytkownika „$1” nie jest dozwolona, gdyż może być myląca: $2.\nWybierz inną nazwę.",
+	"antispoof-name-illegal": "Nazwa użytkownika „$1” nie jest dozwolona, gdyż może być myląca: $2.\nWybierz inną nazwę użytkownika.",
 	"antispoof-badtype": "Zły typ danych",
 	"antispoof-empty": "Pusty ciąg znaków",
 	"antispoof-blacklisted": "Zawiera niedozwolony znak $1",
