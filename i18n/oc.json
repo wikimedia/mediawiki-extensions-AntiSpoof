@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "Lo nom d'utilizaire « $1 » es pas autorizat, per fin d'evitar la confusion o l'usurpacion de noms d'utilizaire : $2.\nCausissètz un autre nom d'utilizaire.",
 	"antispoof-badtype": "Marrit tipe de donadas",
 	"antispoof-empty": "Cadena voida",
-	"antispoof-blacklisted": "Conten lo caractèr interdich $1",
+	"antispoof-blacklisted": "Conten lo caractèr interdit $1",
 	"antispoof-combining": "Comença amb una marca combinatòria $1",
 	"antispoof-unassigned": "Conten un caractèr non assignat $1",
 	"antispoof-deprecated": "Conten lo caractèr obsolèt $1",
