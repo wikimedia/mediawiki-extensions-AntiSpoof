@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Khalid Mahmood"
+			"Khalid Mahmood",
+			"Abbas dhothar"
 		]
 	},
 	"antispoof-desc": "ایدے توں ملے جلے، سر پھرے تے رلدے خط آلے ورتن ناں بنن توں رک جاندے نیں",
@@ -13,8 +14,8 @@
 	"antispoof-blacklisted": "ایدے چ بنا اجازت والیاں چیزاں نیں۔",
 	"antispoof-combining": "جوڑن والے نشان نال ٹردا اے",
 	"antispoof-unassigned": "ایدے کج کیریکٹر پھیک نیں",
-	"antispoof-noletters": "ایدے چ کوئی اکرا نیں۔",
-	"antispoof-mixedscripts": "ایدے چ رلے ملے تے ناں ملن والے کیریکٹر نیں",
+	"antispoof-noletters": "ایہدے وچ کوئی اکرا نئیں۔",
+	"antispoof-mixedscripts": "ایہدے وچ رلے ملے تے ناں ملن والے کیریکٹر نیں",
 	"antispoof-tooshort": "وڈے ناں بعوت نکے نیں",
 	"antispoof-ignore": "بے تکیاں چیزاں ناں چیک کرو",
 	"right-override-antispoof": "بےتکیاں چیزاں نوں چھڈو"
