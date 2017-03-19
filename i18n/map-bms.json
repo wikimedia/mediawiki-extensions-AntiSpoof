@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"StefanusRA",
-			"Umherirrender"
+			"Umherirrender",
+			"Mbrt"
 		]
 	},
 	"antispoof-desc": "Menggak nggawé akun sing jeneng panganggone nganggo aksara campuran, mbingungna lan sing mèmper",
@@ -13,7 +14,7 @@
 	"antispoof-empty": "Data kosong",
 	"antispoof-blacklisted": "Ngandhut karakter sing ora olih dienggo yakuwe $1",
 	"antispoof-combining": "Diwiwiti karo tandha kombinasi $1",
-	"antispoof-unassigned": "Ngandhut karakter sing ora dienggo yakuwe $1",
+	"antispoof-unassigned": "Ana karakter sing ora dienggo yakuwe $1",
 	"antispoof-deprecated": "Ngandhut karakter sing wis ora dinggo maning yakuwe $1",
 	"antispoof-noletters": "Ora ngandhut aksara babar belas",
 	"antispoof-mixedscripts": "Ngandhut aksara campuran sing ora kompatibel",
