@@ -5,7 +5,7 @@
 			"Kandar"
 		]
 	},
-	"antispoof-desc": "Peungpeuk dijieunna rekening nu landihanana skrip campuran, ngaco, atawa sarupa",
+	"antispoof-desc": "Peungpeuk dijieunna akun anu sandiasma skrip campuran, ngaco, atawa sarupa",
 	"antispoof-conflict-top": "Ngaran \"$1\" mirip teuing jeung {{PLURAL:$2|sandiasma|sandiasma}}:",
 	"antispoof-conflict-bottom": "Mangga pilih ngaran séjén.",
 	"antispoof-name-illegal": "Sandiasma \"$1\" teu diwenangkeun ngarah teu pahili jeung sandiasma: $2. Pilih sandiasma séjénna.",
