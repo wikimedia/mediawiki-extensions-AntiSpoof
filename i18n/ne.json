@@ -3,7 +3,8 @@
 		"authors": [
 			"Bhawani Gautam",
 			"Bhawani Gautam Rhk",
-			"सरोज कुमार ढकाल"
+			"सरोज कुमार ढकाल",
+			"राम प्रसाद जोशी"
 		]
 	},
 	"antispoof-desc": "भ्रामक तथा एकै प्रकारका प्रयोगकर्ता नामहरु, मिश्रित-स्क्रिप्ट भएका खाताहरु बनाउनमाथि रोक लगाउने",
@@ -15,7 +16,7 @@
 	"antispoof-blacklisted": "कालो सुचीमा रहेको वर्ण $1 रहेको छ",
 	"antispoof-combining": "संयोजन चिन्हबाट सुरु हुने",
 	"antispoof-noletters": "कुनै अक्षरहरु नभएको",
-	"antispoof-mixedscripts": "असंगत मिश्रित लिपिहरु सम्मिलित गरिएको",
+	"antispoof-mixedscripts": "असंगत मिश्रित लिपिहरू सम्मिलित गरिएको",
 	"antispoof-tooshort": "संक्षिप्त साह्रै छोटो नाम",
 	"antispoof-ignore": "धोका रोकाईलाई अन्देखा गर्ने"
 }
