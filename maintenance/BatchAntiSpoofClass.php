@@ -4,7 +4,7 @@ $IP = getenv( 'MW_INSTALL_PATH' );
 if ( $IP === false ) {
 	$IP = __DIR__ . '/../../..';
 }
-require_once( "$IP/maintenance/Maintenance.php" );
+require_once "$IP/maintenance/Maintenance.php";
 
 /**
  * Go through all usernames and calculate and record spoof thingies
@@ -14,7 +14,7 @@ class BatchAntiSpoof extends Maintenance {
 	public function __construct() {
 		parent::__construct();
 
-		$this->requireExtension('AntiSpoof');
+		$this->requireExtension( 'AntiSpoof' );
 	}
 
 	/**
@@ -62,8 +62,8 @@ class BatchAntiSpoof extends Maintenance {
 		$userCol = $this->getUserColumn();
 		$result = $dbw->select( $this->getTableName(), $userCol, null, __FUNCTION__ );
 		$n = 0;
-		$items = array();
-		foreach( $result as $row ) {
+		$items = [];
+		foreach ( $result as $row ) {
 			if ( $n++ % $batchSize == 0 ) {
 				$this->output( "...$n\n" );
 			}
@@ -72,7 +72,7 @@ class BatchAntiSpoof extends Maintenance {
 
 			if ( $n % $batchSize == 0 ) {
 				$this->batchRecord( $items );
-				$items = array();
+				$items = [];
 				$this->waitForSlaves();
 			}
 		}

@@ -29,17 +29,18 @@ $wgAntiSpoofAccounts = null;
 
 /**
  * Blacklisted character codes.
+ * defaults:
+ *	0x0337 - Combining short solidus overlay
+ *	0x0338 - Combining long solidus overlay
+ *	0x2044 - Fraction slash
+ *	0x2215 - Division slash
+ *	0x23AE - Integral extension
+ *	0x29F6 - Solidus with overbar
+ *	0x29F8 - Big solidus
+ *	0x2AFB - Triple solidus binary relation
+ *	0x2AFD - Double solidus operator
+ *	0xFF0F - Fullwidth solidus
+ *
  * @var int[]
  */
 $wgAntiSpoofBlacklist = null;
-//  defaults:
-//	0x0337, # Combining short solidus overlay
-//	0x0338, # Combining long solidus overlay
-//	0x2044, # Fraction slash
-//	0x2215, # Division slash
-//	0x23AE, # Integral extension
-//	0x29F6, # Solidus with overbar
-//	0x29F8, # Big solidus
-//	0x2AFB, # Triple solidus binary relation
-//	0x2AFD, # Double solidus operator
-//	0xFF0F  # Fullwidth solidus

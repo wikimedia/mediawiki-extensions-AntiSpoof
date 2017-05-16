@@ -67,18 +67,18 @@ class SpoofUser {
 		// Join against the user table to ensure that we skip stray
 		// entries left after an account is renamed or otherwise munged.
 		$spoofedUsers = $dbr->select(
-			array( 'spoofuser', $this->getTableName() ),
-			array( 'su_name' ), // Same thing due to the join. Saves extra variableness
-			array(
+			[ 'spoofuser', $this->getTableName() ],
+			[ 'su_name' ], // Same thing due to the join. Saves extra variableness
+			[
 				'su_normalized' => $this->mNormalized,
 				'su_name = ' . $this->getUserColumn(),
-			),
+			],
 			__METHOD__,
-			array(
+			[
 				'LIMIT' => 5
-			) );
+			] );
 
-		$spoofs = array();
+		$spoofs = [];
 		foreach ( $spoofedUsers as $row ) {
 			array_push( $spoofs, $row->su_name );
 		}
@@ -91,19 +91,19 @@ class SpoofUser {
 	 * @return bool
 	 */
 	public function record() {
-		return self::batchRecord( $this->getDBMaster(), array( $this ) );
+		return self::batchRecord( $this->getDBMaster(), [ $this ] );
 	}
 
 	/**
 	 * @return array
 	 */
 	private function insertFields() {
-		return array(
+		return [
 			'su_name'       => $this->mName,
 			'su_normalized' => $this->mNormalized,
 			'su_legal'      => $this->mLegal ? 1 : 0,
 			'su_error'      => $this->mError,
-		);
+		];
 	}
 
 	/**
@@ -116,7 +116,7 @@ class SpoofUser {
 		if ( !count( $items ) ) {
 			return false;
 		}
-		$fields = array();
+		$fields = [];
 		/**
 		 * @var $item SpoofUser
 		 */
@@ -125,7 +125,7 @@ class SpoofUser {
 		}
 		$dbw->replace(
 			'spoofuser',
-			array( 'su_name' ),
+			[ 'su_name' ],
 			$fields,
 			__METHOD__ );
 		return true;
@@ -141,10 +141,10 @@ class SpoofUser {
 		// Avoid user rename triggered deadlocks
 		$dbw->onTransactionPreCommitOrIdle(
 			function() use ( $dbw, $that, $method, $oldName ) {
-				if( $that->record() ) {
+				if ( $that->record() ) {
 					$dbw->delete(
 						'spoofuser',
-						array( 'su_name' => $oldName ),
+						[ 'su_name' => $oldName ],
 						$method
 					);
 				}
@@ -158,7 +158,7 @@ class SpoofUser {
 	public function remove() {
 		$this->getDBMaster()->delete(
 			'spoofuser',
-			array( 'su_name' => $this->mName ),
+			[ 'su_name' => $this->mName ],
 			__METHOD__
 		);
 	}

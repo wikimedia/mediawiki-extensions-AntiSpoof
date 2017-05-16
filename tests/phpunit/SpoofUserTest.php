@@ -7,7 +7,7 @@ class SpoofUserTest extends MediaWikiTestCase {
 
 	protected $tablesUsed = [ 'user', 'spoofuser' ];
 
-	private static $usernames = array(
+	private static $usernames = [
 		'UserFoo',
 		'UserF00',
 		'FooBaz',
@@ -17,7 +17,7 @@ class SpoofUserTest extends MediaWikiTestCase {
 		'BAZFOO',
 		'BazF00',
 		'ILIKECAPSLOCKS',
-	);
+	];
 
 	public function setUp() {
 		parent::setUp();
@@ -43,7 +43,7 @@ class SpoofUserTest extends MediaWikiTestCase {
 		$s = new SpoofUser( 'SomeUsername' );
 		$this->assertTrue( $s->record() );
 		// Check that it made it into the database
-		$this->assertArrayEquals( array( 'SomeUsername' ), $s->getConflicts() );
+		$this->assertArrayEquals( [ 'SomeUsername' ], $s->getConflicts() );
 	}
 
 	/**
@@ -56,13 +56,13 @@ class SpoofUserTest extends MediaWikiTestCase {
 	}
 
 	public static function provideGetConflicts() {
-		return array(
-			array( 'UserFoo', array( 'UserF00', 'UserFoo' ) ),
-			array( 'FooBaz', array( 'F00BAZ', 'FOOBAZ', 'FooBaz' ) ),
-			array( 'ILIKECAPSLOCKS', array( 'ILIKECAPSLOCKS' ) ),
-			array( 'NotInTheUserTable', array() ),
-			array( 'UsErFoO', array( 'UserF00', 'UserFoo' ) ),
-		);
+		return [
+			[ 'UserFoo', [ 'UserF00', 'UserFoo' ] ],
+			[ 'FooBaz', [ 'F00BAZ', 'FOOBAZ', 'FooBaz' ] ],
+			[ 'ILIKECAPSLOCKS', [ 'ILIKECAPSLOCKS' ] ],
+			[ 'NotInTheUserTable', [] ],
+			[ 'UsErFoO', [ 'UserF00', 'UserFoo' ] ],
+		];
 	}
 
 	/**
@@ -73,8 +73,8 @@ class SpoofUserTest extends MediaWikiTestCase {
 		$user->addToDatabase();
 		$s = new SpoofUser( 'MyNewUserName' );
 		$s->update( 'BAZFOO' );
-		$this->assertArrayEquals( array( 'MyNewUserName' ), $s->getConflicts() );
+		$this->assertArrayEquals( [ 'MyNewUserName' ], $s->getConflicts() );
 		$foobaz = new SpoofUser( 'BAZFOO' );
-		$this->assertArrayEquals( array( 'BazF00', 'BazFoo' ), $foobaz->getConflicts() );
+		$this->assertArrayEquals( [ 'BazF00', 'BazFoo' ], $foobaz->getConflicts() );
 	}
 }

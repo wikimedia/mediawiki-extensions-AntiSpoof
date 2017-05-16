@@ -2,14 +2,14 @@
 class AntiSpoofTest extends MediaWikiTestCase {
 
 	public function providePositives() {
-		return array(
+		return [
 			/** Format: username -> spoofing attempt */
-			array( 'Laura Fiorucci', 'Låura Fiorucci' ),
-			array( 'Lucien leGrey', 'Lucien le6rey' ),
-			array( 'Poco a poco', 'Poco a ƿoco' ),
-			array( 'Sabbut', 'ЅаЬЬцт'),
-			array( 'BetoCG', 'ВетоС6' )
-		);
+			[ 'Laura Fiorucci', 'Låura Fiorucci' ],
+			[ 'Lucien leGrey', 'Lucien le6rey' ],
+			[ 'Poco a poco', 'Poco a ƿoco' ],
+			[ 'Sabbut', 'ЅаЬЬцт' ],
+			[ 'BetoCG', 'ВетоС6' ]
+		];
 	}
 
 	/**

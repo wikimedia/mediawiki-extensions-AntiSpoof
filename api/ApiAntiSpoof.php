@@ -11,20 +11,20 @@ class ApiAntiSpoof extends ApiBase {
 		$params = $this->extractRequestParams();
 
 		$res = $this->getResult();
-		$res->addValue( null, $this->getModuleName(), array( 'username' => $params['username'] ) );
+		$res->addValue( null, $this->getModuleName(), [ 'username' => $params['username'] ] );
 
 		$spoof = new SpoofUser( $params['username'] );
 
 		if ( $spoof->isLegal() ) {
 			$normalized = $spoof->getNormalized();
-			$res->addValue( null, $this->getModuleName(), array( 'normalised' => $normalized ) );
+			$res->addValue( null, $this->getModuleName(), [ 'normalised' => $normalized ] );
 
 			$unfilteredConflicts = $spoof->getConflicts();
 			if ( empty( $unfilteredConflicts ) ) {
-				$res->addValue( null, $this->getModuleName(), array( 'result' => 'pass' ) );
+				$res->addValue( null, $this->getModuleName(), [ 'result' => 'pass' ] );
 			} else {
 				$hasSuppressed = false;
-				$conflicts = array();
+				$conflicts = [];
 				foreach ( $unfilteredConflicts as $conflict )
 				{
 					if ( !User::newFromName( $conflict )->isHidden() ) {
@@ -35,13 +35,13 @@ class ApiAntiSpoof extends ApiBase {
 				}
 
 				if ( $hasSuppressed ) {
-					$res->addValue( null, $this->getModuleName(), array( 'suppressed' => 'true' ) );
+					$res->addValue( null, $this->getModuleName(), [ 'suppressed' => 'true' ] );
 				}
 
-				$res->addValue( null, $this->getModuleName(), array( 'result' => 'conflict' ) );
+				$res->addValue( null, $this->getModuleName(), [ 'result' => 'conflict' ] );
 
 				$res->setIndexedTagName( $conflicts, 'u' );
-				$res->addValue( array( $this->getModuleName() ), 'users', $conflicts );
+				$res->addValue( [ $this->getModuleName() ], 'users', $conflicts );
 			}
 		} else {
 			$error = $spoof->getError();
@@ -51,20 +51,20 @@ class ApiAntiSpoof extends ApiBase {
 	}
 
 	public function getAllowedParams() {
-		return array(
-			'username' => array(
+		return [
+			'username' => [
 				ApiBase::PARAM_REQUIRED => true,
-			),
-		);
+			],
+		];
 	}
 
 	/**
 	 * @see ApiBase::getExamplesMessages()
 	 */
 	protected function getExamplesMessages() {
-		return array(
+		return [
 			'action=antispoof&username=Foo'
 				=> 'apihelp-antispoof-example-1',
-		);
+		];
 	}
 }
