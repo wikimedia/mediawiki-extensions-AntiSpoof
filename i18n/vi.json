@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Minh Nguyen",
-			"Vinhtantran"
+			"Vinhtantran",
+			"Quenhitran"
 		]
 	},
 	"antispoof-desc": "Cấm không được mở tài khoản dưới tên người dùng sử dụng hơn một hệ thống chữ viết, gây nhầm lẫn, và tương tự với tên người dùng khác",
-	"antispoof-conflict-top": "Tên hiệu “$1” quá giống {{PLURAL:$2|tên|các tên}} người dùng sau:",
+	"antispoof-conflict-top": "Tên người dùng “$1” quá giống {{PLURAL:$2|tên|các tên}} người dùng sau:",
 	"antispoof-conflict-bottom": "Xin hãy chọn tên khác.",
 	"antispoof-name-illegal": "Không được phép dùng tên “$1” vì có thể gây nhầm lẫn hoặc lừa đảo: $2. Xin hãy chọn tên khác.",
 	"antispoof-bad-char": "“$1” ($2)",

@@ -23,5 +23,5 @@
 	"antispoof-mixedscripts": "Conține mai multe scripturi incompatibile",
 	"antispoof-tooshort": "Nume canonizat prea scurt",
 	"antispoof-ignore": "Nu verifica existența unor nume de cont similare",
-	"right-override-antispoof": "Asuprește verificările spoofing"
+	"right-override-antispoof": "Trece peste verificările de spoofing"
 }
