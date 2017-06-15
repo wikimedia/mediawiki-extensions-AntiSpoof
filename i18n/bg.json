@@ -18,7 +18,7 @@
 	"antispoof-blacklisted": "Съдържа забранен знак $1",
 	"antispoof-combining": "Започва със съставен знак $1",
 	"antispoof-unassigned": "Съдържа неопределен или нежелан знак $1",
-	"antispoof-deprecated": "Съдържа неприемливия символ $1",
+	"antispoof-deprecated": "Съдържа непрепоръчителен символ $1",
 	"antispoof-noletters": "Не съдържа букви",
 	"antispoof-mixedscripts": "Съдържа несъвместими писмени системи",
 	"antispoof-tooshort": "Каноничното име е твърде кратко",
