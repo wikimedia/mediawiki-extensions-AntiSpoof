@@ -10,12 +10,13 @@
 			"555",
 			"He7d3r",
 			"Dianakc",
-			"!Silent"
+			"!Silent",
+			"Trigonometria87"
 		]
 	},
 	"antispoof-desc": "Impede a criação de contas com escrita mista, e nomes de usuário confusos e semelhantes",
 	"antispoof-conflict-top": "O nome \"$1\" é demasiado semelhante {{PLURAL:$2|ao seguinte nome de usuário|aos seguintes nomes de usuário}}:",
-	"antispoof-conflict-bottom": "Por favor, escolha outro nome.",
+	"antispoof-conflict-bottom": "Por favor, escolha outro nome de usuário.",
 	"antispoof-name-illegal": "O nome \"$1\" não é permitido para prevenir que seja confundido com outro (ou que seja feito algum trocadilho): já existe $2.\nPor favor, escolha outro nome.",
 	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Formato de dados incorreto",

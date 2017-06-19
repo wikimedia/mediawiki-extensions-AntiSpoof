@@ -21,6 +21,7 @@
 	"antispoof-ignore-help": "Permitte al usatores con privilegios sufficiente de crear un conto mesmo si su nomine es similar a illo de un conto existente.",
 	"right-override-antispoof": "Ignorar le verificationes contra falsification",
 	"apihelp-antispoof-description": "Includer un nomine de usator in le controlos de normalisation AntiSpoof.",
+	"apihelp-antispoof-summary": "Verificar un nomine de usator contra le normas de AntiSpoof.",
 	"apihelp-antispoof-param-username": "Le nomine de usator a verificar con AntiSpoof.",
 	"apihelp-antispoof-example-1": "Verificar le nomine de usator \"Foo\" con AntiSpoof",
 	"apihelp-createaccount-param-ignoreantispoof": "Ignorar le controlos de usurpation (require le derecto <code>override-antispoof</code>)."
