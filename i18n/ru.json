@@ -7,7 +7,8 @@
 			"Okras",
 			"Van de Bugger",
 			"Александр Сигачёв",
-			"Perevod16"
+			"Perevod16",
+			"Facenapalm"
 		]
 	},
 	"antispoof-desc": "Запрещает создание учётных записей с именами, содержащими символы из разных алфавитов, вводящих в заблуждение и похожих на имена других участников.",
@@ -27,6 +28,7 @@
 	"antispoof-ignore-help": "Позволяет участникам с достаточными правами создать учётную запись даже если это имя похоже на имя уже существующей учётной записи.",
 	"right-override-antispoof": "игнорирование проверок на схожие имена",
 	"apihelp-antispoof-description": "Проверьте имя пользователя напротив чек-бокса AntiSpoof's normalisation.",
+	"apihelp-antispoof-summary": "Проверьте имя пользователя напротив чек-бокса AntiSpoof's normalisation.",
 	"apihelp-antispoof-param-username": "Имя участника, которое нужно проверить с помощью AntiSpoof.",
 	"apihelp-antispoof-example-1": "Проверить с помощью AntiSpoof имя участника «Foo»",
 	"apihelp-createaccount-param-ignoreantispoof": "Игнорировать проверки на схожие имена (требует прав <code>override-antispoof</code>)."
