@@ -25,8 +25,7 @@ class ApiAntiSpoof extends ApiBase {
 			} else {
 				$hasSuppressed = false;
 				$conflicts = [];
-				foreach ( $unfilteredConflicts as $conflict )
-				{
+				foreach ( $unfilteredConflicts as $conflict ) {
 					if ( !User::newFromName( $conflict )->isHidden() ) {
 						$conflicts[] = $conflict;
 					} else {

@@ -81,4 +81,3 @@ class BatchAntiSpoof extends Maintenance {
 		$this->output( "$n user(s) done.\n" );
 	}
 }
-
