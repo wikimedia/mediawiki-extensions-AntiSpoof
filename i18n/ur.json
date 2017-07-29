@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"පසිඳු කාවින්ද",
-			"Muhammad Shuaib"
+			"Muhammad Shuaib",
+			"Saraiki"
 		]
 	},
-	"antispoof-conflict-bottom": "براہ مہربانی ایک اور نام کا انتخاب کریں ۔",
+	"antispoof-conflict-bottom": "براہ مہربانی اور صارف کا نام انتخاب کریں ۔",
 	"antispoof-badtype": "برا اعداد و شمار کی قسم",
 	"antispoof-empty": "خالی تار",
 	"antispoof-noletters": "نہیں کسی بھی حروف پر مشتمل",
