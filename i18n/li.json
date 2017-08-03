@@ -19,5 +19,11 @@
 	"antispoof-mixedscripts": "Bevat neet compatibele sjrifter.",
 	"antispoof-tooshort": "Aafgekorte naam te kort",
 	"antispoof-ignore": "Spoofcontroles negere",
-	"right-override-antispoof": "Spoofkonträöl negere"
+	"antispoof-ignore-help": "Laot gebroekers mit zat rechte toe veur 'nen account aan te make, zelfs es deze naam op 'ne bestäöndje accountsnaam liek.",
+	"right-override-antispoof": "Spoofkonträöl negere",
+	"apihelp-antispoof-description": "Num 'ne gebroekersnaam inne normaliseringscontrole van AntiSpoof op.",
+	"apihelp-antispoof-summary": "Num 'ne gebroekersnaam inne normaliseringscontrole van AntiSpoof op.",
+	"apihelp-antispoof-param-username": "De gebroekersnaam veur op te numme mit AntiSpoof.",
+	"apihelp-antispoof-example-1": "De gebroekersnaam \"Foo\" opnumme mit AntiSpoof",
+	"apihelp-createaccount-param-ignoreantispoof": "Negeer spoofcontroles (vereisj 't rech <code>override-antispoof</code>)."
 }
