@@ -131,19 +131,19 @@ EOT
 			}
 
 			# Find the set for the right character, add a new one if necessary
-			# FIXME: Don't create mappings of characters to themselves
 			if ( isset( $setsByChar[$m['charright']] ) ) {
 				$setName = $setsByChar[$m['charright']];
+				$setsByChar[$m['charleft']] = $setsByChar[$m['charright']];
 			} else {
-				# New set
 				$setName = $m['charright'];
-				$sets[$setName] = [ $m['charright'] ];
-				$setsByChar[$setName] = $setName;
+				$setsByChar[$m['charleft']] = $m['charright'];
 			}
 
-			# Add the left character to the set
+			if ( !isset( $sets[$setName] ) ) {
+				$sets[$setName] = [ $setName ];
+			}
+
 			$sets[$setName][] = $m['charleft'];
-			$setsByChar[$m['charleft']] = $setName;
 		}
 
 		# Sets output
@@ -156,15 +156,8 @@ EOT
 		$output = str_replace( "\n", $endl, $output );
 		fwrite( $outputFile, '$equivset = ' . "$output;$endl" );
 
-		# Serialized codepoint map
-		$codepointMap = [];
-		foreach ( $setsByChar as $char => $setName ) {
-			$key = $char === '' ? '' : utf8ToCodepoint( $char );
-			$value = $setName === '' ? '' : utf8ToCodepoint( $setName );
-
-			$codepointMap[ $key ] = $value;
-		}
-		fwrite( $serializedFile, serialize( $codepointMap ) );
+		# Serialized file
+		fwrite( $serializedFile, serialize( $setsByChar ) );
 
 		fclose( $setsFile );
 		fclose( $outputFile );
