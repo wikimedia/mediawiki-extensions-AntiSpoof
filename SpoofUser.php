@@ -1,20 +1,33 @@
 <?php
 
+use Wikimedia\Rdbms\Database;
+
 class SpoofUser {
+	/** @var bool */
+	private $legal;
+
+	/** @var string */
+	private $name;
+
+	/** @var string */
+	private $normalized;
+
+	/** @var null|string */
+	private $error;
 
 	/**
 	 * @param $name string
 	 */
 	public function __construct( $name ) {
-		$this->mName = strval( $name );
-		list( $ok, $normalized ) = AntiSpoof::checkUnicodeString( $this->mName );
-		$this->mLegal = ( $ok == 'OK' );
-		if ( $this->mLegal ) {
-			$this->mNormalized = $normalized;
-			$this->mError = null;
+		$this->name = strval( $name );
+		list( $ok, $normalized ) = AntiSpoof::checkUnicodeString( $this->name );
+		$this->legal = ( $ok == 'OK' );
+		if ( $this->legal ) {
+			$this->normalized = $normalized;
+			$this->error = null;
 		} else {
-			$this->mNormalized = null;
-			$this->mError = $normalized;
+			$this->normalized = null;
+			$this->error = $normalized;
 		}
 	}
 
@@ -23,7 +36,7 @@ class SpoofUser {
 	 * @return bool
 	 */
 	public function isLegal() {
-		return $this->mLegal;
+		return $this->legal;
 	}
 
 	/**
@@ -31,7 +44,7 @@ class SpoofUser {
 	 * @return null|string
 	 */
 	public function getError() {
-		return $this->mError;
+		return $this->error;
 	}
 
 	/**
@@ -39,7 +52,7 @@ class SpoofUser {
 	 * @return string|null
 	 */
 	public function getNormalized() {
-		return $this->mNormalized;
+		return $this->normalized;
 	}
 
 	/**
@@ -70,7 +83,7 @@ class SpoofUser {
 			[ 'spoofuser', $this->getTableName() ],
 			[ 'su_name' ], // Same thing due to the join. Saves extra variableness
 			[
-				'su_normalized' => $this->mNormalized,
+				'su_normalized' => $this->normalized,
 				'su_name = ' . $this->getUserColumn(),
 			],
 			__METHOD__,
@@ -99,20 +112,20 @@ class SpoofUser {
 	 */
 	private function insertFields() {
 		return [
-			'su_name'       => $this->mName,
-			'su_normalized' => $this->mNormalized,
-			'su_legal'      => $this->mLegal ? 1 : 0,
-			'su_error'      => $this->mError,
+			'su_name'       => $this->name,
+			'su_normalized' => $this->normalized,
+			'su_legal'      => $this->legal ? 1 : 0,
+			'su_error'      => $this->error,
 		];
 	}
 
 	/**
 	 * Insert a batch of spoof normalization records into the database.
-	 * @param $dbw DatabaseBase
-	 * @param $items array of SpoofUser
+	 * @param Database $dbw
+	 * @param SpoofUser[] $items
 	 * @return bool
 	 */
-	public static function batchRecord( $dbw, $items ) {
+	public static function batchRecord( Database $dbw, $items ) {
 		if ( !count( $items ) ) {
 			return false;
 		}
@@ -132,7 +145,7 @@ class SpoofUser {
 	}
 
 	/**
-	 * @param $oldName
+	 * @param string $oldName
 	 */
 	public function update( $oldName ) {
 		$that = $this;
@@ -158,20 +171,20 @@ class SpoofUser {
 	public function remove() {
 		$this->getDBMaster()->delete(
 			'spoofuser',
-			[ 'su_name' => $this->mName ],
+			[ 'su_name' => $this->name ],
 			__METHOD__
 		);
 	}
 
 	/**
-	 * @return DatabaseBase
+	 * @return Database
 	 */
 	protected function getDBSlave() {
 		return wfGetDB( DB_SLAVE );
 	}
 
 	/**
-	 * @return DatabaseBase
+	 * @return Database
 	 */
 	protected function getDBMaster() {
 		return wfGetDB( DB_MASTER );
