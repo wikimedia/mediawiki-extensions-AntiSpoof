@@ -4,9 +4,6 @@
 	"description": "The  AntiSpoof extension is an extension for preventing confusable usernames from being created. It blocks the creation of accounts with mixed-script, confusing and similar usernames.",
 	"homepage": "https://www.mediawiki.org/wiki/Extension:AntiSpoof",
 	"license": "GPL-2.0+",
-	"require": {
-		"composer/installers": "*"
-	},
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "0.9.2",
 		"jakub-onderka/php-console-highlighter": "0.3.2",
