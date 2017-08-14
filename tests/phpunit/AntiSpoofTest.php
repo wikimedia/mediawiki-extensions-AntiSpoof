@@ -8,7 +8,9 @@ class AntiSpoofTest extends MediaWikiTestCase {
 			[ 'Lucien leGrey', 'Lucien le6rey' ],
 			[ 'Poco a poco', 'Poco a ƿoco' ],
 			[ 'Sabbut', 'ЅаЬЬцт' ],
-			[ 'BetoCG', 'ВетоС6' ]
+			[ 'BetoCG', 'ВетоС6' ],
+			[ 'Wanda', 'vv4ndá' ],
+			[ 'Mario', 'rnAr10' ]
 		];
 	}
 

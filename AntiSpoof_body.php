@@ -139,11 +139,13 @@ class AntiSpoof {
 	/* Equivalence sets */
 	private static $equivset = null;
 
-	static function initEquivSet() {
+	static function getEquivSet() {
 		if ( is_null( self::$equivset ) ) {
 			self::$equivset = unserialize( file_get_contents(
 				__DIR__ . '/equivset.ser' ) );
 		}
+
+		return self::$equivset;
 	}
 
 	/**
@@ -249,41 +251,11 @@ class AntiSpoof {
 	}
 
 	/**
-	 * @param $testName
-	 * @return array
+	 * @param string $testName
+	 * @return string
 	 */
-	public static function equivString( $testName ) {
-		$out = [];
-		self::initEquivSet();
-		foreach ( $testName as $codepoint ) {
-			if ( isset( self::$equivset[$codepoint] ) ) {
-				$out[] = self::$equivset[$codepoint];
-			} else {
-				$out[] = $codepoint;
-			}
-		}
-		return $out;
-	}
-
-	/**
-	 * @param $text
-	 * @param $pair
-	 * @param $result
-	 * @return array
-	 */
-	private static function mergePairs( $text, $pair, $result ) {
-		$out = [];
-		// @codingStandardsIgnoreStart
-		for ( $i = 0; $i < count( $text ); $i++ ) {
-			if ( $text[$i] == $pair[0] && @$text[$i + 1] == $pair[1] ) {
-				$out[] = $result[0];
-				$i++;
-			} else {
-				$out[] = $text[$i];
-			}
-		}
-		// @codingStandardsIgnoreEnd
-		return $out;
+	public static function normalizeString( $testName ) {
+		return strtr( $testName, self::getEquivSet() );
 	}
 
 	/**
@@ -397,24 +369,20 @@ class AntiSpoof {
 		// At this point, we should probably check for BiDi violations if they aren't
 		// caught above...
 
-		// Replace characters in confusables set with equivalence chars
-		$testChars = self::equivString( $testChars );
-
-		// Do very simple sequence processing: "vv" -> "w", "rn" -> "m"...
-		// Not exhaustive, but ups the ante...
-		// Do this _after_ canonicalization: looks weird, but needed for consistency
-		$testChars = self::mergePairs( $testChars,
-			self::equivString( self::stringToList( "VV" ) ),
-			self::equivString( self::stringToList( "W" ) ) );
-		$testChars = self::mergePairs( $testChars,
-			self::equivString( self::stringToList( "RN" ) ),
-			self::equivString( self::stringToList( "M" ) ) );
-
 		// Squeeze out all punctuation chars
 		// TODO: almost the same code occurs twice, refactor into own routine
 		$testChars = self::stripScript( $testChars, "SCRIPT_ASCII_PUNCTUATION" );
 
 		$testName = self::listToString( $testChars );
+
+		// Replace characters in confusables set with equivalence chars
+		$testName = self::normalizeString( $testName );
+
+		// Do very simple sequence processing: "vv" -> "w", "rn" -> "m"...
+		// Not exhaustive, but ups the ante...
+		// Do this _after_ canonicalization: looks weird, but needed for consistency
+		$testName = str_replace( 'VV', 'W', $testName );
+		$testName = str_replace( 'RN', 'M', $testName );
 
 		// Remove all remaining spaces, just in case any have snuck through...
 		$testName = self::hardjoin( explode( " ", $testName ) );
