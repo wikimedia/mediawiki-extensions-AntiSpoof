@@ -1,5 +1,7 @@
 <?php
 
+use UtfNormal\Utils;
+
 $IP = getenv( 'MW_INSTALL_PATH' );
 if ( $IP === false ) {
 	$IP = __DIR__ . '/../../..';
@@ -94,8 +96,8 @@ EOT
 			}
 			$error = false;
 
-			if ( codepointToUtf8( hexdec( $m['hexleft'] ) ) != $m['charleft'] ) {
-				$actual = utf8ToCodepoint( $m['charleft'] );
+			if ( Utils::codepointToUtf8( hexdec( $m['hexleft'] ) ) != $m['charleft'] ) {
+				$actual = Utils::utf8ToCodepoint( $m['charleft'] );
 				if ( $actual === false ) {
 					$this->output( "Bytes: " . strlen( $m['charleft'] ) . "\n" );
 					$this->output( bin2hex( $line ) . "\n" );
@@ -109,9 +111,9 @@ EOT
 				$error = true;
 			}
 			if ( !empty( $m['hexright'] )
-				&& codepointToUtf8( hexdec( $m['hexright'] ) ) != $m['charright']
+				&& Utils::codepointToUtf8( hexdec( $m['hexright'] ) ) != $m['charright']
 			) {
-				$actual = utf8ToCodepoint( $m['charright'] );
+				$actual = Utils::utf8ToCodepoint( $m['charright'] );
 				if ( $actual === false ) {
 					$hexForm = bin2hex( $m['charright'] );
 					$this->output( "Invalid UTF-8 character \"{$m['charleft']}\" ($hexForm) at " .

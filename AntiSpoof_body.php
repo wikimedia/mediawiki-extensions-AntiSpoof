@@ -31,6 +31,7 @@
  * USA
  */
 
+use UtfNormal\Utils;
 use UtfNormal\Validator;
 
 class AntiSpoof {
@@ -225,7 +226,7 @@ class AntiSpoof {
 		}
 		$out = [];
 		foreach ( $ar[0] as $char ) {
-			$out[] = utf8ToCodepoint( $char );
+			$out[] = Utils::utf8ToCodepoint( $char );
 		}
 		return $out;
 	}
@@ -237,7 +238,7 @@ class AntiSpoof {
 	public static function listToString( $list ) {
 		$out = '';
 		foreach ( $list as $cp ) {
-			$out .= codepointToUtf8( $cp );
+			$out .= Utils::codepointToUtf8( $cp );
 		}
 		return $out;
 	}
@@ -282,7 +283,7 @@ class AntiSpoof {
 	 * @return Formatted error message.
 	 */
 	private static function badCharErr( $msgId, $point ) {
-		$symbol = codepointToUtf8( $point );
+		$symbol = Utils::codepointToUtf8( $point );
 		// Combining marks are combined with the previous character. If abusing character is a
 		// combining mark, prepend it with space to show them correctly.
 		if ( self::getScriptCode( $point ) == "SCRIPT_COMBINING_MARKS" ) {
