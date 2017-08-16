@@ -1,6 +1,6 @@
 <?php
 
-use Wikimedia\Rdbms\Database;
+use Wikimedia\Rdbms\IDatabase;
 
 class SpoofUser {
 	/** @var bool */
@@ -121,11 +121,11 @@ class SpoofUser {
 
 	/**
 	 * Insert a batch of spoof normalization records into the database.
-	 * @param Database $dbw
+	 * @param IDatabase $dbw
 	 * @param SpoofUser[] $items
 	 * @return bool
 	 */
-	public static function batchRecord( Database $dbw, $items ) {
+	public static function batchRecord( IDatabase $dbw, $items ) {
 		if ( !count( $items ) ) {
 			return false;
 		}
@@ -177,14 +177,14 @@ class SpoofUser {
 	}
 
 	/**
-	 * @return Database
+	 * @return IDatabase
 	 */
 	protected function getDBSlave() {
 		return wfGetDB( DB_SLAVE );
 	}
 
 	/**
-	 * @return Database
+	 * @return IDatabase
 	 */
 	protected function getDBMaster() {
 		return wfGetDB( DB_MASTER );
