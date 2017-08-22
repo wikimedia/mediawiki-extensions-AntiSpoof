@@ -6,13 +6,14 @@
 			"Kenrick95",
 			"Meursault2004",
 			"Rex",
-			"Arifin.wijaya"
+			"Arifin.wijaya",
+			"Rachmat04"
 		]
 	},
 	"antispoof-desc": "Menghalangi pembuatan akun dengan nama pengguna aksara campuran, membingungkan, dan yang mirip",
-	"antispoof-conflict-top": "Nama \"$1\" terlalu mirip dengan {{PLURAL:$2|nama pengguna|nama pengguna}} berikut:",
-	"antispoof-conflict-bottom": "Silakan memilih nama lain.",
-	"antispoof-name-illegal": "Nama \"$1\" tidak diizinkan untuk mencegah kebingungan atau penipuan nama: $2. Harap pilih nama lain.",
+	"antispoof-conflict-top": "Nama pengguna\"$1\" terlalu mirip dengan {{PLURAL:$2|nama pengguna|nama pengguna}} berikut:",
+	"antispoof-conflict-bottom": "Mohon memilih nama pengguna lain.",
+	"antispoof-name-illegal": "Nama pengguna \"$1\" tidak diizinkan untuk mencegah kebingungan atau penipuan nama pengguna: $2. Mohon memilih pilih nama pengguna lain.",
 	"antispoof-badtype": "Tipe data salah",
 	"antispoof-empty": "Data kosong",
 	"antispoof-blacklisted": "Mengandung karakter yang tak diizinkan $1",
@@ -21,7 +22,13 @@
 	"antispoof-deprecated": "Mengandung karakter yang tak digunakan lagi $1",
 	"antispoof-noletters": "Tidak mengandung huruf apa pun",
 	"antispoof-mixedscripts": "Mengandung huruf campuran yang tak kompatibel",
-	"antispoof-tooshort": "Nama kanonikalisasi terlalu pendek",
+	"antispoof-tooshort": "Nama normalisasi terlalu pendek",
 	"antispoof-ignore": "Abaikan pemeriksaan penipuan akun",
-	"right-override-antispoof": "Mengabaikan pengecekan penipuan nama pengguna"
+	"antispoof-ignore-help": "Izinkan pengguna dengan hak memadai untuk membuat sebuah akun walaupun namanya mirip dengan akun yang telah ada.",
+	"right-override-antispoof": "Mengabaikan pengecekan penipuan nama pengguna",
+	"apihelp-antispoof-description": "Periksa nama pengguna dengan pemeriksaan normalisasi AntiPenipuan.",
+	"apihelp-antispoof-summary": "Periksa nama pengguna dengan pemeriksaan normalisasi AntiPenipuan.",
+	"apihelp-antispoof-param-username": "Nama pengguna yang akan diperiksa dengan AntiPenipuan.",
+	"apihelp-antispoof-example-1": "Periksa nama pengguna \"Foo\" dengan AntiPenipuan",
+	"apihelp-createaccount-param-ignoreantispoof": "Abaikan pemeriksaan penipuan (memerlukan hak akses <code>override-antispoof</code>)."
 }

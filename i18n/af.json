@@ -7,7 +7,7 @@
 		]
 	},
 	"antispoof-desc": "Blokke van die skepping van rekeninge met gemengde-script, verwarrend en soortgelyke gebruikersname",
-	"antispoof-conflict-top": "Die gebruikersnaam \"$1\" lyk te soortgelyk aan die van die volgende bestaande {{PLURAL:$2|gebruiker|$2 gebruikers}}:",
+	"antispoof-conflict-top": "Die gebruikernaam \"$1\" en {{PLURAL:$2|username|usernames}} lyk te eenders:",
 	"antispoof-conflict-bottom": "Kies 'n ander gebruikersnaam.",
 	"antispoof-name-illegal": "Die gebruikersnaam \"$1\" is ontoelaatbaar ten einde verwarrende of spottende gebruikersname te voorkom: $2. Kies 'n ander gebruikersnaam.",
 	"antispoof-badtype": "Verkeerde datatipe",
