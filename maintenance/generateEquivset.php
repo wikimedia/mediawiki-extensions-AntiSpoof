@@ -71,7 +71,6 @@ EOT
 
 		foreach ( $lines as $line ) {
 			++$lineNum;
-			$mapToEmpty = false;
 
 			# Whether the line ends with a nul character
 			$mapToEmpty = ( strpos( $line, "\0" ) === strlen( $line ) - 2 );
