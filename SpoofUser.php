@@ -180,7 +180,7 @@ class SpoofUser {
 	 * @return IDatabase
 	 */
 	protected function getDBSlave() {
-		return wfGetDB( DB_SLAVE );
+		return wfGetDB( DB_REPLICA );
 	}
 
 	/**
