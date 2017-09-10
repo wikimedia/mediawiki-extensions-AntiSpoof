@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tokoabibi"
+			"Tokoabibi",
+			"Benel"
 		]
 	},
-	"antispoof-empty": "inayi’ay a sulisulitan"
+	"antispoof-empty": "inayi’ay a sulisulitan",
+	"antispoof-ignore": "sekipo pahengad kinsa",
+	"right-override-antispoof": "mitahap pahengad tu kinsa"
 }
