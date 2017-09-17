@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Tokoabibi",
-			"Benel"
+			"Benel",
+			"Bunukwiki"
 		]
 	},
+	"antispoof-badtype": "mungangaway a kalunasulitan nikalahizaan",
 	"antispoof-empty": "inayi’ay a sulisulitan",
 	"antispoof-ignore": "sekipo pahengad kinsa",
 	"right-override-antispoof": "mitahap pahengad tu kinsa"
