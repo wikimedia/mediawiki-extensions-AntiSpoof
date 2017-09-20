@@ -8,6 +8,7 @@
 	},
 	"antispoof-badtype": "mungangaway a kalunasulitan nikalahizaan",
 	"antispoof-empty": "inayi’ay a sulisulitan",
+	"antispoof-combining": "pulung han miteka tatebanan-nisulitan $1",
 	"antispoof-ignore": "sekipo pahengad kinsa",
 	"right-override-antispoof": "mitahap pahengad tu kinsa"
 }
