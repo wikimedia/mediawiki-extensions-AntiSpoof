@@ -8,7 +8,8 @@
 			"Reza1615",
 			"Surena",
 			"ZxxZxxZ",
-			"Dalba"
+			"Dalba",
+			"Ladsgroup"
 		]
 	},
 	"antispoof-desc": "از ایجاد حساب‌های کاربری با حروف مختلط، گیج‌کننده یا مشابه با دیگر حساب‌های کاربری جلوگیری می‌کند",
@@ -23,7 +24,7 @@
 	"antispoof-deprecated": "شامل نویسهٔ قبیح $1",
 	"antispoof-noletters": "دربردارندهٔ هیچ حرفی نیست.",
 	"antispoof-mixedscripts": "حاوی نویسه‌های مختلط ناسازگار است",
-	"antispoof-tooshort": "نام متعارف خیلی کوتاه است",
+	"antispoof-tooshort": "نام بهنجار شده خیلی کوتاه است",
 	"antispoof-ignore": "نادیده‌گرفتن بررسی عبارات سردرگم‌کننده",
 	"right-override-antispoof": "گذر از بررسی عبارات سردرگم‌کننده",
 	"apihelp-antispoof-description": "بررسی یک نام‌ کاربری بر طبق نرمال‌سازی‌های ضدجعل.",
