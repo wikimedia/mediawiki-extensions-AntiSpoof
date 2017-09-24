@@ -8,8 +8,10 @@
 	},
 	"antispoof-badtype": "mungangaway a kalunasulitan nikalahizaan",
 	"antispoof-empty": "inayi’ay a sulisulitan",
+	"antispoof-blacklisted": "yamalyilu pasilsi kakaian tademaw a tatebanan-nisulitan $1",
 	"antispoof-combining": "pulung han miteka tatebanan-nisulitan $1",
 	"antispoof-unassigned": "yamalyilu mawawada’ay a tatebanan-nisulitan $1",
+	"antispoof-deprecated": "yamalyilu caay patahkal nizateng pisaungay a tatebanan-nisulitan $1",
 	"antispoof-ignore": "sekipo pahengad kinsa",
 	"right-override-antispoof": "mitahap pahengad tu kinsa"
 }
