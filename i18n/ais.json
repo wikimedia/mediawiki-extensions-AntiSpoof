@@ -12,6 +12,7 @@
 	"antispoof-combining": "pulung han miteka tatebanan-nisulitan $1",
 	"antispoof-unassigned": "yamalyilu mawawada’ay a tatebanan-nisulitan $1",
 	"antispoof-deprecated": "yamalyilu caay patahkal nizateng pisaungay a tatebanan-nisulitan $1",
+	"antispoof-mixedscripts": "yamalyilu macamulay caay mangangalep a Script",
 	"antispoof-ignore": "sekipo pahengad kinsa",
 	"right-override-antispoof": "mitahap pahengad tu kinsa"
 }
