@@ -14,5 +14,6 @@
 	"antispoof-deprecated": "yamalyilu caay patahkal nizateng pisaungay a tatebanan-nisulitan $1",
 	"antispoof-mixedscripts": "yamalyilu macamulay caay mangangalep a Script",
 	"antispoof-ignore": "sekipo pahengad kinsa",
-	"right-override-antispoof": "mitahap pahengad tu kinsa"
+	"right-override-antispoof": "mitahap pahengad tu kinsa",
+	"apihelp-antispoof-param-username": "kinsa misaungayay a kalungangan hakay patedu AntiSpoof haw?"
 }
