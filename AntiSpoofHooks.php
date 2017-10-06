@@ -23,7 +23,7 @@ class AntiSpoofHooks {
 	}
 
 	/**
-	 * @param $updater DatabaseUpdater
+	 * @param DatabaseUpdater $updater
 	 * @return bool
 	 */
 	public static function asUpdateSchema( DatabaseUpdater $updater ) {
@@ -35,8 +35,8 @@ class AntiSpoofHooks {
 	/**
 	 * Can be used to cancel user account creation
 	 *
-	 * @param $user User
-	 * @param $message string
+	 * @param User $user
+	 * @param string &$message
 	 * @return bool true to continue, false to abort user creation
 	 */
 	public static function asAbortNewAccountHook( $user, &$message ) {
@@ -91,7 +91,7 @@ class AntiSpoofHooks {
 	 * Set the ignore spoof thingie
 	 * (Manipulate the user create form)
 	 *
-	 * @param $template UsercreateTemplate
+	 * @param UsercreateTemplate &$template
 	 * @return bool
 	 */
 	public static function asUserCreateFormHook( &$template ) {
@@ -109,7 +109,7 @@ class AntiSpoofHooks {
 	 * On new account creation, record the username's thing-bob.
 	 * (Called after a user account is created)
 	 *
-	 * @param $user User
+	 * @param User $user
 	 * @return bool
 	 */
 	public static function asAddNewAccountHook( $user ) {
@@ -122,7 +122,7 @@ class AntiSpoofHooks {
 	 * On new account creation, record the username's thing-bob.
 	 * Replaces AddNewAccountHook for more modern MediaWiki versions-
 	 *
-	 * @param $user User
+	 * @param User $user
 	 * @return bool
 	 */
 	public static function asLocalUserCreated( $user ) {
@@ -135,9 +135,9 @@ class AntiSpoofHooks {
 	 * On rename, remove the old entry and add the new
 	 * (After a sucessful user rename)
 	 *
-	 * @param $uid
-	 * @param $oldName string
-	 * @param $newName string
+	 * @param string $uid
+	 * @param string $oldName
+	 * @param string $newName
 	 * @return bool
 	 */
 	public static function asAddRenameUserHook( $uid, $oldName, $newName ) {
@@ -153,8 +153,8 @@ class AntiSpoofHooks {
 	}
 
 	/**
-	 * @param ApiBase $module
-	 * @param array $params
+	 * @param ApiBase &$module
+	 * @param array &$params
 	 * @return bool
 	 */
 	public static function onAPIGetAllowedParams( &$module, &$params ) {

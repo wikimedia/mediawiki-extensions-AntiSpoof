@@ -18,7 +18,7 @@ class BatchAntiSpoof extends Maintenance {
 	}
 
 	/**
-	 * @param $items array
+	 * @param array $items
 	 */
 	protected function batchRecord( $items ) {
 		SpoofUser::batchRecord( $this->getDB( DB_MASTER ), $items );
@@ -39,7 +39,7 @@ class BatchAntiSpoof extends Maintenance {
 	}
 
 	/**
-	 * @param $name string
+	 * @param string $name
 	 * @return SpoofUser
 	 */
 	protected function makeSpoofUser( $name ) {

@@ -150,7 +150,7 @@ class AntiSpoof {
 	}
 
 	/**
-	 * @param $ch
+	 * @param string $ch
 	 * @return string
 	 */
 	private static function getScriptCode( $ch ) {
@@ -168,7 +168,7 @@ class AntiSpoof {
 	 * From the name of a script, get a script descriptor, if valid,
 	 * otherwise return None
 	 *
-	 * @param $name
+	 * @param string $name
 	 * @return null|string
 	 */
 	private static function getScriptTag( $name ) {
@@ -184,8 +184,8 @@ class AntiSpoof {
 	}
 
 	/**
-	 * @param $aList array
-	 * @param $bList array
+	 * @param array $aList
+	 * @param array $bList
 	 * @return bool
 	 */
 	private static function isSubsetOf( $aList, $bList ) {
@@ -195,7 +195,7 @@ class AntiSpoof {
 	/**
 	 * Is this an allowed script mixture?
 	 *
-	 * @param $scriptList
+	 * @param array $scriptList
 	 * @return bool
 	 */
 	private static function isAllowedScriptCombination( $scriptList ) {
@@ -216,7 +216,7 @@ class AntiSpoof {
 
 	/**
 	 * Convert string into array of Unicode code points as integers
-	 * @param $str
+	 * @param string $str
 	 * @return array
 	 */
 	public static function stringToList( $str ) {
@@ -232,7 +232,7 @@ class AntiSpoof {
 	}
 
 	/**
-	 * @param $list array
+	 * @param array $list
 	 * @return string
 	 */
 	public static function listToString( $list ) {
@@ -244,7 +244,7 @@ class AntiSpoof {
 	}
 
 	/**
-	 * @param $a_list array
+	 * @param array $a_list
 	 * @return string
 	 */
 	private static function hardjoin( $a_list ) {
@@ -260,8 +260,8 @@ class AntiSpoof {
 	}
 
 	/**
-	 * @param $text
-	 * @param $script
+	 * @param array $text
+	 * @param string $script
 	 * @return array
 	 */
 	private static function stripScript( $text, $script ) {
@@ -278,8 +278,8 @@ class AntiSpoof {
 	/*
 	 * Helper function for checkUnicodeString: Return an error on a bad character.
 	 * @todo I would like to show Unicode character name, but it is not clear how to get it.
-	 * @param $msgId -- string, message identifier.
-	 * @param $point -- number, codepoint of the bad character.
+	 * @param string $msgId message identifier.
+	 * @param number $point codepoint of the bad character.
 	 * @return Formatted error message.
 	 */
 	private static function badCharErr( $msgId, $point ) {
@@ -300,7 +300,7 @@ class AntiSpoof {
 
 	/**
 	 * TODO: does too much in one routine, refactor...
-	 * @param $testName
+	 * @param string $testName
 	 * @return array
 	 */
 	public static function checkUnicodeString( $testName ) {

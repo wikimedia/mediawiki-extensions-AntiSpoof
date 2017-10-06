@@ -16,7 +16,7 @@ class SpoofUser {
 	private $error;
 
 	/**
-	 * @param $name string
+	 * @param string $name
 	 */
 	public function __construct( $name ) {
 		$this->name = strval( $name );
