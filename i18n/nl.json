@@ -28,6 +28,7 @@
 	"antispoof-ignore-help": "Laat gebruikers met voldoende rechten toe om een account aan te maken, zelfs als deze naam op een bestaande accountnaam lijkt.",
 	"right-override-antispoof": "Spoofcontroles negeren",
 	"apihelp-antispoof-description": "Een gebruikersnaam in de normaliseringscontrole van AntiSpoof opnemen.",
+	"apihelp-antispoof-summary": "Een gebruikersnaam in de normaliseringscontrole van AntiSpoof opnemen.",
 	"apihelp-antispoof-param-username": "De gebruikersnaam om te controleren met AntiSpoof.",
 	"apihelp-antispoof-example-1": "De gebruikersnaam \"Foo\" controleren met AntiSpoof",
 	"apihelp-createaccount-param-ignoreantispoof": "Spoofcontroles negeren (vereist het recht <code>override-antispoof</code>)."

@@ -12,7 +12,7 @@
 	"antispoof-desc": "Blochează crearea de conturi cu nume de utilizator cu LiTeRe AmEsTeCate, confuzante sau similare",
 	"antispoof-conflict-top": "Numele „$1” este prea asemănător cu {{PLURAL:$2|următorul cont deja existent|următoarele $2 conturi|următoarele $2 de conturi}}:",
 	"antispoof-conflict-bottom": "Vă rugăm să alegeți alt nume.",
-	"antispoof-name-illegal": "Numele „$1” nu este permis pentru a preveni confuziile cu numele: $2. Vă rugăm să alegeți un alt nume de utilizator.",
+	"antispoof-name-illegal": "Numele „$1” nu este permis pentru a preveni confuziile cu numele de utilizator: $2. Vă rugăm să alegeți un alt nume de utilizator.",
 	"antispoof-badtype": "Tip de date greșit",
 	"antispoof-empty": "Șir gol",
 	"antispoof-blacklisted": "Conține caracterul interzis $1",
@@ -21,7 +21,11 @@
 	"antispoof-deprecated": "Conține caracterul interzis $1",
 	"antispoof-noletters": "Nu conține nici o literă",
 	"antispoof-mixedscripts": "Conține mai multe scripturi incompatibile",
-	"antispoof-tooshort": "Nume canonizat prea scurt",
+	"antispoof-tooshort": "Nume normalizat prea scurt",
 	"antispoof-ignore": "Nu verifica existența unor nume de cont similare",
-	"right-override-antispoof": "Trece peste verificările de spoofing"
+	"right-override-antispoof": "Trece peste verificările de spoofing",
+	"apihelp-antispoof-description": "Verificați un nume de utilizator cu verificările de normalizare ale AntiSpoof.",
+	"apihelp-antispoof-summary": "Verificați un nume de utilizator cu verificările de normalizare ale AntiSpoof.",
+	"apihelp-antispoof-param-username": "Numele de utilizator de verificat cu AntiSpoof.",
+	"apihelp-antispoof-example-1": "Verifică numele de utilizator \"Foo\" cu AntiSpoof"
 }
