@@ -6,7 +6,7 @@
 	"license-name": "GPL-2.0+",
 	"type": "antispam",
 	"requires": {
-		"MediaWiki": ">= 1.25.0"
+		"MediaWiki": ">= 1.27.0"
 	},
 	"GroupPermissions": {
 		"sysop": {
@@ -33,9 +33,16 @@
 		"AntiSpoofPreAuthenticationProvider": "AntiSpoofPreAuthenticationProvider.php",
 		"ApiAntiSpoof": "api/ApiAntiSpoof.php"
 	},
-	"callback": "AntiSpoofHooks::onRegistration",
+	"AuthManagerAutoConfig": {
+		"primaryauth": {
+			"AntiSpoofPreAuthenticationProvider": {
+				"class": "AntiSpoofPreAuthenticationProvider"
+			}
+		}
+	},
 	"Hooks": {
 		"LoadExtensionSchemaUpdates": "AntiSpoofHooks::asUpdateSchema",
+		"LocalUserCreated": "AntiSpoofHooks::asLocalUserCreated",
 		"RenameUserComplete": "AntiSpoofHooks::asAddRenameUserHook",
 		"DeleteAccount": "AntiSpoofHooks::asDeleteAccount"
 	},
