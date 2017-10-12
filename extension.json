@@ -34,7 +34,7 @@
 		"ApiAntiSpoof": "api/ApiAntiSpoof.php"
 	},
 	"AuthManagerAutoConfig": {
-		"primaryauth": {
+		"preauth": {
 			"AntiSpoofPreAuthenticationProvider": {
 				"class": "AntiSpoofPreAuthenticationProvider"
 			}
