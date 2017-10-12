@@ -33,6 +33,7 @@
 
 use UtfNormal\Utils;
 use UtfNormal\Validator;
+use Wikimedia\Equivset\Equivset;
 
 class AntiSpoof {
 	/**
@@ -137,13 +138,14 @@ class AntiSpoof {
 		[ 0x2F800, 0x2FA1F, "SCRIPT_DEPRECATED" ] // CJK Compatibility Ideographs Supplement
 	];
 
-	/* Equivalence sets */
-	private static $equivset = null;
+	/**
+	 * @var Equivset
+	 */
+	private static $equivset;
 
 	static function getEquivSet() {
-		if ( is_null( self::$equivset ) ) {
-			self::$equivset = unserialize( file_get_contents(
-				__DIR__ . '/equivset.ser' ) );
+		if ( !self::$equivset ) {
+			self::$equivset = new Equivset();
 		}
 
 		return self::$equivset;
@@ -256,7 +258,7 @@ class AntiSpoof {
 	 * @return string
 	 */
 	public static function normalizeString( $testName ) {
-		return strtr( $testName, self::getEquivSet() );
+		return self::getEquivSet()->normalize( $testName );
 	}
 
 	/**
