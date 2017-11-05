@@ -7,13 +7,14 @@
 			"Samoasambia",
 			"Silvonen",
 			"Str4nd",
-			"Pyscowicz"
+			"Pyscowicz",
+			"01miki10"
 		]
 	},
 	"antispoof-desc": "Estää käyttäjätunnusten luonnin, jos ne sisältävät eri kirjoitusjärjestelmiä, harhaanjohtavia tai samankaltaisia käyttäjätunnuksia.",
 	"antispoof-conflict-top": "Tunnus ”$1” on liian samankaltainen kuin seuraava(t)\n{{PLURAL:$2|tunnus|tunnusta}}:",
 	"antispoof-conflict-bottom": "Valitse toinen käyttäjänimi.",
-	"antispoof-name-illegal": "Tunnusta ”$1” ei sallita, koska $2. Hämäävien tai huijaustarkoitukseen sopivien tunnusten luonti on estetty. Valitse toinen tunnus.",
+	"antispoof-name-illegal": "Käyttäjänimeä ”$1” ei sallita hämäävien tai huijaustarkoitukseen sopivien tunnusten välttämiseksi: $2. Valitse toinen käyttäjänimi.",
 	"antispoof-badtype": "Virheellinen tietotyyppi",
 	"antispoof-empty": "Tyhjä merkkijono",
 	"antispoof-blacklisted": "Sisältää kielletyn merkin $1",
