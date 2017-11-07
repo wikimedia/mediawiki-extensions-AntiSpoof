@@ -7,13 +7,14 @@
 			"Jan Friberg",
 			"Jon Harald Søby",
 			"Sarrus",
-			"Tjernobyl"
+			"Tjernobyl",
+			"Joedalton"
 		]
 	},
 	"antispoof-desc": "Blokerer for oprettelse af konti med blandede tegnsæt, forvirrende eller lignende brugernavne",
-	"antispoof-conflict-top": "Navnet \"$1\" ligner for meget {{PLURAL:$2|den eksisterende konto|de følgende $2 konti}}:",
-	"antispoof-conflict-bottom": "Vælg et andet navn.",
-	"antispoof-name-illegal": "Navnet \"$1\" er ikke tilladt for at forhindre forvirrende eller efterlignede brugernavne: $2. Vælg venligst et andet navn.",
+	"antispoof-conflict-top": "Brugernavnet »$1« ligner for meget det/de følgende {{PLURAL:$2|brugernavn|brugernavne}}:",
+	"antispoof-conflict-bottom": "Vælg et andet brugernavn.",
+	"antispoof-name-illegal": "Brugernavnet »$1« er ikke tilladt for at forhindre forvirrende eller efterlignede brugernavne: $2. Vælg venligst et andet brugernavn.",
 	"antispoof-badtype": "Ugyldig datatype",
 	"antispoof-empty": "Tom streng",
 	"antispoof-blacklisted": "Indeholder det sortlistede tegn $1",
@@ -22,7 +23,13 @@
 	"antispoof-deprecated": "Indeholder det udfasede tegn $1",
 	"antispoof-noletters": "Indeholder ingen bogstaver",
 	"antispoof-mixedscripts": "Indeholder inkompatible, blandede tegnsæt",
-	"antispoof-tooshort": "Navnet er for kort",
+	"antispoof-tooshort": "Normaliseret navn er for kort",
 	"antispoof-ignore": "Ignorér misbrugskontrol",
-	"right-override-antispoof": "Omgå kontrollerne af brugernavne"
+	"antispoof-ignore-help": "Giver bruger med tilstrækkelige privilegier adgang til at oprette en konto selv om deres navn ligner en eksisterende konto.",
+	"right-override-antispoof": "Omgå kontrollerne af brugernavne",
+	"apihelp-antispoof-description": "Kontroller et brugernavn mod AntiSpoofs normaliseringskontroller.",
+	"apihelp-antispoof-summary": "Kontroller et brugernavn mod AntiSpoofs normaliseringskontroller.",
+	"apihelp-antispoof-param-username": "Brugernavnet der skal kontrolleres mod AntiSpoof.",
+	"apihelp-antispoof-example-1": "Kontroller brugernavnet »Foo« mod AntiSpoof",
+	"apihelp-createaccount-param-ignoreantispoof": "Ignorer misbrugskontroller (kræver rettigheden <code>override-antispoof</code>)"
 }
