@@ -1,16 +1,13 @@
 {
-	"@metadata": {
-		"authors": [
-		]
-	},
+	"@metadata": [],
 	"antispoof-desc": "يمنع إنشاء الحسابات بسكريبت مختلط، وبأسماء مشابهة ومربكة",
 	"antispoof-conflict-top": "الاسم \"$1\" شديد الشبه ب{{PLURAL:$2|الحساب الموجود|ال$2 حساب التالية}}:",
 	"antispoof-conflict-bottom": "من فضلك اختر اسما آخر.",
 	"antispoof-name-illegal": "الاسم \"$1\" غير مسموح به لمنع الخلط وانتحال أسماء المستخدمين: $2.\nمن فضلك اختر اسم آخر.",
 	"antispoof-badtype": "نوع بيانات خاطئ",
 	"antispoof-empty": "سلسلة فارغة",
-	"antispoof-blacklisted": "!!FUZZY!!يحتوي على حرف في القائمة السوداء",
-	"antispoof-combining": "!!FUZZY!!يبدأ بعلامة مختلطة",
+	"antispoof-blacklisted": "يحتوي على حرف في القائمة السوداء",
+	"antispoof-combining": "يبدأ بعلامة مختلطة",
 	"antispoof-unassigned": "يحتوي على حرف غير مخصص أو غير مقبول",
 	"antispoof-noletters": "لا يحتوي على أية حروف",
 	"antispoof-mixedscripts": "يحتوي على سكريبتات غير متوافقة مختلطة",
