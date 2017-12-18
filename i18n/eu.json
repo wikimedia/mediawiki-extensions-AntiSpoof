@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Joxemai",
-			"Kobazulo"
+			"Kobazulo",
+			"Mikel Ibaiba"
 		]
 	},
-	"antispoof-conflict-bottom": "Mesedez, beste izen bat aukeratu.",
+	"antispoof-conflict-bottom": "Mesedez, beste erabiltzaile izen bat aukeratu.",
 	"antispoof-name-illegal": "\"$1\" izena ez dago onartuta gaizkiulertuak saihesteko: $2. Beste izen bat hautatu mesedez.",
 	"antispoof-badtype": "Datu mota ezegokia",
 	"antispoof-empty": "Kate hutsa",
