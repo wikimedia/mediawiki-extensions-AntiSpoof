@@ -3,7 +3,7 @@
 	"type": "mediawiki-extension",
 	"description": "The  AntiSpoof extension is an extension for preventing confusable usernames from being created. It blocks the creation of accounts with mixed-script, confusing and similar usernames.",
 	"homepage": "https://www.mediawiki.org/wiki/Extension:AntiSpoof",
-	"license": "GPL-2.0+",
+	"license": "GPL-2.0-or-later",
 	"require": {
 		"wikimedia/equivset": "^1.0"
 	},
