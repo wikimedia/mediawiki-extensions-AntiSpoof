@@ -1,6 +1,7 @@
 <?php
 
 /**
+ * @covers AntiSpoof
  * @group AntiSpoof
  */
 class AntiSpoofTest extends MediaWikiTestCase {

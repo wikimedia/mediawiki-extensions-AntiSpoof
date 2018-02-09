@@ -1,6 +1,7 @@
 <?php
 
 /**
+ * @covers SpoofUser
  * @group Database
  */
 class SpoofUserTest extends MediaWikiTestCase {

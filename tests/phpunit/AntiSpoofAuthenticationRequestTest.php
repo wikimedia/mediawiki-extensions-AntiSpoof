@@ -2,6 +2,9 @@
 
 use MediaWiki\Auth\AuthenticationRequestTestCase;
 
+/**
+ * @covers AntiSpoofAuthenticationRequest
+ */
 class AntiSpoofAuthenticationRequestTest extends AuthenticationRequestTestCase {
 
 	protected function getInstance( array $args = [] ) {

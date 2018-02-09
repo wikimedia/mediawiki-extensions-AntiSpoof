@@ -3,6 +3,7 @@
 use MediaWiki\Auth\AuthManager;
 
 /**
+ * @covers AntiSpoofPreAuthenticationProvider
  * @group Database
  */
 class AntiSpoofPreAuthenticationProviderTest extends MediaWikiTestCase {
