@@ -26,12 +26,12 @@
 		"AntiSpoof": "i18n"
 	},
 	"AutoloadClasses": {
-		"AntiSpoof": "AntiSpoof_body.php",
-		"AntiSpoofHooks": "AntiSpoofHooks.php",
-		"SpoofUser": "SpoofUser.php",
-		"AntiSpoofAuthenticationRequest": "AntiSpoofAuthenticationRequest.php",
-		"AntiSpoofPreAuthenticationProvider": "AntiSpoofPreAuthenticationProvider.php",
-		"ApiAntiSpoof": "api/ApiAntiSpoof.php"
+		"AntiSpoof": "includes/AntiSpoof.php",
+		"AntiSpoofHooks": "includes/AntiSpoofHooks.php",
+		"SpoofUser": "includes/SpoofUser.php",
+		"AntiSpoofAuthenticationRequest": "includes/AntiSpoofAuthenticationRequest.php",
+		"AntiSpoofPreAuthenticationProvider": "includes/AntiSpoofPreAuthenticationProvider.php",
+		"ApiAntiSpoof": "includes/ApiAntiSpoof.php"
 	},
 	"AuthManagerAutoConfig": {
 		"preauth": {

@@ -7,7 +7,7 @@ class AntiSpoofHooks {
 	 */
 	public static function asUpdateSchema( DatabaseUpdater $updater ) {
 		$updater->addExtensionTable( 'spoofuser',
-			__DIR__ . '/sql/patch-antispoof.' . $updater->getDB()->getType() . '.sql' );
+			__DIR__ . '/../sql/patch-antispoof.' . $updater->getDB()->getType() . '.sql' );
 		return true;
 	}
 
