@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"TomášPolonec"
 		]
 	},
 	"antispoof-desc": "Blokuje tvorbu účtov so zmiešanými písmami, mätúce a podobné mená.",
-	"antispoof-conflict-top": "Meno „$1” je príliš podobné {{PLURAL:$2|existujúcemu účtu|nasledovným $2 účtom}}:",
+	"antispoof-conflict-top": "Meno „$1” je príliš podobné {{PLURAL:$2|nasledovnému účtu|nasledovným účtom}}:",
 	"antispoof-conflict-bottom": "Prosím, vyberte si iné meno.",
 	"antispoof-name-illegal": "Meno „$1“ nie je povolené, aby sa zabránilo náhodnému alebo zámernému pomýleniu mien používateľov: $2. Zvoľte si prosím iné meno.",
 	"antispoof-badtype": "Nesprávny typ dát",
