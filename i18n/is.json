@@ -3,13 +3,15 @@
 		"authors": [
 			"S.Örvarr.S",
 			"Snævar",
-			"Spacebirdy"
+			"Spacebirdy",
+			"Sveinn í Felli"
 		]
 	},
 	"antispoof-desc": "Óheimilar gerð aðganga með blandað skrifletur, ruglandi og svipuð notandanöfn",
-	"antispoof-conflict-top": "Notandanafnið \"$1\" er of svipað eftirfarandi {{PLURAL:$2|notandanafni|notendanöfnum}}:",
-	"antispoof-conflict-bottom": "Vinsamlegast veldu annað notandanafn.",
+	"antispoof-conflict-top": "Notandanafnið \"$1\" er of líkt eftirfarandi {{PLURAL:$2|notandanafni|notendanöfnum}}:",
+	"antispoof-conflict-bottom": "Veldu eitthvað annað notandanafn.",
 	"antispoof-name-illegal": "Notandanafnið „$1“ er ekki leyfilegt til að sporna gegn ruglandi eða skopstælandi notandanöfnum:: „$2“. Vinsamlegast veldu annað notandanafn.",
+	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Lélegt gagnatag",
 	"antispoof-empty": "Tómur strengur",
 	"antispoof-blacklisted": "Inniheldur bannaða rittáknið $1",
