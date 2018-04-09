@@ -37,6 +37,7 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 	public function testForAccountCreation( $user, $creator, array $reqs ) {
 		/** @var AntiSpoofAuthenticationRequest $req */
 		$req = AuthenticationRequest::getRequestByClass( $reqs, AntiSpoofAuthenticationRequest::class );
+		/** @suppress PhanUndeclaredProperty */
 		$override = $req && $req->ignoreAntiSpoof && $creator->isAllowed( 'override-antispoof' );
 
 		return self::testUserInternal( $user, $override, $this->logger );
