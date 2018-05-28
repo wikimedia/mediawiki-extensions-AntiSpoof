@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"C.R."
+			"C.R.",
+			"Ruthven"
 		]
 	},
-	"antispoof-desc": "Blocca 'a criazione 'e cunte utente cu nu script-mmescato, crianno cunfusione o nomme c'assomigliassero nfra lloro",
+	"antispoof-desc": "Fremma 'a criazione 'e cunte utente cu nu script-mmescato, cu nomme ca criano ammuina o ca s'arrassumigliano",
 	"antispoof-conflict-top": "'O nomme \"$1\" s'assomiglia assaje assaje a {{PLURAL:$2|'o cunto|'e cunte}}:",
 	"antispoof-conflict-bottom": "Pe' piacere scigliete n'atu nomme.",
 	"antispoof-name-illegal": "'O nomme \"$1\" nun è permesso pe prevenì casine o mbruoglie 'e nomme utente: $2.\nPe' piacere scigliete n'atu nomme.",
