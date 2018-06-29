@@ -1,20 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Salvator"
+			"Salvator",
+			"Fagunkoyel Hansdah"
 		]
 	},
 	"antispoof-conflict-top": "Ńtum do pray mit́gea{{PLURAL:$2| menaḱ akaunṭ| noakodo $2 akaunṭ kana}}:",
-	"antispoof-conflict-bottom": "Eṭaḱ ńutum sendraeme",
-	"antispoof-name-illegal": "Ńutum\"$1\" do baṅ hoyoḱa se okokomṛogea: $2. Dayakate eṭaḱ ńutum emam.",
+	"antispoof-conflict-bottom": "ᱮᱴᱟᱜ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ ᱵᱟᱪᱷᱟᱣᱢᱮ ᱾",
+	"antispoof-name-illegal": "ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ \"$1\" ᱫᱚ ᱫᱚᱦᱟᱵᱚᱦᱟ ᱟᱨᱵᱟᱝ ᱰᱤᱸᱜᱚᱨ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ: $2 ᱵᱟᱭ ᱚᱪᱚᱜ ᱚᱪᱚᱣᱟᱜᱼᱟ ᱾\nᱫᱟᱭᱟᱠᱟᱛᱮ ᱮᱴᱟᱜ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ ᱵᱟᱪᱷᱟᱣᱢᱮ ᱾",
 	"antispoof-badtype": "Bạṛić tottho lekan",
 	"antispoof-empty": "Eken ghuṛã",
 	"antispoof-blacklisted": "$1 Begor samuṅ karekṭar menaḱa",
-	"antispoof-combining": "Joṛa cikhnạ khon ehobme",
+	"antispoof-combining": "ᱡᱚᱲᱟ ᱪᱤᱱᱦᱟᱹ $1 ᱥᱟᱶ ᱮᱦᱚᱵᱚᱜᱼᱟ",
 	"antispoof-unassigned": "Baṅ ganoḱ karekṭar menaḱa",
+	"antispoof-deprecated": "ᱵᱟᱝ ᱜᱟᱱᱚᱜ ᱠᱟᱨᱮᱠᱴᱟᱨ $1 ᱢᱮᱱᱟᱜᱼᱟ",
 	"antispoof-noletters": "Cet́ okhor hõ banuḱa",
 	"antispoof-mixedscripts": "Begor jutsoi olnolko menaḱa",
-	"antispoof-tooshort": "Ạḍi kạtić ńutum",
+	"antispoof-tooshort": "ᱟᱹᱰᱤ ᱠᱷᱟᱴᱚ ᱧᱩᱛᱩᱢ",
 	"antispoof-ignore": "Beganoḱ bachao paromme",
 	"right-override-antispoof": "Beganoḱ koyoḱ parom bachaome"
 }
