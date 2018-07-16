@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Salvator",
-			"Fagunkoyel Hansdah"
+			"Fagunkoyel Hansdah",
+			"Ramjit Tudu"
 		]
 	},
-	"antispoof-conflict-top": "Ńtum do pray mit́gea{{PLURAL:$2| menaḱ akaunṭ| noakodo $2 akaunṭ kana}}:",
+	"antispoof-conflict-top": "ᱵᱮᱵᱷᱟᱨᱤᱭᱹ ᱧᱩᱛᱩᱢ \"$1\" ᱫᱚ ᱞᱟᱛᱟᱨ ᱨᱮᱱᱟᱜ  {{PLURAL:$2|ᱵᱮᱵᱦᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ|ᱵᱮᱵᱷᱟᱨᱤᱭᱟ ᱧᱩᱛᱩᱢᱠᱚ}} ᱥᱟᱶ ᱢᱤᱫ ᱜᱮᱭᱟ:",
 	"antispoof-conflict-bottom": "ᱮᱴᱟᱜ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ ᱵᱟᱪᱷᱟᱣᱢᱮ ᱾",
 	"antispoof-name-illegal": "ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ \"$1\" ᱫᱚ ᱫᱚᱦᱟᱵᱚᱦᱟ ᱟᱨᱵᱟᱝ ᱰᱤᱸᱜᱚᱨ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ: $2 ᱵᱟᱭ ᱚᱪᱚᱜ ᱚᱪᱚᱣᱟᱜᱼᱟ ᱾\nᱫᱟᱭᱟᱠᱟᱛᱮ ᱮᱴᱟᱜ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ ᱵᱟᱪᱷᱟᱣᱢᱮ ᱾",
 	"antispoof-badtype": "Bạṛić tottho lekan",
