@@ -61,7 +61,7 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 
 	private function testUserInternal( $user, $override, $logger ) {
 		$spoofUser = $this->getSpoofUser( $user );
-		$mode = !$this->antiSpoofAccounts ? 'LOGGING ' : $override ? 'OVERRIDE ' : '';
+		$mode = !$this->antiSpoofAccounts ? 'LOGGING ' : ( $override ? 'OVERRIDE ' : '' );
 		$active = $this->antiSpoofAccounts && !$override;
 
 		if ( $spoofUser->isLegal() ) {
