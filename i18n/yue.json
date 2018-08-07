@@ -4,13 +4,14 @@
 			"Antonytse",
 			"CRCHF",
 			"Yueman",
-			"Ktchankt"
+			"Ktchankt",
+			"Hello903hello"
 		]
 	},
 	"antispoof-desc": "封鎖一啲對於有混合程序、混淆同埋相似嘅用戶名嘅開戶口動作",
-	"antispoof-conflict-top": "由於戶口”$1“同以下呢啲戶口嘅名太似：\n{{PLURAL:$2|username|usernames}}",
-	"antispoof-conflict-bottom": "請揀第個名",
-	"antispoof-name-illegal": "呢個名\"$1\"唔畀用，以預防撈亂或者冒充：\"$2\"。請揀過個名。",
+	"antispoof-conflict-top": "用戶名「$1」同以下呢啲{{PLURAL:$2|用戶名}}太似：",
+	"antispoof-conflict-bottom": "請揀第個用戶名。",
+	"antispoof-name-illegal": "呢個用戶名「$1」唔畀用，以預防撈亂或者冒充用戶名：「$2」。\n請揀過個用戶名。",
 	"antispoof-badtype": "錯誤嘅資料類型",
 	"antispoof-empty": "空白字串",
 	"antispoof-blacklisted": "有列喺黑名單度嘅字符「$1」",
@@ -19,11 +20,12 @@
 	"antispoof-deprecated": "有列喺黑名單度嘅字符「$1」",
 	"antispoof-noletters": "唔包含任何字元",
 	"antispoof-mixedscripts": "包含唔相容嘅混合碼",
-	"antispoof-tooshort": "正規化嘅名太短",
+	"antispoof-tooshort": "標準化之後嘅名太短",
 	"antispoof-ignore": "略過欺詐檢查",
 	"antispoof-ignore-help": "畀有特定權限嘅用戶去開同現有戶口個名相似嘅新戶口。",
 	"right-override-antispoof": "無視欺詐檢查",
 	"apihelp-antispoof-description": "正常檢查一個戶口係咪有網絡釣魚嘅嘢。",
+	"apihelp-antispoof-summary": "檢查個用戶名有無違反AntiSpoof嘅標準化檢查。",
 	"apihelp-antispoof-param-username": "呢個用戶名懷疑有網絡釣魚",
 	"apihelp-antispoof-example-1": "查到“Foo”呢個戶口有網絡釣魚嘅嘢",
 	"apihelp-createaccount-param-ignoreantispoof": "略過欺詐檢查（需要 <code>override-antispoof</code> 權限）。"
