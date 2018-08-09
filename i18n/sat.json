@@ -4,21 +4,23 @@
 			"Salvator",
 			"Fagunkoyel Hansdah",
 			"Ramjit Tudu",
-			"Amire80"
+			"Amire80",
+			"Dulal Kisku",
+			"Manik Soren"
 		]
 	},
 	"antispoof-conflict-top": "ᱵᱮᱵᱷᱟᱨᱤᱭᱹ ᱧᱩᱛᱩᱢ \"$1\" ᱫᱚ ᱞᱟᱛᱟᱨ ᱨᱮᱱᱟᱜ  {{PLURAL:$2|ᱵᱮᱵᱦᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ|ᱵᱮᱵᱷᱟᱨᱤᱭᱟ ᱧᱩᱛᱩᱢᱠᱚ}} ᱥᱟᱶ ᱢᱤᱫ ᱜᱮᱭᱟ:",
 	"antispoof-conflict-bottom": "ᱮᱴᱟᱜ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ ᱵᱟᱪᱷᱟᱣᱢᱮ ᱾",
 	"antispoof-name-illegal": "ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ \"$1\" ᱫᱚ ᱫᱚᱦᱟᱵᱚᱦᱟ ᱟᱨᱵᱟᱝ ᱰᱤᱸᱜᱚᱨ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ: $2 ᱵᱟᱭ ᱚᱪᱚᱜ ᱚᱪᱚᱣᱟᱜᱼᱟ ᱾\nᱫᱟᱭᱟᱠᱟᱛᱮ ᱮᱴᱟᱜ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ ᱵᱟᱪᱷᱟᱣᱢᱮ ᱾",
-	"antispoof-badtype": "Bạṛić tottho lekan",
-	"antispoof-empty": "Eken ghuṛã",
-	"antispoof-blacklisted": "$1 Begor samuṅ karekṭar menaḱa",
+	"antispoof-badtype": "ᱵᱟᱹᱲᱤᱪ ᱰᱟᱴᱟ ᱞᱮᱠᱟᱱ",
+	"antispoof-empty": "ᱮᱠᱮᱱ ᱜᱷᱩᱨᱟᱹ",
+	"antispoof-blacklisted": "$1 ᱵᱮᱜᱚᱨ ᱥᱟᱹᱢᱩᱱ ᱠᱮᱨᱮᱠᱴᱟᱨ ᱢᱮᱱᱟᱜ",
 	"antispoof-combining": "ᱡᱚᱲᱟ ᱪᱤᱱᱦᱟᱹ $1 ᱥᱟᱶ ᱮᱦᱚᱵᱚᱜᱼᱟ",
-	"antispoof-unassigned": "Baṅ ganoḱ karekṭar menaḱa",
+	"antispoof-unassigned": "$1 ᱵᱟᱝ ᱜᱟᱱᱚᱜ ᱠᱮᱨᱮᱠᱴᱟᱨ ᱢᱮᱱᱟᱜ",
 	"antispoof-deprecated": "ᱵᱟᱝ ᱜᱟᱱᱚᱜ ᱠᱟᱨᱮᱠᱴᱟᱨ $1 ᱢᱮᱱᱟᱜᱼᱟ",
-	"antispoof-noletters": "Cet́ okhor hõ banuḱa",
-	"antispoof-mixedscripts": "Begor jutsoi olnolko menaḱa",
+	"antispoof-noletters": "ᱪᱮᱛ ᱟᱠᱷᱚᱨ ᱦᱚ ᱵᱟᱱᱩ ᱟᱱᱟ",
+	"antispoof-mixedscripts": "ᱵᱮᱜᱚᱨ ᱡᱩᱛᱥᱚᱭ ᱚᱞᱠᱩ ᱢᱮᱱᱟᱜ-ᱟ",
 	"antispoof-tooshort": "ᱟᱹᱰᱤ ᱠᱷᱟᱴᱚ ᱧᱩᱛᱩᱢ",
-	"antispoof-ignore": "Beganoḱ bachao paromme",
-	"right-override-antispoof": "Beganoḱ koyoḱ parom bachaome"
+	"antispoof-ignore": "ᱵᱮᱜᱟᱱᱚᱜ ᱵᱟᱪᱷᱟᱣ ᱯᱟᱨᱚᱢ ᱢᱮ",
+	"right-override-antispoof": "ᱵᱮᱜᱟᱱᱚᱜ ᱠᱚᱭᱚᱜ ᱯᱟᱨᱚᱢ ᱵᱟᱪᱷᱟᱣᱢᱮ"
 }
