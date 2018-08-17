@@ -85,7 +85,8 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 					$list = '';
 					foreach ( $conflicts as $simUser ) {
 						$list .= Html::element( 'li', [],
-							wfMessage( 'antispoof-conflict-item', $simUser ) );
+							wfMessage( 'antispoof-conflict-item', $simUser )->text()
+						);
 					}
 					$list = Html::rawElement( 'ul', [], $list );
 
