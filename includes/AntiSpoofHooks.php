@@ -42,7 +42,7 @@ class AntiSpoofHooks {
 
 	/**
 	 * On rename, remove the old entry and add the new
-	 * (After a sucessful user rename)
+	 * (After a successful user rename)
 	 *
 	 * @param string $uid
 	 * @param string $oldName
