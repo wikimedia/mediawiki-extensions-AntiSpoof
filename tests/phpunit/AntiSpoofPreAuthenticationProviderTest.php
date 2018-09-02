@@ -44,7 +44,7 @@ class AntiSpoofPreAuthenticationProviderTest extends MediaWikiTestCase {
 	 * @dataProvider provideTestForAccountCreation
 	 */
 	public function testTestForAccountCreation(
-		$enabled, $isLegal, $conflicts,  $creator, $reqs, $error
+		$enabled, $isLegal, $conflicts, $creator, $reqs, $error
 	) {
 		$provider = $this->getMockBuilder( AntiSpoofPreAuthenticationProvider::class )
 			->setConstructorArgs( [ [ 'antiSpoofAccounts' => $enabled ] ] )
