@@ -57,6 +57,8 @@ class AntiSpoofPreAuthenticationProviderTest extends MediaWikiTestCase {
 		$provider->setLogger( new \Psr\Log\NullLogger() );
 
 		$spoofUser->expects( $this->any() )->method( 'isLegal' )->willReturn( $isLegal );
+		$spoofUser->expects( $this->any() )->method( 'getErrorStatus' )
+			->willReturn( Status::newFatal( 'unittest' ) );
 		$spoofUser->expects( $this->any() )->method( 'getConflicts' )->willReturn( $conflicts );
 
 		/** @var StatusValue $status */

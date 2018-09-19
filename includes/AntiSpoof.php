@@ -278,11 +278,11 @@ class AntiSpoof {
 	}
 
 	/*
-	 * Helper function for checkUnicodeString: Return an error on a bad character.
+	 * Helper function for checkUnicodeStringStatus: Return an error on a bad character.
 	 * @todo I would like to show Unicode character name, but it is not clear how to get it.
 	 * @param string $msgId message identifier.
 	 * @param number $point codepoint of the bad character.
-	 * @return Formatted error message.
+	 * @return Status
 	 */
 	private static function badCharErr( $msgId, $point ) {
 		$symbol = Utils::codepointToUtf8( $point );
@@ -293,19 +293,32 @@ class AntiSpoof {
 		}
 		$code = sprintf( 'U+%04X', $point );
 		if ( preg_match( '/\A\p{C}\z/u', $symbol ) ) {
-			$char = wfMessage( 'antispoof-bad-char-non-printable', $code )->text();
+			$char = wfMessage( 'antispoof-bad-char-non-printable', $code );
 		} else {
-			$char = wfMessage( 'antispoof-bad-char', $symbol, $code )->text();
+			$char = wfMessage( 'antispoof-bad-char', $symbol, $code );
 		}
-		return [ "ERROR", wfMessage( $msgId, $char )->text() ];
+		return Status::newFatal( wfMessage( $msgId, $char ) );
+	}
+
+	/**
+	 * @param string $testName
+	 * @return array
+	 */
+	public static function checkUnicodeString( $testName ) {
+		$status = self::checkUnicodeStringStatus( $testName );
+		if ( $status->isOK() ) {
+			return [ "OK", $status->getValue() ];
+		}
+		return [ "ERROR", $status->getMessage()->text() ];
 	}
 
 	/**
 	 * TODO: does too much in one routine, refactor...
 	 * @param string $testName
-	 * @return array
+	 * @return Status
+	 * @since 1.32
 	 */
-	public static function checkUnicodeString( $testName ) {
+	public static function checkUnicodeStringStatus( $testName ) {
 		global $wgAntiSpoofBlacklist;
 
 		// Start with some sanity checking
@@ -313,11 +326,11 @@ class AntiSpoof {
 			throw new MWException( '$wgAntiSpoofBlacklist should be an array!' );
 		}
 		if ( !is_string( $testName ) ) {
-			return [ "ERROR", wfMessage( 'antispoof-badtype' )->text() ];
+			return Status::newFatal( 'antispoof-badtype' );
 		}
 
 		if ( strlen( $testName ) == 0 ) {
-			return [ "ERROR", wfMessage( 'antispoof-empty' )->text() ];
+			return Status::newFatal( 'antispoof-empty' );
 		}
 
 		foreach ( self::stringToList( $testName ) as $char ) {
@@ -362,11 +375,11 @@ class AntiSpoof {
 			[ "SCRIPT_ASCII_PUNCTUATION", "SCRIPT_ASCII_DIGITS" ] );
 
 		if ( !$testScripts ) {
-			return [ "ERROR", wfMessage( 'antispoof-noletters' )->text() ];
+			return Status::newFatal( 'antispoof-noletters' );
 		}
 
 		if ( count( $testScripts ) > 1 && !self::isAllowedScriptCombination( $testScripts ) ) {
-			return [ "ERROR", wfMessage( 'antispoof-mixedscripts' )->text() ];
+			return Status::newFatal( 'antispoof-mixedscripts' );
 		}
 
 		// At this point, we should probably check for BiDi violations if they aren't
@@ -394,7 +407,7 @@ class AntiSpoof {
 		// BUG: TODO: implement this
 
 		if ( strlen( $testName ) < 1 ) {
-			return [ "ERROR", wfMessage( 'antispoof-tooshort' )->text() ];
+			return Status::newFatal( 'antispoof-tooshort' );
 		}
 
 		// Don't ASCIIfy: we assume we are UTF-8 capable on output
@@ -403,6 +416,6 @@ class AntiSpoof {
 		$testName = "v2:" . $testName;
 
 		// And return the canonical version of the name
-		return [ "OK", $testName ];
+		return Status::newGood( $testName );
 	}
 }

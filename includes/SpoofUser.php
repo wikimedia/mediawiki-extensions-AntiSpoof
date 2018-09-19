@@ -28,7 +28,7 @@ class SpoofUser {
 	/** @var string */
 	private $normalized;
 
-	/** @var null|string */
+	/** @var null|Status */
 	private $error;
 
 	/**
@@ -36,14 +36,14 @@ class SpoofUser {
 	 */
 	public function __construct( $name ) {
 		$this->name = strval( $name );
-		list( $ok, $normalized ) = AntiSpoof::checkUnicodeString( $this->name );
-		$this->legal = ( $ok == 'OK' );
+		$status = AntiSpoof::checkUnicodeStringStatus( $this->name );
+		$this->legal = $status->isOK();
 		if ( $this->legal ) {
-			$this->normalized = $normalized;
+			$this->normalized = $status->getValue();
 			$this->error = null;
 		} else {
 			$this->normalized = null;
-			$this->error = $normalized;
+			$this->error = $status;
 		}
 	}
 
@@ -60,6 +60,15 @@ class SpoofUser {
 	 * @return null|string
 	 */
 	public function getError() {
+		return $this->error ? $this->error->getMessage()->text() : null;
+	}
+
+	/**
+	 * Describe the error.
+	 * @return null|Status
+	 * @since 1.32
+	 */
+	public function getErrorStatus() {
 		return $this->error;
 	}
 
@@ -131,7 +140,7 @@ class SpoofUser {
 			'su_name'       => $this->name,
 			'su_normalized' => $this->normalized,
 			'su_legal'      => $this->legal ? 1 : 0,
-			'su_error'      => $this->error,
+			'su_error'      => $this->getError(),
 		];
 	}
 

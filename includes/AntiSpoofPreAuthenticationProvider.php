@@ -99,14 +99,15 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 				}
 			}
 		} else {
-			$error = $spoofUser->getError();
+			$error = $spoofUser->getErrorStatus();
 			$logger->info( "{mode}ILLEGAL new account '{name}' {error}", [
 				'mode' => $mode,
 				'name' => $user->getName(),
-				'error' => $error,
+				'error' => $error->getMessage( false, false, 'en' )->text(),
 			] );
 			if ( $active ) {
-				return StatusValue::newFatal( 'antispoof-name-illegal', $user->getName(), $error );
+				return StatusValue::newFatal( 'antispoof-name-illegal', $user->getName(),
+					$error->getMessage() );
 			}
 		}
 		return StatusValue::newGood();
