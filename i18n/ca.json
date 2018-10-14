@@ -21,7 +21,7 @@
 	"antispoof-deprecated": "Conté el caràcter obsolet $1",
 	"antispoof-noletters": "No conté cap lletra",
 	"antispoof-mixedscripts": "Conté una mescla incompatible d'escriptures",
-	"antispoof-tooshort": "Nom canònic massa curt",
+	"antispoof-tooshort": "Nom normalitzat massa curt",
 	"antispoof-ignore": "Ignora controls antispoof",
 	"right-override-antispoof": "Evitar el control de noms d'usuari"
 }
