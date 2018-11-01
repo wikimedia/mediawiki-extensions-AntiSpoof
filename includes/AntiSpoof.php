@@ -143,7 +143,7 @@ class AntiSpoof {
 	 */
 	private static $equivset;
 
-	static function getEquivSet() {
+	public static function getEquivSet() {
 		if ( !self::$equivset ) {
 			self::$equivset = new Equivset();
 		}
