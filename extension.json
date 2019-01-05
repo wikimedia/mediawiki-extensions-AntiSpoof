@@ -47,7 +47,6 @@
 		"DeleteAccount": "AntiSpoofHooks::asDeleteAccount"
 	},
 	"config": {
-		"@doc": "see AntiSpoof.php",
 		"AntiSpoofAccounts": true,
 		"AntiSpoofBlacklist": [
 			"\u0337",
