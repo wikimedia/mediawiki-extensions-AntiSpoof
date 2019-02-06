@@ -23,7 +23,10 @@
 		"antispoof": "ApiAntiSpoof"
 	},
 	"MessagesDirs": {
-		"AntiSpoof": "i18n"
+		"AntiSpoof": [
+			"i18n",
+			"i18n/api"
+		]
 	},
 	"AutoloadClasses": {
 		"AntiSpoof": "includes/AntiSpoof.php",
