@@ -7,15 +7,6 @@ use MediaWiki\Auth\AuthManager;
  * @group Database
  */
 class AntiSpoofPreAuthenticationProviderTest extends MediaWikiTestCase {
-	public function setUp() {
-		global $wgDisableAuthManager;
-		if ( !class_exists( AuthManager::class ) || $wgDisableAuthManager ) {
-			$this->markTestSkipped( 'AuthManager is disabled' );
-		}
-
-		parent::setUp();
-	}
-
 	/**
 	 * @dataProvider provideGetAuthenticationRequests
 	 */
