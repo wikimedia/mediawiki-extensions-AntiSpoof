@@ -10,7 +10,7 @@
 	},
 	"antispoof-desc": "Hesaban pê skriptê mîxî, nameyê munaneyî bloke keno",
 	"antispoof-conflict-top": "Ena nameyé \"$1\"i ena {{PLURAL:$2|Namey karberi|namey karbera}} zaf paweno:",
-	"antispoof-conflict-bottom": "Xorê yuna name bıvin",
+	"antispoof-conflict-bottom": "Xorê yewna nameyê karberi weçine.",
 	"antispoof-name-illegal": "Namey şıma name dê \"$2\"ya pê nêvawiyo deye name dê $1  rê mısade çıni yo.  \nYewna name weçine.",
 	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Tipê data yê xirabî",
@@ -21,7 +21,7 @@
 	"antispoof-deprecated": "$1 miyan de karaktero xırabın esto",
 	"antispoof-noletters": "Yew zi herf çini yo",
 	"antispoof-mixedscripts": "Te de skriptanê xeripîyaye esto",
-	"antispoof-tooshort": "Ena name zaf kilm o",
+	"antispoof-tooshort": "Eno name zehf kılmo",
 	"antispoof-ignore": "Kontrolê spoofî rê diket meke",
 	"right-override-antispoof": "Kontrolanê spoofî override bike"
 }
