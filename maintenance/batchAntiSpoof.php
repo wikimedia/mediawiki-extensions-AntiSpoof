@@ -18,5 +18,5 @@
 
 require_once "BatchAntiSpoofClass.php";
 
-$maintClass = "BatchAntiSpoof";
+$maintClass = BatchAntiSpoof::class;
 require_once RUN_MAINTENANCE_IF_MAIN;
