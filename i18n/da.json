@@ -26,10 +26,5 @@
 	"antispoof-tooshort": "Normaliseret navn er for kort",
 	"antispoof-ignore": "Ignorér misbrugskontrol",
 	"antispoof-ignore-help": "Giver bruger med tilstrækkelige privilegier adgang til at oprette en konto selv om deres navn ligner en eksisterende konto.",
-	"right-override-antispoof": "Omgå kontrollerne af brugernavne",
-	"apihelp-antispoof-description": "Kontroller et brugernavn mod AntiSpoofs normaliseringskontroller.",
-	"apihelp-antispoof-summary": "Kontroller et brugernavn mod AntiSpoofs normaliseringskontroller.",
-	"apihelp-antispoof-param-username": "Brugernavnet der skal kontrolleres mod AntiSpoof.",
-	"apihelp-antispoof-example-1": "Kontroller brugernavnet »Foo« mod AntiSpoof",
-	"apihelp-createaccount-param-ignoreantispoof": "Ignorer misbrugskontroller (kræver rettigheden <code>override-antispoof</code>)"
+	"right-override-antispoof": "Omgå kontrollerne af brugernavne"
 }

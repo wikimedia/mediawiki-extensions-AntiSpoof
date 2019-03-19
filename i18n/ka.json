@@ -25,9 +25,5 @@
 	"antispoof-tooshort": "ნორმალიზებული სახელი ძალიან მოკლეა",
 	"antispoof-ignore": "მსგავს სახელებზე შემოწმების ინგნორირება",
 	"antispoof-ignore-help": "საკმარისი უფლებამოსილების მქონე მომხმარებლებს უფლებას აძლევს შექმნან ანგარიში მაშინაც კი, როცა ეს სახელი უკვე არსებული ანგარიშის სახელის მსგავსია.",
-	"right-override-antispoof": "მსგავსი სახელების შემოწმების უგულებელყოფა",
-	"apihelp-antispoof-description": "მომხმარებლის შემოწმება AntiSpoof-ის ნორმალიზაციით.",
-	"apihelp-antispoof-param-username": "მომხმარებელი, რომელიც უნდა შემოწმდეს AntiSpoof-ზე.",
-	"apihelp-antispoof-example-1": "შეამოწმეთ მომხმარებელი \"Foo\" AntiSpoof-ზე",
-	"apihelp-createaccount-param-ignoreantispoof": "მსგავს სახელებზე შემოწმების იგნორირება (მოითხოვს უფლებებს <code>override-antispoof</code> right)."
+	"right-override-antispoof": "მსგავსი სახელების შემოწმების უგულებელყოფა"
 }

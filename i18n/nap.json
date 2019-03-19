@@ -20,9 +20,5 @@
 	"antispoof-tooshort": "Nomme canonizzato troppo curto",
 	"antispoof-ignore": "Lassa perdere 'e check pe' spoofing (mbruoglie)",
 	"antispoof-ignore-help": "Premmettesse a ll'editure ch' 'e privilegge 'e crià nu cunto pure si 'o nomme assumigliass'a nu cunto ch'esiste già.",
-	"right-override-antispoof": "Sovrascrive 'e check pe' spoofing (mbruoglie)",
-	"apihelp-antispoof-description": "Cuntrolla nu nomme utente a cunfronto ch' 'e cuntrolle 'e normalizzaziona 'AntiSpoof.",
-	"apihelp-antispoof-param-username": "Nomme utente ca s'avesse 'e cuntrullà d'AntiSpoof.",
-	"apihelp-antispoof-example-1": "Cuntrolla nomme utente \"Foo\" d'AntiSpoof",
-	"apihelp-createaccount-param-ignoreantispoof": "Lasse perdere le verifiche de spoofing (vole 'u deritte <code>override-antispoof</code>)."
+	"right-override-antispoof": "Sovrascrive 'e check pe' spoofing (mbruoglie)"
 }

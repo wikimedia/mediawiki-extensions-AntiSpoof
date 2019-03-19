@@ -24,10 +24,5 @@
 	"antispoof-tooshort": "Nome normalizzato troppo corto",
 	"antispoof-ignore": "Ignora i controlli per spoofing",
 	"antispoof-ignore-help": "Consente agli utenti con privilegi sufficienti di creare un'utenza, anche se il suo nome è simile a quella di un'altra già esistente.",
-	"right-override-antispoof": "Ignora i controlli spoofing",
-	"apihelp-antispoof-description": "Controlla un nome utente con le verifiche di normalizzaizone AntiSpoof",
-	"apihelp-antispoof-summary": "Controlla un nome utente con le verifiche di normalizzaizone AntiSpoof",
-	"apihelp-antispoof-param-username": "Il nome utente da verificare con AntiSpoof.",
-	"apihelp-antispoof-example-1": "Controlla il nome utente \"Foo\" con AntiSpoof",
-	"apihelp-createaccount-param-ignoreantispoof": "Ignora i controlli spoofing (richiede il diritto <code>override-antispoof</code>)"
+	"right-override-antispoof": "Ignora i controlli spoofing"
 }

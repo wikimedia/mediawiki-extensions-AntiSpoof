@@ -24,10 +24,5 @@
 	"antispoof-tooshort": "정규화된 이름이 너무 짧습니다",
 	"antispoof-ignore": "안티스푸프 검사를 무시",
 	"antispoof-ignore-help": "충분한 권한을 가진 사용자가 새 계정이 이미 존재하는 계정과 비슷하더라도 새 계정을 만들 수 있도록 합니다",
-	"right-override-antispoof": "혼란을 줄 수 있는 사용자 이름 금지(안티스푸프)를 무시",
-	"apihelp-antispoof-description": "안티스푸프의 표준화 검사를 사용하여 사용자명을 검사합니다.",
-	"apihelp-antispoof-summary": "안티스푸프의 표준화 검사를 사용하여 사용자명을 검사합니다.",
-	"apihelp-antispoof-param-username": "안티스푸프로 검색할 사용자명",
-	"apihelp-antispoof-example-1": "사용자 이름 \"길동\"을 안티스푸프로 검사",
-	"apihelp-createaccount-param-ignoreantispoof": "스푸핑 체크 무시 (<code>override-antispoof<code> 권한 필요)"
+	"right-override-antispoof": "혼란을 줄 수 있는 사용자 이름 금지(안티스푸프)를 무시"
 }

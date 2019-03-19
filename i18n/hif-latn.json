@@ -19,8 +19,5 @@
 	"antispoof-mixedscripts": "Isme incompatible mixed script hae",
 	"antispoof-tooshort": "Canonicalized naam bahut chhota hae",
 	"antispoof-ignore": "Spooling check ke ignore kar do",
-	"right-override-antispoof": "Spooling checks ke override karaa jaawe hae",
-	"apihelp-antispoof-description": "Check a username against AntiSpoof's normalisation checks.",
-	"apihelp-antispoof-param-username": "The username to check against AntiSpoof.",
-	"apihelp-antispoof-example-1": "Check username \"Foo\" against AntiSpoof"
+	"right-override-antispoof": "Spooling checks ke override karaa jaawe hae"
 }

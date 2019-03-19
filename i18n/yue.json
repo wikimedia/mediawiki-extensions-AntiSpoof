@@ -23,10 +23,5 @@
 	"antispoof-tooshort": "標準化之後嘅名太短",
 	"antispoof-ignore": "略過欺詐檢查",
 	"antispoof-ignore-help": "畀有特定權限嘅用戶去開同現有戶口個名相似嘅新戶口。",
-	"right-override-antispoof": "無視欺詐檢查",
-	"apihelp-antispoof-description": "正常檢查一個戶口係咪有網絡釣魚嘅嘢。",
-	"apihelp-antispoof-summary": "檢查個用戶名有無違反AntiSpoof嘅標準化檢查。",
-	"apihelp-antispoof-param-username": "呢個用戶名懷疑有網絡釣魚",
-	"apihelp-antispoof-example-1": "查到“Foo”呢個戶口有網絡釣魚嘅嘢",
-	"apihelp-createaccount-param-ignoreantispoof": "略過欺詐檢查（需要 <code>override-antispoof</code> 權限）。"
+	"right-override-antispoof": "無視欺詐檢查"
 }

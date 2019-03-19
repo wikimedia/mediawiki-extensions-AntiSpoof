@@ -29,10 +29,5 @@
 	"antispoof-tooshort": "نام بهنجار شده خیلی کوتاه است",
 	"antispoof-ignore": "نادیده‌گرفتن بررسی عبارات سردرگم‌کننده",
 	"antispoof-ignore-help": "به کاربرانی که دسترسی لازم داشته باشند اجازه می‌دهد که حساب بسازند حتی اگر نامش شبیه یکی از حساب‌های موجود باشد.",
-	"right-override-antispoof": "گذر از بررسی عبارات سردرگم‌کننده",
-	"apihelp-antispoof-description": "بررسی یک نام‌ کاربری بر طبق بهنجارسازی عبارات سردرگم‌کننده",
-	"apihelp-antispoof-summary": "بررسی یک نام کاربری به وسیلهٔ آزمون‌های بهنجارسازی عبارات سردرگم‌کننده",
-	"apihelp-antispoof-param-username": "نام کاربری‌ای که با ضدجعل بررسی می‌شود.",
-	"apihelp-antispoof-example-1": "بررسی نام کاربر «Foo» با ضدجعل",
-	"apihelp-createaccount-param-ignoreantispoof": "نادیده‌گرفتن بررسی عبارات سردرگم‌کننده (نیازمند دسترسی <code>override-antispoof</code> است)"
+	"right-override-antispoof": "گذر از بررسی عبارات سردرگم‌کننده"
 }

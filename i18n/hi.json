@@ -28,10 +28,5 @@
 	"antispoof-tooshort": "अधिकारयुक्त नाम बहुत छोटा हैं",
 	"antispoof-ignore": "स्पूफिंग जाँच नज़रंदाज़ करें",
 	"antispoof-ignore-help": "कुछ पर्याप्त अधिकार प्राप्त सदस्य ऐसे खाते भी खोल सकते हैं, जिसके समान नाम वाले खाते पहले से ही बने हुए हों।",
-	"right-override-antispoof": "स्पूफिंग चेक्स को नजर अंदाज करें",
-	"apihelp-antispoof-description": "एंटीस्पूफ के मानकीकरण जाँच अनुसार सदस्य नाम की जाँच करें।",
-	"apihelp-antispoof-summary": "ऍण्टीस्पूफ़ के मानकीकरण जाँच अनुसार सदस्य-नाम की जाँच करें।",
-	"apihelp-antispoof-param-username": "जाँच हेतु सदस्य नाम जिससे धोखा न हो",
-	"apihelp-antispoof-example-1": "धोखा के विरुद्ध \"फू\" सदस्य की जांच",
-	"apihelp-createaccount-param-ignoreantispoof": "धोखे की जाँच को अनदेखा करें (<code>override-antispoof</code> अधिकार अनिवार्य)"
+	"right-override-antispoof": "स्पूफिंग चेक्स को नजर अंदाज करें"
 }

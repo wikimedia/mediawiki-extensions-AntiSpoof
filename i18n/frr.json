@@ -18,9 +18,5 @@
 	"antispoof-mixedscripts": "Diar san tiakens faan ünlik skraft-süsteemen uun.",
 	"antispoof-tooshort": "Di nööm as tu kurt.",
 	"antispoof-ignore": "Ei efter nai nöömer schük",
-	"right-override-antispoof": "Det preew efter ünpaasin nöömer hialandaal ufstel",
-	"apihelp-antispoof-description": "En brükernööm uun det normoolisiarangs-preew faan AntiSpoof apnem.",
-	"apihelp-antispoof-param-username": "Di brükernööm, di mä AntiSpoof preewet wurd skal.",
-	"apihelp-antispoof-example-1": "Di brükernööm „Foo“ mä AntiSpoof preewe.",
-	"apihelp-createaccount-param-ignoreantispoof": "Auergongt det spoofing-preew (wan det rocht <code>override-antispoof</code> föörleit)."
+	"right-override-antispoof": "Det preew efter ünpaasin nöömer hialandaal ufstel"
 }

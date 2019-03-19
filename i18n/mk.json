@@ -20,10 +20,5 @@
 	"antispoof-tooshort": "Нормализираното име е прекратко",
 	"antispoof-ignore": "Занемари меѓусебно слични имиња",
 	"antispoof-ignore-help": "Им овозможува на корисниците со достатни права да создаваат сметки дури и кога имињата им се слични на постоечки.",
-	"right-override-antispoof": "Прескокнување на проверките за меѓусебно слични имиња",
-	"apihelp-antispoof-description": "Проверете корисничко име со нормализациската проверка на AntiSpoof.",
-	"apihelp-antispoof-summary": "Проверете го корисничко име со нормализациската проверка на AntiSpoof.",
-	"apihelp-antispoof-param-username": "Корисничко име за проверка со AntiSpoof.",
-	"apihelp-antispoof-example-1": "Провери го корисничкото име „Foo“ со AntiSpoof",
-	"apihelp-createaccount-param-ignoreantispoof": "Занемари ги проверките за забуна на имињата (го бара правото <code>override-antispoof</code>)."
+	"right-override-antispoof": "Прескокнување на проверките за меѓусебно слични имиња"
 }

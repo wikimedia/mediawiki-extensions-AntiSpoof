@@ -21,10 +21,5 @@
 	"antispoof-tooshort": "השם המנורמל קצר מדי",
 	"antispoof-ignore": "התעלמות מבדיקת ההתחזות",
 	"antispoof-ignore-help": "לאפשר למשתמשים עם הרשאות מתאימות ליצור חשבון אפילו אם השם שלו דומה לחשבון קיים.",
-	"right-override-antispoof": "עקיפת בדיקות ההתחזות",
-	"apihelp-antispoof-description": "בדיקת שם משתמש אל מול בדיקות נרמול של AntiSpoof.",
-	"apihelp-antispoof-summary": "בדיקת שם משתמש אל מול בדיקות נרמול של AntiSpoof.",
-	"apihelp-antispoof-param-username": "שם משתמש לבדוק אל מול AntiSpoof.",
-	"apihelp-antispoof-example-1": "לבדוק את שם המשתמש Foo אל מול AntiSpoof.",
-	"apihelp-createaccount-param-ignoreantispoof": "להתעלם מבדיקות התחזות (נדרשת הרשאת <code>override-antispoof</code>)."
+	"right-override-antispoof": "עקיפת בדיקות ההתחזות"
 }

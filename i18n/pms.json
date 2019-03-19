@@ -20,8 +20,5 @@
 	"antispoof-mixedscripts": "Combinassion ëd sistema dë scritura ch'as peulo pa butesse ansema",
 	"antispoof-tooshort": "Butà an forma canònica lë stranòm a resta esagerà curt",
 	"antispoof-ignore": "Sàuta ij controj dë spoofing",
-	"right-override-antispoof": "Ignora ij controj dë spoofing",
-	"apihelp-antispoof-description": "Verifiché në stranòm contra le verìfiche ëd normalisassion d'AntiSpoof.",
-	"apihelp-antispoof-param-username": "Lë stranòm da verifiché contra AntiSpoof.",
-	"apihelp-antispoof-example-1": "Verifiché lë stranòm «Foo» contra AntiSpoof"
+	"right-override-antispoof": "Ignora ij controj dë spoofing"
 }

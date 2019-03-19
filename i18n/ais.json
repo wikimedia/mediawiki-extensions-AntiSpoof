@@ -17,9 +17,5 @@
 	"antispoof-mixedscripts": "yamalyilu macamulay caay mangangalep a Script",
 	"antispoof-ignore": "sekipo pahengad kinsa",
 	"antispoof-ignore-help": "mahasa sizumaay tungus a situngusay patizeng baluhayay a changhaw malecalecaday ayzaay a changhaw.",
-	"right-override-antispoof": "mitahap pahengad tu kinsa",
-	"apihelp-antispoof-description": "kinsa misaungayay a kalungangan patedu AntiSpoof a laliday a kinsa.",
-	"apihelp-antispoof-param-username": "kinsa misaungayay a kalungangan hakay patedu AntiSpoof haw?",
-	"apihelp-antispoof-example-1": "kinsa misaungayay a kalungangan \"Foo\" patedu AntiSpoof haw?",
-	"apihelp-createaccount-param-ignoreantispoof": "sekipo pahengaday midebung kinsa (maydih <code>override-antispoof</code> tungus)."
+	"right-override-antispoof": "mitahap pahengad tu kinsa"
 }

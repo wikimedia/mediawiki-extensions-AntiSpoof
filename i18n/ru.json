@@ -28,10 +28,5 @@
 	"antispoof-tooshort": "Нормализованное имя слишком коротко",
 	"antispoof-ignore": "Игнорировать проверки на схожие имена",
 	"antispoof-ignore-help": "Позволяет участникам с достаточными правами создать учётную запись даже если это имя похоже на имя уже существующей учётной записи.",
-	"right-override-antispoof": "Игнорирование проверок на схожие имена",
-	"apihelp-antispoof-description": "Проверка имени с помощью AntiSpoof.",
-	"apihelp-antispoof-summary": "Проверка имени с помощью AntiSpoof.",
-	"apihelp-antispoof-param-username": "Имя проверяемого с помощью AntiSpoof участника.",
-	"apihelp-antispoof-example-1": "Проверить с помощью AntiSpoof имя участника «Foo»",
-	"apihelp-createaccount-param-ignoreantispoof": "Игнорировать проверки на схожие имена (требует права <code>override-antispoof</code>)."
+	"right-override-antispoof": "Игнорирование проверок на схожие имена"
 }

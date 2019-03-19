@@ -22,9 +22,5 @@
 	"antispoof-tooshort": "Tên chuẩn hóa quá ngắn",
 	"antispoof-ignore": "Không kiểm tra tên có gây nhầm lẫn",
 	"antispoof-ignore-help": "Cho phép những người dùng có đủ quyền tạo tài khoản có tên tương tự với một tài khoản đã tồn tại.",
-	"right-override-antispoof": "Bỏ qua kiểm tra tên",
-	"apihelp-antispoof-description": "Kiểm tra tên người dùng qua quá trình chuẩn hóa của AntiSpoof.",
-	"apihelp-antispoof-param-username": "Tên người dùng để kiểm tra qua AntiSpoof.",
-	"apihelp-antispoof-example-1": "Kiểm tra tên người dùng “Foo” qua AntiSpoof",
-	"apihelp-createaccount-param-ignoreantispoof": "Bỏ qua các kiểm tra lừa gạt (cần quyền <code>override-antispoof</code>)."
+	"right-override-antispoof": "Bỏ qua kiểm tra tên"
 }

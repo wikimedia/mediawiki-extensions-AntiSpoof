@@ -25,10 +25,5 @@
 	"antispoof-tooshort": "Nama normalisasi terlalu pendek",
 	"antispoof-ignore": "Abaikan pemeriksaan penipuan akun",
 	"antispoof-ignore-help": "Izinkan pengguna dengan hak memadai untuk membuat sebuah akun walaupun namanya mirip dengan akun yang telah ada.",
-	"right-override-antispoof": "Mengabaikan pengecekan penipuan nama pengguna",
-	"apihelp-antispoof-description": "Periksa nama pengguna dengan pemeriksaan normalisasi AntiPenipuan.",
-	"apihelp-antispoof-summary": "Periksa nama pengguna dengan pemeriksaan normalisasi AntiPenipuan.",
-	"apihelp-antispoof-param-username": "Nama pengguna yang akan diperiksa dengan AntiPenipuan.",
-	"apihelp-antispoof-example-1": "Periksa nama pengguna \"Foo\" dengan AntiPenipuan",
-	"apihelp-createaccount-param-ignoreantispoof": "Abaikan pemeriksaan penipuan (memerlukan hak akses <code>override-antispoof</code>)."
+	"right-override-antispoof": "Mengabaikan pengecekan penipuan nama pengguna"
 }

@@ -18,8 +18,5 @@
 	"antispoof-mixedscripts": "حاوی نویسه‌های مختلط ناسازگار است",
 	"antispoof-tooshort": "نام متعارف خیلی کوتاه است",
 	"antispoof-ignore": "نادیده‌گرفتن بررسی عبارات سردرگم‌کننده",
-	"right-override-antispoof": "گذر از بررسی عبارات سردرگم‌کننده",
-	"apihelp-antispoof-description": "بررسی یک نام‌ کاربری بر طبق نرمال‌سازی‌های ضدجعل.",
-	"apihelp-antispoof-param-username": "نام کاربری‌ای که با ضدجعل بررسی می‌شود.",
-	"apihelp-antispoof-example-1": "بررسی نام کاربر «Foo» با ضدجعل"
+	"right-override-antispoof": "گذر از بررسی عبارات سردرگم‌کننده"
 }

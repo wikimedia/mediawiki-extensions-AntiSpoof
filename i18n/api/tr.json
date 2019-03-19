@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek"
+		]
+	},
+	"apihelp-antispoof-description": "AntiSpoof bu normalleşme denetler karşı bir kullanıcı adı kontrol edin.",
+	"apihelp-antispoof-param-username": "Kullanıcı adı AntiSpoof karşı kontrol edin.",
+	"apihelp-antispoof-example-1": "Onay \"\" karşı AntiSpoof Foo kullanıcı adı"
+}

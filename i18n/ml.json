@@ -19,9 +19,5 @@
 	"antispoof-mixedscripts": "പൊരുത്തക്കേടുള്ള സങ്കരലിപികൾ ഉൾപ്പെടുന്നു",
 	"antispoof-tooshort": "ചട്ടപ്പടിയാക്കിയ പേര് വളരെ ചെറുതാണ്",
 	"antispoof-ignore": "സ്പൂഫിങ് പരിശോധനകൾ അവഗണിക്കുക",
-	"right-override-antispoof": "സ്പൂഫിങ് പരിശോധനകൾ അതിലംഘിക്കുക",
-	"apihelp-antispoof-description": "കബളിപ്പിക്കൽ തടയൽ നോർമലൈസേഷൻ പരിശോധനകൾക്കൊപ്പം ഉപയോക്തൃനാമം പരിശോധിക്കുക.",
-	"apihelp-antispoof-param-username": "കബളിപ്പിക്കൽ തടയൽ പരിശോധനയിൽ ഉപയോഗിക്കേണ്ട ഉപയോക്തൃനാമം.",
-	"apihelp-antispoof-example-1": "കബളിപ്പിക്കൽ തടയൽ പരിശോധനയിൽ \"Foo\" എന്ന ഉപയോക്തൃനാമം പരിശോധിക്കുക",
-	"apihelp-createaccount-param-ignoreantispoof": "ആൾമാറാട്ട പരിശോധനകൾ അവഗണിക്കുക (<code>override-antispoof</code> അവകാശം വേണം)."
+	"right-override-antispoof": "സ്പൂഫിങ് പരിശോധനകൾ അതിലംഘിക്കുക"
 }

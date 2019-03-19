@@ -23,9 +23,5 @@
 	"antispoof-mixedscripts": "Берләштереү мөмкин булмаған яҙма системаларының хәрефтәре бар",
 	"antispoof-tooshort": "Стандартлаштырылған исем бигерәк ҡыҫҡа",
 	"antispoof-ignore": "Оҡшаш исемдәргә тикшереүҙе иғтибарға алмаҫҡа",
-	"right-override-antispoof": "Оҡшаш исемдәргә тикшереүҙе иғтибарһыҙ ҡалдырыу",
-	"apihelp-antispoof-description": "Чек-бокс AntiSpoof's normalisation ҡаршыһында ҡулланыусы исемен тикшерегеҙ.",
-	"apihelp-antispoof-param-username": "AntiSpoof ярҙамында тикшерә торған ҡатнашыусының исеме.",
-	"apihelp-antispoof-example-1": "AntiSpoof ярҙамында «Foo» ҡатнашыусы исемен тикшерергә",
-	"apihelp-createaccount-param-ignoreantispoof": "(Хоҡуҡ һораған <code>override-antispoof</code>) оҡшаш исемдәрҙе иҫәпкә алмаҫҡа."
+	"right-override-antispoof": "Оҡшаш исемдәргә тикшереүҙе иғтибарһыҙ ҡалдырыу"
 }

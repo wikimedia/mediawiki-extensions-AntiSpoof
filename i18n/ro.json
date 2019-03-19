@@ -23,9 +23,5 @@
 	"antispoof-mixedscripts": "Conține mai multe scripturi incompatibile",
 	"antispoof-tooshort": "Nume normalizat prea scurt",
 	"antispoof-ignore": "Nu verifica existența unor nume de cont similare",
-	"right-override-antispoof": "Trece peste verificările de spoofing",
-	"apihelp-antispoof-description": "Verificați un nume de utilizator cu verificările de normalizare ale AntiSpoof.",
-	"apihelp-antispoof-summary": "Verificați un nume de utilizator cu verificările de normalizare ale AntiSpoof.",
-	"apihelp-antispoof-param-username": "Numele de utilizator de verificat cu AntiSpoof.",
-	"apihelp-antispoof-example-1": "Verifică numele de utilizator \"Foo\" cu AntiSpoof"
+	"right-override-antispoof": "Trece peste verificările de spoofing"
 }

@@ -20,8 +20,5 @@
 	"antispoof-mixedscripts": "Contains oncompatible mixt screepts",
 	"antispoof-tooshort": "Canoneecalised name is ower short",
 	"antispoof-ignore": "Ignore spuifin checks",
-	"right-override-antispoof": "Owerride the spuifin checks",
-	"apihelp-antispoof-description": "Check ae uisername again AntiSpoof's normalisation checks.",
-	"apihelp-antispoof-param-username": "The uisername tae check again AntiSpoof.",
-	"apihelp-antispoof-example-1": "Check uisername \"Foo\" again AntiSpoof"
+	"right-override-antispoof": "Owerride the spuifin checks"
 }

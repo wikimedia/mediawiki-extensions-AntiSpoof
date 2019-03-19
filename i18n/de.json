@@ -24,10 +24,5 @@
 	"antispoof-tooshort": "Der normalisierte Benutzername ist zu kurz.",
 	"antispoof-ignore": "Ähnlichkeitsprüfung ignorieren",
 	"antispoof-ignore-help": "Ermöglicht Benutzern mit ausreichenden Rechten, ein Benutzerkonto zu erstellen, auch wenn sein Name mit einem vorhandenen Benutzerkonto ähnlich ist.",
-	"right-override-antispoof": "Die Benutzernamens-Ähnlichkeitsprüfung außer Kraft setzen",
-	"apihelp-antispoof-description": "Einen Benutzernamen in die Normalisierungsprüfung der Erweiterung AntiSpoof aufnehmen.",
-	"apihelp-antispoof-summary": "Einen Benutzernamen in die Normalisierungsprüfung der Erweiterung AntiSpoof aufnehmen.",
-	"apihelp-antispoof-param-username": "Der Benutzername, der mit der Erweiterung AntiSpoof geprüft werden soll.",
-	"apihelp-antispoof-example-1": "Den Benutzernamen „Foo“ mit der Erweiterung AntiSpoof überprüfen.",
-	"apihelp-createaccount-param-ignoreantispoof": "Ignoriert die Prüfung auf Spoofing (erfordert die Berechtigung <code>override-antispoof</code>)."
+	"right-override-antispoof": "Die Benutzernamens-Ähnlichkeitsprüfung außer Kraft setzen"
 }
