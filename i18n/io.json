@@ -4,5 +4,6 @@
 			"Joao Xavier"
 		]
 	},
+	"antispoof-badtype": "Tipo di dato nevalida",
 	"antispoof-empty": "vakua 'string'"
 }
