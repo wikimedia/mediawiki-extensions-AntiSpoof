@@ -2,21 +2,24 @@
 	"@metadata": {
 		"authors": [
 			"Kolega2357",
-			"OC Ripper"
+			"OC Ripper",
+			"Vlad5250"
 		]
 	},
 	"antispoof-desc": "Blokira pravljenje računa sa miješanim slovima, zbunjujućim i sličnim korisničkim imenima",
-	"antispoof-conflict-top": "Ime \"$1\" je previše slično {{PLURAL:$2|slijedećem postojećem računu|sa slijedeća $2 postojeća  računa|sa slijedećih $2 postojećih računa}}:",
-	"antispoof-conflict-bottom": "Molimo izaberite drugo ime.",
-	"antispoof-name-illegal": "Ime \"$1\" nije dopušteno da bi se izbjegla zbunjujuća ili slična korisnička imena: $2.\nMolimo Vas da odaberete drugo ime.",
-	"antispoof-badtype": "Krivi tip podataka",
+	"antispoof-conflict-top": "Korisničko ime \"$1\" previše je slično {{PLURAL:$2|sljedećem korisničkom imenu|sljedećim korisničkim imenima}}:",
+	"antispoof-conflict-bottom": "Odaberite drugo korisničko ime",
+	"antispoof-name-illegal": "Korisničko ime \"$1\" nije dopušteno da bi se izbjegla zbunjujuća imena koja su uvredljivo slična: $2.\nOdaberite drugo korisničko ime.",
+	"antispoof-badtype": "Pogrešan tip podataka",
 	"antispoof-empty": "Prazan unos",
-	"antispoof-blacklisted": "Sadrži nedozvoljeno slovo (karakter)",
-	"antispoof-combining": "Počinje sa znakom kombinacije",
-	"antispoof-unassigned": "Sadrži nedodijeljen ili zastarjeli znak (karakter)",
+	"antispoof-blacklisted": "Sadrži zabranjeni znak $1",
+	"antispoof-combining": "Počinje sa sastavnim znakom $1",
+	"antispoof-unassigned": "Sadrži nedodijeljeni znak $1",
+	"antispoof-deprecated": "Sadrži zastarjeli znak $1",
 	"antispoof-noletters": "Ne sadrži ni jedno slovo",
 	"antispoof-mixedscripts": "Nekompatibilna pisma - Некомпатибилна писма",
 	"antispoof-tooshort": "Normalizirano ime je prekratko",
 	"antispoof-ignore": "Ignoriraj provjeru nevaljanih imena (antispoof)",
+	"antispoof-ignore-help": "Omogućuje korisnicima s dovoljnim pravima za izradu računa čak i kada su njihova imena slična postojećim.",
 	"right-override-antispoof": "Zaobilaženje provjera korisničkog imena"
 }

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bjankuloski06"
+			"Bjankuloski06",
+			"Vlad5250"
 		]
 	},
 	"antispoof-desc": "Блокира создавање на сметки со имиња од мешани писма/азбуки, кои личат на други кориснички имиња и со тоа создаваат забуни",
@@ -13,7 +14,7 @@
 	"antispoof-empty": "Празна низа",
 	"antispoof-blacklisted": "Го содржи забранетиот знак $1",
 	"antispoof-combining": "Започнува со составниот знак $1",
-	"antispoof-unassigned": "Содржи неопределен или застарен знак",
+	"antispoof-unassigned": "Содржи неопределен знак $1",
 	"antispoof-deprecated": "Го содржи застарениот знак $1",
 	"antispoof-noletters": "Не содржи букви",
 	"antispoof-mixedscripts": "Содржи нескладни мешани писма/азбуки",
