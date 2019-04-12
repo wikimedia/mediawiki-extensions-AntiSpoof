@@ -28,5 +28,6 @@
 	"antispoof-tooshort": "Reason for failed account creation.",
 	"antispoof-ignore": "This is a checkbox shown on [[Special:UserLogin|a signup page]] when a user with both [[MediaWiki:Right-createaccount/qqq|createaccount]] and [[MediaWiki:Right-override-antispoof/qqq|override-antispoof]] rights tries to register a new user account. It allows to register a username that would otherwise be blocked by the [[mw:Extension:AntiSpoof|AntiSpoof extension]].",
 	"antispoof-ignore-help": "API help message describing {{msg-mw|antispoof-ignore}}.",
+	"action-override-antispoof": "{{doc-action|override-antispoof}}",
 	"right-override-antispoof": "{{doc-right|override-antispoof}}"
 }

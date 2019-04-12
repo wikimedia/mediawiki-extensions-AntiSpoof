@@ -25,5 +25,6 @@
 	"antispoof-tooshort": "Normalized name too short",
 	"antispoof-ignore": "Ignore spoofing checks",
 	"antispoof-ignore-help": "Allows users with sufficient privileges to create an account even if its name is similar to that of an existing account.",
+	"action-override-antispoof": "override the spoofing checks",
 	"right-override-antispoof": "Override the spoofing checks"
 }
