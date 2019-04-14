@@ -30,5 +30,6 @@
 	"antispoof-tooshort": "標準化後的名稱過短",
 	"antispoof-ignore": "忽略欺騙檢查",
 	"antispoof-ignore-help": "允許有特定權限的用戶創建與現有帳戶名相似的新帳戶。",
+	"action-override-antispoof": "覆蓋欺騙檢查",
 	"right-override-antispoof": "覆蓋欺騙檢查"
 }

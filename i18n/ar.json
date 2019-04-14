@@ -8,7 +8,8 @@
 			"Mido",
 			"Mimouni",
 			"محمد الجداوي",
-			"Moud hosny"
+			"Moud hosny",
+			"ديفيد"
 		]
 	},
 	"antispoof-desc": "يمنع إنشاء الحسابات بسكريبت مختلط، وبأسماء مشابهة ومربكة",
@@ -26,5 +27,6 @@
 	"antispoof-tooshort": "الاسم المستخدم قصير جدًا",
 	"antispoof-ignore": "تجاهل التحقق من التشابه",
 	"antispoof-ignore-help": "يسمح للمستخدمين بحقوق كافية لإنشاء حساب مستخدم، حتى إذا كان الاسم مشابه لاسم حساب مستخدم موجود.",
+	"action-override-antispoof": "تجاوز التحقق من سبوفينج",
 	"right-override-antispoof": "تجاوز التحقق من سبوفينج"
 }

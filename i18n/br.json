@@ -10,6 +10,7 @@
 	"antispoof-conflict-top": "Heñvel betek re eo an anv \"$1\" da hini {{PLURAL:$2|anv implijer}}:",
 	"antispoof-conflict-bottom": "Dibabit un anv all mar plij.",
 	"antispoof-name-illegal": "N'eo ket aotreet ober gant an anv \"$1\" kuit da gemmeskañ gant un anv all pe da implijout an anv : $2.\nGrit gant un anv all mar plij.",
+	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Seurt roadennoù fall",
 	"antispoof-empty": "Neudennad goullo",
 	"antispoof-blacklisted": "Emañ an arouezenn berzet $1 e-barzh",

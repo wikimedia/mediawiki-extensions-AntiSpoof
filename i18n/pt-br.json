@@ -12,7 +12,8 @@
 			"Dianakc",
 			"!Silent",
 			"Trigonometria87",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"antispoof-desc": "Impede a criação de contas com escrita mista, e nomes de usuário confusos e semelhantes",
@@ -31,5 +32,6 @@
 	"antispoof-tooshort": "Nome normalizado muito curto",
 	"antispoof-ignore": "Ignorar verificações de \"spoofing\"",
 	"antispoof-ignore-help": "Permite que os usuários com os privilégios necessários criem uma conta com nome seja semelhante ao de outra conta existente.",
+	"action-override-antispoof": "sobrepor verificações de spoofing",
 	"right-override-antispoof": "Sobrepor verificações de spoofing"
 }
