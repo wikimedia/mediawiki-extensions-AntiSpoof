@@ -26,5 +26,6 @@
 	"antispoof-tooshort": "Normalizowana nazwa użytkownika zbyt krótka",
 	"antispoof-ignore": "Ignoruj podobieństwo do istniejących nazw",
 	"antispoof-ignore-help": "Pozwala użytkownikom z określonymi uprawnieniami na utworzenie konta, nawet gdy jego nazwa jest podobna do istniejącego już konta.",
+	"action-override-antispoof": "obchodzenia ograniczeń przed zakładaniem kont o podobnych nazwach do już istniejących",
 	"right-override-antispoof": "Brak ograniczenia przed zakładaniem kont o podobnych nazwach do już istniejących"
 }

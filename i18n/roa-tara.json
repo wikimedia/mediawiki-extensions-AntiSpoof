@@ -20,5 +20,6 @@
 	"antispoof-tooshort": "'U nome normalizzate ète curte assaje",
 	"antispoof-ignore": "Ignore verifeche sus a le 'mbruegghie",
 	"antispoof-ignore-help": "Permette a le utinde cu le privilegge de ccrejà 'n'utende, pure ce 'u nome sue s'assemegghie a quidde de otre crestiane ggià esistende.",
+	"action-override-antispoof": "sovrascrive le verifeche sus a le 'mbruegghie",
 	"right-override-antispoof": "Sovrascrive le verifeche sus a le 'mbruegghie"
 }
