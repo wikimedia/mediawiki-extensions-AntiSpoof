@@ -22,7 +22,8 @@
 	"antispoof-noletters": "Não contém letras",
 	"antispoof-mixedscripts": "Contém uma mistura de alfabetos incompatíveis",
 	"antispoof-tooshort": "Nome canónico demasiado curto",
-	"antispoof-ignore": "Ignorar as verificações de semelhança de nomes (<i>spoofing</i>)",
+	"antispoof-ignore": "Ignorar as verificações de semelhança de nomes (''spoofing'')",
 	"antispoof-ignore-help": "Permite que os utilizadores com os privilégios necessários criem uma conta com nome seja semelhante ao de outra conta existente.",
-	"right-override-antispoof": "Ultrapassar as verificações de semelhança de nome (<i>spoofing</i>)"
+	"action-override-antispoof": "contornar as verificações de semelhança de nomes (''spoofing'')",
+	"right-override-antispoof": "Contornar as verificações de semelhança de nomes (''spoofing'')"
 }
