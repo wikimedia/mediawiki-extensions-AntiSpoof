@@ -20,5 +20,6 @@
 	"antispoof-tooshort": "Nome normalizáu demasiao curtiu",
 	"antispoof-ignore": "Inorar les comprobaciones d'engañu (spoofing)",
 	"antispoof-ignore-help": "Permite que los usuarios con permisu bastante creen una cuenta anque'l so nome seya asemeyáu al d'una cuenta que yá existe.",
+	"action-override-antispoof": "saltar les comprobaciones d'engañu (spoofing)",
 	"right-override-antispoof": "Saltase les comprobaciones d'engañu (spoofing)"
 }
