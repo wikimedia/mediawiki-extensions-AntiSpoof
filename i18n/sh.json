@@ -21,5 +21,6 @@
 	"antispoof-tooshort": "Normalizirano ime je prekratko",
 	"antispoof-ignore": "Ignoriraj provjeru nevaljanih imena (antispoof)",
 	"antispoof-ignore-help": "Omogućuje korisnicima s dovoljnim pravima za izradu računa čak i kada su njihova imena slična postojećim.",
-	"right-override-antispoof": "Zaobilaženje provjera korisničkog imena"
+	"action-override-antispoof": "premošćivanje provjera za međusobno slična imena",
+	"right-override-antispoof": "Premošćivanje provjera za međusobno slična imena"
 }
