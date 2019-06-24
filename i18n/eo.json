@@ -21,5 +21,7 @@
 	"antispoof-mixedscripts": "Enhavas nekompatibilajn miksajn skriptojn",
 	"antispoof-tooshort": "Personecigita nomo estas tro mallonga",
 	"antispoof-ignore": "Ignori kontroladon de trompado",
+	"antispoof-ignore-help": "Permesi uzanton kun sufiĉo da rajtoj krei konton, kies nomo similas la nomon de alia konto.",
+	"action-override-antispoof": "ignori kontroladon de trompado",
 	"right-override-antispoof": "Superebligi la artifikajn kontrolojn."
 }
