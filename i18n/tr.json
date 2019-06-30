@@ -5,7 +5,8 @@
 			"Joseph",
 			"Srhat",
 			"Arystanbek",
-			"By erdo can"
+			"By erdo can",
+			"Hedda"
 		]
 	},
 	"antispoof-desc": "Karışık-betikli, kafa karıştırıcı ve benzer kullanıcı adlarıyla hesap oluşturulmasını engeller",
@@ -22,5 +23,7 @@
 	"antispoof-mixedscripts": "Uyumsuz karışık betikler içeriyor",
 	"antispoof-tooshort": "Normalleştirilmiş ad çok kısa",
 	"antispoof-ignore": "Aldatıcı kontrolleri ihmal et",
+	"antispoof-ignore-help": "Adı, mevcut bir hesabınkine benzese bile bir hesap oluşturmak için yeterli ayrıcalıklara sahip olan kullanıcılara izin verir.",
+	"action-override-antispoof": "aldatıcı kontrolleri gerçersiz kıl",
 	"right-override-antispoof": "Aldatıcı kontrolleri gerçersiz kıl"
 }
