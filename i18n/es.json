@@ -35,5 +35,6 @@
 	"antispoof-tooshort": "Nombre normalizado demasiado corto",
 	"antispoof-ignore": "Ignorar comprobaciones contra suplantaciones",
 	"antispoof-ignore-help": "Permite a los usuarios que tengan suficientes privilegios crear una cuenta incluso aunque su nombre sea similar al de una cuenta existente.",
+	"action-override-antispoof": "anula las comprobaciones contra las suplantaciones",
 	"right-override-antispoof": "Anula las comprobaciones de suplantación"
 }
