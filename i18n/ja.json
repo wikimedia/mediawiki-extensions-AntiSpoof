@@ -10,7 +10,8 @@
 			"2nd-player",
 			"Takot",
 			"Otokoume",
-			"Yusuke1109"
+			"Yusuke1109",
+			"Afaz"
 		]
 	},
 	"antispoof-desc": "文字体系が混在している利用者名、既存の利用者名と類似していて紛らわしい利用者名のアカウント作成をブロックする",
@@ -29,5 +30,6 @@
 	"antispoof-tooshort": "正規化した名前が短すぎます",
 	"antispoof-ignore": "なりすましチェックを無効にする",
 	"antispoof-ignore-help": "十分な特権を持つ利用者が、既存のアカウントの名前と同じ名前であってもアカウントを作成できるようにします。",
+	"action-override-antispoof": "なりすましチェックを無視",
 	"right-override-antispoof": "なりすましチェックを無視"
 }
