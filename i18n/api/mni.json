@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Awangba Mangang"
+			"Awangba Mangang",
+			"Amire80"
 		]
 	},
 	"apihelp-antispoof-description": "Check a username against AntiSpoof's normalisation checks.",
