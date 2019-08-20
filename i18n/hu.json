@@ -3,7 +3,8 @@
 		"authors": [
 			"Dani",
 			"Dj",
-			"Tacsipacsi"
+			"Tacsipacsi",
+			"Bencemac"
 		]
 	},
 	"antispoof-desc": "Letiltja a kevert szövegű, zavaró és hasonló nevű felhasználói fiókok készítését",
@@ -21,5 +22,6 @@
 	"antispoof-mixedscripts": "Összeférhetetlen kevert szöveget tartalmaz",
 	"antispoof-tooshort": "A kanonizált változat túl rövid",
 	"antispoof-ignore": "Névellenőrzés figyelmen kívül hagyása",
+	"action-override-antispoof": "felhasználói nevek ellenőrzésének figyelmen kívül hagyása",
 	"right-override-antispoof": "felhasználói nevek ellenőrzésének figyelmen kívül hagyása"
 }
