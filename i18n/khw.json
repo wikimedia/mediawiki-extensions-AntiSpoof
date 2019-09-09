@@ -5,5 +5,6 @@
 		]
 	},
 	"antispoof-badtype": "شوم اعداد و شمارو قسم",
-	"antispoof-empty": "خالی تار"
+	"antispoof-empty": "خالی تار",
+	"antispoof-blacklisted": "بلیک لسٹ علامت $1 پر مشتمل"
 }
