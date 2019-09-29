@@ -6,7 +6,7 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "antispam",
 	"requires": {
-		"MediaWiki": ">= 1.27.0"
+		"MediaWiki": ">= 1.29.0"
 	},
 	"GroupPermissions": {
 		"sysop": {
@@ -50,20 +50,28 @@
 		"DeleteAccount": "AntiSpoofHooks::asDeleteAccount"
 	},
 	"config": {
-		"AntiSpoofAccounts": true,
-		"AntiSpoofBlacklist": [
-			"\u0337",
-			"\u0338",
-			"\u2044",
-			"\u2215",
-			"\u23AE",
-			"\u29F6",
-			"\u29F8",
-			"\u2AFB",
-			"\u2AFD",
-			"\uFF0F"
-		]
+		"AntiSpoofAccounts": {
+			"description": "Whether to stop spoofed accounts from being created. When false, only log.",
+			"value": true,
+			"public": true
+		},
+		"AntiSpoofBlacklist": {
+			"description": "List of characters prohibited from use in your wiki.",
+			"value": [
+				"\u0337",
+				"\u0338",
+				"\u2044",
+				"\u2215",
+				"\u23AE",
+				"\u29F6",
+				"\u29F8",
+				"\u2AFB",
+				"\u2AFD",
+				"\uFF0F"
+			],
+			"public": true
+		}
 	},
 	"load_composer_autoloader": true,
-	"manifest_version": 1
+	"manifest_version": 2
 }
