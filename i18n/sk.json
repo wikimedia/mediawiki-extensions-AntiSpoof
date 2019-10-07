@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"TomášPolonec"
+			"TomášPolonec",
+			"Vlad5250"
 		]
 	},
 	"antispoof-desc": "Blokuje tvorbu účtov so zmiešanými písmami, mätúce a podobné mená.",
@@ -19,5 +20,6 @@
 	"antispoof-mixedscripts": "Obsahuje nekompatibilné zmiešané písma",
 	"antispoof-tooshort": "Meno prevedené do kanonického tvaru je príliš krátke",
 	"antispoof-ignore": "Ignorovať kontroly klamania",
+	"action-override-antispoof": "prekonať kontroly klamania",
 	"right-override-antispoof": "Prekonať kontroly klamania"
 }
