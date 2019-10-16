@@ -5,7 +5,8 @@
 			"Gorizon",
 			"Xoser",
 			"Mirzali",
-			"Kumkumuk"
+			"Kumkumuk",
+			"Orbot707"
 		]
 	},
 	"antispoof-desc": "Hesaban pê skriptê mîxî, nameyê munaneyî bloke keno",
@@ -23,5 +24,7 @@
 	"antispoof-mixedscripts": "Te de skriptanê xeripîyaye esto",
 	"antispoof-tooshort": "Eno name zehf kılmo",
 	"antispoof-ignore": "Kontrolê spoofî rê diket meke",
+	"antispoof-ignore-help": "Name, nameyanê binan ra ca bıaso zi fına zi karberanê bêemsal name vinayeyan rê mısade danê",
+	"action-override-antispoof": "Kontrolanê xapeynayışa mehesıbnê",
 	"right-override-antispoof": "Kontrolanê spoofî override bike"
 }
