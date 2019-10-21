@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Boukman",
-			"Masterches"
+			"Masterches",
+			"LeGuyanaisPure"
 		]
 	},
 	"antispoof-desc": "Bloke kreyasyon kont ki genyen diferan alfabèt, ki ka mennen nan konfizyon oubyen ki genyen non itilizatè ki sanble trop",
@@ -12,7 +13,7 @@
 	"antispoof-blacklisted": "Kontni yon karaktè ki pa otorize",
 	"antispoof-combining": "Ap koumanse avèk yon mak konbine",
 	"antispoof-unassigned": "Kontni yon karaktè ki pa asiyen oubyen ki pa itilize ankò",
-	"antispoof-noletters": "Pa kontni pyès lèt",
+	"antispoof-noletters": "Ka kontni pyès lèt",
 	"antispoof-mixedscripts": "Kontni plizyè alfabèt ki pa konpatib",
 	"antispoof-tooshort": "Non kanonik an two kout"
 }
