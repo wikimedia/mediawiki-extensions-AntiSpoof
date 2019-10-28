@@ -24,5 +24,6 @@
 	"antispoof-mixedscripts": "Съдържа несъвместими писмени системи",
 	"antispoof-tooshort": "Каноничното име е твърде кратко",
 	"antispoof-ignore": "Игнорирай проверката на подобни имена",
+	"action-override-antispoof": "пренебрегване на проверките за подобни имена",
 	"right-override-antispoof": "Пренебрегване на проверките за подобни имена"
 }
