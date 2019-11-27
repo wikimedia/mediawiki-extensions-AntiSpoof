@@ -17,7 +17,7 @@
 	"antispoof-unassigned": "מכיל את התו הבלתי־מוקצה או המיושן $1",
 	"antispoof-deprecated": "מכיל את התו המיושן $1",
 	"antispoof-noletters": "לא מכיל אותיות",
-	"antispoof-mixedscripts": "מכיל סוגי כתב מעורבים",
+	"antispoof-mixedscripts": "מכיל שיטות כתב מעורבים בלתי־תואמים",
 	"antispoof-tooshort": "השם המנורמל קצר מדי",
 	"antispoof-ignore": "התעלמות מבדיקת ההתחזות",
 	"antispoof-ignore-help": "לאפשר למשתמשים עם הרשאות מתאימות ליצור חשבון אפילו אם השם שלו דומה לחשבון קיים.",
