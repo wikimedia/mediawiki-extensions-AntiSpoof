@@ -25,7 +25,7 @@ class SpoofUser {
 	/** @var string */
 	private $name;
 
-	/** @var string */
+	/** @var string|null */
 	private $normalized;
 
 	/** @var null|Status */
