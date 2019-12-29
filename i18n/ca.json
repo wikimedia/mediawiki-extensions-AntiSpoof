@@ -6,7 +6,8 @@
 			"Qllach",
 			"SMP",
 			"Vriullop",
-			"Toniher"
+			"Toniher",
+			"Bombolla"
 		]
 	},
 	"antispoof-desc": "Bloca la creació de comptes amb alfabets barrejats i noms d'usuari similars o que portin a confusió",
@@ -23,5 +24,6 @@
 	"antispoof-mixedscripts": "Conté una mescla incompatible d'escriptures",
 	"antispoof-tooshort": "Nom normalitzat massa curt",
 	"antispoof-ignore": "Ignora controls antispoof",
+	"antispoof-ignore-help": "Permet crear un compte als usuaris amb prou privilegis, inclús sota un nom similar a un d'existent.",
 	"right-override-antispoof": "Evitar el control de noms d'usuari"
 }
