@@ -7,7 +7,8 @@
 			"M.M.S.",
 			"Skalman",
 			"Jopparn",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Mjälten"
 		]
 	},
 	"antispoof-desc": "Förhindrar registreringen av konton med förvirrande eller liknande namn samt användarnamn som innehåller blandade skriftsystem.",
@@ -25,5 +26,6 @@
 	"antispoof-tooshort": "Normaliserade namnet är för kort",
 	"antispoof-ignore": "Ignorera missbrukskontroller",
 	"antispoof-ignore-help": "Tillåter användare med tillräckliga behörigheter att skapa ett konto, även om dess namn är liknande namnet på ett befintligt konto.",
+	"action-override-antispoof": "Slipper kontroller mot förvirrande användarnamn",
 	"right-override-antispoof": "Slipper kontroller mot förvirrande användarnamn"
 }
