@@ -6,7 +6,8 @@
 			"Darth Kule",
 			"Nemo bis",
 			"Pietrodn",
-			"Matteocng"
+			"Matteocng",
+			"Dansita"
 		]
 	},
 	"antispoof-desc": "Impedisce la creazione di nomi utente con caratteri misti e nomi utente che generano confusione o troppo simili tra loro.",
@@ -24,5 +25,6 @@
 	"antispoof-tooshort": "Nome normalizzato troppo corto",
 	"antispoof-ignore": "Ignora i controlli per spoofing",
 	"antispoof-ignore-help": "Consente agli utenti con privilegi sufficienti di creare un'utenza, anche se il suo nome è simile a quella di un'altra già esistente.",
+	"action-override-antispoof": "Ignora i controlli spoofing",
 	"right-override-antispoof": "Ignora i controlli spoofing"
 }
