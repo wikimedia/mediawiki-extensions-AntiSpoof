@@ -19,6 +19,8 @@
 use MediaWiki\Auth\AbstractPreAuthenticationProvider;
 use MediaWiki\Auth\AuthenticationRequest;
 use MediaWiki\Auth\AuthManager;
+use MediaWiki\User\UserIdentity;
+use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 
 class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvider {
@@ -58,7 +60,7 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 		return self::testUserInternal( $user, $override, $this->logger );
 	}
 
-	private function testUserInternal( $user, $override, $logger ) {
+	private function testUserInternal( UserIdentity $user, $override, LoggerInterface $logger ) {
 		$spoofUser = $this->getSpoofUser( $user );
 		$mode = !$this->antiSpoofAccounts ? 'LOGGING ' : ( $override ? 'OVERRIDE ' : '' );
 		$active = $this->antiSpoofAccounts && !$override;
@@ -127,10 +129,10 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 	}
 
 	/**
-	 * @param User $user
+	 * @param UserIdentity $user
 	 * @return SpoofUser
 	 */
-	protected function getSpoofUser( User $user ) {
+	protected function getSpoofUser( UserIdentity $user ) {
 		return new SpoofUser( $user->getName() );
 	}
 }

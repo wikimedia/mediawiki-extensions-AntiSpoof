@@ -152,7 +152,7 @@ class AntiSpoof {
 	}
 
 	/**
-	 * @param string $ch
+	 * @param int $ch
 	 * @return string
 	 */
 	private static function getScriptCode( $ch ) {
@@ -164,25 +164,6 @@ class AntiSpoof {
 		}
 		# Otherwise...
 		return "SCRIPT_UNASSIGNED";
-	}
-
-	/**
-	 * From the name of a script, get a script descriptor, if valid,
-	 * otherwise return None
-	 *
-	 * @param string $name
-	 * @return null|string
-	 */
-	private static function getScriptTag( $name ) {
-		$name = "SCRIPT_" . strtoupper( trim( $name ) );
-		// Linear search
-		foreach ( self::$script_ranges as $range ) {
-			if ( $name == $range[2] ) {
-				return $range[2];
-			}
-		}
-		// Otherwise...
-		return null;
 	}
 
 	/**
@@ -219,9 +200,9 @@ class AntiSpoof {
 	/**
 	 * Convert string into array of Unicode code points as integers
 	 * @param string $str
-	 * @return array
+	 * @return int[]
 	 */
-	public static function stringToList( $str ) {
+	private static function stringToList( $str ) {
 		$ar = [];
 		if ( !preg_match_all( '/./us', $str, $ar ) ) {
 			return [];
@@ -237,7 +218,7 @@ class AntiSpoof {
 	 * @param array $list
 	 * @return string
 	 */
-	public static function listToString( $list ) {
+	private static function listToString( $list ) {
 		$out = '';
 		foreach ( $list as $cp ) {
 			$out .= Utils::codepointToUtf8( $cp );
@@ -262,12 +243,12 @@ class AntiSpoof {
 	}
 
 	/**
-	 * @param array $text
+	 * @param int[] $text
 	 * @param string $script
-	 * @return array
+	 * @return int[]
 	 */
-	private static function stripScript( $text, $script ) {
-		$scripts = array_map( [ 'AntiSpoof', 'getScriptCode' ], $text );
+	private static function stripScript( array $text, $script ) {
+		$scripts = array_map( [ __CLASS__, 'getScriptCode' ], $text );
 		$out = [];
 		foreach ( $text as $index => $char ) {
 			if ( $scripts[$index] !== $script ) {
@@ -281,7 +262,7 @@ class AntiSpoof {
 	 * Helper function for checkUnicodeStringStatus: Return an error on a bad character.
 	 * @todo I would like to show Unicode character name, but it is not clear how to get it.
 	 * @param string $msgId message identifier.
-	 * @param number $point codepoint of the bad character.
+	 * @param int $point codepoint of the bad character.
 	 * @return Status
 	 */
 	private static function badCharErr( $msgId, $point ) {
@@ -359,7 +340,7 @@ class AntiSpoof {
 		// Note: NFKD normalization should have decomposed all accented chars earlier
 		$testChars = self::stripScript( $testChars, "SCRIPT_COMBINING_MARKS" );
 
-		$testScripts = array_map( [ 'AntiSpoof', 'getScriptCode' ], $testChars );
+		$testScripts = array_map( [ __CLASS__, 'getScriptCode' ], $testChars );
 		$unassigned = array_search( "SCRIPT_UNASSIGNED", $testScripts );
 		if ( $unassigned !== false ) {
 			return self::badCharErr( 'antispoof-unassigned', $testChars[$unassigned] );
