@@ -20,6 +20,6 @@
 	"antispoof-noletters": "Ne sadrži ni jedno slovo",
 	"antispoof-mixedscripts": "Sadrži miješana slova koja nisu podržana",
 	"antispoof-tooshort": "Normalizirano ime je prekratko",
-	"antispoof-ignore": "Ignoriraj provjeru sličnosti",
+	"antispoof-ignore": "Zanemari provjeru sličnosti",
 	"right-override-antispoof": "Zaobilaženje provjera korisničkog imena"
 }
