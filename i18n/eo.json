@@ -8,7 +8,7 @@
 			"Robin van der Vliet"
 		]
 	},
-	"antispoof-desc": "Blokas la kreadon de kontoj kun miksitaj alfabetaj, konfuzemaj, kaj similaj salutnomoj",
+	"antispoof-desc": "Blokas la kreadon de kontoj kun miksitaj alfabetaj, konfuzemaj, kaj similaj uzantnomoj",
 	"antispoof-conflict-top": "La uzantnomo \"$1\" tro similas al la {{PLURAL:$2|jenan konton|jenajn $2 kontojn}}:",
 	"antispoof-conflict-bottom": "Bonvolu elekti alian uzantnomon.",
 	"antispoof-name-illegal": "La uzantnomo \"$1\" ne estas permesita por preventi konfuzigemajn aŭ trompajn uzantnomojn: $2. Bonvolu elekti alian uzantnomon.",
