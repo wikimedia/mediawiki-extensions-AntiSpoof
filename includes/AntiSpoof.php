@@ -284,6 +284,7 @@ class AntiSpoof {
 	/**
 	 * @param string $testName
 	 * @return array
+	 * @deprecated 1.35 Use checkUnicodeStringStatus instead
 	 */
 	public static function checkUnicodeString( $testName ) {
 		$status = self::checkUnicodeStringStatus( $testName );

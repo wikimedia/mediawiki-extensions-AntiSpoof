@@ -58,6 +58,7 @@ class SpoofUser {
 	/**
 	 * Describe the error.
 	 * @return null|string
+	 * @deprecated 1.32 Use getErrorStatus instead
 	 */
 	public function getError() {
 		return $this->error ? $this->error->getMessage()->text() : null;
@@ -140,7 +141,7 @@ class SpoofUser {
 			'su_name'       => $this->name,
 			'su_normalized' => $this->normalized,
 			'su_legal'      => $this->legal ? 1 : 0,
-			'su_error'      => $this->getError(),
+			'su_error'      => $this->error ? $this->error->getMessage()->text() : null,
 		];
 	}
 
