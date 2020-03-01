@@ -73,6 +73,7 @@ class AntiSpoof {
 		[ 0x0700, 0x074F, "SCRIPT_SYRIAC" ], // Syriac
 		[ 0x0750, 0x077F, "SCRIPT_ARABIC" ], // Arabic Supplement
 		[ 0x0780, 0x07BF, "SCRIPT_THAANA" ], // Thaana
+		[ 0x07C0, 0x07FF, "SCRIPT_NKO" ], // NKo (N'Ko)
 		[ 0x0900, 0x097F, "SCRIPT_DEVANAGARI" ], // Devanagari
 		[ 0x0980, 0x09FF, "SCRIPT_BENGALI" ], // Bengali
 		[ 0x0A00, 0x0A7F, "SCRIPT_GURMUKHI" ], // Gurmukhi
@@ -104,6 +105,7 @@ class AntiSpoof {
 		[ 0x1950, 0x197F, "SCRIPT_TAI_LE" ], // Tai Le
 		[ 0x1980, 0x19DF, "SCRIPT_NEW_TAI_LUE" ], // New Tai Lue
 		[ 0x1A00, 0x1A1F, "SCRIPT_BUGINESE" ], // Buginese
+		[ 0x1C50, 0x1C7F, "SCRIPT_OL_CHIKI" ], // Ol Chiki
 		[ 0x1E00, 0x1EFF, "SCRIPT_LATIN" ], // Latin Extended Additional
 		[ 0x1F00, 0x1FFF, "SCRIPT_GREEK" ], // Greek Extended
 		// [ 0x2C00, 0x2C5F, "SCRIPT_GLAGOLITIC" ], // Glagolitic
@@ -121,6 +123,8 @@ class AntiSpoof {
 		[ 0x4E00, 0x9FFF, "SCRIPT_HAN" ], // CJK Unified Ideographs
 		[ 0xA000, 0xA4CF, "SCRIPT_YI" ], // Yi Syllables, Yi Radicals
 		[ 0xA800, 0xA82F, "SCRIPT_SYLOTI_NAGRI" ], // Syloti Nagri
+		// [ 0xAAE0, 0xAAFF, "SCRIPT_MEETEI_MAYEK_EXTENSIONS" ] // Meetei Mayek Extensions
+		[ 0xABC0, 0xABFF, "SCRIPT_MEETEI_MAYEK" ], // Meetei Mayek
 		[ 0xAC00, 0xD7AF, "SCRIPT_HANGUL" ], // Hangul Syllables
 		[ 0xF900, 0xFAFF, "SCRIPT_DEPRECATED" ], // CJK Compatibility Ideographs
 		// [ 0x10000, 0x100FF, "SCRIPT_LINEAR_B" ], // Linear B Syllabary, Linear B Ideograms
@@ -134,6 +138,7 @@ class AntiSpoof {
 		// [ 0x10480, 0x104AF, "SCRIPT_OSMANYA" ], // Osmanya
 		// [ 0x10800, 0x1083F, "SCRIPT_CYPRIOT" ], // Cypriot Syllabary
 		[ 0x10A00, 0x10A5F, "SCRIPT_KHAROSHTHI" ], // Kharoshthi
+		[ 0x118A0, 0x118FF, "SCRIPT_WARANG_CITI" ], // Warang Citi
 		[ 0x20000, 0x2A6DF, "SCRIPT_HAN" ], // CJK Unified Ideographs Extension B
 		[ 0x2F800, 0x2FA1F, "SCRIPT_DEPRECATED" ] // CJK Compatibility Ideographs Supplement
 	];
