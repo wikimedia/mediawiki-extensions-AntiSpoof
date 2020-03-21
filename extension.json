@@ -19,6 +19,11 @@
 	"AvailableRights": [
 		"override-antispoof"
 	],
+	"GrantPermissions": {
+		"createaccount": {
+			"override-antispoof": true
+		}
+	},
 	"APIModules": {
 		"antispoof": "ApiAntiSpoof"
 	},
