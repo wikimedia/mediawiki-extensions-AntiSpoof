@@ -5,9 +5,9 @@
 		]
 	},
 	"antispoof-desc": "O l'impedisce a creaçion di nommi utente con di carattei mescci e di nommi utente che genneran confuxon ò troppo scimmili tra lô.",
-	"antispoof-conflict-top": "O nomme \"$1\" o l'è troppo scimmile {{PLURAL:$2|a-o seguente nomme utente|a-i seguenti nommi utente}}:",
-	"antispoof-conflict-bottom": "Çerni un atro nomme.",
-	"antispoof-name-illegal": "O nomme utente \"$1\" o no l'è consentio, pe evitâ confuxon ò gazibbe: $2. Pe piaxei çerni un atro nomme.",
+	"antispoof-conflict-top": "O nomme utente \"$1\" o l'è troppo scimmile {{PLURAL:$2|a-o seguente nomme|a-i seguenti nommi}} utente:",
+	"antispoof-conflict-bottom": "Çerni un atro nomme utente.",
+	"antispoof-name-illegal": "O nomme utente \"$1\" o no l'è consentio, pe evitâ confuxon ò gazibbe: $2. Pe piaxei çerni un atro nomme utente.",
 	"antispoof-badtype": "Tipo de dæti errou",
 	"antispoof-empty": "Stringa vœua",
 	"antispoof-blacklisted": "O conten o carattere non consentio $1",
@@ -16,8 +16,9 @@
 	"antispoof-deprecated": "O conten o carattere deprecou $1",
 	"antispoof-noletters": "Assença de lettie",
 	"antispoof-mixedscripts": "Combinaçion de scistemi de scrittua non compatibbili",
-	"antispoof-tooshort": "Nomme in forma canonnega troppo curto",
+	"antispoof-tooshort": "Nomme normalizou troppo curto",
 	"antispoof-ignore": "Ignora i controlli pe spoofing",
 	"antispoof-ignore-help": "O consente a-i utenti con privileggi bastanti de creâ un'utença, sci ben che o so nomme o l'è scimmile a quello de 'n'atra za existente.",
+	"action-override-antispoof": "ignora i controlli anti-gazibba",
 	"right-override-antispoof": "Ignora i controlli anti-spoofing"
 }
