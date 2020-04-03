@@ -164,9 +164,10 @@ class SpoofUser {
 		}
 		$dbw->replace(
 			'spoofuser',
-			[ 'su_name' ],
+			'su_name',
 			$fields,
-			__METHOD__ );
+			__METHOD__
+		);
 		return true;
 	}
 
