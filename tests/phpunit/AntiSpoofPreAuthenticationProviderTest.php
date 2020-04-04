@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\Auth\AuthManager;
+use MediaWiki\MediaWikiServices;
 
 /**
  * @covers AntiSpoofPreAuthenticationProvider
@@ -13,7 +14,7 @@ class AntiSpoofPreAuthenticationProviderTest extends MediaWikiTestCase {
 	public function testGetAuthenticationRequests( $action, $params, $username, $expectedReqs ) {
 		$this->setMwGlobals( 'wgAntiSpoofAccounts', false );
 		$provider = new AntiSpoofPreAuthenticationProvider( $params );
-		$provider->setManager( AuthManager::singleton() );
+		$provider->setManager( MediaWikiServices::getInstance()->getAuthManager() );
 		$reqs = $provider->getAuthenticationRequests( $action, [ 'username' => $username ] );
 		$this->assertEquals( $expectedReqs, $reqs );
 	}
@@ -44,7 +45,7 @@ class AntiSpoofPreAuthenticationProviderTest extends MediaWikiTestCase {
 			->disableOriginalConstructor()->getMock();
 		$provider->expects( $this->any() )->method( 'getSpoofUser' )->willReturn( $spoofUser );
 		/** @var $provider \MediaWiki\Auth\PreAuthenticationProvider */
-		$provider->setManager( AuthManager::singleton() );
+		$provider->setManager( MediaWikiServices::getInstance()->getAuthManager() );
 		$provider->setLogger( new \Psr\Log\NullLogger() );
 
 		$spoofUser->expects( $this->any() )->method( 'isLegal' )->willReturn( $isLegal );
