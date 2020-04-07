@@ -1,17 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
+			"2nd-player",
+			"Afaz",
 			"Aotake",
 			"Fryed-peach",
 			"JtFuruhata",
 			"Mizusumashi",
 			"Muttley",
-			"Shirayuki",
-			"2nd-player",
-			"Takot",
 			"Otokoume",
-			"Yusuke1109",
-			"Afaz"
+			"Shirayuki",
+			"Takot",
+			"Yusuke1109"
 		]
 	},
 	"antispoof-desc": "文字体系が混在している利用者名、既存の利用者名と類似していて紛らわしい利用者名のアカウント作成をブロックする",

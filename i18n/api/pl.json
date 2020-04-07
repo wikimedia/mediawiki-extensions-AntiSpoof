@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Rail",
 			"Railfail536",
-			"Woytecr",
-			"Rail"
+			"Woytecr"
 		]
 	},
 	"apihelp-antispoof-description": "Sprawdź nazwę użytkownika według kryteriów AntiSpoof.",

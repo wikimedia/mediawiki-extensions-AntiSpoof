@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Albertas",
 			"Eitvys200",
 			"Garas",
 			"Homo",
 			"Ignas693",
-			"Perkunas",
-			"Albertas",
-			"Manvydasz"
+			"Manvydasz",
+			"Perkunas"
 		]
 	},
 	"antispoof-desc": "Blokuoja kūrimą paskyrų, turinčių maišyto scenarijaus, klaidinančius ar panašius naudotojų vardus",

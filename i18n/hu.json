@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bencemac",
 			"Dani",
 			"Dj",
-			"Tacsipacsi",
-			"Bencemac"
+			"Tacsipacsi"
 		]
 	},
 	"antispoof-desc": "Letiltja a kevert szövegű, zavaró és hasonló nevű felhasználói fiókok készítését",

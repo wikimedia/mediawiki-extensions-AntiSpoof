@@ -3,13 +3,13 @@
 		"authors": [
 			"AvatarTeam",
 			"Erwin",
-			"HanV",
-			"SPQRobin",
-			"Siebrand",
 			"Esketti",
-			"McDutchie",
+			"HanV",
 			"Mainframe98",
-			"Mar(c)"
+			"Mar(c)",
+			"McDutchie",
+			"SPQRobin",
+			"Siebrand"
 		]
 	},
 	"antispoof-desc": "Blokkeert het aanmaken van gebruikersnamen in meerdere schriften, en verwarrende en gelijkende gebruikersnamen",

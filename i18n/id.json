@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Arifin.wijaya",
 			"Bennylin",
 			"IvanLanin",
 			"Kenrick95",
 			"Meursault2004",
-			"Rex",
-			"Arifin.wijaya",
-			"Rachmat04"
+			"Rachmat04",
+			"Rex"
 		]
 	},
 	"antispoof-desc": "Menghalangi pembuatan akun dengan nama pengguna aksara campuran, membingungkan, dan yang mirip",

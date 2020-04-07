@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mashoi7",
-			"Ilja.mos"
+			"Ilja.mos",
+			"Mashoi7"
 		]
 	},
 	"antispoof-conflict-top": "Nimi \"$1\" on liijakse yhtenjyttyine {{PLURAL:$2|tämän nimenke|nämmien nimienke}}:",

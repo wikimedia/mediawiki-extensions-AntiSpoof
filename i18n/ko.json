@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jango",
 			"Klutzy",
 			"Kwj2772",
-			"ToePeu",
-			"아라",
 			"Revi",
+			"ToePeu",
 			"Ykhwong",
-			"Jango"
+			"아라"
 		]
 	},
 	"antispoof-desc": "여러 문자 체계를 섞은 이름이나, 혼동될 수 있고 비슷한 이름의 계정 만들기를 차단합니다",

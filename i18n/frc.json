@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"JeanVoisin",
-			"Hangmanwa7id"
+			"Hangmanwa7id",
+			"JeanVoisin"
 		]
 	},
 	"antispoof-name-illegal": "Le nom \"$1\" est pas permit pour empêcher de confondre ou d'user le nom \"$2\".  Choisissez donc un autre nom.",

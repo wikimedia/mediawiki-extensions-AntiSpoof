@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Crazy1880",
 			"Geitost",
 			"Kghbln",
 			"Metalhead64",
 			"Raimond Spekking",
-			"Umherirrender",
-			"Crazy1880"
+			"Umherirrender"
 		]
 	},
 	"antispoof-desc": "Verhindert die Erstellung von Benutzerkonten mit gemischten Zeichensätzen, verwirrenden und ähnlichen Benutzernamen",

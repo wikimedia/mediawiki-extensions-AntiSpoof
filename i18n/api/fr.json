@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Wladek92",
-			"Thibaut120094"
+			"Thibaut120094",
+			"Wladek92"
 		]
 	},
 	"apihelp-antispoof-description": "Vérifier un nom d’utilisateur d’après les contrôles de normalisation AntiSpoof.",

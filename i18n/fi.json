@@ -1,14 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"01miki10",
 			"Crt",
 			"Linnea",
 			"Nike",
+			"Pyscowicz",
 			"Samoasambia",
 			"Silvonen",
-			"Str4nd",
-			"Pyscowicz",
-			"01miki10"
+			"Str4nd"
 		]
 	},
 	"antispoof-desc": "Estää käyttäjätunnusten luonnin, jos ne sisältävät eri kirjoitusjärjestelmiä, harhaanjohtavia tai samankaltaisia käyttäjätunnuksia.",

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"antispoof-name-illegal": "ບໍ່ສາມາດອະນຸຍາດ ຊື່ \"$1\" ໄດ້ ເພີ່ມຫຼີກລ້ຽງ ການສັບສົນ ກັບ : $2. ກະລຸນາເລືອກຊື່ອື່ນ.",
 	"antispoof-badtype": "ປະເພດ ຂໍ້ມູນ ບໍ່ຖືກຕ້ອງ",
 	"antispoof-empty": "ບໍ່ມີໂຕໜັງສື",

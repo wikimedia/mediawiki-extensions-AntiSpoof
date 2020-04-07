@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"antispoof-desc": "يمنع إنشاء الحسابات بسكريبت مختلط، وبأسماء مشابهة ومربكة",
 	"antispoof-conflict-top": "الاسم \"$1\" شديد الشبه ب{{PLURAL:$2|الحساب الموجود|ال$2 حساب التالية}}:",
 	"antispoof-conflict-bottom": "من فضلك اختر اسما آخر.",

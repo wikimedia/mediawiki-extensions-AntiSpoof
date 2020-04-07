@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki",
-			"Dejavu"
+			"Dejavu",
+			"Shirayuki"
 		]
 	},
 	"antispoof-desc": "Blocks the creation of accounts with mixed-script, confusing and similar usernames",

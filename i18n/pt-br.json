@@ -1,19 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
+			"!Silent",
 			"Cainamarques",
 			"Caio1478",
+			"Dianakc",
+			"Eduardo Addad de Oliveira",
 			"Eduardo.mps",
+			"Felipe L. Ewald",
+			"He7d3r",
 			"Helder.wiki",
 			"Luckas",
 			"Rhaijin",
-			"555",
-			"He7d3r",
-			"Dianakc",
-			"!Silent",
 			"Trigonometria87",
-			"Felipe L. Ewald",
-			"Eduardo Addad de Oliveira"
+			555
 		]
 	},
 	"antispoof-desc": "Impede a criação de contas com escrita mista, e nomes de usuário confusos e semelhantes",

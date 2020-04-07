@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Alma",
-			"Toliño",
 			"Banjo",
-			"Elisardojm"
+			"Elisardojm",
+			"Toliño"
 		]
 	},
 	"antispoof-desc": "Bloquea a creación de contas con escrituras mesturadas, confusas ou con nomes de usuario similares",

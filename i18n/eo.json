@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tlustulimu",
-			"Yekrats",
 			"KuboF",
 			"Mirin",
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"Tlustulimu",
+			"Yekrats"
 		]
 	},
 	"antispoof-desc": "Blokas la kreadon de kontoj kun miksitaj alfabetaj, konfuzemaj, kaj similaj uzantnomoj",

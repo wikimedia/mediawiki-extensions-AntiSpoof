@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Danny B.",
+			"Dvorapa",
 			"Li-sung",
-			"Mormegil",
-			"Dvorapa"
+			"Mormegil"
 		]
 	},
 	"antispoof-desc": "Brání vytváření účtů, jejichž jména jsou matoucí, podobná jiným uživatelům, nebo kombinují několik druhů písem",

@@ -2,13 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Boivie",
+			"Jopparn",
 			"Lejonel",
 			"Lokal Profil",
 			"M.M.S.",
+			"Mjälten",
 			"Skalman",
-			"Jopparn",
-			"WikiPhoenix",
-			"Mjälten"
+			"WikiPhoenix"
 		]
 	},
 	"antispoof-desc": "Förhindrar registreringen av konton med förvirrande eller liknande namn samt användarnamn som innehåller blandade skriftsystem.",

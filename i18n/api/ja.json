@@ -3,9 +3,9 @@
 		"authors": [
 			"2nd-player",
 			"Otokoume",
+			"Shirayuki",
 			"Takot",
-			"Yusuke1109",
-			"Shirayuki"
+			"Yusuke1109"
 		]
 	},
 	"apihelp-antispoof-description": "利用者名が AntiSpoof の正規化チェックに反しているかどうかチェックする。",

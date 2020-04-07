@@ -2,12 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Arnaugir",
+			"Bombolla",
 			"Pginer",
 			"Qllach",
 			"SMP",
-			"Vriullop",
 			"Toniher",
-			"Bombolla"
+			"Vriullop"
 		]
 	},
 	"antispoof-desc": "Bloca la creació de comptes amb alfabets barrejats i noms d'usuari similars o que portin a confusió",
