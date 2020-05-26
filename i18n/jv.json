@@ -1,15 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"Diki Ananta",
 			"Meursault2004",
 			"NoiX180",
 			"Pras",
 			"Umherirrender"
 		]
 	},
-	"antispoof-desc": "Menggak nggawé akun utawa rékening mawa jeneng panganggo aksara campuran, mbingungaké lan sing mèmper",
+	"antispoof-desc": "Menggak nggawé akun utawa rékening mawa jeneng naraguna aksara campuran, mbingungaké lan sing mèmper",
 	"antispoof-conflict-top": "Jeneng \"$1\" mèmper banget karo {{PLURAL:$2|akun sing wis ana|$2 akun iki}}:",
-	"antispoof-conflict-bottom": "Sumangga pilih jeneng panganggo liyané.",
+	"antispoof-conflict-bottom": "Sumangga pilih jeneng naraguna liyané.",
 	"antispoof-name-illegal": "Jeneng \"$1\" ora diidinaké supaya wong ora bingung utawa menggak ngapi-api jeneng panganggo sing wis ana: $2.\nMangga pilihen jeneng liya.",
 	"antispoof-badtype": "Tipe data salah",
 	"antispoof-empty": "Data kosong",
