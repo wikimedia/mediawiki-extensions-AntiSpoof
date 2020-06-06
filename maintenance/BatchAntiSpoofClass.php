@@ -16,6 +16,8 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
+use MediaWiki\MediaWikiServices;
+
 $IP = getenv( 'MW_INSTALL_PATH' );
 if ( $IP === false ) {
 	$IP = __DIR__ . '/../../..';
@@ -70,10 +72,6 @@ class BatchAntiSpoof extends Maintenance {
 		return new SpoofUser( $name );
 	}
 
-	protected function waitForSlaves() {
-		wfWaitForSlaves();
-	}
-
 	/**
 	 * Do the actual work. All child classes will need to implement this
 	 */
@@ -88,6 +86,8 @@ class BatchAntiSpoof extends Maintenance {
 		);
 		$iterator->setFetchColumns( [ $userCol ] );
 
+		$lbFactory = MediaWikiServices::getInstance()->getDBLoadBalancerFactory();
+
 		$n = 0;
 		foreach ( $iterator as $batch ) {
 			$items = [];
@@ -98,7 +98,7 @@ class BatchAntiSpoof extends Maintenance {
 			$n += count( $items );
 			$this->output( "...$n\n" );
 			$this->batchRecord( $items );
-			$this->waitForSlaves();
+			$lbFactory->waitForReplication();
 		}
 
 		$this->output( "$n user(s) done.\n" );
