@@ -188,7 +188,8 @@ class SpoofUser {
 						$method
 					);
 				}
-			}
+			},
+			$method
 		);
 	}
 
