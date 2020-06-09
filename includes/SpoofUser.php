@@ -101,7 +101,7 @@ class SpoofUser {
 	 * @return array empty if no conflict, or array containing conflicting usernames
 	 */
 	public function getConflicts() {
-		$dbr = $this->getDBSlave();
+		$dbr = $this->getDBReplica();
 
 		// Join against the user table to ensure that we skip stray
 		// entries left after an account is renamed or otherwise munged.
@@ -207,7 +207,7 @@ class SpoofUser {
 	/**
 	 * @return IDatabase
 	 */
-	protected function getDBSlave() {
+	protected function getDBReplica() {
 		return wfGetDB( DB_REPLICA );
 	}
 
