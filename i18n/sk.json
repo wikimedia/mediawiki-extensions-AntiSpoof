@@ -20,6 +20,7 @@
 	"antispoof-mixedscripts": "Obsahuje nekompatibilné zmiešané písma",
 	"antispoof-tooshort": "Meno prevedené do kanonického tvaru je príliš krátke",
 	"antispoof-ignore": "Ignorovať kontroly klamania",
+	"antispoof-ignore-help": "Povolí používateľom s dostatočnými oprávneniami vytvoriť účet, aj keď je jeho názov podobný názvu už jestvujúceho účtu.",
 	"action-override-antispoof": "prekonať kontroly klamania",
 	"right-override-antispoof": "Prekonať kontroly klamania"
 }
