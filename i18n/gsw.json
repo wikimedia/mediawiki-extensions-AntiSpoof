@@ -1,8 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
-			"Als-Holder",
-			"Hendergassler"
+			"Als-Holder"
 		]
 	},
 	"antispoof-desc": "Verhinderet s Aalege vu Benutzerkonte mit gmischlete Zeichesätz, Benutzernäme wu verwirre oder ähnligs",
