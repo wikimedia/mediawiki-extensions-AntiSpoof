@@ -19,6 +19,7 @@
 use MediaWiki\Auth\AbstractPreAuthenticationProvider;
 use MediaWiki\Auth\AuthenticationRequest;
 use MediaWiki\Auth\AuthManager;
+use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\User\UserIdentity;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
@@ -27,17 +28,21 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 	/** @var bool False effectively disables this provider, but spoofed names will still be logged. */
 	protected $antiSpoofAccounts;
 
+	/** @var PermissionManager */
+	private $permissionManager;
+
 	/**
-	 * Options:
+	 * @param PermissionManager $permissionManager
+	 * @param array $params Options:
 	 * - antiSpoofAccounts: (bool) stop spoofed accounts from being created. When false, only log.
-	 * @param array $params
 	 */
-	public function __construct( array $params = [] ) {
+	public function __construct( PermissionManager $permissionManager, array $params = [] ) {
 		global $wgAntiSpoofAccounts;
 
 		$params += [ 'antiSpoofAccounts' => $wgAntiSpoofAccounts ];
 
 		$this->antiSpoofAccounts = $params['antiSpoofAccounts'];
+		$this->permissionManager = $permissionManager;
 	}
 
 	public function getAuthenticationRequests( $action, array $options ) {
@@ -45,7 +50,8 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 		switch ( $action ) {
 			case AuthManager::ACTION_CREATE:
 				$user = User::newFromName( $options['username'] ) ?: new User();
-				$needed = $this->antiSpoofAccounts && $user->isAllowed( 'override-antispoof' );
+				$needed = $this->antiSpoofAccounts
+					&& $this->permissionManager->userHasAnyRight( $user, 'override-antispoof' );
 				break;
 		}
 
@@ -120,7 +126,7 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 		// For "cancreate" checks via the API, test if the current user could
 		// create the username.
 		if ( $this->antiSpoofAccounts && !$autocreate && empty( $options['creating'] ) &&
-			!RequestContext::getMain()->getUser()->isAllowed( 'override-antispoof' )
+			$this->permissionManager->userHasAnyRight( RequestContext::getMain()->getUser(), 'override-antispoof' )
 		) {
 			$sv->merge( $this->testUserInternal( $user, false, new NullLogger ) );
 		}
