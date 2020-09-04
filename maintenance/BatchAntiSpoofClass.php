@@ -85,6 +85,7 @@ class BatchAntiSpoof extends Maintenance {
 			$this->getBatchSize()
 		);
 		$iterator->setFetchColumns( [ $userCol ] );
+		$iterator->setCaller( __METHOD__ );
 
 		$lbFactory = MediaWikiServices::getInstance()->getDBLoadBalancerFactory();
 
