@@ -13,7 +13,10 @@ class AntiSpoofPreAuthenticationProviderTest extends MediaWikiTestCase {
 	 */
 	public function testGetAuthenticationRequests( $action, $params, $username, $expectedReqs ) {
 		$this->setMwGlobals( 'wgAntiSpoofAccounts', false );
-		$provider = new AntiSpoofPreAuthenticationProvider( $params );
+		$provider = new AntiSpoofPreAuthenticationProvider(
+			MediaWikiServices::getInstance()->getPermissionManager(),
+			$params
+		);
 		$provider->setManager( MediaWikiServices::getInstance()->getAuthManager() );
 		$reqs = $provider->getAuthenticationRequests( $action, [ 'username' => $username ] );
 		$this->assertEquals( $expectedReqs, $reqs );
@@ -39,7 +42,10 @@ class AntiSpoofPreAuthenticationProviderTest extends MediaWikiTestCase {
 		$enabled, $isLegal, $conflicts, $creator, $reqs, $error
 	) {
 		$provider = $this->getMockBuilder( AntiSpoofPreAuthenticationProvider::class )
-			->setConstructorArgs( [ [ 'antiSpoofAccounts' => $enabled ] ] )
+			->setConstructorArgs( [
+				MediaWikiServices::getInstance()->getPermissionManager(),
+				[ 'antiSpoofAccounts' => $enabled ]
+			] )
 			->setMethods( [ 'getSpoofUser' ] )->getMock();
 		$spoofUser = $this->getMockBuilder( SpoofUser::class )
 			->disableOriginalConstructor()->getMock();
