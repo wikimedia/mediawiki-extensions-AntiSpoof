@@ -60,9 +60,13 @@ class ApiAntiSpoof extends ApiBase {
 				$res->addValue( [ $this->getModuleName() ], 'users', $conflicts );
 			}
 		} else {
-			$error = $spoof->getError();
+			$errorStatus = $spoof->getErrorStatus();
 			$res->addValue( 'antispoof', 'result', 'error' );
-			$res->addValue( 'antispoof', 'error', $error );
+			$res->addValue(
+				'antispoof',
+				'error',
+				$errorStatus->getMessage( false, false, $this->getLanguage() )->text()
+			);
 		}
 	}
 
