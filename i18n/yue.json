@@ -23,5 +23,6 @@
 	"antispoof-tooshort": "標準化之後嘅名太短",
 	"antispoof-ignore": "略過欺詐檢查",
 	"antispoof-ignore-help": "畀有特定權限嘅用戶去開同現有戶口個名相似嘅新戶口。",
+	"action-override-antispoof": "無視欺詐檢查",
 	"right-override-antispoof": "無視欺詐檢查"
 }
