@@ -21,5 +21,8 @@
 	"antispoof-noletters": "Inniheldur enga stafi",
 	"antispoof-mixedscripts": "Inniheldur ósamhæfðar blandskriftur",
 	"antispoof-tooshort": "Staðlað nafn er of stutt",
-	"antispoof-ignore": "Hunsa eftirlit með misnotkun"
+	"antispoof-ignore": "Hunsa eftirlit með misnotkun",
+	"antispoof-ignore-help": "Leyfir notendum með nægjanleg réttindi að búa til að gang þó nafnið sé svipað fyrirliggjandi aðgang",
+	"action-override-antispoof": "hunsa misnotkunar athuganir",
+	"right-override-antispoof": "Hunsa misnotkunar athuganir"
 }
