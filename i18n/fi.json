@@ -4,6 +4,7 @@
 			"01miki10",
 			"Crt",
 			"Linnea",
+			"Majavah",
 			"Nike",
 			"Pyscowicz",
 			"Samoasambia",
@@ -25,5 +26,6 @@
 	"antispoof-mixedscripts": "se sisältää yhteensopimattomia kirjoitusjärjestelmiä",
 	"antispoof-tooshort": "Normalisoitu nimi liian lyhyt",
 	"antispoof-ignore": "Älä käytä hämäävien tunnusten tarkistusta",
+	"action-override-antispoof": "ohittaa tarkastukset samankaltaisista tai epäilyttävistä käyttäjänimistä",
 	"right-override-antispoof": "Ohittaa tarkastukset samankaltaisista tai epäilyttävistä käyttäjänimistä"
 }
