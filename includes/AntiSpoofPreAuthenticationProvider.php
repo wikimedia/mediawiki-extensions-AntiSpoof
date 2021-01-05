@@ -63,7 +63,7 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 		$req = AuthenticationRequest::getRequestByClass( $reqs, AntiSpoofAuthenticationRequest::class );
 		$override = $req && $req->ignoreAntiSpoof && $creator->isAllowed( 'override-antispoof' );
 
-		return self::testUserInternal( $user, $override, $this->logger );
+		return $this->testUserInternal( $user, $override, $this->logger );
 	}
 
 	private function testUserInternal( UserIdentity $user, $override, LoggerInterface $logger ) {
