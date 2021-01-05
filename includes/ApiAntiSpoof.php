@@ -70,6 +70,7 @@ class ApiAntiSpoof extends ApiBase {
 		}
 	}
 
+	/** @inheritDoc */
 	public function getAllowedParams() {
 		return [
 			'username' => [

@@ -46,6 +46,7 @@ class AntiSpoof {
 	 * NB: All scripts described by the Unicode Consortium as "Other Scripts" or "Ancient Scripts"
 	 * are commented out: these are either not in modern use, or only used for specialized
 	 * religious purposes, or only of literary interest
+	 * @var array[]
 	 */
 	private static $script_ranges = [
 		[ 0x0020, 0x002F,
@@ -148,6 +149,9 @@ class AntiSpoof {
 	 */
 	private static $equivset;
 
+	/**
+	 * @return Equivset
+	 */
 	public static function getEquivSet() {
 		if ( !self::$equivset ) {
 			self::$equivset = new Equivset();
@@ -263,7 +267,7 @@ class AntiSpoof {
 		return $out;
 	}
 
-	/*
+	/**
 	 * Helper function for checkUnicodeStringStatus: Return an error on a bad character.
 	 * @todo I would like to show Unicode character name, but it is not clear how to get it.
 	 * @param string $msgId message identifier.
