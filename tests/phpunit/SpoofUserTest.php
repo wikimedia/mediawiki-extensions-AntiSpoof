@@ -6,8 +6,10 @@
  */
 class SpoofUserTest extends MediaWikiTestCase {
 
+	/** @inheritDoc */
 	protected $tablesUsed = [ 'user', 'spoofuser' ];
 
+	/** @var string[] */
 	private static $usernames = [
 		'UserFoo',
 		'UserF00',

@@ -45,6 +45,7 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 		$this->permissionManager = $permissionManager;
 	}
 
+	/** @inheritDoc */
 	public function getAuthenticationRequests( $action, array $options ) {
 		$needed = false;
 		switch ( $action ) {
@@ -58,6 +59,7 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 		return $needed ? [ new AntiSpoofAuthenticationRequest() ] : [];
 	}
 
+	/** @inheritDoc */
 	public function testForAccountCreation( $user, $creator, array $reqs ) {
 		/** @var AntiSpoofAuthenticationRequest $req */
 		$req = AuthenticationRequest::getRequestByClass( $reqs, AntiSpoofAuthenticationRequest::class );
@@ -66,6 +68,12 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 		return $this->testUserInternal( $user, $override, $this->logger );
 	}
 
+	/**
+	 * @param UserIdentity $user
+	 * @param bool $override
+	 * @param LoggerInterface $logger
+	 * @return StatusValue
+	 */
 	private function testUserInternal( UserIdentity $user, $override, LoggerInterface $logger ) {
 		$spoofUser = $this->getSpoofUser( $user );
 		$mode = !$this->antiSpoofAccounts ? 'LOGGING ' : ( $override ? 'OVERRIDE ' : '' );
@@ -120,6 +128,7 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 		return StatusValue::newGood();
 	}
 
+	/** @inheritDoc */
 	public function testUserForCreation( $user, $autocreate, array $options = [] ) {
 		$sv = StatusValue::newGood();
 
