@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Dejavu",
+			"Samwilson",
 			"Shirayuki"
 		]
 	},
@@ -17,7 +18,7 @@
 	"antispoof-deprecated": "Contains deprecated character $1",
 	"antispoof-noletters": "Does not contain any letters",
 	"antispoof-mixedscripts": "Contains incompatible mixed scripts",
-	"antispoof-tooshort": "Canonicalised name too short",
+	"antispoof-tooshort": "Normalised name too short",
 	"antispoof-ignore": "Ignore spoofing checks",
 	"antispoof-ignore-help": "Allows users with sufficient privileges to create an account even if its name is similar to that of an existing account.",
 	"right-override-antispoof": "Override the spoofing checks"
