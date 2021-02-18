@@ -27,14 +27,14 @@ class AntiSpoofTest extends MediaWikiTestCase {
 	 *
 	 * @dataProvider providePositives
 	 */
-	public function testCheckUnicodeString( $userName, $spooferName ) {
-		$a = AntiSpoof::checkUnicodeString( $userName );
-		$b = AntiSpoof::checkUnicodeString( $spooferName );
+	public function testCheckUnicodeStringStatus( $userName, $spooferName ) {
+		$a = AntiSpoof::checkUnicodeStringStatus( $userName );
+		$b = AntiSpoof::checkUnicodeStringStatus( $spooferName );
 
-		$this->assertEquals( 'OK', $a[0] );
-		$this->assertEquals( 'OK', $b[0] );
+		$this->assertTrue( $a->isOK() );
+		$this->assertTrue( $b->isOK() );
 
-		$this->assertEquals( $a[1], $b[1] );
+		$this->assertEquals( $a->getValue(), $b->getValue() );
 	}
 
 	public function provideMixedCharSets() {
@@ -50,12 +50,12 @@ class AntiSpoofTest extends MediaWikiTestCase {
 	 *
 	 * @dataProvider provideMixedCharSets
 	 */
-	 public function testCheckStringMixedCharSetFailure( $userName, $spooferName ) {
-		 $a = AntiSpoof::checkUnicodeString( $userName );
-		 $b = AntiSpoof::checkUnicodeString( $spooferName );
+	public function testCheckStringMixedCharSetFailure( $userName, $spooferName ) {
+		$a = AntiSpoof::checkUnicodeStringStatus( $userName );
+		$b = AntiSpoof::checkUnicodeStringStatus( $spooferName );
 
-		 $this->assertEquals( 'OK', $a[0] );
-		 $this->assertEquals( 'ERROR', $b[0] );
-		 $this->assertEquals( 'Contains incompatible mixed scripts', $b[1] );
-	 }
+		$this->assertTrue( $a->isOK() );
+		$this->assertFalse( $b->isOK() );
+		$this->assertTrue( $b->hasMessage( 'antispoof-mixedscripts' ) );
+	}
 }

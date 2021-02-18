@@ -363,19 +363,6 @@ class AntiSpoof {
 	}
 
 	/**
-	 * @param string $testName
-	 * @return array
-	 * @deprecated 1.35 Use checkUnicodeStringStatus instead
-	 */
-	public static function checkUnicodeString( $testName ) {
-		$status = self::checkUnicodeStringStatus( $testName );
-		if ( $status->isOK() ) {
-			return [ "OK", $status->getValue() ];
-		}
-		return [ "ERROR", $status->getMessage()->text() ];
-	}
-
-	/**
 	 * TODO: does too much in one routine, refactor...
 	 * @param string $testName
 	 * @return Status
