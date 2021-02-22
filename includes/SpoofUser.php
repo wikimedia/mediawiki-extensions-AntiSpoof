@@ -57,15 +57,6 @@ class SpoofUser {
 
 	/**
 	 * Describe the error.
-	 * @return null|string
-	 * @deprecated 1.32 Use getErrorStatus instead
-	 */
-	public function getError() {
-		return $this->error ? $this->error->getMessage()->text() : null;
-	}
-
-	/**
-	 * Describe the error.
 	 * @return null|Status
 	 * @since 1.32
 	 */
