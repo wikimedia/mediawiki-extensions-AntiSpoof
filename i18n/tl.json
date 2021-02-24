@@ -8,7 +8,7 @@
 		]
 	},
 	"antispoof-desc": "Humaharang sa paglikha ng mga kuwentang may pinaghalong panitik, nakakalito at magkakatulad na mga pangalan ng tagagamit",
-	"antispoof-conflict-top": "Ang pangalang \"$1\" labis na magkatulad sa {{PLURAL:$2|sumusunod na account|mga sumusunod na account}}:",
+	"antispoof-conflict-top": "Labis na magkatulad ang pangalang \"$1\" sa sumusunod na account:",
 	"antispoof-conflict-bottom": "Mangyaring pumili lamang ng iba pang pangalan.",
 	"antispoof-name-illegal": "Hindi pinapayagan ang pangalang \"$1\" upang maiwasan ang nakalilito o mapanlilang na mga pangalan ng tagagamit: $2.\nMangyaring pumili ng iba pang pangalan.",
 	"antispoof-bad-char": "\"$1\" ($2)",
