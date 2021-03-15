@@ -10,7 +10,7 @@
 	},
 	"antispoof-desc": "Blokira pravljenje računa sa miješanim slovima, zbunjujućim i sličnim korisničkim imenima",
 	"antispoof-conflict-top": "Korisničko ime \"$1\" previše je slično {{PLURAL:$2|sljedećem korisničkom imenu|sljedećim korisničkim imenima}}:",
-	"antispoof-conflict-bottom": "Izaberite drugo korisničko ime.",
+	"antispoof-conflict-bottom": "Izaberite drugo.",
 	"antispoof-name-illegal": "Korisničko ime \"$1\" nije dozvoljeno da bi se izbjegla zbunjujuća ili lažirana korisnička imena:\n$2.\nIzaberite drugo korisničko ime.",
 	"antispoof-badtype": "Pogrešna vrsta podataka",
 	"antispoof-empty": "Prazan unos",
