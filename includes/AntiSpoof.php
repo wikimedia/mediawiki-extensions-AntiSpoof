@@ -369,11 +369,11 @@ class AntiSpoof {
 	 * @since 1.32
 	 */
 	public static function checkUnicodeStringStatus( $testName ) {
-		global $wgAntiSpoofBlacklist;
+		global $wgAntiSpoofProhibitedCharacters;
 
 		// Start with some sanity checking
-		if ( !is_array( $wgAntiSpoofBlacklist ) ) {
-			throw new MWException( '$wgAntiSpoofBlacklist should be an array!' );
+		if ( !is_array( $wgAntiSpoofProhibitedCharacters ) ) {
+			throw new MWException( '$wgAntiSpoofProhibitedCharacters should be an array!' );
 		}
 		if ( !is_string( $testName ) ) {
 			return Status::newFatal( 'antispoof-badtype' );
@@ -384,8 +384,8 @@ class AntiSpoof {
 		}
 
 		foreach ( self::stringToList( $testName ) as $char ) {
-			if ( in_array( $char, $wgAntiSpoofBlacklist ) ) {
-				return self::badCharErr( 'antispoof-blacklisted', $char );
+			if ( in_array( $char, $wgAntiSpoofProhibitedCharacters ) ) {
+				return self::badCharErr( 'antispoof-prohibited', $char );
 			}
 		}
 
@@ -395,8 +395,8 @@ class AntiSpoof {
 
 		// Be paranoid: check again, just in case Unicode normalization code changes...
 		foreach ( $testChars as $char ) {
-			if ( in_array( $char, $wgAntiSpoofBlacklist ) ) {
-				return self::badCharErr( 'antispoof-blacklisted', $char );
+			if ( in_array( $char, $wgAntiSpoofProhibitedCharacters ) ) {
+				return self::badCharErr( 'antispoof-prohibited', $char );
 			}
 		}
 

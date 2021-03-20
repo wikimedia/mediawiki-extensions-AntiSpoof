@@ -16,7 +16,7 @@
 	"antispoof-bad-char-non-printable": "$1",
 	"antispoof-badtype": "Bad data type",
 	"antispoof-empty": "Empty string",
-	"antispoof-blacklisted": "Contains blacklisted character $1",
+	"antispoof-prohibited": "Contains prohibited character $1",
 	"antispoof-combining": "Begins with combining mark $1",
 	"antispoof-unassigned": "Contains unassigned character $1",
 	"antispoof-deprecated": "Contains deprecated character $1",

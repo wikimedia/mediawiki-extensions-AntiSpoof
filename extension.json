@@ -63,7 +63,7 @@
 			"value": true,
 			"public": true
 		},
-		"AntiSpoofBlacklist": {
+		"AntiSpoofProhibitedCharacters": {
 			"description": "List of characters prohibited from use in your wiki.",
 			"value": [
 				"\u0337",
