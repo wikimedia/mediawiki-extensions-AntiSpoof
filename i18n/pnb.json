@@ -11,7 +11,7 @@
 	"antispoof-name-illegal": "اس ناں \"$1\" توں ورتن ناں نئیں بنایا جا سکدا کیونجے انجان تے مزاحیہ دے اتے روک اے: $2\nمہربانی کر کے کوئی دوجا ناں چنو۔",
 	"antispoof-badtype": "ڈیٹا ٹھیک نیں",
 	"antispoof-empty": "خالی سلسلہ",
-	"antispoof-blacklisted": "ایہدے وچ بنا اجازت والیاں چیزاں نیں۔",
+	"antispoof-prohibited": "ایہدے وچ بنا اجازت والیاں چیزاں نیں۔",
 	"antispoof-combining": "جوڑن والے نشان نال ٹردا اے $1",
 	"antispoof-unassigned": "ایہدے کج کیریکٹر فیک نیں $1",
 	"antispoof-noletters": "ایہدے وچ کوئی اکرا نئیں۔",

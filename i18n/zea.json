@@ -9,7 +9,7 @@
 	"antispoof-name-illegal": "De naem \"$1\" is nie toehestaen om verwarrieng of gefinheerde gebrukersnaemen te voorkomm'n: $2. Kies asjeblieft een aore naem.",
 	"antispoof-badtype": "Verkeêrd datatype",
 	"antispoof-empty": "Lehe strieng",
-	"antispoof-blacklisted": "Bevat verbood'n karakter",
+	"antispoof-prohibited": "Bevat verbood'n karakter",
 	"antispoof-combining": "Behun mie een hecombineerd merkteêken",
 	"antispoof-unassigned": "Bevat nie toehewezen of verouwerd karakter",
 	"antispoof-noletters": "Bevat hin letters",

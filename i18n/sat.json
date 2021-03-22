@@ -14,7 +14,7 @@
 	"antispoof-name-illegal": "ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ \"$1\" ᱫᱚ ᱫᱚᱦᱟᱵᱚᱦᱟ ᱟᱨᱵᱟᱝ ᱰᱤᱸᱜᱚᱨ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ: $2 ᱵᱟᱭ ᱚᱪᱚᱜ ᱚᱪᱚᱣᱟᱜᱼᱟ ᱾\nᱫᱟᱭᱟᱠᱟᱛᱮ ᱮᱴᱟᱜ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ ᱵᱟᱪᱷᱟᱣᱢᱮ ᱾",
 	"antispoof-badtype": "ᱵᱟᱹᱲᱤᱪ ᱰᱟᱴᱟ ᱞᱮᱠᱟᱱ",
 	"antispoof-empty": "ᱮᱠᱮᱱ ᱜᱷᱩᱨᱟᱹ",
-	"antispoof-blacklisted": "$1 ᱵᱮᱜᱚᱨ ᱥᱟᱹᱢᱩᱱ ᱠᱮᱨᱮᱠᱴᱟᱨ ᱢᱮᱱᱟᱜ",
+	"antispoof-prohibited": "$1 ᱵᱮᱜᱚᱨ ᱥᱟᱹᱢᱩᱱ ᱠᱮᱨᱮᱠᱴᱟᱨ ᱢᱮᱱᱟᱜ",
 	"antispoof-combining": "ᱡᱚᱲᱟ ᱪᱤᱱᱦᱟᱹ $1 ᱥᱟᱶ ᱮᱦᱚᱵᱚᱜᱼᱟ",
 	"antispoof-unassigned": "$1 ᱵᱟᱝ ᱜᱟᱱᱚᱜ ᱠᱮᱨᱮᱠᱴᱟᱨ ᱢᱮᱱᱟᱜ",
 	"antispoof-deprecated": "ᱵᱟᱝ ᱜᱟᱱᱚᱜ ᱠᱟᱨᱮᱠᱴᱟᱨ $1 ᱢᱮᱱᱟᱜᱼᱟ",

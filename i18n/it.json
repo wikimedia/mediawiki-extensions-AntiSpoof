@@ -16,7 +16,7 @@
 	"antispoof-name-illegal": "Il nome utente \"$1\" non è consentito, per evitare confusione o utilizzi fraudolenti: $2. Scegli un altro nome utente.",
 	"antispoof-badtype": "Tipo di dati errato",
 	"antispoof-empty": "Stringa vuota",
-	"antispoof-blacklisted": "Contiene il carattere non consentito $1",
+	"antispoof-prohibited": "Contiene il carattere non consentito $1",
 	"antispoof-combining": "Inizia con la combinazione di caratteri $1",
 	"antispoof-unassigned": "Contiene il carattere non assegnato $1",
 	"antispoof-deprecated": "Contiene il carattere deprecato $1",

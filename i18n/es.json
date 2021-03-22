@@ -26,7 +26,7 @@
 	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Tipo de dato erróneo",
 	"antispoof-empty": "Texto vacío",
-	"antispoof-blacklisted": "Contiene el carácter no permitido $1",
+	"antispoof-prohibited": "Contiene el carácter no permitido $1",
 	"antispoof-combining": "Comienza por la marca de combinación $1",
 	"antispoof-unassigned": "Contiene el carácter sin asignar $1",
 	"antispoof-deprecated": "Contiene el carácter desaconsejado $1",

@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "Ulanyjy atlarynyň  garjaşmagynyň ýa-da bulaşdyrylmagynyň öňüni almak \"$1\" adyna rugsat berilmeýär: $2. Başga bir ulanyjy adyny saýlaň.",
 	"antispoof-badtype": "Näsaz maglumat tipi",
 	"antispoof-empty": "Boş setir",
-	"antispoof-blacklisted": "Gara sanawa goşulan simwoly öz içine alýar",
+	"antispoof-prohibited": "Gara sanawa goşulan simwoly öz içine alýar",
 	"antispoof-combining": "Birleşdiriş belligi bilen başlaýar",
 	"antispoof-unassigned": "Bellenilmedik ýa-da tassyklanmadyk simwoly öz içine alýar",
 	"antispoof-noletters": "Hiç hili harpy ýok",

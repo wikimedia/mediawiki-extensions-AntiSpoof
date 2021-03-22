@@ -14,7 +14,7 @@
 	"antispoof-bad-char": "„$1“ ($2)",
 	"antispoof-badtype": "Pogrešna vrsta podataka",
 	"antispoof-empty": "Prazna niska",
-	"antispoof-blacklisted": "Sadrži zabranjeni znak $1",
+	"antispoof-prohibited": "Sadrži zabranjeni znak $1",
 	"antispoof-combining": "Počinje sa sastavnim znakom $1",
 	"antispoof-unassigned": "Sadrži nedodeljen znak $1",
 	"antispoof-deprecated": "Sadrži zastareli znak $1",

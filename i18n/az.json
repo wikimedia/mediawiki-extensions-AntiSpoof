@@ -11,7 +11,7 @@
 	"antispoof-name-illegal": "$2 hesabıyla qarışmaması üçün \"$1\" adına icazə verilmir. Zəhmət olmasa başqa istifadəçi adını seçin.",
 	"antispoof-badtype": "Yanlış məlumat",
 	"antispoof-empty": "Boş sətir",
-	"antispoof-blacklisted": "Qadağan olunmuş simvol istifadə edilib: $1",
+	"antispoof-prohibited": "Qadağan olunmuş simvol istifadə edilib: $1",
 	"antispoof-combining": "$1 birləşdirmə işarəsi ilə başlayır",
 	"antispoof-unassigned": "Dəstəklənməyən simvol istifadə edilib: $1",
 	"antispoof-noletters": "Heç bir hərf yoxdur",

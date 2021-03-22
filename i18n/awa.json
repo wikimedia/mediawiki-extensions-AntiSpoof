@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "भ्रामक नाँव कय रोकेक लिए नाँव \"$1\" राखब मिनाही है: $2\nकृपया कवनो दुसर नाँव लिहा जाय।",
 	"antispoof-badtype": "गलत डाटा प्रकार",
 	"antispoof-empty": "खाली स्ट्रिंग",
-	"antispoof-blacklisted": "एहमा ब्लैकलिस्टेड कैरैक्टर $1 है",
+	"antispoof-prohibited": "एहमा ब्लैकलिस्टेड कैरैक्टर $1 है",
 	"antispoof-combining": "एकत्रिकरण चिन्ह $1 से शुरु होत है",
 	"antispoof-unassigned": "एहमा गलत अक्षर $1 है",
 	"antispoof-deprecated": "एहमा गलत अक्षर $1 है",

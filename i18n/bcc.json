@@ -11,7 +11,7 @@
 	"antispoof-name-illegal": "نام \"$1\" مجاز په بوتن په خاطر جلوگرگ چه پیچیدگین نام شرکتن نهنت$2.\nلطفا یک دگه نامی انتخاب کنیت.",
 	"antispoof-badtype": "بدین نوع دیتا",
 	"antispoof-empty": "رشتگ حالیکین",
-	"antispoof-blacklisted": "ائ بلک لیستء کرکتر توکا انت $1",
+	"antispoof-prohibited": "ائ بلک لیستء کرکتر توکا انت $1",
 	"antispoof-combining": "بنگیج بیت گون جمعی علامت $1",
 	"antispoof-unassigned": "ائ نامالومین یانکه نالوٹین کرکتر توکا انت",
 	"antispoof-deprecated": "ائ نالوٹین کرکترء توکا انت $1",

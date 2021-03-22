@@ -11,7 +11,7 @@
 	"antispoof-bad-char": "„$1“ ($2)",
 	"antispoof-badtype": "Verkierte Zoot Date",
 	"antispoof-empty": "En dem Feld is nix dren",
-	"antispoof-blacklisted": "Do es dat Zeiche „$1“ dren, wat nit zojelohße es",
+	"antispoof-prohibited": "Do es dat Zeiche „$1“ dren, wat nit zojelohße es",
 	"antispoof-combining": "Dat fängk med däm kombineerende Zeiche „$1“ aan.",
 	"antispoof-unassigned": "Do es dat Zeiche „$1“ dren, wat nit zojedeild es",
 	"antispoof-deprecated": "Do es dat Zeiche „$1“ dren, wat nit jään jesinn es",

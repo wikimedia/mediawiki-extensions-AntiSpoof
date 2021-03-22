@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "نام «$1» به دلیل جلوگیری از نام‌های کاربری سردرگم‌کننده یا جعلی مجاز نیست: $2. لطفاً نام دیگری انتخاب کنید.",
 	"antispoof-badtype": "داده با نوع نامناسب",
 	"antispoof-empty": "رشتهٔ خالی",
-	"antispoof-blacklisted": "حاوی نویسهٔ $1 است که در فهرست سیاه قرار دارد",
+	"antispoof-prohibited": "حاوی نویسهٔ $1 است که در فهرست سیاه قرار دارد",
 	"antispoof-combining": "با علامت جمع $1 شروع می‌شود",
 	"antispoof-unassigned": "دارای نویسه‌های تعیین‌نشده یا نامناسب است$1",
 	"antispoof-deprecated": "شامل نویسهٔ بد $1",

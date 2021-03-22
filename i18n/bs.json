@@ -14,7 +14,7 @@
 	"antispoof-name-illegal": "Korisničko ime \"$1\" nije dozvoljeno da bi se izbjegla zbunjujuća ili lažirana korisnička imena:\n$2.\nIzaberite drugo korisničko ime.",
 	"antispoof-badtype": "Pogrešna vrsta podataka",
 	"antispoof-empty": "Prazan unos",
-	"antispoof-blacklisted": "Sadrži nepoželjni znak $1",
+	"antispoof-prohibited": "Sadrži nepoželjni znak $1",
 	"antispoof-combining": "Počinje sa znakom kombinacije $1",
 	"antispoof-unassigned": "Sadrži nedodijeljeni znak $1",
 	"antispoof-deprecated": "Sadrži zastarjeli znak $1",

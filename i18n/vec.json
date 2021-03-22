@@ -11,7 +11,7 @@
 	"antispoof-name-illegal": "El nome \"$1\" no'l xe mìa permesso, par evitar confusion o utilizi fraudolenti: $2.\nSiegli n'altro nome, par piaser.",
 	"antispoof-badtype": "Tipo de dati mìa giusto.",
 	"antispoof-empty": "Stringa voda",
-	"antispoof-blacklisted": "Contien el caratere mìa consentio $1",
+	"antispoof-prohibited": "Contien el caratere mìa consentio $1",
 	"antispoof-combining": "Scuminsia có ła conbinasion de carateri $1",
 	"antispoof-unassigned": "Contien el caratere nó asegnà $1",
 	"antispoof-deprecated": "Contien el caratere deprecà $1",

@@ -12,7 +12,7 @@
 	"antispoof-name-illegal": "ව්‍යාකූල පරිශීලක නම් වැළැක්වීම සඳහා \"$1\" යන නමට අවසර දිය නොහැකිය: $2.",
 	"antispoof-badtype": "අවලංගු දත්ත වර්ගයකි",
 	"antispoof-empty": "හිස් ස්ට්‍රිංඑකකි",
-	"antispoof-blacklisted": "$1 අපලේඛනගත සංකේතය අඩංගු වේ",
+	"antispoof-prohibited": "$1 අපලේඛනගත සංකේතය අඩංගු වේ",
 	"antispoof-combining": "$1 ඒකාබද්ධ සලකුණෙන් ආරම්භ වේ",
 	"antispoof-unassigned": "නොපවරන ලද $1 අක්ෂරය අඩංගු වේ",
 	"antispoof-deprecated": "$1 රැවටිලි සහිත අක්ෂරය අඩංගුයි",

@@ -13,7 +13,7 @@
 	"antispoof-name-illegal": "Lu nomu \"$1\" nun è cunzintutu, pi scanzari cunfusioni o scancî di pirsuna: $2.\nPi favuri scegghi n'àutru nomu.",
 	"antispoof-badtype": "Tipu di dati erratu",
 	"antispoof-empty": "Stringa vacanti",
-	"antispoof-blacklisted": "Cunteni lu caràttiri nta lista nìura $1",
+	"antispoof-prohibited": "Cunteni lu caràttiri nta lista nìura $1",
 	"antispoof-combining": "Accumenza cûn caràttiri cumminanti $1",
 	"antispoof-unassigned": "Cunteni lu caràttiri nun assignatu $1",
 	"antispoof-deprecated": "Cunteni lu caràttiri dipricatu $1",

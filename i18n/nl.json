@@ -18,7 +18,7 @@
 	"antispoof-name-illegal": "De gebruikersnaam \"$1\" is niet toegestaan om verwarring of gefingeerde gebruikersnamen te voorkomen: $2.\nKies een andere naam.",
 	"antispoof-badtype": "Ongeldig gegevenstype",
 	"antispoof-empty": "Lege string",
-	"antispoof-blacklisted": "Bevat verboden teken $1",
+	"antispoof-prohibited": "Bevat verboden teken $1",
 	"antispoof-combining": "Begint met gecombineerd merkteken $1",
 	"antispoof-unassigned": "Bevat het niet toegewezen teken $1",
 	"antispoof-deprecated": "Bevat verouderd teken $1",

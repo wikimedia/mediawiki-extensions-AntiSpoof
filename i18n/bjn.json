@@ -11,7 +11,7 @@
 	"antispoof-name-illegal": "Si ngaran \"$1\" kada dibulihakan hagan mancagah kabingungan atawa ngaran tipuan: $2.\nMuhun pilih ngaran nang lain.",
 	"antispoof-badtype": "Janis data buruk",
 	"antispoof-empty": "String kusung",
-	"antispoof-blacklisted": "Mangandung karaktir daptar-hirang",
+	"antispoof-prohibited": "Mangandung karaktir daptar-hirang",
 	"antispoof-combining": "Bamula awan ciri kumbinasi",
 	"antispoof-unassigned": "Mangandung karaktir kada dibariakan atawa kada dipuruk pulang",
 	"antispoof-noletters": "Kada baisi sa-asa hurup gin",

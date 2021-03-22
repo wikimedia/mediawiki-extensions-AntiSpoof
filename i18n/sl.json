@@ -13,7 +13,7 @@
 	"antispoof-name-illegal": "Uporabniško ime »$1« ni dovoljeno. Razlog: »$2«.\nProsimo, izberite drugo uporabniško ime.",
 	"antispoof-badtype": "Napačen podatkovni tip",
 	"antispoof-empty": "Prazen niz",
-	"antispoof-blacklisted": "Vsebuje znak $1, ki je na črni listi",
+	"antispoof-prohibited": "Vsebuje znak $1, ki je na črni listi",
 	"antispoof-combining": "Začne se z združevalnim znakom $1",
 	"antispoof-unassigned": "Vsebuje nepripisan ali nedovoljen znak",
 	"antispoof-deprecated": "Vsebuje odsvetovan znak $1",

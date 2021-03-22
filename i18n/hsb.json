@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "Požadane wužiwarske mjeno „$1” njeje dowolene. Přičina: $2<br />Prošu wubjer druhe wužiwarske mjeno.",
 	"antispoof-badtype": "Njepłaćiwy datowy typ",
 	"antispoof-empty": "Prózdne polo",
-	"antispoof-blacklisted": "Wobsahuje njedowolene znamješko $1",
+	"antispoof-prohibited": "Wobsahuje njedowolene znamješko $1",
 	"antispoof-combining": "Započina so ze znamješkowej kombinaciju $1",
 	"antispoof-unassigned": "Wobsahuje njepřirjadowane abo njewitane znamješko",
 	"antispoof-deprecated": "Wobsahuje zestarjene znamješko $1",

@@ -11,7 +11,7 @@
 	"antispoof-name-illegal": "ସନ୍ଦେହ ହେଲାଭଳି ନାଆଁପାଇଁ \"$1\" ନାଆଁଟିକୁ ଅନୁମତି ଦେଇପାରୁନାହୁଁ: $2 ।\nଦୟାକରି ଆଉଗୋଟିଏ ନାଆଁ ବାଛନ୍ତୁ ।",
 	"antispoof-badtype": "ଖରାପ ତଥ୍ୟ",
 	"antispoof-empty": "ଖାଲି ଘର",
-	"antispoof-blacklisted": "ଏଥିରେ $1ନାମକ ବାରଣ କରାଯାଇଥିବା ଅକ୍ଷର ଅଛି",
+	"antispoof-prohibited": "ଏଥିରେ $1ନାମକ ବାରଣ କରାଯାଇଥିବା ଅକ୍ଷର ଅଛି",
 	"antispoof-combining": "$1ମିଶାଇବା ଚିହ୍ନସହ ଆରମ୍ଭ ହୁଏ",
 	"antispoof-unassigned": "ଏଥିରେ ଏବେଯାଏଁ ଦିଆ ଯାଇନଥିବା ଅକ୍ଷର $1  ଅଛି",
 	"antispoof-deprecated": "ଏଥିରେ $1ନାମକ ଅଦରକାରୀ ଅକ୍ଷର ଅଛି",

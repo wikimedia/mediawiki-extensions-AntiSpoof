@@ -15,7 +15,7 @@
 	"antispoof-name-illegal": "Jeneng \"$1\" ora diidinaké supaya wong ora bingung utawa menggak ngapi-api jeneng panganggo sing wis ana: $2.\nMangga pilihen jeneng liya.",
 	"antispoof-badtype": "Tipe data salah",
 	"antispoof-empty": "Data kosong",
-	"antispoof-blacklisted": "Ngandung karakter $1 sing ora kalilan",
+	"antispoof-prohibited": "Ngandung karakter $1 sing ora kalilan",
 	"antispoof-combining": "Wiwiti mawa tandha kombinasi $1",
 	"antispoof-unassigned": "Ngandung karakter $1 sing durung katetepaké",
 	"antispoof-deprecated": "Ngandung karakter $1 sing ora kanggo",

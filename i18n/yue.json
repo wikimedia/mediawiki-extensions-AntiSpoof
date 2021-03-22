@@ -14,7 +14,7 @@
 	"antispoof-name-illegal": "呢個用戶名「$1」唔畀用，以預防撈亂或者冒充用戶名：「$2」。\n請揀過個用戶名。",
 	"antispoof-badtype": "錯誤嘅資料類型",
 	"antispoof-empty": "空白字串",
-	"antispoof-blacklisted": "有列喺黑名單度嘅字符「$1」",
+	"antispoof-prohibited": "有列喺黑名單度嘅字符「$1」",
 	"antispoof-combining": "從結合標記$1開始",
 	"antispoof-unassigned": "有未指定嘅字符「$1」",
 	"antispoof-deprecated": "有列喺黑名單度嘅字符「$1」",

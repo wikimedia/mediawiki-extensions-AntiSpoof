@@ -14,7 +14,7 @@
 	"antispoof-bad-char": "„$1“ ($2)",
 	"antispoof-badtype": "Špatný datový typ",
 	"antispoof-empty": "Prázdný řetězec",
-	"antispoof-blacklisted": "Obsahuje zakázaný znak $1",
+	"antispoof-prohibited": "Obsahuje zakázaný znak $1",
 	"antispoof-combining": "Začíná kombinujícím diakritickým znakem $1",
 	"antispoof-unassigned": "Obsahuje nepřiřazený nebo zavržený znak",
 	"antispoof-deprecated": "Obsahuje zavržený znak $1",

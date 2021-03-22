@@ -21,7 +21,7 @@
 	"antispoof-bad-char": "「$1」 ($2)",
 	"antispoof-badtype": "データタイプが異常です",
 	"antispoof-empty": "文字列が空です",
-	"antispoof-blacklisted": "禁止された文字 $1 を含んでいます",
+	"antispoof-prohibited": "禁止された文字 $1 を含んでいます",
 	"antispoof-combining": "結合記号 $1 で始まっています",
 	"antispoof-unassigned": "未割り当ての文字 $1 を含んでいます",
 	"antispoof-deprecated": "推奨されない文字 $1 を含んでいます",

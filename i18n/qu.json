@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "Nisqayki \"$1\" sutiqa manam saqillasqachu, suti pantachiyta hark'anapaq: \"$2\". Ama hina kaspa, huk sutita akllay.",
 	"antispoof-badtype": "Willa layaqa manam allinchu",
 	"antispoof-empty": "Ch'usaq qillqa",
-	"antispoof-blacklisted": "Mana allin sutisuyupi kaq $1 sananchayuq",
+	"antispoof-prohibited": "Mana allin sutisuyupi kaq $1 sananchayuq",
 	"antispoof-combining": "$1 t'inkinakuy sananchawanmi qallarin",
 	"antispoof-unassigned": "Mana allin $1 sananchayuq",
 	"antispoof-deprecated": "Mawk'ayasqa $1 sananchayuq",

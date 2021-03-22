@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "De Brukernaam „$1“ is nich verlöövt. Grund: $2<br />Söök di en annern Brukernaam ut.",
 	"antispoof-badtype": "Leeg Datentyp",
 	"antispoof-empty": "Feld leddig",
-	"antispoof-blacklisted": "In’n Text sünd nich verlöövte Teken binnen",
+	"antispoof-prohibited": "In’n Text sünd nich verlöövte Teken binnen",
 	"antispoof-combining": "Kombinatschoonsteken to Anfang",
 	"antispoof-unassigned": "In’n Text sünd nich toornte oder nich wünschte Teken binnen",
 	"antispoof-noletters": "Dor sünd kene Bookstaven in.",

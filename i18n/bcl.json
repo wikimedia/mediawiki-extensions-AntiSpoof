@@ -12,7 +12,7 @@
 	"antispoof-name-illegal": "An parágamit na \"$1\" dai tinotogotan tanganing maibitaran an pagpaparibong o inarogan na mga ngaran-paragamit: $2. Pakipilî tabî nin ibang pangaran.",
 	"antispoof-badtype": "Maraot na tipo nin datos",
 	"antispoof-empty": "Mayong laman na panunod",
-	"antispoof-blacklisted": "Minalaman nin pinagbaraduhang panggurit na $1",
+	"antispoof-prohibited": "Minalaman nin pinagbaraduhang panggurit na $1",
 	"antispoof-combining": "Minapoon na igwang kasalakang marka an $1",
 	"antispoof-unassigned": "Minalaman nin bakong designadong panggurit na $1",
 	"antispoof-deprecated": "Minalaman nin deprekadong panggurit na $1",

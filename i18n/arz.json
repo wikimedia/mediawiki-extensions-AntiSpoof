@@ -12,7 +12,7 @@
 	"antispoof-name-illegal": "الاسم \"$1\"  مش مسموح علشان نمنع اللخبطة أوانتحال أسماء اليوزرز: $2. لو سمحت تختار اسم تانى.",
 	"antispoof-badtype": "نوع البيانات غلط",
 	"antispoof-empty": "سلسلة فاضية",
-	"antispoof-blacklisted": "بيحتوى على علامة من البلاك ليست $1",
+	"antispoof-prohibited": "بيحتوى على علامة من البلاك ليست $1",
 	"antispoof-combining": "بيبتدى بعلامة مختلطه $1",
 	"antispoof-unassigned": "بيحتوى على علامة مش مخصصة أو مش مقبولة $1",
 	"antispoof-noletters": "ما بيحتويش على اى حروف",

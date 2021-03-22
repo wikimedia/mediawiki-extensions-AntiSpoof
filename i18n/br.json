@@ -13,7 +13,7 @@
 	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Seurt roadennoù fall",
 	"antispoof-empty": "Neudennad goullo",
-	"antispoof-blacklisted": "Emañ an arouezenn berzet $1 e-barzh",
+	"antispoof-prohibited": "Emañ an arouezenn berzet $1 e-barzh",
 	"antispoof-combining": "Kregiñ a ra gant ar merk kenaozet $1",
 	"antispoof-unassigned": "Un arouezenn dispredet pe dispisaet zo e-barzh",
 	"antispoof-deprecated": "Emañ an arouezenn dispredet $1 e-barzh",

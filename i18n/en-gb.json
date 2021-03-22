@@ -12,7 +12,7 @@
 	"antispoof-name-illegal": "The username \"$1\" is not allowed to prevent confusing or spoofed usernames: $2.\nPlease choose another username.",
 	"antispoof-badtype": "Bad data type",
 	"antispoof-empty": "Empty string",
-	"antispoof-blacklisted": "Contains blacklisted character $1",
+	"antispoof-prohibited": "Contains blacklisted character $1",
 	"antispoof-combining": "Begins with combining mark $1",
 	"antispoof-unassigned": "Contains unassigned character $1",
 	"antispoof-deprecated": "Contains deprecated character $1",

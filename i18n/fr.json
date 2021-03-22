@@ -24,7 +24,7 @@
 	"antispoof-bad-char": "‹$1› ($2)",
 	"antispoof-badtype": "Mauvais type de données",
 	"antispoof-empty": "Chaîne vide",
-	"antispoof-blacklisted": "Contient le caractère interdit $1",
+	"antispoof-prohibited": "Contient le caractère interdit $1",
 	"antispoof-combining": "Commence avec une marque combinatoire $1",
 	"antispoof-unassigned": "Contient un caractère non assigné $1",
 	"antispoof-deprecated": "Contient le caractère désuet $1",

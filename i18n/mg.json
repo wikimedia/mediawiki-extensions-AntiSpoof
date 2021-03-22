@@ -8,7 +8,7 @@
 	"antispoof-name-illegal": "Tsy mahazo alalana ny anaram-pikambana \"$1\" noho ny fanakekezany amin'ny anarana \"$2\".\nMisafidia anarana hafa.",
 	"antispoof-badtype": "Tsy izy ny karazana fampahalalàna",
 	"antispoof-empty": "fitohitohizan-tsoratra (string) foàna",
-	"antispoof-blacklisted": "Misy tarehintsoratra voarara",
+	"antispoof-prohibited": "Misy tarehintsoratra voarara",
 	"antispoof-combining": "Manomboka amina mari-pitambatambarana (marque combinatoire)",
 	"antispoof-noletters": "Tsy misy tarehintsoratra",
 	"antispoof-mixedscripts": "Misy endri-tsoratra maro samihafa tsy zaka"

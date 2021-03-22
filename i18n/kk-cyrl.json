@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "Қатысушы аты шатақтауын немесе қалжындауын бөгеу үшін «$1» атауы рұқсат етілмейді: $2. Басқа атау таңдаңыз.",
 	"antispoof-badtype": "Жарамсыз дерек түрі",
 	"antispoof-empty": "Бос жол",
-	"antispoof-blacklisted": "Қара тізімге кірген $1 таңбадан тұрады",
+	"antispoof-prohibited": "Қара тізімге кірген $1 таңбадан тұрады",
 	"antispoof-combining": "Құрамды белгімен $1 басталған",
 	"antispoof-unassigned": "Тағайындалмаған $1 таңба қамтылған",
 	"antispoof-noletters": "Ішінде ешбір әріп жоқ",

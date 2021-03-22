@@ -11,7 +11,7 @@
 	"antispoof-name-illegal": "Naam \"$1\" ke nai kaam me laawa jaae sake hae, duusra naam se confuse nai kare ke khatir: $2\nMeharbaani kar ke duusra naam ke choose karo.",
 	"antispoof-badtype": "Kharaab data type",
 	"antispoof-empty": "Khaali string",
-	"antispoof-blacklisted": "Isme blacklisted character $1 hae",
+	"antispoof-prohibited": "Isme blacklisted character $1 hae",
 	"antispoof-combining": "Jorre waala mark $1 se suruu karo",
 	"antispoof-unassigned": "Isme unassigned akchhar $1 hae",
 	"antispoof-deprecated": "Isme deprecated akchhar $1 hae",

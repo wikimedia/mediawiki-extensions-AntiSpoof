@@ -18,7 +18,7 @@
 	"antispoof-name-illegal": "Brugernavnet »$1« er ikke tilladt for at forhindre forvirrende eller efterlignede brugernavne: $2. Vælg venligst et andet brugernavn.",
 	"antispoof-badtype": "Ugyldig datatype",
 	"antispoof-empty": "Tom streng",
-	"antispoof-blacklisted": "Indeholder det sortlistede tegn $1",
+	"antispoof-prohibited": "Indeholder det sortlistede tegn $1",
 	"antispoof-combining": "Begynder med kombinationstegnet $1",
 	"antispoof-unassigned": "Indeholder det ikke-tildelte tegn $1",
 	"antispoof-deprecated": "Indeholder det udfasede tegn $1",

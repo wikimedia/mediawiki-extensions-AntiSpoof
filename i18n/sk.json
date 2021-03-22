@@ -12,7 +12,7 @@
 	"antispoof-name-illegal": "Meno „$1“ nie je povolené, aby sa zabránilo náhodnému alebo zámernému pomýleniu mien používateľov: $2. Zvoľte si prosím iné meno.",
 	"antispoof-badtype": "Nesprávny typ dát",
 	"antispoof-empty": "Prázdny reťazec",
-	"antispoof-blacklisted": "Obsahuje znak zo zoznamu zakázaných $1",
+	"antispoof-prohibited": "Obsahuje znak zo zoznamu zakázaných $1",
 	"antispoof-combining": "Začína kombinačným znakom $1",
 	"antispoof-unassigned": "Obsahuje nepriradený znak $1",
 	"antispoof-deprecated": "Obsahuje zavrhovaný znak $1",

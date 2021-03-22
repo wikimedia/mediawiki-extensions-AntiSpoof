@@ -8,7 +8,7 @@
 	"antispoof-conflict-bottom": "Башка ат тандап алыңыз",
 	"antispoof-badtype": "Туура эмес форматтагы маалымат",
 	"antispoof-empty": "Бош сап",
-	"antispoof-blacklisted": "$1 тосмолонгон белгилердин тизмесине кирет",
+	"antispoof-prohibited": "$1 тосмолонгон белгилердин тизмесине кирет",
 	"antispoof-unassigned": "$1 уруксат берилбеген белгилердин тизмесине кирет",
 	"antispoof-deprecated": "$1 колдонуудан чыккан белгилердин тизмесине кирет",
 	"antispoof-noletters": "Бир дагы тамга жок",

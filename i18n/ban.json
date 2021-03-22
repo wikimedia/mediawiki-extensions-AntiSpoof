@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "Parab anganggé \"$1\" nénten kalugra mangda nénten hémeng utawi panipuan parab anganggé: $2. Durus milih parab anganggé liyanan.",
 	"antispoof-badtype": "Tipe data jelé",
 	"antispoof-empty": "Data puyung",
-	"antispoof-blacklisted": "Madaging karakter sané nénten kalugra $1",
+	"antispoof-prohibited": "Madaging karakter sané nénten kalugra $1",
 	"antispoof-combining": "Kakawitin antuk tanda kombinasi $1",
 	"antispoof-unassigned": "Madaging karakter sané nénten kapican $1",
 	"antispoof-deprecated": "Madaging karakter sané nénten kaanggén malih $1",

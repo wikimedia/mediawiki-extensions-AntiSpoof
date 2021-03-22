@@ -11,7 +11,7 @@
 	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Droch sheòrsa dàta",
 	"antispoof-empty": "Sreang falamh",
-	"antispoof-blacklisted": "Tha caractar ann a tha air an dubh-liosta: $1",
+	"antispoof-prohibited": "Tha caractar ann a tha air an dubh-liosta: $1",
 	"antispoof-combining": "Tha e a' tòiseachadh le comharra nasgach: $1",
 	"antispoof-unassigned": "Tha caractar gun sònrachadh ann: $1",
 	"antispoof-deprecated": "Tha caractar ann nach molar tuilleadh: $1",

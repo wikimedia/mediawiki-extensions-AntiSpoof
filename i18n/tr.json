@@ -16,7 +16,7 @@
 	"antispoof-name-illegal": "$2 hesabıyla karışmaması için \"$1\" kullanıcı adına izin verilmemektedir. Lütfen başka bir kullanıcı adı seçiniz.",
 	"antispoof-badtype": "Bozuk veri türü",
 	"antispoof-empty": "Boş dizi",
-	"antispoof-blacklisted": "$1 kara listeye karakteri içeriyor",
+	"antispoof-prohibited": "$1 kara listeye karakteri içeriyor",
 	"antispoof-combining": "$1 kaynaştırma işaretiyle başlıyor",
 	"antispoof-unassigned": "$1 atanmamış ya da onaylanmamış karakter içeriyor",
 	"antispoof-deprecated": "$1 eski karakterini içeriyor",

@@ -15,7 +15,7 @@
 	"antispoof-name-illegal": "O nome de utilizador \"$1\" não é permitido para evitar confusões ou enganos: $2.\nEscolha outro nome, por favor.",
 	"antispoof-badtype": "Formato de dados incorreto",
 	"antispoof-empty": "Linha vazia",
-	"antispoof-blacklisted": "Contém o carácter proibido $1",
+	"antispoof-prohibited": "Contém o carácter proibido $1",
 	"antispoof-combining": "Começa com o carácter de combinação $1",
 	"antispoof-unassigned": "Contém o carácter proibido $1",
 	"antispoof-deprecated": "Contém o carácter não suportado $1",

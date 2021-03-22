@@ -15,7 +15,7 @@
 	"antispoof-name-illegal": "Numele „$1” nu este permis pentru a preveni confuziile cu numele de utilizator: $2. Vă rugăm să alegeți un alt nume de utilizator.",
 	"antispoof-badtype": "Tip de date greșit",
 	"antispoof-empty": "Șir gol",
-	"antispoof-blacklisted": "Conține caracterul interzis $1",
+	"antispoof-prohibited": "Conține caracterul interzis $1",
 	"antispoof-combining": "Începe cu marcajul de combinare $1",
 	"antispoof-unassigned": "Conține un caracter neasociat sau învechit",
 	"antispoof-deprecated": "Conține caracterul interzis $1",

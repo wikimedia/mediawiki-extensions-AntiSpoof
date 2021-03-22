@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "No se premite rechistrar-se con o nombre \"$1\" ta privar confusions y suplantacions con os nombres d'usuario: $2. Por favor, esliya una atro nombre.",
 	"antispoof-badtype": "Tipo de datos no conforme",
 	"antispoof-empty": "Cadena vueda",
-	"antispoof-blacklisted": "Contién o caracter no premitito: $1",
+	"antispoof-prohibited": "Contién o caracter no premitito: $1",
 	"antispoof-combining": "Empecipia con a marca combinatoria $1",
 	"antispoof-unassigned": "Contién o caracter no asignau $1",
 	"antispoof-deprecated": "Contién o caracter obsoleto $1",

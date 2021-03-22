@@ -19,7 +19,7 @@
 	"antispoof-name-illegal": "भ्रामक नामों को रोकने के लिए नाम \"$1\" रखना मना है: $2\nकृपया कोई अन्य नाम चुनिये।",
 	"antispoof-badtype": "गलत डाटा प्रकार",
 	"antispoof-empty": "खाली स्ट्रिंग",
-	"antispoof-blacklisted": "इसमें ब्लैकलिस्टेड कैरैक्टर $1 हैं",
+	"antispoof-prohibited": "इसमें ब्लैकलिस्टेड कैरैक्टर $1 हैं",
 	"antispoof-combining": "एकत्रिकरण चिन्ह $1 से शुरु होता है",
 	"antispoof-unassigned": "इसमें गलत अक्षर $1 है",
 	"antispoof-deprecated": "पदावनत कैरेक्टर $1 शामिल है",

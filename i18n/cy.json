@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "Ni chaniateir yr enw \"$1\" er mwyn osgoi cael enwau dryslyd neu gellweirus ar ddefnyddwyr: $2. Byddwch gystal â dewis enw gwahanol.",
 	"antispoof-badtype": "Math data gwallus",
 	"antispoof-empty": "Llinyn gwag",
-	"antispoof-blacklisted": "Yn cynnwys y nod gwaharddedig $1",
+	"antispoof-prohibited": "Yn cynnwys y nod gwaharddedig $1",
 	"antispoof-combining": "Yn dechrau gyda'r marc cyfuno $1",
 	"antispoof-unassigned": "Yn cynnwys y nod $1 nag ydyw wedi ei bennu",
 	"antispoof-deprecated": "Yn cynnwys y nod $1 sydd yn anghymeradwy",

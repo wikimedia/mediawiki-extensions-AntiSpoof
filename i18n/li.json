@@ -11,7 +11,7 @@
 	"antispoof-name-illegal": "De naam \"$1\" is neet toegestange óm verwarring of vervörmdje gebroekersname te veurkómme: $2. \nKees estebleef 'ne angere naam.",
 	"antispoof-badtype": "Verkeerd datatype",
 	"antispoof-empty": "Laege string",
-	"antispoof-blacklisted": "Bevat verbaoje karakter $1",
+	"antispoof-prohibited": "Bevat verbaoje karakter $1",
 	"antispoof-combining": "Begint mit 'n gecombineerd merkteike $1",
 	"antispoof-unassigned": "Bevat neet toegeweze of verajerdj karakter",
 	"antispoof-deprecated": "Bevat verajerd teken $1",

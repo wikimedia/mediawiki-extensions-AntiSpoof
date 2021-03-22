@@ -11,7 +11,7 @@
 	"antispoof-name-illegal": "'U nome de l'utende \"$1\" non g'è permesse pe prevenìe casine o 'mbruegghie de nome utinde: $2.\nPe piacere scacchie 'n'otre nome.",
 	"antispoof-badtype": "Tipe de date errate",
 	"antispoof-empty": "stringa vacande",
-	"antispoof-blacklisted": "Condène carattere jndr'à liste gnure $1",
+	"antispoof-prohibited": "Condène carattere jndr'à liste gnure $1",
 	"antispoof-combining": "Accumenze cu 'na marche combinate $1",
 	"antispoof-unassigned": "Condène carattere non assignate o deprecate",
 	"antispoof-deprecated": "Condène carattere deprecate $1",

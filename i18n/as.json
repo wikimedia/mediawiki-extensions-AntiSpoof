@@ -13,7 +13,7 @@
 	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "তথ্যৰ ধৰণ ঠিক নহয়",
 	"antispoof-empty": "উকা সূত্ৰ",
-	"antispoof-blacklisted": "নিষিদ্ধ চিহ্ন $1 আছে",
+	"antispoof-prohibited": "নিষিদ্ধ চিহ্ন $1 আছে",
 	"antispoof-combining": "সংযোজিত চিহ্ন $1ৰে আৰম্ভ হৈছে",
 	"antispoof-unassigned": "অপ্ৰযুক্ত চিহ্ন $1 আছে",
 	"antispoof-deprecated": "অননুমোদিত চিহ্ন $1 আছে",

@@ -13,7 +13,7 @@
 	"antispoof-bad-char": "“$1” ($2)",
 	"antispoof-badtype": "Kiểu dữ liệu không hợp lệ",
 	"antispoof-empty": "Chuỗi trống",
-	"antispoof-blacklisted": "Có chứa ký tự bị cấm $1",
+	"antispoof-prohibited": "Có chứa ký tự bị cấm $1",
 	"antispoof-combining": "Bắt đầu bằng dấu kết hợp $1",
 	"antispoof-unassigned": "Có chứa ký tự chưa gán hoặc ký tự bị phản đối",
 	"antispoof-deprecated": "Có chứa ký tự bị phản đối $1",

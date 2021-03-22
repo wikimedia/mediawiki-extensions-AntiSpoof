@@ -12,7 +12,7 @@
 	"antispoof-bad-char": "„$1“ ($2)",
 	"antispoof-badtype": "Грешен податочен тип",
 	"antispoof-empty": "Празна низа",
-	"antispoof-blacklisted": "Го содржи забранетиот знак $1",
+	"antispoof-prohibited": "Го содржи забранетиот знак $1",
 	"antispoof-combining": "Започнува со составниот знак $1",
 	"antispoof-unassigned": "Содржи неопределен знак $1",
 	"antispoof-deprecated": "Го содржи застарениот знак $1",

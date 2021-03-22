@@ -17,7 +17,7 @@
 	"antispoof-name-illegal": "Nama pengguna \"$1\" tidak diizinkan untuk mencegah kebingungan atau penipuan nama pengguna: $2. Mohon memilih pilih nama pengguna lain.",
 	"antispoof-badtype": "Tipe data salah",
 	"antispoof-empty": "Data kosong",
-	"antispoof-blacklisted": "Mengandung karakter yang tak diizinkan $1",
+	"antispoof-prohibited": "Mengandung karakter yang tak diizinkan $1",
 	"antispoof-combining": "Dimulai dengan tanda kombinasi $1",
 	"antispoof-unassigned": "Mengandung karakter yang tak diberikan $1",
 	"antispoof-deprecated": "Mengandung karakter yang tak digunakan lagi $1",

@@ -12,7 +12,7 @@
 	"antispoof-name-illegal": "Ime \"$1\" nije dozvoljeno da se spriječi moguća zamjena suradničkih nadimaka: $2. Molimo izaberite drugo ime/nadimak.",
 	"antispoof-badtype": "Krivi tip podataka",
 	"antispoof-empty": "Prazan string",
-	"antispoof-blacklisted": "Sadrži nedozvoljeni znak $1",
+	"antispoof-prohibited": "Sadrži nedozvoljeni znak $1",
 	"antispoof-combining": "Počinje sa znakom spajanja $1",
 	"antispoof-unassigned": "Sadrži nedodijeljen znak $1",
 	"antispoof-noletters": "Prekratko",

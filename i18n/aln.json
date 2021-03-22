@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "Emrin \"$1\" nuk është e lejuar për të parandaluar ose spoofed përdoruesve konfuze: $2. Ju lutem zgjidhni një tjetër.",
 	"antispoof-badtype": "Bad dhënat lloj",
 	"antispoof-empty": "string bosh",
-	"antispoof-blacklisted": "Përmban në listën e zezë karakter",
+	"antispoof-prohibited": "Përmban në listën e zezë karakter",
 	"antispoof-combining": "Fillon me shenjën e kombinuar",
 	"antispoof-unassigned": "Përmban unassigned ose deprecated karakter",
 	"antispoof-noletters": "Nuk përmban asnjë shkronja",

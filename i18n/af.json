@@ -12,7 +12,7 @@
 	"antispoof-name-illegal": "Die gebruikersnaam \"$1\" is ontoelaatbaar ten einde verwarrende of spottende gebruikersname te voorkom: $2. Kies 'n ander gebruikersnaam.",
 	"antispoof-badtype": "Verkeerde datatipe",
 	"antispoof-empty": "Leë string",
-	"antispoof-blacklisted": "Bevat verbode karakter $1",
+	"antispoof-prohibited": "Bevat verbode karakter $1",
 	"antispoof-combining": "Begin met 'n gekombineerde merker $1",
 	"antispoof-unassigned": "Bevat nie toegekende of verouderde karakter $1",
 	"antispoof-deprecated": "Bevat verouderde karakter $1",

@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "O nomme utente \"$1\" o no l'è consentio, pe evitâ confuxon ò gazibbe: $2. Pe piaxei çerni un atro nomme utente.",
 	"antispoof-badtype": "Tipo de dæti errou",
 	"antispoof-empty": "Stringa vœua",
-	"antispoof-blacklisted": "O conten o carattere non consentio $1",
+	"antispoof-prohibited": "O conten o carattere non consentio $1",
 	"antispoof-combining": "O comença co-a combinaçion de caratteri $1",
 	"antispoof-unassigned": "O conten o carattere non assegnou $1",
 	"antispoof-deprecated": "O conten o carattere deprecou $1",

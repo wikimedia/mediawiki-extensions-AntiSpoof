@@ -17,7 +17,7 @@
 	"antispoof-name-illegal": "\"$1\" हे नाव वापरण्यास बंदी आहे कारण हे नाव इतर नावांशी साम्य राखते: $2.\nत्यामुळे कृपया वेगळे नाव वापरा.",
 	"antispoof-badtype": "वाईट विदा (डाटा) प्रकार",
 	"antispoof-empty": "रिकामा धागा",
-	"antispoof-blacklisted": "मान्यताप्राप्त यादीत नसलेले अक्षर $1",
+	"antispoof-prohibited": "मान्यताप्राप्त यादीत नसलेले अक्षर $1",
 	"antispoof-combining": "एकत्रीकरण चिन्हाने सुरुवात केलेली आहे $1",
 	"antispoof-unassigned": "यामध्ये चुकीची चिन्हे आहेत $1",
 	"antispoof-deprecated": "नापसंत वर्ण $1 यात आहेत",

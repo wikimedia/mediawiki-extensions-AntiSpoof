@@ -12,7 +12,7 @@
 	"antispoof-name-illegal": "Jeneng \"$1\" ora olih dinggo supaya wong ora bingung utawa menggak ngapi-api jeneng panganggo sing wis ana: $2.\nMonggo pilihen jeneng liyane baen.",
 	"antispoof-badtype": "Tipe data salah",
 	"antispoof-empty": "Data kosong",
-	"antispoof-blacklisted": "Ngandhut karakter sing ora olih dienggo yakuwe $1",
+	"antispoof-prohibited": "Ngandhut karakter sing ora olih dienggo yakuwe $1",
 	"antispoof-combining": "Diwiwiti karo tandha kombinasi $1",
 	"antispoof-unassigned": "Ana karakter sing ora dienggo yakuwe $1",
 	"antispoof-deprecated": "Ngandhut karakter sing wis ora dinggo maning yakuwe $1",

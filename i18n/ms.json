@@ -13,7 +13,7 @@
 	"antispoof-name-illegal": "Nama pengguna \"$1\" tidak dibenarkan kerana mengelirukan atau menipu: $2. Sila pilih nama pengguna lain.",
 	"antispoof-badtype": "Jenis data salah",
 	"antispoof-empty": "Rentetan kosong",
-	"antispoof-blacklisted": "Mengandungi aksara $1 yang telah disenaraihitamkan",
+	"antispoof-prohibited": "Mengandungi aksara $1 yang telah disenaraihitamkan",
 	"antispoof-combining": "Bermula dengan tanda penggabung $1",
 	"antispoof-unassigned": "Mengandungi aksara yang tidak diuntukkan atau yang lapuk",
 	"antispoof-deprecated": "Mengandungi aksara $1 yang lapuk",

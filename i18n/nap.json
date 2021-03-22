@@ -11,7 +11,7 @@
 	"antispoof-name-illegal": "'O nomme \"$1\" nun è permesso pe prevenì casine o mbruoglie 'e nomme utente: $2.\nPe' piacere scigliete n'atu nomme.",
 	"antispoof-badtype": "Tipo 'e data errato",
 	"antispoof-empty": "Stringa abbacante",
-	"antispoof-blacklisted": "Cuntene carattere dint' 'a lista nira $1",
+	"antispoof-prohibited": "Cuntene carattere dint' 'a lista nira $1",
 	"antispoof-combining": "Accummencia cu na marca cumbinata $1",
 	"antispoof-unassigned": "Cuntene nu carattere nun azegnato $1",
 	"antispoof-deprecated": "Cuntene carattere deprecato $1",

@@ -12,7 +12,7 @@
 	"antispoof-name-illegal": "अवैध नाम",
 	"antispoof-badtype": "स्वस्थाननिर्माणे विपन्नतायाः कारणम् ।",
 	"antispoof-empty": "स्वस्थाननिर्माणे विपन्नतायाः कारणम् ।",
-	"antispoof-blacklisted": "$1 अमान्यपदार्थयुक्तः अस्ति",
+	"antispoof-prohibited": "$1 अमान्यपदार्थयुक्तः अस्ति",
 	"antispoof-combining": "$1 योजनसङ्केतेन आरभ्यते",
 	"antispoof-unassigned": "$1 अनिर्दिष्टपदार्थयुक्तः अस्ति",
 	"antispoof-deprecated": "$1 विरोधपदार्थयुक्तः अस्ति",

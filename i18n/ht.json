@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "Non itilizatè \"$1\" pa otorize pou anpeche li konfonn ak non itilizatè: \"$2\"\nTanpri chwazi yon lòt non.",
 	"antispoof-badtype": "Tip done sa yo move",
 	"antispoof-empty": "Chèn vid",
-	"antispoof-blacklisted": "Kontni yon karaktè ki pa otorize",
+	"antispoof-prohibited": "Kontni yon karaktè ki pa otorize",
 	"antispoof-combining": "Ap koumanse avèk yon mak konbine",
 	"antispoof-unassigned": "Kontni yon karaktè ki pa asiyen oubyen ki pa itilize ankò",
 	"antispoof-noletters": "Ka kontni pyès lèt",

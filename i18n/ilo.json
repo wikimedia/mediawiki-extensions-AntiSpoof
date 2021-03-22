@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "Ti nagan a \"$1\" ket saan a maipalubos a mangpawil ti makaallilaw wenno dagiti naanigaas a nagan ti agar-aramat: $2.\nPangngaasi nga agpili iti sabali a nagan.",
 	"antispoof-badtype": "Dakes a kita ti datos",
 	"antispoof-empty": "Awan linaon a kuerdas",
-	"antispoof-blacklisted": "Naglaon kadagiti naiparit a karakter ti $1",
+	"antispoof-prohibited": "Naglaon kadagiti naiparit a karakter ti $1",
 	"antispoof-combining": "Nangrugi ti panagtipon ti marka ti $1",
 	"antispoof-unassigned": "Naglaon kadagiti saan a nainaganan wenno nasukatanen a karakter ti $1",
 	"antispoof-deprecated": "Naglaon ti nasukatanen a karakter ti $1",

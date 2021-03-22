@@ -11,7 +11,7 @@
 	"antispoof-name-illegal": "Sandiasma \"$1\" teu diwenangkeun ngarah teu pahili jeung sandiasma: $2. Pilih sandiasma séjénna.",
 	"antispoof-badtype": "Tipeu datana awon",
 	"antispoof-empty": "String kosong",
-	"antispoof-blacklisted": "Ngandung karakter nu dipahing $1",
+	"antispoof-prohibited": "Ngandung karakter nu dipahing $1",
 	"antispoof-combining": "Dimimitian ku tanda gabungan $1",
 	"antispoof-unassigned": "Ngandung karakter anu teu dipaké $1",
 	"antispoof-noletters": "Kosong",

@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "Mě \"$1\" se njedowólujo, aby se mjerwjece abo manipulěrowane wužywarske mjenja wopinuli: $2. Wubjeŕ pšosym druge mě.",
 	"antispoof-badtype": "Wopacny datowy typ",
 	"antispoof-empty": "Prozne pólo",
-	"antispoof-blacklisted": "Wopśimujo njedowólone znamuško $1",
+	"antispoof-prohibited": "Wopśimujo njedowólone znamuško $1",
 	"antispoof-combining": "Zachopina se ze znamuškoweju kombinaciju $1",
 	"antispoof-unassigned": "Wopśimujo njepśirědowane abo njewitane znamuško",
 	"antispoof-deprecated": "Wopśimujo zestarjone znamuško $1",

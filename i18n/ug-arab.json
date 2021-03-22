@@ -12,7 +12,7 @@
 	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "خاتا سانلىق مەلۇمات تىپى",
 	"antispoof-empty": "قۇرۇق تىزىقى",
-	"antispoof-blacklisted": "قارا تىزىملىكتىكى ھەرپ $1 نى ئۆز ئىچىگە ئالغان",
+	"antispoof-prohibited": "قارا تىزىملىكتىكى ھەرپ $1 نى ئۆز ئىچىگە ئالغان",
 	"antispoof-combining": "بىرلەشمە بەلگە $1 دىن باشلىنىدۇ",
 	"antispoof-unassigned": "ئىمزا قويۇلمىغان ھەرپ $1 نى ئۆز ئىچىگە ئالىدۇ",
 	"antispoof-deprecated": "تاشلىۋەتكەن ھەرپ $1 نى ئۆز ئىچىگە ئالىدۇ",

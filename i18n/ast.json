@@ -11,7 +11,7 @@
 	"antispoof-name-illegal": "Nun se permite'l nome «$1» pa evitar nomes d'usuariu que causen tracamundios o suplantaciones: $2.\nPor favor, escueye otru nome.",
 	"antispoof-badtype": "Triba de datos incorreuta",
 	"antispoof-empty": "Testu vaciu",
-	"antispoof-blacklisted": "Contien el caráuter non permitíu $1",
+	"antispoof-prohibited": "Contien el caráuter non permitíu $1",
 	"antispoof-combining": "Empecipia cola marca de combinación $1",
 	"antispoof-unassigned": "Contien el caráuter non asignáu $1",
 	"antispoof-deprecated": "Contien el caráuter anticuáu $1",

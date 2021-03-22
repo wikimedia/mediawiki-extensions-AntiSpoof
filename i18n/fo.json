@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "Navnið \"$1\" er ikki loyvt til tess at fyribyrgja følsk ella forvirrandi brúkaranøvn: $2.",
 	"antispoof-badtype": "Ringt slag av data.",
 	"antispoof-empty": "Tøm strongin",
-	"antispoof-blacklisted": "Inniheldur tekn sum eru á svaralista $1",
+	"antispoof-prohibited": "Inniheldur tekn sum eru á svaralista $1",
 	"antispoof-combining": "Byrjar við kombinatións tekni $1",
 	"antispoof-unassigned": "Inniheldur óbrúktar bókstavar $1",
 	"antispoof-deprecated": "Inniheldur ikki loyvda teknið $1",

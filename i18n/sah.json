@@ -11,7 +11,7 @@
 	"antispoof-name-illegal": "\"$1\" диэн аат $2 диэн ааттары кытта буккулубаттарын туһугар бобуллар. Онон атын ааты толкуйдаа.",
 	"antispoof-badtype": "Сыыһа тииптээх дааннайдар",
 	"antispoof-empty": "Кураанах устуруока",
-	"antispoof-blacklisted": "Бобуллубут бэлиэлэр бааллар",
+	"antispoof-prohibited": "Бобуллубут бэлиэлэр бааллар",
 	"antispoof-combining": "Уларытар бэлиэттэн саҕаланар",
 	"antispoof-unassigned": "Биллибэт эбэтэр өйөммөт бэлиэлэр бааллар",
 	"antispoof-noletters": "Биир даҕаны буукуба суох",

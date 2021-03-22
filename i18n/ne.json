@@ -14,7 +14,7 @@
 	"antispoof-name-illegal": "$2 भ्रामक र जाली प्रयोगकर्ता नामको रोकथामको निम्ति \"$1\" नामलाई अनुमति छैन।\nकृपया अर्को नाम छान्नुहोस्।",
 	"antispoof-badtype": "अमान्य आँकड़ा प्रकार",
 	"antispoof-empty": "रिक्त रज्जु (string)",
-	"antispoof-blacklisted": "कालो सुचीमा रहेको वर्ण $1 रहेको छ",
+	"antispoof-prohibited": "कालो सुचीमा रहेको वर्ण $1 रहेको छ",
 	"antispoof-combining": "संयोजन चिन्ह $1 बाट शुरू हुन्छ",
 	"antispoof-noletters": "कुनै अक्षरहरु नभएको",
 	"antispoof-mixedscripts": "असंगत मिश्रित लिपिहरू सम्मिलित गरिएको",

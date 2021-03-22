@@ -14,7 +14,7 @@
 	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Hibás adattípus",
 	"antispoof-empty": "Üres szöveg",
-	"antispoof-blacklisted": "Tiltott karaktert tartalmaz: $1",
+	"antispoof-prohibited": "Tiltott karaktert tartalmaz: $1",
 	"antispoof-combining": "Összekapcsoló jellel kezdődik: $1",
 	"antispoof-unassigned": "Még nem kiosztott karaktert tartalmaz: $1",
 	"antispoof-deprecated": "Érvénytelen karaktert tartalmaz: $1",

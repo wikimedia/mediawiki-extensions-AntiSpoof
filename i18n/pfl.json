@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "De Noame „$1“ derfma ned nemme wesche: $2\nNemmän onare Noame.",
 	"antispoof-badtype": "Uugildische Aad vun Daade",
 	"antispoof-empty": "Leares Feld",
-	"antispoof-blacklisted": "Do hods ä uugildisches Zaische $1.",
+	"antispoof-prohibited": "Do hods ä uugildisches Zaische $1.",
 	"antispoof-combining": "S'fongd midm Vabindungszaische $1 oa.",
 	"antispoof-unassigned": "S'hod ned zug'ordnedi Zaische $1",
 	"antispoof-deprecated": "S'hod va'aldedi Zaische $1",

@@ -11,7 +11,7 @@
 	"antispoof-name-illegal": "نوم \"$1\" سی دماگرتن د گیژ بیین یا اسپوف بیین نوم کاریاریا صلادار نئ:$2\nلطف بکیت یه گل نوم هنی انتخاو بکیت.",
 	"antispoof-badtype": "نوع دونسمنی  گن",
 	"antispoof-empty": "رشته حالی",
-	"antispoof-blacklisted": "شومل کاراکتریانوم گه سی $1",
+	"antispoof-prohibited": "شومل کاراکتریانوم گه سی $1",
 	"antispoof-combining": "وا شومل بیئن نشون $1 شرو بوئه",
 	"antispoof-unassigned": "شومل کاراکتریا بی نشون $1",
 	"antispoof-deprecated": "شومل کاراکتریا بی نشون $1",

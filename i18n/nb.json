@@ -13,7 +13,7 @@
 	"antispoof-name-illegal": "Brukernavnet «$1» er ikke tillatt for å forhindre sammenblanding: $2. Vennligst velg et annet navn.",
 	"antispoof-badtype": "Ugyldig datatype",
 	"antispoof-empty": "Tom streng",
-	"antispoof-blacklisted": "Inneholder det svartelistede tegnet $1",
+	"antispoof-prohibited": "Inneholder det svartelistede tegnet $1",
 	"antispoof-combining": "Begynner med kombinasjonstegnet $1",
 	"antispoof-unassigned": "Inneholder ugyldig eller foreldet tegn.",
 	"antispoof-deprecated": "Inneholder det ulovlige tegnet «$1»",

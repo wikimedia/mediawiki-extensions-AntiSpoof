@@ -13,7 +13,7 @@
 	"antispoof-name-illegal": "O nome de usuario \"$1\" non está permitido para evitar confusións ou enganos cos seguintes nomes de usuario: $2. Por favor, escolla outro nome de usuario.",
 	"antispoof-badtype": "Tipo de datos incorrecto",
 	"antispoof-empty": "Cadea baleira",
-	"antispoof-blacklisted": "Contén o carácter $1, presente na lista negra",
+	"antispoof-prohibited": "Contén o carácter $1, presente na lista negra",
 	"antispoof-combining": "Comeza coa marca combinatoria $1",
 	"antispoof-unassigned": "Contén o carácter sen asignar $1",
 	"antispoof-deprecated": "Contén o carácter rexeitado $1",

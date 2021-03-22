@@ -18,7 +18,7 @@
 	"antispoof-name-illegal": "Käyttäjänimeä ”$1” ei sallita hämäävien tai huijaustarkoitukseen sopivien tunnusten välttämiseksi: $2. Valitse toinen käyttäjänimi.",
 	"antispoof-badtype": "Virheellinen tietotyyppi",
 	"antispoof-empty": "Tyhjä merkkijono",
-	"antispoof-blacklisted": "Sisältää kielletyn merkin $1",
+	"antispoof-prohibited": "Sisältää kielletyn merkin $1",
 	"antispoof-combining": "Alkaa yhdistävällä merkillä $1",
 	"antispoof-unassigned": "Sisältää määrittämättömiä merkkejä $1",
 	"antispoof-deprecated": "Sisältää kielletyn merkin $1",

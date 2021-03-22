@@ -16,7 +16,7 @@
 	"antispoof-bad-char": "„$1“ ($2)",
 	"antispoof-badtype": "Ungültiger Datentyp",
 	"antispoof-empty": "Leeres Feld",
-	"antispoof-blacklisted": "Das nicht zulässige Zeichen $1 ist enthalten.",
+	"antispoof-prohibited": "Das nicht zulässige Zeichen $1 ist enthalten.",
 	"antispoof-combining": "Er fängt mit einem Verbindungszeichen $1 an.",
 	"antispoof-unassigned": "Er enthält das nicht zugeordnete Zeichen $1.",
 	"antispoof-deprecated": "Er enthält das unzulässige Zeichen $1.",

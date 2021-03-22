@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "Didiar brükernööm „$1“ gongt ei. Grünj: $2<br />Wees so gud an nem en öödern nööm.",
 	"antispoof-badtype": "Ferkiard dooten-typ",
 	"antispoof-empty": "Leesag fial",
-	"antispoof-blacklisted": "Diar as det ei tuläät tiaken $1 uun.",
+	"antispoof-prohibited": "Diar as det ei tuläät tiaken $1 uun.",
 	"antispoof-combining": "Begant mä en ferbinjangs-tiaken $1",
 	"antispoof-unassigned": "Diar as det ünbekäänd tiaken $1 uun.",
 	"antispoof-deprecated": "Diar as det ei tuläät tiaken $1 uun.",

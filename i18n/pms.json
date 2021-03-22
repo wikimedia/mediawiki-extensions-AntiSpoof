@@ -12,7 +12,7 @@
 	"antispoof-name-illegal": "Lë stranòm \"$1\" as peul nen dovresse për evité confusion e/ò che cheidun as fassa passé për: $2. Për piasì, ch'as në sërna n'àotr.",
 	"antispoof-badtype": "Sòrt ëd dat nen bon-a",
 	"antispoof-empty": "Espression veujda",
-	"antispoof-blacklisted": "A-i é ëd caràter ch'as peulo pa dovresse $1",
+	"antispoof-prohibited": "A-i é ëd caràter ch'as peulo pa dovresse $1",
 	"antispoof-combining": "As anandia con na combinassion $1",
 	"antispoof-unassigned": "A conten dij caràter nen assignà $1",
 	"antispoof-deprecated": "A conten dij caràter frust $1",

@@ -16,7 +16,7 @@
 	"antispoof-name-illegal": "Vardas \"$1\" neleidžiamas, kad būtų apsisaugota nuo apgaulingų ar parodijuotų naudotojų vardų: $2. Prašome pasirinkti kitą vardą.",
 	"antispoof-badtype": "Blogas duomenų tipas",
 	"antispoof-empty": "Tuščias tekstas",
-	"antispoof-blacklisted": "Turi uždraustą simbolį $1",
+	"antispoof-prohibited": "Turi uždraustą simbolį $1",
 	"antispoof-combining": "Prasideda kombinavimo ženklu $1",
 	"antispoof-unassigned": "Yra nepaskirtas simbolis $1",
 	"antispoof-deprecated": "Turi nenaudotiną simbolį $1",

@@ -16,7 +16,7 @@
 	"antispoof-name-illegal": "\"$1\" 사용자 이름은 사용자 이름의 혼동과 사칭을 방지하기 위해 금지되었습니다: $2.\n다른 사용자 이름을 지정해 주십시오.",
 	"antispoof-badtype": "잘못된 자료형",
 	"antispoof-empty": "빈 문자열",
-	"antispoof-blacklisted": "사용이 금지된 $1 문자 포함",
+	"antispoof-prohibited": "사용이 금지된 $1 문자 포함",
 	"antispoof-combining": "혼합 문자 $1로 시작",
 	"antispoof-unassigned": "코드가 부여되지 않았거나 잘못된 $1 문자를 포함",
 	"antispoof-deprecated": "잘못된 글자 $1이 포함되어 있습니다.",
