@@ -5,20 +5,12 @@
 			"Awangba Mangang"
 		]
 	},
-	"antispoof-desc": "Blocks the creation of accounts with mixed-script, confusing and similar usernames",
-	"antispoof-conflict-top": "The username \"$1\" is too similar to the following {{PLURAL:$2|username|usernames}}:",
 	"antispoof-conflict-bottom": "ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯑꯇꯣꯞꯄꯥ ꯁꯤꯖꯤꯟꯅꯔꯤꯕꯥ ꯃꯃꯤꯡ ꯱ ꯈꯟꯂꯨ",
-	"antispoof-name-illegal": "The username \"$1\" is not allowed to prevent confusing or spoofed usernames: $2.\nPlease choose another username.",
 	"antispoof-badtype": "ꯑꯐꯠꯇꯕꯥ ꯈꯣꯝꯖꯤꯟꯕꯥ ꯃꯈꯜ",
 	"antispoof-empty": "ꯑꯍꯥꯡꯕꯥ ꯃꯔꯤ",
-	"antispoof-prohibited": "Contains blacklisted character $1",
 	"antispoof-combining": " $1 ꯄꯨꯟꯁꯤꯟꯗꯨꯅꯥ ꯍꯧꯔꯣ",
 	"antispoof-unassigned": "$1 ꯌꯥꯗꯕꯥ ꯃꯌꯦꯛ ꯌꯥꯎꯔꯦ",
-	"antispoof-deprecated": "Contains deprecated character $1",
 	"antispoof-noletters": "ꯃꯌꯦꯛ ꯑꯃꯇꯥ ꯌꯥꯎꯍꯟꯒꯅꯨ",
 	"antispoof-mixedscripts": "ꯃꯄꯨꯡ ꯐꯥꯗꯕꯥ ꯌꯥꯟꯁꯤꯟꯅꯕꯥ ꯃꯌꯦꯛ ꯌꯥꯎꯔꯦ",
-	"antispoof-tooshort": "ꯃꯤꯡꯁꯤ ꯌꯥꯝ ꯇꯦꯟꯂꯦ ꯆꯥꯡ ꯱ꯗꯥ ꯏꯌꯨ",
-	"antispoof-ignore": "Ignore spoofing checks",
-	"antispoof-ignore-help": "Allows users with sufficient privileges to create an account even if its name is similar to that of an existing account.",
-	"right-override-antispoof": "Override the spoofing checks"
+	"antispoof-tooshort": "ꯃꯤꯡꯁꯤ ꯌꯥꯝ ꯇꯦꯟꯂꯦ ꯆꯥꯡ ꯱ꯗꯥ ꯏꯌꯨ"
 }

@@ -6,20 +6,5 @@
 			"Shirayuki"
 		]
 	},
-	"antispoof-desc": "Blocks the creation of accounts with mixed-script, confusing and similar usernames",
-	"antispoof-conflict-top": "The username \"$1\" is too similar to the following {{PLURAL:$2|username|usernames}}:",
-	"antispoof-conflict-bottom": "Please choose another username.",
-	"antispoof-name-illegal": "The username \"$1\" is not allowed to prevent confusing or spoofed usernames: $2.\nPlease choose another username.",
-	"antispoof-badtype": "Bad data type",
-	"antispoof-empty": "Empty string",
-	"antispoof-prohibited": "Contains blacklisted character $1",
-	"antispoof-combining": "Begins with combining mark $1",
-	"antispoof-unassigned": "Contains unassigned character $1",
-	"antispoof-deprecated": "Contains deprecated character $1",
-	"antispoof-noletters": "Does not contain any letters",
-	"antispoof-mixedscripts": "Contains incompatible mixed scripts",
-	"antispoof-tooshort": "Normalised name too short",
-	"antispoof-ignore": "Ignore spoofing checks",
-	"antispoof-ignore-help": "Allows users with sufficient privileges to create an account even if its name is similar to that of an existing account.",
-	"right-override-antispoof": "Override the spoofing checks"
+	"antispoof-tooshort": "Normalised name too short"
 }
