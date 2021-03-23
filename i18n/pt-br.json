@@ -12,6 +12,7 @@
 			"He7d3r",
 			"Helder.wiki",
 			"Luckas",
+			"Mariagarbin",
 			"Rhaijin",
 			"Trigonometria87",
 			555
@@ -24,7 +25,7 @@
 	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Formato de dados incorreto",
 	"antispoof-empty": "Linha vazia",
-	"antispoof-prohibited": "Contém o caractere $1, presente na lista negra",
+	"antispoof-prohibited": "Contém o caractere proibido $1",
 	"antispoof-combining": "Inicia com o caractere de combinação $1",
 	"antispoof-unassigned": "Contém caracteres não reconhecidos: $1",
 	"antispoof-deprecated": "Contém o parâmetro depreciado $1",

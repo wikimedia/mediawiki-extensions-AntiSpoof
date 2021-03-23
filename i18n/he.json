@@ -12,7 +12,7 @@
 	"antispoof-name-illegal": "שם המשתמש \"$1\" נאסר כדי למנוע שמות משתמש שיש בהם בלבול או התחזות: $2.\nנא לבחור שם משתמש אחר.",
 	"antispoof-badtype": "סוג נתונים בעייתי",
 	"antispoof-empty": "מחרוזת ריקה",
-	"antispoof-prohibited": "מכיל את התו $1 שאסור לשימוש",
+	"antispoof-prohibited": "מכיל את התו $1, שאסור לשימוש",
 	"antispoof-combining": "מתחיל בסימן $1, שאמור להיות מורכב על אות",
 	"antispoof-unassigned": "מכיל את התו הבלתי־מוקצה או המיושן $1",
 	"antispoof-deprecated": "מכיל את התו המיושן $1",
