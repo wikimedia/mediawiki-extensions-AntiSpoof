@@ -10,7 +10,7 @@
 	"antispoof-name-illegal": "El nom de utent \"$1\" l'è minga permetud per fà minga casot o per minga fall drovà in manera de baloss: $2. Cata foeura un'alter nom.",
 	"antispoof-badtype": "Tipo de dati sbagliad",
 	"antispoof-empty": "Stringa voeuja",
-	"antispoof-prohibited": "El gh'hà denter el carater $1 che 'l minga vesser doprad",
+	"antispoof-prohibited": "El gh'hà denter el carater $1 minga permetud",
 	"antispoof-combining": "El comenza con la combinazzion de carater $1",
 	"antispoof-unassigned": "El gh'hà dent el carater minga assegnad $1",
 	"antispoof-deprecated": "El gh'hà dent el carater $1 che l'è sconsgiurad",
