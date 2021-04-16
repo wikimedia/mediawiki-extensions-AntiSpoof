@@ -16,6 +16,7 @@
 	"antispoof-conflict-top": "Nazwa użytkownika „$1” jest zbyt podobna do {{PLURAL:$2|następującej nazwy konta|następujących nazw kont}}:",
 	"antispoof-conflict-bottom": "Wybierz inną nazwę użytkownika.",
 	"antispoof-name-illegal": "Nazwa użytkownika „$1” nie jest dozwolona, gdyż może być myląca: $2.\nWybierz inną nazwę użytkownika.",
+	"antispoof-bad-char": "„$1” ($2)",
 	"antispoof-badtype": "Zły typ danych",
 	"antispoof-empty": "Pusty ciąg znaków",
 	"antispoof-prohibited": "Zawiera niedozwolony znak $1",
