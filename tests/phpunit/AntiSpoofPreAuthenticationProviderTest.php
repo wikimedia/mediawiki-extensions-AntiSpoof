@@ -46,7 +46,7 @@ class AntiSpoofPreAuthenticationProviderTest extends MediaWikiTestCase {
 				MediaWikiServices::getInstance()->getPermissionManager(),
 				[ 'antiSpoofAccounts' => $enabled ]
 			] )
-			->setMethods( [ 'getSpoofUser' ] )->getMock();
+			->onlyMethods( [ 'getSpoofUser' ] )->getMock();
 		$spoofUser = $this->getMockBuilder( SpoofUser::class )
 			->disableOriginalConstructor()->getMock();
 		$provider->expects( $this->any() )->method( 'getSpoofUser' )->willReturn( $spoofUser );

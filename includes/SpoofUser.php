@@ -171,7 +171,7 @@ class SpoofUser {
 		$dbw = $this->getDBMaster();
 		// Avoid user rename triggered deadlocks
 		$dbw->onTransactionPreCommitOrIdle(
-			function () use ( $dbw, $that, $method, $oldName ) {
+			static function () use ( $dbw, $that, $method, $oldName ) {
 				if ( $that->record() ) {
 					$dbw->delete(
 						'spoofuser',
@@ -206,6 +206,6 @@ class SpoofUser {
 	 * @return IDatabase
 	 */
 	protected function getDBMaster() {
-		return wfGetDB( DB_MASTER );
+		return wfGetDB( DB_PRIMARY );
 	}
 }
