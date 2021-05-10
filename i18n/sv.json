@@ -8,6 +8,7 @@
 			"M.M.S.",
 			"Mjälten",
 			"Skalman",
+			"Technic2",
 			"WikiPhoenix"
 		]
 	},
@@ -17,7 +18,7 @@
 	"antispoof-name-illegal": "För att förhindra förvirrande eller falska användarnamn, är användarnamnet \"$1\" inte tillåtet. Anledning: $2\nVälj ett annat användarnamn istället.",
 	"antispoof-badtype": "Felaktig datatyp",
 	"antispoof-empty": "Tom sträng",
-	"antispoof-prohibited": "Innehåller det svartlistade tecknet $1",
+	"antispoof-prohibited": "Innehåller det förbjudna tecknet $1",
 	"antispoof-combining": "Börjar med kombinationstecknet $1",
 	"antispoof-unassigned": "Innehåller det icke-tilldelade tecknet $1",
 	"antispoof-deprecated": "Innehåller det utfasade tecknet $1",
