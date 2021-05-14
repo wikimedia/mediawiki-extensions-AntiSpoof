@@ -166,13 +166,12 @@ class SpoofUser {
 	 * @param string $oldName
 	 */
 	public function update( $oldName ) {
-		$that = $this;
 		$method = __METHOD__;
 		$dbw = $this->getDBMaster();
 		// Avoid user rename triggered deadlocks
 		$dbw->onTransactionPreCommitOrIdle(
-			static function () use ( $dbw, $that, $method, $oldName ) {
-				if ( $that->record() ) {
+			function () use ( $dbw, $method, $oldName ) {
+				if ( $this->record() ) {
 					$dbw->delete(
 						'spoofuser',
 						[ 'su_name' => $oldName ],
