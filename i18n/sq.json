@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Arianit",
+			"Besnik b",
 			"FatosMorina",
 			"Olsi"
 		]
@@ -12,7 +13,7 @@
 	"antispoof-name-illegal": "Emri i përdoruesit \"$1\" nuk është i lejuar për të shmangur emra përdoruesish të ngatërrueshëm apo të rremë: $2.",
 	"antispoof-badtype": "Shtypje e keqe e të dhënave",
 	"antispoof-empty": "Fushë boshe",
-	"antispoof-prohibited": "Përmban karakter të palejuar $1",
+	"antispoof-prohibited": "Përmban shenjë të ndaluar $1",
 	"antispoof-combining": "Fillon me shenjën e kombinuar $1",
 	"antispoof-unassigned": "Përmban karakter të papërcaktuar $1",
 	"antispoof-deprecated": "Përmban karakter të palejueshëm $1",
