@@ -1,8 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"SPQRobin"
-		]
-	},
-	"antispoof-name-illegal": "Non licet uti nomine \"$1\" ad nominum usorum simulationem prohibendam: $2. Selige nomen alterum."
-}
