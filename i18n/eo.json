@@ -14,7 +14,7 @@
 	"antispoof-name-illegal": "La uzantnomo \"$1\" ne estas permesita por preventi konfuzigemajn aŭ trompajn uzantnomojn: $2. Bonvolu elekti alian uzantnomon.",
 	"antispoof-badtype": "Nevalida datumtipo",
 	"antispoof-empty": "Malplena bitĉeno",
-	"antispoof-prohibited": "Enhavas literojn el nigra listo $1",
+	"antispoof-prohibited": "Enhavas malpermesitan literon $1",
 	"antispoof-combining": "Komencas kun kuniga marko $1",
 	"antispoof-unassigned": "Enhavas neatribuitan signon $1",
 	"antispoof-deprecated": "Enhavas evitindan signon $1",
