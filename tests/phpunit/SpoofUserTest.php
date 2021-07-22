@@ -22,7 +22,7 @@ class SpoofUserTest extends MediaWikiTestCase {
 		'ILIKECAPSLOCKS',
 	];
 
-	public function setUp() : void {
+	public function setUp(): void {
 		parent::setUp();
 
 		// Put some stuff in the database
