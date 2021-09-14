@@ -121,7 +121,7 @@ class SpoofUser {
 	 * @return bool
 	 */
 	public function record() {
-		return self::batchRecord( $this->getDBMaster(), [ $this ] );
+		return self::batchRecord( $this->getDBPrimary(), [ $this ] );
 	}
 
 	/**
@@ -167,7 +167,7 @@ class SpoofUser {
 	 */
 	public function update( $oldName ) {
 		$method = __METHOD__;
-		$dbw = $this->getDBMaster();
+		$dbw = $this->getDBPrimary();
 		// Avoid user rename triggered deadlocks
 		$dbw->onTransactionPreCommitOrIdle(
 			function () use ( $dbw, $method, $oldName ) {
@@ -187,7 +187,7 @@ class SpoofUser {
 	 * Remove a user from the spoofuser table
 	 */
 	public function remove() {
-		$this->getDBMaster()->delete(
+		$this->getDBPrimary()->delete(
 			'spoofuser',
 			[ 'su_name' => $this->name ],
 			__METHOD__
@@ -204,7 +204,7 @@ class SpoofUser {
 	/**
 	 * @return IDatabase
 	 */
-	protected function getDBMaster() {
+	protected function getDBPrimary() {
 		return wfGetDB( DB_PRIMARY );
 	}
 }
