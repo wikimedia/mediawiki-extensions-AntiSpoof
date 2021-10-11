@@ -4,7 +4,7 @@
  * @covers SpoofUser
  * @group Database
  */
-class SpoofUserTest extends MediaWikiTestCase {
+class SpoofUserTest extends MediaWikiIntegrationTestCase {
 
 	/** @inheritDoc */
 	protected $tablesUsed = [ 'user', 'spoofuser' ];

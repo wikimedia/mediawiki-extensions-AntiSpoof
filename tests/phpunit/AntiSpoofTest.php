@@ -4,7 +4,7 @@
  * @covers AntiSpoof
  * @group AntiSpoof
  */
-class AntiSpoofTest extends MediaWikiTestCase {
+class AntiSpoofTest extends MediaWikiIntegrationTestCase {
 
 	public function providePositives() {
 		return [
