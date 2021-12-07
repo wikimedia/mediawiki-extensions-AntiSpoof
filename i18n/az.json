@@ -2,13 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Vugar 1981",
-			"Wertuose"
+			"Wertuose",
+			"NMW03"
 		]
 	},
 	"antispoof-desc": "Digər hesablarla qarışmamamq üçün fərqli yazı sistemindən ibarət olan simvollarla yaradılmış hesabların açılması qadağandır",
-	"antispoof-conflict-top": "\"$1\" adı bu {{PLURAL:$2|istifadəçi adına|istifadəçi adlarına}} çox bənzəyir:",
-	"antispoof-conflict-bottom": "Zəhmət olmasa başqa ad seçin.",
-	"antispoof-name-illegal": "$2 hesabıyla qarışmaması üçün \"$1\" adına icazə verilmir. Zəhmət olmasa başqa istifadəçi adını seçin.",
+	"antispoof-conflict-top": "\"$1\" istifadəçi adı bu {{PLURAL:$2|istifadəçi adına|istifadəçi adlarına}} çox bənzəyir:",
+	"antispoof-conflict-bottom": "Zəhmət olmasa başqa istifadəçi adı seçin.",
+	"antispoof-name-illegal": "$2 hesabıyla qarışmaması üçün \"$1\" istifadəçi adına icazə verilmir.\nZəhmət olmasa başqa istifadəçi adı seçin.",
+	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Yanlış məlumat",
 	"antispoof-empty": "Boş sətir",
 	"antispoof-prohibited": "Qadağan olunmuş simvol istifadə edilib: $1",

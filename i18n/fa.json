@@ -10,7 +10,8 @@
 			"Omidh",
 			"Reza1615",
 			"Surena",
-			"ZxxZxxZ"
+			"ZxxZxxZ",
+			"Darafsh"
 		]
 	},
 	"antispoof-desc": "از ایجاد حساب‌های کاربری با حروف مختلط، گیج‌کننده یا مشابه با دیگر حساب‌های کاربری جلوگیری می‌کند",
@@ -20,7 +21,7 @@
 	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "داده با نوع نامناسب",
 	"antispoof-empty": "رشتهٔ خالی",
-	"antispoof-prohibited": "حاوی نویسهٔ $1 است که در فهرست سیاه قرار دارد",
+	"antispoof-prohibited": "حاوی نویسهٔ ممنوعهٔ $1",
 	"antispoof-combining": "با علامت جمع $1 شروع می‌شود",
 	"antispoof-unassigned": "دارای نویسهٔ تعیین‌نشدهٔ $1 است",
 	"antispoof-deprecated": "شامل نویسهٔ منسوخ‌شدهٔ $1 است",

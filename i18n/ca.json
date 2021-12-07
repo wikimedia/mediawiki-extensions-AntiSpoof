@@ -8,7 +8,8 @@
 			"Qllach",
 			"SMP",
 			"Toniher",
-			"Vriullop"
+			"Vriullop",
+			"Jmarchn"
 		]
 	},
 	"antispoof-desc": "Bloca la creació de comptes amb alfabets barrejats i noms d'usuari similars o que portin a confusió",
@@ -17,7 +18,7 @@
 	"antispoof-name-illegal": "El nom d'usuari «$1» no està permès per evitar confusions o falsificacions amb els noms d'usuari: $2. \nSi us plau, escolliu un altre nom d'usuari.",
 	"antispoof-badtype": "Tipus de dades incorrecte",
 	"antispoof-empty": "Cadena buida",
-	"antispoof-prohibited": "Conté el caràcter no permés $1",
+	"antispoof-prohibited": "Conté el caràcter no permès $1",
 	"antispoof-combining": "Comença amb la marca de combinació $1",
 	"antispoof-unassigned": "Conté el caràcter no assignat $1",
 	"antispoof-deprecated": "Conté el caràcter obsolet $1",
