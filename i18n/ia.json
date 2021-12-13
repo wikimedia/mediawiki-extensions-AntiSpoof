@@ -19,5 +19,6 @@
 	"antispoof-tooshort": "Nomine normalisate troppo curte",
 	"antispoof-ignore": "Ignorar le verificationes contra falsification",
 	"antispoof-ignore-help": "Permitte al usatores con privilegios sufficiente de crear un conto mesmo si su nomine es similar a illo de un conto existente.",
+	"action-override-antispoof": "ignorar le verificationes contra falsification",
 	"right-override-antispoof": "Ignorar le verificationes contra falsification"
 }

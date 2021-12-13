@@ -7,7 +7,8 @@
 			"Kenrick95",
 			"Meursault2004",
 			"Rachmat04",
-			"Rex"
+			"Rex",
+			"Daud I.F. Argana"
 		]
 	},
 	"antispoof-desc": "Menghalangi pembuatan akun dengan nama pengguna aksara campuran, membingungkan, dan yang mirip",
@@ -25,5 +26,6 @@
 	"antispoof-tooshort": "Nama normalisasi terlalu pendek",
 	"antispoof-ignore": "Abaikan pemeriksaan penipuan akun",
 	"antispoof-ignore-help": "Izinkan pengguna dengan hak memadai untuk membuat sebuah akun walaupun namanya mirip dengan akun yang telah ada.",
+	"action-override-antispoof": "mengabaikan pemeriksaan penipuan",
 	"right-override-antispoof": "Mengabaikan pengecekan penipuan nama pengguna"
 }

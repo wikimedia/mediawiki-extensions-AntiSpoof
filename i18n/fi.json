@@ -8,10 +8,12 @@
 			"Pyscowicz",
 			"Samoasambia",
 			"Silvonen",
-			"Str4nd"
+			"Str4nd",
+			"3Johnny",
+			"Majavah"
 		]
 	},
-	"antispoof-desc": "Estää käyttäjätunnusten luonnin, jos ne sisältävät eri kirjoitusjärjestelmiä, harhaanjohtavia tai samankaltaisia käyttäjätunnuksia.",
+	"antispoof-desc": "Estää käyttäjätunnusten luonnin, jos ne sisältävät eri kirjoitusjärjestelmiä, harhaanjohtavia tai samankaltaisia käyttäjänimiä.",
 	"antispoof-conflict-top": "Tunnus ”$1” on liian samankaltainen kuin seuraava(t)\n{{PLURAL:$2|tunnus|tunnusta}}:",
 	"antispoof-conflict-bottom": "Valitse toinen käyttäjänimi.",
 	"antispoof-name-illegal": "Käyttäjänimeä ”$1” ei sallita hämäävien tai huijaustarkoitukseen sopivien tunnusten välttämiseksi: $2. Valitse toinen käyttäjänimi.",
@@ -25,5 +27,6 @@
 	"antispoof-mixedscripts": "se sisältää yhteensopimattomia kirjoitusjärjestelmiä",
 	"antispoof-tooshort": "Normalisoitu nimi liian lyhyt",
 	"antispoof-ignore": "Älä käytä hämäävien tunnusten tarkistusta",
-	"right-override-antispoof": "Ohittaa tarkastukset samankaltaisista tai epäilyttävistä käyttäjätunnuksista"
+	"action-override-antispoof": "ohittaa tarkastukset samankaltaisista tai epäilyttävistä käyttäjänimistä",
+	"right-override-antispoof": "Ohittaa tarkastukset samankaltaisista tai epäilyttävistä käyttäjänimistä"
 }

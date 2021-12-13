@@ -4,13 +4,14 @@
 			"Pippinu",
 			"Santu",
 			"Sarvaturi",
-			"Tonyfroio"
+			"Tonyfroio",
+			"Ajeje Brazorf"
 		]
 	},
 	"antispoof-desc": "Blocca la criazzioni di cunti d'utenti cu nomi fatti d'arfabbeti ammiscati, chi ponnu fari cunfùnniri, o chi s'assimìgghianu troppu assai",
-	"antispoof-conflict-top": "Lu nomu \"$1\" assimigghia troppu assai a {{PLURAL:$2|stu cuntu ca già c'è|sti cunti ca già ci sunnu}}:",
-	"antispoof-conflict-bottom": "Pi favuri scegghi n'àutru nomu.",
-	"antispoof-name-illegal": "Lu nomu \"$1\" nun è cunzintutu, pi scanzari cunfusioni o scancî di pirsuna: $2.\nPi favuri scegghi n'àutru nomu.",
+	"antispoof-conflict-top": "Lu nomu utenti \"$1\" assimigghia troppu assai a {{PLURAL:$2|stu cuntu ca già c'è|sti cunti ca già ci sunnu}}:",
+	"antispoof-conflict-bottom": "Pi favuri scegghi n'àutru nomu utenti.",
+	"antispoof-name-illegal": "Lu nomu utenti \"$1\" nun è cunzintutu, pi scanzari cunfusioni o scancî di pirsuna: $2.\nPi favuri scegghi n'àutru nomu utenti.",
 	"antispoof-badtype": "Tipu di dati erratu",
 	"antispoof-empty": "Stringa vacanti",
 	"antispoof-blacklisted": "Cunteni lu caràttiri nta lista nìura $1",
@@ -19,7 +20,7 @@
 	"antispoof-deprecated": "Cunteni lu caràttiri dipricatu $1",
 	"antispoof-noletters": "Nun cunteni nudda littra",
 	"antispoof-mixedscripts": "Cunteni arfabbeti ammiscati chi nun sunnu cumpatìbbili",
-	"antispoof-tooshort": "Nomu 'n forma canonica troppu curtu",
+	"antispoof-tooshort": "Nomu n forma canonica troppu curtu",
 	"antispoof-ignore": "Sàuta li cuntrolli contra ô scanciu di pirsuna",
 	"right-override-antispoof": "Sautari li cuntrolli contra ô scanciu di pirsuna"
 }

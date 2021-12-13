@@ -1,9 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aue Nai"
+			"Aue Nai",
+			"Ranger-Mon"
 		]
 	},
+	"antispoof-desc": "Blocks the creation of accounts with mixed-script, confusing and similar usernames",
+	"antispoof-conflict-top": "ယၟုညးလွပ် \"$1\" ဂှ် ကြပ်တုပ် ကွေဟ်ဟ် ကုအရာဏအ် {{PLURAL:$2|ယၟုညးလွပ်|ယၟုညးလွပ်ဂမၠိုင်}}:",
 	"antispoof-conflict-bottom": "သ္ပဂုဏ်တုဲ ထပ်ရုဲစှ် ယၟုညးလွပ် တၞဟ်ခြာမွဲ.",
-	"antispoof-badtype": "ဂကူ ဒေတာ မပရေအ်"
+	"antispoof-name-illegal": "ယၟုညးလွပ် \"$1\" ဂှ် ဟွံကဵုအခေါင် သွက်ဂွံ စကာ နဒဒှ် ယၟုညးလွပ်: $2။\nပဂုန်တုဲ ရုဲစှ် ယၟုညးလွဟ် တၞဟ်ညိ။",
+	"antispoof-badtype": "ဂကူ ဒေတာ မပရေအ်",
+	"antispoof-empty": "ဟွံ ဗပေင်လဝ်",
+	"antispoof-combining": "စ နကဵု သင်္ကေတ $1",
+	"antispoof-unassigned": "မနွံကဵု မလိက် ဟွံကဵု စကာ $1",
+	"antispoof-deprecated": "မနွံကဵု မလိက် မစဵုဒၞာလဝ် $1",
+	"antispoof-noletters": "လ္ပစုတ် မလိက်မွဲမွဲညိ",
+	"antispoof-mixedscripts": "မနွံကဵု ဂကူအက္ခရ်ဂမၠိုင် မနှဴရဴဒၟံင်မ ဟွံစိုပ်ဒတဴ",
+	"antispoof-tooshort": "ယၟုမကဵုလဝ်ဂှ် ဂၠေအ်လောန်အာ"
 }

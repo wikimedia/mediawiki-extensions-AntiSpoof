@@ -17,7 +17,7 @@
 	"antispoof-conflict-bottom": "Изаберите друго име.",
 	"antispoof-name-illegal": "Корисничко име „$1“ није дозвољено да би се избегла збуњујућа или лажирана корисничка имена: $2.\nИзаберите друго корисничко име.",
 	"antispoof-bad-char": "„$1“ ($2)",
-	"antispoof-badtype": "Погрешан тип података",
+	"antispoof-badtype": "Погрешна врста података",
 	"antispoof-empty": "Празна ниска",
 	"antispoof-blacklisted": "Садржи забрањени знак $1",
 	"antispoof-combining": "Почиње са саставним знаком $1",

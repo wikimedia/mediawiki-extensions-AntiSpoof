@@ -14,7 +14,7 @@
 	"antispoof-empty": "Празна низа",
 	"antispoof-blacklisted": "Го содржи забранетиот знак $1",
 	"antispoof-combining": "Започнува со составниот знак $1",
-	"antispoof-unassigned": "Содржи неопределен знак $1",
+	"antispoof-unassigned": "Го содржи недоделениот знак $1",
 	"antispoof-deprecated": "Го содржи застарениот знак $1",
 	"antispoof-noletters": "Не содржи букви",
 	"antispoof-mixedscripts": "Содржи нескладни мешани писма/азбуки",

@@ -3,7 +3,9 @@
 		"authors": [
 			"Arianit",
 			"FatosMorina",
-			"Olsi"
+			"Olsi",
+			"Besnik b",
+			"Klein Muçi"
 		]
 	},
 	"antispoof-desc": "Bllokon krijimin e llogarive me shkrime të përziera, duke çrregulluar edhe emrat e ngjashëm të përdorusve",
@@ -19,6 +21,6 @@
 	"antispoof-noletters": "Nuk përmban asnjë shkronjë",
 	"antispoof-mixedscripts": "Përmban shkrime të përziera të papajtueshme",
 	"antispoof-tooshort": "Emri i normlizuar shumë i shkurtër",
-	"antispoof-ignore": "Tejkaloni kontrollet për emra të rremë",
+	"antispoof-ignore": "Shpërfillni kontrollet për emrat e ngjashëm",
 	"right-override-antispoof": "Refuzoni kontrollet për emra të rremë"
 }

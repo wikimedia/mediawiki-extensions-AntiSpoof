@@ -13,6 +13,7 @@
 	"antispoof-conflict-top": "Der Benutzername „$1“ ist {{PLURAL:$2|dem|den}} folgenden Benutzernamen zu ähnlich:",
 	"antispoof-conflict-bottom": "Bitte wähle einen anderen Benutzernamen.",
 	"antispoof-name-illegal": "Der gewünschte Benutzername „$1“ ist nicht möglich. Grund: $2<br />Bitte wähle einen anderen Benutzernamen.",
+	"antispoof-bad-char": "„$1“ ($2)",
 	"antispoof-badtype": "Ungültiger Datentyp",
 	"antispoof-empty": "Leeres Feld",
 	"antispoof-blacklisted": "Das nicht zulässige Zeichen $1 ist enthalten.",

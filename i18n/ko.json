@@ -21,7 +21,7 @@
 	"antispoof-unassigned": "코드가 부여되지 않았거나 잘못된 $1 문자를 포함",
 	"antispoof-deprecated": "잘못된 글자 $1이 포함되어 있습니다.",
 	"antispoof-noletters": "어떠한 문자도 포함하고 있지 않습니다",
-	"antispoof-mixedscripts": "여러 문자 체계가 섞여 있습니다.",
+	"antispoof-mixedscripts": "여러 문자 체계가 섞여 있습니다",
 	"antispoof-tooshort": "정규화된 이름이 너무 짧습니다",
 	"antispoof-ignore": "안티스푸프 검사를 무시",
 	"antispoof-ignore-help": "충분한 권한을 가진 사용자가 새 계정이 이미 존재하는 계정과 비슷하더라도 새 계정을 만들 수 있도록 합니다",

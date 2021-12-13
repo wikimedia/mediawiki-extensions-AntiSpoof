@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Filipinayzd",
-			"Geopoet"
+			"Geopoet",
+			"Kunokuno"
 		]
 	},
 	"antispoof-desc": "Minakubkob sa pagmukna nin mga panindog na igwang pinaghalong eskripto, nakakalibong asin may kaparehong mga paragamit-ngaran",
@@ -19,5 +20,7 @@
 	"antispoof-mixedscripts": "Igwang dai angay na mga halong eskripto",
 	"antispoof-tooshort": "Kanonikalisadong pangaran na grabe kahalipoton",
 	"antispoof-ignore": "Pabayae an palibong na mga rikisa",
+	"antispoof-ignore-help": "Nagtutugot sa mga paragamit na igwa nin mga prebilihiyo na makagibo nin account dawa na an ngaran-paragamit kaini igwa na nin kapadis.",
+	"action-override-antispoof": "i-override an mga spoofing checks",
 	"right-override-antispoof": "Salambawan an palibong na mga rikisa"
 }

@@ -8,7 +8,8 @@
 			"Joedalton",
 			"Jon Harald Søby",
 			"Sarrus",
-			"Tjernobyl"
+			"Tjernobyl",
+			"Saederup92"
 		]
 	},
 	"antispoof-desc": "Blokerer for oprettelse af konti med blandede tegnsæt, forvirrende eller lignende brugernavne",
@@ -26,5 +27,6 @@
 	"antispoof-tooshort": "Normaliseret navn er for kort",
 	"antispoof-ignore": "Ignorér misbrugskontrol",
 	"antispoof-ignore-help": "Giver bruger med tilstrækkelige privilegier adgang til at oprette en konto selv om deres navn ligner en eksisterende konto.",
+	"action-override-antispoof": "omgå kontrollerne af brugernavne",
 	"right-override-antispoof": "Omgå kontrollerne af brugernavne"
 }
