@@ -9,6 +9,7 @@
 			"Liuxinyu970226",
 			"PhiLiP",
 			"Shizhao",
+			"Tranve",
 			"Xiaomingyan",
 			"Yfdyh000",
 			"佛壁灯",
@@ -30,7 +31,7 @@
 	"antispoof-mixedscripts": "含有不兼容的混合文字",
 	"antispoof-tooshort": "规范化名称太短",
 	"antispoof-ignore": "忽略欺诈检查",
-	"antispoof-ignore-help": "允许有足够特权的用户创建账户，即便其用户名与现有账户相似。",
+	"antispoof-ignore-help": "允许有足够特权的用户创建账号，即便其用户名与现有账号相似。",
 	"action-override-antispoof": "无视欺诈检查",
 	"right-override-antispoof": "无视欺诈检查"
 }
