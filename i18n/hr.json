@@ -3,7 +3,8 @@
 		"authors": [
 			"Dalibor Bosits",
 			"MaGa",
-			"SpeedyGonsales"
+			"SpeedyGonsales",
+			"Ponor"
 		]
 	},
 	"antispoof-desc": "Sprečava stvaranje sličnih i nepravilnih suradničkih računa",
@@ -13,7 +14,7 @@
 	"antispoof-badtype": "Krivi tip podataka",
 	"antispoof-empty": "Prazan string",
 	"antispoof-prohibited": "Sadrži nedozvoljeni znak $1",
-	"antispoof-combining": "Počinje sa znakom spajanja $1",
+	"antispoof-combining": "Počinje unicode-modifikatorom $1",
 	"antispoof-unassigned": "Sadrži nedodijeljen znak $1",
 	"antispoof-noletters": "Prekratko",
 	"antispoof-mixedscripts": "Nekompatibilna pisma",
