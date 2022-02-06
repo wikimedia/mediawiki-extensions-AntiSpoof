@@ -16,6 +16,7 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
+use MediaWiki\Extension\AntiSpoof\SpoofUser;
 use MediaWiki\MediaWikiServices;
 
 $IP = getenv( 'MW_INSTALL_PATH' );

@@ -16,6 +16,11 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
+namespace MediaWiki\Extension\AntiSpoof;
+
+use ApiBase;
+use User;
+
 /**
  * API module to check a username against the AntiSpoof normalisation checks
  *

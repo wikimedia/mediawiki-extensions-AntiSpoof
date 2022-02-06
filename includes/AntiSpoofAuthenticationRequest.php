@@ -16,6 +16,8 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
+namespace MediaWiki\Extension\AntiSpoof;
+
 use MediaWiki\Auth\AuthenticationRequest;
 
 class AntiSpoofAuthenticationRequest extends AuthenticationRequest {

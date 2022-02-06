@@ -16,6 +16,9 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
+namespace MediaWiki\Extension\AntiSpoof;
+
+use Html;
 use MediaWiki\Auth\AbstractPreAuthenticationProvider;
 use MediaWiki\Auth\AuthenticationRequest;
 use MediaWiki\Auth\AuthManager;
@@ -23,6 +26,10 @@ use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\User\UserIdentity;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
+use RawMessage;
+use RequestContext;
+use StatusValue;
+use User;
 
 class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvider {
 	/** @var bool False effectively disables this provider, but spoofed names will still be logged. */

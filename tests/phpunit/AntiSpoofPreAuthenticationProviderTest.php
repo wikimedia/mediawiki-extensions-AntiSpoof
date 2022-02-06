@@ -2,11 +2,13 @@
 
 use MediaWiki\Auth\AbstractPreAuthenticationProvider;
 use MediaWiki\Auth\AuthManager;
+use MediaWiki\Extension\AntiSpoof\AntiSpoofAuthenticationRequest;
+use MediaWiki\Extension\AntiSpoof\AntiSpoofPreAuthenticationProvider;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Tests\Unit\Auth\AuthenticationProviderTestTrait;
 
 /**
- * @covers AntiSpoofPreAuthenticationProvider
+ * @covers \MediaWiki\Extension\AntiSpoof\AntiSpoofPreAuthenticationProvider
  * @group Database
  */
 class AntiSpoofPreAuthenticationProviderTest extends MediaWikiIntegrationTestCase {

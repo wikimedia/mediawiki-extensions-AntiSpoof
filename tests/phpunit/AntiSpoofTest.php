@@ -1,7 +1,9 @@
 <?php
 
+use MediaWiki\Extension\AntiSpoof\AntiSpoof;
+
 /**
- * @covers AntiSpoof
+ * @covers \MediaWiki\Extension\AntiSpoof\AntiSpoof
  * @group AntiSpoof
  */
 class AntiSpoofTest extends MediaWikiIntegrationTestCase {
