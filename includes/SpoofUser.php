@@ -16,6 +16,9 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
+namespace MediaWiki\Extension\AntiSpoof;
+
+use Status;
 use Wikimedia\Rdbms\IDatabase;
 
 class SpoofUser {
@@ -208,3 +211,5 @@ class SpoofUser {
 		return wfGetDB( DB_PRIMARY );
 	}
 }
+
+class_alias( SpoofUser::class, 'SpoofUser' );

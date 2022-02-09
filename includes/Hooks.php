@@ -16,7 +16,12 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
-class AntiSpoofHooks {
+namespace MediaWiki\Extension\AntiSpoof;
+
+use DatabaseUpdater;
+use User;
+
+class Hooks {
 	/**
 	 * @param DatabaseUpdater $updater
 	 * @return bool
@@ -56,12 +61,14 @@ class AntiSpoofHooks {
 	}
 
 	/**
-	 * @param User &$oldUser
+	 * @param User $oldUser
 	 * @return bool
 	 */
-	public static function asDeleteAccount( User &$oldUser ) {
+	public static function asDeleteAccount( User $oldUser ) {
 		$spoof = new SpoofUser( $oldUser->getName() );
 		$spoof->remove();
 		return true;
 	}
 }
+
+class_alias( Hooks::class, 'AntiSpoofHooks' );

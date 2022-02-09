@@ -1,7 +1,9 @@
 <?php
 
+use MediaWiki\Extension\AntiSpoof\SpoofUser;
+
 /**
- * @covers SpoofUser
+ * @covers \MediaWiki\Extension\AntiSpoof\SpoofUser
  * @group Database
  */
 class SpoofUserTest extends MediaWikiIntegrationTestCase {

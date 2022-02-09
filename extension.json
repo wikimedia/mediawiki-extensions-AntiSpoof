@@ -25,7 +25,7 @@
 		}
 	},
 	"APIModules": {
-		"antispoof": "ApiAntiSpoof"
+		"antispoof": "MediaWiki\\Extension\\AntiSpoof\\ApiAntiSpoof"
 	},
 	"MessagesDirs": {
 		"AntiSpoof": [
@@ -35,16 +35,19 @@
 	},
 	"AutoloadClasses": {
 		"AntiSpoof": "includes/AntiSpoof.php",
-		"AntiSpoofHooks": "includes/AntiSpoofHooks.php",
+		"MediaWiki\\Extension\\AntiSpoof\\AntiSpoof": "includes/AntiSpoof.php",
+		"AntiSpoofHooks": "includes/Hooks.php",
+		"MediaWiki\\Extension\\AntiSpoof\\Hooks": "includes/Hooks.php",
 		"SpoofUser": "includes/SpoofUser.php",
-		"AntiSpoofAuthenticationRequest": "includes/AntiSpoofAuthenticationRequest.php",
-		"AntiSpoofPreAuthenticationProvider": "includes/AntiSpoofPreAuthenticationProvider.php",
-		"ApiAntiSpoof": "includes/ApiAntiSpoof.php"
+		"MediaWiki\\Extension\\AntiSpoof\\SpoofUser": "includes/SpoofUser.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\AntiSpoof\\": "includes/"
 	},
 	"AuthManagerAutoConfig": {
 		"preauth": {
 			"AntiSpoofPreAuthenticationProvider": {
-				"class": "AntiSpoofPreAuthenticationProvider",
+				"class": "MediaWiki\\Extension\\AntiSpoof\\AntiSpoofPreAuthenticationProvider",
 				"services": [
 					"PermissionManager"
 				]
@@ -52,10 +55,10 @@
 		}
 	},
 	"Hooks": {
-		"LoadExtensionSchemaUpdates": "AntiSpoofHooks::asUpdateSchema",
-		"LocalUserCreated": "AntiSpoofHooks::asLocalUserCreated",
-		"RenameUserComplete": "AntiSpoofHooks::asAddRenameUserHook",
-		"DeleteAccount": "AntiSpoofHooks::asDeleteAccount"
+		"LoadExtensionSchemaUpdates": "MediaWiki\\Extension\\AntiSpoof\\Hooks::asUpdateSchema",
+		"LocalUserCreated": "MediaWiki\\Extension\\AntiSpoof\\Hooks::asLocalUserCreated",
+		"RenameUserComplete": "MediaWiki\\Extension\\AntiSpoof\\Hooks::asAddRenameUserHook",
+		"DeleteAccount": "MediaWiki\\Extension\\AntiSpoof\\Hooks::asDeleteAccount"
 	},
 	"config": {
 		"AntiSpoofAccounts": {

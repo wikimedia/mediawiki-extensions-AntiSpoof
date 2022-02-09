@@ -31,6 +31,10 @@
  * USA
  */
 
+namespace MediaWiki\Extension\AntiSpoof;
+
+use MWException;
+use Status;
 use UtfNormal\Utils;
 use UtfNormal\Validator;
 use Wikimedia\Equivset\Equivset;
@@ -469,3 +473,5 @@ class AntiSpoof {
 		return Status::newGood( $testName );
 	}
 }
+
+class_alias( AntiSpoof::class, 'AntiSpoof' );
