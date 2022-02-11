@@ -4,6 +4,7 @@ use MediaWiki\Auth\AbstractPreAuthenticationProvider;
 use MediaWiki\Auth\AuthManager;
 use MediaWiki\Extension\AntiSpoof\AntiSpoofAuthenticationRequest;
 use MediaWiki\Extension\AntiSpoof\AntiSpoofPreAuthenticationProvider;
+use MediaWiki\Extension\AntiSpoof\SpoofUser;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Tests\Unit\Auth\AuthenticationProviderTestTrait;
 
