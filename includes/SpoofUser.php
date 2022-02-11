@@ -211,5 +211,3 @@ class SpoofUser {
 		return wfGetDB( DB_PRIMARY );
 	}
 }
-
-class_alias( SpoofUser::class, 'SpoofUser' );

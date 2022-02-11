@@ -70,5 +70,3 @@ class Hooks {
 		return true;
 	}
 }
-
-class_alias( Hooks::class, 'AntiSpoofHooks' );

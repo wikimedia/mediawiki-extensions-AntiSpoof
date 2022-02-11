@@ -33,14 +33,6 @@
 			"i18n/api"
 		]
 	},
-	"AutoloadClasses": {
-		"AntiSpoof": "includes/AntiSpoof.php",
-		"MediaWiki\\Extension\\AntiSpoof\\AntiSpoof": "includes/AntiSpoof.php",
-		"AntiSpoofHooks": "includes/Hooks.php",
-		"MediaWiki\\Extension\\AntiSpoof\\Hooks": "includes/Hooks.php",
-		"SpoofUser": "includes/SpoofUser.php",
-		"MediaWiki\\Extension\\AntiSpoof\\SpoofUser": "includes/SpoofUser.php"
-	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\AntiSpoof\\": "includes/"
 	},

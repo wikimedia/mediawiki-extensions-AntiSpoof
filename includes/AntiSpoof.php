@@ -473,5 +473,3 @@ class AntiSpoof {
 		return Status::newGood( $testName );
 	}
 }
-
-class_alias( AntiSpoof::class, 'AntiSpoof' );
