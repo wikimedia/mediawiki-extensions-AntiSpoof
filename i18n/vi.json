@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Minh Nguyen",
+			"NguoiDungKhongDinhDanh",
 			"Quenhitran",
 			"Vinhtantran"
 		]
@@ -15,8 +16,8 @@
 	"antispoof-empty": "Chuỗi trống",
 	"antispoof-prohibited": "Có chứa ký tự bị cấm $1",
 	"antispoof-combining": "Bắt đầu bằng dấu kết hợp $1",
-	"antispoof-unassigned": "Có chứa ký tự chưa gán hoặc ký tự bị phản đối",
-	"antispoof-deprecated": "Có chứa ký tự bị phản đối $1",
+	"antispoof-unassigned": "Có chứa ký tự chưa gán $1",
+	"antispoof-deprecated": "Có chứa ký tự lỗi thời $1",
 	"antispoof-noletters": "Không có bất kỳ chữ nào",
 	"antispoof-mixedscripts": "Có trộn lẫn hệ thống viết không tương thích",
 	"antispoof-tooshort": "Tên chuẩn hóa quá ngắn",
