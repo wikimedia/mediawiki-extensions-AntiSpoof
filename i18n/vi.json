@@ -3,7 +3,8 @@
 		"authors": [
 			"Minh Nguyen",
 			"Quenhitran",
-			"Vinhtantran"
+			"Vinhtantran",
+			"NguoiDungKhongDinhDanh"
 		]
 	},
 	"antispoof-desc": "Cấm không được mở tài khoản dưới tên người dùng sử dụng hơn một hệ thống chữ viết, gây nhầm lẫn, và tương tự với tên người dùng khác",
@@ -15,8 +16,8 @@
 	"antispoof-empty": "Chuỗi trống",
 	"antispoof-blacklisted": "Có chứa ký tự bị cấm $1",
 	"antispoof-combining": "Bắt đầu bằng dấu kết hợp $1",
-	"antispoof-unassigned": "Có chứa ký tự chưa gán hoặc ký tự bị phản đối",
-	"antispoof-deprecated": "Có chứa ký tự bị phản đối $1",
+	"antispoof-unassigned": "Có chứa ký tự chưa gán $1",
+	"antispoof-deprecated": "Có chứa ký tự lỗi thời $1",
 	"antispoof-noletters": "Không có bất kỳ chữ nào",
 	"antispoof-mixedscripts": "Có trộn lẫn hệ thống viết không tương thích",
 	"antispoof-tooshort": "Tên chuẩn hóa quá ngắn",
