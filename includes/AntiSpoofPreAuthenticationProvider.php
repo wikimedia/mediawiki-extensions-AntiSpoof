@@ -142,7 +142,7 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 		// For "cancreate" checks via the API, test if the current user could
 		// create the username.
 		if ( $this->antiSpoofAccounts && !$autocreate && empty( $options['creating'] ) &&
-			$this->permissionManager->userHasAnyRight( RequestContext::getMain()->getUser(), 'override-antispoof' )
+			!$this->permissionManager->userHasAnyRight( RequestContext::getMain()->getUser(), 'override-antispoof' )
 		) {
 			$sv->merge( $this->testUserInternal( $user, false, new NullLogger ) );
 		}
