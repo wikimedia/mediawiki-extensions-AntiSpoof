@@ -20,6 +20,7 @@ namespace MediaWiki\Extension\AntiSpoof;
 
 use ApiBase;
 use User;
+use Wikimedia\ParamValidator\ParamValidator;
 
 /**
  * API module to check a username against the AntiSpoof normalisation checks
@@ -79,7 +80,7 @@ class ApiAntiSpoof extends ApiBase {
 	public function getAllowedParams() {
 		return [
 			'username' => [
-				ApiBase::PARAM_REQUIRED => true,
+				ParamValidator::PARAM_REQUIRED => true,
 			],
 		];
 	}
