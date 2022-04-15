@@ -9,5 +9,6 @@
 	"antispoof-badtype": "ߓߟߏߡߟߊ߫ ߖߎ߮ ߛߎ߯ߦߊ",
 	"antispoof-empty": "ߖߟߐ߬ߞߐ߬ ߘߐߞߏߟߏ߲",
 	"antispoof-prohibited": "ߞߟߏߘߋ߲߫ ߠߊߕߐ߲ߣߍ߲ ߦߋ߫ $1 ߘߐ߫",
-	"antispoof-noletters": "ߞߟߏߘߋ߲߫ ߛߌ߫ ߕߍ߫ ߞߣߐߘߐ ߘߐ߫"
+	"antispoof-noletters": "ߞߟߏߘߋ߲߫ ߛߌ߫ ߕߍ߫ ߞߣߐߘߐ ߘߐ߫",
+	"antispoof-tooshort": "ߕߐ߯ ߖߐ߲ߖߐ߲ ߞߊߛߎ߬ߘߎ߲߬ ߞߏߖߎ߰"
 }
