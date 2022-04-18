@@ -8,5 +8,6 @@
 	"antispoof-conflict-bottom": "ߕߐ߯ߟߊߓߊ߯ߙߕߊ߫ ߜߘߍ߫ ߛߎߥߊ߲ߘߌ߫ ߖߊ߰ߣߌ߲߫.",
 	"antispoof-badtype": "ߓߟߏߡߟߊ߫ ߖߎ߮ ߛߎ߯ߦߊ",
 	"antispoof-empty": "ߖߟߐ߬ߞߐ߬ ߘߐߞߏߟߏ߲",
-	"antispoof-noletters": "ߞߟߏߘߋ߲߫ ߛߌ߫ ߕߍ߫ ߞߣߐߘߐ ߘߐ߫"
+	"antispoof-noletters": "ߞߟߏߘߋ߲߫ ߛߌ߫ ߕߍ߫ ߞߣߐߘߐ ߘߐ߫",
+	"antispoof-tooshort": "ߕߐ߯ ߖߐ߲ߖߐ߲ ߞߊߛߎ߬ߘߎ߲߬ ߞߏߖߎ߰"
 }
