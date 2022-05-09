@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Germain92"
+		]
+	},
+	"antispoof-name-illegal": "kurinda urujijo, izina ry'umukoresha \"$1\" ntirishobora gukoreshwa: $2.\nhitamo irindi zina.",
+	"antispoof-badtype": "Izina ry'umukoresha ryatanzwe ni ubwoko butemewe.",
+	"antispoof-empty": "nta zina ukoresha ryatanzwe.",
+	"antispoof-prohibited": "amazina y'abakoresha ntashobora kubamo inyuguti \"$1\" kuko birabujijwe.",
+	"antispoof-combining": "Amazina yabakoresha ntashobora kubamo inyuguti zisa \"$1\".",
+	"antispoof-unassigned": "amazina yabakoresha ntashobora kubamo inyuguti \"$1\" kuko n'inyuguti itazwi.",
+	"antispoof-deprecated": "Amazina yabakoresha ntashobora kubamo inyuguti \"$1\" kuko yataye agaciro.",
+	"antispoof-mixedscripts": "amazina yabakoeshantashobora kwandikwa muburyo butandukanye.",
+	"antispoof-tooshort": "izina ry'umukoresha wawe ni rigufi cyane."
+}
