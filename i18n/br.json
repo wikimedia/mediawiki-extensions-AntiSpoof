@@ -3,6 +3,7 @@
 		"authors": [
 			"Fohanno",
 			"Fulup",
+			"Huñvreüs",
 			"Y-M D"
 		]
 	},
@@ -12,14 +13,14 @@
 	"antispoof-name-illegal": "N'eo ket aotreet ober gant an anv \"$1\" kuit da gemmeskañ gant un anv all pe da implijout an anv : $2.\nGrit gant un anv all mar plij.",
 	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Seurt roadennoù fall",
-	"antispoof-empty": "Neudennad goullo",
-	"antispoof-prohibited": "Emañ an arouezenn berzet $1 e-barzh",
-	"antispoof-combining": "Kregiñ a ra gant ar merk kenaozet $1",
-	"antispoof-unassigned": "Un arouezenn dispredet pe dispisaet zo e-barzh",
-	"antispoof-deprecated": "Emañ an arouezenn dispredet $1 e-barzh",
-	"antispoof-noletters": "Lizherenn ebet e-barzh",
-	"antispoof-mixedscripts": "Meur a skript digenglotus zo e-barzh",
-	"antispoof-tooshort": "Anv skoueriekaet re verr",
+	"antispoof-empty": "N’eo ket bet roet anv implijer ebet.",
+	"antispoof-prohibited": "Ne c’hell ket an arouezenn \"$1\" bezañ en un anv implijer peogwir eo berzet.",
+	"antispoof-combining": "Ne c’hell ket ar merk kenaozet \"$1\" bezañ en un anv implijer.",
+	"antispoof-unassigned": "Ne c’hell ket an arouezenn \"$1\" bezañ en un anv implijer peogwir eo un arouezenn dianav.",
+	"antispoof-deprecated": "Ne c’hell ket an arouezenn \"$1\" bezañ en un anv implijer peogwir eo dispredet.",
+	"antispoof-noletters": "Rankout an anvioù implijer bezañ ul lizherenn enno d’an nebeutañ.",
+	"antispoof-mixedscripts": "Ne c’hell ket an anvioù implijer bezañ lizherennoù eus meur a skript digenglotus enno.",
+	"antispoof-tooshort": "Re verr eo an anv implijer skoueriekaet ganeoc’h.",
 	"antispoof-ignore": "Chom hep gwiriañ hag-eñ n'eus ket un implijer all gantañ un anv damheñvel",
 	"right-override-antispoof": "Chom hep gwiriañ ha touellerezh zo"
 }
