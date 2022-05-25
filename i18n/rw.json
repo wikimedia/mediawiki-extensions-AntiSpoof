@@ -1,16 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Germain92"
 		]
 	},
-	"antispoof-name-illegal": "kurinda urujijo, izina ry'umukoresha \"$1\" ntirishobora gukoreshwa: $2.\nhitamo irindi zina.",
+	"antispoof-name-illegal": "Kurinda urujijo, izina ry'umukoresha \"$1\" ntirishobora gukoreshwa: $2.\nHitamo irindi zina.",
 	"antispoof-badtype": "Izina ry'umukoresha ryatanzwe ni ubwoko butemewe.",
-	"antispoof-empty": "nta zina ukoresha ryatanzwe.",
-	"antispoof-prohibited": "amazina y'abakoresha ntashobora kubamo inyuguti \"$1\" kuko birabujijwe.",
+	"antispoof-empty": "Nta zina ukoresha ryatanzwe.",
+	"antispoof-prohibited": "Amazina y'abakoresha ntashobora kubamo inyuguti \"$1\" kuko birabujijwe.",
 	"antispoof-combining": "Amazina yabakoresha ntashobora kubamo inyuguti zisa \"$1\".",
-	"antispoof-unassigned": "amazina yabakoresha ntashobora kubamo inyuguti \"$1\" kuko n'inyuguti itazwi.",
+	"antispoof-unassigned": "Amazina yabakoresha ntashobora kubamo inyuguti \"$1\" kuko n'inyuguti itazwi.",
 	"antispoof-deprecated": "Amazina yabakoresha ntashobora kubamo inyuguti \"$1\" kuko yataye agaciro.",
-	"antispoof-mixedscripts": "amazina yabakoeshantashobora kwandikwa muburyo butandukanye.",
-	"antispoof-tooshort": "izina ry'umukoresha wawe ni rigufi cyane."
+	"antispoof-mixedscripts": "Amazina yabakoeshantashobora kwandikwa muburyo butandukanye.",
+	"antispoof-tooshort": "Izina ry'umukoresha wawe ni rigufi cyane."
 }
