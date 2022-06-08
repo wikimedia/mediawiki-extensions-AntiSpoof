@@ -18,5 +18,7 @@
 	"antispoof-mixedscripts": "Sisaldab ühildumatuid kirjasüsteeme",
 	"antispoof-tooshort": "Normaliseeritud nimi on liiga lühike",
 	"antispoof-ignore": "Eira sarnasuskontrolle",
+	"antispoof-ignore-help": "Lubab piisavate õigustega kasutajatel luua konto ka siis, kui selle nimi sarnaneb mõne olemasoleva konto nimega.",
+	"action-override-antispoof": "sarnasuskontrolle alistada",
 	"right-override-antispoof": "Alistada sarnasuskontrollid"
 }
