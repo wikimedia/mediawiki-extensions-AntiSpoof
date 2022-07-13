@@ -27,8 +27,14 @@ class Hooks {
 	 * @return bool
 	 */
 	public static function asUpdateSchema( DatabaseUpdater $updater ) {
+		$type = $updater->getDB()->getType();
 		$updater->addExtensionTable( 'spoofuser',
-			__DIR__ . '/../sql/patch-antispoof.' . $updater->getDB()->getType() . '.sql' );
+			__DIR__ . '/../sql/' . $type . '/tables-generated.sql' );
+
+		if ( $type === 'mysql' ) {
+			$updater->renameExtensionIndex( 'spoofuser', 'su_normalized', 'su_normname_idx',
+				__DIR__ . '/../sql/mysql/patch-spoofuser-index-su_normname_idx.sql' );
+		}
 		return true;
 	}
 
