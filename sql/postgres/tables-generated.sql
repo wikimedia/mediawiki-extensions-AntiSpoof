@@ -5,7 +5,7 @@
 CREATE TABLE spoofuser (
   su_name VARCHAR(255) NOT NULL,
   su_normalized VARCHAR(255) DEFAULT NULL,
-  su_legal BOOLEAN DEFAULT NULL,
+  su_legal SMALLINT DEFAULT NULL,
   su_error TEXT DEFAULT NULL,
   PRIMARY KEY(su_name)
 );

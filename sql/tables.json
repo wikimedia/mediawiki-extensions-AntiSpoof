@@ -17,8 +17,8 @@
 			{
 				"name": "su_legal",
 				"comment": "ok/not-ok according to the looks-like-a-valid-name check",
-				"type": "boolean",
-				"options": { "notnull": false }
+				"type": "mwtinyint",
+				"options": { "notnull": false, "length": 1 }
 			},
 			{
 				"name": "su_error",
