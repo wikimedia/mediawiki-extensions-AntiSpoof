@@ -27,5 +27,6 @@
 	"antispoof-mixedscripts": "Садржи несагласна мешана писма",
 	"antispoof-tooshort": "Нормализовано име је прекратко",
 	"antispoof-ignore": "Занемари међусобно слична имена",
+	"action-override-antispoof": "прескочите проверу за међусобно слична имена",
 	"right-override-antispoof": "заобилажење провера за међусобно слична имена"
 }
