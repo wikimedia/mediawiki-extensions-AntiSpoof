@@ -9,14 +9,15 @@
 			"Meursault2004",
 			"Rachmat04",
 			"Rex",
-			"Robfirstname"
+			"Robfirstname",
+			"Veracious"
 		]
 	},
 	"antispoof-desc": "Menghalangi pembuatan akun dengan nama pengguna aksara campuran, membingungkan, dan yang mirip",
 	"antispoof-conflict-top": "Nama pengguna\"$1\" terlalu mirip dengan {{PLURAL:$2|nama pengguna|nama pengguna}} berikut:",
 	"antispoof-conflict-bottom": "Mohon memilih nama pengguna lain.",
 	"antispoof-name-illegal": "Untuk mencegah kebingungan, nama pengguna \"$1\" tidak diizinkan, karena: $2. \nMohon pilih nama pengguna lain.",
-	"antispoof-badtype": "Tipe data salah",
+	"antispoof-badtype": "Nama pengguna yang diberikan adalah jenis yang tidak valid.",
 	"antispoof-empty": "Tidak ada nama pengguna yang diberikan.",
 	"antispoof-prohibited": "Nama pengguna tidak boleh mengandung karakter \"$1\" karena dilarang.",
 	"antispoof-combining": "Nama pengguna tidak boleh mengandung combinasi karakter \"$1\".",
