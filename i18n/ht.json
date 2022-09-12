@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Boukman",
 			"LeGuyanaisPure",
 			"Masterches"
@@ -8,7 +9,7 @@
 	},
 	"antispoof-desc": "Bloke kreyasyon kont ki genyen diferan alfabèt, ki ka mennen nan konfizyon oubyen ki genyen non itilizatè ki sanble trop",
 	"antispoof-name-illegal": "Non itilizatè \"$1\" pa otorize pou anpeche li konfonn ak non itilizatè: \"$2\"\nTanpri chwazi yon lòt non.",
-	"antispoof-badtype": "Tip done sa yo move",
+	"antispoof-badtype": "Non itilizatè ou te bay la se yon tip ki pa valab.",
 	"antispoof-empty": "Chèn vid",
 	"antispoof-prohibited": "Kontni yon karaktè ki pa otorize",
 	"antispoof-combining": "Ap koumanse avèk yon mak konbine",
