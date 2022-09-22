@@ -14,7 +14,8 @@
 			"Shirayuki",
 			"Takot",
 			"Yusuke1109",
-			"春春眠眠"
+			"春春眠眠",
+			"Jaw Salvager"
 		]
 	},
 	"antispoof-desc": "文字体系が混在している利用者名、既存の利用者名と類似していて紛らわしい利用者名のアカウント作成をブロックする",
@@ -25,8 +26,8 @@
 	"antispoof-badtype": "指定されたユーザー名は無効なタイプです。",
 	"antispoof-empty": "利用者名が与えられていません。",
 	"antispoof-prohibited": "禁止されている文字「$1」を含んでいます",
-	"antispoof-combining": "結合記号 $1 で始まっています",
-	"antispoof-unassigned": "未割り当ての文字 $1 を含んでいます",
+	"antispoof-combining": "結合記号「$1」は使えません",
+	"antispoof-unassigned": "不明文字「$1」は使えません",
 	"antispoof-deprecated": "推奨されない文字「$1」を含んでいます。",
 	"antispoof-noletters": "利用者名は一つ以上の文字を含む必要があります。",
 	"antispoof-mixedscripts": "同時に使用できない複数の文字体系が混在しています。",
