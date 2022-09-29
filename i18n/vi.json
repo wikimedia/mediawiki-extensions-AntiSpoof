@@ -4,7 +4,8 @@
 			"Minh Nguyen",
 			"NguoiDungKhongDinhDanh",
 			"Quenhitran",
-			"Vinhtantran"
+			"Vinhtantran",
+			"NguyenHung"
 		]
 	},
 	"antispoof-desc": "Cấm không được mở tài khoản dưới tên người dùng sử dụng hơn một hệ thống chữ viết, gây nhầm lẫn, và tương tự với tên người dùng khác",
@@ -13,14 +14,14 @@
 	"antispoof-name-illegal": "Không được phép dùng tên người dùng “$1” vì có thể gây nhầm lẫn hoặc lừa đảo: $2. Xin hãy chọn tên người dùng khác.",
 	"antispoof-bad-char": "“$1” ($2)",
 	"antispoof-badtype": "Kiểu dữ liệu không hợp lệ",
-	"antispoof-empty": "Chuỗi trống",
-	"antispoof-prohibited": "Có chứa ký tự bị cấm $1",
-	"antispoof-combining": "Bắt đầu bằng dấu kết hợp $1",
-	"antispoof-unassigned": "Có chứa ký tự chưa gán $1",
-	"antispoof-deprecated": "Có chứa ký tự lỗi thời $1",
-	"antispoof-noletters": "Không có bất kỳ chữ nào",
-	"antispoof-mixedscripts": "Có trộn lẫn hệ thống viết không tương thích",
-	"antispoof-tooshort": "Tên chuẩn hóa quá ngắn",
+	"antispoof-empty": "Không có tên thành viên nào được cung cấp.",
+	"antispoof-prohibited": "Tên thành viên không thể chứa ký tự \" $1 \" vì nó bị cấm.",
+	"antispoof-combining": "Tên thành viên không thể chứa ký tự kết hợp \" $1 \".",
+	"antispoof-unassigned": "Tên thành viên không thể chứa ký tự \" $1 \" vì nó là ký tự không xác định.",
+	"antispoof-deprecated": "Tên thành viên không thể chứa ký tự \" $1 \" vì nó không được dùng nữa.",
+	"antispoof-noletters": "Tên thành viên phải chứa một hoặc nhiều ký tự.",
+	"antispoof-mixedscripts": "Tên thành viên không thể chứa các ký tự từ các hệ thống chữ viết khác nhau.",
+	"antispoof-tooshort": "Bạn đã cung cấp một tên thành viên quá ngắn.",
 	"antispoof-ignore": "Không kiểm tra tên có gây nhầm lẫn",
 	"antispoof-ignore-help": "Cho phép những người dùng có đủ quyền tạo tài khoản có tên tương tự với một tài khoản đã tồn tại.",
 	"right-override-antispoof": "Bỏ qua kiểm tra tên"
