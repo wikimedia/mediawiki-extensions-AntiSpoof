@@ -3,18 +3,19 @@
 		"authors": [
 			"Amire80",
 			"Boukman",
+			"Kitanago",
 			"LeGuyanaisPure",
 			"Masterches"
 		]
 	},
 	"antispoof-desc": "Bloke kreyasyon kont ki genyen diferan alfabèt, ki ka mennen nan konfizyon oubyen ki genyen non itilizatè ki sanble trop",
-	"antispoof-name-illegal": "Non itilizatè \"$1\" pa otorize pou anpeche li konfonn ak non itilizatè: \"$2\"\nTanpri chwazi yon lòt non.",
+	"antispoof-name-illegal": "Pou anpeche konfizyon, non itilizatè \" $1 \" pa ka itilize: $2 .\nTanpri chwazi yon lòt non itilizatè.",
 	"antispoof-badtype": "Non itilizatè ou te bay la se yon tip ki pa valab.",
-	"antispoof-empty": "Chèn vid",
-	"antispoof-prohibited": "Kontni yon karaktè ki pa otorize",
-	"antispoof-combining": "Ap koumanse avèk yon mak konbine",
-	"antispoof-unassigned": "Kontni yon karaktè ki pa asiyen oubyen ki pa itilize ankò",
-	"antispoof-noletters": "Ka kontni pyès lèt",
-	"antispoof-mixedscripts": "Kontni plizyè alfabèt ki pa konpatib",
-	"antispoof-tooshort": "Non kanonik an two kout"
+	"antispoof-empty": "Yo pa bay okenn non itilizatè.",
+	"antispoof-prohibited": "Non itilizatè yo pa kapab genyen karaktè \" $1 \" paske li entèdi.",
+	"antispoof-combining": "Non itilizatè yo pa kapab genyen karaktè konbine \" $1 \".",
+	"antispoof-unassigned": "Non itilizatè yo pa kapab genyen karaktè \" $1 \" paske se yon karaktè enkoni.",
+	"antispoof-noletters": "Non itilizatè yo dwe genyen youn oswa plizyè karaktè.",
+	"antispoof-mixedscripts": "Non itilizatè yo pa kapab genyen karaktè ki soti nan diferan sistèm ekriti.",
+	"antispoof-tooshort": "Non itilizatè ou bay la twò kout."
 }
