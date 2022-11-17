@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajiniyaz Nurniyazov"
+		]
+	},
+	"antispoof-prohibited": "Paydalanıwshı atlarında \"$1\" belgisi bolıwı múmkin emes, sebebi ol qadaǵan etilgen.",
+	"antispoof-combining": "Paydalanıwshı atlarında \"$1\" biriktiriwshi belgisi bolıwı múmkin emes.",
+	"antispoof-unassigned": "Paydalanıwshı atlarında \"$1\" belgisi bolıwı múmkin emes, sebebi ol biymálim belgi.",
+	"antispoof-deprecated": "Paydalanıwshı atlarında \"$1\" belgisi bolıwı múmkin emes, sebebi ol gónergen.",
+	"antispoof-noletters": "Paydalanıwshı atları bir yamasa birneshe belgilerdi óz ishine alıwı kerek.",
+	"antispoof-mixedscripts": "Paydalanıwshı atları túrli jazıw sistemalarındaǵı belgilerden quralıwı múmkin emes.",
+	"antispoof-tooshort": "Siz kirgizgen paydalanıwshı atı júdá qısqa."
+}
