@@ -6,7 +6,8 @@
 			"Kghbln",
 			"Metalhead64",
 			"Raimond Spekking",
-			"Umherirrender"
+			"Umherirrender",
+			"Brettchenweber"
 		]
 	},
 	"antispoof-desc": "Verhindert die Erstellung von Benutzerkonten mit gemischten Zeichensätzen, verwirrenden und ähnlichen Benutzernamen",
@@ -24,7 +25,7 @@
 	"antispoof-mixedscripts": "Benutzernamen dürfen keine Zeichen aus verschiedenen Schriftsystemen enthalten.",
 	"antispoof-tooshort": "Der angegebene Benutzername ist zu kurz.",
 	"antispoof-ignore": "Ähnlichkeitsprüfung ignorieren",
-	"antispoof-ignore-help": "Ermöglicht Benutzern mit ausreichenden Rechten, ein Benutzerkonto zu erstellen, auch wenn sein Name mit einem vorhandenen Benutzerkonto ähnlich ist.",
+	"antispoof-ignore-help": "Ermöglicht Benutzern mit ausreichenden Rechten, ein Benutzerkonto zu erstellen, auch wenn sein Name einem vorhandenen Benutzerkonto ähnlich ist.",
 	"action-override-antispoof": "die Benutzernamens-Ähnlichkeitsprüfung außer Kraft zu setzen",
 	"right-override-antispoof": "Die Benutzernamens-Ähnlichkeitsprüfung außer Kraft setzen"
 }

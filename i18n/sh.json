@@ -18,7 +18,7 @@
 	"antispoof-deprecated": "Korisnička imena ne smiju sadržavati znak \"$1\" jer je to zastarjeli znak.",
 	"antispoof-noletters": "Korisnička imena moraju sadržavati jedan ili više znakova.",
 	"antispoof-mixedscripts": "Korisnička imena ne smiju sadržavati znakove iz različitih sustava pisanja.",
-	"antispoof-tooshort": "Normalizirano ime je prekratko",
+	"antispoof-tooshort": "Vaše korisničko ime je prekratko.",
 	"antispoof-ignore": "Ignoriraj provjeru nevaljanih imena (antispoof)",
 	"antispoof-ignore-help": "Omogućuje korisnicima s dovoljnim pravima za izradu računa čak i kada su njihova imena slična postojećim.",
 	"action-override-antispoof": "premošćivanje provjera za međusobno slična imena",
