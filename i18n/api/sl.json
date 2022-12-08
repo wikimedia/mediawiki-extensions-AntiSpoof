@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"apihelp-antispoof-description": "Preverite uporabniško ime glede na normalizacijsko preverjanje AntiSpoof.",
+	"apihelp-antispoof-summary": "Preverite uporabniško ime glede na normalizacijsko preverjanje AntiSpoof.",
+	"apihelp-antispoof-param-username": "Uporabniško ime za preverjanje z AntiSpoof.",
+	"apihelp-antispoof-example-1": "Preverjanje uporabniškega imena »Foo« z AntiSpoof",
+	"apihelp-createaccount-param-ignoreantispoof": "Prezri preverjanje ponarejanja (zahteva pravico <code>override-antispoof</code>)."
+}
