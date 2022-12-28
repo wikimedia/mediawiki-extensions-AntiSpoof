@@ -8,7 +8,7 @@
 		]
 	},
 	"antispoof-desc": "Sprečava otvaranje naloga s mešanim pismima, zbunjujućim i sličnim korisničkim imenima",
-	"antispoof-conflict-top": "Ime „$1“ je previše slično sa sledećim korisničkim {{PLURAL:$2|imenom|imenima}}:",
+	"antispoof-conflict-top": "Korisničko ime „$1“ je previše slično sa sledećim {{PLURAL:$2|korisničkim imenom|korisničkim imenima}}:",
 	"antispoof-conflict-bottom": "Izaberite drugo ime.",
 	"antispoof-name-illegal": "Ime „$1“ nije dozvoljeno da bi se izbegla zbunjujuća ili lažirana korisnička imena: $2.\nIzaberite drugo ime.",
 	"antispoof-bad-char": "„$1“ ($2)",
@@ -22,5 +22,6 @@
 	"antispoof-mixedscripts": "Sadrži nesaglasna mešana pisma",
 	"antispoof-tooshort": "Normalizovano ime je prekratko",
 	"antispoof-ignore": "Zanemari međusobno slična imena",
+	"action-override-antispoof": "preskočite proveru za međusobno slična imena",
 	"right-override-antispoof": "zaobilaženje provera za međusobno slična imena"
 }
