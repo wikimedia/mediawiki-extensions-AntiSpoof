@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yaw tuba"
+		]
+	},
+	"antispoof-desc": "Edey block de accounts wey dem dey create plus mixed-script, confusing den similar usernames",
+	"antispoof-conflict-top": "De username \"$1\" be too similar give de following {{PLURAL:$2|username|usernames}}:",
+	"antispoof-conflict-bottom": "Abeg make you choose anoda username."
+}
