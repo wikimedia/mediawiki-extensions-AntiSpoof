@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"Dee",
 			"Guycn2",
 			"Rotem Liss"
 		]
@@ -15,7 +16,7 @@
 	"antispoof-prohibited": "שמות משתמש אינם יכולים להכיל את התו \"$1\" כי הוא אסור.",
 	"antispoof-combining": "שמות משתמשים אינם יכולים להכיל את התו \"$1\" שמורכב עם האות (combining).",
 	"antispoof-unassigned": "שמות משתמש אינם יכולים להכיל את התו \"$1\" כי הוא תו בלתי־ידוע.",
-	"antispoof-deprecated": "שמות משמש אינם יכולים להכיל את התו \"$1\" כי הוא מיושן.",
+	"antispoof-deprecated": "שמות משתמש אינם יכולים להכיל את התו \"$1\" כי הוא מיושן.",
 	"antispoof-noletters": "שמות משתמשים חייבים להכיל תו אחד או יותר.",
 	"antispoof-mixedscripts": "שמות משתמש אינם יכולים להכיל תווים משיטות כתב שונות.",
 	"antispoof-tooshort": "שם המשתמשם שסיפקת קצר מדי.",
