@@ -3,7 +3,8 @@
 		"authors": [
 			"Kolega2357",
 			"OC Ripper",
-			"Vlad5250"
+			"Vlad5250",
+			"BadDog"
 		]
 	},
 	"antispoof-desc": "Blokira pravljenje računa sa miješanim slovima, zbunjujućim i sličnim korisničkim imenima",
@@ -13,10 +14,10 @@
 	"antispoof-badtype": "Navedeno korisničko ime nije valjane vrste.",
 	"antispoof-empty": "Korisničko ime nije navedeno.",
 	"antispoof-prohibited": "Korisnička imena ne smiju sadržavati zabranjeni znak \"$1\".",
-	"antispoof-combining": "Korisnička imena ne smiju sadržavati sastavni znak \"$1\".",
+	"antispoof-combining": "Korisničko ime ne smije sadržati sastavni znak „$1”.",
 	"antispoof-unassigned": "Korisnička imena ne smiju sadržavati znak \"$1\" jer je to nepoznat znak.",
 	"antispoof-deprecated": "Korisnička imena ne smiju sadržavati znak \"$1\" jer je to zastarjeli znak.",
-	"antispoof-noletters": "Korisnička imena moraju sadržavati jedan ili više znakova.",
+	"antispoof-noletters": "Korisničko ime mora sadržati znakove.",
 	"antispoof-mixedscripts": "Korisnička imena ne smiju sadržavati znakove iz različitih sustava pisanja.",
 	"antispoof-tooshort": "Vaše korisničko ime je prekratko.",
 	"antispoof-ignore": "Ignoriraj provjeru nevaljanih imena (antispoof)",
