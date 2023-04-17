@@ -25,7 +25,7 @@
 	"antispoof-unassigned": "Sisältää määrittämättömiä merkkejä $1",
 	"antispoof-deprecated": "Sisältää kielletyn merkin $1",
 	"antispoof-noletters": "Ei sisällä mitään kirjaimia",
-	"antispoof-mixedscripts": "se sisältää yhteensopimattomia kirjoitusjärjestelmiä",
+	"antispoof-mixedscripts": "Käyttäjätunnukset eivät saa sisältää merkkejä eri kirjoitusjärjestelmistä.",
 	"antispoof-tooshort": "Antamasi käyttäjänimi on liian lyhyt.",
 	"antispoof-ignore": "Älä käytä hämäävien tunnusten tarkistusta",
 	"action-override-antispoof": "ohittaa tarkastukset samankaltaisista tai epäilyttävistä käyttäjänimistä",
