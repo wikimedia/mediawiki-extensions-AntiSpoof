@@ -8,7 +8,8 @@
 			"Ignas693",
 			"Manvydasz",
 			"Perkunas",
-			"Tas"
+			"Tas",
+			"Nokeoo"
 		]
 	},
 	"antispoof-desc": "Blokuoja kūrimą paskyrų, turinčių maišyto scenarijaus, klaidinančius ar panašius naudotojų vardus",
@@ -26,5 +27,6 @@
 	"antispoof-tooshort": "Kanonizuotas vardas per trumpas",
 	"antispoof-ignore": "Nepaisyti „spoofing“ patikrinimų",
 	"antispoof-ignore-help": "Leidžia vartotojams, turintiems pakankamai teisių, sukurti paskyrą, net jei jos vardas yra panašus į kitos paskyros.",
+	"action-override-antispoof": "nepaisyti klastojimo patikrų",
 	"right-override-antispoof": "Nepaisyti „spoofing“ patikrinimų"
 }
