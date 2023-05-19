@@ -13,7 +13,7 @@ class AntiSpoofAuthenticationRequestTest extends AuthenticationRequestTestCase {
 		return new AntiSpoofAuthenticationRequest();
 	}
 
-	public function provideLoadFromSubmission() {
+	public static function provideLoadFromSubmission() {
 		return [
 			'empty' => [ [], [], [ 'ignoreAntiSpoof' => false ] ],
 			'true' => [ [], [ 'ignoreAntiSpoof' => '1' ], [ 'ignoreAntiSpoof' => true ] ],
