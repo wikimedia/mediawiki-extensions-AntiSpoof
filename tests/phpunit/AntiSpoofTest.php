@@ -8,7 +8,7 @@ use MediaWiki\Extension\AntiSpoof\AntiSpoof;
  */
 class AntiSpoofTest extends MediaWikiIntegrationTestCase {
 
-	public function providePositives() {
+	public static function providePositives() {
 		return [
 			/** Format: username -> spoofing attempt */
 			[ 'Laura Fiorucci', 'Låura Fiorucci' ],
@@ -39,7 +39,7 @@ class AntiSpoofTest extends MediaWikiIntegrationTestCase {
 		$this->assertEquals( $a->getValue(), $b->getValue() );
 	}
 
-	public function provideMixedCharSets() {
+	public static function provideMixedCharSets() {
 		return [
 			/** Format: username -> spoofing attempt */
 			[ 'Recursive O Tester', 'Recursive Θ Tester' ],

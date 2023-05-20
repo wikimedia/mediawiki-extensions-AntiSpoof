@@ -29,7 +29,7 @@ class AntiSpoofPreAuthenticationProviderTest extends MediaWikiIntegrationTestCas
 		$this->assertEquals( $expectedReqs, $reqs );
 	}
 
-	public function provideGetAuthenticationRequests() {
+	public static function provideGetAuthenticationRequests() {
 		return [
 			[ AuthManager::ACTION_LOGIN, [], null, [] ],
 			[ AuthManager::ACTION_CREATE, [],  null, [] ],
@@ -76,7 +76,7 @@ class AntiSpoofPreAuthenticationProviderTest extends MediaWikiIntegrationTestCas
 		}
 	}
 
-	public function provideTestForAccountCreation() {
+	public static function provideTestForAccountCreation() {
 		$user = new User();
 		$sysop = User::newFromName( 'UTSysop' );
 		$noSkip = new AntiSpoofAuthenticationRequest();
