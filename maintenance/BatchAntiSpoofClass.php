@@ -87,13 +87,17 @@ class BatchAntiSpoof extends Maintenance {
 		);
 		$iterator->setFetchColumns( [ $userCol ] );
 		$iterator->setCaller( __METHOD__ );
-
-		$lbFactory = MediaWikiServices::getInstance()->getDBLoadBalancerFactory();
+		$services = MediaWikiServices::getInstance();
+		$lbFactory = $services->getDBLoadBalancerFactory();
+		$tempUserConfig = $services->getTempUserConfig();
 
 		$n = 0;
 		foreach ( $iterator as $batch ) {
 			$items = [];
 			foreach ( $batch as $row ) {
+				if ( $tempUserConfig->isTempName( $row->$userCol ) ) {
+					continue;
+				}
 				$items[] = $this->makeSpoofUser( $row->$userCol );
 			}
 
