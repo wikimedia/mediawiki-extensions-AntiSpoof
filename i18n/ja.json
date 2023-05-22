@@ -23,7 +23,7 @@
 	"antispoof-conflict-bottom": "別の名前を選択してください。",
 	"antispoof-name-illegal": "指定した利用者名「$1」はなりすまし防止のため使用できません: $2。別の名前を使用してください。",
 	"antispoof-bad-char": "「$1」 ($2)",
-	"antispoof-badtype": "指定されたユーザー名は無効なタイプです。",
+	"antispoof-badtype": "指定された利用者名は無効なタイプです。",
 	"antispoof-empty": "利用者名が与えられていません。",
 	"antispoof-prohibited": "禁止されている文字「$1」を含んでいます",
 	"antispoof-combining": "結合記号「$1」は使えません",
