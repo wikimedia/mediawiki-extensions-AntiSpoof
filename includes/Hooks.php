@@ -46,8 +46,10 @@ class Hooks {
 	 * @return bool
 	 */
 	public static function asLocalUserCreated( $user ) {
-		$spoof = new SpoofUser( $user->getName() );
-		$spoof->record();
+		if ( !$user->isTemp() ) {
+			$spoof = new SpoofUser( $user->getName() );
+			$spoof->record();
+		}
 		return true;
 	}
 
