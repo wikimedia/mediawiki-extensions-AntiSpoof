@@ -10,7 +10,8 @@
 			"Silvonen",
 			"Str4nd",
 			"3Johnny",
-			"Majavah"
+			"Majavah",
+			"Rönttönen"
 		]
 	},
 	"antispoof-desc": "Estää käyttäjätunnusten luonnin, jos ne sisältävät eri kirjoitusjärjestelmiä, harhaanjohtavia tai samankaltaisia käyttäjänimiä.",
@@ -27,6 +28,7 @@
 	"antispoof-mixedscripts": "se sisältää yhteensopimattomia kirjoitusjärjestelmiä",
 	"antispoof-tooshort": "Normalisoitu nimi liian lyhyt",
 	"antispoof-ignore": "Älä käytä hämäävien tunnusten tarkistusta",
+	"antispoof-ignore-help": "Antaa oikeutettujen käyttäjien luoda tunnuksen, vaikka sen nimi olisi samanlainen kuin olemassaolevan tunnuksen.",
 	"action-override-antispoof": "ohittaa tarkastukset samankaltaisista tai epäilyttävistä käyttäjänimistä",
 	"right-override-antispoof": "Ohittaa tarkastukset samankaltaisista tai epäilyttävistä käyttäjänimistä"
 }
