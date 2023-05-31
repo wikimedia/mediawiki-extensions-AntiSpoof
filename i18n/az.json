@@ -20,5 +20,7 @@
 	"antispoof-mixedscripts": "Qəbul edilməz yazı sistemi işlədilir",
 	"antispoof-tooshort": "Normallaşdırılmış ad çox qısadır",
 	"antispoof-ignore": "Oxşar adlar yoxlanmasına məhəl qoymamaq",
+	"antispoof-ignore-help": "Kifayət qədər hüququ olan istifadəçilərə hesabın adı mövcud hesaba oxşar olsa belə, hesab yaratmağa imkan verir.",
+	"action-override-antispoof": "saxtakarlıq yoxlamalarını keçmək",
 	"right-override-antispoof": "Oxşar adlar yoxlanmasına məhəl qoymamaq"
 }
