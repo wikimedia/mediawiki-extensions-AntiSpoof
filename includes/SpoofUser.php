@@ -20,6 +20,7 @@ namespace MediaWiki\Extension\AntiSpoof;
 
 use Status;
 use Wikimedia\Rdbms\IDatabase;
+use Wikimedia\Rdbms\IReadableDatabase;
 
 class SpoofUser {
 	/** @var bool */
@@ -198,7 +199,7 @@ class SpoofUser {
 	}
 
 	/**
-	 * @return IDatabase
+	 * @return IReadableDatabase
 	 */
 	protected function getDBReplica() {
 		return wfGetDB( DB_REPLICA );
