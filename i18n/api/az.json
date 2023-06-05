@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"NMW03"
+		]
+	},
+	"apihelp-antispoof-description": "İstifadəçi adını AntiSpoof-un normallaşdırma yoxlamalarına qarşı yoxlayın.",
+	"apihelp-antispoof-summary": "İstifadəçi adını AntiSpoof-un normallaşdırma yoxlamalarına qarşı yoxlayın.",
+	"apihelp-antispoof-param-username": "AntiSpoof ilə yoxlamaq üçün istifadəçi adı.",
+	"apihelp-antispoof-example-1": "\"Foo\" istifadəçi adını AntiSpoof-a qarşı yoxlayın",
+	"apihelp-createaccount-param-ignoreantispoof": "Spoofing yoxlamalarına məhəl qoymayın (<code>override-antispoof</code> hüququ tələb olunur)."
+}
