@@ -33,7 +33,7 @@
 
 namespace MediaWiki\Extension\AntiSpoof;
 
-use MWException;
+use ConfigException;
 use Status;
 use UtfNormal\Utils;
 use UtfNormal\Validator;
@@ -377,7 +377,7 @@ class AntiSpoof {
 
 		// Start with some sanity checking
 		if ( !is_array( $wgAntiSpoofProhibitedCharacters ) ) {
-			throw new MWException( '$wgAntiSpoofProhibitedCharacters should be an array!' );
+			throw new ConfigException( '$wgAntiSpoofProhibitedCharacters should be an array!' );
 		}
 		if ( !is_string( $testName ) ) {
 			return Status::newFatal( 'antispoof-badtype' );
