@@ -7,7 +7,6 @@
 			"Gergő Tisza"
 		]
 	},
-	"apihelp-antispoof-description": "Check a username against AntiSpoof's normalisation checks.",
 	"apihelp-antispoof-summary": "Check a username against AntiSpoof's normalisation checks.",
 	"apihelp-antispoof-param-username": "The username to check against AntiSpoof.",
 	"apihelp-antispoof-example-1": "Check username \"Foo\" against AntiSpoof",
