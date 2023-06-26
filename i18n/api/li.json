@@ -4,7 +4,6 @@
 			"Ooswesthoesbes"
 		]
 	},
-	"apihelp-antispoof-description": "Num 'ne gebroekersnaam inne normaliseringscontrole van AntiSpoof op.",
 	"apihelp-antispoof-summary": "Num 'ne gebroekersnaam inne normaliseringscontrole van AntiSpoof op.",
 	"apihelp-antispoof-param-username": "De gebroekersnaam veur op te numme mit AntiSpoof.",
 	"apihelp-antispoof-example-1": "De gebroekersnaam \"Foo\" opnumme mit AntiSpoof",

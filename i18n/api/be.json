@@ -5,7 +5,6 @@
 			"Vlad5250"
 		]
 	},
-	"apihelp-antispoof-description": "Праверце імя карыстальніка праз AntiSpoof.",
 	"apihelp-antispoof-summary": "Праверце імя карыстальніка праз AntiSpoof.",
 	"apihelp-antispoof-param-username": "Імя карыстальніка для праверкі AntiSpoof.",
 	"apihelp-antispoof-example-1": "Праверыць імя карыстальніка \"Foo\" з дапамогай AntiSpoof",

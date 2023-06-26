@@ -4,7 +4,6 @@
 			"Aefgh39622"
 		]
 	},
-	"apihelp-antispoof-description": "ตรวจสอบการทำชื่อผู้ใช้ให้เป็นปกติกับ AntiSpoof",
 	"apihelp-antispoof-summary": "ตรวจสอบการทำชื่อผู้ใช้ให้เป็นปกติกับ AntiSpoof",
 	"apihelp-antispoof-param-username": "ชื่อผู้ใช้ที่ต้องการตรวจสอบกับ AntiSpoof",
 	"apihelp-antispoof-example-1": "ตรวจสอบชื่อผู้ใช้ \"Foo\" กับ AntiSpoof",

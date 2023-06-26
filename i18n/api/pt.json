@@ -4,7 +4,6 @@
 			"Hamilton Abreu"
 		]
 	},
-	"apihelp-antispoof-description": "Verificar um nome de utilizador contra as verificações de normalização do AntiSpoof.",
 	"apihelp-antispoof-summary": "Verificar um nome de utilizador contra as verificações de normalização do AntiSpoof.",
 	"apihelp-antispoof-param-username": "O nome de utilizador para verificação de semelhança de nome (AntiSpoof).",
 	"apihelp-antispoof-example-1": "Verificar a semelhança de nome (AntiSpoof) do utilizador \"Foo\"",

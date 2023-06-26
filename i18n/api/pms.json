@@ -4,7 +4,6 @@
 			"Borichèt"
 		]
 	},
-	"apihelp-antispoof-description": "Verifiché në stranòm contra le verìfiche ëd normalisassion d'AntiSpoof.",
 	"apihelp-antispoof-param-username": "Lë stranòm da verifiché contra AntiSpoof.",
 	"apihelp-antispoof-example-1": "Verifiché lë stranòm «Foo» contra AntiSpoof"
 }

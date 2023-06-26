@@ -5,7 +5,6 @@
 			"Ricordisamoa"
 		]
 	},
-	"apihelp-antispoof-description": "Controlla un nome utente con le verifiche di normalizzazione AntiSpoof",
 	"apihelp-antispoof-summary": "Controlla un nome utente con le verifiche di normalizzazione AntiSpoof",
 	"apihelp-antispoof-param-username": "Il nome utente da verificare con AntiSpoof.",
 	"apihelp-antispoof-example-1": "Controlla il nome utente \"Foo\" con AntiSpoof",

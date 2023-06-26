@@ -4,7 +4,6 @@
 			"Joedalton"
 		]
 	},
-	"apihelp-antispoof-description": "Kontroller et brugernavn mod AntiSpoofs normaliseringskontroller.",
 	"apihelp-antispoof-summary": "Kontroller et brugernavn mod AntiSpoofs normaliseringskontroller.",
 	"apihelp-antispoof-param-username": "Brugernavnet der skal kontrolleres mod AntiSpoof.",
 	"apihelp-antispoof-example-1": "Kontroller brugernavnet »Foo« mod AntiSpoof",

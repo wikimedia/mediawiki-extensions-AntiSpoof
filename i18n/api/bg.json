@@ -5,7 +5,6 @@
 			"Ted Masters"
 		]
 	},
-	"apihelp-antispoof-description": "Проверява потребителско име с проверките за нормализация на AntiSpoof.",
 	"apihelp-antispoof-summary": "Проверява потребителско име с проверките за нормализация на AntiSpoof.",
 	"apihelp-antispoof-param-username": "Потребителското име, което ще се проверява с AntiSpoof.",
 	"apihelp-antispoof-example-1": "Проверява потребителско име „Foo“ с AntiSpoof",

@@ -5,7 +5,6 @@
 			"Kly"
 		]
 	},
-	"apihelp-antispoof-description": "檢查使用者名稱是否違反 AntiSpoof 的常態檢查。",
 	"apihelp-antispoof-summary": "檢查使用者名稱是否違反 AntiSpoof 的常態檢查。",
 	"apihelp-antispoof-param-username": "檢查使用者名稱是否違反 AntiSpoof。",
 	"apihelp-antispoof-example-1": "檢查使用者名稱 \"Foo\" 是否違反 AntiSpoof。",

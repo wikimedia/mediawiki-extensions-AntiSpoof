@@ -5,7 +5,6 @@
 			"Okras"
 		]
 	},
-	"apihelp-antispoof-description": "Проверка имени с помощью AntiSpoof.",
 	"apihelp-antispoof-summary": "Проверка имени с помощью AntiSpoof.",
 	"apihelp-antispoof-param-username": "Имя проверяемого с помощью AntiSpoof участника.",
 	"apihelp-antispoof-example-1": "Проверить с помощью AntiSpoof имя участника «Foo»",

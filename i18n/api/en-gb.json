@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Dejavu",
-			"Mako001"
-		]
-	},
-	"apihelp-antispoof-description": "Check a username against AntiSpoof's normalisation checks."
-}

@@ -5,7 +5,6 @@
 			"WikiPhoenix"
 		]
 	},
-	"apihelp-antispoof-description": "Kontrollera ett användarnamn mot AntiSpoofs normaliseringskontroller.",
 	"apihelp-antispoof-summary": "Kontrollera ett användarnamn mot AntiSpoofs normaliseringskontroller.",
 	"apihelp-antispoof-param-username": "Det användarnamn som ska kontrolleras mot AntiSpoof.",
 	"apihelp-antispoof-example-1": "Kontrollera användarnamn \"Foo\" mot AntiSpoof",

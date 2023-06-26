@@ -8,7 +8,6 @@
 			"Yusuke1109"
 		]
 	},
-	"apihelp-antispoof-description": "利用者名が AntiSpoof の正規化チェックに反しているかどうかチェックする。",
 	"apihelp-antispoof-summary": "利用者名が AntiSpoof の正規化チェックに反しているかどうかチェックする。",
 	"apihelp-antispoof-param-username": "AntiSpoof に対してチェックする利用者名。",
 	"apihelp-antispoof-example-1": "利用者名 \"Foo\" を AntiSpoof でチェックする",

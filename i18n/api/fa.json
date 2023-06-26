@@ -6,7 +6,6 @@
 			"Reza1615"
 		]
 	},
-	"apihelp-antispoof-description": "بررسی یک نام‌ کاربری بر طبق بهنجارسازی عبارات سردرگم‌کننده",
 	"apihelp-antispoof-summary": "بررسی یک نام کاربری به وسیلهٔ آزمون‌های بهنجارسازی عبارات سردرگم‌کننده",
 	"apihelp-antispoof-param-username": "نام کاربری‌ای که با ضدجعل بررسی می‌شود.",
 	"apihelp-antispoof-example-1": "بررسی نام کاربر «Foo» با ضدجعل",

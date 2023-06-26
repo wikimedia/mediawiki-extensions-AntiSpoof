@@ -5,7 +5,6 @@
 			"Meno25"
 		]
 	},
-	"apihelp-antispoof-description": "تحقق من اسم المستخدم باستخدام أداة التحقق من  عدم تشابه الأسماء.",
 	"apihelp-antispoof-summary": "تحقق من اسم مستخم ضد عمليات التحقق الخاصة بAntiSpoof.",
 	"apihelp-antispoof-param-username": "اسم المستخدم المطلوب التحقق منه باستخدام أداة التحقق من عدم تشابه الأسماء",
 	"apihelp-antispoof-example-1": "تحقق من اسم المستخدم \"Foo\" بأداة التحقق من عدم تشابه الأسماء.",
