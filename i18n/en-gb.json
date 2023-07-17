@@ -3,11 +3,12 @@
 		"authors": [
 			"Dejavu",
 			"Shirayuki",
-			"Samwilson"
+			"Samwilson",
+			"Piano1forte2"
 		]
 	},
 	"antispoof-desc": "Blocks the creation of accounts with mixed-script, confusing and similar usernames",
-	"antispoof-conflict-top": "The username \"$1\" is too similar to the following {{PLURAL:$2|username|usernames}}:",
+	"antispoof-conflict-top": "The username '$1' is too similar to the following {{PLURAL:$2|username|usernames}}:",
 	"antispoof-conflict-bottom": "Please choose another username.",
 	"antispoof-name-illegal": "The username \"$1\" is not allowed to prevent confusing or spoofed usernames: $2.\nPlease choose another username.",
 	"antispoof-badtype": "Bad data type",
