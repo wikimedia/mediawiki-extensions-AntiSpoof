@@ -3,8 +3,10 @@
 		"authors": [
 			"Dejavu",
 			"Samwilson",
-			"Shirayuki"
+			"Shirayuki",
+			"Piano1forte2"
 		]
 	},
+	"antispoof-conflict-top": "The username '$1' is too similar to the following {{PLURAL:$2|username|usernames}}:",
 	"antispoof-tooshort": "Normalised name too short"
 }

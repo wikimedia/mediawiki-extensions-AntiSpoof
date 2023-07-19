@@ -2,8 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Dejavu",
-			"Mako001"
+			"Mako001",
+			"Piano1forte2"
 		]
 	},
-	"apihelp-antispoof-description": "Check a username against AntiSpoof's normalisation checks."
+	"apihelp-antispoof-description": "Check a username against AntiSpoof's normalisation checks.",
+	"apihelp-antispoof-example-1": "Check username 'Foo' against AntiSpoof"
 }
