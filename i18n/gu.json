@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ashok modhvadia",
+			"CptViraj",
 			"Dsvyas",
 			"KartikMistry"
 		]
@@ -11,7 +12,7 @@
 	"antispoof-conflict-bottom": "\"મહેરબાની કરી બીજું સભ્યનામ પસંદ કરો:\"",
 	"antispoof-name-illegal": "સંભવત: ગૂંચવણ કે છેતરામણી જનક સભ્યનામ $2 અટકાવવાના હેતુથી સભ્યનામ \"$1\"ની છૂટ નથી.\nકૃપા કરી અન્ય નામ પસંદ કરો.",
 	"antispoof-badtype": "ખરાબ માહિતી પ્રકાર",
-	"antispoof-empty": "ખાલી વાક્ય",
+	"antispoof-empty": "કોઈ સભ્યનામ આપવામાં આવ્યું નહીં.",
 	"antispoof-prohibited": "પ્રતિબંધિત અક્ષર $1 ધરાવે છે",
 	"antispoof-combining": "સંયોજક નિશાની $1 થી શરૂ થાય છે",
 	"antispoof-unassigned": "અનિર્દિષ્ટ અક્ષર $1 ધરાવે છે",
