@@ -10,7 +10,6 @@
 	"antispoof-conflict-top": "\"$1\" নামটো {{PLURAL:$2|একাউণ্টৰ|$2 একাউণ্টসমূহৰ}} লগত একে হৈছে",
 	"antispoof-conflict-bottom": "অনুগ্ৰহ কৰি আন এটা নাম বাছনি কৰক।",
 	"antispoof-name-illegal": "\"$1\" নামটো বিভ্ৰান্তিকৰ হোৱা বাবে অনুমোদন কৰা নহ'ব: $2।\nঅনুগ্ৰহ কৰি আন এটা নাম বাছনি কৰক।",
-	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "তথ্যৰ ধৰণ ঠিক নহয়",
 	"antispoof-empty": "উকা সূত্ৰ",
 	"antispoof-prohibited": "নিষিদ্ধ চিহ্ন $1 আছে",

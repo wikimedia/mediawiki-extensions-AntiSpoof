@@ -1,9 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
-			"CRCHF",
-			"Hello903hello",
-			"Yueman"
+			"Winston Sung"
 		]
 	},
 	"apihelp-antispoof-summary": "檢查個用戶名有無違反AntiSpoof嘅標準化檢查。",

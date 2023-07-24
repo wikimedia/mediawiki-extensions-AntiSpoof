@@ -8,7 +8,6 @@
 	"antispoof-conflict-top": "Tha an t-ainm \"$1\" ro coltach ris {{PLURAL:$2|an ainm|na h-ainmean}} seo:",
 	"antispoof-conflict-bottom": "Feuch an tagh thu ainm eile.",
 	"antispoof-name-illegal": "Chan eil an t-ainm \"$1\" ceadaichte a chum dìona o ainmean-cleachdaiche a tha ro choltach ri chèile no a bheir an car à ainm eile: $2.\nFeuch an tagh thu ainm eile.",
-	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Droch sheòrsa dàta",
 	"antispoof-empty": "Sreang falamh",
 	"antispoof-prohibited": "Tha caractar ann a tha air an dubh-liosta: $1",

@@ -11,7 +11,6 @@
 	"antispoof-conflict-top": "Notandanafnið \"$1\" er of líkt eftirfarandi {{PLURAL:$2|notandanafni|notendanöfnum}}:",
 	"antispoof-conflict-bottom": "Veldu eitthvað annað notandanafn.",
 	"antispoof-name-illegal": "Til að koma í veg fyrir rugling, má ekki nota notandanafnið „$1“: $2.\nVeldu eitthvað annað notandanafn.",
-	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Uppgefið notandanafn er ógild tegund.",
 	"antispoof-empty": "Ekkert notandanafn var gefið upp.",
 	"antispoof-prohibited": "Notendanöfn mega ekki innihalda stafinn \"$1\" vegna þess að það er bannað.",

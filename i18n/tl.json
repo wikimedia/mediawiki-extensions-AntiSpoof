@@ -11,7 +11,6 @@
 	"antispoof-conflict-top": "Labis na magkatulad ang pangalang \"$1\" sa sumusunod na account:",
 	"antispoof-conflict-bottom": "Mangyaring pumili lamang ng iba pang pangalan.",
 	"antispoof-name-illegal": "Hindi pinapayagan ang pangalang \"$1\" upang maiwasan ang nakalilito o mapanlilang na mga pangalan ng tagagamit: $2.\nMangyaring pumili ng iba pang pangalan.",
-	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Masamang uri ng dato",
 	"antispoof-empty": "Bagting (''string'') na walang laman",
 	"antispoof-prohibited": "Naglalaman ng nakalistang ipinagbabawal na panitik na $1",

@@ -1,8 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Tifinaghes"
-		]
-	},
-	"antispoof-bad-char": "\"$1\" ($2)"
-}

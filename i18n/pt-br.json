@@ -23,7 +23,6 @@
 	"antispoof-conflict-top": "O nome \"$1\" é demasiado semelhante {{PLURAL:$2|ao seguinte nome de usuário|aos seguintes nomes de usuário}}:",
 	"antispoof-conflict-bottom": "Por favor, escolha outro nome de usuário.",
 	"antispoof-name-illegal": "Para evitar confusão, o nome de usuário \"$1\" não pode ser usado: $2.\nPor favor, escolha outro nome de usuário.",
-	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "O nome de usuário fornecido é um tipo inválido.",
 	"antispoof-empty": "Nenhum nome de usuário foi fornecido.",
 	"antispoof-prohibited": "Os nomes de usuário não podem conter o caractere \"$1\" porque é proibido.",
