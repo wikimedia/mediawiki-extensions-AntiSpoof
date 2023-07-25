@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"antispoof-desc": "Blokira pravljenje računa sa miješanim slovima, zbunjujućim i sličnim korisničkim imenima",
+	"antispoof-conflict-top": "Korisničko ime \"$1\" previše je slično {{PLURAL:$2|sljedećem korisničkom imenu|sljedećim korisničkim imenima}}:",
+	"antispoof-conflict-bottom": "Odaberite drugo korisničko ime",
+	"antispoof-name-illegal": "Korisničko ime \"$1\" nije dopušteno da bi se izbjegla zbunjujuća imena: $2.\nOdaberite drugo korisničko ime.",
+	"antispoof-badtype": "Navedeno korisničko ime nije valjane vrste.",
+	"antispoof-empty": "Korisničko ime nije navedeno.",
+	"antispoof-prohibited": "Korisnička imena ne smiju sadržavati zabranjeni znak \"$1\".",
+	"antispoof-combining": "Korisničko ime ne smije sadržati sastavni znak „$1”.",
+	"antispoof-unassigned": "Korisnička imena ne smiju sadržavati znak \"$1\" jer je to nepoznat znak.",
+	"antispoof-deprecated": "Korisnička imena ne smiju sadržavati znak \"$1\" jer je to zastarjeli znak.",
+	"antispoof-noletters": "Korisničko ime mora sadržati znakove.",
+	"antispoof-mixedscripts": "Korisnička imena ne smiju sadržavati znakove iz različitih sustava pisanja.",
+	"antispoof-tooshort": "Vaše korisničko ime je prekratko.",
+	"antispoof-ignore": "Ignoriraj provjeru nevaljanih imena (antispoof)",
+	"antispoof-ignore-help": "Omogućuje korisnicima s dovoljnim pravima za izradu računa čak i kada su njihova imena slična postojećim.",
+	"action-override-antispoof": "premošćivanje provjera za međusobno slična imena",
+	"right-override-antispoof": "Premošćivanje provjera za međusobno slična imena"
+}
