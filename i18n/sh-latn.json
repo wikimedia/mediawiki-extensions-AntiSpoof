@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"antispoof-desc": "Blokira pravljenje računa sa miješanim slovima, zbunjujućim i sličnim korisničkim imenima",
+	"antispoof-conflict-top": "Korisničko ime \"$1\" previše je slično {{PLURAL:$2|sljedećem korisničkom imenu|sljedećim korisničkim imenima}}:",
+	"antispoof-conflict-bottom": "Odaberite drugo korisničko ime",
+	"antispoof-ignore": "Ignoriraj provjeru nevaljanih imena (antispoof)",
+	"antispoof-ignore-help": "Omogućuje korisnicima s dovoljnim pravima za izradu računa čak i kada su njihova imena slična postojećim.",
+	"action-override-antispoof": "premošćivanje provjera za međusobno slična imena",
+	"right-override-antispoof": "Premošćivanje provjera za međusobno slična imena"
+}
