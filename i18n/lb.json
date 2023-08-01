@@ -11,14 +11,14 @@
 	"antispoof-conflict-bottom": "Wielt wgl. en anere Benotzernumm.",
 	"antispoof-name-illegal": "De Benotzernumm \"$1\" ass net erlaabt fir Verwiesslungen oder Verschleierungen vu Benotzernimm ze verhënneren: $2.\n\nSicht iech wgl. een anere Benotzernumm.",
 	"antispoof-badtype": "Ongültegt Fichiers-Format (bad data type)",
-	"antispoof-empty": "Eidelt Feld",
-	"antispoof-prohibited": "mat dem verbuedene Zeechen: $1",
+	"antispoof-empty": "Et gouf kee Benotzernumm uginn.",
+	"antispoof-prohibited": "An de Benotzernimm kënnen Buschtawen \" $1 \" net dra sinn well et verbueden ass.",
 	"antispoof-combining": "Fänkt mam Kombinatiounszeechen $1 un.",
 	"antispoof-unassigned": "Et sinn net zougeuerdnet oder onerwënschten Zeechen (Caractèren) dran.",
 	"antispoof-deprecated": "Dat vereelsten Zeechen (Caractère) $1 ass dran.",
 	"antispoof-noletters": "Et si keng Buschtawen dran.",
 	"antispoof-mixedscripts": "Et si gemëschte Skripten dran, déi net kompatibel sinn",
-	"antispoof-tooshort": "Normaliséierten Numm ze kuerz",
+	"antispoof-tooshort": "De Benotzernumm deen ugi gouf ass ze kuerz.",
 	"antispoof-ignore": "Keng Kontroll op änlech Benotzernimm",
 	"right-override-antispoof": "D'Resultat vun der Iwwerpréiwung no änleche Benotzernimm ignoréieren"
 }
