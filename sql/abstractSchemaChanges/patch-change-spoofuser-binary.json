@@ -1,0 +1,79 @@
+{
+	"comment": "Change string type to binary to match core's user.user_name and avoid case-insensitive problems on some collations (T20447)",
+	"before": {
+		"name": "spoofuser",
+		"columns": [
+			{
+				"name": "su_name",
+				"comment": "Equivalent to user_name, but not guaranteed to be in sync. Do a join against user_name to confirm that an account hasn't been renamed or deleted away. Unique record per username.",
+				"type": "string",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "su_normalized",
+				"comment": "Normalized form of name for similarity-spoofing checks",
+				"type": "string",
+				"options": { "notnull": false, "length": 255 }
+			},
+			{
+				"name": "su_legal",
+				"comment": "ok/not-ok according to the looks-like-a-valid-name check",
+				"type": "mwtinyint",
+				"options": { "notnull": false, "length": 1 }
+			},
+			{
+				"name": "su_error",
+				"comment": "error message that came out of the unicode check, if any",
+				"type": "text",
+				"options": { "notnull": false, "length": 65530 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "su_normname_idx",
+				"comment": "For checking matching possible spoofs",
+				"columns": [ "su_normalized", "su_name" ],
+				"unique": false
+			}
+		],
+		"pk": [ "su_name" ]
+	},
+	"after": {
+		"name": "spoofuser",
+		"columns": [
+			{
+				"name": "su_name",
+				"comment": "Equivalent to user_name, but not guaranteed to be in sync. Do a join against user_name to confirm that an account hasn't been renamed or deleted away. Unique record per username.",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "su_normalized",
+				"comment": "Normalized form of name for similarity-spoofing checks",
+				"type": "binary",
+				"options": { "notnull": false, "length": 255 }
+			},
+			{
+				"name": "su_legal",
+				"comment": "ok/not-ok according to the looks-like-a-valid-name check",
+				"type": "mwtinyint",
+				"options": { "notnull": false, "length": 1 }
+			},
+			{
+				"name": "su_error",
+				"comment": "error message that came out of the unicode check, if any",
+				"type": "text",
+				"options": { "notnull": false, "length": 65530 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "su_normname_idx",
+				"comment": "For checking matching possible spoofs",
+				"columns": [ "su_normalized", "su_name" ],
+				"unique": false
+			}
+		],
+		"pk": [ "su_name" ]
+	}
+}
