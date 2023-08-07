@@ -13,10 +13,12 @@
 			"范",
 			"Lakejason0",
 			"Shizhao",
-			"Tranve"
+			"Tranve",
+			"Diskdance",
+			"GuoPC"
 		]
 	},
-	"antispoof-desc": "禁止使用混合文字、容易混淆或与已存在用户名过于相似的用户名创建帐户",
+	"antispoof-desc": "禁止使用混合文字、容易混淆或与已存在用户名过于相似的用户名创建账号",
 	"antispoof-conflict-top": "用户名“$1”与以下{{PLURAL:$2|用户名}}过于相似：",
 	"antispoof-conflict-bottom": "请选择其它用户名。",
 	"antispoof-name-illegal": "为防止混淆或欺诈性用户名，用户名“$1”不允许使用：$2。请选择其他用户名。",

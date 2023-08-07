@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Валентина Семёнова",
-			"Lifeway"
+			"Lifeway",
+			"Mxalexandrov86"
 		]
 	},
 	"antispoof-conflict-top": "«$1» ушнышын лӱмжӧ вес {{PLURAL:$2|ушнышын лӱмжӧ}} дене моткоч икгайрак улеш:",
 	"antispoof-conflict-bottom": "Порылий, вес ушнышо лӱмым ойыро.",
-	"antispoof-ignore": "Шоя лӱмым тергымым шотыш налаш огыл"
+	"antispoof-ignore": "Шоя лӱмым тергымым шотыш налаш огыл",
+	"action-override-antispoof": "вашталтышлан кычалмашым угыч палемдаш"
 }
