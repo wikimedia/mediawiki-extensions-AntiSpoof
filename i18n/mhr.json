@@ -18,5 +18,6 @@
 	"antispoof-mixedscripts": "Ушнышо-влакын лӱмышт вес возымо систе гыч кучылташ ок лий.",
 	"antispoof-tooshort": "Палемдыме ушнышо лӱмда моткоч кӱчык улеш.",
 	"antispoof-ignore": "Шоя лӱмым тергымым шотыш налаш огыл",
-	"action-override-antispoof": "вашталтышлан кычалмашым угыч палемдаш"
+	"action-override-antispoof": "вашталтышлан кычалмашым угыч палемдаш",
+	"right-override-antispoof": "У лӱмлан тергымым шотыш налаш огыл"
 }
