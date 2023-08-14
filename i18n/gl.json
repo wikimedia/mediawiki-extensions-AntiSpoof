@@ -7,7 +7,7 @@
 			"Toliño"
 		]
 	},
-	"antispoof-desc": "Bloquea a creación de contas con escrituras mesturadas, confusas ou con nomes de usuario similares",
+	"antispoof-desc": "Bloquea a creación de contas con nomes de usuario confusos, con letras de alfabetos mesturados ou similares a outros nomes existentes",
 	"antispoof-conflict-top": "O nome de usuario \"$1\" é moi similar {{PLURAL:$2|ao seguinte nome|aos seguintes nomes}} de usuario:",
 	"antispoof-conflict-bottom": "Por favor, escolle outro nome de usuario.",
 	"antispoof-name-illegal": "O nome de usuario \"$1\" non está permitido para evitar confusións ou enganos cos seguintes nomes de usuario: $2. Por favor, escolla outro nome de usuario.",
@@ -20,7 +20,8 @@
 	"antispoof-noletters": "Non contén ningunha letra",
 	"antispoof-mixedscripts": "Contén guións incompatibles mesturados",
 	"antispoof-tooshort": "Nome normalizado curto de máis",
-	"antispoof-ignore": "Ignorar as comprobacións de engaños (spoofing)",
+	"antispoof-ignore": "Ignorar as comprobacións de enganos",
 	"antispoof-ignore-help": "Permite ós usuarios con permisos axeitados crear unha conta incluso se o seu nome é semellante ó dunha conta xa existente.",
-	"right-override-antispoof": "Ignorar as comprobacións de engaños (spoofing)"
+	"action-override-antispoof": "ignorar as comprobacións de enganos",
+	"right-override-antispoof": "Ignorar as comprobacións de enganos"
 }
