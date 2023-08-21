@@ -9,5 +9,6 @@
 	"antispoof-conflict-top": "«$1» ушнышын лӱмжӧ вес {{PLURAL:$2|ушнышын лӱмжӧ}} дене моткоч икгайрак улеш:",
 	"antispoof-conflict-bottom": "Порылий, вес ушнышо лӱмым ойыро.",
 	"antispoof-ignore": "Шоя лӱмым тергымым шотыш налаш огыл",
-	"action-override-antispoof": "вашталтышлан кычалмашым угыч палемдаш"
+	"action-override-antispoof": "вашталтышлан кычалмашым угыч палемдаш",
+	"right-override-antispoof": "У лӱмлан тергымым шотыш налаш огыл"
 }
