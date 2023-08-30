@@ -4,8 +4,8 @@
 			"Bangrapip"
 		]
 	},
-	"antispoof-desc": "Ngeblokir pengejaan rèkening paké hurup campuran, ngèderin, èn nama pemaké nyang numbras",
-	"antispoof-conflict-top": "Nama pemaké \"$1\" keliwat numbras ama ni {{PLURAL:$2|nama pemaké|nama pemaké pada}}:",
+	"antispoof-desc": "Ngeblokir pengejaan rèkening paké hurup campuran, ngèderin, èn nama pemaké nyang mèmper",
+	"antispoof-conflict-top": "Nama pemaké \"$1\" keliwat mèmper ama ni {{PLURAL:$2|nama pemaké|nama pemaké pada}}:",
 	"antispoof-conflict-bottom": "Dimohon pilih nama pemaké laènnya.",
 	"antispoof-name-illegal": "Biar kaga' kèder, nama pemaké \"$1\" kaga' bisa dipaké: $2.\nDimohon pilih nama pemaké lainnya.",
 	"antispoof-badtype": "Nama pemaké nyang dikasiin – jenisnya kaga' aci.",
@@ -18,7 +18,7 @@
 	"antispoof-mixedscripts": "Nama pemaké kaga' bolé ada lèter deri bèda sistim penulisan.",
 	"antispoof-tooshort": "Nama pemaké lu punya kasiin – kepèndèkan.",
 	"antispoof-ignore": "Cuèkin pemerèksaan penèkèran",
-	"antispoof-ignore-help": "Ngeboléin pemaké dengen keistimèwaan nyang cukup bakal ngeja rèkening bagèn kata namanya numbras ama rèkening nyang udah ada.",
+	"antispoof-ignore-help": "Ngeboléin pemaké dengen keistimèwaan nyang cukup bakal ngeja rèkening bagèn kata namanya mèmper ama rèkening nyang udah ada.",
 	"action-override-antispoof": "kesampingin pemerèksaan penèkèran",
 	"right-override-antispoof": "Kesampingin pemerèksaan penèkèran"
 }
