@@ -35,6 +35,9 @@ class Hooks {
 			$updater->renameExtensionIndex( 'spoofuser', 'su_normalized', 'su_normname_idx',
 				__DIR__ . '/../sql/mysql/patch-spoofuser-index-su_normname_idx.sql' );
 		}
+		// MediaWiki 1.41
+		$updater->modifyExtensionTable( 'spoofuser',
+			__DIR__ . '/../sql/' . $type . '/patch-change-spoofuser-binary.sql' );
 		return true;
 	}
 

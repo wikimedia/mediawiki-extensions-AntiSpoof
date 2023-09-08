@@ -5,13 +5,13 @@
 			{
 				"name": "su_name",
 				"comment": "Equivalent to user_name, but not guaranteed to be in sync. Do a join against user_name to confirm that an account hasn't been renamed or deleted away. Unique record per username.",
-				"type": "string",
+				"type": "binary",
 				"options": { "notnull": true, "length": 255 }
 			},
 			{
 				"name": "su_normalized",
 				"comment": "Normalized form of name for similarity-spoofing checks",
-				"type": "string",
+				"type": "binary",
 				"options": { "notnull": false, "length": 255 }
 			},
 			{
