@@ -96,6 +96,10 @@ class SpoofUser {
 	 * @return array empty if no conflict, or array containing conflicting usernames
 	 */
 	public function getConflicts() {
+		if ( !$this->isLegal() ) {
+			return [];
+		}
+
 		$dbr = $this->getDBReplica();
 
 		// Join against the user table to ensure that we skip stray

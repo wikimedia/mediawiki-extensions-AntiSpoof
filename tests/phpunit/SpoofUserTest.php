@@ -22,6 +22,8 @@ class SpoofUserTest extends MediaWikiIntegrationTestCase {
 		'BAZFOO',
 		'BazF00',
 		'ILIKECAPSLOCKS',
+		// Pre-existing non-legal user name, only possible by running the maintenance script on non-empty wiki
+		'42',
 	];
 
 	public function setUp(): void {
@@ -67,6 +69,7 @@ class SpoofUserTest extends MediaWikiIntegrationTestCase {
 			[ 'ILIKECAPSLOCKS', [ 'ILIKECAPSLOCKS' ] ],
 			[ 'NotInTheUserTable', [] ],
 			[ 'UsErFoO', [ 'UserF00', 'UserFoo' ] ],
+			[ '12345', [] ],
 		];
 	}
 
