@@ -104,23 +104,16 @@ class SpoofUser {
 
 		// Join against the user table to ensure that we skip stray
 		// entries left after an account is renamed or otherwise munged.
-		$spoofedUsers = $dbr->select(
-			[ 'spoofuser', $this->getTableName() ],
-			[ 'su_name' ], // Same thing due to the join. Saves extra variableness
-			[
-				'su_normalized' => $this->normalized,
-				'su_name = ' . $this->getUserColumn(),
-			],
-			__METHOD__,
-			[
-				'LIMIT' => 5
-			] );
+		$spoofedUsers = $dbr->newSelectQueryBuilder()
+			->select( [ 'su_name' ] )
+			->from( 'spoofuser' )
+			->join( $this->getTableName(), null, 'su_name = ' . $this->getUserColumn() )
+			->where( [ 'su_normalized' => $this->normalized ] )
+			->limit( 5 )
+			->caller( __METHOD__ )
+			->fetchFieldValues();
 
-		$spoofs = [];
-		foreach ( $spoofedUsers as $row ) {
-			array_push( $spoofs, $row->su_name );
-		}
-		return $spoofs;
+		return $spoofedUsers;
 	}
 
 	/**
@@ -154,19 +147,17 @@ class SpoofUser {
 		if ( !count( $items ) ) {
 			return false;
 		}
-		$fields = [];
+
+		$rqb = $dbw->newReplaceQueryBuilder()
+			->replaceInto( 'spoofuser' );
 		/**
 		 * @var $item SpoofUser
 		 */
 		foreach ( $items as $item ) {
-			$fields[] = $item->insertFields();
+			$rqb->row( $item->insertFields() );
 		}
-		$dbw->replace(
-			'spoofuser',
-			'su_name',
-			$fields,
-			__METHOD__
-		);
+		$rqb->uniqueIndexFields( 'su_name' )
+			->caller( __METHOD__ )->execute();
 		return true;
 	}
 
@@ -180,11 +171,10 @@ class SpoofUser {
 		$dbw->onTransactionPreCommitOrIdle(
 			function () use ( $dbw, $method, $oldName ) {
 				if ( $this->record() ) {
-					$dbw->delete(
-						'spoofuser',
-						[ 'su_name' => $oldName ],
-						$method
-					);
+					$dbw->newDeleteQueryBuilder()
+						->deleteFrom( 'spoofuser' )
+						->where( [ 'su_name' => $oldName ] )
+						->caller( $method )->execute();
 				}
 			},
 			$method
@@ -195,11 +185,11 @@ class SpoofUser {
 	 * Remove a user from the spoofuser table
 	 */
 	public function remove() {
-		$this->getDBPrimary()->delete(
-			'spoofuser',
-			[ 'su_name' => $this->name ],
-			__METHOD__
-		);
+		$this->getDBPrimary()
+			->newDeleteQueryBuilder()
+			->deleteFrom( 'spoofuser' )
+			->where( [ 'su_name' => $this->name ] )
+			->caller( __METHOD__ )->execute();
 	}
 
 	/**
