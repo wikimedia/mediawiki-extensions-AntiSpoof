@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Hanberke"
 		]
 	},
 	"antispoof-desc": "Garyşyk şriftli, bulaşyklyk dörediji we çalymdaş ulanyjy atlarynyň döredilmegini blokirleýär.",
 	"antispoof-conflict-top": "\"$1\" diýen at {{PLURAL:$2|bar bolan şu hasaba|aşakdaky $2 hasaba}} örän çalymdaş:",
 	"antispoof-conflict-bottom": "Başga bir at saýlaň.",
-	"antispoof-name-illegal": "Ulanyjy atlarynyň  garjaşmagynyň ýa-da bulaşdyrylmagynyň öňüni almak \"$1\" adyna rugsat berilmeýär: $2. Başga bir ulanyjy adyny saýlaň.",
+	"antispoof-name-illegal": "Ulanyjy atlarynyň garjaşmagynyň ýa-da bulaşdyrylmagynyň öňüni almak \"$1\" adyna rugsat berilmeýär: $2. Başga bir ulanyjy adyny saýlaň.",
 	"antispoof-badtype": "Näsaz maglumat tipi",
 	"antispoof-empty": "Boş setir",
 	"antispoof-prohibited": "Gara sanawa goşulan simwoly öz içine alýar",

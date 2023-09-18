@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Salvemm el lombard"
 		]
 	},
-	"antispoof-desc": "El bloca la creazzion de nom de utent con di carater mist e di nom de utent che ingeneren confusion o  vun trop compagn de l'alter.",
+	"antispoof-desc": "El bloca la creazzion de nom de utent con di carater mist e di nom de utent che ingeneren confusion o vun trop compagn de l'alter.",
 	"antispoof-conflict-top": "El nom de l'utent \"$1\" l'è trop compagn de {{PLURAL:$2|chesschì|questi chì}}:",
 	"antispoof-conflict-bottom": "Per piesé, cata foeura un alter nom de utent",
 	"antispoof-name-illegal": "Per minga fa casot, el nom de utent \"$1\" el pò minga vesser drovad: $2. Cata foeura un'alter nom.",
