@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Bonevarluri",
-			"Mogoeilor"
+			"Mogoeilor",
+			"Amire80"
 		]
 	},
 	"antispoof-desc": "مال ونیا وا اسکریپ شیوسه دروس بیه،نومیا کاروری گیژکننه و چی یک",
 	"antispoof-conflict-top": "نوم که فره د{{PLURAL:$2|کاریار|کاریاریا}}: هاری نزیکهد",
 	"antispoof-conflict-bottom": "لطفن یه نوم هنی انتخاو بکید",
 	"antispoof-name-illegal": "نوم \"$1\" سی دماگرتن د گیژ بیین یا اسپوف بیین نوم کاریاریا صلادار نئ:$2\nلطف بکیت یه گل نوم هنی انتخاو بکیت.",
-	"antispoof-badtype": "نوع دونسمنی  گن",
+	"antispoof-badtype": "نوع دونسمنی گن",
 	"antispoof-empty": "رشته حالی",
 	"antispoof-prohibited": "شومل کاراکتریانوم گه سی $1",
 	"antispoof-combining": "وا شومل بیئن نشون $1 شرو بوئه",

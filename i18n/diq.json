@@ -13,7 +13,7 @@
 	"antispoof-desc": "Hesaban pê skriptê miksi, nameyê takeşa bloke keno",
 	"antispoof-conflict-top": "Ena nameyé \"$1\"i ena {{PLURAL:$2|Namey karberi|namey karbera}} zaf paweno:",
 	"antispoof-conflict-bottom": "Xorê yewna nameyê karberi weçine.",
-	"antispoof-name-illegal": "Namey şıma name dê \"$2\"ya pê nêvawiyo deye name dê $1  rê mısade çıni yo.  \nYewna name weçine.",
+	"antispoof-name-illegal": "Seba têmiyankewtış ra nameyê \"$1\" nêşeno bıgureniyo: $2.\nKerem ke, yewêna name weçine.",
 	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Nameyê karberiyo ke peyda kerdo, tewrê de nêvêrdeyo.",
 	"antispoof-empty": "Rêza veng",
