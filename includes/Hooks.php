@@ -18,57 +18,39 @@
 
 namespace MediaWiki\Extension\AntiSpoof;
 
-use DatabaseUpdater;
+use MediaWiki\Auth\Hook\LocalUserCreatedHook;
+use MediaWiki\RenameUser\Hook\RenameUserCompleteHook;
 use User;
 
-class Hooks {
-	/**
-	 * @param DatabaseUpdater $updater
-	 * @return bool
-	 */
-	public static function asUpdateSchema( DatabaseUpdater $updater ) {
-		$type = $updater->getDB()->getType();
-		$updater->addExtensionTable( 'spoofuser',
-			__DIR__ . '/../sql/' . $type . '/tables-generated.sql' );
-
-		if ( $type === 'mysql' ) {
-			$updater->renameExtensionIndex( 'spoofuser', 'su_normalized', 'su_normname_idx',
-				__DIR__ . '/../sql/mysql/patch-spoofuser-index-su_normname_idx.sql' );
-		}
-		// MediaWiki 1.41
-		$updater->modifyExtensionTable( 'spoofuser',
-			__DIR__ . '/../sql/' . $type . '/patch-change-spoofuser-binary.sql' );
-		return true;
-	}
-
+class Hooks implements
+	LocalUserCreatedHook,
+	RenameUserCompleteHook
+{
 	/**
 	 * On new account creation, record the username's thing-bob.
 	 * Replaces AddNewAccountHook for more modern MediaWiki versions-
 	 *
 	 * @param User $user
-	 * @return bool
+	 * @param bool $autocreated
 	 */
-	public static function asLocalUserCreated( $user ) {
+	public function onLocalUserCreated( $user, $autocreated ) {
 		if ( !$user->isTemp() ) {
 			$spoof = new SpoofUser( $user->getName() );
 			$spoof->record();
 		}
-		return true;
 	}
 
 	/**
 	 * On rename, remove the old entry and add the new
 	 * (After a successful user rename)
 	 *
-	 * @param string $uid
+	 * @param int $uid
 	 * @param string $oldName
 	 * @param string $newName
-	 * @return bool
 	 */
-	public static function asAddRenameUserHook( $uid, $oldName, $newName ) {
+	public function onRenameUserComplete( int $uid, string $oldName, string $newName ): void {
 		$spoof = new SpoofUser( $newName );
 		$spoof->update( $oldName );
-		return true;
 	}
 
 	/**

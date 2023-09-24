@@ -47,10 +47,18 @@
 		}
 	},
 	"Hooks": {
-		"LoadExtensionSchemaUpdates": "MediaWiki\\Extension\\AntiSpoof\\Hooks::asUpdateSchema",
-		"LocalUserCreated": "MediaWiki\\Extension\\AntiSpoof\\Hooks::asLocalUserCreated",
-		"RenameUserComplete": "MediaWiki\\Extension\\AntiSpoof\\Hooks::asAddRenameUserHook",
+		"LoadExtensionSchemaUpdates": "schema",
+		"LocalUserCreated": "main",
+		"RenameUserComplete": "main",
 		"DeleteAccount": "MediaWiki\\Extension\\AntiSpoof\\Hooks::asDeleteAccount"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\AntiSpoof\\Hooks"
+		},
+		"schema": {
+			"class": "MediaWiki\\Extension\\AntiSpoof\\SchemaHooks"
+		}
 	},
 	"config": {
 		"AntiSpoofAccounts": {
