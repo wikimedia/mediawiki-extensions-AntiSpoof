@@ -11,6 +11,7 @@
 		]
 	},
 	"antispoof-desc": "{{desc|name=AntiSpoof|url=https://www.mediawiki.org/wiki/Extension:AntiSpoof}}",
+	"antispoof-conflict": "See:\n* {{msg-mw|antispoof-conflict-top}}\n* {{msg-mw|antispoof-conflict-item}}\n* {{msg-mw|antispoof-conflict-bottom}}",
 	"antispoof-conflict-top": "Account creation error message because attempted username is too similar to existing username(s).\n\nParameters:\n* $1 - the username that someone wanted to create\n* $2 - number of usernames that triggered the error",
 	"antispoof-conflict-item": "{{notranslate}}\nParameters:\n* $1 - username",
 	"antispoof-conflict-bottom": "Suggestion for user that tried to create a user with a name that was not accepted.",

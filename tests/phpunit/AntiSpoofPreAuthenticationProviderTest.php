@@ -95,9 +95,9 @@ class AntiSpoofPreAuthenticationProviderTest extends MediaWikiIntegrationTestCas
 			'illegal, sysop skipping' => [ true, false, [], true, [ $skip ], null ],
 			// this should never happen but is good for layered defense
 			'fake skipping' => [ true, false, [], false, [ $skip ], 'antispoof-name-illegal' ],
-			'conflicts' => [ true, true, [ 'x' ], false, [], '$1$2$3' ],
+			'conflicts' => [ true, true, [ 'x' ], false, [], 'antispoof-conflict' ],
 			'conflicts w/ skipping' => [ true, true, [ 'x' ], true, [ $skip ], null ],
-			'conflicts w/ fake skipping' => [ true, true, [ 'x' ], false, [ $skip ], '$1$2$3' ],
+			'conflicts w/ fake skipping' => [ true, true, [ 'x' ], false, [ $skip ], 'antispoof-conflict' ],
 			'illegal takes priority' => [ true, false, [ 'x' ], false, [], 'antispoof-name-illegal' ],
 		];
 	}

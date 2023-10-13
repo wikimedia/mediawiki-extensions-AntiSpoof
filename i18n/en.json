@@ -9,6 +9,7 @@
 		]
 	},
 	"antispoof-desc": "Blocks the creation of accounts with mixed-script, confusing and similar usernames",
+	"antispoof-conflict": "{{int:antispoof-conflict-top|$1|$2}}\n\n$3\n\n{{int:antispoof-conflict-bottom}}",
 	"antispoof-conflict-top": "The username \"$1\" is too similar to the following {{PLURAL:$2|username|usernames}}:",
 	"antispoof-conflict-item": "$1",
 	"antispoof-conflict-bottom": "Please choose another username.",

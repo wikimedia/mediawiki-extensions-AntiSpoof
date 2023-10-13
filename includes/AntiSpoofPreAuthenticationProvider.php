@@ -18,13 +18,13 @@
 
 namespace MediaWiki\Extension\AntiSpoof;
 
-use Html;
 use MediaWiki\Auth\AbstractPreAuthenticationProvider;
 use MediaWiki\Auth\AuthenticationRequest;
 use MediaWiki\Auth\AuthManager;
 use MediaWiki\Language\RawMessage;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\User\UserIdentity;
+use Message;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 use RequestContext;
@@ -82,6 +82,7 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 	 * @return StatusValue
 	 */
 	private function testUserInternal( UserIdentity $user, $override, LoggerInterface $logger ) {
+		$name = $user->getName();
 		$spoofUser = $this->getSpoofUser( $user );
 		$mode = !$this->antiSpoofAccounts ? 'LOGGING ' : ( $override ? 'OVERRIDE ' : '' );
 		$active = $this->antiSpoofAccounts && !$override;
@@ -92,43 +93,42 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 			if ( empty( $conflicts ) ) {
 				$logger->debug( "{mode}PASS new account '{name}' [{normalized}]", [
 					'mode' => $mode,
-					'name' => $user->getName(),
+					'name' => $name,
 					'normalized' => $normalized,
 				] );
 			} else {
 				$logger->info( "{mode}CONFLICT new account '{name}' [{normalized}] spoofs {spoofs}", [
 					'mode' => $mode,
-					'name' => $user->getName(),
+					'name' => $name,
 					'normalized' => $normalized,
 					'spoofs' => $conflicts,
 				] );
-				if ( $active ) {
-					$cnt = count( $conflicts );
-					$list = '';
-					foreach ( $conflicts as $simUser ) {
-						$list .= Html::element( 'li', [],
-							wfMessage( 'antispoof-conflict-item', $simUser )->text()
-						);
-					}
-					$list = Html::rawElement( 'ul', [], $list );
 
-					$message = new RawMessage( '$1$2$3', [
-						wfMessage( 'antispoof-conflict-top', $user->getName() )->numParams( $cnt ),
-						$list,
-						wfMessage( 'antispoof-conflict-bottom' )
-					] );
-					return StatusValue::newFatal( $message );
+				if ( $active ) {
+					$list = [];
+					foreach ( $conflicts as $simUser ) {
+						$list[] = "* " . wfMessage( 'antispoof-conflict-item', $simUser )->plain();
+					}
+					$list = implode( "\n", $list );
+
+					return StatusValue::newFatal(
+						'antispoof-conflict',
+						$name,
+						Message::numParam( count( $conflicts ) ),
+						// Avoid forced wikitext escaping for params in the Status class
+						new RawMessage( $list )
+					);
 				}
 			}
 		} else {
 			$error = $spoofUser->getErrorStatus();
 			$logger->info( "{mode}ILLEGAL new account '{name}' {error}", [
 				'mode' => $mode,
-				'name' => $user->getName(),
+				'name' => $name,
 				'error' => $error->getMessage( false, false, 'en' )->text(),
 			] );
 			if ( $active ) {
-				return StatusValue::newFatal( 'antispoof-name-illegal', $user->getName(),
+				return StatusValue::newFatal( 'antispoof-name-illegal', $name,
 					$error->getMessage() );
 			}
 		}
