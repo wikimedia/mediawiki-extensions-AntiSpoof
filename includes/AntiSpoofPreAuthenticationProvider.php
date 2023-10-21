@@ -90,7 +90,7 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 		if ( $spoofUser->isLegal() ) {
 			$normalized = $spoofUser->getNormalized();
 			$conflicts = $spoofUser->getConflicts();
-			if ( empty( $conflicts ) ) {
+			if ( !$conflicts ) {
 				$logger->debug( "{mode}PASS new account '{name}' [{normalized}]", [
 					'mode' => $mode,
 					'name' => $name,

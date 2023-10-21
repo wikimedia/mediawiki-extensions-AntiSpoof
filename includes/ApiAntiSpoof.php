@@ -43,7 +43,7 @@ class ApiAntiSpoof extends ApiBase {
 			$res->addValue( null, $this->getModuleName(), [ 'normalised' => $normalized ] );
 
 			$unfilteredConflicts = $spoof->getConflicts();
-			if ( empty( $unfilteredConflicts ) ) {
+			if ( !$unfilteredConflicts ) {
 				$res->addValue( null, $this->getModuleName(), [ 'result' => 'pass' ] );
 			} else {
 				$hasSuppressed = false;
