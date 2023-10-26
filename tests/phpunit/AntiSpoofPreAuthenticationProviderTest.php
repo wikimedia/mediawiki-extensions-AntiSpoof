@@ -71,10 +71,9 @@ class AntiSpoofPreAuthenticationProviderTest extends MediaWikiIntegrationTestCas
 		$status = $provider->testForAccountCreation( new User(), $creator, $reqs );
 
 		if ( $error ) {
-			$this->assertFalse( $status->isGood() );
-			$this->assertEquals( $error, Status::wrap( $status )->getMessage()->getKey() );
+			$this->assertStatusError( $error, $status );
 		} else {
-			$this->assertTrue( $status->isGood() );
+			$this->assertStatusGood( $status );
 		}
 	}
 

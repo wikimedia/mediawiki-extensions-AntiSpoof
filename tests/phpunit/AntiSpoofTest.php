@@ -33,8 +33,8 @@ class AntiSpoofTest extends MediaWikiIntegrationTestCase {
 		$a = AntiSpoof::checkUnicodeStringStatus( $userName );
 		$b = AntiSpoof::checkUnicodeStringStatus( $spooferName );
 
-		$this->assertTrue( $a->isOK() );
-		$this->assertTrue( $b->isOK() );
+		$this->assertStatusOK( $a );
+		$this->assertStatusOK( $b );
 
 		$this->assertEquals( $a->getValue(), $b->getValue() );
 	}
@@ -56,8 +56,7 @@ class AntiSpoofTest extends MediaWikiIntegrationTestCase {
 		$a = AntiSpoof::checkUnicodeStringStatus( $userName );
 		$b = AntiSpoof::checkUnicodeStringStatus( $spooferName );
 
-		$this->assertTrue( $a->isOK() );
-		$this->assertFalse( $b->isOK() );
-		$this->assertTrue( $b->hasMessage( 'antispoof-mixedscripts' ) );
+		$this->assertStatusOK( $a );
+		$this->assertStatusError( 'antispoof-mixedscripts', $b );
 	}
 }
