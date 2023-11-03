@@ -19,6 +19,7 @@
 namespace MediaWiki\Extension\AntiSpoof;
 
 use MediaWiki\Auth\Hook\LocalUserCreatedHook;
+use MediaWiki\Permissions\GrantsInfo;
 use MediaWiki\RenameUser\Hook\RenameUserCompleteHook;
 use MediaWiki\User\User;
 
@@ -26,6 +27,17 @@ class Hooks implements
 	LocalUserCreatedHook,
 	RenameUserCompleteHook
 {
+
+	public static function onRegistration() {
+		global $wgGrantRiskGroups;
+		// Make sure the risk rating is at least 'security'. AntiSpoof adds the
+		// override-antispoof right to the createaccount grant, which makes it possible
+		// to use it for social engineering attacks with lookalike usernames.
+		if ( $wgGrantRiskGroups['createaccount'] !== GrantsInfo::RISK_INTERNAL ) {
+			$wgGrantRiskGroups['createaccount'] = GrantsInfo::RISK_SECURITY;
+		}
+	}
+
 	/**
 	 * On new account creation, record the username's thing-bob.
 	 * Replaces AddNewAccountHook for more modern MediaWiki versions-

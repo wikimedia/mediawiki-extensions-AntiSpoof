@@ -46,6 +46,7 @@
 			}
 		}
 	},
+	"callback": "MediaWiki\\Extension\\AntiSpoof\\Hooks::onRegistration",
 	"Hooks": {
 		"LoadExtensionSchemaUpdates": "schema",
 		"LocalUserCreated": "main",
