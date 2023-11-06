@@ -12,7 +12,10 @@
 			"Surena",
 			"ZxxZxxZ",
 			"Beginneruser",
-			"Darafsh"
+			"Darafsh",
+			"Arian Ar",
+			"Jeeputer",
+			"Yoosef Pooranvary"
 		]
 	},
 	"antispoof-desc": "ایجاد حساب‌هایی با نام‌های کاربری حروف مختلط، گیج‌کننده و مشابه را مسدود می‌کند",
@@ -31,5 +34,6 @@
 	"antispoof-tooshort": "نام بهنجار شده خیلی کوتاه است",
 	"antispoof-ignore": "نادیده‌گرفتن بررسی عبارات سردرگم‌کننده",
 	"antispoof-ignore-help": "به کاربرانی که دسترسی لازم داشته باشند اجازه می‌دهد که حساب ایجاد کنند حتی اگر نامش شبیه یکی از حساب‌های موجود باشد.",
+	"action-override-antispoof": "باطل کردن بررسی عبارات سردرگم‌کننده",
 	"right-override-antispoof": "گذر از بررسی عبارات سردرگم‌کننده"
 }
