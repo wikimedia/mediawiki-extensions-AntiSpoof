@@ -50,14 +50,11 @@
 		"LoadExtensionSchemaUpdates": "schema",
 		"LocalUserCreated": "main",
 		"RenameUserComplete": "main",
-		"DeleteAccount": "usermerge"
+		"DeleteAccount": "MediaWiki\\Extension\\AntiSpoof\\Hooks::asDeleteAccount"
 	},
 	"HookHandlers": {
 		"main": {
 			"class": "MediaWiki\\Extension\\AntiSpoof\\Hooks"
-		},
-		"usermerge": {
-			"class": "MediaWiki\\Extension\\AntiSpoof\\UserMergeHooks"
 		},
 		"schema": {
 			"class": "MediaWiki\\Extension\\AntiSpoof\\SchemaHooks"

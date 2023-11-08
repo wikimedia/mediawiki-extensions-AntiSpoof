@@ -52,4 +52,14 @@ class Hooks implements
 		$spoof = new SpoofUser( $newName );
 		$spoof->update( $oldName );
 	}
+
+	/**
+	 * @param User $oldUser
+	 * @return bool
+	 */
+	public static function asDeleteAccount( User $oldUser ) {
+		$spoof = new SpoofUser( $oldUser->getName() );
+		$spoof->remove();
+		return true;
+	}
 }
