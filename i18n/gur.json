@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akakiiri"
+		]
+	},
+	"antispoof-conflict-top": "Tuntuna yu'urɛ \"$1\" ba'am ŋwuna la sɛba n tagelɛ wa {{PLURAL:$2|tuntuna yu'urɛ/ tuntuneba yura}}",
+	"antispoof-conflict-bottom": "N beleni mɛ malum loe tuntuna yu'urɛ",
+	"antispoof-name-illegal": "Fu San bɔta ti fu gu tulesi, tuntuna yu'urɛ \"$1\" kan ta'am tum: $2.\nN beleni mɛ malum loe tuntuna yu'urɛ",
+	"antispoof-badtype": "Tuntuna yu'urɛ la ti ba bo la ka de la sɛka n ka de tuntɔɔ la taaba.",
+	"antispoof-empty": "Ba ka boni tuntuna yu'urɛ.",
+	"antispoof-prohibited": "Tuntuna yu'urɛ kan ta'am tara \"$1\" se'ere zuo n sɔi la, la kisimɛ.",
+	"antispoof-combining": "Tuntuna yu'urɛ kan ta'am lagum tara yele-ana \"$1\".",
+	"antispoof-unassigned": "Tuntuna yu'urɛ kan ta'am tara \"$1\" se'ere zuo n sɔi la, ba ka mi a yele.",
+	"antispoof-deprecated": "Tuntuna yu'urɛ kan ta'am tara \"$1\" se'ere zuo n sɔi la, a de la sɛla ti ba nam a yele.",
+	"antispoof-noletters": "Tuntuna yu'urɛ nari ti a tara la anŋa bii ansi.",
+	"antispoof-mixedscripts": "Tuntuna yu'urɛ kan ta'am tara anŋa ze'ele gulegɔ zo'e zo'e sɔ puan.",
+	"antispoof-tooshort": "Fu tuntuna yu'urɛ la ti fu bɔ' la ba'am ana la girega.",
+	"antispoof-ignore": "Zagesɛ sɔ asi'a eere.",
+	"action-override-antispoof": "Basɛ sɔ asi'a eere.",
+	"right-override-antispoof": "Basɛ sɔ asi'a eere."
+}
