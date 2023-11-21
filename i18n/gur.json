@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Akakiiri"
+			"Akakiiri",
+			"Amoramah"
 		]
 	},
+	"antispoof-desc": "Gu'uri la yu'ura n ka ba'am niɛ gee ŋwɔna taaba",
 	"antispoof-conflict-top": "Tuntuna yu'urɛ \"$1\" ba'am ŋwuna la sɛba n tagelɛ wa {{PLURAL:$2|tuntuna yu'urɛ/ tuntuneba yura}}",
 	"antispoof-conflict-bottom": "N beleni mɛ malum loe tuntuna yu'urɛ",
 	"antispoof-name-illegal": "Fu San bɔta ti fu gu tulesi, tuntuna yu'urɛ \"$1\" kan ta'am tum: $2.\nN beleni mɛ malum loe tuntuna yu'urɛ",
@@ -17,6 +19,7 @@
 	"antispoof-mixedscripts": "Tuntuna yu'urɛ kan ta'am tara anŋa ze'ele gulegɔ zo'e zo'e sɔ puan.",
 	"antispoof-tooshort": "Fu tuntuna yu'urɛ la ti fu bɔ' la ba'am ana la girega.",
 	"antispoof-ignore": "Zagesɛ sɔ asi'a eere.",
+	"antispoof-ignore-help": "Bo'orɔ tuntuneba yɔ'ɔ ti ba maala yu'urɛ hali di sãn pugum ŋwɔna la yuse'ere n diŋɛ bɔna bini.",
 	"action-override-antispoof": "Basɛ sɔ asi'a eere.",
 	"right-override-antispoof": "Basɛ sɔ asi'a eere."
 }
