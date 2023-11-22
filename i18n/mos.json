@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Soumaya"
+		]
+	},
+	"antispoof-desc": "B sẽn pa tõe n tall sõssã, b sẽn pa tõe ne sõssã la b sẽn pa segd n tall sõsdã",
+	"antispoof-conflict-top": "Sõng-y tɩ \"$1\"y bãng tɩ y pa tõe n sak n bãng tɩ y yaa ned sẽn pa tõe n maan bũmb a to ye.  \n{{PLURAL:$2|username|usernames}}",
+	"antispoof-conflict-bottom": "Sõng-y tɩ y yãk a to.",
+	"antispoof-name-illegal": "Sẽn na yɩl n da wa paam neb sẽn pa mi-b ye, pa tõe n dɩk \"$1\" yʋʋr ye: $2. Sõng-y tɩ y yãk a to.",
+	"antispoof-badtype": "Sõng-y tɩ y gʋlsd a yʋy-kãngã.",
+	"antispoof-empty": "B pa kõ-d ned yʋʋr ye.",
+	"antispoof-prohibited": "Sõndb sẽn boond tɩ \"$1\" pa tõe n tall a soaba, bala b gɩdg-a lame",
+	"antispoof-combining": "Sõndb sẽn pa tar sõnd sẽn naag taabã\"$1\".",
+	"antispoof-unassigned": "Sõndb sẽn boond tɩ \"$1\" pa tõe n tall a soaba, bala a yaa sõnd sẽn pa mi ye.",
+	"antispoof-deprecated": "Sõndb sẽn pa tar \"$1\" wã pa tõe n tall sõnd-rãmbã ye, bala b pa le tar-b ye.",
+	"antispoof-noletters": "Sõndb sẽn boond tɩ b sõndbã segd n tara sõnd a ye bɩ a taab.",
+	"antispoof-mixedscripts": "Sõndb sẽn boond tɩ b yʋya pa tõe n tall gʋlsd sẽn yit b gʋlsd sigls toɛy-toɛyã pʋgẽ ye.",
+	"antispoof-tooshort": "Fo sẽn kõ-a-la yʋʋrã yaa bilfu.",
+	"antispoof-ignore": "Y sã n pa get b sẽn maand b toor-toor wã, y pa na n tags b sẽn maand to-to wã yell ye",
+	"antispoof-ignore-help": "Sẽn yaa a soaba, a pa tõe n maan bũmb a to ye.",
+	"action-override-antispoof": "b pa na n maan b sẽn dat n maan to-to wã ye",
+	"right-override-antispoof": "Bãng-y tɩ b pa na n maan bũmb nins sẽn yaa wẽnga ye"
+}

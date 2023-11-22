@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"H78c67c"
 		]
 	},
 	"antispoof-desc": "封鎖一啲對於有混合程序、混淆同埋相似嘅用戶名嘅開戶口動作",
-	"antispoof-conflict-top": "用戶名「$1」同以下呢啲{{PLURAL:$2|用戶名}}太似：",
+	"antispoof-conflict-top": "用戶名「$1」同以下呢{{PLURAL:$2|個用戶名|啲用戶名}}太似：",
 	"antispoof-conflict-bottom": "請揀第個用戶名。",
 	"antispoof-name-illegal": "呢個用戶名「$1」唔畀用，以防撈亂或者冒充用戶名：「$2」。\n請揀過個用戶名。",
 	"antispoof-badtype": "錯誤嘅資料類型",

@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alhassan Mohammed Awal"
+			"Alhassan Mohammed Awal",
+			"Attah Mohammed"
 		]
 	},
+	"antispoof-desc": "Mɔŋmi soli zaŋ chaŋ accounts namda din gabi-gbana ni, din ka nini ka di nahingbana lahi nyɛ zaɣ' yinsi",
+	"antispoof-conflict-bottom": "Pahimi suɣuli piimi yu' shɛli.",
 	"antispoof-prohibited": "Bansu yuya ku tooi mali $1 dama di nyɛla din chihira"
 }
