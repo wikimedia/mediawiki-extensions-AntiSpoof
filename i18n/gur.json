@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akakiiri",
+			"Amoramah"
+		]
+	},
+	"antispoof-desc": "Gu'uri la yu'ura n ka ba'am niɛ gee ŋwɔna taaba",
+	"antispoof-conflict-top": "Tuntuna yu'urɛ \"$1\" ba'am ŋwuna la sɛba n tagelɛ wa {{PLURAL:$2|tuntuna yu'urɛ/ tuntuneba yura}}",
+	"antispoof-conflict-bottom": "N beleni mɛ malum loe tuntuna yu'urɛ",
+	"antispoof-ignore": "Zagesɛ sɔ asi'a eere.",
+	"antispoof-ignore-help": "Bo'orɔ tuntuneba yɔ'ɔ ti ba maala yu'urɛ hali di sãn pugum ŋwɔna la yuse'ere n diŋɛ bɔna bini.",
+	"action-override-antispoof": "Basɛ sɔ asi'a eere.",
+	"right-override-antispoof": "Basɛ sɔ asi'a eere."
+}

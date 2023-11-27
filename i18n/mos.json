@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Soumaya"
+		]
+	},
+	"antispoof-desc": "B sẽn pa tõe n tall sõssã, b sẽn pa tõe ne sõssã la b sẽn pa segd n tall sõsdã",
+	"antispoof-conflict-top": "Sõng-y tɩ \"$1\"y bãng tɩ y pa tõe n sak n bãng tɩ y yaa ned sẽn pa tõe n maan bũmb a to ye.  \n{{PLURAL:$2|username|usernames}}",
+	"antispoof-conflict-bottom": "Sõng-y tɩ y yãk a to.",
+	"antispoof-ignore": "Y sã n pa get b sẽn maand b toor-toor wã, y pa na n tags b sẽn maand to-to wã yell ye",
+	"antispoof-ignore-help": "Sẽn yaa a soaba, a pa tõe n maan bũmb a to ye.",
+	"action-override-antispoof": "b pa na n maan b sẽn dat n maan to-to wã ye",
+	"right-override-antispoof": "Bãng-y tɩ b pa na n maan bũmb nins sẽn yaa wẽnga ye"
+}
