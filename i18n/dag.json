@@ -6,6 +6,12 @@
 		]
 	},
 	"antispoof-desc": "Mɔŋmi soli zaŋ chaŋ accounts namda din gabi-gbana ni, din ka nini ka di nahingbana lahi nyɛ zaɣ' yinsi",
+	"antispoof-conflict-top": "Yuli ŋɔ lana \"$1\" waɣi yaɣi di ŋmanila ŋɔnima {{PLURAL:$2|username|username}}:",
 	"antispoof-conflict-bottom": "Pahimi suɣuli piimi yu' shɛli.",
-	"antispoof-prohibited": "Bansu yuya ku tooi mali $1 dama di nyɛla din chihira"
+	"antispoof-name-illegal": "Nangbankpeeni yi yɛn taɣi, yuli ŋɔ lana \"$1\" bi tu ni di be ni: $2.\nPahimi suɣulo ka taɣi so.",
+	"antispoof-badtype": "Yu' shɛli din kpɛhi maa kpee kani.",
+	"antispoof-empty": "Yuli din kpɛri kpe na kani.",
+	"antispoof-prohibited": "Bansu yuya ku tooi mali $1 dama di nyɛla din chihira",
+	"antispoof-combining": "Yu' shɛŋa din bachinima laɣim taba ku tooi deei \"$1\".",
+	"antispoof-unassigned": "Yu' shɛŋa ku mali bachi \"$1\" dama lalal bachi maa bi tooi baŋ."
 }
