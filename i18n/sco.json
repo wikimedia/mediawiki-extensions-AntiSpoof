@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"AmaryllisGardener",
+			"CiphriusKane",
 			"John Reid",
 			"Sator"
 		]
 	},
-	"antispoof-desc": "Blocks the creaution o accoonts wi mixt-screept, confusin n siclik uisernames",
+	"antispoof-desc": "Blocks the makin o accoonts wi mixt-script, befuddlin an seemlir uisernames",
 	"antispoof-conflict-top": "The name \"$1\" is ower siclik tae the follaein {{PLURAL:$2|uisername|uisernames}}:",
 	"antispoof-conflict-bottom": "Please chuise anither uisername.",
 	"antispoof-name-illegal": "The name \"$1\" is no alloued fer tae hinder confusin or spoofed uisernames: $2.\nPlease choose another name.",
