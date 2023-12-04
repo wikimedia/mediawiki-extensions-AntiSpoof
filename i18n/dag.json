@@ -6,5 +6,6 @@
 		]
 	},
 	"antispoof-desc": "Mɔŋmi soli zaŋ chaŋ accounts namda din gabi-gbana ni, din ka nini ka di nahingbana lahi nyɛ zaɣ' yinsi",
+	"antispoof-conflict-top": "Yuli ŋɔ lana \"$1\" waɣi yaɣi di ŋmanila ŋɔnima {{PLURAL:$2|username|username}}:",
 	"antispoof-conflict-bottom": "Pahimi suɣuli piimi yu' shɛli."
 }
