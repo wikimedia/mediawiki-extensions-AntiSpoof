@@ -6,7 +6,7 @@
 		]
 	},
 	"antispoof-desc": "Mɔŋmi soli zaŋ chaŋ accounts namda din gabi-gbana ni, din ka nini ka di nahingbana lahi nyɛ zaɣ' yinsi",
-	"antispoof-conflict-top": "Yuli ŋɔ lana \"$1\" waɣi yaɣi di ŋmanila ŋɔnima {{PLURAL:$2|username|username}}:",
+	"antispoof-conflict-top": "Yuli ŋɔ lana \"$1\" waɣi yaɣi di ŋmanila ŋɔnima {{PLURAL:$2|username|usernames}}:",
 	"antispoof-conflict-bottom": "Pahimi suɣuli piimi yu' shɛli.",
 	"antispoof-name-illegal": "Nangbankpeeni yi yɛn taɣi, yuli ŋɔ lana \"$1\" bi tu ni di be ni: $2.\nPahimi suɣulo ka taɣi so.",
 	"antispoof-badtype": "Yu' shɛli din kpɛhi maa kpee kani.",

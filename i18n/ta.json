@@ -5,7 +5,8 @@
 			"ElangoRamanujam",
 			"Karthi.dr",
 			"Shanmugamp7",
-			"TRYPPN"
+			"TRYPPN",
+			"Fahimrazick"
 		]
 	},
 	"antispoof-desc": "கலப்பு படிவம், குழப்பமான மற்றும் ஒரேமாதிரியான பயனர்பெயர்களை கொண்ட கணக்குகளை உருவாக்குவதை தடுக்கும்.",
@@ -22,5 +23,5 @@
 	"antispoof-mixedscripts": "பொருந்தாத கலந்த உரையை (scripts) கொண்டுள்ளது",
 	"antispoof-tooshort": "Normalized பெயர் மிக குறுகியதாக உள்ளது.",
 	"antispoof-ignore": "ஏமாற்றுதல் சரிபார்த்தலை புறக்கணி.",
-	"right-override-antispoof": "ஏமாற்றுதல் சரிபார்த்தலை ரத்துசெய்"
+	"right-override-antispoof": "ஏமாற்றுதல் சரிபார்த்தல்களைக் கைவிடு"
 }
