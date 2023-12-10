@@ -19,7 +19,7 @@
 namespace MediaWiki\Extension\AntiSpoof;
 
 use MediaWiki\Extension\UserMerge\Hooks\DeleteAccountHook;
-use User;
+use MediaWiki\User\User;
 
 /**
  * All hooks from the UserMerge extension which is optional to use with this extension.

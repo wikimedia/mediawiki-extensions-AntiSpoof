@@ -18,7 +18,7 @@
 
 namespace MediaWiki\Extension\AntiSpoof;
 
-use Status;
+use MediaWiki\Status\Status;
 use Wikimedia\Rdbms\IDatabase;
 use Wikimedia\Rdbms\IReadableDatabase;
 

@@ -20,7 +20,7 @@ namespace MediaWiki\Extension\AntiSpoof;
 
 use MediaWiki\Auth\Hook\LocalUserCreatedHook;
 use MediaWiki\RenameUser\Hook\RenameUserCompleteHook;
-use User;
+use MediaWiki\User\User;
 
 class Hooks implements
 	LocalUserCreatedHook,

@@ -33,8 +33,8 @@
 
 namespace MediaWiki\Extension\AntiSpoof;
 
-use ConfigException;
-use Status;
+use MediaWiki\Config\ConfigException;
+use MediaWiki\Status\Status;
 use UtfNormal\Utils;
 use UtfNormal\Validator;
 use Wikimedia\Equivset\Equivset;

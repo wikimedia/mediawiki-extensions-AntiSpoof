@@ -23,13 +23,13 @@ use MediaWiki\Auth\AuthenticationRequest;
 use MediaWiki\Auth\AuthManager;
 use MediaWiki\Language\RawMessage;
 use MediaWiki\Permissions\PermissionManager;
+use MediaWiki\User\User;
 use MediaWiki\User\UserIdentity;
 use Message;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 use RequestContext;
 use StatusValue;
-use User;
 
 class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvider {
 	/** @var bool False effectively disables this provider, but spoofed names will still be logged. */

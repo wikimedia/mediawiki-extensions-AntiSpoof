@@ -6,7 +6,9 @@ use MediaWiki\Extension\AntiSpoof\AntiSpoofAuthenticationRequest;
 use MediaWiki\Extension\AntiSpoof\AntiSpoofPreAuthenticationProvider;
 use MediaWiki\Extension\AntiSpoof\SpoofUser;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Status\Status;
 use MediaWiki\Tests\Unit\Auth\AuthenticationProviderTestTrait;
+use MediaWiki\User\User;
 
 /**
  * @covers \MediaWiki\Extension\AntiSpoof\AntiSpoofPreAuthenticationProvider

@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\Extension\AntiSpoof\SpoofUser;
+use MediaWiki\User\User;
 
 /**
  * @covers \MediaWiki\Extension\AntiSpoof\SpoofUser
