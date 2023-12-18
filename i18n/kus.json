@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bugirbiig"
+		]
+	},
+	"antispoof-conflict-top": "Tʋmtʋm kaŋa yʋ'ʋr \"$1\" {{PLURAL:$2|}} nwɛnɛ banɛ dɔl nwa hali {{PLURAL:$2|tʋmtʋm yʋ'ʋr|tʋmtʋmnib yʋ'ʋda}}:",
+	"antispoof-conflict-bottom": "Fa' m bɛlimnɛ maligim gaŋ tʋmtʋmsia yʋ'ʋr",
+	"antispoof-ignore": "Zan'asim banɛ pʋ dɔl din nar si'em la vɛɛnsʋg.",
+	"antispoof-ignore-help": "Tisim tʋmtʋmnib suor ka ba yɔ'ɔg akaunt hali baa li yʋ'ʋr nwaans nɛ akaunt banɛ pʋn bɛ.",
+	"action-override-antispoof": "basim suori tis banɛ vɛɛnsid",
+	"right-override-antispoof": "Basim suori tis banɛ vɛɛnsid"
+}
