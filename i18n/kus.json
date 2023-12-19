@@ -4,6 +4,7 @@
 			"Bugirbiig"
 		]
 	},
+	"antispoof-conflict-top": "Tʋmtʋm kaŋa yʋ'ʋr \"$1\" {{PLURAL:$2|}} nwɛnɛ banɛ dɔl nwa hali {{PLURAL:$2|tʋmtʋm yʋ'ʋr|tʋmtʋmnib yʋ'ʋda}}:",
 	"antispoof-conflict-bottom": "Fa' m bɛlimnɛ maligim gaŋ tʋmtʋmsia yʋ'ʋr",
 	"antispoof-name-illegal": "Fʋ ya'a bɔɔd ye fʋ gu' nwa'asʋg, tʋmtʋm kaŋa yʋ'ʋr \"$1\" kʋ tun'e tʋm: $2.\nFa' m bɛlimnɛ, gaŋim tʋmtʋm yʋ'ʋr sia.",
 	"antispoof-badtype": "Tʋmtʋm yʋ'ʋr kanɛ ka ba tis la pʋ nara.",
