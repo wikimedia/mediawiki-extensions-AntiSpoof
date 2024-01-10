@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Es Krim 5 Juta Rasa"
+		]
+	},
+	"antispoof-conflict-bottom": "Payu pilih golar pangguna barih.",
+	"antispoof-name-illegal": "Untuk nyegah kabingungan, golar pangguna \"$1\" mak tiizinko, lah: $2. \nPayu pilih pilih pangguna barih.",
+	"antispoof-badtype": "Golar pangguna sai tiunjukko joda da jenis sai mak valid.",
+	"antispoof-empty": "Makka golar pangguna sai tiunjukko.",
+	"antispoof-prohibited": "Golar pangguna mak hingan ngandung karakter \"$1\" bakdu tihalang.",
+	"antispoof-combining": "Golar pangguna mak hingan ngandung kombinasi karakter \"$1\".",
+	"antispoof-unassigned": "Golar pangguna mak hingan ngandung karakter \"$1\" bakdu karakter sina mak tikenal.",
+	"antispoof-deprecated": "Golar pangguna mak hingan ngandung karakter \"$1\" bakdu kok usang.",
+	"antispoof-noletters": "Golar pangguna porlu buisi osai huruf atawa liyu.",
+	"antispoof-mixedscripts": "Golar pangguna mak hingan ngandung huruf jak sistem tulisan sai sumang.",
+	"antispoof-tooshort": "Golar pangguna sai Niku unjukko kabuntakan ga.",
+	"antispoof-ignore": "Ilingko pamariksaan panipuan akun.",
+	"antispoof-ignore-help": "Izinko pangguna rik hak mamada'i untuk ngguwai osai akun walaupun golarna mirip rik akun sai kok uwat.",
+	"action-override-antispoof": "ngilingko pamariksaan panipuan",
+	"right-override-antispoof": "Ngilingko pangecekan panipuan golar pangguna"
+}
