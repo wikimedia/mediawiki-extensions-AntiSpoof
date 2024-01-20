@@ -9,9 +9,6 @@ use MediaWiki\User\User;
  */
 class SpoofUserTest extends MediaWikiIntegrationTestCase {
 
-	/** @inheritDoc */
-	protected $tablesUsed = [ 'user', 'spoofuser' ];
-
 	/** @var string[] */
 	private static $usernames = [
 		'UserFoo',
