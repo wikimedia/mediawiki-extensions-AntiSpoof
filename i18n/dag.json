@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Alhassan Mohammed Awal",
-			"Attah Mohammed"
+			"Attah Mohammed",
+			"Kalakpagh"
 		]
 	},
 	"antispoof-desc": "Mɔŋmi soli zaŋ chaŋ accounts namda din gabi-gbana ni, din ka nini ka di nahingbana lahi nyɛ zaɣ' yinsi",
@@ -13,5 +14,6 @@
 	"antispoof-empty": "Yuli din kpɛri kpe na kani.",
 	"antispoof-prohibited": "Bansu yuya ku tooi mali $1 dama di nyɛla din chihira",
 	"antispoof-combining": "Yu' shɛŋa din bachinima laɣim taba ku tooi deei \"$1\".",
-	"antispoof-unassigned": "Yu' shɛŋa ku mali bachi \"$1\" dama lalal bachi maa bi tooi baŋ."
+	"antispoof-unassigned": "Yu' shɛŋa ku mali bachi \"$1\" dama lala bachi maa bi tooi baŋ.",
+	"antispoof-deprecated": "Yuya ku tooi mali bachi ŋɔ\n\"$1\" dama di nyɛla bɛ ni bɛ saɣi n-ti shɛli"
 }
