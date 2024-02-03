@@ -88,7 +88,6 @@ class BatchAntiSpoof extends Maintenance {
 		$iterator->setFetchColumns( [ $userCol ] );
 		$iterator->setCaller( __METHOD__ );
 		$services = MediaWikiServices::getInstance();
-		$lbFactory = $services->getDBLoadBalancerFactory();
 		$tempUserConfig = $services->getTempUserConfig();
 
 		$n = 0;
@@ -104,7 +103,7 @@ class BatchAntiSpoof extends Maintenance {
 			$n += count( $items );
 			$this->output( "...$n\n" );
 			$this->batchRecord( $items );
-			$lbFactory->waitForReplication();
+			$this->waitForReplication();
 		}
 
 		$this->output( "$n user(s) done.\n" );
