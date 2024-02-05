@@ -10,7 +10,8 @@
 			"Sabelöga",
 			"Skalman",
 			"Technic2",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Kakan spelar"
 		]
 	},
 	"antispoof-desc": "Förhindrar registreringen av konton med förvirrande eller liknande namn samt användarnamn som innehåller blandade skriftsystem.",
@@ -19,9 +20,9 @@
 	"antispoof-name-illegal": "För att förhindra sammanblandning kan inte användarnamnet \"$1\" användas: $2\nVälj ett annat användarnamn istället.",
 	"antispoof-badtype": "Det angivna användarnamnet är av ogiltig typ.",
 	"antispoof-empty": "Inget användarnamn har angetts.",
-	"antispoof-prohibited": "Användarnamn får inte innehåller tecknet \"$1\" efter det är förbjudet.",
-	"antispoof-combining": "Användarnamn får inte innehålla det kombinerade tecknet \"$1\".",
-	"antispoof-unassigned": "Användarnamn får inte innehåller tecknet \"$1\" efter det är ett okänt tecken.",
+	"antispoof-prohibited": "Användarnamn får inte innehålla tecknet \"$1\" eftersom det är förbjudet",
+	"antispoof-combining": "Användarnamn får inte innehålla det kombinerade tecknet \"$1\"",
+	"antispoof-unassigned": "Användarnamn får inte innehåller tecknet \"$1\" eftersom det är ett okänt tecken",
 	"antispoof-deprecated": "Användarnamn får inte innehålla tecknet \"$1\" eftersom det är föråldrat.",
 	"antispoof-noletters": "Användarnamn måste innehåller ett eller fler tecken.",
 	"antispoof-mixedscripts": "Användarnamn får inte innehåller tecken från andra skriftsystem.",
