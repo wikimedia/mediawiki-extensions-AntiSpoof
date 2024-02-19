@@ -4,7 +4,8 @@
 			"S.Örvarr.S",
 			"Snævar",
 			"Spacebirdy",
-			"Sveinn í Felli"
+			"Sveinn í Felli",
+			"Stefán Örvar Sigmundsson"
 		]
 	},
 	"antispoof-desc": "Lokar á gerð notandaaðganga með bland-skriftu, ruglandi og svipuðum notandanöfnum",
@@ -22,7 +23,7 @@
 	"antispoof-mixedscripts": "Notendanöfn mega ekki innihalda stafi úr mismunandi ritkerfum.",
 	"antispoof-tooshort": "Uppgefið notandanafn er of stutt.",
 	"antispoof-ignore": "Hunsa eftirlit með misnotkun",
-	"antispoof-ignore-help": "Leyfir notendum með nægjanleg réttindi að búa til að gang þó nafnið sé svipað fyrirliggjandi aðgang",
+	"antispoof-ignore-help": "Leyfir notendum með nægjanleg réttindi að búa til aðgang jafnvel þó að nafn hans sé svipað og á gildandi aðgangi.",
 	"action-override-antispoof": "hunsa misnotkunar athuganir",
 	"right-override-antispoof": "Hunsa misnotkunar athuganir"
 }
