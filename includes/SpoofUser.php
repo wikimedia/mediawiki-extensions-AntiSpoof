@@ -18,9 +18,9 @@
 
 namespace MediaWiki\Extension\AntiSpoof;
 
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Status\Status;
 use Wikimedia\Rdbms\IDatabase;
+use Wikimedia\Rdbms\IReadableDatabase;
 
 class SpoofUser {
 	/** @var bool */
@@ -100,7 +100,7 @@ class SpoofUser {
 			return [];
 		}
 
-		$dbr = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
+		$dbr = $this->getDBReplica();
 
 		// Join against the user table to ensure that we skip stray
 		// entries left after an account is renamed or otherwise munged.
@@ -122,10 +122,7 @@ class SpoofUser {
 	 * @return bool
 	 */
 	public function record() {
-		return self::batchRecord(
-			MediaWikiServices::getInstance()->getConnectionProvider()->getPrimaryDatabase(),
-			[ $this ]
-		   );
+		return self::batchRecord( $this->getDBPrimary(), [ $this ] );
 	}
 
 	/**
@@ -169,7 +166,7 @@ class SpoofUser {
 	 */
 	public function update( $oldName ) {
 		$method = __METHOD__;
-		$dbw = MediaWikiServices::getInstance()->getConnectionProvider()->getPrimaryDatabase();
+		$dbw = $this->getDBPrimary();
 		// Avoid user rename triggered deadlocks
 		$dbw->onTransactionPreCommitOrIdle(
 			function () use ( $dbw, $method, $oldName ) {
@@ -188,10 +185,24 @@ class SpoofUser {
 	 * Remove a user from the spoofuser table
 	 */
 	public function remove() {
-		MediaWikiServices::getInstance()->getConnectionProvider()->getPrimaryDatabase()
+		$this->getDBPrimary()
 			->newDeleteQueryBuilder()
 			->deleteFrom( 'spoofuser' )
 			->where( [ 'su_name' => $this->name ] )
 			->caller( __METHOD__ )->execute();
+	}
+
+	/**
+	 * @return IReadableDatabase
+	 */
+	protected function getDBReplica() {
+		return wfGetDB( DB_REPLICA );
+	}
+
+	/**
+	 * @return IDatabase
+	 */
+	protected function getDBPrimary() {
+		return wfGetDB( DB_PRIMARY );
 	}
 }
