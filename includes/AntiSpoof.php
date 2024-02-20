@@ -201,6 +201,7 @@ class AntiSpoof {
 		[ 0xA000, 0xA4CF, self::SCRIPT_YI ], // Yi Syllables, Yi Radicals
 		[ 0xA800, 0xA82F, self::SCRIPT_SYLOTI_NAGRI ], // Syloti Nagri
 		// [ 0xAAE0, 0xAAFF, self::SCRIPT_MEETEI_MAYEK_EXTENSIONS ] // Meetei Mayek Extensions
+		[ 0xAB70, 0xABBF, self::SCRIPT_CHEROKEE ], // Cherokee Supplement
 		[ 0xABC0, 0xABFF, self::SCRIPT_MEETEI_MAYEK ], // Meetei Mayek
 		[ 0xAC00, 0xD7AF, self::SCRIPT_HANGUL ], // Hangul Syllables
 		[ 0xF900, 0xFAFF, self::SCRIPT_DEPRECATED ], // CJK Compatibility Ideographs
