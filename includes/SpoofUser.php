@@ -18,6 +18,7 @@
 
 namespace MediaWiki\Extension\AntiSpoof;
 
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Status\Status;
 use Wikimedia\Rdbms\IDatabase;
 use Wikimedia\Rdbms\IReadableDatabase;
@@ -193,16 +194,18 @@ class SpoofUser {
 	}
 
 	/**
+	 * Allows to override database connection in sub classes.
 	 * @return IReadableDatabase
 	 */
 	protected function getDBReplica() {
-		return wfGetDB( DB_REPLICA );
+		return MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
 	}
 
 	/**
+	 * Allows to override database connection in sub classes.
 	 * @return IDatabase
 	 */
 	protected function getDBPrimary() {
-		return wfGetDB( DB_PRIMARY );
+		return MediaWikiServices::getInstance()->getConnectionProvider()->getPrimaryDatabase();
 	}
 }
