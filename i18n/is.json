@@ -9,7 +9,7 @@
 		]
 	},
 	"antispoof-desc": "Lokar á gerð notandaaðganga með bland-skriftu, ruglandi og svipuðum notandanöfnum",
-	"antispoof-conflict-top": "Notandanafnið \"$1\" er of líkt eftirfarandi {{PLURAL:$2|notandanafni|notendanöfnum}}:",
+	"antispoof-conflict-top": "Notandanafnið „$1“ er of líkt eftirfarandi {{PLURAL:$2|notandanafni|notandanöfnum}}:",
 	"antispoof-conflict-bottom": "Veldu eitthvað annað notandanafn.",
 	"antispoof-name-illegal": "Til að koma í veg fyrir rugling, má ekki nota notandanafnið „$1“: $2.\nVeldu eitthvað annað notandanafn.",
 	"antispoof-bad-char": "\"$1\" ($2)",
@@ -23,7 +23,7 @@
 	"antispoof-mixedscripts": "Notendanöfn mega ekki innihalda stafi úr mismunandi ritkerfum.",
 	"antispoof-tooshort": "Uppgefið notandanafn er of stutt.",
 	"antispoof-ignore": "Hunsa eftirlit með misnotkun",
-	"antispoof-ignore-help": "Leyfir notendum með nægjanleg réttindi að búa til aðgang jafnvel þó að nafn hans sé svipað og fyrirliggjandi aðgangs.",
+	"antispoof-ignore-help": "Leyfir notendum með nægjanleg réttindi að búa til aðgang jafnvel þótt nafn hans sé svipað og á fyrirliggjandi aðgangi.",
 	"action-override-antispoof": "hunsa misnotkunar athuganir",
 	"right-override-antispoof": "Hunsa misnotkunar athuganir"
 }
