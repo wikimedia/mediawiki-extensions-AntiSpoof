@@ -4,6 +4,7 @@
 			"Arnaugir",
 			"Bombolla",
 			"Jmarchn",
+			"Lluis Cat",
 			"Mguix",
 			"Pginer",
 			"Qllach",
@@ -24,7 +25,7 @@
 	"antispoof-deprecated": "Conté el caràcter obsolet $1",
 	"antispoof-noletters": "No conté cap lletra",
 	"antispoof-mixedscripts": "Conté una mescla incompatible d'escriptures",
-	"antispoof-tooshort": "Nom normalitzat massa curt",
+	"antispoof-tooshort": "El nom que heu proporcionat és massa curt",
 	"antispoof-ignore": "Ignora controls antispoof",
 	"antispoof-ignore-help": "Permet crear un compte als usuaris amb prou privilegis, inclús sota un nom similar a un d'existent.",
 	"right-override-antispoof": "Evitar el control de noms d'usuari"
