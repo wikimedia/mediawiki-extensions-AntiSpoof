@@ -23,7 +23,7 @@
 	"antispoof-deprecated": "사용자 이름은 구식이기 때문에 \"$1\" 문자를 포함할 수 없습니다.",
 	"antispoof-noletters": "사용자 이름은 하나 이상의 문자를 포함해야 합니다.",
 	"antispoof-mixedscripts": "사용자 이름은 각기 다른 문자 체계의 문자를 포함할 수 없습니다.",
-	"antispoof-tooshort": "지정된 사용자 이름이 너무 짧습니다.",
+	"antispoof-tooshort": "지정된 사용자 이름이 너무 짧습니다",
 	"antispoof-ignore": "안티스푸프 검사를 무시",
 	"antispoof-ignore-help": "충분한 권한을 가진 사용자가 새 계정이 이미 존재하는 계정과 비슷하더라도 새 계정을 만들 수 있도록 합니다",
 	"action-override-antispoof": "스푸핑 검사를 무시합니다",
