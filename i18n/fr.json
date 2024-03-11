@@ -14,7 +14,8 @@
 			"Urhixidur",
 			"Verdy p",
 			"Wladek92",
-			"Yasten"
+			"Yasten",
+			"MacOS Weed"
 		]
 	},
 	"antispoof-desc": "Bloque la création de comptes ayant des noms d’utilisateur similaires, utilisant diverses écritures, ou pouvant prêter à confusion",
@@ -24,10 +25,10 @@
 	"antispoof-bad-char": "‹$1› ($2)",
 	"antispoof-badtype": "Le nom d’utilisateur fourni est d’un type non valide.",
 	"antispoof-empty": "Aucun nom d’utilisateur n’a été fourni.",
-	"antispoof-prohibited": "Les noms d’utilisateurs ne peuvent pas contenir le caractère « $1 » car il est interdit.",
-	"antispoof-combining": "Les noms d’utilisateurs ne peuvent pas contenir la marque combinatoire « $1 ».",
-	"antispoof-unassigned": "Les noms d’utilisateurs ne peuvent pas contenir le caractère « $1 » car c’est un caractère non défini.",
-	"antispoof-deprecated": "Les noms d’utilisateurs ne peuvent pas contenir le caractère « $1 » car il est désuet.",
+	"antispoof-prohibited": "Les noms d’utilisateurs ne peuvent pas contenir le caractère « $1 » car il est interdit",
+	"antispoof-combining": "Les noms d’utilisateurs ne peuvent pas contenir la marque combinatoire « $1 »",
+	"antispoof-unassigned": "Les noms d’utilisateurs ne peuvent pas contenir le caractère « $1 » car c’est un caractère non défini",
+	"antispoof-deprecated": "Les noms d’utilisateurs ne peuvent pas contenir le caractère « $1 » car il est désuet",
 	"antispoof-noletters": "Les noms d’utilisateurs doivent contenir au moins un caractère.",
 	"antispoof-mixedscripts": "Les noms d’utilisateurs ne peuvent pas contenir des caractères venant de systèmes d’écriture différents.",
 	"antispoof-tooshort": "Votre nom d’utilisateur fourni est trop court.",
