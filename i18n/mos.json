@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Soumaya"
 		]
 	},
 	"antispoof-desc": "B sẽn pa tõe n tall sõssã, b sẽn pa tõe ne sõssã la b sẽn pa segd n tall sõsdã",
-	"antispoof-conflict-top": "Sõng-y tɩ \"$1\"y bãng tɩ y pa tõe n sak n bãng tɩ y yaa ned sẽn pa tõe n maan bũmb a to ye.  \n{{PLURAL:$2|username|usernames}}",
+	"antispoof-conflict-top": "Sõng-y tɩ \"$1\"y bãng tɩ y pa tõe n sak n bãng tɩ y yaa ned sẽn pa tõe n maan bũmb a to ye {{PLURAL:$2|username|usernames}}:",
 	"antispoof-conflict-bottom": "Sõng-y tɩ y yãk a to.",
 	"antispoof-name-illegal": "Sẽn na yɩl n da wa paam neb sẽn pa mi-b ye, pa tõe n dɩk \"$1\" yʋʋr ye: $2. Sõng-y tɩ y yãk a to.",
 	"antispoof-badtype": "Sõng-y tɩ y gʋlsd a yʋy-kãngã.",
