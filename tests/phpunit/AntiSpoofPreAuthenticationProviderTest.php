@@ -35,7 +35,7 @@ class AntiSpoofPreAuthenticationProviderTest extends MediaWikiIntegrationTestCas
 	public static function provideGetAuthenticationRequests() {
 		return [
 			[ AuthManager::ACTION_LOGIN, [], false, [] ],
-			[ AuthManager::ACTION_CREATE, [],  false, [] ],
+			[ AuthManager::ACTION_CREATE, [], false, [] ],
 			[ AuthManager::ACTION_CREATE, [ 'antiSpoofAccounts' => true ], false, [] ],
 			[ AuthManager::ACTION_CREATE, [], true, [] ],
 			[ AuthManager::ACTION_CREATE, [ 'antiSpoofAccounts' => true ], true,
