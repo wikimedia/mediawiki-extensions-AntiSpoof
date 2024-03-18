@@ -15,7 +15,8 @@
 			"Takot",
 			"Yusuke1109",
 			"春春眠眠",
-			"Jaw Salvager"
+			"Jaw Salvager",
+			"Chqaz"
 		]
 	},
 	"antispoof-desc": "文字体系が混在している利用者名、既存の利用者名と類似していて紛らわしい利用者名のアカウント作成をブロックする",
@@ -25,8 +26,8 @@
 	"antispoof-bad-char": "「$1」 ($2)",
 	"antispoof-badtype": "指定された利用者名は無効なタイプです。",
 	"antispoof-empty": "利用者名が与えられていません。",
-	"antispoof-prohibited": "禁止されている文字「$1」を含んでいます",
-	"antispoof-combining": "結合記号「$1」は使えません",
+	"antispoof-prohibited": "「$1」は禁止されているので利用者名に含めることはできません",
+	"antispoof-combining": "利用者名に結合記号「$1」を含めることはできません",
 	"antispoof-unassigned": "不明文字「$1」は使えません",
 	"antispoof-deprecated": "推奨されない文字「$1」を含んでいます。",
 	"antispoof-noletters": "利用者名は一つ以上の文字を含む必要があります。",
