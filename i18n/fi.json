@@ -19,7 +19,7 @@
 	"antispoof-conflict-bottom": "Valitse toinen käyttäjänimi.",
 	"antispoof-name-illegal": "Käyttäjänimeä ”$1” ei sallita sekaannusten välttämiseksi: $2.\nValitse toinen käyttäjänimi.",
 	"antispoof-badtype": "Annettu käyttäjänimi on virheellistä tyyppiä.",
-	"antispoof-empty": "Käyttäjänimeä ei annettu.",
+	"antispoof-empty": "Käyttäjänimeä ei annettu",
 	"antispoof-prohibited": "Käyttäjänimissä ei voi olla merkkiä ”$1”, koska se on kielletty",
 	"antispoof-combining": "Käyttäjänimissä ei voi olla yhdistyvää merkkiä ”$1”",
 	"antispoof-unassigned": "Käyttäjänimissä ei voi ola merkkiä ”$1”, koska se on tuntematon merkki",
