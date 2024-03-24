@@ -195,6 +195,7 @@ class AntiSpoof {
 		[ 0x3100, 0x312F, self::SCRIPT_BOPOMOFO ], // Bopomofo
 		[ 0x3130, 0x318F, self::SCRIPT_HANGUL ], // Hangul Compatibility Jamo
 		[ 0x31A0, 0x31BF, self::SCRIPT_BOPOMOFO ], // Bopomofo Extended
+		[ 0x31F0, 0x31FF, self::SCRIPT_KATAKANA ], // Katakana Phonetic Extensions
 		[ 0x3400, 0x4DBF, self::SCRIPT_HAN ], // CJK Unified Ideographs Extension A
 		[ 0x4E00, 0x9FFF, self::SCRIPT_HAN ], // CJK Unified Ideographs
 		[ 0xA000, 0xA4CF, self::SCRIPT_YI ], // Yi Syllables, Yi Radicals
