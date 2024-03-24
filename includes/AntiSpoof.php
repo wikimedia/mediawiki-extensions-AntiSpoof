@@ -182,6 +182,7 @@ class AntiSpoof {
 		[ 0x1980, 0x19DF, self::SCRIPT_NEW_TAI_LUE ], // New Tai Lue
 		[ 0x1A00, 0x1A1F, self::SCRIPT_BUGINESE ], // Buginese
 		[ 0x1C50, 0x1C7F, self::SCRIPT_OL_CHIKI ], // Ol Chiki
+		[ 0x1C90, 0x1CBF, self::SCRIPT_GEORGIAN ], // Georgian Extended
 		[ 0x1E00, 0x1EFF, self::SCRIPT_LATIN ], // Latin Extended Additional
 		[ 0x1F00, 0x1FFF, self::SCRIPT_GREEK ], // Greek Extended
 		// [ 0x2C00, 0x2C5F, self::SCRIPT_GLAGOLITIC ], // Glagolitic
