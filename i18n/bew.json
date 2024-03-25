@@ -4,7 +4,7 @@
 			"Bangrapip"
 		]
 	},
-	"antispoof-desc": "Ngeblokir pengejaan rèkening paké hurup campuran, ngèderin, èn nama pemaké nyang mèmper",
+	"antispoof-desc": "Ngegibang pengejaan rèkening paké hurup campuran, ngèderin, èn nama pemaké nyang mèmper",
 	"antispoof-conflict-top": "Nama pemaké \"$1\" keliwat mèmper ama ni {{PLURAL:$2|nama pemaké|nama pemaké pada}}:",
 	"antispoof-conflict-bottom": "Dimohon pilih nama pemaké laènnya.",
 	"antispoof-name-illegal": "Biar kaga' kèder, nama pemaké \"$1\" kaga' bisa dipaké: $2.\nDimohon pilih nama pemaké lainnya.",
