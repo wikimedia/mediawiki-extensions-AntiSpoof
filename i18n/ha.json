@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ummabruka"
+		]
+	},
+	"antispoof-badtype": "Sunan Mai amfani baiyi daidai ba",
+	"antispoof-empty": "Ba'a Bada sunanan Mai amfani",
+	"antispoof-noletters": "Sunan Mai amfani dole ya kunshi harrufa daya ko sama da daya",
+	"antispoof-mixedscripts": "Sunan amfani bayya kunsan haruffan daga tsarin rubutu ma banbanci ba",
+	"antispoof-tooshort": "Sunan Mai amfani yayi kadan dayawa"
+}
