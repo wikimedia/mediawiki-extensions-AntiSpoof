@@ -16,7 +16,8 @@
 			"Shirayuki",
 			"Takot",
 			"Yusuke1109",
-			"春春眠眠"
+			"春春眠眠",
+			"Waki285"
 		]
 	},
 	"antispoof-desc": "文字体系が混在している利用者名、既存の利用者名と類似していて紛らわしい利用者名のアカウント作成をブロックする",
@@ -28,11 +29,11 @@
 	"antispoof-empty": "利用者名が与えられていません",
 	"antispoof-prohibited": "「$1」は禁止されているので利用者名に含めることはできません",
 	"antispoof-combining": "利用者名に結合記号「$1」を含めることはできません",
-	"antispoof-unassigned": "不明文字「$1」は使えません",
-	"antispoof-deprecated": "推奨されない文字「$1」を含んでいます。",
-	"antispoof-noletters": "利用者名は一つ以上の文字を含む必要があります。",
-	"antispoof-mixedscripts": "同時に使用できない複数の文字体系が混在しています。",
-	"antispoof-tooshort": "与えられた名前が短すぎます",
+	"antispoof-unassigned": "不明文字「$1」は使えません。",
+	"antispoof-deprecated": "推奨されない文字「$1」を含んでいます",
+	"antispoof-noletters": "利用者名は一つ以上の文字を含む必要があります",
+	"antispoof-mixedscripts": "同時に使用できない複数の文字体系が混在しています",
+	"antispoof-tooshort": "あなたの入力した利用者名は短すぎます",
 	"antispoof-ignore": "なりすましチェックを無効にする",
 	"antispoof-ignore-help": "十分な特権を持つ利用者が、既存のアカウントの名前と同じ名前であってもアカウントを作成できるようにします。",
 	"action-override-antispoof": "なりすましチェックの無視",
