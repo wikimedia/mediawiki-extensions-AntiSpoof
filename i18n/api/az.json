@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"NMW03"
+			"NMW03",
+			"Nemoralis"
 		]
 	},
 	"apihelp-antispoof-summary": "İstifadəçi adını AntiSpoof-un normallaşdırma yoxlamalarına qarşı yoxlayın.",
