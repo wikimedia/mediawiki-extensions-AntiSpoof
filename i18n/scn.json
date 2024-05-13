@@ -18,9 +18,9 @@
 	"antispoof-combining": "Accumenza cûn caràttiri cumminanti $1",
 	"antispoof-unassigned": "Cunteni lu caràttiri nun assignatu $1",
 	"antispoof-deprecated": "Cunteni lu caràttiri dipricatu $1",
-	"antispoof-noletters": "Nun cunteni nudda littra",
+	"antispoof-noletters": "Li noma utenti s’hannu a cuntiniri unu o cchiù caràttiri",
 	"antispoof-mixedscripts": "Cunteni arfabbeti ammiscati chi nun sunnu cumpatìbbili",
-	"antispoof-tooshort": "Nomu n forma canonica troppu curtu",
+	"antispoof-tooshort": "Lu nomu nzirutu è troppu curtu",
 	"antispoof-ignore": "Sàuta li cuntrolli contra ô scanciu di pirsuna",
 	"right-override-antispoof": "Sautari li cuntrolli contra ô scanciu di pirsuna"
 }
