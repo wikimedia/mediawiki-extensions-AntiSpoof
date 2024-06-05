@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"!Silent",
+			555,
 			"Cainamarques",
 			"Caio1478",
 			"Dianakc",
@@ -15,8 +16,7 @@
 			"Luckas",
 			"Mariagarbin",
 			"Rhaijin",
-			"Trigonometria87",
-			555
+			"Trigonometria87"
 		]
 	},
 	"antispoof-desc": "Impede a criação de contas com escrita mista, e nomes de usuário confusos e semelhantes",
