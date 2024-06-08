@@ -1,7 +1,7 @@
 <?php
 
-use MediaWiki\Auth\AuthenticationRequestTestCase;
 use MediaWiki\Extension\AntiSpoof\AntiSpoofAuthenticationRequest;
+use MediaWiki\Tests\Auth\AuthenticationRequestTestCase;
 
 /**
  * @covers \MediaWiki\Extension\AntiSpoof\AntiSpoofAuthenticationRequest

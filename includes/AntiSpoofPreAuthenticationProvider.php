@@ -21,14 +21,14 @@ namespace MediaWiki\Extension\AntiSpoof;
 use MediaWiki\Auth\AbstractPreAuthenticationProvider;
 use MediaWiki\Auth\AuthenticationRequest;
 use MediaWiki\Auth\AuthManager;
+use MediaWiki\Context\RequestContext;
 use MediaWiki\Language\RawMessage;
+use MediaWiki\Message\Message;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\User\User;
 use MediaWiki\User\UserIdentity;
-use Message;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
-use RequestContext;
 use StatusValue;
 
 class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvider {
