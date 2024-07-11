@@ -19,7 +19,7 @@
 	"antispoof-deprecated": "Ne c’hell ket an arouezenn \"$1\" bezañ en un anv implijer peogwir eo dispredet.",
 	"antispoof-noletters": "Rankout an anvioù implijer bezañ ul lizherenn enno d’an nebeutañ.",
 	"antispoof-mixedscripts": "Ne c’hell ket an anvioù implijer bezañ lizherennoù eus meur a skript digenglotus enno.",
-	"antispoof-tooshort": "Re verr eo an anv implijer skoueriekaet ganeoc’h.",
+	"antispoof-tooshort": "Re verr eo an anv implijer skoueriekaet ganeoc’h",
 	"antispoof-ignore": "Chom hep gwiriañ hag-eñ n'eus ket un implijer all gantañ un anv damheñvel",
 	"right-override-antispoof": "Chom hep gwiriañ ha touellerezh zo"
 }
