@@ -21,7 +21,7 @@ class AntiSpoofPreAuthenticationProviderTest extends MediaWikiIntegrationTestCas
 	 * @dataProvider provideGetAuthenticationRequests
 	 */
 	public function testGetAuthenticationRequests( $action, $params, bool $useUsername, $expectedReqs ) {
-		$this->setMwGlobals( 'wgAntiSpoofAccounts', false );
+		$this->overrideConfigValue( 'AntiSpoofAccounts', false );
 		$provider = new AntiSpoofPreAuthenticationProvider(
 			MediaWikiServices::getInstance()->getPermissionManager(),
 			$params
