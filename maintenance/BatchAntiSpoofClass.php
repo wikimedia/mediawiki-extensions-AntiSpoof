@@ -17,7 +17,6 @@
  */
 
 use MediaWiki\Extension\AntiSpoof\SpoofUser;
-use MediaWiki\MediaWikiServices;
 
 $IP = getenv( 'MW_INSTALL_PATH' );
 if ( $IP === false ) {
@@ -87,7 +86,7 @@ class BatchAntiSpoof extends Maintenance {
 		);
 		$iterator->setFetchColumns( [ $userCol ] );
 		$iterator->setCaller( __METHOD__ );
-		$services = MediaWikiServices::getInstance();
+		$services = $this->getServiceContainer();
 		$tempUserConfig = $services->getTempUserConfig();
 
 		$n = 0;

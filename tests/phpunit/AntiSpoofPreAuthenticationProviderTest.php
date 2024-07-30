@@ -5,7 +5,6 @@ use MediaWiki\Auth\AuthManager;
 use MediaWiki\Extension\AntiSpoof\AntiSpoofAuthenticationRequest;
 use MediaWiki\Extension\AntiSpoof\AntiSpoofPreAuthenticationProvider;
 use MediaWiki\Extension\AntiSpoof\SpoofUser;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Status\Status;
 use MediaWiki\Tests\Unit\Auth\AuthenticationProviderTestTrait;
 use MediaWiki\User\User;
@@ -23,7 +22,7 @@ class AntiSpoofPreAuthenticationProviderTest extends MediaWikiIntegrationTestCas
 	public function testGetAuthenticationRequests( $action, $params, bool $useUsername, $expectedReqs ) {
 		$this->overrideConfigValue( 'AntiSpoofAccounts', false );
 		$provider = new AntiSpoofPreAuthenticationProvider(
-			MediaWikiServices::getInstance()->getPermissionManager(),
+			$this->getServiceContainer()->getPermissionManager(),
 			$params
 		);
 		$this->initProvider( $provider, null, null, $this->getServiceContainer()->getAuthManager() );
@@ -53,7 +52,7 @@ class AntiSpoofPreAuthenticationProviderTest extends MediaWikiIntegrationTestCas
 	) {
 		$provider = $this->getMockBuilder( AntiSpoofPreAuthenticationProvider::class )
 			->setConstructorArgs( [
-				MediaWikiServices::getInstance()->getPermissionManager(),
+				$this->getServiceContainer()->getPermissionManager(),
 				[ 'antiSpoofAccounts' => $enabled ]
 			] )
 			->onlyMethods( [ 'getSpoofUser' ] )->getMock();
