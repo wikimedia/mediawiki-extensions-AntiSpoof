@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"IJzeren Jan"
+		]
+	},
+	"antispoof-conflict-top": "Koristničsko ime «$1» jest prěmnogo podobno {{PLURAL:$2|slědujučemu koristničskomu imeni|slědujučim koristničskym imenam}}:",
+	"antispoof-conflict-bottom": "Prosimo, izberite ino koristničsko ime."
+}
