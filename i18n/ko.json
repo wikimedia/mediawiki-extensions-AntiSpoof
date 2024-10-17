@@ -8,7 +8,8 @@
 			"Revi",
 			"ToePeu",
 			"Ykhwong",
-			"아라"
+			"아라",
+			"Suleiman the Magnificent Television"
 		]
 	},
 	"antispoof-desc": "여러 문자 체계를 섞은 이름이나, 혼동될 수 있고 비슷한 이름의 계정 만들기를 차단합니다",
@@ -19,10 +20,10 @@
 	"antispoof-empty": "사용자 이름이 제공되지 않았습니다",
 	"antispoof-prohibited": "사용자 이름에는 금지된 \"$1\" 문자를 포함할 수 없습니다",
 	"antispoof-combining": "사용자 이름에는 \"$1\" 결합 문자를 포함할 수 없습니다",
-	"antispoof-unassigned": "사용자 이름은 알 수 없는 문자이기 때문에 \"$1\" 문자를 포함할 수 없습니다.",
-	"antispoof-deprecated": "사용자 이름은 구식이기 때문에 \"$1\" 문자를 포함할 수 없습니다.",
-	"antispoof-noletters": "사용자 이름은 하나 이상의 문자를 포함해야 합니다.",
-	"antispoof-mixedscripts": "사용자 이름은 각기 다른 문자 체계의 문자를 포함할 수 없습니다.",
+	"antispoof-unassigned": "사용자 이름에는 '$1' 문자를 포함할 수 없습니다. 이 문자는 알려지지 않은 문자이기 때문입니다.",
+	"antispoof-deprecated": "사용자 이름에는 '$1' 문자를 포함할 수 없습니다. 이 문자는 사용이 중단되었습니다.",
+	"antispoof-noletters": "사용자 이름에는 하나 이상의 문자가 포함되어야 합니다.",
+	"antispoof-mixedscripts": "사용자 이름에는 서로 다른 문자 체계의 문자가 포함될 수 없습니다.",
 	"antispoof-tooshort": "지정된 사용자 이름이 너무 짧습니다",
 	"antispoof-ignore": "안티스푸프 검사를 무시",
 	"antispoof-ignore-help": "충분한 권한을 가진 사용자가 새 계정이 이미 존재하는 계정과 비슷하더라도 새 계정을 만들 수 있도록 합니다",
