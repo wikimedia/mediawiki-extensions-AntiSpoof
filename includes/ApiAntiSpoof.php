@@ -18,7 +18,7 @@
 
 namespace MediaWiki\Extension\AntiSpoof;
 
-use ApiBase;
+use MediaWiki\Api\ApiBase;
 use MediaWiki\User\User;
 use Wikimedia\ParamValidator\ParamValidator;
 
