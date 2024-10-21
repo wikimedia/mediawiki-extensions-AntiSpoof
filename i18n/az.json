@@ -7,7 +7,7 @@
 			"Nemoralis"
 		]
 	},
-	"antispoof-desc": "Digər hesablarla qarışmamamq üçün fərqli yazı sistemindən ibarət olan simvollarla yaradılmış hesabların açılması qadağandır",
+	"antispoof-desc": "Qarışıq skriptli, çaşdırıcı və oxşar istifadəçi adları olan hesabların yaradılmasını bloklayır",
 	"antispoof-conflict-top": "\"$1\" istifadəçi adı bu {{PLURAL:$2|istifadəçi adına|istifadəçi adlarına}} çox bənzəyir:",
 	"antispoof-conflict-bottom": "Zəhmət olmasa, başqa istifadəçi adı seçin.",
 	"antispoof-name-illegal": "$2 ilə səhv salınmaması üçün \"$1\" istifadəçi adına icazə verilmir.\nZəhmət olmasa, başqa istifadəçi adı seçin.",
