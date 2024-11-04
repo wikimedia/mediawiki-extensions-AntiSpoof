@@ -11,7 +11,6 @@
 	"antispoof-conflict-top": "A megadott „$1” felhasználónév túl hasonló a következő {{PLURAL:$2|azonosítóhoz|azonosítókhoz}}:",
 	"antispoof-conflict-bottom": "Kérjük, válassz másik felhasználónevet.",
 	"antispoof-name-illegal": "A megadott „$1” felhasználónév nem engedélyezett a zavaró vagy becsapó felhasználónevek megelőzése érdekében: $2. Kérjük, válassz másik felhasználónevet.",
-	"antispoof-bad-char": "\"$1\" ($2)",
 	"antispoof-badtype": "Hibás adattípus",
 	"antispoof-empty": "Üres szöveg",
 	"antispoof-prohibited": "Tiltott karaktert tartalmaz: $1",
