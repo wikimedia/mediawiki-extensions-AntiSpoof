@@ -15,14 +15,15 @@
 			"Verdy p",
 			"Wladek92",
 			"Yasten",
-			"MacOS Weed"
+			"MacOS Weed",
+			"Mahabarata"
 		]
 	},
 	"antispoof-desc": "Bloque la création de comptes ayant des noms d’utilisateur similaires, utilisant diverses écritures, ou pouvant prêter à confusion",
 	"antispoof-conflict-top": "Le nom « $1 » ressemble trop {{PLURAL:$2|à l’utilisateur suivant|aux utilisateurs suivants}} :",
 	"antispoof-conflict-bottom": "Veuillez choisir un autre nom d’utilisateur.",
 	"antispoof-name-illegal": "Afin d’éviter les confusions, le nom d’utilisateur « $1 » n’est pas autorisé : $2.\nVeuillez choisir un autre nom d’utilisateur.",
-	"antispoof-bad-char": "‹$1› ($2)",
+	"antispoof-bad-char": "$1 ($2)",
 	"antispoof-badtype": "Le nom d’utilisateur fourni est d’un type non valide",
 	"antispoof-empty": "Aucun nom d’utilisateur n’a été fourni",
 	"antispoof-prohibited": "Les noms d’utilisateurs ne peuvent pas contenir le caractère « $1 » car il est interdit",
