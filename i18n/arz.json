@@ -1,7 +1,6 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80",
 			"Ghaly",
 			"Meno25",
 			"Ramsis II"
@@ -11,14 +10,14 @@
 	"antispoof-conflict-top": "الاسم \"$1\" شديد الشبه ب{{PLURAL:$2|الحساب الموجود|ال$2 حساب التالية}}:",
 	"antispoof-conflict-bottom": "من فضلك اختر اسما آخر.",
 	"antispoof-name-illegal": "الاسم \"$1\" مش مسموح علشان نمنع اللخبطة أوانتحال أسماء اليوزرز: $2. لو سمحت تختار اسم تانى.",
-	"antispoof-badtype": "نوع البيانات غلط",
-	"antispoof-empty": "سلسلة فاضية",
-	"antispoof-prohibited": "بيحتوى على علامة من البلاك ليست $1",
-	"antispoof-combining": "بيبتدى بعلامة مختلطه $1",
-	"antispoof-unassigned": "بيحتوى على علامة مش مخصصة أو مش مقبولة $1",
-	"antispoof-noletters": "ما بيحتويش على اى حروف",
-	"antispoof-mixedscripts": "بيحتوى على سكريبتات مخلوطة مش متوافقة",
-	"antispoof-tooshort": "الاسم المستعمل قصير خالص",
+	"antispoof-badtype": "اسم المستخدم اللي دلوقتي هو نوع غير صالح",
+	"antispoof-empty": "ما تم إعطاء اسم مستخدم",
+	"antispoof-prohibited": "الاسم المستخدم مش ممكن يحتوى على حرف \"$1\" لانه ممنوع",
+	"antispoof-combining": "الاسم المستخدم مش ممكن يحتوى على الحرف المشترك \"$1\"",
+	"antispoof-unassigned": "الاسم المستخدم مش ممكن يحتوى على حرف \"$1\" لانه حرف مجهول",
+	"antispoof-noletters": "ليكون أسماء المستخدمات فيها حرف واحد أو أكثر",
+	"antispoof-mixedscripts": "الأسماء المستخدمة مش ممكن تحتوي على حرفات من أنظمة كتابة مختلفة",
+	"antispoof-tooshort": "اسم المستخدم اللي قدمته قصير جدا",
 	"antispoof-ignore": "اتجاهل التشييك على سبوفينج",
 	"right-override-antispoof": "اتجاوز التشييك على سبوفينج"
 }
