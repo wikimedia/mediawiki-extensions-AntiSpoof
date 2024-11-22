@@ -25,6 +25,8 @@ if ( $IP === false ) {
 }
 require_once "$IP/maintenance/Maintenance.php";
 
+// phpcs:disable MediaWiki.Files.ClassMatchesFilename.NotMatch
+
 /**
  * Go through all usernames and calculate and record spoof thingies
  */

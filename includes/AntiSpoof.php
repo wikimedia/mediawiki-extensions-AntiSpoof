@@ -112,6 +112,8 @@ class AntiSpoof {
 	private const SCRIPT_WARANG_CITI = 'WARANG_CITI';
 	private const SCRIPT_YI = 'YI';
 
+	// phpcs:disable MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.NewLineComment
+
 	/**
 	 * Define script tag codes for various Unicode codepoint ranges
 	 * If it does not have a code here, it does not have a script assignment
@@ -229,6 +231,8 @@ class AntiSpoof {
 		[ self::SCRIPT_HAN, self::SCRIPT_HANGUL ], # Korean
 		[ self::SCRIPT_HAN, self::SCRIPT_KATAKANA, self::SCRIPT_HIRAGANA ] # Japanese
 	];
+
+	// phpcs:enable MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.NewLineComment
 
 	/**
 	 * @var Equivset
