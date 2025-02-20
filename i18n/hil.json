@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Exec8"
+		]
+	},
+	"antispoof-desc": "Ginabalabagan ang paghimo sang mga account nga may mixed-script, makalilibog kag kaanggid nga mga username",
+	"antispoof-conflict-top": "Ang username nga \" $1 \" pareho gid sa masunod nga {{PLURAL:$2| ngalan sang user|mga ngalan sang user}}:",
+	"antispoof-conflict-bottom": "Palihog pili sang iban nga username.",
+	"antispoof-name-illegal": "Para malikawan ang paglibog, ang username nga \" $1 \" indi magamit: $2 .\nPalihog pili sang iban nga username.",
+	"antispoof-badtype": "Ang ginhatag nga username isa ka indi balido nga sahi",
+	"antispoof-empty": "Wala sing ginhatag nga username",
+	"antispoof-prohibited": "Ang mga ngalan sang user indi mahimo nga maglakip sang karakter nga \" $1 \" bangod ginadumilian ini",
+	"antispoof-combining": "Ang mga ngalan sang user indi mahimo nga maglakip sang nagatingob nga karakter nga \" $1 \"",
+	"antispoof-unassigned": "Ang mga ngalan sang user indi makaunod sang karakter nga \" $1 \" bangod isa ini ka wala mahibaluan nga karakter",
+	"antispoof-deprecated": "Ang mga ngalan sang user indi makaunod sang karakter nga \" $1 \" bangod wala na ini ginagamit",
+	"antispoof-noletters": "Ang mga ngalan sang user dapat may isa ukon kapin pa nga mga karakter",
+	"antispoof-mixedscripts": "Ang mga ngalan sang user indi mahimo nga may mga karakter gikan sa lainlain nga mga sistema sang pagsulat",
+	"antispoof-tooshort": "Ang imo ginhatag nga username malip-ot gid",
+	"antispoof-ignore": "Ibalewala ang mga tseke sa pag-spoof",
+	"antispoof-ignore-help": "Nagatugot sa mga user nga may bastante nga mga pribilehiyo sa paghimo sang isa ka account bisan pa ang ngalan sini kaanggid sa isa ka nagaluntad nga account.",
+	"action-override-antispoof": "i-override ang mga tseke sa spoofing",
+	"right-override-antispoof": "I-override ang mga tseke sa pag-spoof"
+}
