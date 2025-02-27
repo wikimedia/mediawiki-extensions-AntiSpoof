@@ -7,7 +7,8 @@
 			"Kumkumuk",
 			"Mirzali",
 			"Orbot707",
-			"Xoser"
+			"Xoser",
+			"GolyatGeri"
 		]
 	},
 	"antispoof-desc": "Hesaban pê skriptê miksi, nameyê takeşa bloke keno",
@@ -15,7 +16,7 @@
 	"antispoof-conflict-bottom": "Xorê yewna nameyê karberi weçine.",
 	"antispoof-name-illegal": "Seba têmiyankewtış ra nameyê \"$1\" nêşeno bıgureniyo: $2.\nKerem ke, yewêna name weçine.",
 	"antispoof-badtype": "Nameyê karberiyo ke peyda kerdo, tewrê de nêvêrdeyo.",
-	"antispoof-empty": "Rêza veng",
+	"antispoof-empty": "Namey karberi nêdeyao",
 	"antispoof-prohibited": "Seba ke nameyê karberan qedexeyê, tede karektero \"$1\" çıniyo.",
 	"antispoof-combining": "Sembol dê $1 grênayışi ra nata yeno",
 	"antispoof-unassigned": "$1 zerre de çiyo xırab esto",
