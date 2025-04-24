@@ -2,12 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Ahmed-Najib-Biabani-Ibrahimkhel",
-			"عثمان خان شاہ"
+			"عثمان خان شاہ",
+			"شاه زمان پټان"
 		]
 	},
 	"antispoof-conflict-top": "د \"$1\" نوم لاندې {{PLURAL:$2|کارن نوم|کارن نومونو}} سره بېخي ورته دی:",
 	"antispoof-conflict-bottom": "لطفاُ يو بل نوم وټاکۍ.",
-	"antispoof-badtype": "ناسمه مالوماتي بڼه",
-	"antispoof-prohibited": "$1 د تور لړليک توری دی",
+	"antispoof-badtype": "ورکړل شوی کارن‌نوم يو ناسم ډول دی",
+	"antispoof-empty": "هيڅ کارن‌نوم نه دی ورکړل شوی",
+	"antispoof-prohibited": "په کارن‌‌نومونو کې \"$1\" نښه نشې کارېدای، ځکه دا د کارولو وړ نه ده",
+	"antispoof-combining": "په کارن‌‌نومونو کې \"$1\" ترکيبي توري نشي کارېدای",
 	"antispoof-noletters": "هېڅ کوم توری نه شته"
 }
