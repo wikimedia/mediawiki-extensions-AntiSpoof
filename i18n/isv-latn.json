@@ -4,6 +4,21 @@
 			"IJzeren Jan"
 		]
 	},
+	"antispoof-desc": "Unemožnjaje tvorjenje koristničskyh kont s imenami, ktore sut podobne jestvujučim, myleče ili sostojet se iz raznyh pism",
 	"antispoof-conflict-top": "Koristničsko ime «$1» jest prěmnogo podobno {{PLURAL:$2|slědujučemu koristničskomu imeni|slědujučim koristničskym imenam}}:",
-	"antispoof-conflict-bottom": "Prosimo, izberite ino koristničsko ime."
+	"antispoof-conflict-bottom": "Prosimo, izberite sobě drugo koristničsko ime.",
+	"antispoof-name-illegal": "Iz pričiny možnogo zaměšanja koristničsko ime «$1» jest nedozvoljeno: $2.\nProsimo, izberite sobě drugo koristničsko ime.",
+	"antispoof-badtype": "Ukazano koristničsko ime imaje nedopustimy tip danyh",
+	"antispoof-empty": "Nemaje ukazanogo koristničskogo imene",
+	"antispoof-prohibited": "Koristničske imena ne mogut sodrživati znak «$1», ibo on jest zabranjeny",
+	"antispoof-combining": "Koristničske imena ne mogut sodrživati kombinujuči znak «$1»",
+	"antispoof-unassigned": "Koristničske imena ne mogut sodrživati znak «$1», ibo on jest neznany",
+	"antispoof-deprecated": "Koristničske imena ne mogut sodrživati znak «$1», ibo on jest zastarěly",
+	"antispoof-noletters": "Koristničske imena potrěbujut sodrživati jedin ili veče znakov",
+	"antispoof-mixedscripts": "Koristničske imena ne mogut sodrživati znaky iz raznyh pism",
+	"antispoof-tooshort": "Ukazano vami koristničsko ime jest prěkratko",
+	"antispoof-ignore": "Ignorovati prověrku na podobnost imen",
+	"antispoof-ignore-help": "Dozvaljaje koristnikov s dostatočnymi pravami, da by stvorili koristničsko konto, daže kako ime togo konta jest podobno imeni jestvujučego konta.",
+	"action-override-antispoof": "Ignorovanje prověrky na podobnost imen",
+	"right-override-antispoof": "Ignorovanje prověrky na podobnost imen"
 }
