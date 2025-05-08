@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"IJzeren Jan"
+		]
+	},
+	"apihelp-antispoof-summary": "Prověrite koristničsko ime s pomočju normalizacijnyh prověrok AntiSpoof.",
+	"apihelp-antispoof-param-username": "Koristničsko ime za prověrku s pomočju AntiSpoof.",
+	"apihelp-antispoof-example-1": "Prověriti koristničsko ime «Foo» s pomočju AntiSpoof",
+	"apihelp-createaccount-param-ignoreantispoof": "Ignorovati prověrku na podobnost koristničskyh imen (potrěbuje prava <code>override-antispoof</code>)."
+}
