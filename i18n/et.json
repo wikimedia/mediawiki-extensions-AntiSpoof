@@ -4,7 +4,7 @@
 			"Pikne"
 		]
 	},
-	"antispoof-desc": "Blokeerib erinevaid kirjasüsteeme kasutavate, eksitavate ja sarnaste kasutajanimedega kontode loomise.",
+	"antispoof-desc": "Blokeerib eri kirjasüsteeme kasutavate, eksitavate ja sarnaste kasutajanimedega kontode loomise.",
 	"antispoof-conflict-top": "Kasutajanimi \"$1\" on liiga sarnane {{PLURAL:$2|järgmise kasutajanimega|järgmiste kasutajanimedega}}:",
 	"antispoof-conflict-bottom": "Palun vali teine kasutajanimi.",
 	"antispoof-name-illegal": "Selleks et ära hoida segadust, ei saa kasutada kasutajanime \"$1\": $2.\nPalun vali teistsugune kasutajanimi.",
