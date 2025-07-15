@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"apihelp-antispoof-summary": "AntiSpoof гӀоьнца цӀе таллар.",
+	"apihelp-antispoof-param-username": "AntiSpoof гӀоьнца толлучу декъашхочун цӀе.",
+	"apihelp-antispoof-example-1": "«Foo» декъашхочун цӀе AntiSpoof -ца хьажа",
+	"apihelp-createaccount-param-ignoreantispoof": "Цхьатерра цӀераш таллар тидаме ца оьцуш (<code>override-antispoof</code> бакъо оьшу)."
+}
