@@ -9,6 +9,7 @@
 			"Pginer",
 			"Qllach",
 			"SMP",
+			"Sma1997",
 			"Toniher",
 			"Vriullop"
 		]
@@ -28,5 +29,6 @@
 	"antispoof-tooshort": "El nom que heu proporcionat és massa curt",
 	"antispoof-ignore": "Ignora controls antispoof",
 	"antispoof-ignore-help": "Permet crear un compte als usuaris amb prou privilegis, inclús sota un nom similar a un d'existent.",
+	"action-override-antispoof": "sobreescriure les comprovacions de falsejament d'identitat",
 	"right-override-antispoof": "Evitar el control de noms d'usuari"
 }
