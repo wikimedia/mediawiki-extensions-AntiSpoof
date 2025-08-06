@@ -8,6 +8,7 @@
 			"Kaustubh",
 			"Knight Samar",
 			"Pooja.srivastava",
+			"Saurmandal",
 			"Sfic",
 			"Shyam123.ckp",
 			"Siddhartha Ghai"
@@ -28,5 +29,6 @@
 	"antispoof-tooshort": "अधिकारयुक्त नाम बहुत छोटा हैं",
 	"antispoof-ignore": "स्पूफिंग जाँच नज़रंदाज़ करें",
 	"antispoof-ignore-help": "कुछ पर्याप्त अधिकार प्राप्त सदस्य ऐसे खाते भी खोल सकते हैं, जिसके समान नाम वाले खाते पहले से ही बने हुए हों।",
-	"right-override-antispoof": "स्पूफिंग चेक्स को नजर अंदाज करें"
+	"action-override-antispoof": "स्पूफ़िंग के जाँच ओवर्राइड करने",
+	"right-override-antispoof": "स्पूफ़िंग के जाँच ओवर्राइड करना"
 }
