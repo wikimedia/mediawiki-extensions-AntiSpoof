@@ -2,22 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"H78c67c",
-			"Winston Sung"
+			"Winston Sung",
+			"Yueman"
 		]
 	},
 	"antispoof-desc": "封鎖一啲對於有混合程序、混淆同埋相似嘅用戶名嘅開戶口動作",
 	"antispoof-conflict-top": "用戶名「$1」同以下呢{{PLURAL:$2|個用戶名|啲用戶名}}太似：",
 	"antispoof-conflict-bottom": "請揀第個用戶名。",
 	"antispoof-name-illegal": "呢個用戶名「$1」唔畀用，以防撈亂或者冒充用戶名：「$2」。\n請揀過個用戶名。",
-	"antispoof-badtype": "錯誤嘅資料類型",
-	"antispoof-empty": "未提供用戶名。",
-	"antispoof-prohibited": "有列喺黑名單度嘅字符「$1」",
-	"antispoof-combining": "從結合標記$1開始",
-	"antispoof-unassigned": "有未指定嘅字符「$1」",
-	"antispoof-deprecated": "有列喺黑名單度嘅字符「$1」",
-	"antispoof-noletters": "唔包含任何字元",
-	"antispoof-mixedscripts": "包含唔相容嘅混合碼",
-	"antispoof-tooshort": "標準化之後嘅名太短",
+	"antispoof-badtype": "提供嘅用戶名係錯誤嘅資料類型",
+	"antispoof-empty": "未提供用戶名",
+	"antispoof-prohibited": "用戶名唔可以有字符「$1」，因為呢度禁止咗",
+	"antispoof-combining": "用戶名唔可以有結合字符「$1」",
+	"antispoof-unassigned": "用戶名唔可以有字符「$1」，因為係個未知嘅字符",
+	"antispoof-deprecated": "用戶名唔可以有字符「$1」，因為已經棄用咗",
+	"antispoof-noletters": "用戶名最少要有一個字符",
+	"antispoof-mixedscripts": "用戶名唔可以包含唔同文字系統嘅字符",
+	"antispoof-tooshort": "你畀嘅用戶名太短",
 	"antispoof-ignore": "略過欺詐檢查",
 	"antispoof-ignore-help": "畀有特定權限嘅用戶去開同現有戶口個名相似嘅新戶口。",
 	"action-override-antispoof": "無視欺詐檢查",
