@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"H78c67c",
+			"Ktchankt",
 			"Winston Sung",
 			"Yueman"
 		]
@@ -10,8 +11,8 @@
 	"antispoof-conflict-top": "用戶名「$1」同以下呢{{PLURAL:$2|個用戶名|啲用戶名}}太似：",
 	"antispoof-conflict-bottom": "請揀第個用戶名。",
 	"antispoof-name-illegal": "呢個用戶名「$1」唔畀用，以防撈亂或者冒充用戶名：「$2」。\n請揀過個用戶名。",
-	"antispoof-badtype": "提供嘅用戶名係錯誤嘅資料類型",
-	"antispoof-empty": "未提供用戶名",
+	"antispoof-badtype": "畀出嚟嘅用戶名係錯誤嘅資料類型",
+	"antispoof-empty": "未畀用戶名",
 	"antispoof-prohibited": "用戶名唔可以有字符「$1」，因為呢度禁止咗",
 	"antispoof-combining": "用戶名唔可以有結合字符「$1」",
 	"antispoof-unassigned": "用戶名唔可以有字符「$1」，因為係個未知嘅字符",
