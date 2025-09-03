@@ -2,20 +2,21 @@
 	"@metadata": {
 		"authors": [
 			"Aue Nai",
-			"Ranger-Mon"
+			"Ranger-Mon",
+			"咽頭べさ"
 		]
 	},
 	"antispoof-desc": "Blocks the creation of accounts with mixed-script, confusing and similar usernames",
 	"antispoof-conflict-top": "ယၟုညးလွပ် \"$1\" ဂှ် ကြပ်တုပ် ကွေဟ်ဟ် ကုအရာဏအ် {{PLURAL:$2|ယၟုညးလွပ်|ယၟုညးလွပ်ဂမၠိုင်}}:",
 	"antispoof-conflict-bottom": "သ္ပဂုဏ်တုဲ ထပ်ရုဲစှ် ယၟုညးလွပ် တၞဟ်ခြာမွဲ.",
-	"antispoof-name-illegal": "ယၟုညးလွပ် \"$1\" ဂှ် ဟွံကဵုအခေါင် သွက်ဂွံ စကာ နဒဒှ် ယၟုညးလွပ်: $2။\nပဂုန်တုဲ ရုဲစှ် ယၟုညးလွဟ် တၞဟ်ညိ။",
-	"antispoof-badtype": "ဂကူ ဒေတာ မပရေအ်",
-	"antispoof-empty": "ဟွံ ဗပေင်လဝ်",
-	"antispoof-prohibited": "မနွံကဵု မလိက် မကၟာတ်လဒဵုလဝ်:$1",
-	"antispoof-combining": "စ နကဵု သင်္ကေတ $1",
-	"antispoof-unassigned": "မနွံကဵု မလိက် ဟွံကဵု စကာ $1",
-	"antispoof-deprecated": "မနွံကဵု မလိက် မစဵုဒၞာလဝ် $1",
-	"antispoof-noletters": "လ္ပစုတ် မလိက်မွဲမွဲညိ",
-	"antispoof-mixedscripts": "မနွံကဵု ဂကူအက္ခရ်ဂမၠိုင် မနှဴရဴဒၟံင်မ ဟွံစိုပ်ဒတဴ",
-	"antispoof-tooshort": "ယၟုမကဵုလဝ်ဂှ် ဂၠေအ်လောန်အာ"
+	"antispoof-name-illegal": "To prevent confusion, the username \"$1\" cannot be used: $2.\nPlease choose another username.\nအရၚ်ဂွံစဵုဒၞာပရေၚ်ထုဲဂရုဲ၊ ဆေၚ်စပ်ကဵု ယၟုညးလွပ် \"$1\"  ဂှ် ဟွံကဵုအခေါၚ် သွက်ဂွံ စကာ နဒဒှ် ယၟုညးလွပ်: $2။\nသ္ပဂုန်တုဲ ရုဲစှ် ယၟုညးလွဟ် တၞဟ်ညိ။",
+	"antispoof-badtype": "မကဵုလဝ် ယၟုညးလွပ်ဂှ် ဗီုပြၚ်ဟွံဒးရးကီုရ",
+	"antispoof-empty": "ဟွံဂွံကဵုလဝ်ယၟုညးလွပ်ဏီရ",
+	"antispoof-prohibited": "ယၟုညးလွပ် မနွံဒၟံၚ်ဗျဉ်အက္ခရ် \"$1\" ဟွံဂွံမာန် ဟိုတ်နူဟွံကဵုလဝ်အခေါၚ်ကီုရ",
+	"antispoof-combining": "ယၟုညးလွပ် မပံၚ်ဖနှဴလဝ်ဗျဉ်အက္ခရ်  \"$1\" ဟွံဂွံမာန်ကီုရ",
+	"antispoof-unassigned": "ယၟုညးလွပ် မနွံဒၟံၚ်ဗျဉ်အက္ခရ် \"$1\" ဟွံဂွံမာန် ဟိုတ်နူဟွံတီကၠိုဟ်ဗျဉ်အက္ခရ်ဂှ်ကီုရ",
+	"antispoof-deprecated": "ယၟုညးလွပ် မနွံဒၟံၚ်ဗျဉ်အက္ခရ် \"$1\" ဟွံဂွံမာန် ဟိုတ်နူဟွံဆက်ရပ်စပ်ထောံဟေၚ်ရ",
+	"antispoof-noletters": "ယၟုညးလွပ် ဒးနွံဗျဉ်အက္ခရ်မွဲမ ဟွံသေၚ်မ္ဂး ပဵုနူဂှ်ပၠန်ရ",
+	"antispoof-mixedscripts": "ယၟုညးလွပ် ဒုၚ်တဲဟွံမာန်ဟိုတ်နူမနွံဒၟံၚ်ဗျဉ်အက္ခရ်နူကဵုမချူလဝ်ဗီုပြၚ်ဟွံတုပ်သၟဟ်",
+	"antispoof-tooshort": "ယၟုညးလွပ်မကဵုလဝ်ဂှ် မဂၠေံလောန်အာဟေၚ်ရ"
 }
