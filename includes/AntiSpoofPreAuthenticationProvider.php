@@ -35,21 +35,20 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 	/** @var bool False effectively disables this provider, but spoofed names will still be logged. */
 	protected $antiSpoofAccounts;
 
-	/** @var PermissionManager */
-	private $permissionManager;
-
 	/**
 	 * @param PermissionManager $permissionManager
 	 * @param array $params Options:
 	 * - antiSpoofAccounts: (bool) stop spoofed accounts from being created. When false, only log.
 	 */
-	public function __construct( PermissionManager $permissionManager, array $params = [] ) {
+	public function __construct(
+		private readonly PermissionManager $permissionManager,
+		array $params = [],
+	) {
 		global $wgAntiSpoofAccounts;
 
 		$params += [ 'antiSpoofAccounts' => $wgAntiSpoofAccounts ];
 
 		$this->antiSpoofAccounts = $params['antiSpoofAccounts'];
-		$this->permissionManager = $permissionManager;
 	}
 
 	/** @inheritDoc */
