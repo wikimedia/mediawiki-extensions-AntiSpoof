@@ -14,7 +14,7 @@
 	"antispoof-desc": "Verhindert die Erstellung von Benutzerkonten mit gemischten Zeichensätzen, verwirrenden und ähnlichen Benutzernamen",
 	"antispoof-conflict-top": "Der Benutzername „$1“ ist {{PLURAL:$2|dem|den}} folgenden Benutzernamen zu ähnlich:",
 	"antispoof-conflict-bottom": "Bitte {{#FORMAL:wähle|wählen Sie}} einen anderen Benutzernamen.",
-	"antispoof-name-illegal": "Um Verwechslungen zu vermeiden, kann der Benutzername „$1“ nicht verwendet werden: $2. Bitte wähle einen anderen Benutzernamen.",
+	"antispoof-name-illegal": "Um Verwechslungen zu vermeiden, kann der Benutzername „$1“ nicht verwendet werden: $2.\n{{#FORMAL:Bitte wähle|Bitte wählen Sie}} einen anderen Benutzernamen.",
 	"antispoof-bad-char": "$1 ($2)",
 	"antispoof-badtype": "Der angegebene Benutzername ist ein ungültiger Typ",
 	"antispoof-empty": "Es wurde kein Benutzername angegeben",
