@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Bencemac",
+			"Boro",
 			"Dani",
 			"Dj",
 			"Tacsipacsi"
@@ -19,7 +20,7 @@
 	"antispoof-deprecated": "Érvénytelen karaktert tartalmaz: $1",
 	"antispoof-noletters": "Nem tartalmaz egyetlen betűt sem",
 	"antispoof-mixedscripts": "Összeférhetetlen kevert szöveget tartalmaz",
-	"antispoof-tooshort": "A kanonizált változat túl rövid",
+	"antispoof-tooshort": "A megadott felhasználónév túl rövid",
 	"antispoof-ignore": "Névellenőrzés figyelmen kívül hagyása",
 	"action-override-antispoof": "felhasználói nevek ellenőrzésének figyelmen kívül hagyása",
 	"right-override-antispoof": "felhasználói nevek ellenőrzésének figyelmen kívül hagyása"
