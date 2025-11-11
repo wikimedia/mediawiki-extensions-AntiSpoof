@@ -57,11 +57,11 @@ class Hooks implements
 	 * (After a successful user rename)
 	 *
 	 * @param int $uid
-	 * @param string $oldName
-	 * @param string $newName
+	 * @param string $old
+	 * @param string $new
 	 */
-	public function onRenameUserComplete( int $uid, string $oldName, string $newName ): void {
-		$spoof = new SpoofUser( $newName );
-		$spoof->update( $oldName );
+	public function onRenameUserComplete( int $uid, string $old, string $new ): void {
+		$spoof = new SpoofUser( $new );
+		$spoof->update( $old );
 	}
 }

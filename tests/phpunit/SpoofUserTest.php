@@ -39,9 +39,6 @@ class SpoofUserTest extends MediaWikiIntegrationTestCase {
 		$s->record();
 	}
 
-	/**
-	 * @covers \MediaWiki\Extension\AntiSpoof\SpoofUser::record
-	 */
 	public function testRecord() {
 		$user = User::newFromName( 'SomeUsername' );
 		$user->addToDatabase();
@@ -52,7 +49,6 @@ class SpoofUserTest extends MediaWikiIntegrationTestCase {
 	}
 
 	/**
-	 * @covers \MediaWiki\Extension\AntiSpoof\SpoofUser::getConflicts
 	 * @dataProvider provideGetConflicts
 	 */
 	public function testGetConflicts( $user, $conflicts ) {
@@ -71,9 +67,6 @@ class SpoofUserTest extends MediaWikiIntegrationTestCase {
 		];
 	}
 
-	/**
-	 * @covers \MediaWiki\Extension\AntiSpoof\SpoofUser::update
-	 */
 	public function testUpdate() {
 		$user = User::newFromName( 'MyNewUserName' );
 		$user->addToDatabase();

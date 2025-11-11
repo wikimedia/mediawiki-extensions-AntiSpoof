@@ -24,23 +24,18 @@ use Wikimedia\Rdbms\IDatabase;
 use Wikimedia\Rdbms\IReadableDatabase;
 
 class SpoofUser {
-	/** @var bool */
-	private $legal;
+	private bool $legal;
 
-	/** @var string */
-	private $name;
+	private ?string $normalized;
 
-	/** @var string|null */
-	private $normalized;
-
-	/** @var null|Status */
-	private $error;
+	private ?Status $error;
 
 	/**
 	 * @param string $name
 	 */
-	public function __construct( $name ) {
-		$this->name = strval( $name );
+	public function __construct(
+		private readonly string $name
+	) {
 		$status = AntiSpoof::checkUnicodeStringStatus( $this->name );
 		$this->legal = $status->isOK();
 		if ( $this->legal ) {
@@ -54,40 +49,31 @@ class SpoofUser {
 
 	/**
 	 * Does the username pass Unicode legality and script-mixing checks?
-	 * @return bool
 	 */
-	public function isLegal() {
+	public function isLegal(): bool {
 		return $this->legal;
 	}
 
 	/**
 	 * Describe the error.
-	 * @return null|Status
 	 * @since 1.32
 	 */
-	public function getErrorStatus() {
+	public function getErrorStatus(): ?Status {
 		return $this->error;
 	}
 
 	/**
 	 * Get the normalized key form
-	 * @return string|null
 	 */
-	public function getNormalized() {
+	public function getNormalized(): ?string {
 		return $this->normalized;
 	}
 
-	/**
-	 * @return string
-	 */
-	protected function getTableName() {
+	protected function getTableName(): string {
 		return 'user';
 	}
 
-	/**
-	 * @return string
-	 */
-	protected function getUserColumn() {
+	protected function getUserColumn(): string {
 		return 'user_name';
 	}
 
@@ -96,7 +82,7 @@ class SpoofUser {
 	 *
 	 * @return array empty if no conflict, or array containing conflicting usernames
 	 */
-	public function getConflicts() {
+	public function getConflicts(): array {
 		if ( !$this->isLegal() ) {
 			return [];
 		}
@@ -105,7 +91,7 @@ class SpoofUser {
 
 		// Join against the user table to ensure that we skip stray
 		// entries left after an account is renamed or otherwise munged.
-		$spoofedUsers = $dbr->newSelectQueryBuilder()
+		return $dbr->newSelectQueryBuilder()
 			->select( [ 'su_name' ] )
 			->from( 'spoofuser' )
 			->join( $this->getTableName(), null, 'su_name = ' . $this->getUserColumn() )
@@ -113,28 +99,22 @@ class SpoofUser {
 			->limit( 5 )
 			->caller( __METHOD__ )
 			->fetchFieldValues();
-
-		return $spoofedUsers;
 	}
 
 	/**
 	 * Record the username's normalized form into the database
 	 * for later comparison of future names...
-	 * @return bool
 	 */
-	public function record() {
+	public function record(): bool {
 		return self::batchRecord( $this->getDBPrimary(), [ $this ] );
 	}
 
-	/**
-	 * @return array
-	 */
-	private function insertFields() {
+	private function insertFields(): array {
 		return [
 			'su_name'       => $this->name,
 			'su_normalized' => $this->normalized,
 			'su_legal'      => $this->legal ? 1 : 0,
-			'su_error'      => $this->error ? $this->error->getMessage()->text() : null,
+			'su_error'      => $this->error?->getMessage()->text(),
 		];
 	}
 
@@ -144,16 +124,13 @@ class SpoofUser {
 	 * @param SpoofUser[] $items
 	 * @return bool
 	 */
-	public static function batchRecord( IDatabase $dbw, $items ) {
+	public static function batchRecord( IDatabase $dbw, array $items ): bool {
 		if ( !count( $items ) ) {
 			return false;
 		}
 
 		$rqb = $dbw->newReplaceQueryBuilder()
 			->replaceInto( 'spoofuser' );
-		/**
-		 * @var $item SpoofUser
-		 */
 		foreach ( $items as $item ) {
 			$rqb->row( $item->insertFields() );
 		}
@@ -162,10 +139,7 @@ class SpoofUser {
 		return true;
 	}
 
-	/**
-	 * @param string $oldName
-	 */
-	public function update( $oldName ) {
+	public function update( string $oldName ): void {
 		$method = __METHOD__;
 		$dbw = $this->getDBPrimary();
 		// Avoid user rename triggered deadlocks
@@ -185,7 +159,7 @@ class SpoofUser {
 	/**
 	 * Remove a user from the spoofuser table
 	 */
-	public function remove() {
+	public function remove(): void {
 		$this->getDBPrimary()
 			->newDeleteQueryBuilder()
 			->deleteFrom( 'spoofuser' )
@@ -194,18 +168,16 @@ class SpoofUser {
 	}
 
 	/**
-	 * Allows to override database connection in sub classes.
-	 * @return IReadableDatabase
+	 * Allows overriding the database connection in sub-classes.
 	 */
-	protected function getDBReplica() {
+	protected function getDBReplica(): IReadableDatabase {
 		return MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
 	}
 
 	/**
-	 * Allows to override database connection in sub classes.
-	 * @return IDatabase
+	 * Allows overriding database connection in sub-classes.
 	 */
-	protected function getDBPrimary() {
+	protected function getDBPrimary(): IDatabase {
 		return MediaWikiServices::getInstance()->getConnectionProvider()->getPrimaryDatabase();
 	}
 }

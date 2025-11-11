@@ -22,7 +22,7 @@ use MediaWiki\Auth\AuthenticationRequest;
 
 class AntiSpoofAuthenticationRequest extends AuthenticationRequest {
 	/** @var bool Set based on infos from getFieldInfo */
-	public $ignoreAntiSpoof;
+	public bool $ignoreAntiSpoof = false;
 
 	/** @inheritDoc */
 	public function getFieldInfo() {

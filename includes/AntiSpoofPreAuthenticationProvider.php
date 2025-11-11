@@ -33,7 +33,7 @@ use StatusValue;
 
 class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvider {
 	/** @var bool False effectively disables this provider, but spoofed names will still be logged. */
-	protected $antiSpoofAccounts;
+	protected bool $antiSpoofAccounts;
 
 	/**
 	 * @param PermissionManager $permissionManager
@@ -54,12 +54,10 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 	/** @inheritDoc */
 	public function getAuthenticationRequests( $action, array $options ) {
 		$needed = false;
-		switch ( $action ) {
-			case AuthManager::ACTION_CREATE:
-				$user = User::newFromName( $options['username'] ) ?: new User();
-				$needed = $this->antiSpoofAccounts
-					&& $this->permissionManager->userHasAnyRight( $user, 'override-antispoof' );
-				break;
+		if ( $action == AuthManager::ACTION_CREATE ) {
+			$user = User::newFromName( $options['username'] ) ?: new User();
+			$needed = $this->antiSpoofAccounts &&
+				$this->permissionManager->userHasAnyRight( $user, 'override-antispoof' );
 		}
 
 		return $needed ? [ new AntiSpoofAuthenticationRequest() ] : [];
@@ -74,13 +72,7 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 		return $this->testUserInternal( $user, $override, $this->logger );
 	}
 
-	/**
-	 * @param UserIdentity $user
-	 * @param bool $override
-	 * @param LoggerInterface $logger
-	 * @return StatusValue
-	 */
-	private function testUserInternal( UserIdentity $user, $override, LoggerInterface $logger ) {
+	private function testUserInternal( UserIdentity $user, bool $override, LoggerInterface $logger ): StatusValue {
 		$name = $user->getName();
 		$spoofUser = $this->getSpoofUser( $user );
 		$mode = !$this->antiSpoofAccounts ? 'LOGGING ' : ( $override ? 'OVERRIDE ' : '' );
@@ -149,11 +141,7 @@ class AntiSpoofPreAuthenticationProvider extends AbstractPreAuthenticationProvid
 		return $sv;
 	}
 
-	/**
-	 * @param UserIdentity $user
-	 * @return SpoofUser
-	 */
-	protected function getSpoofUser( UserIdentity $user ) {
+	protected function getSpoofUser( UserIdentity $user ): SpoofUser {
 		return new SpoofUser( $user->getName() );
 	}
 }

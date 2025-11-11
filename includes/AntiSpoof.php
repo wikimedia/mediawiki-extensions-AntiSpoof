@@ -234,27 +234,17 @@ class AntiSpoof {
 
 	// phpcs:enable MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.NewLineComment
 
-	/**
-	 * @var Equivset
-	 */
-	private static $equivset;
+	private static ?Equivset $equivset = null;
 
-	/**
-	 * @return Equivset
-	 */
-	public static function getEquivSet() {
-		if ( !self::$equivset ) {
+	public static function getEquivSet(): Equivset {
+		if ( self::$equivset === null ) {
 			self::$equivset = new Equivset();
 		}
 
 		return self::$equivset;
 	}
 
-	/**
-	 * @param int $ch
-	 * @return string
-	 */
-	private static function getScriptCode( $ch ) {
+	private static function getScriptCode( int $ch ): string {
 		# Linear search: binary chop would be faster...
 		foreach ( self::ALL_SCRIPT_RANGES as $range ) {
 			if ( $ch >= $range[0] && $ch <= $range[1] ) {
@@ -265,22 +255,14 @@ class AntiSpoof {
 		return self::SCRIPT_UNASSIGNED;
 	}
 
-	/**
-	 * @param array $aList
-	 * @param array $bList
-	 * @return bool
-	 */
-	private static function isSubsetOf( $aList, $bList ) {
-		return count( array_diff( $aList, $bList ) ) == 0;
+	private static function isSubsetOf( array $aList, array $bList ): bool {
+		return count( array_diff( $aList, $bList ) ) === 0;
 	}
 
 	/**
 	 * Is this an allowed script mixture?
-	 *
-	 * @param array $scriptList
-	 * @return bool
 	 */
-	private static function isAllowedScriptCombination( $scriptList ) {
+	private static function isAllowedScriptCombination( array $scriptList ): bool {
 		foreach ( self::ALLOWED_SCRIPT_COMBINATIONS as $allowedCombo ) {
 			if ( self::isSubsetOf( $scriptList, $allowedCombo ) ) {
 				return true;
@@ -290,11 +272,11 @@ class AntiSpoof {
 	}
 
 	/**
-	 * Convert string into array of Unicode code points as integers
+	 * Convert string into an array of Unicode code points as integers
 	 * @param string $str
 	 * @return int[]
 	 */
-	private static function stringToList( $str ) {
+	private static function stringToList( string $str ) {
 		$ar = [];
 		if ( !preg_match_all( '/./us', $str, $ar ) ) {
 			return [];
@@ -306,11 +288,7 @@ class AntiSpoof {
 		return $out;
 	}
 
-	/**
-	 * @param array $list
-	 * @return string
-	 */
-	private static function listToString( $list ) {
+	private static function listToString( array $list ): string {
 		$out = '';
 		foreach ( $list as $cp ) {
 			$out .= Utils::codepointToUtf8( $cp );
@@ -318,19 +296,11 @@ class AntiSpoof {
 		return $out;
 	}
 
-	/**
-	 * @param array $a_list
-	 * @return string
-	 */
-	private static function hardjoin( $a_list ) {
+	private static function hardjoin( array $a_list ): string {
 		return implode( '', $a_list );
 	}
 
-	/**
-	 * @param string $testName
-	 * @return string
-	 */
-	public static function normalizeString( $testName ) {
+	public static function normalizeString( string $testName ): string {
 		return self::getEquivSet()->normalize( $testName );
 	}
 
@@ -339,7 +309,7 @@ class AntiSpoof {
 	 * @param string $script
 	 * @return int[]
 	 */
-	private static function stripScript( array $text, $script ) {
+	private static function stripScript( array $text, string $script ) {
 		$scripts = array_map( [ __CLASS__, 'getScriptCode' ], $text );
 		$out = [];
 		foreach ( $text as $index => $char ) {
@@ -357,7 +327,7 @@ class AntiSpoof {
 	 * @param int $point codepoint of the bad character.
 	 * @return Status
 	 */
-	private static function badCharErr( $msgId, $point ) {
+	private static function badCharErr( string $msgId, int $point ): Status {
 		$symbol = Utils::codepointToUtf8( $point );
 		// Combining marks are combined with the previous character. If abusing character is a
 		// combining mark, prepend it with space to show them correctly.
@@ -375,22 +345,17 @@ class AntiSpoof {
 
 	/**
 	 * TODO: does too much in one routine, refactor...
-	 * @param string $testName
-	 * @return Status
 	 * @since 1.32
 	 */
-	public static function checkUnicodeStringStatus( $testName ) {
+	public static function checkUnicodeStringStatus( string $testName ): Status {
 		global $wgAntiSpoofProhibitedCharacters;
 
 		// Start with some sanity checking
 		if ( !is_array( $wgAntiSpoofProhibitedCharacters ) ) {
 			throw new ConfigException( '$wgAntiSpoofProhibitedCharacters should be an array!' );
 		}
-		if ( !is_string( $testName ) ) {
-			return Status::newFatal( 'antispoof-badtype' );
-		}
 
-		if ( strlen( $testName ) == 0 ) {
+		if ( $testName === '' ) {
 			return Status::newFatal( 'antispoof-empty' );
 		}
 
@@ -467,7 +432,7 @@ class AntiSpoof {
 		// Reduce repeated char sequences to single character
 		// BUG: TODO: implement this
 
-		if ( strlen( $testName ) < 1 ) {
+		if ( $testName === '' ) {
 			return Status::newFatal( 'antispoof-tooshort' );
 		}
 

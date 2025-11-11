@@ -25,9 +25,7 @@ use MediaWiki\User\User;
  * All hooks from the UserMerge extension which is optional to use with this extension.
  */
 class UserMergeHooks implements DeleteAccountHook {
-	/**
-	 * @param User &$oldUser
-	 */
+	/** @inheritDoc */
 	public function onDeleteAccount( User &$oldUser ): void {
 		$spoof = new SpoofUser( $oldUser->getName() );
 		$spoof->remove();

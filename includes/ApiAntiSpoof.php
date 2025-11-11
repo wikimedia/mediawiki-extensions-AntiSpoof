@@ -19,6 +19,7 @@
 namespace MediaWiki\Extension\AntiSpoof;
 
 use MediaWiki\Api\ApiBase;
+use MediaWiki\Api\ApiResult;
 use MediaWiki\User\User;
 use Wikimedia\ParamValidator\ParamValidator;
 
@@ -62,7 +63,7 @@ class ApiAntiSpoof extends ApiBase {
 
 				$res->addValue( null, $this->getModuleName(), [ 'result' => 'conflict' ] );
 
-				$res->setIndexedTagName( $conflicts, 'u' );
+				ApiResult::setIndexedTagName( $conflicts, 'u' );
 				$res->addValue( [ $this->getModuleName() ], 'users', $conflicts );
 			}
 		} else {
@@ -85,10 +86,7 @@ class ApiAntiSpoof extends ApiBase {
 		];
 	}
 
-	/**
-	 * @see ApiBase::getExamplesMessages()
-	 * @return array
-	 */
+	/** @inheritDoc */
 	protected function getExamplesMessages() {
 		return [
 			'action=antispoof&username=Foo'
