@@ -6,7 +6,8 @@
 			"NguoiDungKhongDinhDanh",
 			"NguyenHung",
 			"Quenhitran",
-			"Vinhtantran"
+			"Vinhtantran",
+			"Nvdtn19"
 		]
 	},
 	"antispoof-desc": "Cấm không được mở tài khoản dưới tên người dùng sử dụng hơn một hệ thống chữ viết, gây nhầm lẫn, và tương tự với tên người dùng khác",
@@ -23,7 +24,7 @@
 	"antispoof-noletters": "Tên thành viên phải chứa một hoặc nhiều ký tự",
 	"antispoof-mixedscripts": "Tên thành viên không thể chứa các ký tự từ các hệ thống chữ viết khác nhau",
 	"antispoof-tooshort": "Bạn đã cung cấp một tên thành viên quá ngắn",
-	"antispoof-ignore": "Không kiểm tra tên có gây nhầm lẫn",
+	"antispoof-ignore": "Không kiểm tra tên có thể gây nhầm lẫn",
 	"antispoof-ignore-help": "Cho phép những người dùng có đủ quyền tạo tài khoản có tên tương tự với một tài khoản đã tồn tại.",
 	"action-override-antispoof": "bỏ qua quá trình kiểm tra chống giả mạo",
 	"right-override-antispoof": "Bỏ qua kiểm tra tên"
