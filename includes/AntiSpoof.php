@@ -273,10 +273,9 @@ class AntiSpoof {
 
 	/**
 	 * Convert string into an array of Unicode code points as integers
-	 * @param string $str
 	 * @return int[]
 	 */
-	private static function stringToList( string $str ) {
+	private static function stringToList( string $str ): array {
 		$ar = [];
 		if ( !preg_match_all( '/./us', $str, $ar ) ) {
 			return [];
@@ -309,7 +308,7 @@ class AntiSpoof {
 	 * @param string $script
 	 * @return int[]
 	 */
-	private static function stripScript( array $text, string $script ) {
+	private static function stripScript( array $text, string $script ): array {
 		$scripts = array_map( [ __CLASS__, 'getScriptCode' ], $text );
 		$out = [];
 		foreach ( $text as $index => $char ) {

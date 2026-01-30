@@ -18,13 +18,10 @@
 
 namespace MediaWiki\Extension\AntiSpoof;
 
-use MediaWiki\Installer\DatabaseUpdater;
 use MediaWiki\Installer\Hook\LoadExtensionSchemaUpdatesHook;
 
 class SchemaHooks implements LoadExtensionSchemaUpdatesHook {
-	/**
-	 * @param DatabaseUpdater $updater
-	 */
+	/** @inheritDoc */
 	public function onLoadExtensionSchemaUpdates( $updater ) {
 		$type = $updater->getDB()->getType();
 		$updater->addExtensionTable( 'spoofuser',

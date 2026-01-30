@@ -21,7 +21,6 @@ namespace MediaWiki\Extension\AntiSpoof;
 use MediaWiki\Auth\Hook\LocalUserCreatedHook;
 use MediaWiki\Permissions\GrantsInfo;
 use MediaWiki\RenameUser\Hook\RenameUserCompleteHook;
-use MediaWiki\User\User;
 
 class Hooks implements
 	LocalUserCreatedHook,
@@ -42,8 +41,7 @@ class Hooks implements
 	 * On new account creation, record the username's thing-bob.
 	 * Replaces AddNewAccountHook for more modern MediaWiki versions-
 	 *
-	 * @param User $user
-	 * @param bool $autocreated
+	 * @inheritDoc
 	 */
 	public function onLocalUserCreated( $user, $autocreated ) {
 		if ( !$user->isTemp() ) {
@@ -56,9 +54,7 @@ class Hooks implements
 	 * On rename, remove the old entry and add the new
 	 * (After a successful user rename)
 	 *
-	 * @param int $uid
-	 * @param string $old
-	 * @param string $new
+	 * @inheritDoc
 	 */
 	public function onRenameUserComplete( int $uid, string $old, string $new ): void {
 		$spoof = new SpoofUser( $new );
