@@ -30,9 +30,6 @@ class SpoofUser {
 
 	private ?Status $error;
 
-	/**
-	 * @param string $name
-	 */
 	public function __construct(
 		private readonly string $name
 	) {
