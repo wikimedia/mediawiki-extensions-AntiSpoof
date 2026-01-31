@@ -1,6 +1,5 @@
 <?php
 
-use MediaWiki\Auth\AbstractPreAuthenticationProvider;
 use MediaWiki\Auth\AuthManager;
 use MediaWiki\Extension\AntiSpoof\AntiSpoofAuthenticationRequest;
 use MediaWiki\Extension\AntiSpoof\AntiSpoofPreAuthenticationProvider;
@@ -59,7 +58,6 @@ class AntiSpoofPreAuthenticationProviderTest extends MediaWikiIntegrationTestCas
 		$spoofUser = $this->getMockBuilder( SpoofUser::class )
 			->disableOriginalConstructor()->getMock();
 		$provider->method( 'getSpoofUser' )->willReturn( $spoofUser );
-		/** @var $provider AbstractPreAuthenticationProvider */
 		$this->initProvider( $provider, null, null, $this->getServiceContainer()->getAuthManager() );
 
 		$spoofUser->method( 'isLegal' )->willReturn( $isLegal );

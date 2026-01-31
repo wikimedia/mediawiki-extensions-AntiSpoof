@@ -344,6 +344,7 @@ class AntiSpoof {
 
 	/**
 	 * TODO: does too much in one routine, refactor...
+	 * @return Status<string>
 	 * @since 1.32
 	 */
 	public static function checkUnicodeStringStatus( string $testName ): Status {

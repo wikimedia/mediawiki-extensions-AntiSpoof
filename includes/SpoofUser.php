@@ -77,7 +77,7 @@ class SpoofUser {
 	/**
 	 * Does the username pass Unicode legality and script-mixing checks?
 	 *
-	 * @return array empty if no conflict, or array containing conflicting usernames
+	 * @return string[] empty if no conflict, or array containing conflicting usernames
 	 */
 	public function getConflicts(): array {
 		if ( !$this->isLegal() ) {
@@ -118,7 +118,7 @@ class SpoofUser {
 	/**
 	 * Insert a batch of spoof normalization records into the database.
 	 * @param IDatabase $dbw
-	 * @param SpoofUser[] $items
+	 * @param self[] $items
 	 * @return bool
 	 */
 	public static function batchRecord( IDatabase $dbw, array $items ): bool {
