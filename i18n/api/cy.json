@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ceirios"
+		]
+	},
+	"apihelp-antispoof-summary": "Gwiriwch enw defnyddiwr yn erbyn gwiriadau normaleiddio AntiSpoof.",
+	"apihelp-antispoof-param-username": "Yr enw defnyddiwr i'w wirio yn erbyn AntiSpoof.",
+	"apihelp-antispoof-example-1": "Gwirio'r enw defnyddiwr \"Foo\" yn erbyn AntiSpoof",
+	"apihelp-createaccount-param-ignoreantispoof": "Anwybyddu gwiriadau ffugio (mae angen yr hawl <code>override-antispoof</code>)."
+}
