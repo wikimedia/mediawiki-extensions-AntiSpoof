@@ -15,7 +15,8 @@
 			"Waihorace",
 			"Winston Sung",
 			"Wrightbus",
-			"Xiplus"
+			"Xiplus",
+			"Leo768"
 		]
 	},
 	"antispoof-desc": "禁止使用混合 Script、容易混淆或與既有使用者名稱過於相似的使用者名稱建立帳號",
@@ -28,7 +29,7 @@
 	"antispoof-combining": "使用者名稱不能包含組合的字元「$1」",
 	"antispoof-unassigned": "使用者名稱不能包未知的字元「$1」",
 	"antispoof-deprecated": "使用者名稱不能包含被棄用的字元「$1」",
-	"antispoof-noletters": "使用者名稱必須包含一個或以上的字元",
+	"antispoof-noletters": "使用者名稱必須包含一個以上的字",
 	"antispoof-mixedscripts": "使用者名稱不能包含不同書寫體系的字元",
 	"antispoof-tooshort": "您提供的使用者名稱太短",
 	"antispoof-ignore": "忽略欺騙檢查",
