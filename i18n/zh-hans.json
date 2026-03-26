@@ -16,7 +16,8 @@
 			"Xiaomingyan",
 			"Yfdyh000",
 			"佛壁灯",
-			"范"
+			"范",
+			"Leo768"
 		]
 	},
 	"antispoof-desc": "禁止使用混合文字、容易混淆或与已存在用户名过于相似的用户名创建账号",
@@ -30,7 +31,7 @@
 	"antispoof-combining": "用户名不能包含组合字符“$1”",
 	"antispoof-unassigned": "用户名不能包含字符“$1”，因为它是未知字符",
 	"antispoof-deprecated": "用户名不能包含字符“$1”，因为它已弃用",
-	"antispoof-noletters": "用户名必须包含一个及以上字符",
+	"antispoof-noletters": "用户名必须包含一个以上的字",
 	"antispoof-mixedscripts": "用户名不能包含来自不同书写系统的字符",
 	"antispoof-tooshort": "您提供的用户名太短",
 	"antispoof-ignore": "忽略欺诈检查",
