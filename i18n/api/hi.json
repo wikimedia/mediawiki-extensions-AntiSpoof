@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Innocentbunny",
+			"Saurmandal",
 			"Sfic"
 		]
 	},
-	"apihelp-antispoof-summary": "ऍण्टीस्पूफ़ के मानकीकरण जाँच अनुसार सदस्य-नाम की जाँच करें।",
-	"apihelp-antispoof-param-username": "जाँच हेतु सदस्य नाम जिससे धोखा न हो",
-	"apihelp-antispoof-example-1": "धोखा के विरुद्ध \"फू\" सदस्य की जांच",
-	"apihelp-createaccount-param-ignoreantispoof": "धोखे की जाँच को अनदेखा करें (<code>override-antispoof</code> अधिकार अनिवार्य)"
+	"apihelp-antispoof-summary": "AntiSpoof की मानकीकरण जाँच के अनुसार किसी सदस्यनाम की जाँच करें।",
+	"apihelp-antispoof-param-username": "AntiSpoof के अनुसार जाँचने के लिए सदस्यनाम।",
+	"apihelp-antispoof-example-1": "AntiSpoof के अनुसार \"Foo\" सदस्यनाम जाँचें",
+	"apihelp-createaccount-param-ignoreantispoof": "स्पूफ़िंग जाँचों को अनदेखा करें (<code>override-antispoof</code> अधिकार की आवश्यकता होती है)।"
 }
