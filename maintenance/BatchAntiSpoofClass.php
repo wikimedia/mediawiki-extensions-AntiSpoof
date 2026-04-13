@@ -18,6 +18,7 @@
 
 use MediaWiki\Extension\AntiSpoof\SpoofUser;
 use MediaWiki\Maintenance\Maintenance;
+use MediaWiki\Utils\BatchRowIterator;
 
 $IP = getenv( 'MW_INSTALL_PATH' );
 if ( $IP === false ) {
