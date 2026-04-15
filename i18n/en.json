@@ -22,7 +22,7 @@
 	"antispoof-combining": "Usernames cannot contain the combining character \"$1\"",
 	"antispoof-unassigned": "Usernames cannot contain the character \"$1\" because it is an unknown character",
 	"antispoof-deprecated": "Usernames cannot contain the character \"$1\" because it is deprecated",
-	"antispoof-noletters": "Usernames must contain one or more characters",
+	"antispoof-noletters": "Usernames cannot consist only of digits or punctuation",
 	"antispoof-mixedscripts": "Usernames cannot contain characters from different writing systems",
 	"antispoof-tooshort": "Your provided username is too short",
 	"antispoof-ignore": "Ignore spoofing checks",
