@@ -10,7 +10,8 @@
 			"ToePeu",
 			"Ykhwong",
 			"아라",
-			"Minejango2"
+			"Minejango2",
+			"Tensama0415"
 		]
 	},
 	"antispoof-desc": "여러 문자 체계를 섞은 이름이나, 혼동될 수 있고 비슷한 이름의 계정 만들기를 차단합니다",
@@ -22,7 +23,7 @@
 	"antispoof-prohibited": "사용자 이름에는 금지된 \"$1\" 문자를 포함할 수 없습니다",
 	"antispoof-combining": "사용자 이름에는 \"$1\" 결합 문자를 포함할 수 없습니다",
 	"antispoof-unassigned": "사용자 이름에는 '$1' 문자를 포함할 수 없습니다. 이 문자는 알려지지 않은 문자이기 때문입니다.",
-	"antispoof-deprecated": "사용자 이름에는 '$1' 문자를 포함할 수 없습니다. 이 문자는 사용이 중단되었습니다.",
+	"antispoof-deprecated": "사용자 이름에는 '$1' 문자를 포함할 수 없습니다. 이 문자는 구식입니다.",
 	"antispoof-noletters": "사용자 이름에는 하나 이상의 문자가 포함되어야 합니다.",
 	"antispoof-mixedscripts": "사용자 이름에는 서로 다른 문자 체계의 문자가 포함될 수 없습니다.",
 	"antispoof-tooshort": "지정된 사용자 이름이 너무 짧습니다",
