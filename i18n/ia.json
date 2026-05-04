@@ -14,7 +14,7 @@
 	"antispoof-combining": "Nomines de usator non pote continer le marca combinatori “$1”.",
 	"antispoof-unassigned": "Nomines de usator non pote continer le character “$1” perque illo es un character incognite.",
 	"antispoof-deprecated": "Nomines de usator non pote continer le character “$1” perque illo es obsolete.",
-	"antispoof-noletters": "Nomines de usator debe continer un o plus characteres",
+	"antispoof-noletters": "Nomines de usator pote consister solmente de cifras e de punctuation",
 	"antispoof-mixedscripts": "Nomines de usator non pote continer characteres de scripturas differente",
 	"antispoof-tooshort": "Le nomine de usator fornite es troppo curte",
 	"antispoof-ignore": "Ignorar le verificationes contra falsification",

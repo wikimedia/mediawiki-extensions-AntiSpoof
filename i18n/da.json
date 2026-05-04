@@ -23,7 +23,7 @@
 	"antispoof-combining": "Brugernavne må ikke indeholde det kombinerende tegn \"$1\"",
 	"antispoof-unassigned": "Brugernavne kan ikke indeholde tegnet \"$1\", fordi det er et ukendt tegn",
 	"antispoof-deprecated": "Brugernavne kan ikke indeholde tegnet \"$1\", fordi det er forældet",
-	"antispoof-noletters": "Brugernavne skal indeholde et eller flere tegn",
+	"antispoof-noletters": "Brugernavne må ikke kun bestå af cifre eller tegnsætning",
 	"antispoof-mixedscripts": "Brugernavn kan ikke indeholde tegn fra forskellige skriftsystemer",
 	"antispoof-tooshort": "Dit angivne brugernavn er for kort",
 	"antispoof-ignore": "Ignorér misbrugskontrol",
