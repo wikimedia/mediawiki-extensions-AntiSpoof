@@ -20,7 +20,7 @@
 	"antispoof-combining": "I nomi utente non possono contenere la combinazione di caratteri \"$1\"",
 	"antispoof-unassigned": "I nomi utente non possono contenere il carattere \"$1\" perché è sconosciuto",
 	"antispoof-deprecated": "I nomi utente non possono contenere il carattere \"$1\" perché è deprecato",
-	"antispoof-noletters": "I nomi utente devono contenere uno o più caratteri",
+	"antispoof-noletters": "I nomi utente non possono essere composti solo da cifre o punteggiatura",
 	"antispoof-mixedscripts": "I nomi utente non possono contenere caratteri da sistemi di scrittura diversi",
 	"antispoof-tooshort": "Il nome utente fornito è troppo corto",
 	"antispoof-ignore": "Ignora i controlli per spoofing",
