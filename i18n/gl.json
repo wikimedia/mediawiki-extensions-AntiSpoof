@@ -17,7 +17,7 @@
 	"antispoof-combining": "Os nomes de usuario non poden conter o carácter combinatorio \"$1\"",
 	"antispoof-unassigned": "Os nomes de usuario non poden conter o carácter \"$1\", porque é un carácter descoñecido",
 	"antispoof-deprecated": "Os nomes de usuario non poden conter o carácter \"$1\", porque está obsoleto",
-	"antispoof-noletters": "Os nomes de usuario deben conter un ou máis caracteres",
+	"antispoof-noletters": "Os nomes de usuario non poden conter só díxitos ou signos de puntuación",
 	"antispoof-mixedscripts": "Os nomes de usuario non poden conter caracteres de distintos sistemas de escritura",
 	"antispoof-tooshort": "Indicaches un nome de usuario curto de máis",
 	"antispoof-ignore": "Ignorar as comprobacións de enganos",
