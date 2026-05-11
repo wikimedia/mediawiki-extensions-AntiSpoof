@@ -12,7 +12,8 @@
 			"Samoasambia",
 			"Silvonen",
 			"Str4nd",
-			"Taavi"
+			"Taavi",
+			"Wikipeedikko"
 		]
 	},
 	"antispoof-desc": "Estää käyttäjätunnusten luonnin, jos ne sisältävät eri kirjoitusjärjestelmiä, harhaanjohtavia tai samankaltaisia käyttäjänimiä.",
@@ -25,7 +26,7 @@
 	"antispoof-combining": "Käyttäjänimissä ei voi olla yhdistyvää merkkiä ”$1”",
 	"antispoof-unassigned": "Käyttäjänimissä ei voi ola merkkiä ”$1”, koska se on tuntematon merkki",
 	"antispoof-deprecated": "Käyttäjänimissä ei voi olla merkkiä ”$1”, koska se on vanhentunut",
-	"antispoof-noletters": "Käyttäjänimissä tulee olla yksi tai useampi merkki",
+	"antispoof-noletters": "Käyttäjänimissä ei saa olla pelkkiä numeroita tai välimerkkejä",
 	"antispoof-mixedscripts": "Käyttäjätunnukset eivät saa sisältää merkkejä eri kirjoitusjärjestelmistä",
 	"antispoof-tooshort": "Antamasi käyttäjänimi on liian lyhyt",
 	"antispoof-ignore": "Älä käytä hämäävien tunnusten tarkistusta",
