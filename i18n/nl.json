@@ -16,7 +16,7 @@
 	"antispoof-conflict-top": "De gebruikersnaam \"$1\" lijkt te veel op de volgende bestaande {{PLURAL:$2|gebruikersnaam|$2 gebruikersnamen}}:",
 	"antispoof-conflict-bottom": "Kies een andere naam.",
 	"antispoof-name-illegal": "Om verwarring te voorkomen is de gebruikersnaam \"$1\" niet toegestaan: $2.\nKies een andere naam.",
-	"antispoof-badtype": "De opgegeven gebruikersnaam is van een ongeldig type",
+	"antispoof-badtype": "De opgegeven gebruikersnaam is van een onjuist type",
 	"antispoof-empty": "Er is geen gebruikersnaam opgegeven",
 	"antispoof-prohibited": "Gebruikersnamen kunnen niet het teken \"$1\" bevatten omdat dit verboden is",
 	"antispoof-combining": "Gebruikersnamen mogen niet het combinerende teken \"$1\" bevatten",
