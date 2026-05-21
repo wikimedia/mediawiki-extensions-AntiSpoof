@@ -1,4 +1,5 @@
 <?php
+declare( strict_types=1 );
 
 use MediaWiki\Auth\AuthManager;
 use MediaWiki\Extension\AntiSpoof\AntiSpoofAuthenticationRequest;

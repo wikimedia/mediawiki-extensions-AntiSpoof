@@ -1,4 +1,5 @@
 <?php
+declare( strict_types=1 );
 
 use MediaWiki\Extension\AntiSpoof\AntiSpoofAuthenticationRequest;
 use MediaWiki\Tests\Auth\AuthenticationRequestTestCase;
