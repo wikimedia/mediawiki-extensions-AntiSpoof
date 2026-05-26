@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"apihelp-antispoof-summary": "Ku tijaabi magaca isticmaalaha baarista habaynta ee ka hortagga is daba marinta.",
+	"apihelp-antispoof-param-username": "Magaca isticmaalaha ee lagu tijaabinayo ka hortagga is daba marinta.",
+	"apihelp-antispoof-example-1": "Ku tijaabi magaca isticmaalaha \"Foo\" ka hortagga is daba-marinta",
+	"apihelp-createaccount-param-ignoreantispoof": "Iska indho tir baarista ka hortagga is daba marinta (waxay u baahan tahay xuquuqda <code>gacan sare ku gudbista ka hortagga is daba marinta</code>)."
+}

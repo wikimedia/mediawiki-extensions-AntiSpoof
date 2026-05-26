@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"antispoof-desc": "Wuxuu xannibayaa samaynta koontooyinka wata magacyada isticmaalaha ee faraha isku dhex qasan, wareerka keena, ama isu eg",
+	"antispoof-conflict-top": "Magaca isticmaalaha \"$1\" wuxuu aad ugu dhow yahay {{PLURAL:$2|magaca isticmaalaha|magacyada isticmaalaha}} ee soo socda:",
+	"antispoof-conflict-bottom": "Fadlan dooro magac isticmaale kale.",
+	"antispoof-name-illegal": "Si looga fogaado jahwareer, magaca isticmaalaha \"$1\" lama isticmaali karo: $2.\nFadlan dooro magac isticmaale oo kale.",
+	"antispoof-badtype": "Nooca magaca isticmaalaha ee la bixiyey sax ma aha",
+	"antispoof-empty": "Lama bixin wax magac isticmaale ah",
+	"antispoof-prohibited": "Magacyada isticmaalaha ma ku jiri karaan xarafka \"$1\" sababtoo ah waa mamnuuc",
+	"antispoof-combining": "Magacyada isticmaalaha ma ku jiri karaan xarafka la isku daro ee \"$1\"",
+	"antispoof-unassigned": "Magacyada isticmaalaha ma ku jiri karaan xarafka \"$1\" sababtoo ah waa xaraf aan la aqoon",
+	"antispoof-deprecated": "Magacyada isticmaalaha ma ku jiri karaan xarafka \"$1\" sababtoo ah waa mid duugoobay oo la reebay",
+	"antispoof-mixedscripts": "Magacyada isticmaalaha ma ku jiri karaan xarfo ka yimid nidaamyo qoraal oo kala duwan",
+	"antispoof-tooshort": "Magaca isticmaalaha aad bixisay aad buu u gaaban yahay",
+	"antispoof-ignore": "Iska indho tir baarista is daba marinta",
+	"antispoof-ignore-help": "Wuxuu u oggolaanayaa isticmaalayaasha leh awoodaha ku filan inay samayn karaan koonto, xataa haddii magaceedu uu u eg yahay magaca koonto horay u jirtay.",
+	"action-override-antispoof": "Dhaaf baarista is daba marinta",
+	"right-override-antispoof": "Dhaaf baarista is daba marinta"
+}
