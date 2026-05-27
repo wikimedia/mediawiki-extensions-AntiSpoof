@@ -6,7 +6,7 @@ declare( strict_types=1 );
  * Version 0.04
  *
  * Copyright (C) Neil Harris 2006
- * Python->PHP conversion by Brion Vibber <brion@pobox.com>
+ * Python->PHP conversion by Brooke Vibber <bvibber@pobox.com>
  *
  * 2006-06-30 Handles non-CJK scripts as per UTR #39 + my extensions
  * 2006-07-01 Now handles Simplified <-> Traditional Chinese rules, as
