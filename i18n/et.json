@@ -14,7 +14,7 @@
 	"antispoof-combining": "Kasutajanimi ei tohi sisaldada kombineeruvat märki \"$1\".",
 	"antispoof-unassigned": "Kasutajanimi ei tohi sisaldada tundmatut märki \"$1\".",
 	"antispoof-deprecated": "Kasutajanimi ei tohi sisaldada ebasoovitavaks määratud märki \"$1\".",
-	"antispoof-noletters": "Kasutajanimi peab koosnema vähemalt ühest märgist",
+	"antispoof-noletters": "Kasutajanimi ei saa koosneda ainult numbritest ega kirjavahemärkidest",
 	"antispoof-mixedscripts": "Kasutajanimi ei tohi sisaldada eri kirjasüsteemide märke",
 	"antispoof-tooshort": "Määratud kasutajanimi on liiga lühike",
 	"antispoof-ignore": "Eira sarnasuskontrolle",

@@ -3,6 +3,7 @@
 		"authors": [
 			"Chameleon222",
 			"Dittaeva",
+			"EdoAug",
 			"Event",
 			"Jon Harald Søby"
 		]
@@ -17,7 +18,7 @@
 	"antispoof-combining": "Brukernavn kan ikke inneholde kombinasjonstegnet «$1»",
 	"antispoof-unassigned": "Brukernavn kan ikke inneholde tegnet «$1» fordi det er et ukjent tegn",
 	"antispoof-deprecated": "Brukernavn kan ikke inneholde tegnet «$1» fordi det er foreldet",
-	"antispoof-noletters": "Brukernavn må inneholde ett eller flere tegn",
+	"antispoof-noletters": "Brukernavn kan ikke bestå av kun tall eller tegnsetting",
 	"antispoof-mixedscripts": "Brukernavn kan ikke inneholde tegn fra forskjellige skriftsystemer",
 	"antispoof-tooshort": "Det angitte brukernavnet er for kort",
 	"antispoof-ignore": "Ignorer misbrukssjekk",
