@@ -14,7 +14,7 @@
 	"antispoof-combining": "Ang mga ngalan sang user indi mahimo nga maglakip sang nagatingob nga karakter nga \" $1 \"",
 	"antispoof-unassigned": "Ang mga ngalan sang user indi makaunod sang karakter nga \" $1 \" bangod isa ini ka wala mahibaluan nga karakter",
 	"antispoof-deprecated": "Ang mga ngalan sang user indi makaunod sang karakter nga \" $1 \" bangod wala na ini ginagamit",
-	"antispoof-noletters": "Ang mga ngalan sang user dapat may isa ukon kapin pa nga mga karakter",
+	"antispoof-noletters": "Ang mga ngalan sang user indi mahimo nga may mga numero lamang ukon mga puntwasyon",
 	"antispoof-mixedscripts": "Ang mga ngalan sang user indi mahimo nga may mga karakter gikan sa lainlain nga mga sistema sang pagsulat",
 	"antispoof-tooshort": "Ang imo ginhatag nga username malip-ot gid",
 	"antispoof-ignore": "Ibalewala ang mga tseke sa pag-spoof",
