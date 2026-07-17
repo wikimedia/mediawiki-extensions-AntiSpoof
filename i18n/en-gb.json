@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alhadis"
+		]
+	},
+	"antispoof-desc": "Blocks the creation of accounts with mixed-script, confusing, and similar usernames",
+	"antispoof-conflict-top": "The username \"$1\" is too similar to the following {{PLURAL:$2|username|usernames}}:",
+	"antispoof-conflict-bottom": "Please choose another username.",
+	"antispoof-name-illegal": "To prevent confusion, the username \"$1\" cannot be used: $2.\nPlease choose another username.",
+	"antispoof-badtype": "The provided username is an invalid type",
+	"antispoof-empty": "No username was provided",
+	"antispoof-prohibited": "Usernames cannot contain the character \"$1\" because it is prohibited",
+	"antispoof-combining": "Usernames cannot contain the combining character \"$1\"",
+	"antispoof-unassigned": "Usernames cannot contain the character \"$1\" because it is an unknown character",
+	"antispoof-deprecated": "Usernames cannot contain the character \"$1\" because it is deprecated",
+	"antispoof-mixedscripts": "Usernames cannot contain characters from different writing systems",
+	"antispoof-tooshort": "Your provided username is too short",
+	"antispoof-ignore": "Ignore spoofing checks",
+	"antispoof-ignore-help": "Allows users with sufficient privileges to create an account even if its name is similar to that of an existing account.",
+	"action-override-antispoof": "override the spoofing checks",
+	"right-override-antispoof": "Override the spoofing checks"
+}
