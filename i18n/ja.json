@@ -15,6 +15,7 @@
 			"Otokoume",
 			"Shirayuki",
 			"Takot",
+			"VZP10224",
 			"Waki285",
 			"Yusuke1109",
 			"春春眠眠"
@@ -31,7 +32,7 @@
 	"antispoof-combining": "利用者名に結合記号「$1」を含めることはできません",
 	"antispoof-unassigned": "不明文字「$1」は使えません。",
 	"antispoof-deprecated": "推奨されない文字「$1」を含んでいます",
-	"antispoof-noletters": "利用者名は一つ以上の文字を含む必要があります",
+	"antispoof-noletters": "利用者名は数字と記号のみとすることはできません",
 	"antispoof-mixedscripts": "同時に使用できない複数の文字体系が混在しています",
 	"antispoof-tooshort": "あなたの入力した利用者名は短すぎます",
 	"antispoof-ignore": "なりすましチェックを無効にする",
