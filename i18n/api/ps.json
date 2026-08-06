@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"apihelp-antispoof-summary": "د تېروېستنې ضد نورماله سم‌کتنې لپاره د کارن‌نوم سم‌کتنه",
+	"apihelp-antispoof-param-username": "هغه کارن‌نوم چې د تېروېستنې‌ضد په وړاندې يې بايد سم‌کتنه وشي.",
+	"apihelp-antispoof-example-1": "د تېروېستني‌ضد په وړاندې د کارن‌نوم \"Foo\" سم‌کتنه",
+	"apihelp-createaccount-param-ignoreantispoof": "د ورانکارۍ سم‌کتنې له پامه غورځول ( د <code>تېروېستنې‌ضد-دپاسه‌ليکلو</code> رښتې ته اړتيا لري)."
+}
