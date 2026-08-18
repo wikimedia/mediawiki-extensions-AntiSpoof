@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bachounda"
+		]
+	},
+	"apihelp-antispoof-summary": "يتحقق من اسم المستخدم مقابل تدقيق التطبيع تاع AntiSpoof.",
+	"apihelp-antispoof-param-username": "اسم المستخدم اللي يتتحقق بيه ضدّ AntiSpoof.",
+	"apihelp-antispoof-example-1": "يتحقق من اسم المستخدم \"Foo\" ضدّ AntiSpoof.",
+	"apihelp-createaccount-param-ignoreantispoof": "يتجاوز تدقيق التزوير (يحتاج للصلاحية <code>override-antispoof</code>)."
+}
