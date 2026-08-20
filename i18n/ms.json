@@ -5,6 +5,7 @@
 			"Aurora",
 			"Aviator",
 			"CyberTroopers",
+			"Hakimi97",
 			"StarrySky",
 			"Tofeiku"
 		]
@@ -19,7 +20,7 @@
 	"antispoof-combining": "Nama pengguna tidak boleh mengandungi aksara gabungan \"$1\"",
 	"antispoof-unassigned": "Nama pengguna tidak boleh mengandungi aksara \"$1\" kerana ia aksara yang tidak diketahui",
 	"antispoof-deprecated": "Nama pengguna tidak boleh mengandungi aksara \"$1\" kerana ia isih",
-	"antispoof-noletters": "Nama pengguna mesti mengandungi satu atau lebih aksara",
+	"antispoof-noletters": "Nama pengguna tidak boleh hanya terdiri daripada angka atau tanda baca",
 	"antispoof-mixedscripts": "Nama pengguna tidak boleh mengandungi aksara daripada sistem tulisan yang berbeza",
 	"antispoof-tooshort": "Nama pengguna yang anda berikan terlalu pendek",
 	"antispoof-ignore": "Abaikan pemeriksaan penipuan",
