@@ -42,7 +42,7 @@ class BatchAntiSpoof extends Maintenance {
 	}
 
 	protected function batchRecord( array $items ): void {
-		SpoofUser::batchRecord( $this->getPrimaryDB(), $items );
+		SpoofUser::batchRecord( $this->getDB( DB_PRIMARY ), $items );
 	}
 
 	protected function getTableName(): string {
@@ -71,7 +71,7 @@ class BatchAntiSpoof extends Maintenance {
 		$this->output( "Creating username spoofs...\n" );
 
 		$userCol = $this->getUserColumn();
-		$iterator = new BatchRowIterator( $this->getPrimaryDB(),
+		$iterator = new BatchRowIterator( $this->getDB( DB_PRIMARY ),
 			$this->getTableName(),
 			$this->getPrimaryKey(),
 			$this->getBatchSize()
