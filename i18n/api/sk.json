@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"apihelp-antispoof-summary": "Skontrolovať používateľské meno normalizačnými kontrolami rozšírenia AntiSpoof.",
+	"apihelp-antispoof-param-username": "Používateľské meno, ktoré sa má skontrolovať rozšírením AntiSpoof.",
+	"apihelp-antispoof-example-1": "Skontrolovať používateľské meno „Foo“ rozšírením AntiSpoof",
+	"apihelp-createaccount-param-ignoreantispoof": "Ignorovať kontroly zámeny znakov (vyžaduje oprávnenie <code>override-antispoof</code>)."
+}
