@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Hide on Rosé",
-			"Minh Nguyen"
+			"Minh Nguyen",
+			"Veritas Sapientiae"
 		]
 	},
 	"apihelp-antispoof-summary": "Kiểm tra xem tên người dùng qua quá trình kiểm tra tiêu chuẩn của AntiSpoof.",
