@@ -354,13 +354,18 @@ class AntiSpoof {
 		if ( !is_array( $wgAntiSpoofProhibitedCharacters ) ) {
 			throw new ConfigException( '$wgAntiSpoofProhibitedCharacters should be an array!' );
 		}
+		// We need the codepoints of the prohibited characters to compare them below
+		$prohibitedCharacters = array_map(
+			static fn ( $char ) => Utils::utf8ToCodepoint( $char ),
+			$wgAntiSpoofProhibitedCharacters
+		);
 
 		if ( $testName === '' ) {
 			return Status::newFatal( 'antispoof-empty' );
 		}
 
 		foreach ( self::stringToList( $testName ) as $char ) {
-			if ( in_array( $char, $wgAntiSpoofProhibitedCharacters ) ) {
+			if ( in_array( $char, $prohibitedCharacters ) ) {
 				return self::badCharErr( 'antispoof-prohibited', $char );
 			}
 		}
@@ -371,7 +376,7 @@ class AntiSpoof {
 
 		// Be paranoid: check again, just in case Unicode normalization code changes...
 		foreach ( $testChars as $char ) {
-			if ( in_array( $char, $wgAntiSpoofProhibitedCharacters ) ) {
+			if ( in_array( $char, $prohibitedCharacters ) ) {
 				return self::badCharErr( 'antispoof-prohibited', $char );
 			}
 		}
