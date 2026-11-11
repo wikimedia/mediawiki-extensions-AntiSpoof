@@ -4,7 +4,8 @@
 			"Fohanno",
 			"Fulup",
 			"Huñvreüs",
-			"Y-M D"
+			"Y-M D",
+			"Ar choler"
 		]
 	},
 	"antispoof-desc": "Stankañ a ra, dre ur skript kemmesk, krouidigezh kontoù dezho anvioù implijer heñvel pe a c'hall sevel amjestregezh diwarno",
@@ -21,5 +22,7 @@
 	"antispoof-mixedscripts": "Ne c’hell ket an anvioù implijer bezañ lizherennoù eus meur a skript digenglotus enno",
 	"antispoof-tooshort": "Re verr eo an anv implijer skoueriekaet ganeoc’h",
 	"antispoof-ignore": "Chom hep gwiriañ hag-eñ n'eus ket un implijer all gantañ un anv damheñvel",
+	"antispoof-ignore-help": "Aotren a ra an implijerien trawalc'h a wirioù-dreist dezho da grouiñ ur gont zoken ma 'z eo damheñvel hec'h anv ouzh hini ur gont a zo anezhi.",
+	"action-override-antispoof": "dianavezout diskoachañ an identelezhioù faos",
 	"right-override-antispoof": "Chom hep gwiriañ ha touellerezh zo"
 }
